@@ -1,0 +1,13 @@
+name = "Create Ponder [Frozen]"
+filename = "create-ponder-1.20.1-0.0.2a-all.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/TUJE7X6P/versions/UzVowUee/create-ponder-1.20.1-0.0.2a-all.jar"
+hash-format = "sha512"
+hash = "67688410aed84b0116f08673798ab830c4e5a56e99935f7e5833edeec887389d2dbc1620fdb1005d1c6a2b71804c0403f1f515ed75c25d63f37fe0cbf14568b2"
+
+[update]
+[update.modrinth]
+mod-id = "TUJE7X6P"
+version = "UzVowUee"

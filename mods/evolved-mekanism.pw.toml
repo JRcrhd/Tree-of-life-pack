@@ -1,0 +1,13 @@
+name = "Evolved Mekanism"
+filename = "Evolved Mekanism-1.20.1-1.1-beta-fix1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "b4a8343d477c6b461fb251fa514b3e30fa58435a"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6456494
+project-id = 1230085

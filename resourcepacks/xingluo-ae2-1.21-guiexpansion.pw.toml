@@ -1,0 +1,13 @@
+name = "XingLuo AE2 1.21 GUIExpansion"
+filename = "XingLuo_AE2_1.21_GUIExpansion 2.1.3.zip"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/JD76nSBi/versions/6wZG4h8M/XingLuo_AE2_1.21_GUIExpansion%202.1.3.zip"
+hash-format = "sha512"
+hash = "db8ebb1f2f9ccb7ba902cf4fd8aec5209bc22708f35a4120e57b66b2937c1f46b6c5358861c7362cd14ba54dc74c2bf543590553f23741eaad78c6e385d88035"
+
+[update]
+[update.modrinth]
+mod-id = "JD76nSBi"
+version = "6wZG4h8M"

@@ -1,0 +1,13 @@
+name = "Global mob health multiplier"
+filename = "globalhealthmod-1.0.jar"
+side = "server"
+
+[download]
+url = "https://cdn.modrinth.com/data/toIhKPSa/versions/edU6ePz9/globalhealthmod-1.0.jar"
+hash-format = "sha512"
+hash = "cd10d7838b081b2026a19dc2565aac03f20de99c8076eef2a825db66a458d3f940057d36611e72952f88145c4a54d2a024606e1fb60b366f9bdbaa18689d0cd8"
+
+[update]
+[update.modrinth]
+mod-id = "toIhKPSa"
+version = "edU6ePz9"

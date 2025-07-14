@@ -1,0 +1,13 @@
+name = "Create Stock Bridge"
+filename = "createstockbridge-1.20-0.1.4.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/V7mbOBO4/versions/Y3jm1XM2/createstockbridge-1.20-0.1.4.jar"
+hash-format = "sha512"
+hash = "1f4f9d057ef9b8462a3bdcc7ee8a24724fcc3995f5396db350ae513dcd234b2c6d244ca7864430cb52bdc770931c821b1f076adb925c8ac4c5f773cc3352c11a"
+
+[update]
+[update.modrinth]
+mod-id = "V7mbOBO4"
+version = "Y3jm1XM2"

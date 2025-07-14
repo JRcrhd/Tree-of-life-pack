@@ -1,0 +1,13 @@
+name = "Item Stages"
+filename = "ItemStages-Forge-1.20.1-8.0.3.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/1WAfmxKu/versions/sQ1ri9ut/ItemStages-Forge-1.20.1-8.0.3.jar"
+hash-format = "sha512"
+hash = "ff70c2688c59c8f553df7a79d485b3943b847c6ccef4c0732a9a52301db75be1e6208737b7851d86d8867fcb086c6c67c2cd621009f09e771c39cdd42e146c90"
+
+[update]
+[update.modrinth]
+mod-id = "1WAfmxKu"
+version = "sQ1ri9ut"

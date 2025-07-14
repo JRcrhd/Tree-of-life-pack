@@ -1,0 +1,13 @@
+name = "Excalibur | Farmer's Delight Support"
+filename = "FarmersDelightExcaliburSupport.zip"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/nvZcjWQN/versions/FBskuGur/FarmersDelightExcaliburSupport.zip"
+hash-format = "sha512"
+hash = "103ea2b3876653f7fd6915c7cc5ea74d83887b52a7c904b361051c338f61da030cdbaaec345fb059ad117deadbc0c268fa8cf13740cfe382bf5f5df240e576de"
+
+[update]
+[update.modrinth]
+mod-id = "nvZcjWQN"
+version = "FBskuGur"

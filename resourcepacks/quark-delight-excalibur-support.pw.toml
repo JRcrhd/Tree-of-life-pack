@@ -1,0 +1,13 @@
+name = "Quark Delight Excalibur Support"
+filename = "§eQuark Delight_Excalibur§0_§8§0.zip"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/8VB25q6g/versions/NnYliWAj/%C2%A7eQuark%20Delight_Excalibur%C2%A70_%C2%A78%C2%A70.zip"
+hash-format = "sha512"
+hash = "cb5866cb4b389e10090978a93f0167b63aad4d5dcedbf909273dad08785264154beb9909eb98c1fa19ea4fd7d3596bebd8ef7a6de1af634898d6b44b7c7ed282"
+
+[update]
+[update.modrinth]
+mod-id = "8VB25q6g"
+version = "NnYliWAj"

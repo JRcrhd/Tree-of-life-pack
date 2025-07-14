@@ -1,0 +1,13 @@
+name = "Modern AE2 Additions"
+filename = "mae2-2.0.0-alpha.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/5G4fpXXj/versions/IwdCPR36/mae2-2.0.0-alpha.jar"
+hash-format = "sha512"
+hash = "0b13e23d0b9d97120355c4890eaa86e46985bc1feca1e32b88f33b667abfd4f52a756d19ec6273b14b44065cd8de948fa202f81c35b45e767ac59bbc3d7d2d7a"
+
+[update]
+[update.modrinth]
+mod-id = "5G4fpXXj"
+version = "IwdCPR36"

@@ -1,0 +1,13 @@
+name = "Create:Dreams"
+filename = "create_dreams-1.2.0-forge-1.20.1.jar"
+side = "server"
+
+[download]
+url = "https://cdn.modrinth.com/data/fKfi0Tf0/versions/kJ0aylUJ/create_dreams-1.2.0-forge-1.20.1.jar"
+hash-format = "sha512"
+hash = "3148e09334383f78aa38af56ef07289cc42da17a1965d1f35f1786494c9881924a09de8d163ea6d2614842168be2730ec2b23a7bde129187d70c55e2974ae3a6"
+
+[update]
+[update.modrinth]
+mod-id = "fKfi0Tf0"
+version = "kJ0aylUJ"

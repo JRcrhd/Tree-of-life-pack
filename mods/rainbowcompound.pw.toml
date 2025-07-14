@@ -1,0 +1,13 @@
+name = "Create: Rainbow Compound"
+filename = "rainbowcompound-1.20.1-1.3.4c.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/DNwAgUpx/versions/3yEVqIxe/rainbowcompound-1.20.1-1.3.4c.jar"
+hash-format = "sha512"
+hash = "9f0435a472e5822ca331b927db575ba19f24498771367935f16c5c39a19a97e8087816ffbcb01e49261427381aec4a3578163dee8d1706983cbf4ec32d8a551f"
+
+[update]
+[update.modrinth]
+mod-id = "DNwAgUpx"
+version = "3yEVqIxe"

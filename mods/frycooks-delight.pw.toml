@@ -1,0 +1,13 @@
+name = "Frycook's Delight"
+filename = "frycooks_delight-1.20.1-1.0.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/Kbl6BTg5/versions/AF2YedDO/frycooks_delight-1.20.1-1.0.1.jar"
+hash-format = "sha512"
+hash = "265f326e8ee6701b5c22628c5a67abf738c6c20c41ef1e40ebf78dc38da6a20f3155077cc834a757c5f8587dfc7ea4524bd48a39fd5eb2916585cba6e3d27e4f"
+
+[update]
+[update.modrinth]
+mod-id = "Kbl6BTg5"
+version = "AF2YedDO"
