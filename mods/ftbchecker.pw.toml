@@ -1,0 +1,13 @@
+name = "FTBChecker"
+filename = "ftbchecker-1.2.0.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/ocEZ7tc1/versions/39SmPQTS/ftbchecker-1.2.0.jar"
+hash-format = "sha512"
+hash = "18be98ded28fb8d48a6b81674be26b3569956df2c0874bcf32c26058664945e7dfce52a673e07d4be59ef6f94bfef17ef281617ad4129b71c0193d939fc07c53"
+
+[update]
+[update.modrinth]
+mod-id = "ocEZ7tc1"
+version = "39SmPQTS"
