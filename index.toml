@@ -6,7 +6,11 @@ hash = "2ab3c83b6223dd3ff8edd7e97e780ace90b8117a2121932c1dab86d11e0cfa43"
 
 [[files]]
 file = "README.md"
-hash = "ef4ea52d31be784e45b0bf5548b64cbe944bdd731725e0080614f37ad9de784f"
+hash = "ca99c3c3a1f2b3919d31b4570d1335da13ab367e5c4c7a499c302e74b6a14bf0"
+
+[[files]]
+file = "config/ftbchecker.toml"
+hash = "1744a76a2afdd4124368df9d78aa491fc1bc6b14a11e97d3765f3a06d83d3441"
 
 [[files]]
 file = "mods/additional-attributes.pw.toml"
@@ -26,11 +30,6 @@ metafile = true
 [[files]]
 file = "mods/akashic-tome.pw.toml"
 hash = "9d1b15ffa15606c346ad2ed32c349fceac9863ae13b433c2aee7d026c87d4339"
-metafile = true
-
-[[files]]
-file = "mods/alexs-caves.pw.toml"
-hash = "0cbc4b2c6b58b7a94f030ae84f18057e5dc78a17bad429f40b8884926a6ab233"
 metafile = true
 
 [[files]]
@@ -114,11 +113,6 @@ hash = "8a8ea0af79b88d9c192d208aa5be4bacd934e2b92d4721566e2e796eb9761e10"
 metafile = true
 
 [[files]]
-file = "mods/cave-delight.pw.toml"
-hash = "894a277b7b905d2f067b402f07d00ae561956ee4463e320010e2fb15a8130d6f"
-metafile = true
-
-[[files]]
 file = "mods/cc-tweaked.pw.toml"
 hash = "33fbfba45630792a9223d4e20c9300bc9fef142c68781fc648c32b62313f3e16"
 metafile = true
@@ -181,11 +175,6 @@ metafile = true
 [[files]]
 file = "mods/create-metalwork.pw.toml"
 hash = "b01040c5cef91d40b7bc98429dd07d61d788d638024311a22671b8dd1f8faf6e"
-metafile = true
-
-[[files]]
-file = "mods/create-new-age.pw.toml"
-hash = "a6feb15f78ee7192942287790965b40412221ac822985fdb18f05605fc951d78"
 metafile = true
 
 [[files]]
@@ -274,18 +263,13 @@ hash = "c3d1438d25bdf4a3b993b832f220370635969c7d964df0b3e389e126d24e48f1"
 metafile = true
 
 [[files]]
-file = "mods/esoteric-reforging-forge.pw.toml"
-hash = "ce2bc8fbb6ebbc3571ed0ac531b473da80fb9feb8742e5ff5dd7d7271c0ed1d5"
-metafile = true
-
-[[files]]
-file = "mods/evolved-mekanism.pw.toml"
-hash = "c020f0de0243ccc60614eb58f1a951c428b97917e170ea8c322525bff2c85c5e"
-metafile = true
-
-[[files]]
 file = "mods/extra-gauges.pw.toml"
 hash = "adac7da04a68427dcaf0703f1ba2ce9deeb5813119fd5e2070f9fe1ca09c11ca"
+metafile = true
+
+[[files]]
+file = "mods/fancymenu.pw.toml"
+hash = "dbe258d2cb890a5c487fa7787d346edb33e3ea81415e550b503872103d704e24"
 metafile = true
 
 [[files]]
@@ -304,8 +288,43 @@ hash = "9945d033117361e5893b60e3f204e14bb7599ab0416f81f94d1f15c3a3f9b0dd"
 metafile = true
 
 [[files]]
+file = "mods/ftb-backups-2.pw.toml"
+hash = "b3693e7a5647d4e28fc30ad3e85193c668a98a410dc3f425f19561cfea68957f"
+metafile = true
+
+[[files]]
+file = "mods/ftb-chunks-forge.pw.toml"
+hash = "c727cdfb22c0a34cafbdb2e33da7504e6aa9e96a0d78e5d913bf5fa9006d44c7"
+metafile = true
+
+[[files]]
+file = "mods/ftb-essentials.pw.toml"
+hash = "8cf91dcad4590fed49069cdae47b211bdbee7da6e0c175ae802421ec6a961ae1"
+metafile = true
+
+[[files]]
+file = "mods/ftb-library-forge.pw.toml"
+hash = "eb351918762f5c8f05672257082d1ca144c3c9397c40d6785116d1af8b02d864"
+metafile = true
+
+[[files]]
+file = "mods/ftb-quests-forge.pw.toml"
+hash = "2ec083ed1872a8886a63c8f112958fdda1cf802d01c90400272e0d95a82c976d"
+metafile = true
+
+[[files]]
 file = "mods/ftb-quests-optimizer.pw.toml"
 hash = "7f20aa8681eda874db9e6dc262b9a76adb7a4f1791dc5829e76e1178ad773e6b"
+metafile = true
+
+[[files]]
+file = "mods/ftb-teams-forge.pw.toml"
+hash = "6a0155012732893dae42d8a7dae4df181367eaaea57296e0ca9849567e7b9b4f"
+metafile = true
+
+[[files]]
+file = "mods/ftb-ultimine-forge.pw.toml"
+hash = "0b811f8de64a172a9de2d151ce53579b666e15744b7744c64ddc894a8624c5e2"
 metafile = true
 
 [[files]]
@@ -331,11 +350,6 @@ metafile = true
 [[files]]
 file = "mods/glodium.pw.toml"
 hash = "ce26e71a01dc450b60d754bc44675915e8a54f2bb6db215a76a21e43fad3d44e"
-metafile = true
-
-[[files]]
-file = "mods/goety-revelation.pw.toml"
-hash = "41251db51352b933e1fa63ffadda1f5ace28f4b13b419b057508b3158a407c56"
 metafile = true
 
 [[files]]
@@ -379,6 +393,11 @@ hash = "d4ce1e57da773c6157f3208eadc40d5962be2bb1d2747eae169debb6d50a543f"
 metafile = true
 
 [[files]]
+file = "mods/konkrete.pw.toml"
+hash = "90a70141bcec839b6a1aa647c91f97bb7b33b6b9e6ce6b3b18a4113aa7dff636"
+metafile = true
+
+[[files]]
 file = "mods/kotlin-for-forge.pw.toml"
 hash = "7ea985404ee4cc9082472c6869ec146309f526e395361b39f2f4c1a43506c41d"
 metafile = true
@@ -406,6 +425,11 @@ metafile = true
 [[files]]
 file = "mods/mekanism_extra.pw.toml"
 hash = "7c95b49dbb335bd912fc2d475db6ec81835992dd7caeb0c9304c312ddedfb7f8"
+metafile = true
+
+[[files]]
+file = "mods/melody.pw.toml"
+hash = "c9f8bce06b85e4dbfdaecc7d0930bf7f4fabccc7967f867b7eb7acb8dd5b77a7"
 metafile = true
 
 [[files]]
@@ -479,13 +503,13 @@ hash = "045d582e2c534c5bb96d7336b4ae2cd12692c6de29b19ae5f1dbfd8759c03b03"
 metafile = true
 
 [[files]]
-file = "mods/playeranimator.pw.toml"
-hash = "765987a78e5d8c782d0da2de99998b43b5907d6c41347d3804045ad109e4a586"
+file = "mods/pneumaticcraft-repressurized.pw.toml"
+hash = "db79692898d1ac0d9d8e69716603ab6d5021bfedc12d64eb97529687868fbf0e"
 metafile = true
 
 [[files]]
-file = "mods/pneumaticcraft-repressurized.pw.toml"
-hash = "db79692898d1ac0d9d8e69716603ab6d5021bfedc12d64eb97529687868fbf0e"
+file = "mods/polylib.pw.toml"
+hash = "a6d572b0365f9f0a6c044066e3e222cb088ef148f08c05e6638819e391a40920"
 metafile = true
 
 [[files]]
@@ -609,13 +633,13 @@ hash = "d297e172474bf6b009775c4c5fe03530549ad4ac80c905d83a3c1b9beca2ac38"
 metafile = true
 
 [[files]]
-file = "mods/zeta.pw.toml"
-hash = "4bcf74d4569def60ca031d565350952c2edcc420f26278bc7997654a77b6fb4d"
+file = "mods/xenon-forge.pw.toml"
+hash = "1f7936bd08b3d5a2ff346c01d6e398aa33183a45796ba5d1a8d98758561fcf7e"
 metafile = true
 
 [[files]]
-file = "resourcepacks/alexs-caves-x-woodworks-farmers-delight.pw.toml"
-hash = "2c094cd2e588f2d879894129b3fc9d5020f410bf72e02f380ddb4fa1cd25dbf6"
+file = "mods/zeta.pw.toml"
+hash = "4bcf74d4569def60ca031d565350952c2edcc420f26278bc7997654a77b6fb4d"
 metafile = true
 
 [[files]]
