@@ -1,0 +1,13 @@
+name = "RPG-HUD"
+filename = "[1.20.1][Forge] RPG-HUD-3.10.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/EC41AOIq/versions/MPq8UA6v/%5B1.20.1%5D%5BForge%5D%20RPG-HUD-3.10.jar"
+hash-format = "sha512"
+hash = "0c3e09db029a712591763686bc96216bb38de058adf03c6bead49c0d82a9f02e50b0be08fdfb6296568c15299c1f93761f5a1cada899f02e256a17ebfe0d664e"
+
+[update]
+[update.modrinth]
+mod-id = "EC41AOIq"
+version = "MPq8UA6v"
