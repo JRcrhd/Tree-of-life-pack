@@ -1,0 +1,47 @@
+{
+  "itemGroup.create_aquatic_ambitions":"机械动力：水生雄心",
+
+  "block.create_aquatic_ambitions.prismarine_alloy_block": "海晶合金块",
+  "block.create_aquatic_ambitions.mechanical_conduit": "导管框架",
+
+  "item.create_aquatic_ambitions.prismarine_alloy": "海晶合金",
+  "item.create_aquatic_ambitions.prismarine_alloy_rod": "海晶合金杆",
+  "item.create_aquatic_ambitions.nautilus_shard": "鹦鹉螺壳碎片",
+  "item.create_aquatic_ambitions.suspicious_rock": "可疑的岩石",
+  "item.create_aquatic_ambitions.spiky_shell": "尖刺外壳",
+  "item.create_aquatic_ambitions.calcium_rich_powder": "富钙粉末",
+
+  "create_aquatic_ambitions.recipe.aquatic_ambitions.fan_channeling": "导管引导",
+
+  "create_aquatic_ambitions.tooltip.conduitcage.header" : "导管框架信息",
+  "tooltip.create_aquatic_ambitions.effect.cleansing" : "净化",
+
+  "create.item_attributes.can_be_channeled" : "可被引导",
+
+  "create_aquatic_ambitions.mechanical_conduit.entity_filter.title": "实体过滤器",
+  "mechanical_conduit.selection_mode.everyone": "所有人",
+  "mechanical_conduit.selection_mode.players": "玩家",
+  "mechanical_conduit.selection_mode.friendly_mobs": "友好生物",
+  "mechanical_conduit.selection_mode.players_friendly_mobs": "玩家和友好生物",
+  "mechanical_conduit.selection_mode.monsters": "怪物",
+
+  "create_aquatic_ambitions.ponder.conduit_processing.header": "使用导管装置处理物品",
+  "create_aquatic_ambitions.ponder.conduit_processing.text_1": "激活的导管可用于风扇处理",
+  "create_aquatic_ambitions.ponder.conduit_processing.text_2": "空气通过导管的水域将创建一个引导装置",
+  "create_aquatic_ambitions.ponder.conduit_processing.text_3": "额外的水层会稀释导管的能量，从而创建一个清洗装置",
+  "create_aquatic_ambitions.ponder.conduit_processing.text_4": "被引导水流捕获的物品将被处理",
+
+  "create_aquatic_ambitions.ponder.mechanical_conduit_awaken.header": "激活导管框架",
+  "create_aquatic_ambitions.ponder.mechanical_conduit_awaken.text_1": "导管框架可用作导管海晶石环的更紧凑版本",
+  "create_aquatic_ambitions.ponder.mechanical_conduit_awaken.text_2": "流体可以通过其底面泵入导管框架",
+  "create_aquatic_ambitions.ponder.mechanical_conduit_awaken.text_3": "将流体泵入导管框架将激活它",
+  "create_aquatic_ambitions.ponder.mechanical_conduit_processing.header": "使用导管框架处理物品",
+  "create_aquatic_ambitions.ponder.mechanical_conduit_processing.text_1": "导管框架也可用于风扇处理",
+  "create_aquatic_ambitions.ponder.mechanical_conduit_processing.text_2": "空气通过导管框架将创建一个引导装置",
+  "create_aquatic_ambitions.ponder.mechanical_conduit_processing.text_3": "被引导水流捕获的物品将被处理",
+  "create_aquatic_ambitions.ponder.mechanical_conduit_effects.header": "通过导管框架提供效果",
+  "create_aquatic_ambitions.ponder.mechanical_conduit_effects.text_1": "激活的导管框架可以影响附近的实体",
+  "create_aquatic_ambitions.ponder.mechanical_conduit_effects.text_2": "用水激活的导管框架将提供潮涌能量效果",
+  "create_aquatic_ambitions.ponder.mechanical_conduit_effects.text_3": "不同的流体将提供不同的效果",
+  "create_aquatic_ambitions.ponder.mechanical_conduit_effects.text_4": "模式槽允许您选择将受影响的实体"
+}

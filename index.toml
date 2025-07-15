@@ -108,6 +108,11 @@ hash = "6d369d90dac6730c6faa243bf73d00d9945e2a932c9c031eb7619d979eaebe8d"
 metafile = true
 
 [[files]]
+file = "mods/better-clouds.pw.toml"
+hash = "e29ed9f658f39f81d3418dfa847dcc4c573fdcfef2d02273bcd065d3e5c4d781"
+metafile = true
+
+[[files]]
 file = "mods/better-village.pw.toml"
 hash = "0484b975d66fd7f59e0533191ff46fbb1a44df12263591ce3dadbb3b87f3d527"
 metafile = true
@@ -238,6 +243,11 @@ hash = "5b4ce2825458b7dc7c94ef469f9b5f5f893b51893ffb2174323857e9fb3f7532"
 metafile = true
 
 [[files]]
+file = "mods/create-structures.pw.toml"
+hash = "4f64bc81a381a3cb0c637829d547d8b0f5daa0ea29fe84a9e43a91784763745e"
+metafile = true
+
+[[files]]
 file = "mods/create-totem-factory.pw.toml"
 hash = "8903e897cd2cf7a2361de8c79903da676a4d9df9c2999e1464679d84e40b2608"
 metafile = true
@@ -343,6 +353,11 @@ hash = "3136d2fa3cd097330976de6517806fb9a306b60a9c2f9f3845d1289cad11b8c4"
 metafile = true
 
 [[files]]
+file = "mods/explorify.pw.toml"
+hash = "a0b3f914a386d4236744bc749156bb7eca1014179a50e340af1ea4741198782f"
+metafile = true
+
+[[files]]
 file = "mods/extra-gauges.pw.toml"
 hash = "adac7da04a68427dcaf0703f1ba2ce9deeb5813119fd5e2070f9fe1ca09c11ca"
 metafile = true
@@ -360,6 +375,11 @@ metafile = true
 [[files]]
 file = "mods/ferrite-core.pw.toml"
 hash = "902bac905b93271f02bd0951a22bac06a3da24f5c237fcaeb469e14a7679e508"
+metafile = true
+
+[[files]]
+file = "mods/flerovium.pw.toml"
+hash = "7e4d086c43ca799a4974051db465a8f8c63c912137ef98557047a1e3f7068d8d"
 metafile = true
 
 [[files]]
@@ -418,13 +438,13 @@ hash = "b92fa7fc7fa497f034ba2a33d031101b554ddbf9db645a60a0f0fc4a9127c4e7"
 metafile = true
 
 [[files]]
-file = "mods/geckoanimfix.pw.toml"
-hash = "f78c94f42ffaf5365f45b58f83545ced3dc9ae0cf075412e7710079e163eed28"
+file = "mods/geckolib.pw.toml"
+hash = "5290e7961ab2ca528b8bf3fecfbcb33240029314fd7cb2086c06c3ee13daf1fc"
 metafile = true
 
 [[files]]
-file = "mods/geckolib.pw.toml"
-hash = "5290e7961ab2ca528b8bf3fecfbcb33240029314fd7cb2086c06c3ee13daf1fc"
+file = "mods/glitchcore.pw.toml"
+hash = "71f185e62d546881244d4b5a213ebc3d2d6df14b0218c0e5dd6426fcb22cb55f"
 metafile = true
 
 [[files]]
@@ -450,6 +470,11 @@ metafile = true
 [[files]]
 file = "mods/guideme.pw.toml"
 hash = "1635aa0e0df9d27f22de030955c8690061970abe26e3e913c4d950227aba4916"
+metafile = true
+
+[[files]]
+file = "mods/hearths.pw.toml"
+hash = "e85a99b873be94bc88f82dc924b3db1e14b70c3cd2962384ee3e0a998fb31f62"
 metafile = true
 
 [[files]]
@@ -658,8 +683,18 @@ hash = "c18dd089c44103b56f8edcbd41a071e41a1fcd46094b2c93df5cc5f07853f18b"
 metafile = true
 
 [[files]]
+file = "mods/notenoughrecipebook.pw.toml"
+hash = "ee8986f0f4e5c7609da5f0f48d741bb059fefee80bda7e0a33e51dab6468cd67"
+metafile = true
+
+[[files]]
 file = "mods/occultism.pw.toml"
 hash = "bb773a57d9a31e4e5e67de1e3e728dd7169da286e5ab6e68e650b7b0d4ae4f82"
+metafile = true
+
+[[files]]
+file = "mods/octo-lib.pw.toml"
+hash = "4ee6b38fbd604374f4703b852ebe2119c6493ae09b88f6398ab256e423bd5d4a"
 metafile = true
 
 [[files]]
@@ -753,8 +788,18 @@ hash = "817b4a47826bd99c69957fe07131d5704984f89fec96287cdc20c6fbe46100cf"
 metafile = true
 
 [[files]]
+file = "mods/ruok.pw.toml"
+hash = "dce9b0dc299f612736ec2492e64ca13e1b4bd9ded76eeb00848fe7ed6767f9f8"
+metafile = true
+
+[[files]]
 file = "mods/searchables.pw.toml"
 hash = "b8c7497acbf4890b4609b6b20de7affdd3482fc99af975d9ff6b29c075e1d8a7"
+metafile = true
+
+[[files]]
+file = "mods/serene-seasons.pw.toml"
+hash = "7f38bb5c863c04b013a2c6ed75d799525ba3cc5a548279adde6e9329ff308dd4"
 metafile = true
 
 [[files]]
@@ -858,6 +903,11 @@ hash = "16e2c84951ba32efac8703ccb7b36631b70cb514d402fa8fb4f89031f2a63a58"
 metafile = true
 
 [[files]]
+file = "mods/true-ending.pw.toml"
+hash = "0bc775f6b740e9fa539e8237f49ce5265a15f16725fef1deeab7097ea6571099"
+metafile = true
+
+[[files]]
 file = "mods/valhelsia-core.pw.toml"
 hash = "80defc01fee35be2d07c6c26ad0767b98eb1eff33e8b61c3fd152412e5ab3606"
 metafile = true
@@ -873,6 +923,11 @@ hash = "75b3fdf0d8b1d6685b11c5d6c43c9dc8660f47f006e42872d2e02461d37d316d"
 metafile = true
 
 [[files]]
+file = "mods/villages-and-pillages.pw.toml"
+hash = "482116a259e9d173b9c6dd5f21f9e5ab8f472c8003e9ac0fd15d63589635f6e4"
+metafile = true
+
+[[files]]
 file = "mods/voltaic.pw.toml"
 hash = "d34a34df6b0136399ae2f7ae94479104edcd84a1d4d26672e089ab228aa5f0df"
 metafile = true
@@ -880,6 +935,16 @@ metafile = true
 [[files]]
 file = "mods/waystones.pw.toml"
 hash = "d297e172474bf6b009775c4c5fe03530549ad4ac80c905d83a3c1b9beca2ac38"
+metafile = true
+
+[[files]]
+file = "mods/weaponmaster.pw.toml"
+hash = "7ed4fd2adbada52733cd7643f36f661b13d5f3853a95c3239a64760dafbab8d6"
+metafile = true
+
+[[files]]
+file = "mods/yacl.pw.toml"
+hash = "f3b3d035b89519faccc4ddd8b0b4407ce96c0eb49068fe50a445d43a3baa8bea"
 metafile = true
 
 [[files]]

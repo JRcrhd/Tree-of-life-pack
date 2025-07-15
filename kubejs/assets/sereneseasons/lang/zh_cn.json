@@ -1,0 +1,42 @@
+{
+  "commands.sereneseasons.usage": "/sereneseasons <getseason/setseason> [args]",
+  "commands.sereneseasons.getseason.success": "目前的季节为 %s, 天 %s/%s, 刻 %s/%s",
+  "commands.sereneseasons.setseason.success": "设定季节为 %s",
+  "commands.sereneseasons.setseason.fail": "无效的季节 %s",
+  "commands.sereneseasons.setseason.disabled": "季节更迭已被禁用!",
+
+  "itemGroup.tabSereneSeasons": "Serene Seasons",
+
+  "block.sereneseasons.season_sensor": "季节指示器",
+
+  "item.sereneseasons.ss_icon": "静谧四季图标",
+  "item.sereneseasons.calendar": "日历",
+
+  "desc.sereneseasons.fertile_seasons": "丰收时刻",
+  "desc.sereneseasons.year_round": "全年",
+  "desc.sereneseasons.day_counter": " %s/%s 天",
+  "desc.sereneseasons.tropical_day_counter": " (%s/%s)",
+  "desc.sereneseasons.spring": "春季",
+  "desc.sereneseasons.early_spring": "早春",
+  "desc.sereneseasons.mid_spring": "中春",
+  "desc.sereneseasons.late_spring": "晚春",
+  "desc.sereneseasons.summer": "夏季",
+  "desc.sereneseasons.early_summer": "早夏",
+  "desc.sereneseasons.mid_summer": "中夏",
+  "desc.sereneseasons.late_summer": "晚夏",
+  "desc.sereneseasons.autumn": "秋季",
+  "desc.sereneseasons.early_autumn": "早秋",
+  "desc.sereneseasons.mid_autumn": "中秋",
+  "desc.sereneseasons.late_autumn": "晚秋",
+  "desc.sereneseasons.winter": "冬季",
+  "desc.sereneseasons.early_winter": "早冬",
+  "desc.sereneseasons.mid_winter": "中冬",
+  "desc.sereneseasons.late_winter": "晚冬",
+  
+  "desc.sereneseasons.early_wet": "早雨季",
+  "desc.sereneseasons.mid_wet": "中雨季",
+  "desc.sereneseasons.late_wet": "晚雨季",
+  "desc.sereneseasons.early_dry": "早旱季",
+  "desc.sereneseasons.mid_dry": "中旱季",
+  "desc.sereneseasons.late_dry": "晚旱季"
+}
