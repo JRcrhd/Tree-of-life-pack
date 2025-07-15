@@ -3,7 +3,7 @@ base = true
 quests = true
 teams = true
 essentials = true
-ultimine = true
+ultimine = false
 backups = true
 polyLib = false
 
