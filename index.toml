@@ -973,6 +973,11 @@ hash = "4bcf74d4569def60ca031d565350952c2edcc420f26278bc7997654a77b6fb4d"
 metafile = true
 
 [[files]]
+file = "resourcepacks/enhanced-boss-bars.pw.toml"
+hash = "88496e670b35be0585d76f593cad1e59e76e7e9c4a014d5e8e4ce8c8b8e29986"
+metafile = true
+
+[[files]]
 file = "resourcepacks/excal.pw.toml"
 hash = "ab7a672c24f5914c71dbc6931ed5190763d12e1d617d6359de4e85607bb1568e"
 metafile = true
@@ -980,6 +985,16 @@ metafile = true
 [[files]]
 file = "resourcepacks/excalibur-farmers-delight-support.pw.toml"
 hash = "da115fe20d777c8ac3f2101658ca2b0f2dbcf1118b4a3a065bf7e01231d0f3e5"
+metafile = true
+
+[[files]]
+file = "resourcepacks/low-on-fire.pw.toml"
+hash = "98520d370f14406836b850e9ca58debe0b5e25475279d7f2a46b1c3151b222a8"
+metafile = true
+
+[[files]]
+file = "resourcepacks/mandalas-gui-dark-mode.pw.toml"
+hash = "cc3446731ade7cbfa667b27976ac76b8782a7ba0794ed55383bc41b2e6a45867"
 metafile = true
 
 [[files]]
