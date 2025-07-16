@@ -9,8 +9,280 @@ file = "README.md"
 hash = "ca99c3c3a1f2b3919d31b4570d1335da13ab367e5c4c7a499c302e74b6a14bf0"
 
 [[files]]
+file = "config/fancymenu/assets/background_1.png"
+hash = "969d5f9286777e318ed54782a10eed8cc4d89dc2454ee09eae8eea510d6b11dd"
+
+[[files]]
+file = "config/fancymenu/assets/icon16.png"
+hash = "e1ac690406ff3ba2f855d30db0c804505f8af7e27c8ae7654119968e0d05290f"
+
+[[files]]
+file = "config/fancymenu/assets/icon32.icns"
+hash = "bfb191fe087e7abc31479182cba6b38db47f44b83aa10181b40a1892393afbaf"
+
+[[files]]
+file = "config/fancymenu/assets/icon32.png"
+hash = "1b18ad72c580c6b5a530dab6288f4ce3fd716afe3763b97c59645d50c159d70e"
+
+[[files]]
+file = "config/fancymenu/assets/title.png"
+hash = "6517ea79aacd76e7eab3804d9d017760ffa6570fc748e6aa1841e5aa25647cfe"
+
+[[files]]
+file = "config/fancymenu/custom_gui_screens.txt"
+hash = "ff492043eaf454c46e949d5eef32ece90cc5a19feb50a161dd29a43b5732c880"
+
+[[files]]
+file = "config/fancymenu/customizablemenus.txt"
+hash = "d8a88fab202813945ad6e6d437bb47d638883fa867ee512aa6579f549191abde"
+
+[[files]]
+file = "config/fancymenu/customization/pause_screen_layout.txt"
+hash = "d273aa8214c7c7ae8bf872728860a6c1420608de96cbd1844167608a158860fd"
+
+[[files]]
+file = "config/fancymenu/customization/title_screen_layout.txt"
+hash = "88891ccdbd9fad32bbf2294fce07226a0aa91be96f607252206e224d84e44a68"
+
+[[files]]
+file = "config/fancymenu/customization/universal_layout.txt"
+hash = "f15a8ee8f86f6b480062f10912dc3237e7b87d6b02786e0dad7c9b810d0a1094"
+
+[[files]]
+file = "config/fancymenu/layout_editor/widgets/element_layer_control.lewidget"
+hash = "051d700ea7ff1bd626063d60f9a9cd65a0af1fed5903706d1e70fce20bcb2495"
+
+[[files]]
+file = "config/fancymenu/legacy_checklist.txt"
+hash = "9a25d3dc708e43eabafce5479a13c02dae15bc7f673afb2745b8b2ba48a97dc0"
+
+[[files]]
+file = "config/fancymenu/options.txt"
+hash = "1587e37e1a807d2baaab86a8f96727bd9a6d7aa6b45fe3f53a97d17aec4789e6"
+
+[[files]]
+file = "config/fancymenu/ui_themes/dark.json"
+hash = "45541e5c5019585b9c4ff114aed530826129e8a7ac6866b5d5fe41dd278abae4"
+
+[[files]]
+file = "config/fancymenu/ui_themes/light.json"
+hash = "6954379d658fdf496f162792a3244f0f08635858ed4b0553a718a7ef63b8a620"
+
+[[files]]
+file = "config/fancymenu/user_variables.db"
+hash = "3d7d4cda73d6bde134a568ccbe4e8d2e7fbe701570012b71fa45acdb2258c823"
+
+[[files]]
+file = "config/fml.toml"
+hash = "0a19f827abac613bbce62232a2e661aec4b4be1f972dbd23f52b5eb6826a972a"
+
+[[files]]
 file = "config/ftbchecker.toml"
-hash = "1744a76a2afdd4124368df9d78aa491fc1bc6b14a11e97d3765f3a06d83d3441"
+hash = "7afef3f25758f00aa1860c9663147abed28dfeb79949649d29c2428ee7d3345d"
+
+[[files]]
+file = "config/gamestages/known_stages.json"
+hash = "a7f3e99cff9326eddce514e293be77d26b95f6b6727047e2ce0ff41577c62a1f"
+
+[[files]]
+file = "defaultconfigs/electrodynamics.txt"
+hash = "8119103997db98da2c6d35938042689deec5cc5bda839676d048e00f8d5216f2"
+
+[[files]]
+file = "defaultconfigs/electrodynamics_ore_config.txt"
+hash = "dc3d831f4cdf4d90f15e57155feda55230d8fd5b1f86a63a6edb2d2472ae23d9"
+
+[[files]]
+file = "defaultconfigs/ftbchunks/client-config.snbt"
+hash = "6d5592c9b61ca156d7901a1b2a626d9c1f5401ec6988e73fe01fab57c7df2260"
+
+[[files]]
+file = "defaultconfigs/ftbchunks/ftbchunks-world.snbt"
+hash = "92dd71570bdf957f39b27b3f7f80b3f13793311d23a5c766edc1102ca596e2b5"
+
+[[files]]
+file = "defaultconfigs/ftbessentials-server.snbt"
+hash = "4444fa163e029565eb76f6aa55940e99cfcf21727778dd6fcca4f22e1b62e5f6"
+
+[[files]]
+file = "defaultconfigs/ftblibrary/ftblibrary-client.snbt"
+hash = "ab6bcad040f138406197f70cfe9a041832feaddf7e87954d9a5f4b13b6a962f9"
+
+[[files]]
+file = "defaultconfigs/ftbquests/client-config.snbt"
+hash = "4ce84f0da35036f810959086ea1043062993bf34ae704fc9cd4f1a67810090a6"
+
+[[files]]
+file = "defaultconfigs/voltaic.txt"
+hash = "c49721d7ecf3b17ef68fff51fd83146edc9c93787e09b9000952a8eaed81cfce"
+
+[[files]]
+file = "kubejs/README.txt"
+hash = "989f3737ae4621b8ff6730bce4cbeeee756921e7e510e0c281c8a350501d98af"
+
+[[files]]
+file = "kubejs/assets/akashictome/lang/zh_cn.json"
+hash = "dbafa8379d067efb2ac1a1d715751434530749b638531b383343f02d0d7032fa"
+
+[[files]]
+file = "kubejs/assets/bygonenether/lang/zh_cn.json"
+hash = "68d5de90b327e41effd9f8610745a3b788456f2f7d6a2b2bb23264f12f70672f"
+
+[[files]]
+file = "kubejs/assets/cccbridge/lang/zh_cn.json"
+hash = "0a8410491cacfaa36afe4a3889ee227929ae63ecda7cac987ac215af392578cb"
+
+[[files]]
+file = "kubejs/assets/create_aquatic_ambitions/lang/zh_cn.json"
+hash = "6ba03889d8ef1491aaa5622ec4d358dabfd775f669846b2088912ef325c7854f"
+
+[[files]]
+file = "kubejs/assets/createdieselgenerators/lang/zh_cn.json"
+hash = "98db06976358ac831e8c8fcdeabd3c165642bb0f69262bfaecfe119368a12141"
+
+[[files]]
+file = "kubejs/assets/createmetalwork/lang/zh_cn.json"
+hash = "f45c0209b18eb5fc9523f7b48b6bcc5ca3f867770ca4ad593b4d42b297498119"
+
+[[files]]
+file = "kubejs/assets/createutilities/lang/zh_cn.json"
+hash = "bb5a02e50ccfbd8d7938f70bc4a450b897dfaaf9874a42fc8b3730d583a0c268"
+
+[[files]]
+file = "kubejs/assets/explorerscompass/lang/zh_cn.json"
+hash = "f9f2927987eb275ba35b03caca234d3108e356a70b6144e3d53f746d1693acc5"
+
+[[files]]
+file = "kubejs/assets/extra_gauges/lang/zh_cn.json"
+hash = "067b15c254ba144a7100c0554c9dfe224898b5f864acccb6ca9970c8c86ba8c8"
+
+[[files]]
+file = "kubejs/assets/forbidden_arcanus/lang/zh_cn.json"
+hash = "77f67f944caf48a9e76861f170315e3d6ed88e57abea9f5bb13b1e2b2e8ca9cf"
+
+[[files]]
+file = "kubejs/assets/frycooks_delight/lang/zh_cn.json"
+hash = "99d90b0a02516d93ac4db546e6352fe36c33121179fbf54e2c1befb33e876a66"
+
+[[files]]
+file = "kubejs/assets/ftbbackups/lang/zh_cn.json"
+hash = "dd20fc12f0166cbcb0b808672d838de4fdef51a2e774712f65b1625832c09b67"
+
+[[files]]
+file = "kubejs/assets/ftbquests/lang/zh_cn.json"
+hash = "42127d41e82df93e032df52502dfeebc4cb20d53ec91bdb1e63984311ba6820c"
+
+[[files]]
+file = "kubejs/assets/ftbteams/lang/zh_cn.json"
+hash = "ee0b2c8f2745cc6881188a10a2b09f70800dc4248ac9ed9773fdcd8c42244fb9"
+
+[[files]]
+file = "kubejs/assets/igleelib/lang/zh_cn.json"
+hash = "ad7c7290505ddd3dd8e0d774319e6d8281211e3e8a93de43deda3e75536267cf"
+
+[[files]]
+file = "kubejs/assets/mae2/ae2guide/_zh_cn/faulty_card.md"
+hash = "dd0b3ac21a55dc34ba2edadd6f3eed2291c54226969e14fbd68548f69dac88fd"
+
+[[files]]
+file = "kubejs/assets/mae2/ae2guide/_zh_cn/multi_p2p_tunnels.md"
+hash = "4e94585e7c6c85c42259f778625494e11ee105fc6126f1cdc1280041a89aafe7"
+
+[[files]]
+file = "kubejs/assets/mae2/ae2guide/_zh_cn/pattern_p2p_tunnel.md"
+hash = "afc4e6d298804f050d226a34dc695f78e36edb18eb7b3698a9412d4386e9f031"
+
+[[files]]
+file = "kubejs/assets/mae2/ae2guide/_zh_cn/semivibrant_glass.md"
+hash = "53e312b7c9153105b72c1e3d016bcdc29a810aa8f5a6d2df3c9d41ab0f662531"
+
+[[files]]
+file = "kubejs/assets/mae2/lang/zh_cn.json"
+hash = "c193b484b7a5dc83fd3399f944f8858eb02272b22dff2fc9e9720e7eae6bdc09"
+
+[[files]]
+file = "kubejs/assets/occultism/lang/zh_cn.json"
+hash = "62a3360b948b94e0b8116ffcdc0d48f1edae219e1e82610f2ed440bff701bbd0"
+
+[[files]]
+file = "kubejs/assets/pneumaticcraft/lang/zh_cn.json"
+hash = "459469e6ae31405fe072c1fc8d98e86c80ef42f092d36cc990b09868419445c2"
+
+[[files]]
+file = "kubejs/assets/pneumaticcraft/patchouli_books/book/zh_cn/categories/compressed_creativity.json"
+hash = "a787c09bf81bb111da24ac5104ba77fb9dc4e609bc1d21719c044ffa4633e1fc"
+
+[[files]]
+file = "kubejs/assets/pneumaticcraft/patchouli_books/book/zh_cn/entries/air_blower.json"
+hash = "c0ecf07c88ba1db8d5bc39d23c277124bbb5a78eee58f93046da1f5a76b86219"
+
+[[files]]
+file = "kubejs/assets/pneumaticcraft/patchouli_books/book/zh_cn/entries/brackets.json"
+hash = "0b824655b72409a694822697c5c03150a07d30ec4700b6c2fc06ce161c7d3095"
+
+[[files]]
+file = "kubejs/assets/pneumaticcraft/patchouli_books/book/zh_cn/entries/compressed_air_engine.json"
+hash = "9a99b3c42e7687e02f1449fca430c67983b4f62cadfb3f806e4ac48b5dc1cf4f"
+
+[[files]]
+file = "kubejs/assets/pneumaticcraft/patchouli_books/book/zh_cn/entries/copper_backtank.json"
+hash = "6cbbf39494df84d1025aa1fd0e449c5dd83efa5a1e73c22da4513d18a5b5aa4b"
+
+[[files]]
+file = "kubejs/assets/pneumaticcraft/patchouli_books/book/zh_cn/entries/industrial_air_blower.json"
+hash = "13340837432879d7d778c00265dd2f02c952250d5724fa2adff74849aef5176e"
+
+[[files]]
+file = "kubejs/assets/pneumaticcraft/patchouli_books/book/zh_cn/entries/industrial_air_blower_meshes.json"
+hash = "7601b0ca0eef1cabbeaed63e3e40b33171d9cc517e009b7d75f425623b267fd9"
+
+[[files]]
+file = "kubejs/assets/pneumaticcraft/patchouli_books/book/zh_cn/entries/intro.json"
+hash = "a04af9a897d7a82095a9ca9c50d3feae4cb4d98054453b051d78dfc69f619496"
+
+[[files]]
+file = "kubejs/assets/pneumaticcraft/patchouli_books/book/zh_cn/entries/mechanical_visor_upgrade.json"
+hash = "394d59d2e512662a02f5eedb637dca3c21edbfa2a5ff5092a10feb17269a6edc"
+
+[[files]]
+file = "kubejs/assets/pneumaticcraft/patchouli_books/book/zh_cn/entries/rotational_compressor.json"
+hash = "0958756d9699dc5822799f759f52cdd72dded805f9d7aa088a8fd70b4d573208"
+
+[[files]]
+file = "kubejs/assets/regions_unexplored/lang/zh_cn.json"
+hash = "50c29e1123df3ae9529a1cd505d6aaddb6f257cd79b598564c94e921cd697255"
+
+[[files]]
+file = "kubejs/assets/sereneseasons/lang/zh_cn.json"
+hash = "c6baa4fca5456f90b482c20b0ac675482788787965e2956ae5bfa208f386aa1c"
+
+[[files]]
+file = "kubejs/assets/totemfactory/lang/zh_cn.json"
+hash = "6e13ecee6f65c97693c32af372411513b58569f56baabc7aaffdcecae02dd225"
+
+[[files]]
+file = "kubejs/assets/voltaic/lang/zh_cn.json"
+hash = "40c6e89ab35501f449979fec6999648a6b0f2eb9bc08fbb66513765c5220fe6d"
+
+[[files]]
+file = "kubejs/client_scripts/example.js"
+hash = "152019ed6e0410a82805a95ea10f1ad1a17beaf2b50864d89b8fa9d172129ac7"
+
+[[files]]
+file = "kubejs/config/client.properties"
+hash = "d8cfabb42c53e1b20b13691c16397c91eafea6b2535686669edee8c4cb7b3871"
+
+[[files]]
+file = "kubejs/config/common.properties"
+hash = "77fa10b1daa8e70a5b461860828ae76507150f0652e14fc52e343b41e0e7abd8"
+
+[[files]]
+file = "kubejs/server_scripts/example.js"
+hash = "a19b7c81a150bd965b153ded9c45ee7649eaad9e10d0a5ec1d662e7b15ceadb2"
+
+[[files]]
+file = "kubejs/startup_scripts/example.js"
+hash = "395c96d3ddd178821db851f387e91560e606ea752177f66d2016f12bd0542b8f"
 
 [[files]]
 file = "mods/3dskinlayers.pw.toml"
@@ -85,6 +357,11 @@ metafile = true
 [[files]]
 file = "mods/applied-mekanistics.pw.toml"
 hash = "711693f4c7a902e3386f355d60ed8fce6f1a42238f5e9209e4a7439a70ad7b6f"
+metafile = true
+
+[[files]]
+file = "mods/appliede.pw.toml"
+hash = "8f0fec24816deafe73f182f307768b108f23f8ac221d277c341e64b28a8e0e17"
 metafile = true
 
 [[files]]
@@ -503,6 +780,11 @@ hash = "6703d5686b7249c586a3a710a909dfd0eba3e2d0c76bc152efb2c43494e5b2e1"
 metafile = true
 
 [[files]]
+file = "mods/inventory-hud-forge.pw.toml"
+hash = "7cfc0e01f487f385b420af27e14dcdf1ce6f912c9ffecfa933fcdbb93c21e279"
+metafile = true
+
+[[files]]
 file = "mods/inventory-profiles-next.pw.toml"
 hash = "ebac949a2fff95c91e87a92e5f5e91daf144c789e5765f3c4d80f096b366488e"
 metafile = true
@@ -743,6 +1025,11 @@ hash = "f79cb80b6ea599fe4ca9404465277ff7edf25118976170c28827590febfcee7a"
 metafile = true
 
 [[files]]
+file = "mods/projecte.pw.toml"
+hash = "26b6891625bf09317245200e3adb871cea00dbd41859d68cf57062544c0e6041"
+metafile = true
+
+[[files]]
 file = "mods/puzzles-lib.pw.toml"
 hash = "74991cede8019cf93d1243369d840913375ab3a7d448d764c7a15f87f5bc4e52"
 metafile = true
@@ -973,6 +1260,10 @@ hash = "4bcf74d4569def60ca031d565350952c2edcc420f26278bc7997654a77b6fb4d"
 metafile = true
 
 [[files]]
+file = "options.txt"
+hash = "72bdb6a913a061f04d28f5f12f54d368ca973704585b505b54bec3ff072a66e6"
+
+[[files]]
 file = "resourcepacks/enhanced-boss-bars.pw.toml"
 hash = "88496e670b35be0585d76f593cad1e59e76e7e9c4a014d5e8e4ce8c8b8e29986"
 metafile = true
@@ -990,11 +1281,6 @@ metafile = true
 [[files]]
 file = "resourcepacks/low-on-fire.pw.toml"
 hash = "98520d370f14406836b850e9ca58debe0b5e25475279d7f2a46b1c3151b222a8"
-metafile = true
-
-[[files]]
-file = "resourcepacks/mandalas-gui-dark-mode.pw.toml"
-hash = "cc3446731ade7cbfa667b27976ac76b8782a7ba0794ed55383bc41b2e6a45867"
 metafile = true
 
 [[files]]

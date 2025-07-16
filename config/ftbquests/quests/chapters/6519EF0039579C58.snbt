@@ -1,0 +1,11 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "6519EF0039579C58"
+	group: "22377F0FB58061A0"
+	id: "6519EF0039579C58"
+	order_index: 3
+	quest_links: [ ]
+	quests: [ ]
+	title: "通灵"
+}
