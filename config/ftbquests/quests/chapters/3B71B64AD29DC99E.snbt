@@ -3,6 +3,9 @@
 	default_quest_shape: ""
 	filename: "3B71B64AD29DC99E"
 	group: "22377F0FB58061A0"
+	hide_quest_details_until_startable: true
+	hide_quest_until_deps_complete: true
+	hide_quest_until_deps_visible: true
 	id: "3B71B64AD29DC99E"
 	order_index: 0
 	quest_links: [ ]

@@ -3,6 +3,7 @@
 	default_quest_shape: ""
 	filename: "14AF7CD2BCF97A6E"
 	group: "3656E883C130894D"
+	hide_quest_until_deps_visible: true
 	icon: "goety:lightning_focus"
 	id: "14AF7CD2BCF97A6E"
 	order_index: 2

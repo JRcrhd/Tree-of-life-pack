@@ -3,6 +3,7 @@
 	default_quest_shape: ""
 	filename: "4035775DADF7CF0E"
 	group: "22377F0FB58061A0"
+	hide_quest_until_deps_visible: true
 	icon: {
 		Count: 1
 		ForgeCaps: {
@@ -17,5 +18,5 @@
 	order_index: 2
 	quest_links: [ ]
 	quests: [ ]
-	title: "占卜"
+	title: "🔮占卜"
 }

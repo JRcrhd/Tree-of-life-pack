@@ -3,10 +3,21 @@
 	default_quest_shape: ""
 	filename: "7257AB4CAD5ABF7C"
 	group: "3ABDF31F958CFAA4"
+	hide_quest_until_deps_visible: true
 	icon: "farmersdelight:glow_berry_custard"
 	id: "7257AB4CAD5ABF7C"
 	order_index: 0
 	quest_links: [ ]
-	quests: [ ]
+	quests: [{
+		dependencies: ["1F12C58DD155769C"]
+		id: "610CBBEE0DC825CC"
+		tasks: [{
+			id: "7A18A67A5DBFBDA9"
+			title: "确认"
+			type: "checkmark"
+		}]
+		x: 0.0d
+		y: -1.0d
+	}]
 	title: "享受生活"
 }

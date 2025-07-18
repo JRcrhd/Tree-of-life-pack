@@ -3,6 +3,7 @@
 	default_quest_shape: ""
 	filename: "4"
 	group: "3656E883C130894D"
+	hide_quest_until_deps_visible: true
 	icon: "ae2:wireless_receiver"
 	id: "33006A281D8B649A"
 	order_index: 3

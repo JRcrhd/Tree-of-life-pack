@@ -3,6 +3,7 @@
 	default_quest_shape: ""
 	filename: "2"
 	group: "3656E883C130894D"
+	hide_quest_until_deps_visible: true
 	icon: "create:steam_engine"
 	id: "5B1AC0E25230BC02"
 	order_index: 1

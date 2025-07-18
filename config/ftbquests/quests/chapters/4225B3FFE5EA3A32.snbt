@@ -3,6 +3,7 @@
 	default_quest_shape: ""
 	filename: "4225B3FFE5EA3A32"
 	group: "3ABDF31F958CFAA4"
+	hide_quest_until_deps_visible: true
 	icon: {
 		Count: 1
 		id: "rainbowcompound:rainbow_sword"
@@ -13,6 +14,16 @@
 	id: "4225B3FFE5EA3A32"
 	order_index: 2
 	quest_links: [ ]
-	quests: [ ]
+	quests: [{
+		dependencies: ["34BB2829CF60D94C"]
+		id: "70A4EA513605735F"
+		tasks: [{
+			id: "1CFD148D27CA51BE"
+			title: "确认"
+			type: "checkmark"
+		}]
+		x: 0.5d
+		y: 0.0d
+	}]
 	title: "神代的遗留"
 }

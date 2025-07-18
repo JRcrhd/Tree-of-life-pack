@@ -3,10 +3,21 @@
 	default_quest_shape: ""
 	filename: "1821CBF53621601F"
 	group: "3ABDF31F958CFAA4"
+	hide_quest_until_deps_visible: true
 	icon: "quark:smithing_template_rune"
 	id: "1821CBF53621601F"
 	order_index: 1
 	quest_links: [ ]
-	quests: [ ]
+	quests: [{
+		dependencies: ["34BB2829CF60D94C"]
+		id: "15C91C6E2007E203"
+		tasks: [{
+			id: "0B16E7AED7A79D67"
+			title: "确认"
+			type: "checkmark"
+		}]
+		x: 0.5d
+		y: 0.5d
+	}]
 	title: "赫菲斯托斯的锻造"
 }

@@ -3,12 +3,14 @@
 	default_quest_shape: ""
 	filename: "1"
 	group: "3656E883C130894D"
+	hide_quest_until_deps_visible: true
 	icon: "petrolsparts:planetary_gearset"
 	id: "36A058C46CFAB3F3"
 	order_index: 0
 	quest_links: [ ]
 	quests: [{
 		dependencies: ["34BB2829CF60D94C"]
+		hide_until_deps_complete: true
 		id: "161309655AB92C0E"
 		tasks: [{
 			id: "508F3105339FBD65"
