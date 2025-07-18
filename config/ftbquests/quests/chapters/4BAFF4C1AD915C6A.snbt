@@ -3,6 +3,7 @@
 	default_quest_shape: ""
 	filename: "4BAFF4C1AD915C6A"
 	group: "22377F0FB58061A0"
+	icon: "kubejs:alchemy_in_phi"
 	id: "4BAFF4C1AD915C6A"
 	order_index: 1
 	quest_links: [ ]

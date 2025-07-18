@@ -3,6 +3,7 @@
 	default_quest_shape: ""
 	filename: "1821CBF53621601F"
 	group: "3ABDF31F958CFAA4"
+	icon: "quark:smithing_template_rune"
 	id: "1821CBF53621601F"
 	order_index: 1
 	quest_links: [ ]

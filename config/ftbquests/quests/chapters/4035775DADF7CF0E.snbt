@@ -3,6 +3,16 @@
 	default_quest_shape: ""
 	filename: "4035775DADF7CF0E"
 	group: "22377F0FB58061A0"
+	icon: {
+		Count: 1
+		ForgeCaps: {
+			Parent: {
+				Items: [ ]
+				Size: 22
+			}
+		}
+		id: "tarotcards:tarot_deck"
+	}
 	id: "4035775DADF7CF0E"
 	order_index: 2
 	quest_links: [ ]

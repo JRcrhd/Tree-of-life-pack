@@ -6,6 +6,15 @@
 	id: "329015894AA19614"
 	order_index: 0
 	quest_links: [ ]
-	quests: [ ]
+	quests: [{
+		id: "34BB2829CF60D94C"
+		tasks: [{
+			id: "1F12C58DD155769C"
+			title: "正式开启你的旅途"
+			type: "checkmark"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
 	title: "旅途开始之前……"
 }

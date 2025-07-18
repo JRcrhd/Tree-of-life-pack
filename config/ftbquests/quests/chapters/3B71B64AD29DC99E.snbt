@@ -6,6 +6,16 @@
 	id: "3B71B64AD29DC99E"
 	order_index: 0
 	quest_links: [ ]
-	quests: [ ]
+	quests: [{
+		dependencies: ["1F12C58DD155769C"]
+		id: "01A444FBE0404EA2"
+		tasks: [{
+			id: "0B40EA3447EBA508"
+			title: "关于 ⌊熵⌉"
+			type: "checkmark"
+		}]
+		x: 0.0d
+		y: -2.0d
+	}]
 	title: "抵达根源之路"
 }

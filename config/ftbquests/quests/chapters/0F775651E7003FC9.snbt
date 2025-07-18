@@ -1,11 +1,163 @@
 {
 	default_hide_dependency_lines: false
-	default_quest_shape: ""
+	default_quest_shape: "hexagon"
 	filename: "0F775651E7003FC9"
 	group: "74CAFADDC96D0BF3"
+	hide_quest_details_until_startable: true
+	hide_quest_until_deps_complete: true
+	hide_quest_until_deps_visible: true
+	icon: "kubejs:point_kether"
 	id: "0F775651E7003FC9"
 	order_index: 0
 	quest_links: [ ]
-	quests: [ ]
+	quests: [
+		{
+			dependencies: ["1F12C58DD155769C"]
+			id: "23AE87786B0DFCD6"
+			size: 1.1d
+			tasks: [{
+				id: "3740E9A99FBBE0E5"
+				item: "kubejs:point_malkuth"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["23AE87786B0DFCD6"]
+			id: "4473531F3AD2ECAE"
+			size: 1.1d
+			tasks: [{
+				id: "4A613DE0CF9AE8DF"
+				item: "kubejs:point_yesod"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"4473531F3AD2ECAE"
+				"23AE87786B0DFCD6"
+			]
+			id: "685B852508551428"
+			size: 1.1d
+			tasks: [{
+				id: "273E9A2FEFD08765"
+				item: "kubejs:point_hod"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"4473531F3AD2ECAE"
+				"23AE87786B0DFCD6"
+			]
+			id: "31929FC61AF2B563"
+			size: 1.1d
+			tasks: [{
+				id: "6F48A7A09C011955"
+				item: "kubejs:point_netzach"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"4473531F3AD2ECAE"
+				"685B852508551428"
+				"31929FC61AF2B563"
+			]
+			id: "559ADD41679EA110"
+			size: 1.1d
+			tasks: [{
+				id: "2448F633A048A112"
+				item: "kubejs:point_tiphareth"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"685B852508551428"
+				"559ADD41679EA110"
+			]
+			id: "4275401F32963529"
+			size: 1.1d
+			tasks: [{
+				id: "38AFFD9AF05764C6"
+				item: "kubejs:point_geburah"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"559ADD41679EA110"
+				"31929FC61AF2B563"
+			]
+			id: "5D360138DA2953BA"
+			size: 1.1d
+			tasks: [{
+				id: "19935ED0181ECB2F"
+				item: "kubejs:point_chesed"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"559ADD41679EA110"
+				"4275401F32963529"
+			]
+			id: "52ADB48F137FA0ED"
+			size: 1.1d
+			tasks: [{
+				id: "6D9150F537A99F92"
+				item: "kubejs:point_binah"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -8.5d
+		}
+		{
+			dependencies: [
+				"559ADD41679EA110"
+				"5D360138DA2953BA"
+			]
+			id: "1F666A0B1514E31D"
+			size: 1.1d
+			tasks: [{
+				id: "3D0EE97FD9D0E49D"
+				item: "kubejs:point_chokmah"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -8.5d
+		}
+		{
+			dependencies: [
+				"52ADB48F137FA0ED"
+				"1F666A0B1514E31D"
+				"559ADD41679EA110"
+			]
+			id: "5F2D813971769D3C"
+			size: 1.1d
+			tasks: [{
+				id: "0568BDAF24F3E5C6"
+				item: "kubejs:point_kether"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -10.0d
+		}
+	]
+	require_sequential_tasks: true
 	title: "攀上生命的高枝"
 }

@@ -1,0 +1,11 @@
+{
+    "name": "book.treeoflife.name",
+    "landing_text": "book.treeoflife.landing",
+    "subtitle": "book.treeoflife.subtitle",
+	"book_texture": "patchouli:textures/gui/book_purple.png",
+	"model": "kubejs:book",
+	"show_progress": true,
+	"creative_tab": "tools_and_utilities",
+	"use_blocky_font": false,
+    "use_resource_pack": true
+}

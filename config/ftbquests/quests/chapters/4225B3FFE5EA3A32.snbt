@@ -3,6 +3,13 @@
 	default_quest_shape: ""
 	filename: "4225B3FFE5EA3A32"
 	group: "3ABDF31F958CFAA4"
+	icon: {
+		Count: 1
+		id: "rainbowcompound:rainbow_sword"
+		tag: {
+			Damage: 0
+		}
+	}
 	id: "4225B3FFE5EA3A32"
 	order_index: 2
 	quest_links: [ ]

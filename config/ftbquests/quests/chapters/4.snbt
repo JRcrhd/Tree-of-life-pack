@@ -1,0 +1,12 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "4"
+	group: "3656E883C130894D"
+	icon: "ae2:wireless_receiver"
+	id: "33006A281D8B649A"
+	order_index: 3
+	quest_links: [ ]
+	quests: [ ]
+	title: "4、信息时代"
+}
