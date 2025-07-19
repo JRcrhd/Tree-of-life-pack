@@ -995,6 +995,11 @@ hash = "4ee6b38fbd604374f4703b852ebe2119c6493ae09b88f6398ab256e423bd5d4a"
 metafile = true
 
 [[files]]
+file = "mods/ore-stages-reborn.pw.toml"
+hash = "81a4574ef68deafd4b98e3944c137c99acffb6c90c077f41db3c8942792c09b3"
+metafile = true
+
+[[files]]
 file = "mods/patchouli.pw.toml"
 hash = "55c6d0b8ee25fd6a37a964805de3d2eab3f20d73a88ba77a63b4a51fd985d9dd"
 metafile = true
@@ -1296,6 +1301,11 @@ metafile = true
 [[files]]
 file = "resourcepacks/low-on-fire.pw.toml"
 hash = "98520d370f14406836b850e9ca58debe0b5e25475279d7f2a46b1c3151b222a8"
+metafile = true
+
+[[files]]
+file = "resourcepacks/music-and-melody.pw.toml"
+hash = "32241726bc3be7bafc106d965837565e41d08a61a49d75d0da407cde8a656e12"
 metafile = true
 
 [[files]]

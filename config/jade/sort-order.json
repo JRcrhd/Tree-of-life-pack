@@ -31,6 +31,8 @@
   "jade:mod_name": null,
   "jade:object_name": null,
   "jade:registry_name": null,
+  "lightmanscurrency:model_variant": null,
+  "lightmanscurrency:paygate": null,
   "mekanism:data_provider": null,
   "mekanism:entity_data_provider": null,
   "mekanism:remove_builtin": null,

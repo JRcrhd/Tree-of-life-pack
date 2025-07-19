@@ -51,18 +51,10 @@
     "painting": true,
     "chiseled_bookshelf": true
   },
-  "projecte": {
-    "emc_provider": true
-  },
-  "mekanism": {
-    "infuse_type": true,
-    "gas": true,
-    "remove_builtin": true,
-    "pigment": true,
-    "fluid": true,
-    "slurry": true,
-    "energy": true,
-    "tooltip_renderer": true
+  "lightmanscurrency": {
+    "model_variant": true,
+    "model_variant.locked": false,
+    "paygate": true
   },
   "pneumaticcraft": {
     "pneumatic": true,
@@ -72,9 +64,6 @@
     "camo": true,
     "semiblock": true
   },
-  "supplementaries": {
-    "hat_stand": true
-  },
   "jade": {
     "coordinates.rel": false,
     "distance": false,
@@ -83,27 +72,10 @@
     "registry_name": "OFF",
     "mod_name": true
   },
-  "petrolpark": {
-    "contamination": true
-  },
   "apotheosis": {
     "adventure": true,
     "ench": true,
     "spawner": true
-  },
-  "waystones": {
-    "waystone": true
-  },
-  "goety": {
-    "block_owner": true,
-    "soul_energy": true,
-    "raider_leader": true,
-    "servant_mode": true,
-    "zombie_villager": true,
-    "villager_profession": true,
-    "train_to": true,
-    "summon_lifespan": true,
-    "trainable": true
   },
   "balm": {
     "jade": true
@@ -119,5 +91,38 @@
     "power_storage": true,
     "crafting_monitor": true,
     "part_name": true
+  },
+  "projecte": {
+    "emc_provider": true
+  },
+  "mekanism": {
+    "infuse_type": true,
+    "gas": true,
+    "remove_builtin": true,
+    "pigment": true,
+    "fluid": true,
+    "slurry": true,
+    "energy": true,
+    "tooltip_renderer": true
+  },
+  "supplementaries": {
+    "hat_stand": true
+  },
+  "petrolpark": {
+    "contamination": true
+  },
+  "waystones": {
+    "waystone": true
+  },
+  "goety": {
+    "block_owner": true,
+    "soul_energy": true,
+    "raider_leader": true,
+    "servant_mode": true,
+    "zombie_villager": true,
+    "villager_profession": true,
+    "train_to": true,
+    "summon_lifespan": true,
+    "trainable": true
   }
 }
