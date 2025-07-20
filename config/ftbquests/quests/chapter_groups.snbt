@@ -1,8 +1,8 @@
 {
 	chapter_groups: [
-		{ id: "74CAFADDC96D0BF3", title: "长路漫漫" }
-		{ id: "22377F0FB58061A0", title: "学海无涯" }
-		{ id: "3656E883C130894D", title: "工造万物" }
-		{ id: "3ABDF31F958CFAA4", title: "芸芸众生" }
+		{ id: "74CAFADDC96D0BF3", title: "§7§l长路漫漫" }
+		{ id: "22377F0FB58061A0", title: "§3§l学海无涯" }
+		{ id: "3656E883C130894D", title: "§6§l工造万物" }
+		{ id: "3ABDF31F958CFAA4", title: "§a§l芸芸众生" }
 	]
 }

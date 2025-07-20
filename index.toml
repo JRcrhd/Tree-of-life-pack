@@ -575,8 +575,18 @@ hash = "5cf8a06431f16a18dc468baae3fbdf17cc1d72b9697da58cb126342ed937aa59"
 metafile = true
 
 [[files]]
+file = "mods/ct-overhaul-village.pw.toml"
+hash = "96b92f9d6c4b3866ba018a99d7b01e07b12aca02e74dfdc6407c45c1af2b4d19"
+metafile = true
+
+[[files]]
 file = "mods/curios.pw.toml"
 hash = "9eefd607e0d54ec444e798ccdeede1a09a3939440bd1e11c11b84c07a5134be2"
+metafile = true
+
+[[files]]
+file = "mods/delightful.pw.toml"
+hash = "30a0c2c3aa7a3532c3f2121c2aa67ae03fb953cd18e858077a4643bd9bd7bc2d"
 metafile = true
 
 [[files]]
@@ -587,6 +597,11 @@ metafile = true
 [[files]]
 file = "mods/diet.pw.toml"
 hash = "e83fca1fae930c9513c107527d4618a8832f8b9e779e1d50b1e63e148073f83d"
+metafile = true
+
+[[files]]
+file = "mods/ding.pw.toml"
+hash = "2fcea0bdf1c046a408cf5b2fb163a0cfbb826ba221a0fa1bec74e4df25b040ff"
 metafile = true
 
 [[files]]
@@ -670,6 +685,11 @@ hash = "7c2db6d1f9151abb1f5bfb898dace19701884c3256a6dca567f3953db9ac3a08"
 metafile = true
 
 [[files]]
+file = "mods/framework.pw.toml"
+hash = "376f8a190f00bd120193d7a665ebe1b03dfe329cc395f7d944f7216c1182c84d"
+metafile = true
+
+[[files]]
 file = "mods/frycooks-delight.pw.toml"
 hash = "9945d033117361e5893b60e3f204e14bb7599ab0416f81f94d1f15c3a3f9b0dd"
 metafile = true
@@ -715,8 +735,8 @@ hash = "1cdb66e635537b30f9d7c5c5964be9cb9f79a65bfcd2c92d88c9a155ab17665c"
 metafile = true
 
 [[files]]
-file = "mods/game-stages.pw.toml"
-hash = "b92fa7fc7fa497f034ba2a33d031101b554ddbf9db645a60a0f0fc4a9127c4e7"
+file = "mods/game-phase.pw.toml"
+hash = "2a51d90755570c9254d53bab3798d001de48fa084f4370ffa309ffe718b5f140"
 metafile = true
 
 [[files]]
@@ -737,6 +757,11 @@ metafile = true
 [[files]]
 file = "mods/glodium.pw.toml"
 hash = "ce26e71a01dc450b60d754bc44675915e8a54f2bb6db215a76a21e43fad3d44e"
+metafile = true
+
+[[files]]
+file = "mods/goblin-traders.pw.toml"
+hash = "21767a26f0b81ce406431c8e7bef0be3d0f1b8b109b9748a5ebbda1a18417aec"
 metafile = true
 
 [[files]]
@@ -765,6 +790,11 @@ hash = "c1d1a0476c58e3c011de6f750f48eb4f48493a1b9cef7bd59c008e87e0c0984c"
 metafile = true
 
 [[files]]
+file = "mods/ichunutil.pw.toml"
+hash = "b5155604a98bb5fd86e378ebe636030ed76d799d83f98a9dbbbfcb534f503d30"
+metafile = true
+
+[[files]]
 file = "mods/idas.pw.toml"
 hash = "675609a9fb0ed19788e460191f2fba6279e56e63d702c3d506e6e1a1c0c9ffb0"
 metafile = true
@@ -777,6 +807,11 @@ metafile = true
 [[files]]
 file = "mods/immediatelyfast.pw.toml"
 hash = "835bd8b05a05ce6c0981ddc37c49e4c476aa0414cc2a5321fd9f8994193b6feb"
+metafile = true
+
+[[files]]
+file = "mods/in-control.pw.toml"
+hash = "239b4042820f3c77f2750690bac6a1ac09638f6fa6b47f3b486436e96deeb0e0"
 metafile = true
 
 [[files]]
@@ -802,11 +837,6 @@ metafile = true
 [[files]]
 file = "mods/item-highlighter.pw.toml"
 hash = "1fd7d2d0d436f2b8e61475da148bdb0dac06bdddeb6d188629785e2a2a89320d"
-metafile = true
-
-[[files]]
-file = "mods/item-stages.pw.toml"
-hash = "b83a42ce461277f78c9796b6610f19fbb131f185dd9d4385e7b319d86ae9a9c9"
 metafile = true
 
 [[files]]
@@ -940,6 +970,11 @@ hash = "95a388afd649dadaa1420d5b258aeb95b7bacc64ccab31dd541ddc29e26d21c6"
 metafile = true
 
 [[files]]
+file = "mods/more-mobgriefing-options.pw.toml"
+hash = "bbcc5eeff252777cba335e86f4405a38255152e0d82c7370cfd236171650b9f4"
+metafile = true
+
+[[files]]
 file = "mods/mouse-tweaks.pw.toml"
 hash = "679fa8f3b49b9ed3fbcb29d6ccdb99bce465faa01f9cec000464ac8d4fbe134f"
 metafile = true
@@ -992,11 +1027,6 @@ metafile = true
 [[files]]
 file = "mods/octo-lib.pw.toml"
 hash = "4ee6b38fbd604374f4703b852ebe2119c6493ae09b88f6398ab256e423bd5d4a"
-metafile = true
-
-[[files]]
-file = "mods/ore-stages-reborn.pw.toml"
-hash = "81a4574ef68deafd4b98e3944c137c99acffb6c90c077f41db3c8942792c09b3"
 metafile = true
 
 [[files]]
@@ -1150,6 +1180,11 @@ hash = "c510494fb37ced4ad2d28573bf0ac6723e6541fb6a2d362593288f7bf4ecd2bc"
 metafile = true
 
 [[files]]
+file = "mods/stalwart-dungeons.pw.toml"
+hash = "d7849f105a95077b8def2721e50871e55ea74f75d7444c1908c9603ae272b022"
+metafile = true
+
+[[files]]
 file = "mods/stellarity.pw.toml"
 hash = "b773c0b508ff3029a27062fd26df96778f4ded8087327b208f5b986d11ea881e"
 metafile = true
@@ -1192,6 +1227,11 @@ metafile = true
 [[files]]
 file = "mods/totw-modded.pw.toml"
 hash = "bec02df9321feda1e0ff9b4dcf21cc724faa3494c7e45cd68b6e81f3596a708a"
+metafile = true
+
+[[files]]
+file = "mods/towers-of-the-wild-additions.pw.toml"
+hash = "2293ec3bffb46c55674da4a8f665b887cb0352a3388dee5b304bdc11cfc103ce"
 metafile = true
 
 [[files]]
