@@ -6,30 +6,6 @@
 		"when": "onjoin",
         "result": "deny"
     },
-    {
-        "mob":"alexsmobs:centipede_head",
-		
-		"when": "onjoin",
-        "result":"deny"
-    },
-    {
-        "mob": "minecraft:bat",
-		
-		"when": "onjoin",
-        "result": "deny"
-    },
-    {
-        "mob": "alexsmobs:tusklin",
-		
-		"when": "onjoin",
-        "result": "deny"
-    },
-    {
-        "mob": "alexsmobs:mimicube",
-		
-		"when": "onjoin",
-        "result": "deny"
-    },
 	
 	//特殊生物修改
 	{

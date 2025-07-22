@@ -3,7 +3,7 @@
   "category": "gem",
   "primary": 4.7,
   "secondary": 4,
-  "tertiary": 0.5,
+  "tertiary": 0,
   "durability": 600,
   "integrityCost": 2,
   "integrityGain": 3,
@@ -14,12 +14,16 @@
     "glyph": "FFDEAD",
     "texture": "FFDEAD"
   },
+    "textures": [
+        "shiny",
+        "crude"
+    ],
   "material": {
     "items": [
       "kubejs:point_malkuth"
     ]
   },
   "requiredTools": {
-    "hammer_dig": 3
+    "hammer_dig": "minecraft:stone"
   }
 }

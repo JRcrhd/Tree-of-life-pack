@@ -9,11 +9,11 @@
     "tetra.material.dimension_alloy_overworld": "Aether Dimension Alloy",
 	
     "tetra.material.point_malkuth.prefix": "Malkuth",
-    "tetra.material.point_malkuth": "essence-malkuth",
+    "tetra.material.point_malkuth": "Malkuth",
     "tetra.material.point_yesod.prefix": "Yesod",
-    "tetra.material.point_yesod": "essence-yesod",
-    "tetra.material.point_tiphareth.prefix": "Tipareth",
-    "tetra.material.point_tiphareth": "essence-tipareth",
+    "tetra.material.point_yesod": "Yesod",
+    "tetra.material.point_tiphareth.prefix": "Tiphareth",
+    "tetra.material.point_tiphareth": "Tiphareth",
     "tetra.material.point_kether.prefix": "Kether",
-    "tetra.material.point_kether": "essence-kether"
+    "tetra.material.point_kether": "Kether"
 }

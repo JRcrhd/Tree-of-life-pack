@@ -1,15 +1,15 @@
 {
   "key": "dimension_alloy_overworld",
   "category": "metal",
-  "primary": 5,
+  "primary": 5.9,
   "secondary": 2.1,
   "tertiary": 3.0,
-  "durability": 260,
+  "durability": 460,
   "integrityCost": 2,
   "integrityGain": 4,
   "magicCapacity": 95,
   "toolLevel": "minecraft:iron",
-  "toolEfficiency": 6,
+  "toolEfficiency": 6.8,
   "tints": {
     "glyph": "2E8B57",
     "texture": "2E8B57"
@@ -24,9 +24,9 @@
     ]
 },
   "improvements": {
-    "workable": 0.7
+    "workable": 1.0
   },
   "requiredTools": {
-    "hammer_dig": 4
+    "hammer_dig": "minecraft:stone"
   }
 }

@@ -1,9 +1,9 @@
 {
   "key": "point_yesod",
   "category": "gem",
-  "primary": 4.7,
+  "primary": 4.3,
   "secondary": 6,
-  "tertiary": 1.5,
+  "tertiary": 0,
   "durability": 800,
   "integrityCost": 2,
   "integrityGain": 3,
@@ -14,12 +14,16 @@
     "glyph": "7B68EE",
     "texture": "7B68EE"
   },
+      "textures": [
+        "shiny",
+        "crude"
+    ],
   "material": {
     "items": [
       "kubejs:point_yesod"
     ]
   },
   "requiredTools": {
-    "hammer_dig": 4
+    "hammer_dig": "minecraft:iron"
   }
 }

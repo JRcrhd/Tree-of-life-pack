@@ -1,13 +1,13 @@
 {
   "key": "dimension_alloy_aether",
   "category": "metal",
-  "primary": 8,
-  "secondary": 4.0,
+  "primary": 4.6,
+  "secondary": 3.3,
   "tertiary": 4.6,
-  "durability": 1060,
+  "durability": 1560,
   "integrityCost": 2,
   "integrityGain": 7,
-  "magicCapacity": 135,
+  "magicCapacity": 145,
   "toolLevel": "minecraft:netherite",
   "toolEfficiency": 6,
   "tints": {
@@ -24,9 +24,9 @@
     ]
 },
   "improvements": {
-    "workable": 1.7
+    "workable": 3.0
   },
   "requiredTools": {
-    "hammer_dig": 7
+    "hammer_dig": "minecraft:netherite"
   }
 }

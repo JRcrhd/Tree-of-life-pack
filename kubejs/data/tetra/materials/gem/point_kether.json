@@ -3,7 +3,7 @@
   "category": "gem",
   "primary": 5.3,
   "secondary": 8,
-  "tertiary": 2.5,
+  "tertiary": 0,
   "durability": 1200,
   "integrityCost": 2,
   "integrityGain": 3,
@@ -14,12 +14,16 @@
     "glyph": "fdfdfd",
     "texture": "fdfdfd"
   },
+      "textures": [
+        "shiny",
+        "crude"
+    ],
   "material": {
     "items": [
       "kubejs:point_kether"
     ]
   },
   "requiredTools": {
-    "hammer_dig": 6
+    "hammer_dig": "minecraft:diamond"
   }
 }

@@ -3,7 +3,7 @@
   "category": "gem",
   "primary": 5.0,
   "secondary": 7,
-  "tertiary": 2.0,
+  "tertiary": 0,
   "durability": 1000,
   "integrityCost": 2,
   "integrityGain": 3,
@@ -14,12 +14,16 @@
     "glyph": "FAEBD7",
     "texture": "FAEBD7"
   },
+      "textures": [
+        "shiny",
+        "crude"
+    ],
   "material": {
     "items": [
       "kubejs:point_tiphareth"
     ]
   },
   "requiredTools": {
-    "hammer_dig": 5
+    "hammer_dig": "minecraft:diamond"
   }
 }
