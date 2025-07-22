@@ -3,11 +3,23 @@
 	default_quest_shape: ""
 	filename: "4BAFF4C1AD915C6A"
 	group: "22377F0FB58061A0"
+	hide_quest_until_deps_complete: true
 	hide_quest_until_deps_visible: true
 	icon: "kubejs:alchemy_in_phi"
 	id: "4BAFF4C1AD915C6A"
 	order_index: 1
 	quest_links: [ ]
-	quests: [ ]
+	quests: [{
+		dependencies: ["01A444FBE0404EA2"]
+		id: "7F7A011A342CDE69"
+		tasks: [{
+			id: "628ED4EBE66A372F"
+			title: "请确认"
+			type: "checkmark"
+		}]
+		title: "关于 炼金"
+		x: 0.0d
+		y: 0.0d
+	}]
 	title: "🜨炼金"
 }

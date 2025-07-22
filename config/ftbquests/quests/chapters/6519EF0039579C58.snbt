@@ -315,7 +315,7 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 14.5d
+			x: 15.0d
 			y: 9.0d
 		}
 		{
@@ -375,6 +375,21 @@
 			}]
 			x: 12.5d
 			y: 3.0d
+		}
+		{
+			dependencies: ["33E0B46142F5B7B2"]
+			id: "14AB964A091F055C"
+			tasks: [{
+				id: "3C266A502C217DC9"
+				item: {
+					Count: 1
+					id: "occultism:soul_gem"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 14.0d
+			y: 9.0d
 		}
 	]
 	title: "⚰通灵"
