@@ -1,0 +1,25 @@
+{
+  "key": "point_kether",
+  "category": "gem",
+  "primary": 5.3,
+  "secondary": 8,
+  "tertiary": 2.5,
+  "durability": 1200,
+  "integrityCost": 2,
+  "integrityGain": 3,
+  "magicCapacity": 120,
+  "toolLevel": "minecraft:netherite",
+  "toolEfficiency": 8,
+  "tints": {
+    "glyph": "fdfdfd",
+    "texture": "fdfdfd"
+  },
+  "material": {
+    "items": [
+      "kubejs:point_kether"
+    ]
+  },
+  "requiredTools": {
+    "hammer_dig": 6
+  }
+}

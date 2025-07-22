@@ -1,0 +1,9 @@
+[
+	//删除
+	{
+		"mob": ["minecraft:drowned","minecraft:zombie"],
+		"remove": "minecraft:diamond_sword"
+	}
+	
+	//添加
+]

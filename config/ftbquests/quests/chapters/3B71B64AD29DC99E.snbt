@@ -12,6 +12,7 @@
 	quests: [{
 		dependencies: ["1F12C58DD155769C"]
 		id: "01A444FBE0404EA2"
+		shape: "diamond"
 		tasks: [{
 			id: "0B40EA3447EBA508"
 			title: "关于 ⌊熵⌉"

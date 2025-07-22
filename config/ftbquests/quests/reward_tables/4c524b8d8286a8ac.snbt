@@ -1,0 +1,13 @@
+{
+	icon: "minecraft:chest"
+	id: "4C524B8D8286A8AC"
+	loot_size: 1
+	order_index: 0
+	rewards: [
+		{ item: "lightmanscurrency:coin_copper" }
+		{ count: 8, item: "minecraft:coal" }
+		{ count: 8, item: "minecraft:cobblestone" }
+		{ count: 8, item: "minecraft:stripped_oak_wood" }
+	]
+	title: "基础奖励"
+}

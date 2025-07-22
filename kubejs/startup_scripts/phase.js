@@ -10,6 +10,7 @@ StartupEvents.postInit(e => {
     GamePhase.addItemModRestriction("assiah", "pneumaticcraft");
     GamePhase.addItemModRestriction("assiah", "cccbridge");
     GamePhase.addItemModRestriction("assiah", "computercraft");
+	GamePhase.addDimensionRestriction("assiah", "minecraft:nether");	
 	
 	GamePhase.addItemModRestriction("yetzirah", "ae2");
     GamePhase.addItemModRestriction("yetzirah", "appliede");
@@ -19,8 +20,9 @@ StartupEvents.postInit(e => {
     GamePhase.addItemModRestriction("yetzirah", "merequester");
     GamePhase.addItemModRestriction("yetzirah", "mekanism");
     GamePhase.addItemModRestriction("yetzirah", "mekanism_extras");
-	GamePhase.addDimensionRestriction("yetzirah", "minecraft:nether");
+	GamePhase.addDimensionRestriction("yetzirah", "minecraft:the_end");
 	
 	GamePhase.addItemModRestriction("beriah", "projecte");
-	GamePhase.addDimensionRestriction("beriah", "minecraft:the_end");
+	GamePhase.addDimensionRestriction("beriah", "aether:the_aether");
+    GamePhase.addItemRestriction("beriah", "kubejs:emerald_tablet");
 });

@@ -1,0 +1,27 @@
+{
+	icon: "minecraft:grass_block"
+	id: "12FAD564835C32A2"
+	loot_crate: {
+		color: 0
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		item_name: "assiah reward"
+		string_id: "assiah_"
+	}
+	loot_size: 1
+	order_index: 1
+	rewards: [
+		{ count: 2, item: "minecraft:iron_ingot" }
+		{ count: 3, item: "minecraft:copper_ingot" }
+		{ count: 2, item: "minecraft:amethyst_shard" }
+		{ count: 2, item: "lightmanscurrency:coin_copper" }
+		{ item: "minecraft:slime_ball" }
+		{ count: 8, item: "minecraft:andesite" }
+		{ count: 4, item: "minecraft:cooked_beef" }
+		{ count: 6, item: "minecraft:redstone" }
+	]
+	title: "Assiah 阶段奖励"
+}

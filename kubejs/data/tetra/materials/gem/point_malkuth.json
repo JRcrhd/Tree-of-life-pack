@@ -1,0 +1,25 @@
+{
+  "key": "point_malkuth",
+  "category": "gem",
+  "primary": 4.7,
+  "secondary": 4,
+  "tertiary": 0.5,
+  "durability": 600,
+  "integrityCost": 2,
+  "integrityGain": 3,
+  "magicCapacity": 40,
+  "toolLevel": "minecraft:stone",
+  "toolEfficiency": 6,
+  "tints": {
+    "glyph": "FFDEAD",
+    "texture": "FFDEAD"
+  },
+  "material": {
+    "items": [
+      "kubejs:point_malkuth"
+    ]
+  },
+  "requiredTools": {
+    "hammer_dig": 3
+  }
+}

@@ -3,6 +3,7 @@
 	default_quest_shape: ""
 	filename: "atziluth"
 	group: "74CAFADDC96D0BF3"
+	icon: "forbidden_arcanus:divine_pact"
 	id: "6C6AFC0D0E2C305C"
 	order_index: 4
 	quest_links: [ ]

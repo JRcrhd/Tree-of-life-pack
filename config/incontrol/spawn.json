@@ -1,0 +1,486 @@
+[	
+	//禁用
+    {
+        "mob": "minecraft:squid",
+		
+		"when": "onjoin",
+        "result": "deny"
+    },
+    {
+        "mob":"alexsmobs:centipede_head",
+		
+		"when": "onjoin",
+        "result":"deny"
+    },
+    {
+        "mob": "minecraft:bat",
+		
+		"when": "onjoin",
+        "result": "deny"
+    },
+    {
+        "mob": "alexsmobs:tusklin",
+		
+		"when": "onjoin",
+        "result": "deny"
+    },
+    {
+        "mob": "alexsmobs:mimicube",
+		
+		"when": "onjoin",
+        "result": "deny"
+    },
+	
+	//特殊生物修改
+	{
+		"mob": "goblintraders:goblin_trader",
+		"potion": "minecraft:fire_resistance,1200,1",
+		"healthmultiply": 2,
+		
+		"when": "onjoin",
+		"result": "default"
+    },
+    {
+		"mob": "goblintraders:vein_goblin_trader",
+		"potion": "minecraft:fire_resistance,1200,1",
+		"healthmultiply": 2,
+		
+		"when": "onjoin",
+		"result": "default"
+    },
+	{
+        "mob": "guardvillagers:guard",
+        "healthmultiply": 4,
+		"damageadd": 5,
+		"armoradd": 2.0,
+		
+		"when": "onjoin",
+        "result": "default"
+    },
+	{
+        "mob": "minecraft:villager",
+        "healthmultiply": 3,
+		
+		"when": "onjoin",
+        "result": "default"
+    },
+	{
+        "mob": "minecraft:zombie_villager",
+        "helditem":["3=minecraft:iron_sword", "2=minecraft:golden_sword", "1=minecraft:diamond_sword"],
+        "healthmultiply": 1.6,
+        "damageadd": 1,
+        
+		"when": "onjoin",
+        "result": "default"
+    },
+	{
+		"mob": "minecraft:iron_golem",
+		"damageadd": 10,
+		"speedmultiply": 1.2,
+		
+		"when": "onjoin",
+		"result": "default"
+    },
+	{
+		"mob": "minecraft:drowned",
+		"helditem":["3=minecraft:trident","1=minecraft:iron_sword","2=minecraft:diamond_sword"],
+		"healthmultiply": 1.6,
+		"damageadd": 1,
+
+		"when": "onjoin",
+		"result": "default"
+    },
+	{
+		"mob": "minecraft:zombie",
+		"helditem":["1=minecraft:iron_sword","3=minecraft:stone_sword","2=minecraft:golden_sword"],
+		"healthmultiply": 1.4,
+		"damageadd": -0.5,
+
+		"when": "onjoin",
+		"result": "default"
+    },
+	{
+		"mob": "minecraft:wither_skeleton",
+		"healthmultiply": 2.0,
+		"damagemultiply": 0.5,
+		"helditem":["14=minecraft:diamond_sword", "3=minecraft:diamond_pickaxe", "2=minecraft:iron_axe", "1=minecraft:golden_axe"],
+
+		"when": "onjoin",
+		"result": "default"
+    },
+	{
+        "mob": "bygonenether:warped_enderman",
+        "mincount": {
+			"amount": 2,
+			"perplayer": true
+		},
+        "result": "deny"
+     },
+	{
+		"mob": "bygonenether:corpor",
+		"healthmultiply": 2.0,
+		"damagemultiply": 0.5,
+		"helditem":["1=minecraft:diamond_pickaxe", "2=minecraft:diamond_axe", "2=minecraft:golden_axe"],
+		
+		"when": "onjoin",
+		"result": "default"
+    },
+	{
+		"mob": "bygonenether:wither_skeleton_knight",
+		"healthmultiply": 1.8,
+		"damagemultiply": 0.5,
+		
+		"when": "onjoin",
+		"result": "default"
+    },
+	{
+		"mob": "bygonenether:wraither",
+		"healthmultiply": 1.6,
+		"damagemultiply": 0.6,
+		
+		"when": "onjoin",
+		"result": "default"
+    },
+    {
+		"mob": "minecraft:enderman",
+		"healthmultiply": 1.8,
+		"damagemultiply": 0.5,
+      
+		"when": "onjoin",
+		"result": "default"
+    },
+	{
+		"mob": "minecraft:skeleton",
+		"helditem":["2=minecraft:iron_sword", "2=minecraft:iron_shovel", "1=minecraft:iron_pickaxe", "1=minecraft:iron_axe","3=minecraft:bow"],
+		"healthmultiply": 1.4,
+		"healthadd": 2.0,
+
+		"when": "onjoin",
+		"result": "allow"
+    },
+    {
+		"mob": "minecraft:creeper",
+		"healthmultiply": 1.2,
+		"healthadd": 1.5,
+      
+		"when": "onjoin",
+		"result": "default"
+    },
+	{
+		"mob": "minecraft:husk",
+		"healthmultiply": 1.6,
+		"healthadd": 3.0,
+		"damageadd": 2,
+
+		"when": "onjoin",
+		"result": "default"
+    },
+    {
+		"mob": "minecraft:spider",
+		"healthmultiply": 1.4,
+		"healthadd": 1.5,
+		"damageadd": 2,
+      
+		"when": "onjoin",
+		"result": "default"
+    },
+    {
+		"mob": "minecraft:piglin_brute",
+		"healthmultiply": 1.6,
+		"damageadd": -3,
+      
+		"when": "onjoin",
+		"result": "default"
+    },
+    {
+		"mob": "minecraft:piglin",
+		"healthmultiply": 4,
+      
+		"when": "onjoin",
+		"result": "default"
+    },
+    {
+		"mob": "minecraft:vindicator",
+		"damageadd": -1,
+      
+		"when": "onjoin",
+		"result": "default"
+    },
+    {
+		"mob": "minecraft:pillager",
+		"healthmultiply": 1.6,
+
+		"when": "onjoin",
+		"result": "default"
+    },
+    {
+		"mob": "minecraft:evoker",
+		"healthadd": 2.5,
+		"speedmultiply": 0.9,
+
+		"when": "onjoin",
+		"result": "default"
+    },
+	{
+        "mob": "quark:forgotten",
+        "helditem":"minecraft:bow",
+        "healthadd":3.5,
+
+		"when": "onjoin",
+		"result": "allow"
+    },
+    {
+		"mob": "minecraft:vex",
+		"healthmultiply": 0.5,
+		"damagemultiply": 0.1,
+		
+		"when": "onjoin",
+		"result": "default"
+    },
+	
+	//boss强化
+	{
+		"mob": "minecraft:ender_dragon",
+		"healthmultiply": 2.5,
+		"damageadd": 50,
+		"speedmultiply": 1.2,
+      
+		"when": "onjoin",
+		"result": "default"
+    },
+	{
+		"mob": "minecraft:elder_guardian",
+		"healthmultiply": 1.2,
+
+		"when": "onjoin",
+		"result": "default"
+    },
+    {
+		"mob": "minecraft:wither",
+		"healthmultiply":2.0,
+		"damageadd": 15,
+
+		"when": "onjoin",
+		"result": "default"
+    },
+	{
+        "mob": "cataclysm:ender_guardian",
+        "healthadd":20,
+        "speedmultiply":1.25,
+
+		"when": "onjoin",
+        "result": "allow"
+    },
+    {
+        "mob": "cataclysm:ignis",
+        "healthmultiply":0.5,
+        "speedmultiply":1.1,
+        "damageadd":-100,
+
+		"when": "onjoin",
+        "result": "allow"
+    },
+    {
+        "mob": "cataclysm:netherite_monstrosity",
+        "healthmultiply":0.5,
+        "damageadd": 6,
+
+		"when": "onjoin",
+        "result": "allow"
+    },
+    {
+        "mob": "cataclysm:ignited_revenant",
+        "speedmultiply":1.1,
+        "damageadd":2,
+
+		"when": "onjoin",
+        "result": "allow"
+    },
+	{
+        "mob": "goety:apostle",
+        "speedmultiply":0.9,
+        "damageadd":-1,
+
+		"when": "onjoin",
+        "result": "default"
+	},
+	{
+        "mob": "goety:vizier",
+        "healthmultiply":1.5,
+        "damageadd":2,
+
+		"when": "onjoin",
+        "result": "default"
+	},
+	{
+        "mob": "goety:hostile_redstone_golem",
+        "damageadd":-10,
+
+		"when": "onjoin",
+        "result": "default"
+	},
+	{
+        "mob": "goety:crone",
+        "damageadd":7,
+
+		"when": "onjoin",
+        "result": "default"
+	},
+	{
+        "mob": "goety:skull_lord",
+        "healthmultiply":1.5,
+
+		"when": "onjoin",
+        "result": "default"
+	},
+	{
+        "mob": "cataclysm:the_harbinger",
+        "damageadd":5,
+
+		"when": "onjoin",
+        "result": "default"
+	},
+	{
+        "mob": "cataclysm:the_leviathan",
+        "healthmultiply":1.5,
+        "damageadd":-5,
+        "speedmultiply":1.1,
+
+		"when": "onjoin",
+        "result": "default"
+	},
+	{
+        "mob": "cataclysm:ancient_remnant",
+        "healthmultiply":1.5,
+        "speedmultiply":1.2,
+
+		"when": "onjoin",
+        "result": "default"
+	},
+	{
+        "mob": "cataclysm:maledictus",
+        "healthmultiply":0.8,
+        "damageadd":-7,
+
+		"when": "onjoin",
+        "result": "default"
+	},
+	{
+        "mob": "cataclysm:scylla",
+        "healthmultiply":1.3,
+        "damageadd":-5,
+
+		"when": "onjoin",
+        "result": "default"
+	},
+	{
+        "mob": "aether:slider",
+        "healthmultiply":1.5,
+        "damageadd":15,
+
+		"when": "onjoin",
+        "result": "default"
+	},
+	{
+        "mob": "aether:valkyrie_queen",
+        "healthmultiply":3.0,
+        "speedmultiply":1.1,
+        "damageadd":17,
+
+		"when": "onjoin",
+        "result": "default"
+	},
+	{
+        "mob": "aether:sun_spirit",
+        "healthmultiply":3.5,
+        "speedmultiply":0.9,
+        "damageadd":12,
+
+		"when": "onjoin",
+        "result": "default"
+	},
+	{
+        "mob": "occultism:afrit_wild",
+        "healthmultiply":4.0,
+        "speedmultiply":1.2,
+        "damageadd":8,
+
+		"when": "onjoin",
+        "result": "default"
+	},
+		//统一设置
+	{
+		"dimension": [
+            "minecraft:overworld"
+        ],
+        "healthmultiply": 1.5,
+		"damageadd": 1,
+		
+		"when": "onjoin",
+		"result": "default"
+	},
+	{
+		"dimension": [
+            "minecraft:nether"
+        ],
+        "healthmultiply": 2.0,
+		"armoradd": 1.0,
+        "armortoughnessadd": 1.0,
+		"damageadd": 3,
+		
+		"when": "onjoin",
+		"result": "default"
+	},
+	{
+		"dimension": [
+            "minecraft:the_end"
+        ],
+        "healthmultiply": 5.0,
+		"armoradd": 3.0,
+        "armortoughnessadd": 3.0,
+		"damageadd": 7,
+		
+		"when": "onjoin",
+		"result": "default"
+	},
+	{
+		"dimension": [
+            "aether:the_aether"
+        ],
+		"hostile":true,
+        "healthmultiply": 10.0,
+		"armoradd": 5.0,
+        "armortoughnessadd": 5.0,
+		"damageadd": 10,
+		
+		"when": "onjoin",
+		"result": "default"
+	},
+	{
+		"dimension": [
+            "aether:the_aether"
+        ],
+		"passive":true,
+        "healthmultiply": 12.0,
+		"armoradd": 5.0,
+        "armortoughnessadd": 5.0,
+		"damageadd": 10,
+		
+		"when": "onjoin",
+		"result": "default"
+	},
+	{
+		"dimension": [
+            "aether:the_aether"
+        ],
+		"passive":false,
+		"hostile":false,
+        "healthmultiply": 12.0,
+		"armoradd": 5.0,
+        "armortoughnessadd": 5.0,
+		"damageadd": 10,
+		
+		"when": "onjoin",
+		"result": "default"
+	}
+]

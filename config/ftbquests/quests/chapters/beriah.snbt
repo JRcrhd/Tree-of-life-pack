@@ -3,6 +3,7 @@
 	default_quest_shape: ""
 	filename: "beriah"
 	group: "74CAFADDC96D0BF3"
+	icon: "destroy:creative_pump"
 	id: "14F581E27C69F6F9"
 	order_index: 3
 	quest_links: [ ]

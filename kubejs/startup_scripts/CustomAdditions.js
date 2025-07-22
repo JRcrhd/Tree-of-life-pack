@@ -15,10 +15,25 @@ StartupEvents.registry('item', treeoflife => {
     treeoflife.create('point_chokmah').displayName('智慧——Chokmah').glow(true).texture('kubejs:item/point/chokmah').tag('treeoflife:point');
     treeoflife.create('point_binah').displayName('理解——Binah').glow(true).texture('kubejs:item/point/binah').tag('treeoflife:point');
     treeoflife.create('point_kether').displayName('王冠——Kether').glow(true).texture('kubejs:item/point/kether').tag('treeoflife:point');
+	
+	treeoflife.create('template_assiah').displayName('Assiah晋升模板').texture('kubejs:item/point/assiah_template').tag('treeoflife:template');
+	treeoflife.create('template_yetzirah').displayName('Yetzirah晋升模板').texture('kubejs:item/point/yetzirah_template').tag('treeoflife:template');
+	treeoflife.create('template_beriah').displayName('Beriah晋升模板').texture('kubejs:item/point/beriah_template').tag('treeoflife:template');
+	treeoflife.create('template_atziluth').displayName('Atziluth晋升模板').texture('kubejs:item/point/atziluth_template').tag('treeoflife:template');
+	
+	treeoflife.create('dimension_alloy_overworld').displayName('主世界维度合金').texture('kubejs:item/point/dimension_alloy_overworld').tag('treeoflife:dimension_alloy').tag('forge:ingots');
+	treeoflife.create('dimension_alloy_nether').displayName('下界维度合金').texture('kubejs:item/point/dimension_alloy_nether').tag('treeoflife:dimension_alloy').tag('forge:ingots');
+	treeoflife.create('dimension_alloy_the_end').displayName('末地维度合金').texture('kubejs:item/point/dimension_alloy_the_end').tag('treeoflife:dimension_alloy').tag('forge:ingots');
+	treeoflife.create('dimension_alloy_aether').displayName('以太维度合金').texture('kubejs:item/point/dimension_alloy_aether').tag('treeoflife:dimension_alloy').tag('forge:ingots');
 
 	treeoflife.create('alchemy').displayName('炼金').texture('kubejs:item/alchemy/icon');
 	treeoflife.create('clairvoyance').displayName('通灵').texture('kubejs:item/clairvoyance/icon');
 	treeoflife.create('divination').displayName('占卜').texture('kubejs:item/divination/icon');
+
+	treeoflife.create('emerald_tablet').displayName('《翠玉录》').glow(true).texture('kubejs:item/emerald_tablet');
+    treeoflife.create('emerald_tablet_piece_1').displayName('翡翠石板碎片——1').texture('kubejs:item/emerald_tablet_piece_1');
+    treeoflife.create('emerald_tablet_piece_2').displayName('翡翠石板碎片——2').texture('kubejs:item/emerald_tablet_piece_2');
+    treeoflife.create('emerald_tablet_piece_3').displayName('翡翠石板碎片——3').texture('kubejs:item/emerald_tablet_piece_3');
 
     treeoflife.create('alchemy_black').displayName('黑化').glow(true).texture('kubejs:item/alchemy/black');
     treeoflife.create('alchemy_white').displayName('白化').glow(true).texture('kubejs:item/alchemy/white');

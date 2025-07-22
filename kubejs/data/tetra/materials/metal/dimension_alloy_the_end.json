@@ -1,0 +1,32 @@
+{
+  "key": "dimension_alloy_the_end",
+  "category": "metal",
+  "primary": 6.5,
+  "secondary": 3.7,
+  "tertiary": 4.2,
+  "durability": 860,
+  "integrityCost": 2,
+  "integrityGain": 6,
+  "magicCapacity": 115,
+  "toolLevel": "minecraft:diamond",
+  "toolEfficiency": 6.5,
+  "tints": {
+    "glyph": "fe4ffd",
+    "texture": "fe4ffd"
+  },
+  "textures": [
+    "metal",
+    "shiny"
+  ],
+  "material":{
+	"items": [
+		"kubejs:dimension_alloy_the_end"
+    ]
+},
+  "improvements": {
+    "workable": 1.7
+  },
+  "requiredTools": {
+    "hammer_dig": 6
+  }
+}

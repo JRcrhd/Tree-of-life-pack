@@ -3,11 +3,379 @@
 	default_quest_shape: ""
 	filename: "6519EF0039579C58"
 	group: "22377F0FB58061A0"
+	hide_quest_until_deps_complete: true
 	hide_quest_until_deps_visible: true
 	icon: "occultism:ritual_dummy/summon_demonic_wife"
 	id: "6519EF0039579C58"
 	order_index: 3
+	progression_mode: "flexible"
 	quest_links: [ ]
-	quests: [ ]
+	quests: [
+		{
+			dependencies: ["3B71B64AD29DC99E"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "occultism:item/soul_gem"
+				}
+			}
+			id: "5316DF321B45D2CA"
+			rewards: [{
+				id: "042DA96F1C15434A"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "diamond"
+			size: 2.0d
+			tasks: [{
+				id: "4B0A4027FACE9108"
+				item: "occultism:datura_seeds"
+				type: "item"
+			}]
+			title: "关于 通灵"
+			x: 5.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["5316DF321B45D2CA"]
+			id: "47358ADC1470C82A"
+			rewards: [{
+				id: "3BB86ECD39545201"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "短暂地看到彼岸灯火"
+			tasks: [{
+				id: "0008773503CCA262"
+				item: "occultism:datura"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["47358ADC1470C82A"]
+			description: [
+				"点燃梦果"
+				""
+				"burn the datura"
+			]
+			id: "3D41D0092D94636B"
+			progression_mode: "linear"
+			rewards: [
+				{
+					count: 2
+					id: "5248E4D377A75048"
+					item: "occultism:datura"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "70852D7A479998AA"
+					type: "xp"
+					xp: 10
+				}
+				{
+					icon: "minecraft:grass_block"
+					id: "2FFE3DB886B30796"
+					table_id: 1367640064537670306L
+					type: "random"
+				}
+			]
+			shape: "square"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "occultism:block/spirit_fire_1"
+					}
+				}
+				id: "070E5E92D50F02D1"
+				observe_type: 0
+				timer: 0L
+				to_observe: "occultism:spirit_fire"
+				type: "observation"
+			}]
+			x: 8.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["3D41D0092D94636B"]
+			dependency_requirement: "one_completed"
+			description: [
+				"在第三只眼状态下，原本寻常的物品可能出现变化。"
+				""
+				"Things may change in the third eye effect."
+			]
+			hide_until_deps_visible: false
+			id: "4C873491F6F0FFAF"
+			min_width: 300
+			rewards: [
+				{
+					id: "70EE0C205B5B9BAC"
+					type: "xp"
+					xp: 50
+				}
+				{
+					exclude_from_claim_all: true
+					id: "156CCC976E663623"
+					type: "loot"
+				}
+			]
+			tasks: [
+				{
+					id: "6656AD567687385A"
+					item: "occultism:otherstone"
+					type: "item"
+				}
+				{
+					id: "2A1C88D9C4546A36"
+					item: {
+						Count: 1
+						id: "occultism:otherworld_sapling_natural"
+						tag: {
+							isInventoryItem: 1b
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "275C2B11FEFF527D"
+					item: "occultism:spirit_attuned_gem"
+					type: "item"
+				}
+			]
+			title: "异界物品"
+			x: 8.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["3D41D0092D94636B"]
+			id: "78ECC28DD4BA9696"
+			tasks: [{
+				id: "13EAA435B27EA29D"
+				item: {
+					Count: 1
+					id: "occultism:divination_rod"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 10.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["4C873491F6F0FFAF"]
+			id: "36D2DEEDF42CFB72"
+			rewards: [{
+				icon: "minecraft:grass_block"
+				id: "0D6FD9B12F644E15"
+				table_id: 1367640064537670306L
+				type: "random"
+			}]
+			tasks: [{
+				id: "5849C6112CD2DBF3"
+				item: {
+					Count: 1
+					id: "occultism:chalk_white"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 10.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["5316DF321B45D2CA"]
+			hide_dependency_lines: true
+			id: "5D9DEB8326C8A358"
+			tasks: [{
+				id: "332EA5B0720E65E2"
+				item: "occultism:brush"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["36D2DEEDF42CFB72"]
+			id: "5F76FB1F88CE9DC5"
+			tasks: [{
+				id: "1D4CBC067C71075B"
+				item: {
+					Count: 1
+					id: "occultism:chalk_gold"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 12.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["5F76FB1F88CE9DC5"]
+			id: "33E0B46142F5B7B2"
+			tasks: [{
+				id: "3D7E8FEB9F661BFB"
+				item: {
+					Count: 1
+					id: "occultism:chalk_purple"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 14.5d
+			y: 7.5d
+		}
+		{
+			dependencies: [
+				"33E0B46142F5B7B2"
+				"150747B6CCB16685"
+			]
+			id: "099DA5117BDEB361"
+			tasks: [{
+				id: "6CDAC7EAAB205AAA"
+				item: {
+					Count: 1
+					id: "occultism:chalk_red"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 16.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["36D2DEEDF42CFB72"]
+			description: [
+				"按书中所写画出五芒星，献上祭品，最后放上绑定之书。"
+				""
+				"Draw a pentagram as described in the book, offer sacrifices, and finally place the bound book on center bowl."
+			]
+			id: "78BA6A8D04A59D8E"
+			tasks: [
+				{
+					id: "5BDCF8E752113BE6"
+					item: "occultism:golden_sacrificial_bowl"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "1A23F1F498E66632"
+					item: { Count: 4, id: "occultism:sacrificial_bowl" }
+					type: "item"
+				}
+				{
+					id: "64781863790FBEFD"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "minecraft:candles"
+						}
+					}
+					title: "Any #minecraft:candles"
+					type: "item"
+				}
+				{
+					id: "280266632C3939DD"
+					item: {
+						Count: 1
+						id: "occultism:book_of_binding_bound_foliot"
+						tag: {
+							spiritName: "Ketcresborn"
+						}
+					}
+					match_nbt: false
+					type: "item"
+				}
+			]
+			title: "仪式准备"
+			x: 10.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["33E0B46142F5B7B2"]
+			hide_dependent_lines: true
+			id: "150747B6CCB16685"
+			tasks: [{
+				entity: "occultism:afrit_wild"
+				icon: "occultism:afrit_essence"
+				id: "38170ED62F950A65"
+				type: "kill"
+				value: 1L
+			}]
+			x: 14.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["33E0B46142F5B7B2"]
+			id: "0DE24B1271828362"
+			subtitle: "触及彼岸矿物"
+			tasks: [{
+				id: "3D279E2AFBAFFFD9"
+				item: {
+					Count: 1
+					id: "occultism:infused_pickaxe"
+					tag: {
+						Damage: 0
+						spiritName: "Feellian"
+					}
+				}
+				type: "item"
+			}]
+			x: 14.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["5F76FB1F88CE9DC5"]
+			id: "7F413DFE2B8EB3C4"
+			subtitle: "长久的彼岸视觉"
+			tasks: [{
+				id: "252D6C1A96FC7F49"
+				item: {
+					Count: 1
+					id: "occultism:otherworld_goggles"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 12.5d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"0DE24B1271828362"
+				"7F413DFE2B8EB3C4"
+				"78ECC28DD4BA9696"
+			]
+			id: "013CC01DA360F3E1"
+			rewards: [{
+				count: 2
+				id: "3EC62EA36A309E23"
+				item: "occultism:iesnium_ingot"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6A1DB23FEA5D5C24"
+				item: "occultism:iesnium_ingot"
+				type: "item"
+			}]
+			x: 12.5d
+			y: 3.0d
+		}
+	]
 	title: "⚰通灵"
 }

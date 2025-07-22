@@ -1,0 +1,25 @@
+{
+  "key": "point_tiphareth",
+  "category": "gem",
+  "primary": 5.0,
+  "secondary": 7,
+  "tertiary": 2.0,
+  "durability": 1000,
+  "integrityCost": 2,
+  "integrityGain": 3,
+  "magicCapacity": 100,
+  "toolLevel": "minecraft:diamond",
+  "toolEfficiency": 7,
+  "tints": {
+    "glyph": "FAEBD7",
+    "texture": "FAEBD7"
+  },
+  "material": {
+    "items": [
+      "kubejs:point_tiphareth"
+    ]
+  },
+  "requiredTools": {
+    "hammer_dig": 5
+  }
+}

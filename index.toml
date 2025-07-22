@@ -310,6 +310,11 @@ hash = "d5589992a807e92cddda91befdafb5a1d6dfffd7653a0310150a07fca64f3c71"
 metafile = true
 
 [[files]]
+file = "mods/aether.pw.toml"
+hash = "1aaba088a650cc1499e1871cfa92f97e3d10a9d8c612fbd784b36c12382196de"
+metafile = true
+
+[[files]]
 file = "mods/akashic-tome.pw.toml"
 hash = "9d1b15ffa15606c346ad2ed32c349fceac9863ae13b433c2aee7d026c87d4339"
 metafile = true
@@ -326,7 +331,7 @@ metafile = true
 
 [[files]]
 file = "mods/ancient-reforging.pw.toml"
-hash = "058a1ee960e276e187dd252f8a21d9669bf548816d505daf15358f943e78a389"
+hash = "673d248e970b6c7d729b49905675a7462d9acfb8188f249af545306e02199bde"
 metafile = true
 
 [[files]]
@@ -585,6 +590,11 @@ hash = "9eefd607e0d54ec444e798ccdeede1a09a3939440bd1e11c11b84c07a5134be2"
 metafile = true
 
 [[files]]
+file = "mods/deep-aether.pw.toml"
+hash = "d0305b9d8cce457b9c1ca039134ae78966a8d89e7c835653c8907195e051d906"
+metafile = true
+
+[[files]]
 file = "mods/delightful.pw.toml"
 hash = "30a0c2c3aa7a3532c3f2121c2aa67ae03fb953cd18e858077a4643bd9bd7bc2d"
 metafile = true
@@ -730,6 +740,11 @@ hash = "6a0155012732893dae42d8a7dae4df181367eaaea57296e0ca9849567e7b9b4f"
 metafile = true
 
 [[files]]
+file = "mods/ftb-xmod-compat.pw.toml"
+hash = "39e65bf3c47517cdb2f9b4b49c6632dd56db797744faaf8b1a3726b1b95aacb4"
+metafile = true
+
+[[files]]
 file = "mods/ftbchecker.pw.toml"
 hash = "1cdb66e635537b30f9d7c5c5964be9cb9f79a65bfcd2c92d88c9a155ab17665c"
 metafile = true
@@ -832,6 +847,11 @@ metafile = true
 [[files]]
 file = "mods/item-borders.pw.toml"
 hash = "5a10f11c440c870239753bae8f488ca6c251bfaf6967b55cf8666c778c333da4"
+metafile = true
+
+[[files]]
+file = "mods/item-filters.pw.toml"
+hash = "ff92eddb2bf6f1afe9fa7fc73d63ea9419e0cff77fbd4fd2936b51525fe9340c"
 metafile = true
 
 [[files]]
@@ -1195,6 +1215,11 @@ hash = "c9da4967d508a7eb7cb2bad8ffe14264b804c3c4f96edd76671a119b4bbbbef8"
 metafile = true
 
 [[files]]
+file = "mods/tag-tooltips.pw.toml"
+hash = "fc1240725b0091e5a7479d4d4f6bad7fa32a7fd82beb6fb899821156f6128a17"
+metafile = true
+
+[[files]]
 file = "mods/tarot-cards.pw.toml"
 hash = "fbbcf81c1a92e7c27074c54f1e3a7f2b6feed51a033681395c1373cf671a750b"
 metafile = true
@@ -1222,6 +1247,11 @@ metafile = true
 [[files]]
 file = "mods/tetras-delight.pw.toml"
 hash = "252362fcc831cf6fcbb51d170e37f140fdbafe05c66bdf6e291ab520c100b7ea"
+metafile = true
+
+[[files]]
+file = "mods/the-aethers-delight.pw.toml"
+hash = "9e42e106415a4fe07bdfe23d1470c81cb924c03c95ead8fd9d1216701ab67b12"
 metafile = true
 
 [[files]]

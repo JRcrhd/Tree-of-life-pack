@@ -3,6 +3,7 @@
 	default_quest_shape: ""
 	filename: "yetzirah"
 	group: "74CAFADDC96D0BF3"
+	icon: "stalwart_dungeons:void_crystal"
 	id: "7AEC4320BB36FF28"
 	order_index: 2
 	quest_links: [ ]

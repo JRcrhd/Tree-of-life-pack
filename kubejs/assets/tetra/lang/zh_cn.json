@@ -1,0 +1,19 @@
+{
+	"tetra.material.dimension_alloy_overworld.prefix": "主世界",
+    "tetra.material.dimension_alloy_overworld": "主世界维度合金",
+    "tetra.material.dimension_alloy_nether.prefix": "下界",
+    "tetra.material.dimension_alloy_nether": "下界维度合金",
+    "tetra.material.dimension_alloy_the_end.prefix": "末地",
+    "tetra.material.dimension_alloy_the_end": "末地维度合金",
+    "tetra.material.dimension_alloy_aether.prefix": "以太",
+    "tetra.material.dimension_alloy_aether": "以太维度合金",
+	
+    "tetra.material.point_malkuth.prefix": "源质——王国",
+    "tetra.material.point_malkuth": "源质——王国",
+    "tetra.material.point_yesod.prefix": "源质——基础",
+    "tetra.material.point_yesod": "源质——基础",
+    "tetra.material.point_tiphareth.prefix": "源质——美丽",
+    "tetra.material.point_tiphareth": "源质——美丽",
+    "tetra.material.point_kether.prefix": "源质——王冠",
+    "tetra.material.point_kether": "源质——王冠"
+}

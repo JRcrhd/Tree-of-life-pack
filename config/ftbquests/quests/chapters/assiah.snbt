@@ -3,9 +3,26 @@
 	default_quest_shape: ""
 	filename: "assiah"
 	group: "74CAFADDC96D0BF3"
+	icon: "minecraft:grass_block"
 	id: "169850F2FA824C5C"
 	order_index: 1
 	quest_links: [ ]
-	quests: [ ]
+	quests: [{
+		dependencies: ["34BB2829CF60D94C"]
+		hide_until_deps_complete: true
+		id: "654CE5BA3CCB51D6"
+		rewards: [{
+			id: "7B97493D80BE3DCD"
+			item: "minecraft:totem_of_undying"
+			type: "item"
+		}]
+		tasks: [{
+			dimension: "minecraft:overworld"
+			id: "1A165F2AC58264CA"
+			type: "dimension"
+		}]
+		x: 0.0d
+		y: 1.5d
+	}]
 	title: "物质——Assiah"
 }

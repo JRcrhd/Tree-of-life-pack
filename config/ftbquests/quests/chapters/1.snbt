@@ -8,17 +8,80 @@
 	id: "36A058C46CFAB3F3"
 	order_index: 0
 	quest_links: [ ]
-	quests: [{
-		dependencies: ["34BB2829CF60D94C"]
-		hide_until_deps_complete: true
-		id: "161309655AB92C0E"
-		tasks: [{
-			id: "508F3105339FBD65"
-			title: "关于 ⌊序⌉"
-			type: "checkmark"
-		}]
-		x: 0.0d
-		y: -1.0d
-	}]
+	quests: [
+		{
+			dependencies: ["34BB2829CF60D94C"]
+			hide_until_deps_complete: true
+			id: "161309655AB92C0E"
+			shape: "diamond"
+			tasks: [{
+				id: "508F3105339FBD65"
+				title: "关于 ⌊序⌉"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["161309655AB92C0E"]
+			id: "0395AA485156D264"
+			rewards: [{
+				id: "464C19186727F115"
+				item: "lightmanscurrency:coin_copper"
+				type: "item"
+			}]
+			tasks: [{
+				count: 16L
+				id: "40E73BDD51BEE3CC"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "minecraft:logs"
+					}
+				}
+				title: "Any #minecraft:logs"
+				type: "item"
+			}]
+			title: "一切的开始"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0395AA485156D264"]
+			id: "68F41E9817FDC8EC"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "68228F668AC7DCA5"
+				table_id: 5499541166125131948L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "2C51B64DCA83FCEC"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					id: "0012BE1AC2155FF5"
+					item: "minecraft:copper_ingot"
+					type: "item"
+				}
+				{
+					id: "37C2E623B93BFCDF"
+					item: "minecraft:gold_ingot"
+					type: "item"
+				}
+				{
+					id: "54ABB90F01DBF0F1"
+					item: "create:zinc_ingot"
+					type: "item"
+				}
+			]
+			title: "基础矿物"
+			x: 0.0d
+			y: 2.5d
+		}
+	]
 	title: "1、齿轮；杠杆；活塞"
 }

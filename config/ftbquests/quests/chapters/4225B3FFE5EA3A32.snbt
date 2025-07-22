@@ -14,17 +14,1403 @@
 	id: "4225B3FFE5EA3A32"
 	order_index: 2
 	quest_links: [ ]
-	quests: [{
-		dependencies: ["34BB2829CF60D94C"]
-		hide_until_deps_complete: true
-		id: "70A4EA513605735F"
-		tasks: [{
-			id: "1CFD148D27CA51BE"
-			title: "确认"
-			type: "checkmark"
-		}]
-		x: 0.5d
-		y: 0.0d
-	}]
+	quests: [
+		{
+			dependencies: ["689F32883C4E9502"]
+			id: "18EB86F91CBBCCC6"
+			rewards: [{
+				count: 3
+				id: "4212990D5B6F9247"
+				item: "minecraft:ender_eye"
+				type: "item"
+			}]
+			tasks: [{
+				id: "648E89CEF275D455"
+				item: "minecraft:ender_eye"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["18EB86F91CBBCCC6"]
+			description: [""]
+			id: "775AB10F8196F27B"
+			rewards: [{
+				id: "2891A088FD613B60"
+				item: {
+					Count: 1
+					id: "minecraft:potion"
+					tag: {
+						Potion: "minecraft:long_regeneration"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "23B2C8BA85A59929"
+				item: "cataclysm:mech_eye"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["18EB86F91CBBCCC6"]
+			description: [""]
+			id: "43A5B83862D9E94C"
+			rewards: [{
+				id: "579ED982EEBD8D8B"
+				item: {
+					Count: 1
+					id: "minecraft:potion"
+					tag: {
+						Potion: "minecraft:long_strength"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3A18B988A59BE186"
+				item: "cataclysm:flame_eye"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["18EB86F91CBBCCC6"]
+			description: [""]
+			id: "62C32905C33E2D88"
+			rewards: [{
+				id: "3587D800DDF74D5C"
+				item: {
+					Count: 1
+					id: "minecraft:potion"
+					tag: {
+						Potion: "minecraft:long_slow_falling"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "41D397FD467CCBD1"
+				item: "cataclysm:void_eye"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["18EB86F91CBBCCC6"]
+			description: [""]
+			id: "7C848C7011726470"
+			rewards: [{
+				id: "0A9E745422DB3BE6"
+				item: {
+					Count: 1
+					id: "minecraft:potion"
+					tag: {
+						Potion: "minecraft:long_fire_resistance"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "40208E5FC2BBFAEA"
+				item: "cataclysm:monstrous_eye"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["18EB86F91CBBCCC6"]
+			description: [""]
+			id: "3E8C7D92F99496BE"
+			rewards: [{
+				id: "7DA676C4472E397D"
+				item: {
+					Count: 1
+					id: "minecraft:potion"
+					tag: {
+						Potion: "minecraft:long_water_breathing"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "2E1B52E024B7A6F8"
+				item: "cataclysm:abyss_eye"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["18EB86F91CBBCCC6"]
+			description: [""]
+			id: "2542D8A6894816C6"
+			rewards: [{
+				id: "7CD940DCF052F4C4"
+				item: {
+					Count: 1
+					id: "minecraft:potion"
+					tag: {
+						Potion: "minecraft:long_swiftness"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7C31D3E8DF8C47C5"
+				item: "cataclysm:desert_eye"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["689F32883C4E9502"]
+			description: [""]
+			icon: "minecraft:netherrack"
+			id: "565376084F05ED6E"
+			rewards: [{
+				id: "5549E168BE8B4485"
+				type: "xp"
+				xp: 2
+			}]
+			tasks: [{
+				dimension: "minecraft:the_nether"
+				id: "0B67D1F6E147566B"
+				type: "dimension"
+			}]
+			x: 3.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["689F32883C4E9502"]
+			description: [""]
+			icon: "minecraft:grass_block"
+			id: "0496E8E786262464"
+			rewards: [{
+				id: "4906AE0DC2D9A5FC"
+				type: "xp"
+				xp: 1
+			}]
+			tasks: [{
+				dimension: "minecraft:overworld"
+				id: "0F998B5ABA5A3DE8"
+				type: "dimension"
+			}]
+			x: -6.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["689F32883C4E9502"]
+			description: [""]
+			icon: "minecraft:end_stone"
+			id: "392EAE8BE71510C1"
+			rewards: [{
+				id: "696BE7282379FD54"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				dimension: "minecraft:the_end"
+				id: "580603D270DF4193"
+				type: "dimension"
+			}]
+			x: 6.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["1C5EA7D62BAF2108"]
+			description: [""]
+			icon: "cataclysm:music_disc_the_leviathan"
+			id: "746DE905D45A396C"
+			rewards: [{
+				id: "3BDD5292CD16B0DA"
+				item: "cataclysm:music_disc_the_leviathan"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "cataclysm:the_leviathan"
+				id: "043F030DD013235B"
+				type: "kill"
+				value: 1L
+			}]
+			x: -8.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["7AED8FD7FB023AD8"]
+			description: [""]
+			icon: "cataclysm:music_disc_the_harbinger"
+			id: "17CA9D80D8EC3EF7"
+			rewards: [{
+				id: "65320376D49EF1C3"
+				item: "cataclysm:music_disc_the_harbinger"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "cataclysm:the_harbinger"
+				id: "212643C57CFE4F25"
+				type: "kill"
+				value: 1L
+			}]
+			x: -4.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["0B7F2B63D867D221"]
+			description: [""]
+			icon: "cataclysm:music_disc_ancient_remnant"
+			id: "33B1D3FD4C0B5514"
+			rewards: [{
+				id: "68EA8EA231B394B6"
+				item: "cataclysm:music_disc_ancient_remnant"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "cataclysm:ancient_remnant"
+				id: "331CDAB944917322"
+				type: "kill"
+				value: 1L
+			}]
+			x: -6.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["0F8F0F7880235BA2"]
+			description: [""]
+			icon: "cataclysm:music_disc_netherite_monstrosity"
+			id: "53154550397E9704"
+			rewards: [{
+				id: "69D3447996CBCB78"
+				item: "cataclysm:music_disc_netherite_monstrosity"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "cataclysm:netherite_monstrosity"
+				id: "1FFD677F6F52F10B"
+				type: "kill"
+				value: 1L
+			}]
+			x: 2.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["7F4963FCAE5337EC"]
+			description: [""]
+			icon: "cataclysm:music_disc_ignis"
+			id: "7D57A14810BC0CBE"
+			rewards: [{
+				id: "1A37B0DA71EDFFBD"
+				item: "cataclysm:music_disc_ignis"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "cataclysm:ignis"
+				id: "5A6C5151B3A21A3E"
+				type: "kill"
+				value: 1L
+			}]
+			x: 4.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["21A0FD474FBB49F7"]
+			description: [""]
+			icon: "cataclysm:music_disc_ender_guardian"
+			id: "2B115519A21F9CB7"
+			rewards: [{
+				id: "0A022A5C1627FD66"
+				item: "cataclysm:music_disc_ender_guardian"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "cataclysm:ender_guardian"
+				id: "56CD54E84D962527"
+				type: "kill"
+				value: 1L
+			}]
+			x: 6.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["565376084F05ED6E"]
+			description: [""]
+			icon: "minecraft:polished_blackstone_bricks"
+			id: "0F8F0F7880235BA2"
+			rewards: [{
+				count: 3
+				id: "6F6DE8F3A7C4AAD2"
+				item: "minecraft:golden_apple"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7EDD3301703FD7E5"
+				structure: "cataclysm:soul_black_smith"
+				type: "structure"
+			}]
+			title: "灵魂锻造厂"
+			x: 2.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["565376084F05ED6E"]
+			description: [""]
+			icon: "minecraft:nether_bricks"
+			id: "50C9CB8FB16E453D"
+			rewards: [{
+				count: 3
+				id: "0CE0C5ABCDC10CD2"
+				item: "minecraft:golden_apple"
+				type: "item"
+			}]
+			tasks: [{
+				id: "28EA523F9834EB02"
+				structure: "cataclysm:burning_arena"
+				type: "structure"
+			}]
+			title: "烈焰竞技场"
+			x: 4.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["392EAE8BE71510C1"]
+			description: [""]
+			icon: "minecraft:purpur_block"
+			id: "21A0FD474FBB49F7"
+			rewards: [{
+				count: 3
+				id: "4A35B50EB4F8A550"
+				item: "minecraft:golden_apple"
+				type: "item"
+			}]
+			tasks: [{
+				id: "20930238A87763FA"
+				structure: "cataclysm:ruined_citadel"
+				type: "structure"
+			}]
+			title: "堡垒遗迹"
+			x: 6.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["0496E8E786262464"]
+			description: [""]
+			icon: "minecraft:sandstone"
+			id: "70CDA5F1593DB4B2"
+			rewards: [{
+				count: 3
+				id: "1782568B675839C9"
+				item: "minecraft:golden_apple"
+				type: "item"
+			}]
+			tasks: [{
+				id: "397BEEBF069AE7BF"
+				structure: "cataclysm:cursed_pyramid"
+				type: "structure"
+			}]
+			title: "诅咒金字塔"
+			x: -6.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["0496E8E786262464"]
+			description: [""]
+			icon: "minecraft:stone_bricks"
+			id: "45FBEABEBA7CC09E"
+			rewards: [{
+				count: 3
+				id: "2F3B0C7B10ACE0A6"
+				item: "minecraft:golden_apple"
+				type: "item"
+			}]
+			tasks: [{
+				id: "78AFAE165BEF2155"
+				structure: "cataclysm:sunken_city"
+				type: "structure"
+			}]
+			title: "沉没之城"
+			x: -8.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["0496E8E786262464"]
+			description: [""]
+			icon: "minecraft:redstone_block"
+			id: "747B62A955D0C629"
+			rewards: [{
+				count: 3
+				id: "7B7DE982627D9378"
+				item: "minecraft:golden_apple"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1D372E69BEEA8873"
+				structure: "cataclysm:ancient_factory"
+				type: "structure"
+			}]
+			title: "古代工厂"
+			x: -4.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["70CDA5F1593DB4B2"]
+			description: [""]
+			id: "0B7F2B63D867D221"
+			subtitle: "塞进骨架"
+			tasks: [{
+				id: "4A5A607229B4F242"
+				item: "cataclysm:necklace_of_the_desert"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["50C9CB8FB16E453D"]
+			description: [""]
+			id: "7F4963FCAE5337EC"
+			tasks: [{
+				id: "57450A930AC4C581"
+				item: "cataclysm:burning_ashes"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["45FBEABEBA7CC09E"]
+			description: [""]
+			id: "1C5EA7D62BAF2108"
+			subtitle: "将它投入祭坛"
+			tasks: [{
+				id: "7E6867522EE80BE7"
+				item: "cataclysm:abyssal_sacrifice"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["747B62A955D0C629"]
+			description: [""]
+			id: "7AED8FD7FB023AD8"
+			subtitle: "将下界之星作为它的能源"
+			tasks: [{
+				id: "44C13A2789671FD7"
+				item: "minecraft:nether_star"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["53154550397E9704"]
+			description: [""]
+			hide_dependent_lines: true
+			id: "2A196974431FCC42"
+			tasks: [{
+				id: "1FA495218EEB8C0B"
+				item: {
+					Count: 1
+					id: "cataclysm:infernal_forge"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["746DE905D45A396C"]
+			description: [""]
+			id: "46CC8E7ED59F51D2"
+			rewards: [{
+				id: "5AAE1A0330006A17"
+				item: {
+					Count: 1
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "evilcraft:life_stealing"
+							lvl: 3s
+						}]
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6EEB24B8CF4BC0BC"
+				item: "cataclysm:tidal_claws"
+				type: "item"
+			}]
+			x: -9.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["17CA9D80D8EC3EF7"]
+			description: [""]
+			id: "6ED61438A8A1EAA4"
+			rewards: [{
+				count: 3
+				id: "73F405771124CD0A"
+				item: "minecraft:redstone_block"
+				type: "item"
+			}]
+			tasks: [{
+				count: 9L
+				id: "30D591AD26B6E40E"
+				item: "cataclysm:witherite_ingot"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["53154550397E9704"]
+			description: [""]
+			id: "6FC4146E534C51DA"
+			tasks: [{
+				id: "441555E3052F2EAF"
+				item: {
+					Count: 1
+					id: "cataclysm:monstrous_helm"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["746DE905D45A396C"]
+			description: [
+				"&o你确定要养这玩意儿？&r"
+				""
+				""
+				"&oAre you sure to raise it?&r"
+			]
+			id: "7CBEBBCB9D95D11A"
+			rewards: [{
+				id: "6C1E31C41BEFA573"
+				item: "minecraft:bucket"
+				type: "item"
+			}]
+			subtitle: "放在水里孵化"
+			tasks: [{
+				id: "2AFECDD5BEFC5ADC"
+				item: "cataclysm:abyssal_egg"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["6ED61438A8A1EAA4"]
+			description: [""]
+			id: "5EDB5A2D744CE415"
+			rewards: [{
+				count: 10
+				id: "32B1AF2230BCD42B"
+				item: "minecraft:redstone"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6CECFDF3DCC27679"
+				item: {
+					Count: 1
+					id: "cataclysm:laser_gatling"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["6ED61438A8A1EAA4"]
+			description: [""]
+			id: "04B40BB107F14330"
+			rewards: [{
+				id: "268561922FEE8B43"
+				item: {
+					Count: 1
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "minecraft:smite"
+							lvl: 3s
+						}]
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "高贵的帧伤"
+			tasks: [{
+				id: "73D8510344655F06"
+				item: "cataclysm:meat_shredder"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["6ED61438A8A1EAA4"]
+			description: [""]
+			hide_dependent_lines: true
+			id: "445C9117198936B6"
+			rewards: [{
+				id: "2F7F1475CA827AD7"
+				item: "minecraft:milk_bucket"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6A510114AEC33021"
+				item: "cataclysm:wither_assault_shoulder_weapon"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["6ED61438A8A1EAA4"]
+			description: [""]
+			hide_dependency_lines: true
+			id: "683C260C854C5AA3"
+			rewards: [{
+				id: "4469946C8CF65D59"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "100B82B7AB9DADCD"
+				item: "cataclysm:mechanical_fusion_anvil"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"683C260C854C5AA3"
+				"2A196974431FCC42"
+			]
+			description: [""]
+			id: "6BC3CF8937DEDE89"
+			tasks: [{
+				id: "29537CE0D9AC9F93"
+				item: {
+					Count: 1
+					id: "cataclysm:void_forge"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"683C260C854C5AA3"
+				"445C9117198936B6"
+			]
+			description: [""]
+			id: "74ACCEB6DC9EF6F7"
+			rewards: [{
+				id: "44E1BD43B6BFAAC1"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			tasks: [{
+				id: "0297FDAF038E1ACB"
+				item: "cataclysm:void_assault_shoulder_weapon"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"683C260C854C5AA3"
+				"4D644A9829C240CB"
+				"2CD58FC229BC0C28"
+			]
+			description: [""]
+			id: "1D56D3B444A4B2D4"
+			tasks: [{
+				id: "40327827EAA920D4"
+				item: "cataclysm:gauntlet_of_bulwark"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7D57A14810BC0CBE"]
+			description: [""]
+			hide_dependent_lines: true
+			id: "291C76140DE97E3C"
+			rewards: [{
+				count: 2
+				id: "688F51283B57AE99"
+				item: "cataclysm:ignitium_ingot"
+				type: "item"
+			}]
+			tasks: [{
+				id: "71E5AA7065D681E9"
+				item: "cataclysm:ignitium_ingot"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["291C76140DE97E3C"]
+			description: [""]
+			hide_dependent_lines: true
+			id: "4D644A9829C240CB"
+			rewards: [{
+				id: "75CD0F8655ADF316"
+				item: {
+					Count: 1
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "apotheosis:shield_bash"
+							lvl: 3s
+						}]
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3521C86AC06247C4"
+				item: "cataclysm:bulwark_of_the_flame"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["291C76140DE97E3C"]
+			description: [""]
+			id: "2BCB788924BBD849"
+			rewards: [{
+				id: "56CCF37DE9C299DC"
+				item: {
+					Count: 1
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "minecraft:sharpness"
+							lvl: 3s
+						}]
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4F4D4F196ED24844"
+				item: "cataclysm:the_incinerator"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["2B115519A21F9CB7"]
+			description: [""]
+			hide_dependent_lines: true
+			id: "2CD58FC229BC0C28"
+			tasks: [{
+				id: "25FAA04164EF0360"
+				item: "cataclysm:gauntlet_of_guard"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["33B1D3FD4C0B5514"]
+			description: [""]
+			hide_dependent_lines: true
+			id: "1178E4123E8818E2"
+			rewards: [{
+				id: "7A1EB0C189D152F0"
+				item: {
+					Count: 1
+					id: "minecraft:potion"
+					tag: {
+						Potion: "minecraft:long_slow_falling"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "2E84C6ED13C503B6"
+				item: "cataclysm:sandstorm_in_a_bottle"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["34BB2829CF60D94C"]
+			description: [""]
+			id: "689F32883C4E9502"
+			tasks: [{
+				id: "5603E578E9EFC748"
+				title: "请确认"
+				type: "checkmark"
+			}]
+			title: "关于灾变"
+			x: 0.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["33B1D3FD4C0B5514"]
+			description: [""]
+			id: "4FA7774D89171BB3"
+			rewards: [{
+				id: "2470D6A923144AC4"
+				item: {
+					Count: 1
+					id: "minecraft:brush"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "59F963AD4A674C28"
+				item: "cataclysm:remnant_skull"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["18EB86F91CBBCCC6"]
+			id: "7199477023E14879"
+			tasks: [{
+				id: "326EC34F67E5B0A8"
+				item: "cataclysm:cursed_eye"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["18EB86F91CBBCCC6"]
+			id: "19CB13DD74BC9382"
+			rewards: [{
+				id: "5E88E34AC346F773"
+				item: {
+					Count: 1
+					id: "minecraft:potion"
+					tag: {
+						Potion: "minecraft:long_swiftness"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "28ADC47C23EFF17B"
+				item: "cataclysm:storm_eye"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["0496E8E786262464"]
+			description: [""]
+			id: "6E9523DF34D0A5BC"
+			rewards: [{
+				count: 3
+				id: "5F0AEF9FA5113922"
+				item: "minecraft:golden_apple"
+				type: "item"
+			}]
+			tasks: [{
+				icon: "cataclysm:polished_azure_seastone"
+				id: "7AC7611B921EF5A7"
+				structure: "cataclysm:acropolis"
+				type: "structure"
+			}]
+			title: "卫城"
+			x: -2.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["6E9523DF34D0A5BC"]
+			description: [""]
+			icon: "cataclysm:music_disc_scylla"
+			id: "124282CFE48545A0"
+			rewards: [{
+				id: "3B55171CFC21E4AD"
+				item: "cataclysm:music_disc_scylla"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "cataclysm:scylla"
+				id: "3CD2B5BE7D8E3AD4"
+				type: "kill"
+				value: 1L
+			}]
+			x: -2.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["124282CFE48545A0"]
+			id: "325D6166DE7DD765"
+			rewards: [{
+				count: 4
+				id: "48BB95774FE4861C"
+				item: "cataclysm:essence_of_the_storm"
+				type: "item"
+			}]
+			tasks: [{
+				id: "252F4FB5138B8C2D"
+				item: "cataclysm:essence_of_the_storm"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["325D6166DE7DD765"]
+			id: "00F3238013AFAE84"
+			rewards: [{
+				count: 4
+				id: "5A75945486DCE67F"
+				item: "cataclysm:lacrima"
+				type: "item"
+			}]
+			tasks: [{
+				id: "771DF5E878C07158"
+				item: "cataclysm:ceraunus"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["325D6166DE7DD765"]
+			id: "498C04FA38DC36C4"
+			rewards: [{
+				count: 4
+				id: "65BB97B1836E0F61"
+				item: "cataclysm:lacrima"
+				type: "item"
+			}]
+			tasks: [{
+				id: "423BBDBE3FAA5F08"
+				item: "cataclysm:astrape"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["291C76140DE97E3C"]
+			id: "7574A802FB24278D"
+			tasks: [{
+				id: "422569A209DD20E2"
+				item: "cataclysm:blazing_grips"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 5.5d
+		}
+		{
+			dependencies: [
+				"1178E4123E8818E2"
+				"2CD58FC229BC0C28"
+				"683C260C854C5AA3"
+			]
+			description: [""]
+			hide_dependency_lines: false
+			id: "5DC6751369FCE160"
+			tasks: [{
+				id: "41866B2691B18652"
+				item: "cataclysm:gauntlet_of_maelstrom"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0496E8E786262464"]
+			description: [""]
+			icon: "cataclysm:frosted_stone_bricks"
+			id: "218B15E25B556F3F"
+			rewards: [{
+				count: 3
+				id: "24AC1496B9119ABF"
+				item: "minecraft:golden_apple"
+				type: "item"
+			}]
+			tasks: [{
+				id: "49947C60B9D5642D"
+				structure: "cataclysm:frosted_prison"
+				type: "structure"
+			}]
+			title: "苦寒监牢"
+			x: -10.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["218B15E25B556F3F"]
+			id: "2A842551297C162A"
+			tasks: [{
+				id: "7E6567CC63C3AC06"
+				item: "cataclysm:strange_key"
+				type: "item"
+			}]
+			x: -10.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2A842551297C162A"]
+			icon: "cataclysm:music_disc_maledictus"
+			id: "0A9762FC878D7B51"
+			rewards: [{
+				id: "7B33874DD64F6CB1"
+				item: "cataclysm:music_disc_maledictus"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "cataclysm:maledictus"
+				id: "101434DB07493D5A"
+				type: "kill"
+				value: 1L
+			}]
+			x: -10.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["0A9762FC878D7B51"]
+			id: "3F8C61459A4D66C6"
+			rewards: [{
+				count: 2
+				id: "477951EB78ECE3A4"
+				item: "cataclysm:cursium_ingot"
+				type: "item"
+			}]
+			tasks: [{
+				id: "792E1C6EB1C2D7A6"
+				item: "cataclysm:cursium_ingot"
+				type: "item"
+			}]
+			x: -10.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["3F8C61459A4D66C6"]
+			id: "03A4760956F294E4"
+			tasks: [{
+				id: "0F42A6B0B57D8C93"
+				item: "cataclysm:soul_render"
+				type: "item"
+			}]
+			x: -11.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["3F8C61459A4D66C6"]
+			hide_dependency_lines: false
+			hide_dependent_lines: true
+			id: "348752B0ACF08875"
+			tasks: [{
+				id: "4BCED310561E646B"
+				item: "cataclysm:the_annihilator"
+				type: "item"
+			}]
+			x: -10.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["3F8C61459A4D66C6"]
+			hide_dependent_lines: true
+			id: "22990E9B62D5CF9F"
+			tasks: [{
+				id: "65E45251B3678C41"
+				item: {
+					Count: 1
+					id: "cataclysm:cursed_bow"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -10.5d
+			y: 5.5d
+		}
+		{
+			dependencies: [
+				"1178E4123E8818E2"
+				"22990E9B62D5CF9F"
+				"683C260C854C5AA3"
+			]
+			id: "7D351B2A8A0E113D"
+			tasks: [{
+				id: "31F0B67E69DE975E"
+				item: {
+					Count: 1
+					id: "cataclysm:wrath_of_the_desert"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"348752B0ACF08875"
+				"291C76140DE97E3C"
+				"683C260C854C5AA3"
+			]
+			id: "7E138D1B6DC3DE51"
+			tasks: [{
+				id: "359FE955EAEE4A9E"
+				item: "cataclysm:the_immolator"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["53154550397E9704"]
+			icon: "cataclysm:netherite_effigy"
+			id: "1F9D1A456A207C88"
+			subtitle: "废土风格宠物"
+			tasks: [
+				{
+					id: "2E0511E9095A814C"
+					item: "cataclysm:lava_power_cell"
+					type: "item"
+				}
+				{
+					id: "444E4CF039D4BCD7"
+					item: "cataclysm:netherite_effigy"
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["33B1D3FD4C0B5514"]
+			hide_dependency_lines: true
+			id: "5CA8A710624E1345"
+			tasks: [{
+				id: "28B0C3F5AA14E4E3"
+				item: {
+					Count: 1
+					id: "cataclysm:bone_reptile_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -6.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["33B1D3FD4C0B5514"]
+			hide_dependency_lines: true
+			id: "0CDAC1A3060FC43C"
+			tasks: [{
+				id: "26ADBA6B60A02151"
+				item: {
+					Count: 1
+					id: "cataclysm:bone_reptile_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -6.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["0A9762FC878D7B51"]
+			hide_dependency_lines: true
+			id: "47C6D2D6F3CD5F23"
+			tasks: [{
+				id: "0BD74F9DD6749BDA"
+				item: {
+					Count: 1
+					id: "cataclysm:cursium_boots"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -10.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0A9762FC878D7B51"]
+			hide_dependency_lines: true
+			id: "2AD39C11A229601A"
+			tasks: [{
+				id: "735833EA12675C5A"
+				item: {
+					Count: 1
+					id: "cataclysm:cursium_leggings"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -10.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["0A9762FC878D7B51"]
+			hide_dependency_lines: true
+			id: "74B88CAEE603D9DB"
+			tasks: [{
+				id: "4D20580646903257"
+				item: {
+					Count: 1
+					id: "cataclysm:cursium_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -11.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["0A9762FC878D7B51"]
+			hide_dependency_lines: true
+			id: "49B5340A7CDE70BA"
+			tasks: [{
+				id: "247528C035CD8808"
+				item: {
+					Count: 1
+					id: "cataclysm:cursium_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -10.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["7D57A14810BC0CBE"]
+			hide_dependency_lines: true
+			id: "6CB36B1BC45D13EE"
+			tasks: [{
+				id: "6D12661E12283A4E"
+				item: {
+					Count: 1
+					id: "cataclysm:ignitium_boots"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["7D57A14810BC0CBE"]
+			hide_dependency_lines: true
+			id: "70E52BFBA5E8E5F5"
+			tasks: [{
+				id: "7FDD95DD18BCB98D"
+				item: {
+					Count: 1
+					id: "cataclysm:ignitium_leggings"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["7D57A14810BC0CBE"]
+			hide_dependency_lines: true
+			id: "2F51277E50EBB863"
+			tasks: [{
+				id: "532D87FC37ECE525"
+				item: {
+					Count: 1
+					id: "cataclysm:ignitium_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["7D57A14810BC0CBE"]
+			hide_dependency_lines: true
+			id: "49D04B9705B6EA88"
+			tasks: [{
+				id: "057FA123F7A4AB9C"
+				item: {
+					Count: 1
+					id: "cataclysm:ignitium_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["2F51277E50EBB863"]
+			id: "0917BA5E9F4E89AC"
+			tasks: [{
+				id: "26EE43DD761E8AD2"
+				item: {
+					Count: 1
+					id: "cataclysm:ignitium_elytra_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: -5.0d
+		}
+	]
 	title: "神代的遗留"
 }

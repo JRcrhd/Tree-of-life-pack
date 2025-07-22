@@ -1,0 +1,34 @@
+[
+	{
+		"dimension": [
+            "minecraft:overworld"
+        ],
+        "addxp": 5,
+		
+        "result": "default"
+    },
+	{
+		"dimension": [
+            "minecraft:nether"
+        ],
+        "addxp": 7,
+		
+        "result": "default"
+    },
+	{
+		"dimension": [
+            "minecraft:the_end"
+        ],
+        "addxp": 10,
+		
+        "result": "default"
+    },
+	{
+		"dimension": [
+            "aether:aether"
+        ],
+        "addxp": 15,
+		
+        "result": "default"
+    }
+]
