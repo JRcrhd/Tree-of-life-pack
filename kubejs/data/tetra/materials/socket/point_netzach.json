@@ -1,0 +1,34 @@
+{
+  "key": "point_netzach",
+  "category": "socket",
+  "primary": 0,
+  "secondary": 0,
+  "tertiary": 0,
+  "durability": 800,
+  "integrityCost": 2,
+  "integrityGain": 0,
+  "magicCapacity": 80,
+  "toolLevel": 0,
+  "toolEfficiency": 6.5,
+    "attributes":{
+        "forge:health":4
+    },
+    "effects": {
+      "art_of_forging:life_steal": [ 1, 5 ],
+      "spread": [0,20],
+      "multishot": [2,4]
+    },
+  "tints": {
+    "glyph": "FEDE8D",
+    "texture": "FEDE8D"
+  },
+    "textures": [
+        "default"
+    ],
+	"experienceCost": 10,
+  "material": {
+    "items": [
+      "kubejs:point_netzach"
+    ]
+  }
+}

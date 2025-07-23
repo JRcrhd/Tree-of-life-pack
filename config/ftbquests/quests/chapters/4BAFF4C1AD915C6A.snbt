@@ -7,11 +7,36 @@
 	hide_quest_until_deps_visible: true
 	icon: "kubejs:alchemy_in_phi"
 	id: "4BAFF4C1AD915C6A"
+	images: [{
+		height: 5.0d
+		image: "kubejs:item/alchemy/icon"
+		rotation: 0.0d
+		width: 5.0d
+		x: 0.0d
+		y: 0.0d
+	}]
 	order_index: 1
 	quest_links: [ ]
 	quests: [{
 		dependencies: ["01A444FBE0404EA2"]
+		description: [
+			"曾经的人们试图将石头变成黄金，但他们最终失败了，不过他们带来了化学。"
+			""
+			"随着神代的结束，人们重新将视线投向天空，在群星间找到了构建宇宙的根源规则，于是发明了真正的炼金术。"
+			""
+			"炼金术以物质提纯为手段，逆熵而上追溯物质的原本面貌，以期望寻找真正的纯粹之物。"
+			"{@pagebreak}"
+			"People once tried to turn stone into gold, but they failed, but they brought chemistry."
+			""
+			"With the end of the Age of the Gods, people turned their attention to the sky again, found the root rules for building the universe among the stars, and invented true alchemy."
+			""
+			"Alchemy uses material purification as a means to trace the original appearance of matter against entropy, in order to find the true purity."
+		]
+		icon: "enderio:copper_alloy_grinding_ball"
 		id: "7F7A011A342CDE69"
+		shape: "diamond"
+		size: 1.5d
+		subtitle: "逆熵而上"
 		tasks: [{
 			id: "628ED4EBE66A372F"
 			title: "请确认"

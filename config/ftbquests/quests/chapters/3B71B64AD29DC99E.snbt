@@ -11,6 +11,7 @@
 	quest_links: [ ]
 	quests: [{
 		dependencies: ["1F12C58DD155769C"]
+		description: ["「熵」作为无序化的本源驱动力，推动物质结构向混沌状态演化，引致元素衰变与秩序消解。"]
 		id: "01A444FBE0404EA2"
 		shape: "diamond"
 		tasks: [{

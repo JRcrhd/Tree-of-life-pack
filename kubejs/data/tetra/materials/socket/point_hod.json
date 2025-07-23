@@ -1,0 +1,34 @@
+{
+  "key": "point_hod",
+  "category": "socket",
+  "primary": 0,
+  "secondary": 0,
+  "tertiary": 0,
+  "durability": 1000,
+  "integrityCost": 2,
+  "integrityGain": 0,
+  "magicCapacity": 100,
+  "toolLevel": 0,
+  "toolEfficiency": 7,
+    "attributes":{
+        "forge:reach_distance":0.1,
+        "forge:attack_range":0.1,
+        "forge:health":7
+    },
+    "effects": {
+        "bleeding": 2
+    },
+  "tints": {
+    "glyph": "FEEE9D",
+    "texture": "FEEE9D"
+  },
+    "textures": [
+        "default"
+    ],
+	"experienceCost": 20,
+  "material": {
+    "items": [
+      "kubejs:point_hod"
+    ]
+  }
+}

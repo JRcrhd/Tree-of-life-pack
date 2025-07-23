@@ -1,0 +1,34 @@
+{
+  "key": "point_chesed",
+  "category": "socket",
+  "primary": 0,
+  "secondary": 0,
+  "tertiary": 0,
+  "durability": 1000,
+  "integrityCost": 2,
+  "integrityGain": 0,
+  "magicCapacity": 100,
+  "toolLevel": 0,
+  "toolEfficiency": 7,
+    "attributes":{
+        "forge:health":6
+    },
+    "effects": {
+      "art_of_forging:life_steal": [ 1, 10 ],
+      "spread": [0,40],
+      "multishot": [4,8]
+    },
+  "tints": {
+    "glyph": "7B68EE",
+    "texture": "7B68EE"
+  },
+      "textures": [
+        "default"
+    ],
+	"experienceCost": 25,
+  "material": {
+    "items": [
+      "kubejs:point_chesed"
+    ]
+  }
+}

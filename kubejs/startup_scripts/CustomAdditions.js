@@ -30,10 +30,10 @@ StartupEvents.registry('item', treeoflife => {
 	treeoflife.create('clairvoyance').displayName('通灵').texture('kubejs:item/clairvoyance/icon');
 	treeoflife.create('divination').displayName('占卜').texture('kubejs:item/divination/icon');
 
-	treeoflife.create('emerald_tablet').displayName('《翠玉录》').glow(true).texture('kubejs:item/emerald_tablet');
-    treeoflife.create('emerald_tablet_piece_1').displayName('翡翠石板碎片——1').texture('kubejs:item/emerald_tablet_piece_1');
-    treeoflife.create('emerald_tablet_piece_2').displayName('翡翠石板碎片——2').texture('kubejs:item/emerald_tablet_piece_2');
-    treeoflife.create('emerald_tablet_piece_3').displayName('翡翠石板碎片——3').texture('kubejs:item/emerald_tablet_piece_3');
+	treeoflife.create('emerald_tablet').displayName('§2§l《翠玉录》§r').glow(true).texture('kubejs:item/emerald_tablet');
+    treeoflife.create('emerald_tablet_piece_1').displayName('§2石板碎片—1§r').texture('kubejs:item/emerald_tablet_piece_1');
+    treeoflife.create('emerald_tablet_piece_2').displayName('§2石板碎片—2§r').texture('kubejs:item/emerald_tablet_piece_2');
+    treeoflife.create('emerald_tablet_piece_3').displayName('§2石板碎片—3§r').texture('kubejs:item/emerald_tablet_piece_3');
 
     treeoflife.create('alchemy_black').displayName('黑化').glow(true).texture('kubejs:item/alchemy/black');
     treeoflife.create('alchemy_white').displayName('白化').glow(true).texture('kubejs:item/alchemy/white');

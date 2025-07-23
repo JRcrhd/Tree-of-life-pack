@@ -10,6 +10,11 @@
 	quest_links: [ ]
 	quests: [{
 		dependencies: ["34BB2829CF60D94C"]
+		description: [
+			"神代结束后，神明遗留于世的事物化为无主的能量，曾一度成为人类生存的威胁。"
+			""
+			"经过漫长的努力和研究，其中一部分能量得以回收。学者们为其重新编织规则，使其成为人类能够驾驭的魔法。"
+		]
 		hide_until_deps_complete: true
 		id: "15C91C6E2007E203"
 		tasks: [{

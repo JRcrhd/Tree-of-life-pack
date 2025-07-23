@@ -1,0 +1,12 @@
+{
+	"name": "午夜时代",
+	"description": "预言中的毁灭",
+	"icon": "minecraft:feather",
+	"category": "history",
+	"pages":[
+		{
+			"type":"text",
+			"text":""
+		}
+	]
+}

@@ -16,11 +16,33 @@
 		id: "tarotcards:tarot_deck"
 	}
 	id: "4035775DADF7CF0E"
+	images: [{
+		height: 3.0d
+		image: "kubejs:item/divination/icon"
+		rotation: 0.0d
+		width: 3.0d
+		x: 1.5d
+		y: -1.0d
+	}]
 	order_index: 2
 	quest_links: [ ]
 	quests: [
 		{
 			dependencies: ["3B71B64AD29DC99E"]
+			description: [
+				"长久以来一直有一种观点——人的命运在其灵魂中写就。基于这个观点，大量研究在神代结束之后开启。"
+				""
+				"人们总是如此痴迷于解读命运，以至于曾经形成了研究灵魂的浪潮。但是当人们开始觊觎人类身上的灵魂时，人性中潜藏的贪婪与野心便如决堤洪水般汹涌而出……"
+				""
+				"……最后相关的研究被禁止，人们将灵魂研究称为巫术。学者们不再提起此事……"
+				"{@pagebreak}"
+				""
+				"There has long been an opinion that the fate of a person is written in his soul. Based on this view, a large number of studies began after the end of the Age of the Gods."
+				""
+				"People have always been so obsessed with interpreting fate that once a wave of soul research has formed. But when people begin to covet the soul of human beings, the greed and ambition hidden in human nature surges out like a flood......"
+				""
+				"…… Finally, related research was banned, and people called soul research goety. Scholars no longer bring up the matter......"
+			]
 			icon: {
 				Count: 1
 				id: "patchouli:guide_book"
@@ -29,7 +51,9 @@
 				}
 			}
 			id: "39A1A046832960CC"
-			shape: "rsquare"
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "灵魂与命运"
 			tasks: [{
 				id: "2576554D1A4F255C"
 				title: "我已了解"
@@ -120,19 +144,14 @@
 				""
 				"&6诅咒注入器&r通过原版物品合成获得，需要放在&2任意生物的刷怪笼上方&r以激活使用。使用特定的物品&e右键点击&r激活的&6诅咒注入器&r，数秒后便会生成对应的诅咒注入产物。"
 				""
-				"如果诅咒注入器中心发光，说明其被激活，可正常使用。&7（如图，左侧注入器未激活，右侧则为成功激活状态）&r"
+				"如果诅咒注入器中心发光，说明其被激活，可正常使用。"
 				""
 				"{@pagebreak}"
-				"物品与诅咒注入物品之间的对应关系如下："
+				"&7While it's convenient to craft cursed items with Soul Totems, now you have cheaper ways to do so. &r"
 				""
-				"石头以及其变种——&5阴影石头&r"
-				"1.骨块——&5野蛮之牙&r"
-				"2.紫水晶碎片——&5空法术聚晶&r"
-				"3.任意树苗——&5缠魂树苗&r"
-				"4.绿宝石——&5觉醒绿宝石&r"
-				"5.铁锭——&5诅咒金属锭&r"
-				"6.铁块——&5诅咒金属块&r"
-				"7.女巫帽/幻术师长袍/术士长袍/女巫长袍——&5与之相对应的变种服饰&r"
+				"&6 Curse Injector &r is crafted from vanilla items and needs to be placed on top of &2 mob spawners &r to activate it. The &6 Curse Injector&r activated by right-clicking on a specific item &r will spawn the corresponding Curse Infuse product after a few seconds."
+				""
+				"If the Curse Injector glows in the center, it is activated and can be used normally."
 			]
 			id: "4717C67580F37824"
 			rewards: [{
@@ -157,6 +176,14 @@
 				"首先你需要一个&e拥有灵魂能量&r的&6诅咒之笼&r，再将&6黑暗祭坛&r放在&2诅咒之笼上方&r。"
 				""
 				"如果&6黑暗祭坛&r&2亮起绿灯&r并发出黑暗粒子，说明其被激活了，可正常使用。"
+				""
+				"{@pagebreak}"
+				""
+				"Now that you can try your hand at performing a ritual to gain new power, you'll need to prepare one&6 Dark Altar &r and several 6 Altar Pedestals."
+				""
+				"First you'll need a &6 Cursed Cage&r with Soul Energy&r, and then place &6 Dark Altar&r on top of &2 Cursed Cage."
+				""
+				"If &6 Dark Altar&r&2 lights up&r and emits dark particles, it is activated and can be used normally."
 			]
 			icon: "goety:dark_altar"
 			id: "249B296A3CB17779"
@@ -238,18 +265,21 @@
 			description: [
 				"女巫坩埚是药酿的核心方块，但为了开始药酿，需要一些准备工作："
 				""
-				"1.&6热源：&r需要将&2营火、灵魂营火或岩浆块&r放置在&6女巫坩埚&r的&e下方&r，起到&e加热&r作用。"
+				"1.热源：需要将营火、灵魂营火或岩浆块放置在巫坩埚的下方，起到加热作用。"
 				""
-				"2.&b能量源：&r你需要准备一个&6诅咒之笼&r和&6灵魂蜡烛&r放在女巫坩埚的周边，将灵魂蜡烛插在含有灵魂能量的诅咒之笼上方。"
+				"2.能量源：你需要准备一个诅咒之笼和灵魂蜡烛放在女巫坩埚的周边，将灵魂蜡烛插在含有灵魂能量的诅咒之笼上方。"
 				""
-				"3.&9水源：&r借助&6水桶&r，将坩埚内部装上水。"
-				""
-				"&7（如有需要，请翻页查看例图）&r"
+				"3.水源：借助水桶，将坩埚内部装上水。"
 				""
 				"{@pagebreak}"
-				"——女巫坩埚准备工作例图："
 				""
-				"{image:kubejs:textures/task/goety_6.png width:150 height:96 align:1}"
+				"The Witch's Cauldron is the core block of the brew, but in order to get started, there are a few things to prepare:"
+				""
+				"1. Heat source: A campfire, soul campfire, or magma block needs to be placed underneath the Witch Cauldron to heat up."
+				""
+				"2. Energy Source: You need to prepare a cursed cage and soul candle to place around the witch's crucible, and insert the soul candle above the cursed cage containing soul energy."
+				""
+				"3. Water source: With the help of a bucket, fill the inside of the crucible with water."
 			]
 			id: "3CB4A421BFE6A3BC"
 			rewards: [{
@@ -272,6 +302,10 @@
 				"在拥有了稳定的灵魂来源之后，你便可以尝试一些&6灵魂魔法&r。"
 				""
 				"灵魂魔法需要消耗灵魂作为代价，才能够释放。其中存在大量的功能性法术，能够在不同的场景中发挥着至关重要的作用。"
+				""
+				"Once you have a stable source of souls, you can try some &6 soul magic."
+				""
+				"Soul magic requires the cost of the soul before it can be released. There are a plethora of functional spells that can play a vital role in different scenarios."
 			]
 			icon: "goety:empty_focus"
 			id: "2CE8C11D4D2C773F"
@@ -331,6 +365,14 @@
 				"捕捉到生物之后，手持捕捉笼&2右键点击&r&6诅咒之笼&r（诅咒之笼必须为空），生物会被放入其中，可以将&6诅咒之笼&r变为&6之前捕捉生物的刷怪笼&r。"
 				""
 				"当玩家将捕捉笼中被捕捉的生物放入诅咒之笼之后，&e捕捉笼会被消耗&r。"
+				"{@pagebreak}"
+				"&e migration for &6 spawners&r."
+				""
+				"Right-clicking &r with this item in hand will capture mobs in the spawner, after which the spawner will be destroyed."
+				""
+				"Once the mob is captured, right-click &r&6 on the &r&6 Cursed Cage&r (the cursed cage must be empty) and the mob will be placed in it, turning the &6 Cursed Cage&r into the mob spawner &r that caught the mob before &6."
+				""
+				"When the player places a captured creature in the cage into the Cursed Cage, &e the cage consumes &r."
 			]
 			id: "6CE6F35C7131162F"
 			rewards: [{
@@ -349,16 +391,27 @@
 		}
 		{
 			dependencies: ["593605806D412895"]
-			description: ["当你前往下界之后，即可解锁关于进阶下界仪式和专家下界仪式的相关内容。"]
+			description: [
+				"当你前往下界之后，即可解锁关于进阶下界仪式和专家下界仪式的相关内容。"
+				""
+				"When you go to the Nether, you can unlock content about the Progressive Nether Ritual and the Expert Nether Ritual."
+			]
 			icon: "goety:nether_brick_brazier"
 			id: "48CA5C5BE42B6D3C"
 			shape: "hexagon"
 			subtitle: "富有灵魂能量的地方"
-			tasks: [{
-				id: "2CD93C45F7235979"
-				title: "我已了解"
-				type: "checkmark"
-			}]
+			tasks: [
+				{
+					id: "2CD93C45F7235979"
+					title: "我已了解"
+					type: "checkmark"
+				}
+				{
+					dimension: "minecraft:the_nether"
+					id: "42E76583B27EAE1C"
+					type: "dimension"
+				}
+			]
 			title: "下界仪式"
 			x: 1.5d
 			y: 11.5d
@@ -371,6 +424,14 @@
 				"&7如果在它上面放置一个灵魂图腾，吸收器会慢慢吞噬其能量，当灵魂能量为零时，图腾会被摧毁。&r"
 				""
 				"&7可以与其上方和侧方的漏斗交互。&r"
+				""
+				"{@pagebreak}"
+				""
+				"Needs to be placed on &6 Soul Ark&r to inject energy into the Soul Ark. &6 Soul Absorbers can &e absorb and destroy &r certain items to increase the player's &b Soul Energy."
+				""
+				"&7 If a soul totem is placed on it, the absorber will slowly devour its energy, and when the soul energy is zero, the totem will be destroyed. &r"
+				""
+				"&7 can interact with funnels above and on its sides. &r"
 			]
 			id: "12D3937844B0302D"
 			rewards: [{
@@ -395,6 +456,14 @@
 				"该方块可以被附魔&5噬魂&r和&5半径&r以提升它的性能。"
 				""
 				"&7如果主人没有灵魂图腾或灵魂方舟，那么幽匿吞噬器没有任何用处。&r"
+				""
+				"{@pagebreak}"
+				""
+				"If a &2 creature dies &r, it releases a soul particle and sends soul energy directly to the player who placed the block."
+				""
+				"The block can be enchanted &5 Soul Eater&r &5Radius&r to increase its performance."
+				""
+				"&7 If the owner does not have a soul totem or soul ark, then the Devourer of Shadow is of no use. &r"
 			]
 			id: "58D4C38764206571"
 			rewards: [{
@@ -417,6 +486,10 @@
 				"能够将灵魂能量重新转换成幽匿块。只要将其放在&6诅咒之笼&r的下方，并且用红石激活，其就会&2将周围的方块转换成幽匿块&r。"
 				""
 				"如果说在周围放置有幽匿传递站，则会将其转换幽匿的能力扩散到传递站周围。"
+				"{@pagebreak}"
+				"Able to convert soul energy back into a condensation block. As long as it is placed below &6 Cursed Cage &r and activated with Redstone, it will &2 convert the surrounding blocks into Hide Blocks &r."
+				""
+				"If there is a Stealth Transfer Station nearby, its ability to convert Stealth will spread around the Transfer Station."
 			]
 			hide_dependency_lines: true
 			id: "074F0A4966CAA5DE"
@@ -440,6 +513,10 @@
 				"&2利用灵魂能量用来加快作物生长的设备&r，将其放置在&6诅咒之笼&r下方能够加快周围作物的生长。"
 				""
 				"可以通过&5“强效”&r附魔来减少种植站在作物上催熟的时间，但消耗的灵魂量不变。"
+				""
+				"&2 Equipment used by soul energy to speed up crop growth &r, placing it under &6 Cursed Cage &r can speed up the growth of surrounding crops."
+				""
+				"The time it takes to plant stand on crops can be reduced by the &5 \"Powerful\" &r enchantment, but the amount of souls consumed remains the same."
 			]
 			hide_dependency_lines: true
 			id: "1AFD89518183949E"
@@ -460,9 +537,13 @@
 		{
 			dependencies: ["37315B135F29355E"]
 			description: [
-				"&6灵魂蜡烛&r放置在&6诅咒之笼&r上方时，&2可以为某些设备提供灵魂能量&r，类如&6亡灵火炉&r或者&6女巫坩埚&r。"
+				"灵魂蜡烛放置在诅咒之笼上方时，可以为某些设备提供灵魂能量。"
 				""
-				"&6灵魂蜡烛&r的供能范围为&216x16x16&r的区域。"
+				"灵魂蜡烛的供能范围为16x16x16的区域。"
+				""
+				"Soul Candles, when placed above the Cage of Curses, can provide soul energy to certain devices."
+				""
+				"The energy supply range of the soul candle is 16x16x16."
 			]
 			id: "2C66968C7259F120"
 			rewards: [{
@@ -485,6 +566,10 @@
 				"在某些建筑的战利品箱中，你会搜集到各种不同的卷轴。"
 				""
 				"通过阅读这些卷轴的内容，你的诡厄巫法指引书会解锁新的栏目，你可以召唤更强大的仆从。"
+				""
+				"In the loot boxes of some buildings, you'll find a variety of different scrolls."
+				""
+				"By reading the contents of these scrolls, your Guide to Witchcraft unlocks new sections where you can summon more powerful minions."
 			]
 			hide_dependency_lines: true
 			icon: "goety:buried_scroll"
@@ -542,6 +627,10 @@
 				"为了获取&6灵魂红宝石&r制作一些特殊道具，你可能需要制作一个&6黑暗卷轴&r，用以召唤&4灾厄宰相&r。"
 				""
 				"在&2林地府邸&r中使用它，灾厄宰相便会出现，击败它之后将会获得灵魂红宝石。"
+				""
+				"In order to get &6 Soul Ruby &r craft some special items, you may need to craft a &6 Dark Scroll &r to summon &4 Calamity Priests&r."
+				""
+				"Use it in &2 Woodland Mansion &r to reveal the Calamity Chancellor, and defeating it will grant you a Soul Ruby."
 			]
 			hide_dependency_lines: true
 			icon: "goety:dark_scroll"
@@ -598,6 +687,14 @@
 				"使徒是一个&e极其强力的Boss单位&r，它可能比之前你所遇到的所有怪物都要强大。推荐在战斗前做好充足的准备以应对。"
 				""
 				"当击败他之后，总是会掉落一个&4不洁之血&r，这是用于部分最终配方制作的原料。"
+				"{@pagebreak}"
+				"By performing the Rest Ritual, you can summon the final unit of this mod &6 Apostles &r."
+				""
+				"If you perform the ritual in the Nether, the Apostle's power will increase, some skills will change, and the loot will change due to circumstances."
+				""
+				"The Apostle is an extremely powerful boss unit that can be stronger than all the monsters you've encountered before. It is recommended to prepare well before the battle."
+				""
+				"When defeated, it will always drop a &4 Unclean Blood&r, which is used to craft part of the final recipe."
 			]
 			icon: "goety:unholy_blood"
 			id: "537E1732782ABF04"
@@ -623,6 +720,10 @@
 				"在下界击败使徒，则会获得一些额外的奖励，其中包含了&5禁书片段&r以及&5暗夜信标&r。"
 				""
 				"前者可以用于合成禁书卷轴用以解锁&6大师死灵仪式&r。后者则可以让整个世界带来&6永久的夜晚&r。"
+				""
+				"Defeating the Apostles in the Nether will reward you with additional rewards, including &5 Forbidden Book Fragments &r and &5 Night Beacons."
+				""
+				"The former can be used to craft Forbidden Book Scrolls to unlock &6 Master Necromancy Rituals. The latter allows the whole world to bring &6 permanent nights&r."
 			]
 			id: "352835A8D47C5829"
 			rewards: [{
@@ -652,7 +753,7 @@
 				""
 				"转化为巫妖将会获得许多的好处：无限的夜视效果、无需饥饿值、免疫溺水、不受亡灵生物侵扰等。"
 				""
-				"但是，相对的，你也会在阳光下陷入&c无穷尽的燃烧&r。"
+				"但是，相对的，你也会在阳光下陷入&c无穷尽的燃烧&r，而且这个过程不可逆。"
 				""
 				"{@pagebreak}"
 				"要想进化成巫妖，你必须满足以下的条件："
@@ -662,6 +763,24 @@
 				"2. 时间必须是满月的夜晚。"
 				""
 				"3. 饮用该药剂将造成50凋零伤害。如果在致命的凋零伤害之后存活或重生，你就会变成巫妖。"
+				""
+				"{@pagebreak}"
+				"After reading &6 Forgotten Scrolls&r, you can perform the &6 Master Necromancer Rituals &r- this is the ritual condition required to craft the 60,000 Elixirs."
+				""
+				"Using the elixir will allow you to comprehend the wisdom of the Lich, and if the conditions are met, the player can convert to Lich &r by &2."
+				""
+				"Transforming into a Lich will reward you with many benefits: unlimited night vision, no hunger required, immunity to drowning, immunity to undead creatures, and more."
+				""
+				"But, on the other hand, you will also fall into an endless burn in the sun, and the process is irreversible."
+				""
+				"{@pagebreak}"
+				"To evolve into a lich, you must meet the following conditions:"
+				""
+				"1. Have a bound Soul Ark."
+				""
+				"2. The time must be the night of the full moon."
+				""
+				"3. Drinking this potion will deal 50 Blight damage. If you survive or respawn after the fatal wither damage, you become a lich."
 			]
 			id: "020F32F2C7347F32"
 			rewards: [{
@@ -691,6 +810,19 @@
 				"&b增强剂：&r改变此次制作药剂的生效形式、持续时间、药效等级、影响区域、滞留时间等等。&7（可以跳过该阶段）&r"
 				""
 				"&b结束：&r如果步骤没有失误炼制成功，便可以通过手持&6坩埚巨勺&r&2右键&r&6女巫坩埚&r，来开启灵魂能量的注入，生成药水。"
+				""
+				"{@pagebreak}"
+				""
+				"Medicinal brewing is divided into four steps, namely:"
+				"&bVolumetric Agent => Catalyst => Enhancer => End&r"
+				""
+				"&bVolumetric Agent:&r Determine the &eCapacity of the Pharmaceutical Agent &r. The effect, duration, other enhancements, etc. of the potion all need &2 to occupy different capacity&r. &4 Note that in the subsequent production step, if the capacity is exceeded, the brewing will fail. &r"
+				""
+				"&bCatalyst: &r Determines the &e effect of this potion&r. Different effects take up different amounts, you can add a variety of effects to your potion &2."
+				""
+				"&bEnhancer: &r Changes the effective form, duration, efficacy level, affected area, residence time, etc. of the potion made this time. &7 (can skip this stage) &r"
+				""
+				"&bEnd:&r If the refining is successful without mistakes, you can start the injection of soul energy by holding &6 Crucible Spoon &r&r&2 Right Click &r&6 Witch Crucible &r to generate potions."
 			]
 			icon: "goety:cauldron_ladle"
 			id: "24119BB18C19CC04"
@@ -777,7 +909,11 @@
 		}
 		{
 			dependencies: ["39A1A046832960CC"]
-			description: ["&b灵魂能量&r通过&c击杀生物&r获得，不同的生物提供的灵魂能量不同。"]
+			description: [
+				"&b灵魂能量&r通过&c击杀生物&r获得，不同的生物提供的灵魂能量不同。"
+				""
+				"&bSoul Energy &rObtained by &cKilling creatures&r, different creatures provide different soul energy."
+			]
 			icon: "minecraft:zombie_head"
 			id: "7153D245425EC002"
 			rewards: [{
@@ -804,6 +940,13 @@
 				"转换器将向传递站发送粒子，以表示它连接到了哪个传递站。如果传递站被破坏了，转换器将在范围内找到一个新的传递站，或者在自己周围散播幽匿块。"
 				""
 				"转换器可以被附魔&5“强效”&r，这将增加扩散量和灵魂能量消耗。"
+				""
+				"{@pagebreak}"
+				"If there is a &6 Stealth Transfer Station&r around the &6 Stealth Converter&r, the Cloak Block will spread out at the location of the Passing Station."
+				""
+				"The converter will send particles to the transfer station to indicate which transfer station it is connected to. If the transfer station is destroyed, the converter will find a new one within range or scatter cloak blocks around itself."
+				""
+				"The converter can be enchanted &5 \"Powerful\"&r, which will increase the diffusion and soul energy cost."
 			]
 			hide_dependency_lines: true
 			id: "772F03214427101A"
@@ -831,6 +974,14 @@
 				"对准诅咒之笼按住shift（潜行键）可以查看诅咒之笼内的灵魂能量。"
 				""
 				"诅咒之笼的&e主要作用&r是&2为其他消耗灵魂能量的设备供能&r。"
+				"{@pagebreak}"
+				"Obtained by &2 synthesis &r."
+				""
+				"You can put &6 Root Totem&r or &6 Soul Totem &r into &6 Cursed Cage &r to make &2 gain Soul Energy &r. You can also put the &6 Connecting Gem &r that is bound to the Soul Ark &r into the Cage of Curses, allowing it to use the Soul Energy stored in the Soul Ark &2."
+				""
+				"Aim at the Cage of Curses and hold down Shift (stealth key) to view the soul energy in the Cage of Curses."
+				""
+				"The Cage of Curses' main function is &2 to power other devices that consume soul energy."
 			]
 			id: "37315B135F29355E"
 			rewards: [{
@@ -863,6 +1014,16 @@
 				"&c如果你选择与之战斗：&r巫婆死亡必定掉落一顶&6巫婆帽&r。"
 				""
 				"&3如果你选择与之交易：&r巫婆对穿着&6女巫长袍&r和&6女巫帽/巫婆帽&r的玩家，或者对穿着&6术士长袍&r的玩家是&2中立&r的，此时你便可以与之&2交易&r。"
+				"{@pagebreak}"
+				"In the &2 Swamp and Taiga biome&r, you may find a &3 Decay Hut, which will definitely have a &6 Crystal Orb for spawning &c Witches."
+				""
+				"Players can interact with &6 crystal balls &r to generate &c witch&r, &2 crystal balls after spawning witches &r will enter &2 inactivated state &r and can no longer summon witches."
+				""
+				"Inside &3 Decay Hut &r Holding &6 Respawn Anchor &r Right-click &2 Deactivated Crystal Ball &r will reactivate the Crystal Ball and allow you to &2 challenge the boss again&r."
+				"{@pagebreak}"
+				"&cIf you choose to fight it: &rThe witch dies and must drop a &6 witch hat&r."
+				""
+				"&3 If you choose to trade with: &rWitch to a player wearing &6 Witch's Robe &r &r and &6 Witch Hat/Witch Hat&r, or &2 Neutral to a player wearing &6 Warlock Robe &r, you can trade &2 with &r."
 			]
 			hide_dependency_lines: true
 			icon: "goety:crystal_ball"
@@ -896,6 +1057,16 @@
 				"在&3墓穴&r内手持&6重生锚&r右击&6陶瓷坛&r会使陶瓷坛重新回到锁定状态，让你可以&2再次挑战boss，同时其中的战利品也会刷新&r。"
 				""
 				"&7据说某些制图师可能会出售指向墓穴的地图&r"
+				"{@pagebreak}"
+				"&3 Crypt is a huge &2 underground structure."
+				""
+				"The &3 main tomb in &3 Crypt &r will have a fixed &6 Ceramic Altar&r that initially spawns in a locked state, and when the player tries to open it, a &c Skeleton Lord &r will spawn."
+				""
+				"Defeat the Skeleton Lord to open the Ceramic Altar and get a lot of loot."
+				""
+				"Holding &6 Respawn Anchor &r right in &3 Crypt &r will bring the ceramic altar back to its locked state, allowing you to &2 challenge the boss again, and the loot in it will also refresh &r."
+				""
+				"&7 It is said that some cartographers may sell maps pointing to the crypts&r"
 			]
 			hide_dependency_lines: true
 			icon: "goety:pithos"
@@ -925,6 +1096,10 @@
 				"&3红树林塔&r是一种会生成在&2红树林沼泽生物群落&r的建筑物，在它生成的时候，顶部一定会产生一个不会被刷新掉的&c术士&r。"
 				""
 				"同时，&3红树林塔&r的周围也会生成&c术士&r。"
+				""
+				"&3 Mangrove Tower&r is a building that spawns in &2 Mangrove Swamp biome&r, and when it spawns, there is always a &c Warlock&r at the top that will not be refreshed."
+				""
+				"At the same time, &3 Mangrove Tower&r will also spawn &cWarlock&r."
 			]
 			hide_dependency_lines: true
 			icon: "goety:warlock_sash"
@@ -1028,10 +1203,20 @@
 				"多数聚晶需要依赖各种魔法仪式制作，但也有少数聚晶可以通过工作台合成。"
 				""
 				"请自行前往&6模组指引书&r中的&e“聚晶”类目&r中翻阅查看。"
-				"{@pagebreak}"
+				""
 				"当玩家拥有聚晶后，手持该模组的法杖，&2默认按下Z键&r&7（打开法术聚晶槽）&r，即可打开法杖的&e法术聚晶槽&r，装配已拥有的聚晶。"
 				""
 				"之后按&2右键&r即可释放法术。"
+				"{@pagebreak}"
+				"&dGoety&r contains many polycrystals that are the foundation of your &2 spell release&r."
+				""
+				"Most polycrystals rely on various magical rituals to craft, but a few can be crafted through crafting tables."
+				""
+				"Please go to > \"Polycrystal\" category&r in &6 Module Guide&r to read and view it."
+				""
+				"When the player has the Crystal, hold the staff of the mod, &2 press the Z key &r&7 (open the spell crystal slot) &r by default, you can open the &e spell crystal slot &r of the staff and assemble the already owned crystal."
+				""
+				"Then press &2 right click &r to release the spell."
 			]
 			icon: {
 				Count: 1
@@ -1042,11 +1227,25 @@
 			}
 			id: "236B608210F1F040"
 			subtitle: "研习法术"
-			tasks: [{
-				id: "34704B5EA4118E9D"
-				title: "我已了解"
-				type: "checkmark"
-			}]
+			tasks: [
+				{
+					id: "34704B5EA4118E9D"
+					title: "我已了解"
+					type: "checkmark"
+				}
+				{
+					id: "3C66A48E6287633B"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "goety:focuses"
+						}
+					}
+					title: "Any #goety:focuses"
+					type: "item"
+				}
+			]
 			title: "诡异的魔法聚晶"
 			x: 7.0d
 			y: 8.5d
@@ -1063,11 +1262,23 @@
 				"{@pagebreak}"
 				"当玩家&2手持任意魔杖&r，且&2身上有任意聚晶/聚晶包&r时，便可以打开&e聚晶圆环&r。&7（默认为X键）&r"
 				""
-				"按住此按键时，聚晶圆环会打开，如果松开按键，聚晶圆环就会关闭。"
-				""
 				"你可以在该界面&2快速修改魔杖的聚晶配置&r，以及&2和聚晶包进行交互&r。"
 				""
 				"&7当玩家身上没有任何聚晶或聚晶包，那么聚晶圆环无法打开。&r"
+				"{@pagebreak}"
+				""
+				"It can be used to open a player's Poly Pack when they place it in the belt position in the trinket slot, or when they are in a backpack. &7 (C key by default) &r"
+				""
+				"&7 By default, the polycrystal pack in the belt slot will be opened, if the polycrystal bag is not in the belt, the polycrystal pack on the far left of the shortcut bar will be opened first. &r"
+				""
+				"&7 Finally, try to open the polycrystal bag closest to the upper left corner of the backpack. &r"
+				""
+				"{@pagebreak}"
+				"When the player &2 is holding any wand &r and &2 has any polycrystallization/polycrystallization pack on him, he can open the &epoly ring&r. &7 (X key by default) &r"
+				""
+				"You can quickly modify the wand's condensation configuration &2 and interact with the condensation pack &2 on this screen."
+				""
+				"&7 When the player does not have any polycrystals or polycrystal packs, then the polycrystal ring cannot be opened. &r"
 			]
 			id: "657C4EADFC5A5BD2"
 			rewards: [{
@@ -1112,6 +1323,22 @@
 				"如果黑暗祭坛下放的诅咒之笼内灵魂能量不为0，仪式就会开始。"
 				""
 				"每种魔法仪式进行时，消耗的灵魂能量不同。请注意提前潜行注视诅咒之笼，确认其灵魂能量是否足够支撑此次仪式消耗，不然&c仪式会失败且损失道具和灵魂能量&r。"
+				""
+				"{@pagebreak}"
+				"To perform different types of Magic Rituals, you also need to place &2 specific blocks of the correct type and number around &6 Dark Altars, or require &2 locations of Dark Altars to meet certain conditions&r."
+				""
+				"&7 If the coordinates of the Dark Altar are (X,Y,Z), &r&7 The Altar Base and the required block can be placed anywhere within the cube range of (X-8, Y-8, Z-8) to (X 8, Y 8, Z 8). (no order requirement)&r"
+				""
+				"You can place &2 Ritual Blocks&r within the recognizable radius of a Dark Altar, allowing the Dark Altar to perform multiple Rituals."
+				""
+				"{@pagebreak}"
+				"After completing the placement requirements for a ritual, the player needs to confirm &2 the recipe for the item to be crafted from the ritual."
+				""
+				"Right-click &6 Altar Base &r to place the item (no order position requirement), and when the type and quantity of items on the altar base are up to standard, you can hold the item that needs to be placed in &6 Dark Altar &r and right-click on the Dark Altar."
+				""
+				"If the soul energy in the cursed cage placed under the Dark Altar is not 0, the ritual will begin."
+				""
+				"Each magical ritual consumes different soul energy. Please be careful to sneak and watch the Cursed Cage in advance to see if its soul energy is sufficient to support the ritual consumption, otherwise the &c ritual will fail and the item and soul energy &r will be lost."
 			]
 			icon: "minecraft:paper"
 			id: "593605806D412895"
@@ -1133,7 +1360,6 @@
 		}
 		{
 			dependencies: ["7DC6ADF38293C21B"]
-			description: ["击败灾厄宰相！"]
 			hide_dependency_lines: true
 			id: "21A1453792744E6A"
 			rewards: [{

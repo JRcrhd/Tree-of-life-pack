@@ -869,8 +869,17 @@
 		}
 		{
 			dependencies: ["34BB2829CF60D94C"]
-			description: [""]
+			description: [
+				"这一世界曾降临神明，诸神肆意倾泻其力量，只为了将这一世界塑造为自己的乐园。"
+				""
+				"如今神代已经结束，但众神残留的力量尚未完全清除。"
+				""
+				"This world has come to the gods, and the gods have poured their power into their own paradise."
+				""
+				"Now that the Age of the Gods is over, the remaining power of the gods has not yet been completely eliminated."
+			]
 			id: "689F32883C4E9502"
+			subtitle: "遗留于世的力量"
 			tasks: [{
 				id: "5603E578E9EFC748"
 				title: "请确认"

@@ -15,5 +15,17 @@
     "tetra.material.point_tiphareth.prefix": "Tiphareth",
     "tetra.material.point_tiphareth": "Tiphareth",
     "tetra.material.point_kether.prefix": "Kether",
-    "tetra.material.point_kether": "Kether"
+    "tetra.material.point_kether": "Kether",
+    "tetra.material.point_hod.prefix": "Hod",
+    "tetra.material.point_hod": "Hod",
+    "tetra.material.point_geburah.prefix": "Geburah",
+    "tetra.material.point_geburah": "Geburah",
+    "tetra.material.point_binah.prefix": "Binah",
+    "tetra.material.point_binah": "Binah",
+    "tetra.material.point_netzach.prefix": "Netzach",
+    "tetra.material.point_netzach": "Netzach",
+    "tetra.material.point_chesed.prefix": "Chesed",
+    "tetra.material.point_chesed": "Chesed",
+    "tetra.material.point_chokmah.prefix": "Chokmah",
+    "tetra.material.point_chokmah": "Chokmah"
 }

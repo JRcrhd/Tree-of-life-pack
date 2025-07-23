@@ -1,0 +1,12 @@
+{
+	"name": "正午时代",
+	"description": "神代降临",
+	"icon": "minecraft:paper",
+	"category": "history",
+	"pages":[
+		{
+			"type":"text",
+			"text":""
+		}
+	]
+}

@@ -1,0 +1,34 @@
+{
+  "key": "point_binah",
+  "category": "socket",
+  "primary": 0,
+  "secondary": 0,
+  "tertiary": 0,
+  "durability": 1200,
+  "integrityCost": 2,
+  "integrityGain": 0,
+  "magicCapacity": 120,
+  "toolLevel": 0,
+  "toolEfficiency": 8,
+    "attributes":{
+        "forge:reach_distance":0.2,
+        "forge:attack_range":0.2,
+        "forge:health":7
+    },
+    "effects": {
+        "bleeding": 2
+    },
+  "tints": {
+    "glyph": "7F2C11",
+    "texture": "7F2C11"
+  },
+      "textures": [
+        "default"
+    ],
+	"experienceCost": 30,
+  "material": {
+    "items": [
+      "kubejs:point_binah"
+    ]
+  }
+}

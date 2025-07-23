@@ -8,6 +8,40 @@
 	hide_quest_until_deps_visible: true
 	icon: "kubejs:point_kether"
 	id: "0F775651E7003FC9"
+	images: [
+		{
+			height: 0.0d
+			image: "minecraft:block/redstone_dust_line0"
+			rotation: 90.0d
+			width: 1.0d
+			x: -4.5d
+			y: -0.5d
+		}
+		{
+			height: 10.0d
+			image: "minecraft:block/redstone_dust_line0"
+			rotation: 90.0d
+			width: 1.0d
+			x: 0.0d
+			y: -0.5d
+		}
+		{
+			height: 10.0d
+			image: "minecraft:block/redstone_dust_line0"
+			rotation: 90.0d
+			width: 1.0d
+			x: 0.0d
+			y: -3.5d
+		}
+		{
+			height: 10.0d
+			image: "minecraft:block/redstone_dust_line0"
+			rotation: 90.0d
+			width: 1.0d
+			x: 0.0d
+			y: -7.0d
+		}
+	]
 	order_index: 0
 	quest_links: [ ]
 	quests: [

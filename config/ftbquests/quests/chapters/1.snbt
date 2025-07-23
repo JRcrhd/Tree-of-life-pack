@@ -11,6 +11,7 @@
 	quests: [
 		{
 			dependencies: ["34BB2829CF60D94C"]
+			description: ["「序」则以规律为基，赋予万物运行的法则，构建时空维度的基本框架。"]
 			hide_until_deps_complete: true
 			id: "161309655AB92C0E"
 			shape: "diamond"

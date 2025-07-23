@@ -67,6 +67,12 @@
 					id: "17BD1D8D7AE3B847"
 					type: "command"
 				}
+				{
+					auto: "enabled"
+					command: "/gamerule sendCommandFeedback false"
+					id: "0D31F38C78223502"
+					type: "command"
+				}
 			]
 			shape: "circle"
 			size: 1.0d
