@@ -1,0 +1,33 @@
+{
+  "trigger": "tetra:apply_hit_effects",
+  "effect": "explosive",
+  "data": {
+    "numbers": {
+      "chance": {
+        "type": "tetra:effect_efficiency",
+        "effect": "explosive"
+      },
+      "power": {
+        "type": "tetra:effect_level",
+        "effect": "explosive",
+        "multiplier": 0.5
+      }
+    },
+    "vectors": {
+      "explosion_pos": {
+        "type": "tetra:entity_position",
+        "entity": "target"
+      }
+    }
+  },
+  "condition": {
+    "type": "tetra:random",
+    "chance": "chance"
+  },
+  "outcome": {
+    "type": "tetra:command",
+    "command": "summon minecraft:tnt ~ ~ ~ {Fuse:10}",
+    "position": "explosion_pos",
+    "entity": "attacker"
+  }
+}

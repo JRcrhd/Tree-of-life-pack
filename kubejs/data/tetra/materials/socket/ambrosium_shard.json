@@ -1,0 +1,35 @@
+{
+  "key": "aether_ambrosium_shard",
+  "category": "socket",
+  "primary": 0,
+  "secondary": 0,
+  "tertiary": 0,
+  "durability": 900,
+  "integrityCost": 3,
+  "integrityGain": 0,
+  "magicCapacity": 160,
+  "toolLevel": "minecraft:diamond",
+  "toolEfficiency": 10.0,
+  "effects": {
+    "stabilizing": 10,
+    "workable": 15,
+    "counterweight": 2
+  },
+  "improvements": {
+    "sweeping": 1
+  },
+  "tints": {
+    "glyph": "FFD700",
+    "texture": "FFD700"
+  },
+  "textures": [
+    "gem",
+    "shiny"
+  ],
+  "experienceCost": 30,
+  "material": {
+    "items": [
+      "aether:ambrosium_shard"
+    ]
+  }
+}

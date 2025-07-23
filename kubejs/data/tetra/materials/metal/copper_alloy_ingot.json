@@ -1,0 +1,32 @@
+{
+  "key": "enderio_copper_alloy_ingot",
+  "category": "metal",
+  "primary": 4.8,
+  "secondary": 3.5,
+  "tertiary": 3.8,
+  "durability": 320,
+  "integrityCost": 2,
+  "integrityGain": 5,
+  "magicCapacity": 75,
+  "toolLevel": "minecraft:iron",
+  "toolEfficiency": 6.0,
+  "effects": {
+    "stabilizing": 2
+  },
+  "tints": {
+    "glyph": "B87333",
+    "texture": "B87333"
+  },
+  "textures": [
+    "metal",
+    "default"
+  ],
+  "material": {
+    "items": [
+      "enderio:copper_alloy_ingot"
+    ]
+  },
+  "requiredTools": {
+    "hammer_dig": "minecraft:stone"
+  }
+}

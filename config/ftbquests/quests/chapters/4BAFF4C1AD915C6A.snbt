@@ -17,34 +17,175 @@
 	}]
 	order_index: 1
 	quest_links: [ ]
-	quests: [{
-		dependencies: ["01A444FBE0404EA2"]
-		description: [
-			"曾经的人们试图将石头变成黄金，但他们最终失败了，不过他们带来了化学。"
-			""
-			"随着神代的结束，人们重新将视线投向天空，在群星间找到了构建宇宙的根源规则，于是发明了真正的炼金术。"
-			""
-			"炼金术以物质提纯为手段，逆熵而上追溯物质的原本面貌，以期望寻找真正的纯粹之物。"
-			"{@pagebreak}"
-			"People once tried to turn stone into gold, but they failed, but they brought chemistry."
-			""
-			"With the end of the Age of the Gods, people turned their attention to the sky again, found the root rules for building the universe among the stars, and invented true alchemy."
-			""
-			"Alchemy uses material purification as a means to trace the original appearance of matter against entropy, in order to find the true purity."
-		]
-		icon: "enderio:copper_alloy_grinding_ball"
-		id: "7F7A011A342CDE69"
-		shape: "diamond"
-		size: 1.5d
-		subtitle: "逆熵而上"
-		tasks: [{
-			id: "628ED4EBE66A372F"
-			title: "请确认"
-			type: "checkmark"
-		}]
-		title: "关于 炼金"
-		x: 0.0d
-		y: 0.0d
-	}]
+	quests: [
+		{
+			dependencies: ["01A444FBE0404EA2"]
+			description: [
+				"曾经的人们试图将石头变成黄金，但他们最终失败了，不过他们带来了化学。"
+				""
+				"随着神代的结束，人们重新将视线投向天空，在群星间找到了构建宇宙的根源规则，于是发明了真正的炼金术。"
+				""
+				"炼金术以物质提纯为手段，逆熵而上追溯物质的原本面貌，以期望寻找真正的纯粹之物。"
+				"{@pagebreak}"
+				"People once tried to turn stone into gold, but they failed, but they brought chemistry."
+				""
+				"With the end of the Age of the Gods, people turned their attention to the sky again, found the root rules for building the universe among the stars, and invented true alchemy."
+				""
+				"Alchemy uses material purification as a means to trace the original appearance of matter against entropy, in order to find the true purity."
+			]
+			icon: "enderio:copper_alloy_grinding_ball"
+			id: "7F7A011A342CDE69"
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "逆熵而上"
+			tasks: [{
+				id: "628ED4EBE66A372F"
+				title: "请确认"
+				type: "checkmark"
+			}]
+			title: "关于 炼金"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7F7A011A342CDE69"]
+			description: [
+				"物质提纯的第一步，象征物质脱离了原有的表象。"
+				""
+				"建议量产。"
+			]
+			icon: "kubejs:alchemy_black"
+			id: "767243E6F5BDC2E9"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "09F8BE44F6EB0A9D"
+				table_id: 1367640064537670306L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "2CC71B0C8A18BB2B"
+					item: "kubejs:alchemy_black"
+					type: "item"
+				}
+				{
+					id: "2F5E6DF67D89C60F"
+					type: "checkmark"
+				}
+			]
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["767243E6F5BDC2E9"]
+			description: ["物质提纯的第二步，象征了物质经过过滤提纯，保留了更纯粹的形式。"]
+			icon: "kubejs:alchemy_white"
+			id: "0B6220789BA9C4C5"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "607EC60EB18F61AC"
+				table_id: 3468198614520584855L
+				type: "random"
+			}]
+			size: 1.2d
+			tasks: [{
+				id: "455A2E522A4B5254"
+				item: "kubejs:alchemy_white"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 3.75d
+		}
+		{
+			dependencies: ["0B6220789BA9C4C5"]
+			description: ["物质提纯的第三步，象征了新结构的形成和新秩序的诞生。"]
+			id: "31E30DD57B9A5CB7"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7DA3CD99F0EB9FD8"
+				table_id: 7545900498830760989L
+				type: "random"
+			}]
+			size: 1.4d
+			tasks: [{
+				id: "04646F3F001F1A79"
+				item: "kubejs:alchemy_yellow"
+				type: "item"
+			}]
+			x: 1.4d
+			y: 4.8999999999999995d
+		}
+		{
+			dependencies: ["339F06904EA2549D"]
+			description: ["即将完成的伟大之作，距离贤者之石只差最后一步。"]
+			id: "1EC0AD5919E1A528"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3AEF10B290DECEB4"
+				table_id: 9027088842797077213L
+				type: "random"
+			}]
+			size: 1.8d
+			tasks: [{
+				id: "64905C66938E69CE"
+				item: "kubejs:alchemy_in_phi"
+				type: "item"
+			}]
+			x: 1.7999999999999998d
+			y: 8.1d
+		}
+		{
+			dependencies: ["31E30DD57B9A5CB7"]
+			description: ["物质提纯的第四步，象征着更高程度的升华。"]
+			id: "339F06904EA2549D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "541B1DBAE2E6B415"
+				table_id: 9027088842797077213L
+				type: "random"
+			}]
+			size: 1.6d
+			tasks: [{
+				id: "74A44DFED8FC1CEF"
+				item: "kubejs:alchemy_red"
+				type: "item"
+			}]
+			x: -2.4d
+			y: 6.4d
+		}
+		{
+			dependencies: ["1EC0AD5919E1A528"]
+			description: [
+				"……纯粹之熵……"
+				""
+				"你成功了。"
+			]
+			id: "2B8B42473141CD82"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7921A2B7685B9629"
+				table_id: 9027088842797077213L
+				type: "choice"
+			}]
+			shape: "octagon"
+			size: 2.0d
+			subtitle: "伟大之作"
+			tasks: [{
+				id: "7E654C279027C453"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: { }
+					}
+					id: "projecte:philosophers_stone"
+					tag: { }
+				}
+				match_nbt: false
+				type: "item"
+			}]
+			x: -1.0d
+			y: 10.0d
+		}
+	]
 	title: "🜨炼金"
 }

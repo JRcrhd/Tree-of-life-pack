@@ -1,0 +1,28 @@
+{
+  "trigger": "tetra:apply_hit_effects",
+  "effect": "cursed",
+  "data": {
+    "numbers": {
+      "chance": {
+        "type": "tetra:effect_efficiency",
+        "effect": "cursed"
+      },
+      "duration": {
+        "type": "tetra:effect_level",
+        "effect": "cursed",
+        "multiplier": 60
+      }
+    }
+  },
+  "condition": {
+    "type": "tetra:random",
+    "chance": "chance"
+  },
+  "outcome": {
+    "type": "tetra:apply_effect",
+    "entity": "attacker",
+    "effect": "minecraft:unluck",
+    "amplifier": 1,
+    "duration": "duration"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "key": "aether_enchanted_gravitite",
+  "category": "socket",
+  "primary": 0,
+  "secondary": 0,
+  "tertiary": 0,
+  "durability": 1200,
+  "integrityCost": 4,
+  "integrityGain": 0,
+  "magicCapacity": 200,
+  "toolLevel": "minecraft:netherite",
+  "toolEfficiency": 12.0,
+  "effects": {
+    "stabilizing": 15,
+    "workable": 20,
+    "sweeping": 4,
+    "counterweight": 3,
+    "enderReverb": 2
+  },
+  "improvements": {
+    "crushing": 2
+  },
+  "attributes": {
+    "forge:reach_distance": 1.0
+  },
+  "tints": {
+    "glyph": "9932CC",
+    "texture": "9932CC"
+  },
+  "textures": [
+    "gem",
+    "shiny"
+  ],
+  "experienceCost": 40,
+  "material": {
+    "items": [
+      "aether:enchanted_gravitite"
+    ]
+  }
+}

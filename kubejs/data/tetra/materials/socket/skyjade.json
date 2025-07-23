@@ -1,0 +1,36 @@
+{
+  "key": "deep_aether_skyjade",
+  "category": "socket",
+  "primary": 0,
+  "secondary": 0,
+  "tertiary": 0,
+  "durability": 1000,
+  "integrityCost": 4,
+  "integrityGain": 0,
+  "magicCapacity": 180,
+  "toolLevel": "minecraft:diamond",
+  "toolEfficiency": 11.0,
+  "effects": {
+    "stabilizing": 12,
+    "workable": 18,
+    "sweeping": 3,
+    "enderReverb": 1
+  },
+  "improvements": {
+    "counterweight": 2
+  },
+  "tints": {
+    "glyph": "00CED1",
+    "texture": "00CED1"
+  },
+  "textures": [
+    "gem",
+    "shiny"
+  ],
+  "experienceCost": 35,
+  "material": {
+    "items": [
+      "deep_aether:skyjade"
+    ]
+  }
+}

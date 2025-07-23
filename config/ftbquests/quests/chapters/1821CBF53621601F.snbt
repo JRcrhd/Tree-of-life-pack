@@ -8,22 +8,811 @@
 	id: "1821CBF53621601F"
 	order_index: 1
 	quest_links: [ ]
-	quests: [{
-		dependencies: ["34BB2829CF60D94C"]
-		description: [
-			"神代结束后，神明遗留于世的事物化为无主的能量，曾一度成为人类生存的威胁。"
-			""
-			"经过漫长的努力和研究，其中一部分能量得以回收。学者们为其重新编织规则，使其成为人类能够驾驭的魔法。"
-		]
-		hide_until_deps_complete: true
-		id: "15C91C6E2007E203"
-		tasks: [{
-			id: "0B16E7AED7A79D67"
-			title: "确认"
-			type: "checkmark"
-		}]
-		x: 0.5d
-		y: 0.5d
-	}]
+	quests: [
+		{
+			dependencies: ["34BB2829CF60D94C"]
+			description: [
+				"&7神代结束后，神明遗留于世的事物化为无主的能量，曾一度成为人类生存的威胁。"
+				""
+				"&7经过漫长的努力和研究，其中一部分能量得以回收。学者们为其重新编织规则，使其成为人类能够驾驭的魔法。&r"
+				""
+				"整合包对&3alexsmobs、灾变、机械动力、神化、通用机械、等价交换、末影接口&r进行了tetra的适配。而且对装备的发展路线进行了修改。主要体现在以下几点："
+				""
+				"1.tetra的锻造锤添加了配方，但是一旦放置无法完整拆除。"
+				""
+				"2.神化增加了新的装备等级，而且与禁忌与奥秘的发展绑定。"
+				"{@pagebreak}"
+				"&7After the end of the Age of the Gods, the remnants left by the deities transformed into unowned energy, which once became a threat to human survival."
+				""
+				"After long efforts and research, part of this energy was recovered. Scholars rewove the rules for it, transforming it into magic that humans can harness.&r"
+				""
+				"Modpack has adapted tetra for &3alexsmobs, cataclysm, create, apotheosis, mekanism, projecte, enderio&r."
+				""
+				"Additionally, the development path for equipment has been modified. This is mainly reflected in the following points:"
+				""
+				"1. The tetra forging hammer has added recipes, but once placed, it cannot be completely disassembled."
+				""
+				"2. Divinization has added new equipment levels, which are bound to the development of Forbiddens \\& Arcanas."
+			]
+			hide_dependent_lines: true
+			hide_until_deps_complete: true
+			id: "15C91C6E2007E203"
+			rewards: [{
+				id: "5906862435C7F30D"
+				item: {
+					Count: 1
+					id: "tetra:holo"
+					tag: {
+						"holo/core": "holo/core"
+						"holo/core_material": "frame/dim"
+						"holo/frame": "holo/frame"
+						"holo/frame_material": "core/ancient"
+						"holo/repo": "holo/repo"
+						"holo/repo_material": "repo/default"
+						"holo/scanner": "holo/scanner"
+						"holo/scanner_material": "scanner/default"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0B16E7AED7A79D67"
+				title: "确认"
+				type: "checkmark"
+			}]
+			title: "关于 装备"
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["15C91C6E2007E203"]
+			description: [
+				"神化为附魔台增加了大量的功能。部分名词解释："
+				""
+				"位阶：当前附魔台的附魔等级（可理解为均值）。"
+				"量子化：实际附魔水平的波动程度（可理解为方差）。"
+				"阿卡那：高稀有度附魔出现概率。"
+				"附魔线索：字面意思，鼠标移动到条目上显示的附魔数量。"
+				"校准：降低量子化的负面影响。"
+				""
+				"各个条目的数值由其周围的书架决定。"
+				""
+				"&6关于灌注&r：神化引入的新合成方式。当三个条目的数值满足要求时，附魔选项会出现“灌注…”，此时点击即可完成灌注合成。"
+				"{@pagebreak}"
+				"Apotheosis makes the enchanting table a lot of functions. Some explanations of terms:"
+				""
+				"Tier: The current enchanting level of the enchanting table (can be understood as the average)."
+				""
+				"Quantization: The degree of fluctuation of the actual enchanting level (can be understood as variance)."
+				""
+				"Arcana: The probability of high rarity enchantments appearing."
+				""
+				"Enchanting clue: Literally means the number of enchantments displayed when the mouse hovers over the entry."
+				""
+				"Calibration: Reduces the negative effects of quantization."
+				""
+				"About infusion: a new synthesis method introduced by deification. When the values of the three items meet the requirements, the enchantment option will show 'infusion...', at which point you can click to complete the infusion crafting."
+				""
+				"The values of each entry are determined by the surrounding bookshelves."
+			]
+			id: "57A5A601AD4365D4"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "28DAC1196508CD8F"
+				table_id: 3468198614520584855L
+				type: "random"
+			}]
+			tasks: [{
+				id: "5E4D7F90787FD0D5"
+				item: "minecraft:enchanting_table"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0E769C540B0F3DB0"]
+			description: [
+				"使用 回收台 可以代替铁砧回收宝石。"
+				""
+				"同时它还可以将词缀武器分解为 词缀材料。"
+				""
+				"宝石切割台可以用来升级宝石。两颗完全相同宝石+宝石粉+对应的词缀材料=一颗更高一级的宝石。"
+				""
+				"Using the recycling table can replace the anvil to recycle gems."
+				""
+				"At the same time, it can also decompose affixed weapons into affix materials."
+				""
+				"The gem cutting table can be used to upgrade gems. Two identical gems + gem powder + affix materials = a higher level gem."
+			]
+			id: "70A924E2F699381E"
+			rewards: [{
+				count: 4
+				id: "24B3697AEF9B83A7"
+				item: "apotheosis:common_material"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "5725661858C52FD8"
+					item: "apotheosis:gem_cutting_table"
+					type: "item"
+				}
+				{
+					id: "4347D2DF57AF00A3"
+					item: "apotheosis:salvaging_table"
+					type: "item"
+				}
+			]
+			title: "宝石工作站"
+			x: 4.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["15C91C6E2007E203"]
+			description: [
+				"使用铁砧回收宝石，操作方法为：将宝石丢在掉落的铁砧下。"
+				""
+				"Use the anvil to recycle gems. The method is: drop the gems under the falling anvil."
+			]
+			icon: "minecraft:anvil"
+			id: "0E769C540B0F3DB0"
+			rewards: [{
+				id: "165270C8AD6694AA"
+				item: "apotheosis:gem_dust"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "790D4258332F085B"
+					item: "minecraft:anvil"
+					type: "item"
+				}
+				{
+					id: "02D6FFBEC0948F6F"
+					item: "apotheosis:gem_dust"
+					type: "item"
+				}
+			]
+			x: 3.5d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"57A5A601AD4365D4"
+				"0BF752D60F15F053"
+			]
+			hide_dependency_lines: true
+			id: "3E4C372F034E9EF0"
+			rewards: [
+				{
+					id: "027DB1A62D388496"
+					item: "apotheosis:mythic_material"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "37697CD9EBF83CE7"
+					table_id: 9027088842797077213L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "25E0D54B0A273B1A"
+				item: "apotheosis:augmenting_table"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"57A5A601AD4365D4"
+				"0E769C540B0F3DB0"
+			]
+			description: [
+				"为武器添加词缀/重新获得武器的词缀"
+				""
+				"这个重铸台只能支持到蓝色品质"
+				""
+				"Add affixes to weapons / Reacquire the affixes of weapons"
+				""
+				"This reforge table can only support up to blue quality."
+			]
+			id: "0AF1EEDF77DBFD40"
+			rewards: [{
+				count: 4
+				id: "0A7BD8E202369230"
+				item: "apotheosis:uncommon_material"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0F0D404640605EDB"
+				item: "apotheosis:simple_reforging_table"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"0AF1EEDF77DBFD40"
+				"070E6BED775E9E8B"
+			]
+			id: "21A62598A8B34F69"
+			rewards: [
+				{
+					count: 2
+					id: "29BA0D5CFB354D80"
+					item: "apotheosis:epic_material"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "447AACF7CF92FEE5"
+					table_id: 7545900498830760989L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "0F08BDC3C533F733"
+				item: "apotheosis:reforging_table"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"21A62598A8B34F69"
+				"3B54221EC853925A"
+			]
+			id: "671C71DAACCEAF43"
+			rewards: [
+				{
+					count: 3
+					id: "28E58552C1FAD5F4"
+					item: "apotheosis:mythic_material"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1131C64B15EADE8A"
+					table_id: 9027088842797077213L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "21B54B8AF686C912"
+				item: "ancientreforging:ancient_reforging_table"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["70A924E2F699381E"]
+			id: "76E299EBAAB71C0E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4ED944422E6272D6"
+				table_id: 7545900498830760989L
+				type: "random"
+			}]
+			tasks: [{
+				advancement: "apotheosis:affix/mythic_gem"
+				criterion: ""
+				id: "3694A4975E5FF2E4"
+				type: "advancement"
+			}]
+			x: 4.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["76E299EBAAB71C0E"]
+			id: "54F5A4B5CE7D08B1"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "75AD816F888F85D2"
+				table_id: 9027088842797077213L
+				type: "random"
+			}]
+			tasks: [{
+				advancement: "apotheosis:affix/ancient_gem"
+				criterion: ""
+				id: "16A3152ACE9B1FCA"
+				type: "advancement"
+			}]
+			x: 4.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["70A924E2F699381E"]
+			hide_until_deps_complete: true
+			id: "19997A705A20F4AA"
+			rewards: [{
+				count: 2
+				id: "3359B309733790DC"
+				item: "apotheosis:uncommon_material"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0B04B760B06CEF64"
+				item: "apotheosis:uncommon_material"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["70A924E2F699381E"]
+			hide_until_deps_complete: true
+			id: "6DD6582008E4394E"
+			rewards: [{
+				id: "39CFBAD02802FC42"
+				item: "apotheosis:rare_material"
+				type: "item"
+			}]
+			tasks: [{
+				id: "54D1C2EE2A0D036F"
+				item: "apotheosis:rare_material"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["70A924E2F699381E"]
+			hide_dependent_lines: true
+			hide_until_deps_complete: true
+			id: "070E6BED775E9E8B"
+			rewards: [{
+				id: "7654BC891B4B4177"
+				item: "apotheosis:epic_material"
+				type: "item"
+			}]
+			tasks: [{
+				id: "628E97928F058273"
+				item: "apotheosis:epic_material"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["70A924E2F699381E"]
+			hide_until_deps_complete: true
+			id: "0BF752D60F15F053"
+			rewards: [{
+				id: "079E58AFD80275A3"
+				item: "apotheosis:mythic_material"
+				type: "item"
+			}]
+			tasks: [{
+				id: "48CE4E07857C0C36"
+				item: "apotheosis:mythic_material"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["70A924E2F699381E"]
+			hide_dependent_lines: true
+			hide_until_deps_complete: true
+			id: "3B54221EC853925A"
+			rewards: [{
+				id: "217A48F563E10400"
+				item: "apotheosis:ancient_material"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0363A38A5A0E89C5"
+				item: "apotheosis:ancient_material"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["57A5A601AD4365D4"]
+			id: "0F034FC8A8D18D32"
+			tasks: [{
+				id: "19F31A6A4337015E"
+				item: "apotheosis:infused_hellshelf"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["57A5A601AD4365D4"]
+			id: "696CEA2295510C77"
+			tasks: [{
+				id: "2A8A994129E01307"
+				item: "apotheosis:infused_seashelf"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["0F034FC8A8D18D32"]
+			id: "0054760C4FC70EFC"
+			optional: true
+			tasks: [{
+				id: "579C2CEF632D5672"
+				item: "apotheosis:blazing_hellshelf"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0F034FC8A8D18D32"]
+			id: "2FCBD02B4A674695"
+			optional: true
+			tasks: [{
+				id: "32313D71188C11CA"
+				item: "apotheosis:glowing_hellshelf"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["696CEA2295510C77"]
+			id: "3803D0E35F1ADDDA"
+			optional: true
+			tasks: [{
+				id: "0AB4D5922B27F388"
+				item: "apotheosis:heart_seashelf"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["696CEA2295510C77"]
+			id: "2D2D6CB8A2E3D0E0"
+			optional: true
+			tasks: [{
+				id: "3234F8C2193A0962"
+				item: "apotheosis:crystal_seashelf"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"3803D0E35F1ADDDA"
+				"2FCBD02B4A674695"
+				"0054760C4FC70EFC"
+				"2D2D6CB8A2E3D0E0"
+			]
+			dependency_requirement: "one_completed"
+			id: "22F8529E48472A4A"
+			tasks: [{
+				id: "6A780FB995E94DB7"
+				item: "apotheosis:deepshelf"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["22F8529E48472A4A"]
+			id: "4F924F6A80D7C52E"
+			tasks: [{
+				id: "7DE8865A82604993"
+				item: "apotheosis:echoing_deepshelf"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["22F8529E48472A4A"]
+			id: "64E37DAEF0F56E11"
+			tasks: [{
+				id: "47BF7DFF6768A7FF"
+				item: "apotheosis:soul_touched_deepshelf"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["64E37DAEF0F56E11"]
+			id: "76E16A45745969F1"
+			tasks: [{
+				id: "4F63A43EFE04C44B"
+				item: "apotheosis:soul_touched_sculkshelf"
+				type: "item"
+			}]
+			x: 10.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["4F924F6A80D7C52E"]
+			id: "4CCFBC321095651A"
+			tasks: [{
+				id: "0E77883C035992A1"
+				item: "apotheosis:echoing_sculkshelf"
+				type: "item"
+			}]
+			x: 10.5d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"4CCFBC321095651A"
+				"76E16A45745969F1"
+			]
+			dependency_requirement: "one_completed"
+			id: "12ABBD9FF4ED32E2"
+			tasks: [{
+				id: "3C4DC7927FA50608"
+				item: "apotheosis:endshelf"
+				type: "item"
+			}]
+			x: 12.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["12ABBD9FF4ED32E2"]
+			id: "20B246F3CE4FAAB0"
+			tasks: [{
+				id: "440B9CFBE7B53FDD"
+				item: "apotheosis:pearl_endshelf"
+				type: "item"
+			}]
+			x: 13.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["12ABBD9FF4ED32E2"]
+			id: "3FB87F6706F2DD63"
+			tasks: [{
+				id: "5DBF0B60ABDC0C5F"
+				item: "apotheosis:draconic_endshelf"
+				type: "item"
+			}]
+			x: 13.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["22F8529E48472A4A"]
+			id: "7916F1704EF6FECE"
+			tasks: [{
+				id: "3F5CB7B6E7A7A0AF"
+				item: "apotheosis:treasure_shelf"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["0F034FC8A8D18D32"]
+			id: "728E62DD91BAE340"
+			tasks: [{
+				id: "0AA61563EC13945C"
+				item: "apotheosis:sightshelf"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["728E62DD91BAE340"]
+			id: "36093B357127261D"
+			tasks: [{
+				id: "54E16458E8F5EB8E"
+				item: "apotheosis:sightshelf_t2"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["696CEA2295510C77"]
+			id: "3DDA3F6F977DBD97"
+			tasks: [{
+				id: "74B152037D0F3325"
+				item: "apotheosis:rectifier"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3DDA3F6F977DBD97"]
+			id: "63E1B943623A94CC"
+			tasks: [{
+				id: "369DF85381775135"
+				item: "apotheosis:rectifier_t2"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["63E1B943623A94CC"]
+			id: "05A0E7DBEB4E66E3"
+			tasks: [{
+				id: "77894FBA395AF8F9"
+				item: "apotheosis:rectifier_t3"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["696CEA2295510C77"]
+			description: ["放诅咒附魔很有用"]
+			id: "0ED24F82C05E0B4E"
+			tasks: [{
+				id: "64376E8B4BF80672"
+				item: "apotheosis:filtering_shelf"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["57A5A601AD4365D4"]
+			description: [
+				"用于存放附魔"
+				""
+				"将附魔书放入，其中对应附魔点数会增加2^(附魔等级-1)点。每次取出会消耗2^(取出等级-1)点。"
+				""
+				"Used for storing enchantments."
+				""
+				"Place the enchantment book inside, and the corresponding enchantment points will increase by 2^(enchantment level - 1) points."
+				""
+				"Each time it is taken out, it will consume 2^(extraction level - 1) points."
+			]
+			hide_dependency_lines: true
+			id: "4C4AADCBB6C8596A"
+			tasks: [{
+				id: "1D2C19CE2B53B6A9"
+				item: "apotheosis:library"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["15C91C6E2007E203"]
+			id: "39D64B405D6C0D77"
+			optional: true
+			tasks: [{
+				id: "1440BA9A4BF7C2D3"
+				item: "apotheosis:stoneshelf"
+				type: "item"
+			}]
+			x: 13.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["15C91C6E2007E203"]
+			id: "5B8C06F3AFE4A3EC"
+			optional: true
+			tasks: [{
+				id: "649B11D2DC759471"
+				item: "apotheosis:melonshelf"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["15C91C6E2007E203"]
+			id: "0AEEB316AEF8CDF6"
+			optional: true
+			tasks: [{
+				id: "733B3ED21306712E"
+				item: "apotheosis:beeshelf"
+				type: "item"
+			}]
+			x: 13.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"4C4AADCBB6C8596A"
+				"0AEEB316AEF8CDF6"
+				"5B8C06F3AFE4A3EC"
+				"39D64B405D6C0D77"
+			]
+			description: [
+				"近乎无限的点数上限。"
+				""
+				"合成它需要对三个条目进行微调。这一操作可以使用任务右侧的三个书架实现。"
+				""
+				"An almost infinite point limit."
+				""
+				"Crafting it requires fine-tuning of three entries."
+				""
+				"This operation can be accomplished using the three shelves on the right side of the quest."
+			]
+			id: "480DAA3A8DC1F2B6"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2D9B4AB2354D21D7"
+				table_id: 9027088842797077213L
+				type: "random"
+			}]
+			tasks: [{
+				id: "52EEF3BC261DF016"
+				item: "apotheosis:ender_library"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["15C91C6E2007E203"]
+			description: [
+				"tetra提供了丰富的部件系统。"
+				""
+				"使用信息球可以查看所有材料的数值、效果。"
+				""
+				"Tetra provides a rich component system."
+				""
+				"Using the information sphere, you can view the values and effects of all materials."
+			]
+			id: "209CEE4D504D3B8C"
+			tasks: [{
+				id: "2BF9382FB8955747"
+				item: {
+					Count: 1
+					id: "tetra:holo"
+					tag: {
+						"holo/core": "holo/core"
+						"holo/core_material": "frame/dim"
+						"holo/frame": "holo/frame"
+						"holo/frame_material": "core/ancient"
+						"holo/repo": "holo/repo"
+						"holo/repo_material": "repo/default"
+						"holo/scanner": "holo/scanner"
+						"holo/scanner_material": "scanner/default"
+					}
+				}
+				match_nbt: false
+				type: "item"
+			}]
+			x: 0.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["15C91C6E2007E203"]
+			description: [
+				"用来镶嵌宝石"
+				""
+				"Used to inlay gems."
+			]
+			id: "5237B2EBA5C57701"
+			tasks: [{
+				id: "2452D9A93729437F"
+				item: "minecraft:smithing_table"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["0E769C540B0F3DB0"]
+			id: "7AAED5B331C1EEB5"
+			tasks: [{
+				id: "4C4A48D71B98BF27"
+				item: { Count: 64, id: "apotheosis:gem_fused_slate" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 6.0d
+		}
+	]
 	title: "赫菲斯托斯的锻造"
 }

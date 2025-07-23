@@ -1,0 +1,34 @@
+{
+  "key": "enderio_vibrant_alloy_ingot",
+  "category": "metal",
+  "primary": 3.8,
+  "secondary": 2.5,
+  "tertiary": 5.2,
+  "durability": 32,
+  "integrityCost": 1,
+  "integrityGain": 2,
+  "magicCapacity": 120,
+  "toolLevel": "minecraft:iron",
+  "toolEfficiency": 12.0,
+  "effects": {
+    "stabilizing": 6,
+    "workable": 15,
+    "sweeping": 1
+  },
+  "tints": {
+    "glyph": "AAFF00",
+    "texture": "AAFF00"
+  },
+  "textures": [
+    "metal",
+    "shiny"
+  ],
+  "material": {
+    "items": [
+      "enderio:vibrant_alloy_ingot"
+    ]
+  },
+  "requiredTools": {
+    "hammer_dig": "minecraft:stone"
+  }
+}

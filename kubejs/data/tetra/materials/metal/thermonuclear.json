@@ -1,0 +1,36 @@
+{
+  "key": "mekanism_extras_thermonuclear",
+  "category": "metal",
+  "primary": 14.0,
+  "secondary": 12.0,
+  "tertiary": 7.0,
+  "durability": 4500,
+  "integrityCost": 6,
+  "integrityGain": 12,
+  "magicCapacity": 240,
+  "toolLevel": "minecraft:netherite",
+  "toolEfficiency": 14.0,
+  "effects": {
+    "stabilizing": 12,
+    "bleeding": 4,
+    "enderReverb": 3,
+    "cursed": 2,
+    "burning": 1
+  },
+  "tints": {
+    "glyph": "FF0000",
+    "texture": "FF0000"
+  },
+  "textures": [
+    "metal",
+    "shiny"
+  ],
+  "material": {
+    "items": [
+      "mekanism_extras:thermonuclear"
+    ]
+  },
+  "requiredTools": {
+    "hammer_dig": "minecraft:netherite"
+  }
+}

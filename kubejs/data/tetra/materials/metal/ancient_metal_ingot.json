@@ -1,0 +1,31 @@
+{
+    "key": "cata_ancient_metal_ingot",
+    "category": "metal",
+    "primary": 6.4,
+    "secondary": 2.0,
+    "tertiary": 3.2,
+    "durability": 1010,
+    "integrityCost": 2,
+    "integrityGain": 5,
+    "magicCapacity": 103,
+    "toolLevel": "minecraft:diamond",
+    "toolEfficiency": 7.0,
+    "tints": {
+      "glyph": "EBF363",
+      "texture": "EBF363"
+    },
+    "textures": [
+        "metal"
+    ],
+    "material": {
+      "items": [
+        "cataclysm:ancient_metal_ingot"
+      ]
+    },
+    "effects": {
+		"stabilizing":3
+    },
+    "requiredTools": {
+      "hammer_dig": "minecraft:iron"
+    }
+  }

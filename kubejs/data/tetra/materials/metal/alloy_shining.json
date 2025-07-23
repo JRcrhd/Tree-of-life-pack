@@ -1,0 +1,37 @@
+{
+  "key": "mekanism_extras_alloy_shining",
+  "category": "metal",
+  "primary": 16.0,
+  "secondary": 14.0,
+  "tertiary": 8.0,
+  "durability": 5500,
+  "integrityCost": 7,
+  "integrityGain": 14,
+  "magicCapacity": 280,
+  "toolLevel": "minecraft:netherite",
+  "toolEfficiency": 16.0,
+  "effects": {
+    "stabilizing": 15,
+    "bleeding": 5,
+    "enderReverb": 4,
+    "cursed": 3,
+    "fierySelf": 2,
+    "brittle": 1
+  },
+  "tints": {
+    "glyph": "FFFFFF",
+    "texture": "FFFFFF"
+  },
+  "textures": [
+    "metal",
+    "shiny"
+  ],
+  "material": {
+    "items": [
+      "mekanism_extras:alloy_shining"
+    ]
+  },
+  "requiredTools": {
+    "hammer_dig": "minecraft:netherite"
+  }
+}

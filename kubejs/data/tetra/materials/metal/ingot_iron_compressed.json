@@ -1,0 +1,36 @@
+{
+  "key": "pneumaticcraft_ingot_iron_compressed",
+  "category": "metal",
+  "primary": 5.2,
+  "secondary": 4.8,
+  "tertiary": 3.0,
+  "durability": 280,
+  "integrityCost": 2,
+  "integrityGain": 5,
+  "magicCapacity": 65,
+  "toolLevel": "minecraft:iron",
+  "toolEfficiency": 6.2,
+  "effects": {
+    "crushing": 2,
+    "counterweight": 1
+  },
+  "improvements": {
+    "stabilizing": 3
+  },
+  "tints": {
+    "glyph": "D4D4D4",
+    "texture": "D4D4D4"
+  },
+  "textures": [
+    "metal",
+    "default"
+  ],
+  "material": {
+    "items": [
+      "pneumaticcraft:ingot_iron_compressed"
+    ]
+  },
+  "requiredTools": {
+    "hammer_dig": "minecraft:iron"
+  }
+}

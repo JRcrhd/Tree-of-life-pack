@@ -13,7 +13,7 @@
     "attributes":{
         "forge:reach_distance":0.2,
         "forge:attack_range":0.2,
-        "forge:health":7
+        "generic.health":7
     },
     "effects": {
         "bleeding": 2

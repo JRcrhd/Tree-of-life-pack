@@ -1,0 +1,38 @@
+{
+  "key": "cata_cursium_ingot",
+  "category": "metal",
+  "primary": 9.0,
+  "secondary": 6.2,
+  "tertiary": 2.5,
+  "durability": 2100,
+  "integrityCost": 2,
+  "integrityGain": 10,
+  "magicCapacity": 200,
+  "toolLevel": "minecraft:netherite",
+  "toolEfficiency": 9,
+  "effects":{
+	  "bleeding": 4,
+	  "backstab": 6,
+	  "crushing": 10
+  },
+  "improvements":{
+	  "stabilizing": 8,
+	  "unbreaking": 1
+  },
+  "tints": {
+    "glyph": "65F3F2",
+    "texture": "65F3F2"
+  },
+  "textures": [
+    "metal",
+    "shiny"
+  ],
+  "material": {
+    "items": [
+      "cataclysm:cursium_ingot"
+    ]
+  },
+  "requiredTools": {
+    "hammer_dig": "minecraft:netherite"
+  }
+}

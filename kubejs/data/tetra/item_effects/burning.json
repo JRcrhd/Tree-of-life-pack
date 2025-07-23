@@ -1,0 +1,30 @@
+{
+  "trigger": "tetra:apply_hit_effects",
+  "effect": "burning",
+  "data": {
+    "numbers": {
+      "chance": {
+        "type": "tetra:effect_efficiency",
+        "effect": "burning"
+      },
+      "fire_duration": {
+        "type": "tetra:effect_level",
+        "effect": "burning",
+        "multiplier": 20
+      }
+    }
+  },
+  "condition": {
+    "type": "tetra:random",
+    "chance": "chance"
+  },
+  "outcome": {
+    "type": "tetra:command",
+    "command": "data modify entity @s Fire set value 100",
+    "position": {
+      "type": "tetra:entity_position",
+      "entity": "target"
+    },
+    "entity": "target"
+  }
+}

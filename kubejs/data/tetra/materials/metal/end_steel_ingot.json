@@ -1,0 +1,38 @@
+{
+  "key": "enderio_end_steel_ingot",
+  "category": "metal",
+  "primary": 8.5,
+  "secondary": 6.2,
+  "tertiary": 5.8,
+  "durability": 1800,
+  "integrityCost": 4,
+  "integrityGain": 7,
+  "magicCapacity": 180,
+  "toolLevel": "minecraft:diamond",
+  "toolEfficiency": 9.0,
+  "effects": {
+    "stabilizing": 12,
+    "enderReverb": 5,
+    "crushing": 4,
+    "backstab": 3
+  },
+  "improvements": {
+    "workable": 15
+  },
+  "tints": {
+    "glyph": "1A1A2E",
+    "texture": "1A1A2E"
+  },
+  "textures": [
+    "metal",
+    "shiny"
+  ],
+  "material": {
+    "items": [
+      "enderio:end_steel_ingot"
+    ]
+  },
+  "requiredTools": {
+    "hammer_dig": "minecraft:diamond"
+  }
+}

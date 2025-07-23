@@ -1,3 +1,3 @@
 ServerEvents.recipes(treeoflife => {
-	treeoflife.remove({ mod: 'tarodcards' })
+	treeoflife.remove({ mod: 'tarotcards' });
 })

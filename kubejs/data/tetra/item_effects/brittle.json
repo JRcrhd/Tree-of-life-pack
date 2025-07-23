@@ -1,0 +1,26 @@
+{
+  "trigger": "tetra:apply_hit_effects",
+  "effect": "brittle",
+  "data": {
+    "numbers": {
+      "chance": {
+        "type": "tetra:effect_efficiency",
+        "effect": "brittle"
+      },
+      "damage_amount": {
+        "type": "tetra:effect_level",
+        "effect": "brittle"
+      }
+    }
+  },
+  "condition": {
+    "type": "tetra:random",
+    "chance": "chance"
+  },
+  "outcome": {
+    "type": "tetra:damage_entity",
+    "entity": "attacker",
+    "amount": "damage_amount",
+    "damageType": "minecraft:generic"
+  }
+}

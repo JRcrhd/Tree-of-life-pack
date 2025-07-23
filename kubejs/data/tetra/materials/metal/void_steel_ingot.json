@@ -1,0 +1,37 @@
+{
+  "key": "createutilities_void_steel_ingot",
+  "category": "metal",
+  "primary": 8.5,
+  "secondary": 6.8,
+  "tertiary": 2.2,
+  "durability": 1931,
+  "integrityCost": 3,
+  "integrityGain": 8,
+  "magicCapacity": 180,
+  "toolLevel": "minecraft:netherite",
+  "toolEfficiency": 9.0,
+  "effects": {
+    "bleeding": 1,
+    "backstab": 2,
+    "enderReverb": [2, 0.3]
+  },
+  "improvements": {
+    "stabilizing": 6
+  },
+  "tints": {
+    "glyph": "1A0A2E",
+    "texture": "1A0A2E"
+  },
+  "textures": [
+    "metal",
+    "shiny"
+  ],
+  "material": {
+    "items": [
+      "createutilities:void_steel_ingot"
+    ]
+  },
+  "requiredTools": {
+    "hammer_dig": "minecraft:netherite"
+  }
+}

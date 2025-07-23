@@ -11,7 +11,7 @@
   "toolLevel": 0,
   "toolEfficiency": 7,
     "attributes":{
-        "forge:health":6
+        "generic.health":6
     },
     "effects": {
       "art_of_forging:life_steal": [ 1, 10 ],

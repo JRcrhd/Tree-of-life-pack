@@ -1,0 +1,35 @@
+{
+  "key": "projecte_philosophers_stone",
+  "category": "socket",
+  "primary": 0,
+  "secondary": 0,
+  "tertiary": 0,
+  "durability": 10000,
+  "integrityCost": 5,
+  "integrityGain": 0,
+  "magicCapacity": 1000,
+  "toolLevel": "minecraft:netherite",
+  "toolEfficiency": 25.0,
+  "effects": {
+    "unstable": 10,
+    "bleeding": 8,
+    "cursed": 6,
+    "brittle": 5,
+    "volatile": 4,
+    "fierySelf": 3
+  },
+  "tints": {
+    "glyph": "FF0080",
+    "texture": "FF0080"
+  },
+  "textures": [
+    "gem",
+    "shiny"
+  ],
+  "experienceCost": 80,
+  "material": {
+    "items": [
+      "projecte:philosophers_stone"
+    ]
+  }
+}

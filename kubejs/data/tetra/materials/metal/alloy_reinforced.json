@@ -1,0 +1,33 @@
+{
+  "key": "mekanism_alloy_reinforced",
+  "category": "metal",
+  "primary": 8.0,
+  "secondary": 6.0,
+  "tertiary": 4.0,
+  "durability": 1561,
+  "integrityCost": 3,
+  "integrityGain": 6,
+  "magicCapacity": 120,
+  "toolLevel": "minecraft:diamond",
+  "toolEfficiency": 8.0,
+  "effects": {
+    "stabilizing": 5,
+    "bleeding": 1
+  },
+  "tints": {
+    "glyph": "FF6600",
+    "texture": "FF6600"
+  },
+  "textures": [
+    "metal",
+    "shiny"
+  ],
+  "material": {
+    "items": [
+      "mekanism:alloy_reinforced"
+    ]
+  },
+  "requiredTools": {
+    "hammer_dig": "minecraft:iron"
+  }
+}

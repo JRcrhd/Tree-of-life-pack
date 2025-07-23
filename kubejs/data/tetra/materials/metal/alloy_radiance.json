@@ -1,0 +1,35 @@
+{
+  "key": "mekanism_extras_alloy_radiance",
+  "category": "metal",
+  "primary": 12.0,
+  "secondary": 10.0,
+  "tertiary": 6.0,
+  "durability": 3500,
+  "integrityCost": 5,
+  "integrityGain": 10,
+  "magicCapacity": 200,
+  "toolLevel": "minecraft:netherite",
+  "toolEfficiency": 12.0,
+  "effects": {
+    "stabilizing": 10,
+    "bleeding": 3,
+    "enderReverb": 2,
+    "cursed": 1
+  },
+  "tints": {
+    "glyph": "FFFF00",
+    "texture": "FFFF00"
+  },
+  "textures": [
+    "metal",
+    "shiny"
+  ],
+  "material": {
+    "items": [
+      "mekanism_extras:alloy_radiance"
+    ]
+  },
+  "requiredTools": {
+    "hammer_dig": "minecraft:diamond"
+  }
+}

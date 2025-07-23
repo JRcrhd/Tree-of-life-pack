@@ -1,0 +1,21 @@
+{
+	icon: "create:white_postbox"
+	id: "30218443BD005A97"
+	loot_crate: {
+		color: 16777215
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		item_name: "Yetzirah 阶段奖励"
+		string_id: "yetzirah_"
+	}
+	loot_size: 1
+	order_index: 2
+	rewards: [{
+		type: "xp"
+		xp: 100
+	}]
+	title: "Yetzirah 阶段奖励"
+}

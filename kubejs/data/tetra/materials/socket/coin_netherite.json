@@ -1,0 +1,33 @@
+{
+  "key": "lightmanscurrency_coin_netherite",
+  "category": "socket",
+  "primary": 0,
+  "secondary": 0,
+  "tertiary": 0,
+  "durability": 840,
+  "integrityCost": 3,
+  "integrityGain": 0,
+  "magicCapacity": 200,
+  "toolLevel": 0,
+  "toolEfficiency": 9,
+  "attributes": {
+    "generic.luck": 2.0
+  },
+  "effects": {
+    "stabilizing": 10,
+    "workable": 25
+  },
+  "tints": {
+    "glyph": "5D4037",
+    "texture": "5D4037"
+  },
+  "textures": [
+    "shiny"
+  ],
+  "experienceCost": 50,
+  "material": {
+    "items": [
+      "lightmanscurrency:coin_netherite"
+    ]
+  }
+}

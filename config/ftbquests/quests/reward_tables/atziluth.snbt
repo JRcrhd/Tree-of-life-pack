@@ -1,0 +1,21 @@
+{
+	icon: "create:red_postbox"
+	id: "7D46A97996CFD2DD"
+	loot_crate: {
+		color: 11141120
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		item_name: "Atziluth 阶段奖励"
+		string_id: "atziluth_"
+	}
+	loot_size: 1
+	order_index: 4
+	rewards: [{
+		type: "xp"
+		xp: 1001
+	}]
+	title: "Atziluth 阶段奖励"
+}

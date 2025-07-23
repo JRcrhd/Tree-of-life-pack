@@ -222,6 +222,12 @@
 		{
 			dependencies: ["36D2DEEDF42CFB72"]
 			id: "5F76FB1F88CE9DC5"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6CA010417A8BD7DC"
+				table_id: 3468198614520584855L
+				type: "random"
+			}]
 			tasks: [{
 				id: "1D4CBC067C71075B"
 				item: {
@@ -239,6 +245,12 @@
 		{
 			dependencies: ["5F76FB1F88CE9DC5"]
 			id: "33E0B46142F5B7B2"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0F6EC93DFA1DD69E"
+				table_id: 7545900498830760989L
+				type: "random"
+			}]
 			tasks: [{
 				id: "3D7E8FEB9F661BFB"
 				item: {
@@ -259,6 +271,12 @@
 				"150747B6CCB16685"
 			]
 			id: "099DA5117BDEB361"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7C3458673FC54044"
+				table_id: 9027088842797077213L
+				type: "random"
+			}]
 			tasks: [{
 				id: "6CDAC7EAAB205AAA"
 				item: {
@@ -408,6 +426,62 @@
 			}]
 			x: 14.5d
 			y: 9.0d
+		}
+		{
+			dependencies: ["099DA5117BDEB361"]
+			id: "219EAA642631FCD6"
+			tasks: [{
+				id: "70AEDD6CE03406F4"
+				item: "kubejs:emerald_tablet_piece_1"
+				type: "item"
+			}]
+			x: 19.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["099DA5117BDEB361"]
+			id: "02D81E03ADA128BB"
+			tasks: [{
+				id: "3A11DE5A6959FC9F"
+				item: "kubejs:emerald_tablet_piece_2"
+				type: "item"
+			}]
+			x: 19.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["099DA5117BDEB361"]
+			id: "68B16EBDBFB022F5"
+			tasks: [{
+				id: "60F6A8C935F54CBD"
+				item: "kubejs:emerald_tablet_piece_3"
+				type: "item"
+			}]
+			x: 19.0d
+			y: 8.5d
+		}
+		{
+			dependencies: [
+				"02D81E03ADA128BB"
+				"68B16EBDBFB022F5"
+				"219EAA642631FCD6"
+			]
+			id: "7023B9663339592A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "13A03A1A31001995"
+				table_id: 9027088842797077213L
+				type: "choice"
+			}]
+			shape: "diamond"
+			size: 1.5d
+			tasks: [{
+				id: "10F61CC66BF41042"
+				item: "kubejs:emerald_tablet"
+				type: "item"
+			}]
+			x: 21.0d
+			y: 7.5d
 		}
 	]
 	title: "⚰通灵"

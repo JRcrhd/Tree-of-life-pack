@@ -1,0 +1,32 @@
+{
+  "key": "forbidden_arcanus_deorum_ingot",
+  "category": "metal",
+  "primary": 6.0,
+  "secondary": 4.5,
+  "tertiary": 3.5,
+  "durability": 850,
+  "integrityCost": 2,
+  "integrityGain": 7,
+  "magicCapacity": 120,
+  "toolLevel": "minecraft:diamond",
+  "toolEfficiency": 7.2,
+  "effects": {
+    "sweeping": 1
+  },
+  "tints": {
+    "glyph": "FFD700",
+    "texture": "FFD700"
+  },
+  "textures": [
+    "metal",
+    "shiny"
+  ],
+  "material": {
+    "items": [
+      "forbidden_arcanus:deorum_ingot"
+    ]
+  },
+  "requiredTools": {
+    "hammer_dig": "minecraft:iron"
+  }
+}

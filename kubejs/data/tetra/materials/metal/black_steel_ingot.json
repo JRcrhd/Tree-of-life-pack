@@ -1,0 +1,31 @@
+{
+    "key": "cata_black_steel_ingot",
+    "category": "metal",
+    "primary": 6.1,
+    "secondary": 2.0,
+    "tertiary": 3.0,
+    "durability": 910,
+    "integrityCost": 2,
+    "integrityGain": 5,
+    "magicCapacity": 103,
+    "toolLevel": "minecraft:diamond",
+    "toolEfficiency": 7.0,
+    "tints": {
+      "glyph": "122211",
+      "texture": "122211"
+    },
+    "textures": [
+        "metal"
+    ],
+    "material": {
+      "items": [
+        "cataclysm:black_steel_ingot"
+      ]
+    },
+    "effects": {
+		"stabilizing":4
+    },
+    "requiredTools": {
+      "hammer_dig": "minecraft:iron"
+    }
+  }

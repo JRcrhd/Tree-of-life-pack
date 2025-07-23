@@ -1,0 +1,44 @@
+{
+  "key": "deep_aether_stratus_ingot",
+  "category": "metal",
+  "primary": 12.0,
+  "secondary": 10.0,
+  "tertiary": 8.5,
+  "durability": 2800,
+  "integrityCost": 5,
+  "integrityGain": 12,
+  "magicCapacity": 250,
+  "toolLevel": "minecraft:netherite",
+  "toolEfficiency": 15.0,
+  "effects": {
+    "stabilizing": 20,
+    "workable": 25,
+    "sweeping": 5,
+    "counterweight": 4,
+    "enderReverb": 3
+  },
+  "improvements": {
+    "crushing": 3,
+    "backstab": 2
+  },
+  "attributes": {
+    "forge:reach_distance": 1.5,
+    "generic.luck": 1.0
+  },
+  "tints": {
+    "glyph": "E6E6FA",
+    "texture": "E6E6FA"
+  },
+  "textures": [
+    "metal",
+    "shiny"
+  ],
+  "material": {
+    "items": [
+      "deep_aether:stratus_ingot"
+    ]
+  },
+  "requiredTools": {
+    "hammer_dig": "minecraft:netherite"
+  }
+}

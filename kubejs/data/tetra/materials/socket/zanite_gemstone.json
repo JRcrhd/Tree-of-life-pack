@@ -1,0 +1,32 @@
+{
+  "key": "aether_zanite_gemstone",
+  "category": "socket",
+  "primary": 0,
+  "secondary": 0,
+  "tertiary": 0,
+  "durability": 800,
+  "integrityCost": 3,
+  "integrityGain": 0,
+  "magicCapacity": 140,
+  "toolLevel": "minecraft:diamond",
+  "toolEfficiency": 9.0,
+  "effects": {
+    "stabilizing": 8,
+    "workable": 12,
+    "sweeping": 2
+  },
+  "tints": {
+    "glyph": "8A2BE2",
+    "texture": "8A2BE2"
+  },
+  "textures": [
+    "gem",
+    "shiny"
+  ],
+  "experienceCost": 25,
+  "material": {
+    "items": [
+      "aether:zanite_gemstone"
+    ]
+  }
+}

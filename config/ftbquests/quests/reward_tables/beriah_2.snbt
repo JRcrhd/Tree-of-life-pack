@@ -1,0 +1,21 @@
+{
+	icon: "aether:chest_mimic"
+	id: "68B86C8617401C1D"
+	loot_crate: {
+		color: 16777045
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		item_name: "Beriah 阶段奖励"
+		string_id: "beriah_"
+	}
+	loot_size: 1
+	order_index: 3
+	rewards: [{
+		type: "xp"
+		xp: 100
+	}]
+	title: "Beriah 阶段奖励"
+}

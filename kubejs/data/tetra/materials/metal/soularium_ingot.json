@@ -1,0 +1,35 @@
+{
+  "key": "enderio_soularium_ingot",
+  "category": "metal",
+  "primary": 3.5,
+  "secondary": 2.8,
+  "tertiary": 6.0,
+  "durability": 45,
+  "integrityCost": 1,
+  "integrityGain": 3,
+  "magicCapacity": 150,
+  "toolLevel": "minecraft:iron",
+  "toolEfficiency": 14.0,
+  "effects": {
+    "stabilizing": 8,
+    "workable": 20,
+    "sweeping": 2,
+    "bleeding": 1
+  },
+  "tints": {
+    "glyph": "8B4513",
+    "texture": "8B4513"
+  },
+  "textures": [
+    "metal",
+    "shiny"
+  ],
+  "material": {
+    "items": [
+      "enderio:soularium_ingot"
+    ]
+  },
+  "requiredTools": {
+    "hammer_dig": "minecraft:stone"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "key": "enderio_redstone_alloy_ingot",
+  "category": "metal",
+  "primary": 3.5,
+  "secondary": 2.8,
+  "tertiary": 4.2,
+  "durability": 180,
+  "integrityCost": 1,
+  "integrityGain": 3,
+  "magicCapacity": 45,
+  "toolLevel": "minecraft:stone",
+  "toolEfficiency": 4.5,
+  "effects": {
+    "stabilizing": 4,
+    "workable": 10
+  },
+  "tints": {
+    "glyph": "AA0000",
+    "texture": "AA0000"
+  },
+  "textures": [
+    "metal",
+    "shiny"
+  ],
+  "material": {
+    "items": [
+      "enderio:redstone_alloy_ingot"
+    ]
+  },
+  "requiredTools": {
+    "hammer_dig": "minecraft:stone"
+  }
+}

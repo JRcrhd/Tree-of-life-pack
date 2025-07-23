@@ -1,0 +1,26 @@
+{
+	default_hide_dependency_lines: true
+	default_quest_shape: ""
+	disable_toast: true
+	filename: "173E073F562968DC"
+	group: "3ABDF31F958CFAA4"
+	hide_quest_until_deps_visible: true
+	icon: "lightmanscurrency:trading_core"
+	id: "173E073F562968DC"
+	order_index: 3
+	quest_links: [ ]
+	quests: [{
+		dependencies: ["34BB2829CF60D94C"]
+		id: "2FF701F56EC6BC13"
+		tasks: [{
+			disable_toast: true
+			id: "76BCF761E0B3B98B"
+			title: "确认阅读"
+			type: "checkmark"
+		}]
+		title: "关于 市场"
+		x: 0.0d
+		y: -1.5d
+	}]
+	title: "市场"
+}

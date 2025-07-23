@@ -1,0 +1,32 @@
+{
+  "key": "mekanism_alloy_infused",
+  "category": "metal",
+  "primary": 5.0,
+  "secondary": 3.2,
+  "tertiary": 3.5,
+  "durability": 250,
+  "integrityCost": 2,
+  "integrityGain": 4,
+  "magicCapacity": 80,
+  "toolLevel": "minecraft:iron",
+  "toolEfficiency": 6.0,
+  "effects": {
+    "stabilizing": 3
+  },
+  "tints": {
+    "glyph": "00FF88",
+    "texture": "00FF88"
+  },
+  "textures": [
+    "metal",
+    "shiny"
+  ],
+  "material": {
+    "items": [
+      "mekanism:alloy_infused"
+    ]
+  },
+  "requiredTools": {
+    "hammer_dig": "minecraft:stone"
+  }
+}

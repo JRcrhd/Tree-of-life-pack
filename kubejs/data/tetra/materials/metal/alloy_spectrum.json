@@ -1,0 +1,38 @@
+{
+  "key": "mekanism_extras_alloy_spectrum",
+  "category": "metal",
+  "primary": 18.0,
+  "secondary": 16.0,
+  "tertiary": 10.0,
+  "durability": 6500,
+  "integrityCost": 8,
+  "integrityGain": 16,
+  "magicCapacity": 320,
+  "toolLevel": "minecraft:netherite",
+  "toolEfficiency": 18.0,
+  "effects": {
+    "stabilizing": 18,
+    "bleeding": 6,
+    "enderReverb": 5,
+    "cursed": 4,
+    "fierySelf": 3,
+    "brittle": 2,
+    "volatile": 1
+  },
+  "tints": {
+    "glyph": "FF00FF",
+    "texture": "FF00FF"
+  },
+  "textures": [
+    "metal",
+    "shiny"
+  ],
+  "material": {
+    "items": [
+      "mekanism_extras:alloy_spectrum"
+    ]
+  },
+  "requiredTools": {
+    "hammer_dig": "minecraft:netherite"
+  }
+}

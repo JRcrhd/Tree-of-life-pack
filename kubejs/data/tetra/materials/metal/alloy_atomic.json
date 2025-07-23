@@ -1,0 +1,34 @@
+{
+  "key": "mekanism_alloy_atomic",
+  "category": "metal",
+  "primary": 10.0,
+  "secondary": 8.0,
+  "tertiary": 5.0,
+  "durability": 2500,
+  "integrityCost": 4,
+  "integrityGain": 8,
+  "magicCapacity": 160,
+  "toolLevel": "minecraft:netherite",
+  "toolEfficiency": 10.0,
+  "effects": {
+    "stabilizing": 8,
+    "bleeding": 2,
+    "enderReverb": 1
+  },
+  "tints": {
+    "glyph": "AA00FF",
+    "texture": "AA00FF"
+  },
+  "textures": [
+    "metal",
+    "shiny"
+  ],
+  "material": {
+    "items": [
+      "mekanism:alloy_atomic"
+    ]
+  },
+  "requiredTools": {
+    "hammer_dig": "minecraft:diamond"
+  }
+}
