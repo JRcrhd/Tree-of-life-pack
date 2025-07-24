@@ -1,0 +1,16 @@
+{
+  "type": "forbidden_arcanus:clibano_combustion",
+  "cooking_time": 100,
+  "experience": 0.5,
+  "ingredient": {
+    "tag": "minecraft:diamond_ores"
+  },
+  "residue": {
+    "chance": 0.1,
+    "name": "diamond"
+  },
+  "result": {
+    "item": "minecraft:diamond",
+    "count": 4
+  }
+}

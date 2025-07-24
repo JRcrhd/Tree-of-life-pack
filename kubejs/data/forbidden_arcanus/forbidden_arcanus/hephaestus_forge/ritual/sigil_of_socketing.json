@@ -1,0 +1,44 @@
+{
+  "additional_requirements": {
+    "enhancers": [
+      "forbidden_arcanus:elementarium"
+    ],
+    "forge_tier": 2
+  },
+  "essences": {
+    "aureal": 50,
+    "blood": 40,
+    "experience": 200,
+    "souls": 10
+  },
+  "inputs": [
+    {
+      "amount": 2,
+      "ingredient": {
+        "item": "minecraft:emerald"
+      }
+    },
+    {
+      "amount": 4,
+      "ingredient": {
+        "item": "minecraft:string"
+      }
+    },
+    {
+      "amount": 1,
+      "ingredient": {
+        "item": "minecraft:anvil"
+      }
+    }
+  ],
+  "main_ingredient": {
+    "item": "forbidden_arcanus:terrastomp_prism"
+  },
+  "result": {
+    "type": "forbidden_arcanus:create_item",
+    "result_item": {
+      "Count": 16,
+      "id": "apotheosis:sigil_of_socketing"
+    }
+  }
+}

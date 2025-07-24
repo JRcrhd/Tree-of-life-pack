@@ -1,0 +1,44 @@
+{
+  "additional_requirements": {
+    "enhancers": [
+      "forbidden_arcanus:elementarium"
+    ],
+    "forge_tier": 2
+  },
+  "essences": {
+    "aureal": 100,
+    "blood": 500,
+    "experience": 0,
+    "souls": 5
+  },
+  "inputs": [
+    {
+      "amount": 3,
+      "ingredient": {
+        "item": "minecraft:iron_ingot"
+      }
+    },
+    {
+      "amount": 2,
+      "ingredient": {
+        "item": "minecraft:redstone"
+      }
+    },
+    {
+      "amount": 1,
+      "ingredient": {
+        "item": "minecraft:hopper"
+      }
+    }
+  ],
+  "main_ingredient": {
+    "item": "forbidden_arcanus:smelter_prism"
+  },
+  "result": {
+    "type": "forbidden_arcanus:create_item",
+    "result_item": {
+      "Count": 16,
+      "id": "apotheosis:sigil_of_withdrawal"
+    }
+  }
+}

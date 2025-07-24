@@ -1,0 +1,54 @@
+{
+  "additional_requirements": {
+    "enhancers": [
+      "forbidden_arcanus:maledictus_pact"
+    ],
+    "forge_tier": 4
+  },
+  "essences": {
+    "aureal": 800,
+    "blood": 2000,
+    "experience": 1200,
+    "souls": 400
+  },
+  "inputs": [
+    {
+      "amount": 3,
+      "ingredient": {
+        "item": "minecraft:crimson_stem"
+      }
+    },
+    {
+      "amount": 1,
+      "ingredient": {
+        "item": "goety:unholy_blood"
+      }
+    },
+    {
+      "amount": 2,
+      "ingredient": {
+        "item": "projecte:dark_matter"
+      }
+    },
+    {
+      "amount": 2,
+      "ingredient": {
+        "item": "minecraft:magma_block"
+      }
+    }
+  ],
+  "magic_circle": {
+    "inner_texture": "forbidden_arcanus:textures/effect/magic_circle/inner/origin.png",
+    "outer_texture": "forbidden_arcanus:textures/effect/magic_circle/outer/pactum.png"
+  },
+  "main_ingredient": {
+    "item": "minecraft:torchflower"
+  },
+  "result": {
+    "type": "forbidden_arcanus:create_item",
+    "result_item": {
+      "Count": 1,
+      "id": "forbidden_arcanus:crimson_stone"
+    }
+  }
+}

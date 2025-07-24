@@ -1,0 +1,44 @@
+{
+  "additional_requirements": {
+    "enhancers": [
+      "forbidden_arcanus:elementarium"
+    ],
+    "forge_tier": 4
+  },
+  "essences": {
+    "aureal": 200,
+    "blood": 300,
+    "experience": 800,
+    "souls": 8
+  },
+  "inputs": [
+    {
+      "amount": 3,
+      "ingredient": {
+        "item": "minecraft:lapis_lazuli"
+      }
+    },
+    {
+      "amount": 2,
+      "ingredient": {
+        "item": "minecraft:glowstone_dust"
+      }
+    },
+    {
+      "amount": 1,
+      "ingredient": {
+        "item": "minecraft:enchanting_table"
+      }
+    }
+  ],
+  "main_ingredient": {
+    "item": "forbidden_arcanus:whirlwind_prism"
+  },
+  "result": {
+    "type": "forbidden_arcanus:create_item",
+    "result_item": {
+      "Count": 16,
+      "id": "apotheosis:sigil_of_enhancement"
+    }
+  }
+}

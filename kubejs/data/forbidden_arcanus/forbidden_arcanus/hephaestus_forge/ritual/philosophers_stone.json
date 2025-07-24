@@ -1,0 +1,68 @@
+{
+  "additional_requirements": {
+    "enhancers": [
+      "forbidden_arcanus:elementarium",
+      "forbidden_arcanus:maledictus_pact",
+      "forbidden_arcanus:divine_pact"
+    ],
+    "forge_tier": 5
+  },
+  "essences": {
+    "aureal": 10000,
+    "blood": 25000,
+    "experience": 7500,
+    "souls": 1000
+  },
+  "inputs": [
+    {
+      "amount": 1,
+      "ingredient": {
+        "item": "forbidden_arcanus:dark_nether_star"
+      }
+    },
+    {
+      "amount": 1,
+      "ingredient": {
+        "item": "forbidden_arcanus:dragon_scale"
+      }
+    },
+    {
+      "amount": 2,
+      "ingredient": {
+        "item": "mekanism_extras:alloy_spectrum"
+      }
+    },
+    {
+      "amount": 1,
+      "ingredient": {
+        "item": "kubejs:dimension_alloy_aether"
+      }
+    },
+    {
+      "amount": 1,
+      "ingredient": {
+        "item": "forbidden_arcanus:eternal_stella"
+      }
+    },
+    {
+      "amount": 2,
+      "ingredient": {
+        "item": "projecte:red_matter"
+      }
+    }
+  ],
+  "magic_circle": {
+    "inner_texture": "forbidden_arcanus:textures/effect/magic_circle/inner/origin.png",
+    "outer_texture": "forbidden_arcanus:textures/effect/magic_circle/outer/pactum.png"
+  },
+  "main_ingredient": {
+    "item": "kubejs:alchemy_in_phi"
+  },
+  "result": {
+    "type": "forbidden_arcanus:create_item",
+    "result_item": {
+      "Count": 1,
+      "id": "projecte:philosophers_stone"
+    }
+  }
+}

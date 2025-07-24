@@ -1,0 +1,8 @@
+{
+  "type": "forbidden_arcanus:simple_item",
+  "amount": 90,
+  "essence_type": "aureal",
+  "item": {
+    "item": "create:refined_radiance"
+  }
+}

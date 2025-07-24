@@ -1,0 +1,54 @@
+{
+  "additional_requirements": {
+    "enhancers": [
+      "forbidden_arcanus:divine_pact"
+    ],
+    "forge_tier": 4
+  },
+  "essences": {
+    "aureal": 1500,
+    "blood": 800,
+    "experience": 2000,
+    "souls": 300
+  },
+  "inputs": [
+    {
+      "amount": 4,
+      "ingredient": {
+        "item": "minecraft:glowstone"
+      }
+    },
+    {
+      "amount": 2,
+      "ingredient": {
+        "item": "aether:skyroot_log"
+      }
+    },
+    {
+      "amount": 1,
+      "ingredient": {
+        "item": "projecte:dark_matter"
+      }
+    },
+    {
+      "amount": 1,
+      "ingredient": {
+        "item": "minecraft:phantom_membrane"
+      }
+    }
+  ],
+  "magic_circle": {
+    "inner_texture": "forbidden_arcanus:textures/effect/magic_circle/inner/origin.png",
+    "outer_texture": "forbidden_arcanus:textures/effect/magic_circle/outer/pactum.png"
+  },
+  "main_ingredient": {
+    "item": "deep_aether:glowing_spores"
+  },
+  "result": {
+    "type": "forbidden_arcanus:create_item",
+    "result_item": {
+      "Count": 1,
+      "id": "forbidden_arcanus:crescent_moon"
+    }
+  }
+}
