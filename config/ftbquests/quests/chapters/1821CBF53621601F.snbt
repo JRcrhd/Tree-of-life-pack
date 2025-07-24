@@ -3,9 +3,18 @@
 	default_quest_shape: ""
 	filename: "1821CBF53621601F"
 	group: "3ABDF31F958CFAA4"
+	hide_quest_until_deps_complete: true
 	hide_quest_until_deps_visible: true
 	icon: "quark:smithing_template_rune"
 	id: "1821CBF53621601F"
+	images: [{
+		height: 5.0d
+		image: "forbidden_arcanus:textures/effect/magic_circle/outer/pactum.png"
+		rotation: 0.0d
+		width: 5.0d
+		x: 2.0d
+		y: 3.0d
+	}]
 	order_index: 1
 	quest_links: [ ]
 	quests: [
@@ -81,9 +90,9 @@
 				"{@pagebreak}"
 				"Apotheosis makes the enchanting table a lot of functions. Some explanations of terms:"
 				""
-				"Tier: The current enchanting level of the enchanting table (can be understood as the average)."
+				"Eterna: The current enchanting level of the enchanting table (can be understood as the average)."
 				""
-				"Quantization: The degree of fluctuation of the actual enchanting level (can be understood as variance)."
+				"Quanta: The degree of fluctuation of the actual enchanting level (can be understood as variance)."
 				""
 				"Arcana: The probability of high rarity enchantments appearing."
 				""
@@ -306,7 +315,7 @@
 				type: "advancement"
 			}]
 			x: 4.5d
-			y: 7.0d
+			y: 7.5d
 		}
 		{
 			dependencies: ["76E299EBAAB71C0E"]
@@ -757,7 +766,7 @@
 			description: [
 				"tetra提供了丰富的部件系统。"
 				""
-				"使用信息球可以查看所有材料的数值、效果。"
+				"使用全息球可以查看所有材料的数值、效果。"
 				""
 				"Tetra provides a rich component system."
 				""
@@ -800,7 +809,7 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: 4.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["0E769C540B0F3DB0"]
@@ -810,8 +819,2238 @@
 				item: { Count: 64, id: "apotheosis:gem_fused_slate" }
 				type: "item"
 			}]
+			x: 3.5d
+			y: 6.5d
+		}
+		{
+			dependencies: [
+				"186C7F5EB2E9CCBD"
+				"7A97A455539DDF48"
+			]
+			id: "354691B49DDB421B"
+			rewards: [{
+				count: 4
+				id: "412A9F17E72FAF34"
+				item: "forbidden_arcanus:deorum_ingot"
+				type: "item"
+			}]
+			tasks: [{
+				id: "42F2535FA470D187"
+				item: "forbidden_arcanus:deorum_ingot"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["15C91C6E2007E203"]
+			id: "36AC37CB1263AE2E"
+			rewards: [{
+				count: 16
+				id: "45DEF58C2FBA9565"
+				item: "forbidden_arcanus:darkstone"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4C041C6ED2D17E09"
+				item: "forbidden_arcanus:darkstone"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["186C7F5EB2E9CCBD"]
+			id: "7A97A455539DDF48"
+			tasks: [{
+				id: "4EECBF6C59E34FD0"
+				item: "forbidden_arcanus:mundabitur_dust"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["15C91C6E2007E203"]
+			id: "186C7F5EB2E9CCBD"
+			rewards: [{
+				count: 2
+				id: "6461DD9302F73F71"
+				item: "forbidden_arcanus:arcane_crystal_dust"
+				type: "item"
+			}]
+			tasks: [{
+				id: "48BDC8FF85E609CE"
+				item: "forbidden_arcanus:arcane_crystal_dust"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"354691B49DDB421B"
+				"7A97A455539DDF48"
+				"36AC37CB1263AE2E"
+			]
+			description: [
+				"{image:treeoflife:textures/questpics/fc_h_b.png width:180 height:100 align:center}"
+				""
+				"要获得赫菲斯托斯熔炉，需要 48 块磨制暗黑石、9 块神秘雕纹磨制暗黑石、4 块雕纹神秘磨制暗黑石，1个锻造台，1个洁净粉末。"
+				""
+				"将锻造台放在中央，然后通过洁净粉末潜行+右键单击锻造台，创建一级赫菲斯托斯熔炉。"
+				""
+				"To obtain the Hephaestus Forge, you will need 48 Grinded Darkstone, 9 Mystic Glyph Grinded Darkstone, 4 Glyph Mystic Grinded Darkstone, 1 Forge Table, and 1 Clean Powder."
+				""
+				"Place the Forge Table in the center and sneak through the Clean Powder right-click on the Forge to create a Tier 1 Hephaestus Furnace."
+			]
+			id: "351BD973F5922CF8"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0D0332552C7F4401"
+				table_id: 3468198614520584855L
+				type: "random"
+			}]
+			subtitle: "火神的锻炉"
+			tasks: [{
+				icon: "forbidden_arcanus:hephaestus_forge"
+				id: "3FDA6FC0AC5BF05B"
+				observe_type: 0
+				timer: 0L
+				to_observe: "forbidden_arcanus:hephaestus_forge"
+				type: "observation"
+			}]
+			x: -1.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["36AC37CB1263AE2E"]
+			description: [
+				"通过将两个神秘水晶块放置在神秘磨制暗黑石之上，然后用洁净粉末右键来创建它。"
+				""
+				"可以将它放入赫菲斯托斯锻造熔炉仪式的神秘雕文磨制暗黑石上（会占用基座的格子），它可以提供持续的光辉。"
+				""
+				"Create it by placing two Mystic Crystal blocks on top of the Mystic Ground Dark Stone and right-clicking on it with Clean Powder."
+				""
+				"It can be placed on the Mystic Glyph Grinding Dark Stone of Hephaestus' Forge Rite (a lattice that occupies the pedestal), and it can provide a continuous radiance."
+			]
+			id: "16C3B34EE349A9B7"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1570A7D68BFCF0B5"
+				table_id: 1367640064537670306L
+				type: "random"
+			}]
+			subtitle: "无限的光辉"
+			tasks: [{
+				icon: "forbidden_arcanus:arcane_crystal_obelisk"
+				id: "0DF18A8DBAFCE4D5"
+				observe_type: 0
+				timer: 0L
+				to_observe: "forbidden_arcanus:arcana_crystal_obelisk"
+				type: "observation"
+			}]
+			x: -1.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["15C91C6E2007E203"]
+			description: [
+				"可用作 光辉 的材料："
+				""
+				"光辉瓶、机械动力的光辉石"
+				""
+				"Materials that can be used for aureal: "
+				""
+				"Aureal bottles, create: refined radiation"
+			]
+			hide_dependent_lines: true
+			icon: "forbidden_arcanus:aureal_bottle"
+			id: "4472E388D98166D7"
+			rewards: [{
+				count: 4
+				id: "27D1C527018DC467"
+				item: "forbidden_arcanus:aureal_bottle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6CF777A0354914A1"
+				type: "checkmark"
+			}]
+			title: "光辉"
+			x: -4.0d
+			y: 5.5d
+		}
+		{
+			dependencies: [
+				"764306CFBF9ADCF5"
+				"15C91C6E2007E203"
+			]
+			description: [
+				"可用作 灵魂 的材料："
+				""
+				"灵魂、腐化灵魂、alexsmobs:灵魂之心、quark:灵魂珠"
+				""
+				"Can be used as materials for the soul:"
+				""
+				"Soul, Corrupted Soul, alexsmobs: Soul Heart, quark: Soul Bead"
+			]
+			hide_dependent_lines: true
+			icon: "forbidden_arcanus:soul"
+			id: "6C22540687B0EBAB"
+			rewards: [{
+				count: 3
+				id: "52E1416ED274CE4C"
+				item: "forbidden_arcanus:soul"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "47959D8D520531D3"
+					item: "forbidden_arcanus:soul"
+					type: "item"
+				}
+				{
+					id: "79C37F8296C9C808"
+					type: "checkmark"
+				}
+			]
+			x: -3.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["15C91C6E2007E203"]
+			description: [
+				"去黑森林找它"
+				""
+				"Go to the Black Forest to find it."
+			]
+			icon: "forbidden_arcanus:dark_matter"
+			id: "435CB7E783B99DFC"
+			rewards: [{
+				count: 3
+				id: "194643C0512440A5"
+				item: "forbidden_arcanus:dark_matter"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "373A2261A0ADF148"
+					item: "forbidden_arcanus:edelwood_log"
+					type: "item"
+				}
+				{
+					id: "438F302BB20D1153"
+					item: "forbidden_arcanus:dark_matter"
+					type: "item"
+				}
+			]
+			x: -4.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["435CB7E783B99DFC"]
+			id: "764306CFBF9ADCF5"
+			tasks: [{
+				id: "32B515BCBF22E80E"
+				item: {
+					Count: 1
+					id: "forbidden_arcanus:soul_extractor"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["15C91C6E2007E203"]
+			description: [
+				"携带试管时，使用神秘匕首击杀生物可以为试管填充血量。"
+				""
+				"可用作 血 的材料："
+				""
+				"装血的试管、alexsmobs：血囊"
+				""
+				"When carrying a test tube, using mystical dagger to kill creatures can fill the test tube with blood."
+				""
+				"Materials that can be used for blood:"
+				""
+				"Test tubes filled with blood, alexsmobs: blood sac."
+			]
+			hide_dependent_lines: true
+			icon: {
+				Count: 1
+				id: "forbidden_arcanus:blood_test_tube"
+				tag: { }
+			}
+			id: "1C8948F25DB4CDE6"
+			rewards: [{
+				id: "4431977AB1A073B8"
+				item: {
+					Count: 1
+					id: "forbidden_arcanus:blood_test_tube"
+					tag: {
+						Blood: 3000
+					}
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "11E77BA3AB7EB04E"
+					item: {
+						Count: 1
+						id: "forbidden_arcanus:blood_test_tube"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "036816BC5A665CEF"
+					type: "checkmark"
+				}
+				{
+					id: "545D20E6E97F8BD0"
+					item: {
+						Count: 1
+						id: "forbidden_arcanus:mystical_dagger"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "血"
+			x: -4.0d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"15C91C6E2007E203"
+				"543D4CB0B8CD827E"
+			]
+			description: [
+				"可用作 经验 的材料："
+				""
+				"附魔之瓶、石化经验、create：经验颗粒"
+				""
+				"Materials that can be used as experience: "
+				""
+				"Experience Bottles, Petrified Experience, Create: Experience Nugget"
+			]
+			hide_dependent_lines: true
+			icon: "minecraft:experience_bottle"
+			id: "34C5DDDBC3D6B844"
+			rewards: [{
+				id: "4DEB09E78D824771"
+				item: "minecraft:experience_bottle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "428521740653CF70"
+					item: "minecraft:experience_bottle"
+					type: "item"
+				}
+				{
+					id: "758C7479B732DF12"
+					type: "checkmark"
+				}
+			]
+			x: -5.0d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"409CC99CD23DDBDD"
+				"435CB7E783B99DFC"
+			]
+			description: [
+				"将腐化粉末与暗物质丢在一起以制造黑洞。"
+				""
+				"黑洞会吸收周围的掉落物、经验，请注意保护重要物品。"
+				""
+				"吸收足够经验后会掉落石化经验。"
+				""
+				"Corruption powder is thrown together with dark matter to create black holes."
+				""
+				"The black hole absorbs drops and experience around it, so be careful to protect important items."
+				""
+				"After absorbing enough experience, it will drop Petrification experience."
+			]
+			icon: "forbidden_arcanus:dark_matter"
+			id: "543D4CB0B8CD827E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "43609965DE820437"
+				table_id: 3468198614520584855L
+				type: "random"
+			}]
+			tasks: [{
+				icon: "forbidden_arcanus:dark_matter"
+				id: "64BE7B134C9EE9C1"
+				observe_type: 0
+				timer: 0L
+				to_observe: "forbidden_arcanus:black_hole"
+				type: "observation"
+			}]
+			x: -5.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["7A97A455539DDF48"]
+			hide_dependency_lines: true
+			id: "409CC99CD23DDBDD"
+			tasks: [{
+				id: "092DFD5DC10E5C98"
+				item: "forbidden_arcanus:corrupti_dust"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"351BD973F5922CF8"
+				"1C8948F25DB4CDE6"
+				"34C5DDDBC3D6B844"
+				"4472E388D98166D7"
+				"6C22540687B0EBAB"
+				"442FE91D8008D2BA"
+			]
+			description: ["{image:treeoflife:textures/questpics/fc_h_u.png width:200 height:100 align:center}"]
+			icon: {
+				Count: 1
+				id: "forbidden_arcanus:hephaestus_forge"
+				tag: {
+					BlockEntityTag: {
+						Essences: {
+							aureal: 3000
+							blood: 1080
+							experience: 1350
+							souls: 50
+						}
+						ForgeCaps: { }
+						Inventory: {
+							Items: [
+								{
+									Count: 35b
+									Slot: 5
+									id: "create:refined_radiance"
+								}
+								{
+									Count: 39b
+									Slot: 6
+									id: "alexsmobs:soul_heart"
+								}
+								{
+									Count: 8b
+									Slot: 8
+									id: "forbidden_arcanus:xpetrified_orb"
+								}
+							]
+							Size: 9
+						}
+						Ritual: { }
+						id: "forbidden_arcanus:hephaestus_forge"
+					}
+					BlockStateTag: {
+						tier: 2
+					}
+					display: {
+						Lore: ["\"(+NBT)\""]
+					}
+				}
+			}
+			id: "559C13BECD00DF51"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "526A1C03CD456AE5"
+				table_id: 7545900498830760989L
+				type: "random"
+			}]
+			tasks: [{
+				id: "137432C389C6D334"
+				item: {
+					Count: 1
+					id: "forbidden_arcanus:hephaestus_forge"
+					tag: {
+						BlockEntityTag: {
+							Essences: {
+								aureal: 3000
+								blood: 1080
+								experience: 1350
+								souls: 50
+							}
+							ForgeCaps: { }
+							Inventory: {
+								Items: [
+									{
+										Count: 35b
+										Slot: 5
+										id: "create:refined_radiance"
+									}
+									{
+										Count: 39b
+										Slot: 6
+										id: "alexsmobs:soul_heart"
+									}
+									{
+										Count: 8b
+										Slot: 8
+										id: "forbidden_arcanus:xpetrified_orb"
+									}
+								]
+								Size: 9
+							}
+							Ritual: { }
+							id: "forbidden_arcanus:hephaestus_forge"
+						}
+						BlockStateTag: {
+							tier: 2
+						}
+						display: {
+							Lore: ["\"(+NBT)\""]
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "二级锻炉"
+			x: -4.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["57A5A601AD4365D4"]
+			hide_dependency_lines: true
+			id: "4522A2FCA5C476CC"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2E5504A877E0C782"
+				table_id: 3468198614520584855L
+				type: "random"
+			}]
+			tasks: [{
+				id: "59C1E9CCC8B873F7"
+				item: "forbidden_arcanus:elementarium"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["4522A2FCA5C476CC"]
+			id: "3479623825F4AE1C"
+			tasks: [{
+				id: "6D2B6570D4A12AFC"
+				item: "forbidden_arcanus:sea_prism"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["4522A2FCA5C476CC"]
+			id: "0C1B511C20D7997A"
+			tasks: [{
+				id: "66085FA78863C4DC"
+				item: "forbidden_arcanus:whirlwind_prism"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["4522A2FCA5C476CC"]
+			id: "3ADD1FE23AC95444"
+			tasks: [{
+				id: "613DD1981597F524"
+				item: {
+					Count: 1
+					id: "forbidden_arcanus:smelter_prism"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -7.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["4522A2FCA5C476CC"]
+			id: "2AE2DAF6B4165DD7"
+			tasks: [{
+				id: "462614B8F434D3BE"
+				item: "forbidden_arcanus:terrastomp_prism"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["2AE2DAF6B4165DD7"]
+			id: "60D35A75B44AA582"
+			tasks: [{
+				id: "4C3A659B0C871709"
+				item: "apotheosis:sigil_of_socketing"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["3ADD1FE23AC95444"]
+			id: "3A9956673C669AA6"
+			tasks: [{
+				id: "3802C566526C78E6"
+				item: "apotheosis:sigil_of_withdrawal"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["0C1B511C20D7997A"]
+			id: "685FE041057BFC5F"
+			tasks: [{
+				id: "4E01E044A9DCF906"
+				item: "apotheosis:sigil_of_enhancement"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["3479623825F4AE1C"]
+			id: "376CF572C5A9B296"
+			tasks: [{
+				id: "5C43B3D7CE61C630"
+				item: "apotheosis:sigil_of_rebirth"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["559C13BECD00DF51"]
+			id: "1C66939157515AB8"
+			tasks: [{
+				id: "24F0BF3F42D6B692"
+				item: {
+					Count: 1
+					id: "forbidden_arcanus:hephaestus_forge"
+					tag: {
+						BlockStateTag: {
+							tier: 3
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -6.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["15C91C6E2007E203"]
+			id: "442FE91D8008D2BA"
+			rewards: [{
+				count: 2
+				id: "41F114EAED807A7E"
+				item: "forbidden_arcanus:spawner_scrap"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3868F025448D5FD8"
+				item: "forbidden_arcanus:spawner_scrap"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["1C66939157515AB8"]
+			id: "27411A1030591342"
+			tasks: [{
+				id: "70BF13AE872DBA1C"
+				item: {
+					Count: 1
+					id: "forbidden_arcanus:hephaestus_forge"
+					tag: {
+						BlockStateTag: {
+							tier: 4
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -9.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["27411A1030591342"]
+			id: "33F1EF449D3F0959"
+			tasks: [{
+				id: "29A9EE1B47EC190F"
+				item: {
+					Count: 1
+					id: "forbidden_arcanus:hephaestus_forge"
+					tag: {
+						BlockStateTag: {
+							tier: 5
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -11.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["1C66939157515AB8"]
+			id: "25BA92CE2EC07BC8"
+			tasks: [{
+				id: "6DD0BE986AAA5107"
+				item: {
+					Count: 1
+					id: "forbidden_arcanus:eternal_stella"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -6.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["57A5A601AD4365D4"]
+			hide_dependency_lines: true
+			id: "74EC219CABA611AB"
+			tasks: [{
+				id: "25888289FFA75437"
+				item: "forbidden_arcanus:divine_pact"
+				type: "item"
+			}]
+			x: -9.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["57A5A601AD4365D4"]
+			hide_dependency_lines: true
+			id: "4A28880A3C41BC82"
+			tasks: [{
+				id: "6286F41F66B880BE"
+				item: "forbidden_arcanus:maledictus_pact"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["57A5A601AD4365D4"]
+			description: [
+				"3x3x3结构，8个角为磨制暗黑石，中间为1格空气，其中一个面的中间放置炽炉核心。完成后用结晶粉末右键。"
+				""
+				"对部分矿物有4倍产出功能。"
+				""
+				"3x3x3 structure, 8 corners of polished dark stone, 1 block of air inside, and a furnace core in the middle of one of the faces. When finished, right-click with the crystalline powder."
+				""
+				"It has 4 times the output function for some minerals."
+			]
+			hide_dependency_lines: true
+			id: "4A029E5E974A8A8C"
+			tasks: [{
+				id: "0497586D173167DC"
+				item: "forbidden_arcanus:clibano_core"
+				type: "item"
+			}]
+			x: -9.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["74EC219CABA611AB"]
+			id: "6DA73AF262B8942D"
+			tasks: [{
+				id: "4698B03F79EDDE85"
+				item: "forbidden_arcanus:crescent_moon"
+				type: "item"
+			}]
+			x: -10.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["4A28880A3C41BC82"]
+			id: "78B5C35023235B22"
+			tasks: [{
+				id: "18AF010E57EC6F9D"
+				item: "forbidden_arcanus:crimson_stone"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["33F1EF449D3F0959"]
+			id: "0ADD88CFFA8D0D10"
+			tasks: [{
+				id: "29F0F2834D543D22"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: { }
+					}
+					id: "projecte:philosophers_stone"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -11.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["5D4C9EFA06C3EB98"]
+			description: [
+				"从一个绳圈开始的进化。"
+				""
+				"Evolution from a rope."
+			]
+			id: "56FA3F587C09DD82"
+			tasks: [{
+				id: "7EB7E604E1CF1006"
+				item: {
+					Count: 1
+					id: "tetra:modular_toolbelt"
+					tag: {
+						id: "a833b7df-3ba7-4386-969a-0be16f961191"
+						"toolbelt/belt": "toolbelt/belt"
+						"toolbelt/belt_material": "belt/rope"
+						"toolbelt/slot1": "toolbelt/strap_slot1"
+						"toolbelt/strap_slot1_material": "strap1/leather"
+					}
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["209CEE4D504D3B8C"]
+			description: [
+				"石质工具的等级为2，更高的等级需要加工台。"
+				""
+				"Stone tools are level 2, higher levels require a workbench."
+			]
+			id: "01C23F9989461FD5"
+			tasks: [{
+				advancement: "tetra:upgrades/hammer_2"
+				criterion: ""
+				id: "4FF4A05EFE9419A5"
+				type: "advancement"
+			}]
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["01C23F9989461FD5"]
+			description: ["也许可以试试把全息球给放上去。"]
+			id: "5D4C9EFA06C3EB98"
+			tasks: [{
+				id: "77071401C9D96A66"
+				item: "tetra:basic_workbench"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["5D4C9EFA06C3EB98"]
+			description: [
+				"本整合包对大量模组进行了tetra的适配，每次拿到新材料不妨大胆的放到加工台上看看。"
+				""
+				"This integration package has been tetra-adapted to a large number of modules, and every time you get a new material, you may put it on the workbench to have a check."
+			]
+			id: "4DB73269D32DC5C0"
+			tasks: [{
+				id: "028CC36E579B1DDD"
+				type: "checkmark"
+			}]
+			title: "雕琢万物"
+			x: -1.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["15C91C6E2007E203"]
+			description: [
+				"使用加工台时可以使用附近工具架上的工具。"
+				""
+				"相同类型工具选取顺序：玩家物品栏—加工锤—工具架"
+				""
+				"When using the machining table, you can use tools from nearby tool racks."
+				""
+				"The order of selection of tools of the same type: Player Inventory - Processing Hammer - Tool Rack"
+			]
+			id: "2400D904428EEB87"
+			tasks: [{
+				id: "4506522CE7613E14"
+				item: "tetra:rack"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["5D4C9EFA06C3EB98"]
+			id: "4C868959B10C3A4C"
+			tasks: [{
+				advancement: "tetra:upgrades/hammer_3"
+				criterion: ""
+				id: "7075FC15E7F20CD2"
+				type: "advancement"
+			}]
+			x: -4.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["4C868959B10C3A4C"]
+			id: "43E83EECF4DAE462"
+			tasks: [{
+				advancement: "tetra:upgrades/hammer_4"
+				criterion: ""
+				id: "7465727D73A387E4"
+				type: "advancement"
+			}]
+			x: -6.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["43E83EECF4DAE462"]
+			description: [
+				"需要在遗迹中采集"
+				""
+				"Found in tetra ruins."
+			]
+			id: "3946ACDFCB8F7CD3"
+			tasks: [{
+				id: "162C32A70DB14CD0"
+				item: "tetra:forged_workbench"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["43E83EECF4DAE462"]
+			description: [
+				"可制造，一旦放置无法完整回收。"
+				""
+				"Craftable,once placed, it cannot be completely retrieved."
+			]
+			id: "391C611CC52591B7"
+			tasks: [{
+				id: "05846E0EFC1DCC27"
+				item: "tetra:hammer_base"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"43E83EECF4DAE462"
+				"3946ACDFCB8F7CD3"
+				"391C611CC52591B7"
+				"436018D4C258B24F"
+				"27C5FE96EF75365B"
+			]
+			id: "18FE481651821102"
+			tasks: [{
+				advancement: "tetra:upgrades/hammer_5"
+				criterion: ""
+				id: "157820B49D1C4F22"
+				type: "advancement"
+			}]
+			x: -8.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["18FE481651821102"]
+			description: [
+				"使用下界之星镶嵌可以再增加一级锤子等级。"
+				""
+				"多次使用后打磨可以升高锤子等级。"
+				""
+				"Use Nether Star inlays to increase the Hammer level by one more level."
+				""
+				"Sanding after multiple uses can increase the hammer level."
+			]
+			id: "45567C84B5483784"
+			tasks: [{
+				advancement: "tetra:upgrades/hammer_6"
+				criterion: ""
+				id: "04588B44B45C50F6"
+				type: "advancement"
+			}]
+			x: -10.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["15C91C6E2007E203"]
+			description: [
+				"使用tetra可以积攒打磨。打磨条满后可以选择一个属性进行提升。"
+				""
+				"使用假人可以快速积攒打磨条。"
+				""
+				"With tetra, you can accumulate sanding. After the polishing bar is full, you can select an attribute to improve."
+				""
+				"Using a dummy can quickly accumulate sanding strips."
+			]
+			id: "6CCD48CFEB3EDCAD"
+			tasks: [{
+				id: "53B0AB77E9A0996C"
+				item: "dummmmmmy:target_dummy"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["15C91C6E2007E203"]
+			description: [
+				"安装在动力锤两侧，每个提升一级锤子等级。"
+				""
+				"锤子基础为5级。"
+				""
+				"Installed on both sides of the power hammer, each raising the level of the hammer by one level."
+				""
+				"The hammer base is level 5"
+			]
+			id: "27C5FE96EF75365B"
+			rewards: [{
+				id: "2FDAD2F2922C6A64"
+				item: "tetra:combustion_chamber"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5663DB0CE9AE6468"
+				item: "tetra:combustion_chamber"
+				type: "item"
+			}]
+			x: -9.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["15C91C6E2007E203"]
+			description: [
+				"在遗迹内的基岩提取器上充电。"
+				""
+				"注意，提取器必须对准有橙色液体的基岩。"
+				""
+				"Charge on the Bedrock Extractor inside the ruins."
+				""
+				"Note that the extractor must be aimed at the bedrock with orange liquid."
+			]
+			id: "436018D4C258B24F"
+			rewards: [{
+				id: "7F6CF2D1F851C5E1"
+				item: {
+					Count: 1
+					id: "tetra:thermal_cell"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "46A9B5D451F039F8"
+				item: {
+					Count: 1
+					id: "tetra:thermal_cell"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -9.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["15C91C6E2007E203"]
+			description: [
+				"安装在动力锤两侧，能够给锻造工件增加少量数值。"
+				""
+				"Installed on both sides of the power hammer, it adds a small amount of value to the forged workpiece."
+			]
+			id: "4EA29C25B76690D3"
+			rewards: [{
+				id: "717F38174E736F1A"
+				item: "tetra:planar_stabilizer"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3E93CCFCB8798A86"
+				item: "tetra:planar_stabilizer"
+				type: "item"
+			}]
+			x: -12.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["209CEE4D504D3B8C"]
+			hide_dependency_lines: true
+			id: "5DF45A8DE62705C1"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7997F5A7A8D49F75"
+				table_id: 3468198614520584855L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "5ECC49579BBE82E7"
+					item: {
+						Count: 1
+						id: "tetra:scroll_rolled"
+						tag: {
+							BlockEntityTag: {
+								data: [{
+									glyphs: [I;
+										3
+										2
+										2
+										1
+									]
+									intricate: 0b
+									key: "sword/sturdy_guard"
+									material: 1
+									ribbon: "bcb8b5"
+									schematics: ["tetra:sword/sturdy_guard"]
+								}]
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "712C3B4CAC2A0AFA"
+					item: {
+						Count: 1
+						id: "tetra:scroll_rolled"
+						tag: {
+							BlockEntityTag: {
+								data: [{
+									glyphs: [I;
+										4
+										1
+										0
+										5
+									]
+									intricate: 0b
+									key: "sword/throwing_knife"
+									material: 1
+									ribbon: "b8ced9"
+									schematics: ["tetra:sword/throwing_knife"]
+								}]
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "05A4E1F2616B630A"
+					item: {
+						Count: 1
+						id: "tetra:scroll_rolled"
+						tag: {
+							BlockEntityTag: {
+								data: [{
+									glyphs: [I;
+										8
+										9
+										10
+										5
+									]
+									intricate: 0b
+									key: "sword/howling"
+									material: 1
+									ribbon: "faf396"
+									schematics: ["tetra:sword/howling"]
+								}]
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+			]
+			title: "原理图"
 			x: 2.0d
-			y: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["209CEE4D504D3B8C"]
+			hide_dependency_lines: true
+			id: "576C8A0586E2D222"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "328AC21ACBF4CD47"
+				table_id: 7545900498830760989L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "375D4A8740B35BCA"
+					item: {
+						Count: 1
+						id: "tetra:scroll_rolled"
+						tag: {
+							BlockEntityTag: {
+								data: [{
+									effects: ["tetra:gem_expertise"]
+									glyphs: [I;
+										14
+										13
+										14
+										15
+									]
+									intricate: 0b
+									key: "gem_expertise"
+									material: 0
+									ribbon: "2bffee"
+								}]
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "17F11B7279BD2E96"
+					item: {
+						Count: 1
+						id: "tetra:scroll_rolled"
+						tag: {
+							BlockEntityTag: {
+								data: [{
+									effects: ["tetra:metal_expertise"]
+									glyphs: [I;
+										4
+										6
+										6
+										5
+									]
+									intricate: 0b
+									key: "metal_expertise"
+									material: 0
+									ribbon: "ffffff"
+								}]
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5B438CEA89496D8A"
+					item: {
+						Count: 1
+						id: "tetra:scroll_rolled"
+						tag: {
+							BlockEntityTag: {
+								data: [{
+									effects: ["tetra:wood_expertise"]
+									glyphs: [I;
+										2
+										1
+										2
+										1
+									]
+									intricate: 0b
+									key: "wood_expertise"
+									material: 0
+									ribbon: "bf934b"
+								}]
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7385EE667DC805BD"
+					item: {
+						Count: 1
+						id: "tetra:scroll_rolled"
+						tag: {
+							BlockEntityTag: {
+								data: [{
+									effects: ["tetra:stone_expertise"]
+									glyphs: [I;2]
+									intricate: 0b
+									key: "stone_expertise"
+									material: 0
+									ribbon: "9a9a9a"
+								}]
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "662A729BBE4A411C"
+					item: {
+						Count: 1
+						id: "tetra:scroll_rolled"
+						tag: {
+							BlockEntityTag: {
+								data: [{
+									effects: ["tetra:fibre_expertise"]
+									glyphs: [I;
+										5
+										10
+										11
+										4
+									]
+									intricate: 0b
+									key: "fibre_expertise"
+									material: 0
+									ribbon: "a88054"
+								}]
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5165D349B17695BB"
+					item: {
+						Count: 1
+						id: "tetra:scroll_rolled"
+						tag: {
+							BlockEntityTag: {
+								data: [{
+									effects: ["tetra:skin_expertise"]
+									glyphs: [I;
+										0
+										1
+										1
+										1
+									]
+									intricate: 0b
+									key: "skin_expertise"
+									material: 0
+									ribbon: "bf6930"
+								}]
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "588A59978F8B7E63"
+					item: {
+						Count: 1
+						id: "tetra:scroll_rolled"
+						tag: {
+							BlockEntityTag: {
+								data: [{
+									effects: ["tetra:bone_expertise"]
+									glyphs: [I;
+										12
+										14
+										12
+										14
+									]
+									intricate: 0b
+									key: "bone_expertise"
+									material: 0
+									ribbon: "fff193"
+								}]
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "102DBA14076949FF"
+					item: {
+						Count: 1
+						id: "tetra:scroll_rolled"
+						tag: {
+							BlockEntityTag: {
+								data: [{
+									effects: ["tetra:fabric_expertise"]
+									glyphs: [I;
+										5
+										3
+										6
+										4
+									]
+									intricate: 0b
+									key: "fabric_expertise"
+									material: 0
+									ribbon: "ff3333"
+								}]
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "31375F0DACAFF58F"
+					item: {
+						Count: 1
+						id: "tetra:scroll_rolled"
+						tag: {
+							BlockEntityTag: {
+								data: [{
+									effects: ["tetra:scale_expertise"]
+									glyphs: [I;
+										6
+										7
+										6
+										8
+									]
+									intricate: 0b
+									key: "scale_expertise"
+									material: 0
+									ribbon: "75a03e"
+								}]
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1C61DFB357D75437"
+					item: {
+						Count: 1
+						id: "tetra:scroll_rolled"
+						tag: {
+							BlockEntityTag: {
+								data: [{
+									effects: ["tetra:hammer_efficiency"]
+									glyphs: [I;
+										6
+										7
+										6
+										11
+									]
+									intricate: 0b
+									key: "hammer_efficiency"
+									material: 0
+									ribbon: "ff6666"
+								}]
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7409D1ECACBFD8A1"
+					item: {
+						Count: 1
+						id: "tetra:scroll_rolled"
+						tag: {
+							BlockEntityTag: {
+								data: [{
+									effects: ["tetra:axe_efficiency"]
+									glyphs: [I;
+										0
+										1
+										3
+										3
+									]
+									intricate: 0b
+									key: "axe_efficiency"
+									material: 0
+									ribbon: "66ff66"
+								}]
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "140E40361524E6D6"
+					item: {
+						Count: 1
+						id: "tetra:scroll_rolled"
+						tag: {
+							BlockEntityTag: {
+								data: [{
+									effects: ["tetra:cut_efficiency"]
+									glyphs: [I;
+										4
+										0
+										3
+										5
+									]
+									intricate: 0b
+									key: "cut_efficiency"
+									material: 0
+									ribbon: "6666ff"
+								}]
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "专精"
+			x: 1.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["209CEE4D504D3B8C"]
+			hide_dependency_lines: true
+			id: "44DAD789B4E61246"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5ABD4372FE4DA09D"
+				table_id: 7545900498830760989L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "2AC031BC74106CE8"
+					item: {
+						Count: 1
+						id: "tetra:scroll_rolled"
+						tag: {
+							BlockEntityTag: {
+								data: [{
+									details: "warforge"
+									glyphs: [I;
+										5
+										10
+										8
+										9
+									]
+									intricate: 0b
+									key: "warforge/axe"
+									material: 2
+									ribbon: "b35973"
+									schematics: ["tetra:warforge/axe"]
+								}]
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5FB68DDE9F3B6F6B"
+					item: {
+						Count: 1
+						id: "tetra:scroll_rolled"
+						tag: {
+							BlockEntityTag: {
+								data: [{
+									details: "warforge"
+									glyphs: [I;
+										9
+										8
+										11
+										10
+									]
+									intricate: 0b
+									key: "warforge/hammer"
+									material: 2
+									ribbon: "3d4299"
+									schematics: ["tetra:warforge/hammer"]
+								}]
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0DBA6D2283703865"
+					item: {
+						Count: 1
+						id: "tetra:scroll_rolled"
+						tag: {
+							BlockEntityTag: {
+								data: [{
+									details: "warforge"
+									glyphs: [I;
+										6
+										11
+										8
+										7
+									]
+									intricate: 0b
+									key: "warforge/pickaxe"
+									material: 2
+									ribbon: "508cb3"
+									schematics: ["tetra:warforge/pickaxe"]
+								}]
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1CC09F03547380D5"
+					item: {
+						Count: 1
+						id: "tetra:scroll_rolled"
+						tag: {
+							BlockEntityTag: {
+								data: [{
+									details: "warforge"
+									glyphs: [I;
+										11
+										5
+										8
+										9
+									]
+									intricate: 0b
+									key: "warforge/butt"
+									material: 2
+									ribbon: "b33636"
+									schematics: ["tetra:warforge/butt"]
+								}]
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "698BD8374713E01F"
+					item: {
+						Count: 1
+						id: "tetra:scroll_rolled"
+						tag: {
+							BlockEntityTag: {
+								data: [{
+									details: "warforge"
+									glyphs: [I;
+										8
+										10
+										5
+										11
+									]
+									intricate: 0b
+									key: "warforge/claw"
+									material: 2
+									ribbon: "1d262f"
+									schematics: ["tetra:warforge/claw"]
+								}]
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6B1083FE5E2897BF"
+					item: {
+						Count: 1
+						id: "tetra:scroll_rolled"
+						tag: {
+							BlockEntityTag: {
+								data: [{
+									details: "warforge"
+									glyphs: [I;
+										10
+										7
+										9
+										5
+									]
+									intricate: 0b
+									key: "warforge/hoe"
+									material: 2
+									ribbon: "93b350"
+									schematics: ["tetra:warforge/hoe"]
+								}]
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "77D192D191CE4789"
+					item: {
+						Count: 1
+						id: "tetra:scroll_rolled"
+						tag: {
+							BlockEntityTag: {
+								data: [{
+									details: "warforge"
+									glyphs: [I;
+										5
+										9
+										6
+										10
+									]
+									intricate: 0b
+									key: "warforge/sickle"
+									material: 2
+									ribbon: "d99e4c"
+									schematics: ["tetra:warforge/sickle"]
+								}]
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4DED2CEB094556FD"
+					item: {
+						Count: 1
+						id: "tetra:scroll_rolled"
+						tag: {
+							BlockEntityTag: {
+								data: [{
+									details: "warforge"
+									glyphs: [I;
+										6
+										7
+										11
+										7
+									]
+									intricate: 0b
+									key: "warforge/adze"
+									material: 2
+									ribbon: "8559b3"
+									schematics: ["tetra:warforge/adze"]
+								}]
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "战争器具"
+			x: 2.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["209CEE4D504D3B8C"]
+			hide_dependency_lines: true
+			id: "6853AFA667F8E61A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "61517714D9C09B62"
+				table_id: 9027088842797077213L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "6D39A447F860C0AA"
+					item: {
+						Count: 1
+						id: "tetra:scroll_rolled"
+						tag: {
+							BlockEntityTag: {
+								data: [{
+									details: "art_of_forging"
+									glyphs: [I;
+										6
+										15
+										4
+										7
+									]
+									intricate: 0b
+									key: "tetra/flamberge_blade"
+									material: 2
+									ribbon: "ff9612"
+									schematics: ["tetra:sword/flamberge_blade"]
+								}]
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6C68945D2ED4E54F"
+					item: {
+						Count: 1
+						id: "tetra:scroll_rolled"
+						tag: {
+							BlockEntityTag: {
+								data: [{
+									details: "art_of_forging"
+									glyphs: [I;
+										8
+										1
+										4
+										5
+									]
+									intricate: 0b
+									key: "single/head/halberd_head/halberd_head"
+									material: 1
+									ribbon: "444aff"
+									schematics: ["tetra:single/head/halberd_head/halberd_head"]
+								}]
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0AD313C96F7635E5"
+					item: {
+						Count: 1
+						id: "tetra:scroll_rolled"
+						tag: {
+							BlockEntityTag: {
+								data: [{
+									details: "art_of_forging"
+									glyphs: [I;
+										0
+										1
+										9
+										4
+									]
+									intricate: 0b
+									key: "sword/key_guard"
+									material: 1
+									ribbon: "fae409"
+									schematics: ["tetra:sword/key_guard"]
+								}]
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6E22596656EC1C93"
+					item: {
+						Count: 1
+						id: "tetra:scroll_rolled"
+						tag: {
+							BlockEntityTag: {
+								data: [{
+									details: "art_of_forging"
+									glyphs: [I;
+										9
+										3
+										6
+										2
+									]
+									intricate: 0b
+									key: "single/head/mace_head/mace_head"
+									material: 1
+									ribbon: "560060"
+									schematics: ["tetra:single/head/mace_head/mace_head"]
+								}]
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "77FB901CE0F83D87"
+					item: {
+						Count: 1
+						id: "tetra:scroll_rolled"
+						tag: {
+							BlockEntityTag: {
+								data: [{
+									details: "art_of_forging"
+									glyphs: [I;
+										8
+										7
+										9
+										2
+									]
+									intricate: 0b
+									key: "tetra/crucible_blade"
+									material: 2
+									ribbon: "ff1e00"
+									schematics: ["tetra:sword/crucible_blade"]
+								}]
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0F5F8C3FAA33E3AF"
+					item: {
+						Count: 1
+						id: "tetra:scroll_rolled"
+						tag: {
+							BlockEntityTag: {
+								data: [{
+									details: "art_of_forging"
+									glyphs: [I;
+										8
+										1
+										9
+										5
+									]
+									intricate: 0b
+									key: "bow/stave/dreadnought_stave"
+									material: 1
+									ribbon: "f3b31f"
+									schematics: [
+										"tetra:bow/stave/dreadnought_stave"
+										"tetra:bow/stave/dreadnought_cross_stave"
+									]
+								}]
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "363136D461074B3B"
+					item: {
+						Count: 1
+						id: "tetra:scroll_rolled"
+						tag: {
+							BlockEntityTag: {
+								data: [{
+									details: "art_of_forging"
+									glyphs: [I;
+										5
+										10
+										13
+										2
+									]
+									intricate: 0b
+									key: "sword/katana/katana_blade"
+									material: 2
+									ribbon: "dbff10"
+									schematics: [
+										"tetra:sword/katana/katana_blade"
+										"tetra:sword/tsuba_guard"
+									]
+								}]
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6C3EF8C8FA7C668A"
+					item: {
+						Count: 1
+						id: "tetra:scroll_rolled"
+						tag: {
+							BlockEntityTag: {
+								data: [{
+									details: "art_of_forging"
+									glyphs: [I;
+										15
+										13
+										12
+										14
+									]
+									intricate: 0b
+									key: "bow/string/compound_string"
+									material: 1
+									ribbon: "19e588"
+									schematics: [
+										"tetra:bow/string/compound_string"
+										"tetra:crossbow/string/compound_cross_string"
+									]
+								}]
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5F2F80EF6AF1B447"
+					item: {
+						Count: 1
+						id: "tetra:scroll_rolled"
+						tag: {
+							BlockEntityTag: {
+								data: [{
+									details: "art_of_forging"
+									glyphs: [I;
+										1
+										15
+										12
+										8
+									]
+									intricate: 0b
+									key: "utilize/hammer"
+									material: 2
+									ribbon: "fa97e9"
+									schematics: ["tetra:utilize/hammer"]
+								}]
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "354D3E9B8CBADFF5"
+					item: {
+						Count: 1
+						id: "tetra:scroll_rolled"
+						tag: {
+							BlockEntityTag: {
+								data: [{
+									details: "otherworldly"
+									glyphs: [I;
+										6
+										7
+										13
+										15
+									]
+									intricate: 0b
+									key: "sword/katana/murasama_blade"
+									material: 2
+									ribbon: "c52323"
+									schematics: ["tetra:sword/katana/murasama_blade"]
+								}]
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0A81677A6BE0880F"
+					item: {
+						Count: 1
+						id: "tetra:scroll_rolled"
+						tag: {
+							BlockEntityTag: {
+								data: [{
+									details: "otherworldly"
+									glyphs: [I;
+										1
+										15
+										2
+										13
+									]
+									intricate: 0b
+									key: "tetra/rending_scissor_complete"
+									material: 2
+									ribbon: "e32182"
+									schematics: [
+										"tetra:sword/scissor_blade_left"
+										"tetra:sword/scissor_blade_right"
+										"tetra:sword/rending_scissor_complete"
+									]
+								}]
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "64D3682B4DF249D3"
+					item: {
+						Count: 1
+						id: "tetra:scroll_rolled"
+						tag: {
+							BlockEntityTag: {
+								data: [{
+									details: "true_crucible"
+									glyphs: [I;
+										8
+										7
+										9
+										2
+									]
+									intricate: 1b
+									key: "sword/crucible/architects_crucible_blade"
+									material: 2
+									ribbon: "ff0042"
+									schematics: [
+										"tetra:sword/crucible_blade"
+										"tetra:sword/crucible/architects_crucible_blade"
+									]
+								}]
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0E8375D91C267BB6"
+					item: {
+						Count: 1
+						id: "tetra:scroll_rolled"
+						tag: {
+							BlockEntityTag: {
+								data: [{
+									details: "art_of_forging"
+									glyphs: [I;
+										3
+										5
+										6
+										9
+									]
+									intricate: 0b
+									key: "sword/tonal_blade"
+									material: 1
+									ribbon: "daf7a6"
+									schematics: ["tetra:sword/tonal_blade"]
+								}]
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4E5883CAB9E5D13F"
+					item: {
+						Count: 1
+						id: "tetra:scroll_rolled"
+						tag: {
+							BlockEntityTag: {
+								data: [{
+									details: "otherworldly"
+									glyphs: [I;
+										7
+										8
+										14
+										13
+									]
+									intricate: 1b
+									key: "sword/thousand_cold_nights"
+									material: 2
+									ribbon: "5c7c80"
+									schematics: [
+										"tetra:sword/katana/murasama_blade"
+										"tetra:sword/thousand_cold_nights"
+									]
+								}]
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "锻造之艺"
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["2BE59BDCEB418521"]
+			id: "5F28268E0C1B51F5"
+			tasks: [{
+				id: "110DC0B32C51733F"
+				item: "art_of_forging:ancient_axe"
+				type: "item"
+			}]
+			x: -9.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["2BE59BDCEB418521"]
+			id: "48823B6144DFD720"
+			tasks: [{
+				id: "7C1097C53CF938C6"
+				item: "art_of_forging:ancient_blade"
+				type: "item"
+			}]
+			x: -8.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["2BE59BDCEB418521"]
+			id: "0957418E76866DD8"
+			tasks: [{
+				id: "5BE1F7B39763B0AD"
+				item: "art_of_forging:ancient_flail"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["48823B6144DFD720"]
+			id: "3AF5B85B892DFDED"
+			tasks: [{
+				id: "60836B1F4550CD37"
+				item: "art_of_forging:demonic_blade"
+				type: "item"
+			}]
+			x: -8.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["5F28268E0C1B51F5"]
+			id: "1BAB2A047EFE31A9"
+			tasks: [{
+				id: "0484B5B632C89BA0"
+				item: "art_of_forging:demonic_axe"
+				type: "item"
+			}]
+			x: -9.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["0957418E76866DD8"]
+			id: "054204231985A01F"
+			tasks: [{
+				id: "090736C40861BABD"
+				item: "art_of_forging:demonic_flail"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["15C91C6E2007E203"]
+			id: "2BE59BDCEB418521"
+			tasks: [{
+				icon: "minecraft:sculk_shrieker"
+				id: "08A20AB75526D40C"
+				structure: "minecraft:ancient_city"
+				type: "structure"
+			}]
+			x: -8.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["15C91C6E2007E203"]
+			id: "06267DA14EC7E3D8"
+			tasks: [{
+				id: "7D4DE308AD7F8637"
+				item: "art_of_forging:life_fiber"
+				type: "item"
+			}]
+			x: -12.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["06267DA14EC7E3D8"]
+			id: "3D280C2609928996"
+			tasks: [{
+				id: "1EF17C5815E768B7"
+				item: "art_of_forging:rending_scissor_red"
+				type: "item"
+			}]
+			x: -11.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["06267DA14EC7E3D8"]
+			id: "701270A0856E0EE3"
+			tasks: [{
+				id: "24006BED9C788547"
+				item: "art_of_forging:rending_scissor_purple"
+				type: "item"
+			}]
+			x: -12.5d
+			y: -5.0d
+		}
+		{
+			dependencies: [
+				"3D280C2609928996"
+				"701270A0856E0EE3"
+			]
+			id: "6FC4A7905DEE876D"
+			tasks: [{
+				id: "2C96699F2702A242"
+				item: "art_of_forging:rending_scissor_complete"
+				type: "item"
+			}]
+			x: -12.0d
+			y: -6.0d
 		}
 	]
 	title: "赫菲斯托斯的锻造"

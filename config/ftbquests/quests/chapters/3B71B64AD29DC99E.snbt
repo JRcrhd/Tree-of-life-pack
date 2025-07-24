@@ -11,7 +11,15 @@
 	quest_links: [ ]
 	quests: [{
 		dependencies: ["1F12C58DD155769C"]
-		description: ["「熵」作为无序化的本源驱动力，推动物质结构向混沌状态演化，引致元素衰变与秩序消解。"]
+		description: [
+			"「熵」作为无序化的本源驱动力，推动物质结构向混沌状态演化，引致元素衰变与秩序消解。"
+			""
+			"这被认为是事物运动的根源。在这一章节，学者们试图逆流而上，追寻熵的本源。"
+			""
+			"Entropy is the original driving force of disorder, driving the evolution of material structure into a chaotic state, leading to elemental decay and order dissolution."
+			""
+			"This is considered the root of the movement of things. In this chapter, scholars try to swim against the current and trace the origin of entropy."
+		]
 		id: "01A444FBE0404EA2"
 		shape: "diamond"
 		tasks: [{
