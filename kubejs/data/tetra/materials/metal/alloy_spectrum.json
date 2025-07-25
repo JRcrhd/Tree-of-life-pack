@@ -17,7 +17,11 @@
     "cursed": 4,
     "fierySelf": 3,
     "brittle": 2,
-    "volatile": 1
+    "criticalStrike": [40, 5.0, 35, 40, 4.0],
+    "crushing": 12,
+    "workable": 25,
+    "severing": [35, 4],
+    "unbreaking": 4
   },
   "tints": {
     "glyph": "FF00FF",

@@ -43,4 +43,4 @@ ServerEvents.recipes(treeoflife => {
 			"count": 1
 		}
 	});
-})
+});

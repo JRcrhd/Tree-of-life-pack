@@ -23,6 +23,13 @@
 		"kubejs:dimension_alloy_overworld"
     ]
 },
+  "effects": {
+    "stabilizing": 5,
+    "workable": 10,
+    "counterweight": 2,
+    "sweeping": 1,
+    "unbreaking": 1
+  },
   "improvements": {
     "workable": 1.0
   },

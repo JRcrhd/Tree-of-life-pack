@@ -3,12 +3,14 @@
 	default_quest_shape: ""
 	filename: "assiah"
 	group: "74CAFADDC96D0BF3"
+	hide_quest_until_deps_visible: true
 	icon: "minecraft:grass_block"
 	id: "169850F2FA824C5C"
 	order_index: 1
 	quest_links: [ ]
 	quests: [{
 		dependencies: ["34BB2829CF60D94C"]
+		description: ["机械动力前期"]
 		hide_until_deps_complete: true
 		id: "654CE5BA3CCB51D6"
 		rewards: [{

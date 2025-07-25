@@ -23,6 +23,12 @@
 		"kubejs:dimension_alloy_nether"
     ]
 },
+  "effects": {
+    "stabilizing": 6,
+    "fiery": 4,
+    "crushing": 4,
+    "bleeding": 2
+  },
   "improvements": {
     "workable": 1.5
   },

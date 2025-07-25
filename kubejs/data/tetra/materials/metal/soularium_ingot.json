@@ -14,7 +14,9 @@
     "stabilizing": 8,
     "workable": 20,
     "sweeping": 2,
-    "bleeding": 1
+    "bleeding": 1,
+    "severing": [3, 2],
+    "mending": 2
   },
   "tints": {
     "glyph": "8B4513",

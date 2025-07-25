@@ -6,11 +6,6 @@
       "chance": {
         "type": "tetra:effect_efficiency",
         "effect": "burning"
-      },
-      "fire_duration": {
-        "type": "tetra:effect_level",
-        "effect": "burning",
-        "multiplier": 20
       }
     }
   },

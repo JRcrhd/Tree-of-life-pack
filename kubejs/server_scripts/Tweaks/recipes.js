@@ -24,6 +24,49 @@ ServerEvents.recipes(treeoflife => {
         [
             '#c:player_workstations/crafting_tables'
         ]
-    )
+    );
 
-})
+    treeoflife.remove({id: 'explorerscompass:explorers_compass'});
+    treeoflife.remove({id: 'naturescompass:natures_compass'});
+    treeoflife.custom({
+        "type": "pneumaticcraft:pressure_chamber",
+        "inputs": [
+            {
+                "type": "pneumaticcraft:stacked_item",
+                "count": 2,
+                "tag": "forge:ingots/compressed_iron"
+            },
+            {
+                "type": "pneumaticcraft:stacked_item",
+                "count": 2,
+                "tag": "pneumaticcraft:wiring"
+            },
+            {
+                "item": "create:cogwheel"
+            },
+            {
+                "item": 'minecraft:compass'
+            }
+        ],
+        "pressure": 2.5,
+        "results": [
+            {
+                "count": 1,
+                "item": "explorerscompass:explorerscompass"
+            }
+        ]
+    });
+
+    treeoflife.recipes.create.sequenced_assembly([
+        Item.of('naturescompass:naturescompass').withChance(16.0),
+        Item.of('minecraft:azalia').withChance(1.0)
+    ],'minecraft:compass',[
+        treeoflife.recipes.createDeploying('create:incomplete_precision_mechanism',['create:incomplete_precision_mechanism','minecraft:moss_block']),
+        treeoflife.recipes.createFilling('create:incomplete_precision_mechanism',['create:incomplete_precision_mechanism',Fluid.water(1000)]),
+        treeoflife.recipes.createPressing('create:incomplete_precision_mechanism','create:incomplete_precision_mechanism')
+    ])
+    .transitionalItem('create:incomplete_precision_mechanism')
+    .loops(3);
+
+});
+

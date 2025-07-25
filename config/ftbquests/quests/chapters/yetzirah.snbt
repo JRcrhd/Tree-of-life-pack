@@ -3,10 +3,28 @@
 	default_quest_shape: ""
 	filename: "yetzirah"
 	group: "74CAFADDC96D0BF3"
+	hide_quest_until_deps_visible: true
 	icon: "stalwart_dungeons:void_crystal"
 	id: "7AEC4320BB36FF28"
 	order_index: 2
 	quest_links: [ ]
-	quests: [ ]
+	quests: [{
+		dependencies: ["3740E9A99FBBE0E5"]
+		description: [
+			"机械动力"
+			"气动工艺"
+			"enderio"
+			"cc:tweak"
+			"能去地狱"
+		]
+		hide_until_deps_complete: true
+		id: "6DA830C81149E225"
+		tasks: [{
+			id: "6C72FB3857C21AC4"
+			type: "checkmark"
+		}]
+		x: -1.5d
+		y: -1.5d
+	}]
 	title: "形成——Yetzirah"
 }

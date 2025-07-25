@@ -1,12 +1,12 @@
 {
 	"tetra.material.dimension_alloy_overworld.prefix": "Overworld",
     "tetra.material.dimension_alloy_overworld": "Overworld Dimension Alloy",
-    "tetra.material.dimension_alloy_overworld.prefix": "Nether",
-    "tetra.material.dimension_alloy_overworld": "Nether Dimension Alloy",
-    "tetra.material.dimension_alloy_overworld.prefix": "The end",
-    "tetra.material.dimension_alloy_overworld": "The end Dimension Alloy",
-    "tetra.material.dimension_alloy_overworld.prefix": "Aether",
-    "tetra.material.dimension_alloy_overworld": "Aether Dimension Alloy",
+    "tetra.material.dimension_alloy_nether.prefix": "Nether",
+    "tetra.material.dimension_alloy_nether": "Nether Dimension Alloy",
+    "tetra.material.dimension_alloy_the_end.prefix": "The end",
+    "tetra.material.dimension_alloy_the_end": "The end Dimension Alloy",
+    "tetra.material.dimension_alloy_aether.prefix": "Aether",
+    "tetra.material.dimension_alloy_aether": "Aether Dimension Alloy",
 	
     "tetra.material.point_malkuth.prefix": "Malkuth",
     "tetra.material.point_malkuth": "Malkuth",

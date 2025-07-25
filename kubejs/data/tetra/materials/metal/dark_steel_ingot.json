@@ -13,7 +13,9 @@
   "effects": {
     "stabilizing": 5,
     "crushing": 3,
-    "backstab": 2
+    "backstab": 2,
+    "workable": 10,
+    "unbreaking": 2
   },
   "tints": {
     "glyph": "2A2A2A",

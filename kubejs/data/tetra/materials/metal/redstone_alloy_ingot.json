@@ -11,8 +11,10 @@
   "toolLevel": "minecraft:stone",
   "toolEfficiency": 4.5,
   "effects": {
-    "stabilizing": 4,
-    "workable": 10
+    "workable": 10,
+    "quickStrike": 0.6,
+    "counterweight": 2,
+    "criticalStrike": [8, 1.1, 6, 8, 1.05]
   },
   "tints": {
     "glyph": "AA0000",

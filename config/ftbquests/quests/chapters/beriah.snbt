@@ -3,10 +3,30 @@
 	default_quest_shape: ""
 	filename: "beriah"
 	group: "74CAFADDC96D0BF3"
+	hide_quest_until_deps_visible: true
 	icon: "destroy:creative_pump"
 	id: "14F581E27C69F6F9"
 	order_index: 3
 	quest_links: [ ]
-	quests: [ ]
+	quests: [{
+		dependencies: [
+			"4473531F3AD2ECAE"
+			"6F48A7A09C011955"
+			"273E9A2FEFD08765"
+		]
+		description: [
+			"ae"
+			"mek"
+			"可去末地"
+		]
+		hide_until_deps_complete: true
+		id: "43DEA510A8D2DAA9"
+		tasks: [{
+			id: "10615DB16CF6CB05"
+			type: "checkmark"
+		}]
+		x: 0.5d
+		y: -0.5d
+	}]
 	title: "创造——Beriah"
 }

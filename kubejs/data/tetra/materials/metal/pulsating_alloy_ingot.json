@@ -13,7 +13,9 @@
   "effects": {
     "stabilizing": 4,
     "enderReverb": 2,
-    "workable": 8
+    "workable": 8,
+    "quickStrike": 0.8,
+    "janking": [2, 15]
   },
   "tints": {
     "glyph": "00FFAA",

@@ -11,7 +11,9 @@
   "toolLevel": "minecraft:iron",
   "toolEfficiency": 6.0,
   "effects": {
-    "stabilizing": 2
+    "stabilizing": 2,
+    "counterweight": 1,
+    "workable": 3
   },
   "tints": {
     "glyph": "B87333",

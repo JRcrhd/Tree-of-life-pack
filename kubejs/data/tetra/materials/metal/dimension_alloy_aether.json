@@ -23,6 +23,13 @@
 		"kubejs:dimension_alloy_aether"
     ]
 },
+  "effects": {
+    "stabilizing": 8,
+    "workable": 12,
+    "fiery": 2,
+    "counterweight": 3,
+    "criticalStrike": [15, 1.4, 12, 15, 1.2]
+  },
   "improvements": {
     "workable": 3.0
   },

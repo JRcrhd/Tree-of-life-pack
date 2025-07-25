@@ -19,7 +19,10 @@
     "items" : [ "create:shadow_steel" ]
   },
   "effects" : {
-    "stabilizing" : 8
+    "stabilizing" : 8,
+    "backstab" : 4,
+    "bleeding" : 2,
+    "enderReverb" : [1, 0.2]
   },
   "requiredTools" : {
     "hammer_dig" : "minecraft:iron"

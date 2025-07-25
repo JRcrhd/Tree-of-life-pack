@@ -14,7 +14,9 @@
     "stabilizing": 10,
     "bleeding": 3,
     "enderReverb": 2,
-    "cursed": 1
+    "cursed": 1,
+    "fiery": 4,
+    "criticalStrike": [30, 3.0, 25, 30, 2.5]
   },
   "tints": {
     "glyph": "FFFF00",

@@ -90,4 +90,11 @@ ServerEvents.recipes(treeoflife => {
 		}
 	});
 	
-})
+});
+
+LootJS.modifiers((event) => {
+    event.removeGlobalModifier("forbidden_arcanus:elementarium_addition");
+    event.removeGlobalModifier("forbidden_arcanus:artisan_relic_addition");
+	event.removeGlobalModifier("forbidden_arcanus:crimson_stone_addition");
+	event.removeGlobalModifier("forbidden_arcanus:maledictus_pact_addition");
+});

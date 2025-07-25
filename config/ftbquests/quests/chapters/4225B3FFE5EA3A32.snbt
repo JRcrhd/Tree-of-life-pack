@@ -879,6 +879,8 @@
 				"Now that the Age of the Gods is over, the remaining power of the gods has not yet been completely eliminated."
 			]
 			id: "689F32883C4E9502"
+			shape: "diamond"
+			size: 1.3d
 			subtitle: "遗留于世的力量"
 			tasks: [{
 				id: "5603E578E9EFC748"

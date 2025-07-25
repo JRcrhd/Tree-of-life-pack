@@ -13,7 +13,9 @@
   "effects": {
     "stabilizing": 6,
     "workable": 15,
-    "sweeping": 1
+    "sweeping": 1,
+    "quickStrike": 0.5,
+    "counterweight": 3
   },
   "tints": {
     "glyph": "AAFF00",

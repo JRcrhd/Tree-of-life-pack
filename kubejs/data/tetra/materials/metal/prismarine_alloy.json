@@ -13,10 +13,9 @@
   "effects": {
     "stabilizing": 5,
     "workable": 12,
-    "aquatic": 3
-  },
-  "improvements": {
-    "counterweight": 2
+    "aquatic": 3,
+    "criticalStrike": [10, 1.2, 8, 10, 1.1],
+    "counterweight": 1
   },
   "tints": {
     "glyph": "4DFFCC",

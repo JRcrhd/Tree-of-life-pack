@@ -14,7 +14,11 @@
     "stabilizing": 12,
     "enderReverb": 5,
     "crushing": 4,
-    "backstab": 3
+    "backstab": 3,
+    "workable": 18,
+    "criticalStrike": [18, 1.6, 15, 18, 1.4],
+    "unbreaking": 3,
+    "janking": [4, 25]
   },
   "improvements": {
     "workable": 15

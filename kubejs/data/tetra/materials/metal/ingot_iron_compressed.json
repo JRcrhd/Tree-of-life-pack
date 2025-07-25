@@ -12,10 +12,11 @@
   "toolEfficiency": 6.2,
   "effects": {
     "crushing": 2,
-    "counterweight": 1
-  },
-  "improvements": {
-    "stabilizing": 3
+    "counterweight": 1,
+    "stabilizing": 3,
+    "workable": 5,
+    "unbreaking": 1,
+    "blocking": 1
   },
   "tints": {
     "glyph": "D4D4D4",

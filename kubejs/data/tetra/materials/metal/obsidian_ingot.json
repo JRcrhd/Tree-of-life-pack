@@ -12,7 +12,8 @@
   "toolEfficiency": 5.8,
   "effects": {
     "blocking": 2,
-    "sturdy": 3
+    "crushing": 2,
+    "unbreaking": 1
   },
   "tints": {
     "glyph": "1A0D26",

@@ -6,19 +6,846 @@
 	hide_quest_until_deps_visible: true
 	icon: "farmersdelight:glow_berry_custard"
 	id: "7257AB4CAD5ABF7C"
+	images: [
+		{
+			alpha: 128
+			height: 10.0d
+			image: "supplementaries:block/cannon_target"
+			rotation: 0.0d
+			width: 10.0d
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			height: 20.0d
+			image: "supplementaries:block/gunpowder_line0"
+			rotation: 0.0d
+			width: 1.0d
+			x: 6.5d
+			y: -6.0d
+		}
+		{
+			height: 20.0d
+			image: "supplementaries:block/gunpowder_line0"
+			rotation: 0.0d
+			width: 1.0d
+			x: -6.5d
+			y: -6.0d
+		}
+	]
 	order_index: 0
 	quest_links: [ ]
-	quests: [{
-		dependencies: ["1F12C58DD155769C"]
-		hide_until_deps_complete: true
-		id: "610CBBEE0DC825CC"
-		tasks: [{
-			id: "7A18A67A5DBFBDA9"
-			title: "确认"
-			type: "checkmark"
-		}]
-		x: 0.0d
-		y: -1.0d
-	}]
+	quests: [
+		{
+			dependencies: ["1F12C58DD155769C"]
+			description: [
+				"上面的任务，可能有用的玩具。"
+				""
+				"下面的任务，食物，以及与此相关的一切。"
+				""
+				"每食用8个食物会增加一点血（半颗心），这个阈值会随着增加次数逐渐减少。"
+				""
+				"整合包内一共有365种食物，一共可以增加60点血上限（3排血）。"
+				""
+				"The tasks above may involve useful toys."
+				""
+				"The tasks below involve food and everything related to it."
+				""
+				"Consuming 8 food will increase health by a point (half a heart), and this threshold will gradually decrease with each increase."
+				""
+				"There are a total of 365 types of food in the package, which can increase the health limit by a total of 60 points (3 rows of health)."
+			]
+			hide_dependent_lines: true
+			hide_until_deps_complete: true
+			id: "610CBBEE0DC825CC"
+			rewards: [{
+				id: "3D9BC87DA53515F0"
+				item: "solcarrot:food_book"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7A18A67A5DBFBDA9"
+				title: "确认"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["610CBBEE0DC825CC"]
+			id: "2EBA4A800D08E1EA"
+			tasks: [{
+				id: "532E78749834942D"
+				item: {
+					Count: 1
+					id: "explorerscompass:explorerscompass"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["610CBBEE0DC825CC"]
+			id: "701CEFF45906FF50"
+			tasks: [{
+				id: "33F90B33FB2ACA0D"
+				item: {
+					Count: 1
+					id: "naturescompass:naturescompass"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["610CBBEE0DC825CC"]
+			id: "210050A1F36F39E4"
+			tasks: [{
+				id: "0CC634161F315D17"
+				item: "quark:diamond_heart"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["210050A1F36F39E4"]
+			id: "3FD6A7E8FD102A98"
+			tasks: [{
+				id: "07EB3E7A2161DCB7"
+				item: {
+					Count: 1
+					id: "quark:pickarang"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["610CBBEE0DC825CC"]
+			id: "5082AB15F9C6A773"
+			tasks: [{
+				id: "66A8DC9684E291EA"
+				item: {
+					Count: 1
+					id: "quark:forgotten_hat"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["610CBBEE0DC825CC"]
+			description: [
+				"纸箱宇宙。"
+				""
+				"The universe"
+			]
+			id: "20F04EC4CAC1D283"
+			tasks: [{
+				id: "5AE1F86C6DD78010"
+				item: "mekanism:cardboard_box"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["610CBBEE0DC825CC"]
+			id: "7F34DDA634980C40"
+			tasks: [{
+				id: "5F2D583A4F568B77"
+				item: "quark:abacus"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["610CBBEE0DC825CC"]
+			id: "54609EC744EC58FD"
+			tasks: [{
+				id: "1F0A350D68542A84"
+				item: "supplementaries:altimeter"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["610CBBEE0DC825CC"]
+			id: "206052D7F452DDB8"
+			tasks: [{
+				id: "6EF5797DCCCF8195"
+				item: {
+					Count: 1
+					id: "apotheosis:ender_lead"
+					tag: {
+						Damage: 0
+						entity_data: { }
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["610CBBEE0DC825CC"]
+			id: "570CD8F9FD6401D2"
+			tasks: [{
+				id: "566B5A4236D4DF6B"
+				item: "totemfactory:totem_body_casing"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["610CBBEE0DC825CC"]
+			id: "423DEB4A805DEB81"
+			tasks: [{
+				id: "20153542E758F1FE"
+				item: "totemfactory:totem_head_casing"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["423DEB4A805DEB81"]
+			id: "390EBC7C165AC0E3"
+			tasks: [{
+				id: "48264DF278E82B35"
+				item: "totemfactory:totem_head"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["570CD8F9FD6401D2"]
+			id: "5FDA46B5EC222115"
+			tasks: [{
+				id: "427BAA2578267D96"
+				item: "totemfactory:totem_body"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -8.0d
+		}
+		{
+			dependencies: [
+				"390EBC7C165AC0E3"
+				"5FDA46B5EC222115"
+			]
+			id: "5E5E096998D7E7FD"
+			tasks: [{
+				id: "0CC0B2C092A14282"
+				item: "totemfactory:inactive_totem"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["610CBBEE0DC825CC"]
+			id: "72C15F27DE112387"
+			tasks: [{
+				id: "6DF84C7BBE43C96F"
+				item: "cataclysm:amethyst_crab_meat"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["72C15F27DE112387"]
+			id: "71E054B46F66CD1A"
+			tasks: [{
+				id: "3F110FB855E67087"
+				item: "cataclysm:blessed_amethyst_crab_meat"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["610CBBEE0DC825CC"]
+			id: "7264B9E4DD3CD392"
+			tasks: [{
+				id: "5CFED2D3F435A986"
+				item: {
+					Count: 1
+					id: "lightmanscurrency:wallet_leather"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["7264B9E4DD3CD392"]
+			id: "1B62DE5C41E4DF15"
+			tasks: [{
+				id: "5D56873CF8C22A71"
+				item: {
+					Count: 1
+					id: "lightmanscurrency:wallet_copper"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["1B62DE5C41E4DF15"]
+			id: "09CD2E9949C30D7E"
+			tasks: [{
+				id: "5CDC413CA65AE403"
+				item: {
+					Count: 1
+					id: "lightmanscurrency:wallet_iron"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["09CD2E9949C30D7E"]
+			id: "38DE190F20D6DD8F"
+			tasks: [{
+				id: "4F4138CDD0FC8A88"
+				item: {
+					Count: 1
+					id: "lightmanscurrency:wallet_gold"
+					tag: {
+						AutoConvert: 1b
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["38DE190F20D6DD8F"]
+			id: "2B4EFF9E0EDBF08F"
+			tasks: [{
+				id: "102CAB746AD71A0D"
+				item: {
+					Count: 1
+					id: "lightmanscurrency:wallet_emerald"
+					tag: {
+						AutoConvert: 1b
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["2B4EFF9E0EDBF08F"]
+			id: "79AD97946DD73862"
+			tasks: [{
+				id: "088E6237BCE29632"
+				item: {
+					Count: 1
+					id: "lightmanscurrency:wallet_diamond"
+					tag: {
+						AutoConvert: 1b
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["79AD97946DD73862"]
+			id: "1CAC73200F890639"
+			tasks: [{
+				id: "61AE5A6B1063DFE7"
+				item: {
+					Count: 1
+					id: "lightmanscurrency:wallet_netherite"
+					tag: {
+						AutoConvert: 1b
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["610CBBEE0DC825CC"]
+			id: "6C07D75B1567A829"
+			tasks: [
+				{
+					id: "617B6890DB5391BC"
+					item: "ftbquests:detector"
+					type: "item"
+				}
+				{
+					id: "3F4B6746A4B79E72"
+					item: "ftbquests:loot_crate_opener"
+					type: "item"
+				}
+				{
+					id: "2694C81E986BE35D"
+					item: "ftbquests:screen_1"
+					type: "item"
+				}
+				{
+					id: "0349FD75AB01A673"
+					item: "ftbquests:task_screen_configurator"
+					type: "item"
+				}
+			]
+			x: -3.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["610CBBEE0DC825CC"]
+			id: "145A7CACDB19DCB9"
+			tasks: [{
+				id: "2DACAC15A7C8B308"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "waystones:waystones"
+					}
+				}
+				title: "Any #waystones:waystones"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["610CBBEE0DC825CC"]
+			id: "3103873134D96570"
+			tasks: [{
+				id: "7E9226D550FCFB12"
+				item: {
+					Count: 1
+					id: "sophisticatedbackpacks:backpack"
+					tag: {
+						contentsUuid: [I;
+							-324306462
+							1197623894
+							-2136025139
+							1134197052
+						]
+						inventorySlots: 27
+						renderInfo: {
+							upgradeItems: [{
+								Count: 1b
+								id: "minecraft:air"
+							}]
+						}
+						upgradeSlots: 1
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["3103873134D96570"]
+			id: "4CFA89C1D8A81868"
+			tasks: [{
+				id: "531F385A71A6BC46"
+				item: {
+					Count: 1
+					id: "sophisticatedbackpacks:iron_backpack"
+					tag: {
+						contentsUuid: [I;
+							-1439281217
+							689327933
+							-1187844731
+							305042080
+						]
+						inventorySlots: 54
+						renderInfo: {
+							upgradeItems: [
+								{
+									Count: 1b
+									id: "minecraft:air"
+								}
+								{
+									Count: 1b
+									id: "minecraft:air"
+								}
+							]
+						}
+						upgradeSlots: 2
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["4CFA89C1D8A81868"]
+			id: "20B3308CBF88AAB7"
+			tasks: [{
+				id: "5091C78CEC3596FC"
+				item: {
+					Count: 1
+					id: "sophisticatedbackpacks:gold_backpack"
+					tag: {
+						contentsUuid: [I;
+							1320086191
+							-949794775
+							-1330422867
+							-924550871
+						]
+						inventorySlots: 81
+						renderInfo: {
+							upgradeItems: [
+								{
+									Count: 1b
+									id: "minecraft:air"
+								}
+								{
+									Count: 1b
+									id: "minecraft:air"
+								}
+								{
+									Count: 1b
+									id: "minecraft:air"
+								}
+							]
+						}
+						upgradeSlots: 3
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["20B3308CBF88AAB7"]
+			id: "39065E818FA88CEA"
+			tasks: [{
+				id: "70F57694969FF726"
+				item: {
+					Count: 1
+					id: "sophisticatedbackpacks:diamond_backpack"
+					tag: {
+						contentsUuid: [I;
+							-962324503
+							-155236871
+							-1191895102
+							-1749353250
+						]
+						inventorySlots: 108
+						renderInfo: {
+							upgradeItems: [
+								{
+									Count: 1b
+									id: "minecraft:air"
+								}
+								{
+									Count: 1b
+									id: "minecraft:air"
+								}
+								{
+									Count: 1b
+									id: "minecraft:air"
+								}
+								{
+									Count: 1b
+									id: "minecraft:air"
+								}
+								{
+									Count: 1b
+									id: "minecraft:air"
+								}
+							]
+						}
+						upgradeSlots: 5
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["39065E818FA88CEA"]
+			id: "3A6303E59A4B3F11"
+			tasks: [{
+				id: "1CCD2155146C09E0"
+				item: {
+					Count: 1
+					id: "sophisticatedbackpacks:netherite_backpack"
+					tag: {
+						contentsUuid: [I;
+							-2010315982
+							-397521040
+							-1992926753
+							1234715975
+						]
+						inventorySlots: 120
+						renderInfo: {
+							upgradeItems: [
+								{
+									Count: 1b
+									id: "minecraft:air"
+								}
+								{
+									Count: 1b
+									id: "minecraft:air"
+								}
+								{
+									Count: 1b
+									id: "minecraft:air"
+								}
+								{
+									Count: 1b
+									id: "minecraft:air"
+								}
+								{
+									Count: 1b
+									id: "minecraft:air"
+								}
+								{
+									Count: 1b
+									id: "minecraft:air"
+								}
+								{
+									Count: 1b
+									id: "minecraft:air"
+								}
+							]
+						}
+						upgradeSlots: 7
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: -12.0d
+		}
+		{
+			dependencies: ["610CBBEE0DC825CC"]
+			id: "107E62455774755E"
+			tasks: [{
+				id: "6C51301D0491CCD3"
+				item: "sophisticatedbackpacks:stack_upgrade_tier_1"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["107E62455774755E"]
+			id: "4544539FD1FFEA59"
+			tasks: [{
+				id: "4A6D0E484B7DFDEF"
+				item: "sophisticatedbackpacks:stack_upgrade_tier_2"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["4544539FD1FFEA59"]
+			id: "321E0B86AD2DDB87"
+			tasks: [{
+				id: "06AE1EF55913C746"
+				item: "sophisticatedbackpacks:stack_upgrade_tier_3"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["321E0B86AD2DDB87"]
+			id: "5EF340F12076E33D"
+			tasks: [{
+				id: "666F6D9DD5A813D3"
+				item: "sophisticatedbackpacks:stack_upgrade_tier_4"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -11.0d
+		}
+		{
+			dependencies: ["610CBBEE0DC825CC"]
+			id: "05A8D287D082B905"
+			tasks: [{
+				id: "18992ABE532A490F"
+				item: {
+					Count: 1
+					id: "sophisticatedstorage:barrel"
+					tag: {
+						woodType: "acacia"
+					}
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["05A8D287D082B905"]
+			id: "1A212BD8C319B36F"
+			tasks: [{
+				id: "09E34FF0DC3E4833"
+				item: {
+					Count: 1
+					id: "sophisticatedstorage:iron_barrel"
+					tag: {
+						woodType: "acacia"
+					}
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["1A212BD8C319B36F"]
+			id: "20D9BD1208A44859"
+			tasks: [{
+				id: "719AB8F638BBE622"
+				item: {
+					Count: 1
+					id: "sophisticatedstorage:gold_barrel"
+					tag: {
+						woodType: "acacia"
+					}
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["20D9BD1208A44859"]
+			id: "7DD45823E8EEC089"
+			tasks: [{
+				id: "3913C4D748C70E8A"
+				item: {
+					Count: 1
+					id: "sophisticatedstorage:diamond_barrel"
+					tag: {
+						woodType: "acacia"
+					}
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["7DD45823E8EEC089"]
+			id: "64BD20090A625141"
+			tasks: [{
+				id: "67CBC7B33F7F976E"
+				item: {
+					Count: 1
+					id: "sophisticatedstorage:netherite_barrel"
+					tag: {
+						woodType: "acacia"
+					}
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: -12.0d
+		}
+		{
+			dependencies: ["610CBBEE0DC825CC"]
+			id: "118C63045466BFA0"
+			tasks: [{
+				id: "296BDA9BAC3537A1"
+				item: "sophisticatedstorage:stack_upgrade_tier_1"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["118C63045466BFA0"]
+			id: "4258D509F026401B"
+			tasks: [{
+				id: "66FD5CF51B53BFF1"
+				item: "sophisticatedstorage:stack_upgrade_tier_2"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["4258D509F026401B"]
+			id: "32C932CB5DF9AAE5"
+			tasks: [{
+				id: "21D33A3CFA1EDA41"
+				item: "sophisticatedstorage:stack_upgrade_tier_3"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["32C932CB5DF9AAE5"]
+			id: "05582ED322282FA1"
+			tasks: [{
+				id: "08B92C51E91FF0F0"
+				item: "sophisticatedstorage:stack_upgrade_tier_4"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["05582ED322282FA1"]
+			id: "57BC5115D71B0BE4"
+			tasks: [{
+				id: "5E55867993B05940"
+				item: "sophisticatedstorage:stack_upgrade_tier_5"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -11.0d
+		}
+		{
+			dependencies: ["5E5E096998D7E7FD"]
+			id: "6118660DE46B3278"
+			tasks: [{
+				id: "4E7A603057209EE2"
+				item: "minecraft:totem_of_undying"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -9.0d
+		}
+	]
 	title: "享受生活"
 }

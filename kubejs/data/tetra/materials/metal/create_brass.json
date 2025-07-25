@@ -18,6 +18,11 @@
   "material" : {
     "items" : [ "create:brass_ingot" ]
   },
+  "effects" : {
+    "stabilizing" : 3,
+    "counterweight" : 2,
+    "workable" : 5
+  },
   "requiredTools" : {
     "hammer_dig" : "minecraft:stone"
   }

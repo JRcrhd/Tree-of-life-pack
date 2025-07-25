@@ -40,4 +40,4 @@ StartupEvents.registry('item', treeoflife => {
     treeoflife.create('alchemy_yellow').displayName('黄化').glow(true).texture('kubejs:item/alchemy/yellow');
     treeoflife.create('alchemy_red').displayName('赤化').glow(true).texture('kubejs:item/alchemy/red');
     treeoflife.create('alchemy_in_phi').displayName('未完工的贤者之石').glow(true).texture('kubejs:item/alchemy/in_phi');
-})
+});

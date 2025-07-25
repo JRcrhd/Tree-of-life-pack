@@ -15,11 +15,12 @@
     "workable": 25,
     "sweeping": 5,
     "counterweight": 4,
-    "enderReverb": 3
-  },
-  "improvements": {
+    "enderReverb": 3,
     "crushing": 3,
-    "backstab": 2
+    "backstab": 2,
+    "criticalStrike": [25, 2.5, 20, 25, 2.0],
+    "unbreaking": 3,
+    "fiery": 3
   },
   "attributes": {
     "forge:reach_distance": 1.5,

@@ -3,10 +3,29 @@
 	default_quest_shape: ""
 	filename: "atziluth"
 	group: "74CAFADDC96D0BF3"
+	hide_quest_until_deps_visible: true
 	icon: "forbidden_arcanus:divine_pact"
 	id: "6C6AFC0D0E2C305C"
 	order_index: 4
 	quest_links: [ ]
-	quests: [ ]
+	quests: [{
+		dependencies: [
+			"4275401F32963529"
+			"559ADD41679EA110"
+			"5D360138DA2953BA"
+		]
+		description: [
+			"可去以太"
+			"projecte"
+		]
+		hide_until_deps_complete: true
+		id: "534CD8440E466F39"
+		tasks: [{
+			id: "3474C3F8211C9F1D"
+			type: "checkmark"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
 	title: "神性——Atziluth"
 }

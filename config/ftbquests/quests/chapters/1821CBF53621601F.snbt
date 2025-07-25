@@ -7,14 +7,56 @@
 	hide_quest_until_deps_visible: true
 	icon: "quark:smithing_template_rune"
 	id: "1821CBF53621601F"
-	images: [{
-		height: 5.0d
-		image: "forbidden_arcanus:textures/effect/magic_circle/outer/pactum.png"
-		rotation: 0.0d
-		width: 5.0d
-		x: 2.0d
-		y: 3.0d
-	}]
+	images: [
+		{
+			height: 5.0d
+			image: "forbidden_arcanus:textures/effect/magic_circle/outer/pactum.png"
+			rotation: 0.0d
+			width: 5.0d
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			height: 5.0d
+			image: "forbidden_arcanus:block/black_hole_aura_0"
+			rotation: 0.0d
+			width: 5.0d
+			x: -11.5d
+			y: 6.5d
+		}
+		{
+			height: 3.0d
+			image: "minecraft:block/enchanting_table_top"
+			rotation: 0.0d
+			width: 3.0d
+			x: 10.0d
+			y: 5.0d
+		}
+		{
+			height: 3.0d
+			image: "forbidden_arcanus:block/runic_stone/rune_layer"
+			rotation: 0.0d
+			width: 3.0d
+			x: -8.5d
+			y: -1.5d
+		}
+		{
+			height: 5.0d
+			image: "sophisticatedbackpacks:item/empty_hammer_slot"
+			rotation: 0.0d
+			width: 5.0d
+			x: -2.5d
+			y: -1.5d
+		}
+		{
+			height: 3.0d
+			image: "forbidden_arcanus:textures/effect/magic_circle/valid_ritual_indicator.png"
+			rotation: 0.0d
+			width: 3.0d
+			x: 12.0d
+			y: -2.5d
+		}
+	]
 	order_index: 1
 	quest_links: [ ]
 	quests: [
@@ -64,6 +106,8 @@
 				}
 				type: "item"
 			}]
+			shape: "diamond"
+			size: 1.3d
 			tasks: [{
 				id: "0B16E7AED7A79D67"
 				title: "确认"
@@ -1744,9 +1788,9 @@
 		{
 			dependencies: ["43E83EECF4DAE462"]
 			description: [
-				"可制造，一旦放置无法完整回收。"
+				"可制造，一旦放置无法完整回收。使用精准采集可以掉落电池"
 				""
-				"Craftable,once placed, it cannot be completely retrieved."
+				"Craftable,once placed, it cannot be completely retrieved.Using silk touch drops a thermal cell."
 			]
 			id: "391C611CC52591B7"
 			tasks: [{
@@ -3006,15 +3050,18 @@
 			y: -4.0d
 		}
 		{
-			dependencies: ["15C91C6E2007E203"]
+			dependencies: [
+				"15C91C6E2007E203"
+				"4A029E5E974A8A8C"
+			]
 			id: "06267DA14EC7E3D8"
 			tasks: [{
 				id: "7D4DE308AD7F8637"
 				item: "art_of_forging:life_fiber"
 				type: "item"
 			}]
-			x: -12.0d
-			y: -4.0d
+			x: -8.5d
+			y: 3.5d
 		}
 		{
 			dependencies: ["06267DA14EC7E3D8"]
@@ -3024,8 +3071,8 @@
 				item: "art_of_forging:rending_scissor_red"
 				type: "item"
 			}]
-			x: -11.5d
-			y: -5.0d
+			x: -8.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["06267DA14EC7E3D8"]
@@ -3035,8 +3082,8 @@
 				item: "art_of_forging:rending_scissor_purple"
 				type: "item"
 			}]
-			x: -12.5d
-			y: -5.0d
+			x: -9.0d
+			y: 2.5d
 		}
 		{
 			dependencies: [
@@ -3049,8 +3096,36 @@
 				item: "art_of_forging:rending_scissor_complete"
 				type: "item"
 			}]
-			x: -12.0d
-			y: -6.0d
+			x: -8.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2BE59BDCEB418521"]
+			description: ["可以作为附层"]
+			id: "54B54C49BF50D381"
+			tasks: [{
+				id: "55F62C711C05CF20"
+				item: "minecraft:echo_shard"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["15C91C6E2007E203"]
+			description: [
+				"末影人掉落。"
+				""
+				"Enderman Drops."
+			]
+			id: "50AA4744851C7AD9"
+			tasks: [{
+				id: "1F69587F98908229"
+				item: "art_of_forging:shards_of_malice"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 0.0d
 		}
 	]
 	title: "赫菲斯托斯的锻造"

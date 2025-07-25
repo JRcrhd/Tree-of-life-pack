@@ -9,8 +9,7 @@
       },
       "duration": {
         "type": "tetra:effect_level",
-        "effect": "cursed",
-        "multiplier": 60
+        "effect": "cursed"
       }
     }
   },

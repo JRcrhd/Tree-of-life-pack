@@ -900,6 +900,11 @@ hash = "7ea985404ee4cc9082472c6869ec146309f526e395361b39f2f4c1a43506c41d"
 metafile = true
 
 [[files]]
+file = "mods/kubejs-create.pw.toml"
+hash = "e9ea701c9fc9bb54d1bd3b6998403a229f896449c0d15b5df23dc46e20ac5092"
+metafile = true
+
+[[files]]
 file = "mods/kubejs.pw.toml"
 hash = "b6ed220c9069f60704dbfe19fd55c976ca56ada35bcb6918c4ad226cd842b99c"
 metafile = true
@@ -937,6 +942,11 @@ metafile = true
 [[files]]
 file = "mods/lionfish-api.pw.toml"
 hash = "3e055c411c197b2103e338dc9fdcd37272df81aaf4246f801694f97feaf7d232"
+metafile = true
+
+[[files]]
+file = "mods/lootjs.pw.toml"
+hash = "dac76b57fd114d37956011ad054aab6b5e86f1fd9e308da534bff0ca69a78989"
 metafile = true
 
 [[files]]
@@ -1215,6 +1225,11 @@ hash = "4a603693baa20af56faea5e84e47d780b3ac961ead3ab8529e2dd54b42aefea4"
 metafile = true
 
 [[files]]
+file = "mods/spice-of-life-carrot-edition.pw.toml"
+hash = "2fbb567ed29a27a717a22461ef0868d17963ced0af6ab836c3025faae5b374e1"
+metafile = true
+
+[[files]]
 file = "mods/spice-of-life-onion.pw.toml"
 hash = "c510494fb37ced4ad2d28573bf0ac6723e6541fb6a2d362593288f7bf4ecd2bc"
 metafile = true
@@ -1372,11 +1387,6 @@ metafile = true
 [[files]]
 file = "options.txt"
 hash = "72bdb6a913a061f04d28f5f12f54d368ca973704585b505b54bec3ff072a66e6"
-
-[[files]]
-file = "resourcepacks/enhanced-boss-bars.pw.toml"
-hash = "88496e670b35be0585d76f593cad1e59e76e7e9c4a014d5e8e4ce8c8b8e29986"
-metafile = true
 
 [[files]]
 file = "resourcepacks/excal.pw.toml"

@@ -12,7 +12,10 @@
   "toolEfficiency": 8.0,
   "effects": {
     "stabilizing": 5,
-    "bleeding": 1
+    "bleeding": 1,
+    "unbreaking": 3,
+    "blocking": 2,
+    "workable": 8
   },
   "tints": {
     "glyph": "FF6600",

@@ -18,6 +18,10 @@
   "material" : {
     "items" : [ "create:andesite_alloy" ]
   },
+  "effects" : {
+    "stabilizing" : 2,
+    "counterweight" : 1
+  },
   "requiredTools" : {
     "hammer_dig" : "minecraft:wood"
   }

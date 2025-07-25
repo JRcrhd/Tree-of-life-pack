@@ -12,7 +12,9 @@
   "toolEfficiency": 6.0,
   "effects": {
     "stabilizing": 3,
-    "counterweight": 2
+    "counterweight": 2,
+    "workable": 4,
+    "quickStrike": 0.7
   },
   "tints": {
     "glyph": "FF6600",

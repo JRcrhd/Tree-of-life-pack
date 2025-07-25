@@ -19,7 +19,10 @@
     "items" : [ "create:refined_radiance" ]
   },
   "effects" : {
-    "stabilizing" : 8
+    "stabilizing" : 8,
+    "fiery" : 2,
+    "criticalStrike" : [15, 1.5, 10, 15, 1.2],
+    "workable" : 8
   },
   "requiredTools" : {
     "hammer_dig" : "minecraft:iron"

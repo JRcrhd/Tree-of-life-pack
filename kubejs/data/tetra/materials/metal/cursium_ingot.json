@@ -13,11 +13,13 @@
   "effects":{
 	  "bleeding": 4,
 	  "backstab": 6,
-	  "crushing": 10
-  },
-  "improvements":{
+	  "crushing": 10,
 	  "stabilizing": 8,
-	  "unbreaking": 1
+	  "unbreaking": 1,
+	  "cursed": 2,
+	  "criticalStrike": [25, 2.2, 20, 25, 1.8],
+	  "workable": 15,
+	  "severing": [5, 2]
   },
   "tints": {
     "glyph": "65F3F2",

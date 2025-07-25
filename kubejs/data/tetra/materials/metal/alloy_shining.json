@@ -16,7 +16,12 @@
     "enderReverb": 4,
     "cursed": 3,
     "fierySelf": 2,
-    "brittle": 1
+    "brittle": 1,
+    "fiery": 6,
+    "criticalStrike": [35, 4.0, 30, 35, 3.5],
+    "crushing": 10,
+    "workable": 20,
+    "severing": [30, 3]
   },
   "tints": {
     "glyph": "FFFFFF",

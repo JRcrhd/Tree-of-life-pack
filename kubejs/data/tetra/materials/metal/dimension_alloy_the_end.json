@@ -23,6 +23,13 @@
 		"kubejs:dimension_alloy_the_end"
     ]
 },
+  "effects": {
+    "stabilizing": 7,
+    "enderReverb": [3, 0.4],
+    "backstab": 3,
+    "workable": 10,
+    "janking": [3, 20]
+  },
   "improvements": {
     "workable": 2.0
   },

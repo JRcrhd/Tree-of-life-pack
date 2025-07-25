@@ -13,10 +13,12 @@
   "effects": {
     "bleeding": 1,
     "backstab": 2,
-    "enderReverb": [2, 0.3]
-  },
-  "improvements": {
-    "stabilizing": 6
+    "enderReverb": [2, 0.3],
+    "stabilizing": 6,
+    "crushing": 8,
+    "workable": 16,
+    "unbreaking": 3,
+    "janking": [3, 22]
   },
   "tints": {
     "glyph": "1A0A2E",

@@ -13,7 +13,10 @@
   "effects": {
     "stabilizing": 8,
     "bleeding": 2,
-    "enderReverb": 1
+    "enderReverb": 1,
+    "crushing": 6,
+    "criticalStrike": [20, 2.0, 15, 20, 1.5],
+    "unbreaking": 2
   },
   "tints": {
     "glyph": "AA00FF",

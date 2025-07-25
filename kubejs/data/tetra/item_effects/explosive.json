@@ -6,17 +6,6 @@
       "chance": {
         "type": "tetra:effect_efficiency",
         "effect": "explosive"
-      },
-      "power": {
-        "type": "tetra:effect_level",
-        "effect": "explosive",
-        "multiplier": 0.5
-      }
-    },
-    "vectors": {
-      "explosion_pos": {
-        "type": "tetra:entity_position",
-        "entity": "target"
       }
     }
   },
@@ -27,7 +16,7 @@
   "outcome": {
     "type": "tetra:command",
     "command": "summon minecraft:tnt ~ ~ ~ {Fuse:10}",
-    "position": "explosion_pos",
+    "position": "target",
     "entity": "attacker"
   }
 }
