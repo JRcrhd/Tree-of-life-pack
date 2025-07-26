@@ -9,14 +9,16 @@
   "integrityGain": 0,
   "magicCapacity": 1000,
   "toolLevel": "minecraft:netherite",
-  "toolEfficiency": 25.0,
+  "toolEfficiency": 30.0,
+  "attributes":{
+    "generic.attack_damage":10.0
+  },
   "effects": {
     "unstable": 10,
     "bleeding": 8,
     "cursed": 6,
     "brittle": 5,
-    "volatile": 4,
-    "fierySelf": 3
+    "crushing": 2
   },
   "tints": {
     "glyph": "FF0080",

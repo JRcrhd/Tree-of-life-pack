@@ -18,8 +18,7 @@
       "default"
     ],
     "effects" : {
-      "mending": 1,
-      "manaRepair": 3
+      "mending": 2
     },
     "experienceCost": 30,
     "material":{"items":["alexsmobs:mimicream"]}

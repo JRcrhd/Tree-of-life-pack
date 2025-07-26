@@ -13,9 +13,7 @@
   "effects": {
     "stabilizing": 10,
     "workable": 15,
-    "counterweight": 2
-  },
-  "improvements": {
+    "counterweight": 2,
     "sweeping": 1
   },
   "tints": {

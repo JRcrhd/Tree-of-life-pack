@@ -532,20 +532,6 @@
 			dependencies: ["746DE905D45A396C"]
 			description: [""]
 			id: "46CC8E7ED59F51D2"
-			rewards: [{
-				id: "5AAE1A0330006A17"
-				item: {
-					Count: 1
-					id: "minecraft:enchanted_book"
-					tag: {
-						StoredEnchantments: [{
-							id: "evilcraft:life_stealing"
-							lvl: 3s
-						}]
-					}
-				}
-				type: "item"
-			}]
 			tasks: [{
 				id: "6EEB24B8CF4BC0BC"
 				item: "cataclysm:tidal_claws"

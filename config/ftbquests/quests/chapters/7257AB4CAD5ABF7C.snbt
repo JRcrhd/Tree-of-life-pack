@@ -14,7 +14,7 @@
 			rotation: 0.0d
 			width: 10.0d
 			x: 0.0d
-			y: -1.0d
+			y: -6.0d
 		}
 		{
 			height: 20.0d
@@ -39,17 +39,11 @@
 		{
 			dependencies: ["1F12C58DD155769C"]
 			description: [
-				"上面的任务，可能有用的玩具。"
+				"&7发展之余也要记得放松一下呀&r"
 				""
-				"下面的任务，食物，以及与此相关的一切。"
+				"每食用8个食物会增加一点血上限（半颗心），这个阈值会随着增加次数逐渐减少。"
 				""
-				"每食用8个食物会增加一点血（半颗心），这个阈值会随着增加次数逐渐减少。"
-				""
-				"整合包内一共有365种食物，一共可以增加60点血上限（3排血）。"
-				""
-				"The tasks above may involve useful toys."
-				""
-				"The tasks below involve food and everything related to it."
+				"一共有365种食物，一共可以增加60点血上限（3排血）。"
 				""
 				"Consuming 8 food will increase health by a point (half a heart), and this threshold will gradually decrease with each increase."
 				""
@@ -63,13 +57,15 @@
 				item: "solcarrot:food_book"
 				type: "item"
 			}]
+			shape: "diamond"
+			size: 1.3d
 			tasks: [{
 				id: "7A18A67A5DBFBDA9"
 				title: "确认"
 				type: "checkmark"
 			}]
 			x: 0.0d
-			y: -1.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["610CBBEE0DC825CC"]
@@ -103,6 +99,7 @@
 		}
 		{
 			dependencies: ["610CBBEE0DC825CC"]
+			description: ["不要发出声音，或者拿着荧光菇"]
 			id: "210050A1F36F39E4"
 			tasks: [{
 				id: "0CC634161F315D17"
@@ -782,17 +779,6 @@
 		}
 		{
 			dependencies: ["610CBBEE0DC825CC"]
-			id: "118C63045466BFA0"
-			tasks: [{
-				id: "296BDA9BAC3537A1"
-				item: "sophisticatedstorage:stack_upgrade_tier_1"
-				type: "item"
-			}]
-			x: -6.5d
-			y: -3.0d
-		}
-		{
-			dependencies: ["118C63045466BFA0"]
 			id: "4258D509F026401B"
 			tasks: [{
 				id: "66FD5CF51B53BFF1"
@@ -845,6 +831,70 @@
 			}]
 			x: 2.0d
 			y: -9.0d
+		}
+		{
+			dependencies: ["610CBBEE0DC825CC"]
+			id: "51A570844C6C0810"
+			tasks: [{
+				id: "4E0519C89F7C1545"
+				item: "farmersdelight:stove"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["610CBBEE0DC825CC"]
+			id: "11EB945BA5F5AAD1"
+			tasks: [{
+				id: "170CE981556D5A71"
+				item: "farmersdelight:cooking_pot"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["610CBBEE0DC825CC"]
+			id: "47DC7FEEAB6B9B1D"
+			tasks: [{
+				id: "4FA961C7EDACDB52"
+				item: {
+					Count: 1
+					id: "farmersdelight:skillet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["610CBBEE0DC825CC"]
+			id: "3A02A86AA296CD27"
+			tasks: [
+				{
+					id: "265A9C5BDF5B1C7C"
+					item: "farmersdelight:cutting_board"
+					type: "item"
+				}
+				{
+					id: "3DF188F038E86009"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:tools/knives"
+						}
+					}
+					title: "Any #forge:tools/knives"
+					type: "item"
+				}
+			]
+			x: -3.0d
+			y: 2.0d
 		}
 	]
 	title: "享受生活"

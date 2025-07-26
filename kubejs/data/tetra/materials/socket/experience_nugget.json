@@ -9,7 +9,7 @@
   "integrityGain":0,
   "magicCapacity":140,
   "toolLevel":0,
-  "toolEfficiency":2,
+  "toolEfficiency":7.5,
   "effects": {
     "stabilizing": 15
   },

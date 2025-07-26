@@ -15,9 +15,7 @@
     "workable": 20,
     "sweeping": 4,
     "counterweight": 3,
-    "enderReverb": 2
-  },
-  "improvements": {
+    "enderReverb": 2,
     "crushing": 2
   },
   "attributes": {
