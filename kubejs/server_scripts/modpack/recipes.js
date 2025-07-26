@@ -29,10 +29,12 @@ ServerEvents.recipes(treeoflife => {
 	treeoflife.smithing('kubejs:point_kether','kubejs:template_atziluth','kubejs:point_tiphareth','tarotcards:the_high_priestess');
 	treeoflife.smithing('kubejs:point_kether','kubejs:template_atziluth','kubejs:point_binah','tarotcards:the_magician');
 	treeoflife.smithing('kubejs:point_kether','kubejs:template_atziluth','kubejs:point_chokmah','tarotcards:the_fool');
+
+	
 })
 
-LootJS.modifiers((event) => {
-    const modifiers = event.getGlobalModifiers();
+LootJS.modifiers((treeoflife) => {
+    const modifiers = treeoflife.getGlobalModifiers();
     modifiers.forEach((modifier) => {
         console.log(modifier)
     });

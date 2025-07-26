@@ -1,9 +1,5 @@
 const $BuiltInRegistries = Java.loadClass("net.minecraft.core.registries.BuiltInRegistries")
 
-StartupEvents.registry('block', treeoflife => {
-    //treeoflife.create('magical_soil').displayName('§bMagical Soil').grassSoundType().mapColor('grass').hardness(0.6);
-})
-
 StartupEvents.registry('item', treeoflife => {
     treeoflife.create('point_malkuth').displayName('王国——Malkuth').glow(true).texture('kubejs:item/point/malkuth').tag('treeoflife:point');
     treeoflife.create('point_yesod').displayName('基础——Yesod').glow(true).texture('kubejs:item/point/yesod').tag('treeoflife:point');
@@ -40,4 +36,33 @@ StartupEvents.registry('item', treeoflife => {
     treeoflife.create('alchemy_yellow').displayName('黄化').glow(true).texture('kubejs:item/alchemy/yellow');
     treeoflife.create('alchemy_red').displayName('赤化').glow(true).texture('kubejs:item/alchemy/red');
     treeoflife.create('alchemy_in_phi').displayName('未完工的贤者之石').glow(true).texture('kubejs:item/alchemy/in_phi');
+
+    treeoflife.create('earth_alloy_shard').displayName('大地合金残片').texture('kubejs:item/tech/earth_alloy');
+});
+
+StartupEvents.registry('fluid', treeoflife => {
+    treeoflife.create('sky_fluid')
+        .thickTexture(0x67E0D4)
+        .bucketColor(0x67E0D4)
+        .displayName('天空流体');
+
+    treeoflife.create('witch_fluid')
+        .thickTexture(0x090136)
+        .bucketColor(0x090136)
+        .displayName('巫术流体');
+
+    treeoflife.create('dim_sky_fluid')
+        .thickTexture(0x3087C2)
+        .bucketColor(0x3087C2)
+        .displayName('暗淡的天空流体');
+
+    treeoflife.create('current_fluid')
+        .thickTexture(0x072F4A)
+        .bucketColor(0x072F4A)
+        .displayName('微缩洋流');
+
+    treeoflife.create('sunlight_fluid')
+        .thickTexture(0xFFF838)
+        .bucketColor(0xFFF838)
+        .displayName('日光');
 });

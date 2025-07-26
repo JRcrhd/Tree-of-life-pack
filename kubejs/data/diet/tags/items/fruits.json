@@ -1071,6 +1071,34 @@
     {
       "id": "aether:blue_berry",
       "required": false
+    },
+    {
+      "id": "aethersdelight:glodenleafberriers",
+      "required": false
+    },
+    {
+      "id": "aethersdelight:blue_squash_slice",
+      "required": false
+    },
+    {
+      "id": "aethersdelight:green_squash_slice",
+      "required": false
+    },
+    {
+      "id": "aethersdelight:pueple_squash_slice",
+      "required": false
+    },
+    {
+      "id": "aether:blue_gummy_swet",
+      "required": false
+    },
+    {
+      "id": "aether:golden_gummy_swet",
+      "required": false
+    },
+    {
+      "id": "aethersdelight:aechor_ice_cream",
+      "required": false
     }
   ]
 }

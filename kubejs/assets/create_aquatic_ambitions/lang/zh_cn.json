@@ -43,5 +43,6 @@
   "create_aquatic_ambitions.ponder.mechanical_conduit_effects.text_1": "激活的导管框架可以影响附近的实体",
   "create_aquatic_ambitions.ponder.mechanical_conduit_effects.text_2": "用水激活的导管框架将提供潮涌能量效果",
   "create_aquatic_ambitions.ponder.mechanical_conduit_effects.text_3": "不同的流体将提供不同的效果",
-  "create_aquatic_ambitions.ponder.mechanical_conduit_effects.text_4": "模式槽允许您选择将受影响的实体"
+  "create_aquatic_ambitions.ponder.mechanical_conduit_effects.text_4": "模式槽允许您选择将受影响的实体",
+  "create.recipe.aquatic_ambitions.fan_channeling":"海洋引导"
 }

@@ -6,6 +6,14 @@
 	hide_quest_until_deps_visible: true
 	icon: "petrolsparts:planetary_gearset"
 	id: "36A058C46CFAB3F3"
+	images: [{
+		height: 8.0d
+		image: "create:block/andesite_casing"
+		rotation: 0.0d
+		width: 8.0d
+		x: 0.0d
+		y: 4.0d
+	}]
 	order_index: 0
 	quest_links: [ ]
 	quests: [
@@ -21,7 +29,7 @@
 				type: "checkmark"
 			}]
 			x: 0.0d
-			y: -1.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["161309655AB92C0E"]
@@ -46,42 +54,29 @@
 			}]
 			title: "一切的开始"
 			x: 0.0d
-			y: 0.0d
+			y: -0.5d
 		}
 		{
-			dependencies: ["0395AA485156D264"]
-			id: "68F41E9817FDC8EC"
+			id: "5C435E77CBCDCAF9"
 			rewards: [{
-				exclude_from_claim_all: true
-				id: "68228F668AC7DCA5"
-				table_id: 5499541166125131948L
-				type: "random"
+				id: "642B11E51126C508"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "assiah_"
+					}
+				}
+				type: "item"
 			}]
-			tasks: [
-				{
-					id: "2C51B64DCA83FCEC"
-					item: "minecraft:iron_ingot"
-					type: "item"
-				}
-				{
-					id: "0012BE1AC2155FF5"
-					item: "minecraft:copper_ingot"
-					type: "item"
-				}
-				{
-					id: "37C2E623B93BFCDF"
-					item: "minecraft:gold_ingot"
-					type: "item"
-				}
-				{
-					id: "54ABB90F01DBF0F1"
-					item: "create:zinc_ingot"
-					type: "item"
-				}
-			]
-			title: "基础矿物"
+			tasks: [{
+				count: 16L
+				id: "71FBC5BF5F68B0CE"
+				item: { Count: 16, id: "create:andesite_alloy" }
+				type: "item"
+			}]
 			x: 0.0d
-			y: 2.5d
+			y: 2.0d
 		}
 	]
 	title: "1、齿轮；杠杆；活塞"

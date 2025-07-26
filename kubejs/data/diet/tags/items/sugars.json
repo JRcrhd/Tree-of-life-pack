@@ -912,6 +912,10 @@
     {
       "id": "rainbowcompound:honeyed_porkchop",
       "required": false
+    },
+    {
+      "id": "aethersdelight:aechor_ice_cream",
+      "required": false
     }
   ]
 }

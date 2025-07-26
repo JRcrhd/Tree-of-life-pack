@@ -142,6 +142,7 @@
     "tetra.stats.knockback.tooltip": "增加被击中实体的击退距离，倍数为 §e%s",
     "tetra.stats.fiery": "炽热",
     "tetra.stats.fiery.tooltip": "击中实体使其着火 §e%s§f 秒",
+    "tetra.stats.fiery.tooltip_short": "击中实体使其着火 §e%s§f 秒",
     "tetra.stats.sharpness.tooltip": "魔法增加攻击伤害 §e%s§r（已计入上方显示的伤害值）",
     "tetra.stats.smite.tooltip": "攻击亡灵实体时造成 §e%s§r 额外伤害",
     "tetra.stats.arthropod.tooltip": "攻击节肢动物时造成 §e%s§r 额外伤害并施加缓慢IV效果持续1到 §e%s§r 秒",

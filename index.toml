@@ -2,11 +2,75 @@ hash-format = "sha256"
 
 [[files]]
 file = "LICENSE"
-hash = "2ab3c83b6223dd3ff8edd7e97e780ace90b8117a2121932c1dab86d11e0cfa43"
+hash = "230184f60bae2feaf244f10a8bac053c8ff33a183bcc365b4d8b876d2b7f4809"
 
 [[files]]
 file = "README.md"
-hash = "ca99c3c3a1f2b3919d31b4570d1335da13ab367e5c4c7a499c302e74b6a14bf0"
+hash = "f73262795e6e590aab6095865ae6a7fd7293272d7c3d8a637cb7975578e8f65c"
+
+[[files]]
+file = "config/InventoryHUD/curios.json"
+hash = "eb5f57a7e2780e1ac1062ca0647b44e8f90d36ef3258184a311f3d4390bcb064"
+
+[[files]]
+file = "config/ProjectE/client.toml"
+hash = "0e7b7ddeeff306241ab7ab571dbda9195cc2a72d7c572d3ae94fc46de26e86cb"
+
+[[files]]
+file = "config/ProjectE/common.toml"
+hash = "9a6809e22c99e87e4e1ac12a6e52b9de304cd6f372eb2c67658b94ab54b4a3c1"
+
+[[files]]
+file = "config/ProjectE/custom_emc.json"
+hash = "69104c32f9b059b58e9aff905020bb3f542f7da0ee2ad310b1d9559bc2a318da"
+
+[[files]]
+file = "config/ProjectE/mapping.toml"
+hash = "f232fc1dad30265a1fcebb7043eafb35b794f59bbe17e0b25c50b3dafc1882d3"
+
+[[files]]
+file = "config/ProjectE/processing.toml"
+hash = "055df4b9db9873bd4f711a9bb5fa95986c36548d6e3bba2cc6053f5cd9d05f8e"
+
+[[files]]
+file = "config/ProjectE/server.toml"
+hash = "551c9959b958e11867fdf4598c9425702a2b9b427768be224ad1d2c5e7b55aff"
+
+[[files]]
+file = "config/RPG-HUD"
+hash = "6a38dd2b731e8ba173da5d7b3cb803ec24f3473d40f820b86cee0580b609d48e"
+
+[[files]]
+file = "config/aether-client.toml"
+hash = "347f7eba10a9e22d1a8ddde19576f3917a4bfbf779e1971e0eabd8748ae716b0"
+
+[[files]]
+file = "config/alexsmobs.toml"
+hash = "c944598fba0430e071cd9d57303a0f83dc1273fb6ccb3024b8dd15a81b3f2230"
+
+[[files]]
+file = "config/apotheosis/adventure.cfg"
+hash = "53759e4ce074f5e3d7bb3ca647e96406b96e5f1615cf9cb0945445278ec2ef8f"
+
+[[files]]
+file = "config/apotheosis/apotheosis.cfg"
+hash = "d77d633593c4a1e79a84c7372729b1ce01f59b27bc26a0838207c9068e3dba58"
+
+[[files]]
+file = "config/apotheosis/enchantments.cfg"
+hash = "e45af456052d1be77eeed069151bf116ba306c604d3dff70eefb1fa96149415b"
+
+[[files]]
+file = "config/apotheosis/names.cfg"
+hash = "abc2b3c1515b5a9c98d30d7287de01cb26be8949915b2a6ed284af32cf73b8db"
+
+[[files]]
+file = "config/cataclysm.toml"
+hash = "3e769dddcc753558cb14afe818efdce846a7b2b98af5e664202a93e932094109"
+
+[[files]]
+file = "config/diet-server.toml"
+hash = "4c71f38e3d243a2645dc859db84248f5f1043601a67dd31179493570887c74bf"
 
 [[files]]
 file = "config/fancymenu/assets/background_1.png"
@@ -34,11 +98,15 @@ hash = "ff492043eaf454c46e949d5eef32ece90cc5a19feb50a161dd29a43b5732c880"
 
 [[files]]
 file = "config/fancymenu/customizablemenus.txt"
-hash = "d8a88fab202813945ad6e6d437bb47d638883fa867ee512aa6579f549191abde"
+hash = "1329ee2ff6b74433c06e615e2086cc95ac8b33581abb66062541eb53f0baa87a"
 
 [[files]]
 file = "config/fancymenu/customization/pause_screen_layout.txt"
-hash = "d273aa8214c7c7ae8bf872728860a6c1420608de96cbd1844167608a158860fd"
+hash = "8aedc3bf7bfb3e7fb98b7f85b6257589597fc32062da579df1f8ee527e1416e8"
+
+[[files]]
+file = "config/fancymenu/customization/sound_options_screen_layout.txt"
+hash = "bb1f3743a028cfb8c796884baed4f902f1862eb1beeba96a472344ed3ea32256"
 
 [[files]]
 file = "config/fancymenu/customization/title_screen_layout.txt"
@@ -50,7 +118,7 @@ hash = "f15a8ee8f86f6b480062f10912dc3237e7b87d6b02786e0dad7c9b810d0a1094"
 
 [[files]]
 file = "config/fancymenu/layout_editor/widgets/element_layer_control.lewidget"
-hash = "051d700ea7ff1bd626063d60f9a9cd65a0af1fed5903706d1e70fce20bcb2495"
+hash = "d2a72e8c61d9ac2e4d21dce191165eb70404f5dd93f299de1ecb4939344c9447"
 
 [[files]]
 file = "config/fancymenu/legacy_checklist.txt"
@@ -81,52 +149,248 @@ file = "config/ftbchecker.toml"
 hash = "7afef3f25758f00aa1860c9663147abed28dfeb79949649d29c2428ee7d3345d"
 
 [[files]]
-file = "config/gamestages/known_stages.json"
-hash = "a7f3e99cff9326eddce514e293be77d26b95f6b6727047e2ce0ff41577c62a1f"
+file = "config/ftbquests/quests/chapter_groups.snbt"
+hash = "374f52ab7506374a960ca01cfbf65747ff7d745b1109575f2782874a472e277b"
 
 [[files]]
-file = "defaultconfigs/electrodynamics.txt"
-hash = "8119103997db98da2c6d35938042689deec5cc5bda839676d048e00f8d5216f2"
+file = "config/ftbquests/quests/chapters/0F775651E7003FC9.snbt"
+hash = "999d799b0070f8034c355ebaab61173aeed282f16f71267ab202970648b4d7a4"
 
 [[files]]
-file = "defaultconfigs/electrodynamics_ore_config.txt"
-hash = "dc3d831f4cdf4d90f15e57155feda55230d8fd5b1f86a63a6edb2d2472ae23d9"
+file = "config/ftbquests/quests/chapters/1.snbt"
+hash = "baac518a795e7b124428a39b14b0bf2217eea04cd8669dad3bf83160b2985e3e"
 
 [[files]]
-file = "defaultconfigs/ftbchunks/client-config.snbt"
-hash = "6d5592c9b61ca156d7901a1b2a626d9c1f5401ec6988e73fe01fab57c7df2260"
+file = "config/ftbquests/quests/chapters/14AF7CD2BCF97A6E.snbt"
+hash = "0cf7f59cde5760c8ac608e5608375ff4e6fdf95afa48a75bb9a9c29b3612a2f7"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/173E073F562968DC.snbt"
+hash = "5f573343981f64a77455ab7588e3c9be54396b9672488bd131cdcb96c6d12361"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/1821CBF53621601F.snbt"
+hash = "d8491f5924a72bfc84f1347f3de1682f0840b1181021428423880cc4f83658a1"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/2.snbt"
+hash = "f52d1d3a8f8afc90eb6a07ac8da9ff7caa6ecfd2fd23449ef9753028ddbb2739"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/329015894AA19614.snbt"
+hash = "7221dd03154128e0b0c4b4ad0a4f4a93f9e8fbf26b53d7e9b928380a2626e822"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/3B71B64AD29DC99E.snbt"
+hash = "35b7f1264c265ecd6d81e74ffa8917564ec4dcb8427accabf87e3cf0a2dafcfb"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/4.snbt"
+hash = "c4a97d9567a0e06eda14eb92df9c690c72938058484aa95a8a21766d7717108e"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/4035775DADF7CF0E.snbt"
+hash = "d79598415ccdc18237c4c2a1addb19be9e1d5c6b077cf1aea0805eb4972a29e1"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/4225B3FFE5EA3A32.snbt"
+hash = "f3afdff7bce2434f11e0c42f55cf6c6f397285d23084bb490fe775236b350af8"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/4BAFF4C1AD915C6A.snbt"
+hash = "5307a85144d1c34b50165abad67f8b82d63d70fb7e6f5b6122acc230e35851c6"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/5.snbt"
+hash = "cb6a4e2a67774ad6c775f13b4986b61e693fe2b563c30b1299e96bd08686ea23"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/61A23AE0A50FE5D6.snbt"
+hash = "000db605653c594ddf55c1f6ea70f152d37b157dc2657d17bef9776b17188ae0"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/6519EF0039579C58.snbt"
+hash = "c7fc679e3c9e547dbf845a5685c364b5d99190b88f49c57067507e2e7d915066"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/7257AB4CAD5ABF7C.snbt"
+hash = "2a29c2148fa6a1d5b5946c2ea6f388f8a320a77b09040e9ede39b0b1c132fce1"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/assiah.snbt"
+hash = "5e8069c37c7770fc1e6a37eb89ef2193ff3f0f7563479ddc5d32550a950fb57a"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/atziluth.snbt"
+hash = "7466e32e9f27fa502d7903f43039be061fd28594821ce54c6a323d911c94f80f"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/beriah.snbt"
+hash = "8c3066ab73c2dc5f8874488e6d3831cacf201c05c76eef1009fac7509c7cae66"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/yetzirah.snbt"
+hash = "881476e763207e115a647df81e997cb3fc788f414b6f043175b7db77c9a16feb"
+
+[[files]]
+file = "config/ftbquests/quests/data.snbt"
+hash = "6fd6f7a8adf8e6d9fd4d0ef68d1fad516cc1556b0805655a58d925f80c22f670"
+
+[[files]]
+file = "config/ftbquests/quests/reward_tables/4c524b8d8286a8ac.snbt"
+hash = "f53ff0ba03358d928cc1f96b289b456cd41c9f28505f8ab9123be0350a5d4a65"
+
+[[files]]
+file = "config/ftbquests/quests/reward_tables/assiah.snbt"
+hash = "4eceb08a11aa1c51e08f751e78d03c58908e536992530088573e432b67db0e16"
+
+[[files]]
+file = "config/ftbquests/quests/reward_tables/atziluth.snbt"
+hash = "283ceb5824f3434305b2ce2941945704741ca56c96237459d8afe471a2eaa0b0"
+
+[[files]]
+file = "config/ftbquests/quests/reward_tables/beriah.snbt"
+hash = "058efcdd2e3b45ba23782fb36e07cab1f33ea5beefcf42a9a1f167b10c61b660"
+
+[[files]]
+file = "config/ftbquests/quests/reward_tables/beriah_2.snbt"
+hash = "32c74457d0b50c46e26726d7509ab440430c2f30991653d177ea5a1e204c8bab"
+
+[[files]]
+file = "config/incontrol/areas.json"
+hash = "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+
+[[files]]
+file = "config/incontrol/breakevents.json"
+hash = "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+
+[[files]]
+file = "config/incontrol/effects.json"
+hash = "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+
+[[files]]
+file = "config/incontrol/events.json"
+hash = "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+
+[[files]]
+file = "config/incontrol/experience.json"
+hash = "55d1e44b69cd5f0f3f2763d112c74b74219cf887e973237f74e5ce18acd0500f"
+
+[[files]]
+file = "config/incontrol/leftclicks.json"
+hash = "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+
+[[files]]
+file = "config/incontrol/loot.json"
+hash = "75d47d9280b3fbba99ffd9cdab6c152e30a5dc459b0a5927edaa247b2941334e"
+
+[[files]]
+file = "config/incontrol/phases.json"
+hash = "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+
+[[files]]
+file = "config/incontrol/placeevents.json"
+hash = "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+
+[[files]]
+file = "config/incontrol/rightclicks.json"
+hash = "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+
+[[files]]
+file = "config/incontrol/spawn.json"
+hash = "e3f6a707d70986acb84857a77c22802f429e3804a58b72e6d3b003394e6ab697"
+
+[[files]]
+file = "config/incontrol/spawner.json"
+hash = "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+
+[[files]]
+file = "config/incontrol/summonaid.json"
+hash = "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+
+[[files]]
+file = "config/jade/hide-blocks.json"
+hash = "247df2699ebb5a0d4c9585aeeb267ef9388cd5bee2b13ca340f35124a135b35b"
+
+[[files]]
+file = "config/jade/hide-entities.json"
+hash = "22b4560c3dc05da35a70bb6611da0ce04cff295ab8c663afd58e725c396a24b3"
+
+[[files]]
+file = "config/jade/jade.json"
+hash = "b6e974688524ac0071285a5fe4311f414de294cd8d6c7832d59e8ae7d2f60b2b"
+
+[[files]]
+file = "config/jade/plugins.json"
+hash = "1d095fb993f48c745e086b7ced051837df047c1d5bc1b5e15759940a2b78a062"
+
+[[files]]
+file = "config/jade/sort-order.json"
+hash = "6cc1fe3700ebb2445a6ca2282d48d1907def8d6431dbb84ecacc614289eaf32a"
+
+[[files]]
+file = "config/lightmanscurrency-common.txt"
+hash = "56d7cef7fdf02d63b6e5d74dba8c4cb26c1971a82e8dc5a30cad280ff839692b"
+
+[[files]]
+file = "config/waystones-common.toml"
+hash = "d162e3fdc5105999dc88c1096aa9265feb80b53af10f8a8f26da60b48450d4ed"
 
 [[files]]
 file = "defaultconfigs/ftbchunks/ftbchunks-world.snbt"
-hash = "92dd71570bdf957f39b27b3f7f80b3f13793311d23a5c766edc1102ca596e2b5"
+hash = "072ab20074a2fe4c64e31ba8c6a72b447df090af2b0577f11120196ef8d18c24"
 
 [[files]]
-file = "defaultconfigs/ftbessentials-server.snbt"
-hash = "4444fa163e029565eb76f6aa55940e99cfcf21727778dd6fcca4f22e1b62e5f6"
+file = "defaultconfigs/solcarrot-server.toml"
+hash = "5949d04d1b0aad55ffa8a50d310831d3a05dd7b4e220e4360f28873e67532a94"
 
 [[files]]
-file = "defaultconfigs/ftblibrary/ftblibrary-client.snbt"
-hash = "ab6bcad040f138406197f70cfe9a041832feaddf7e87954d9a5f4b13b6a962f9"
+file = "defaultconfigs/sophisticatedbackpacks-server.toml"
+hash = "2fc5e855014bab455fd36d58554813b738cefce4de4c39987c86fcc37df1f0cf"
 
 [[files]]
-file = "defaultconfigs/ftbquests/client-config.snbt"
-hash = "4ce84f0da35036f810959086ea1043062993bf34ae704fc9cd4f1a67810090a6"
+file = "defaultconfigs/sophisticatedstorage-server.toml"
+hash = "3743c3988a610bda519996b2bf98843ba2e0cde9eeca1b231d627c64d88bb149"
 
 [[files]]
 file = "defaultconfigs/voltaic.txt"
-hash = "c49721d7ecf3b17ef68fff51fd83146edc9c93787e09b9000952a8eaed81cfce"
+hash = "eef64de6a9e11d276948a53b6a97c2dd60b64a35e032ae1654b51a3d49e22614"
 
 [[files]]
 file = "kubejs/README.txt"
 hash = "989f3737ae4621b8ff6730bce4cbeeee756921e7e510e0c281c8a350501d98af"
 
 [[files]]
+file = "kubejs/assets/ae2wtlib/lang/zh_cn.json"
+hash = "a7e2a37d5846c0704aaa118a32437111b8c64447f8411c562ca7b3af53b73bee"
+
+[[files]]
+file = "kubejs/assets/aethersdelight/lang/zh_cn.json"
+hash = "16f25f4e292f0fd1cd652b903c856aa7e4b5070e2b9430d3b37f3b324e2e8528"
+
+[[files]]
 file = "kubejs/assets/akashictome/lang/zh_cn.json"
 hash = "dbafa8379d067efb2ac1a1d715751434530749b638531b383343f02d0d7032fa"
 
 [[files]]
+file = "kubejs/assets/appliede/lang/zh_cn.json"
+hash = "89ccc5025f27dead5401266a9eb9154a61631e4bd7d23d2cafef3de55f0884f0"
+
+[[files]]
+file = "kubejs/assets/appmek/lang/zh_cn.json"
+hash = "242d3a3f25d5cde8ad9afa077980727c39f1e9eb900133d415235e58b69e5265"
+
+[[files]]
+file = "kubejs/assets/art_of_forging/lang/zh_cn.json"
+hash = "646e7a4dd1d2a8905622e0ddafb0a5d82b8fc26e31222bb6bbb8e18a0f83ace7"
+
+[[files]]
 file = "kubejs/assets/bygonenether/lang/zh_cn.json"
 hash = "68d5de90b327e41effd9f8610745a3b788456f2f7d6a2b2bb23264f12f70672f"
+
+[[files]]
+file = "kubejs/assets/cataclysm/lang/zh_cn.json"
+hash = "ced0c96ef6f41a02af8d6722a86ac7604cb2efc76a6ae5149eb34bd969f5d035"
 
 [[files]]
 file = "kubejs/assets/cccbridge/lang/zh_cn.json"
@@ -181,6 +445,138 @@ file = "kubejs/assets/igleelib/lang/zh_cn.json"
 hash = "ad7c7290505ddd3dd8e0d774319e6d8281211e3e8a93de43deda3e75536267cf"
 
 [[files]]
+file = "kubejs/assets/kubejs/models/item/book.json"
+hash = "655ef904e35e7c22025481be372a7dc21680d2af6b1fdb7c29cfa419d8f9b934"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/alchemy/black.png"
+hash = "7a35b0d3a447e865d93ee7917d108de218a7792ce371e8c67c9f4fb8fb6bd9b0"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/alchemy/icon.png"
+hash = "68c1a32ede2afc4f0a5ca7d99449d7df92aad58c851aea9620aecbc9f36e1fea"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/alchemy/in_phi.png"
+hash = "323744d6b2fd4b462bb3a64cdeb8d96dacded0c9ad0b40686f59493390efa319"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/alchemy/red.png"
+hash = "7d5986ae3d30c6f39f3b6268ef5e19b900115a5d2571899123a4407cadf4a1c1"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/alchemy/white.png"
+hash = "d09bce2bbf92b9fd5df8f7c2656256b158ab00ee2c57d74357df43c1658436e9"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/alchemy/yellow.png"
+hash = "c116d673e3c30ac7efcf9c0bfcc8c486d2252b90d1eace8d26424045b87bb8a3"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/clairvoyance/icon.png"
+hash = "6b9f1902c38e5da29f2229b0415ebdfe64984ea54489d0f28757097557218298"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/divination/icon.png"
+hash = "6f4359c94abc9b5c7f0abce1f766e5985493791c07a0b68ec3051ed98f00bf2a"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/emerald_tablet.png"
+hash = "e662a54a143b69851ae3b00ccf56c47db8cebc5f2ee02cf8a8cc2433dc650393"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/emerald_tablet_piece_1.png"
+hash = "4b5013f3a8f9d3b1e63912cb063f1ef384f19f3507b275045b25b16cac4e8a6d"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/emerald_tablet_piece_2.png"
+hash = "5a3e517abebd5cdf9ab1abef074e641e0f60d4b35befe36fb3a52483c6be540c"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/emerald_tablet_piece_3.png"
+hash = "c0c0d59a9c939437c20c7b6f4780c26b1c661cb12060ed970da13888a3762da5"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/point/assiah_template.png"
+hash = "db74edeed29c1f80688a69b02352f785fba3c712771f84c121736ccbf0687ef7"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/point/atziluth_template.png"
+hash = "59b32ad58cf753113acd6151ca12af481bfcb5ca3f90d55e390b74f3abf5a1f2"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/point/beriah_template.png"
+hash = "27d297070a5b6bd2e43df6153e250abf5ac4d5f6d60286a716b7122920ee9736"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/point/binah.png"
+hash = "87954d74b1ebd6e1ef799a4137641f9113c433869ec86cbb6f40ecf1bfe1a95c"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/point/chesed.png"
+hash = "53de6a3392f720090a80e1275473086b06126612003e37ea734f6d9603da9541"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/point/chokmah.png"
+hash = "a28be8899a9ae0867617e5c9d6e47fb5a8629daa4ca866d6f4a9b7a909699423"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/point/dimension_alloy_aether.png"
+hash = "550950df9bd514f98c90028e3ef36ced7d76eb25f34797d97850e35aba208c35"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/point/dimension_alloy_nether.png"
+hash = "ca0580bd8b4a0b467bba80fd889bcb55b0f86c4eec841faee207f02a0b793105"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/point/dimension_alloy_overworld.png"
+hash = "b6c8daa80f5550bc772743222f44a73e3f0878a7f0fc02f55c6c4d02026fbc53"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/point/dimension_alloy_the_end.png"
+hash = "7f35e01ff7b4abe54a16b8f3d576018a33c2b4edba9435851ace40dea2682f62"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/point/geburah.png"
+hash = "2d896afd03940e9bf84b2ffa77b305dcdeb3c94a02b658d963243f2ba80d4d22"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/point/hod.png"
+hash = "068c40030d2ced8033a4152f404eb83fdbfa0dfa89afec0e589e3c65807e1821"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/point/kether.png"
+hash = "c2189cda567a9f1d908a5874caea78a8cf37de8e9538f47f5c3031b4ebc28af5"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/point/malkuth.png"
+hash = "ed6fe4fe59c7b611cea8171b30e5c50ed23a853d2e107810f75ee3a2b1e740d7"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/point/netzach.png"
+hash = "7b404f563abe1394c5abfb108b851ecbeb026228b63fa575fd5aae96f7d934a7"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/point/tiphareth.png"
+hash = "9a9a87e8d56fbe7c49ed79818508b9c63f97e3eb0119ea93c3267abfb45ee5c5"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/point/yesod.png"
+hash = "288a66f759695cf74903b12851144da858ccab7224173bf5a4504e7a83842a1f"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/point/yetzirah_template.png"
+hash = "132f729bcc021570c0ce4af719cfe550d77ee84e31a3fed6aff801ba3050d311"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/treeoflife_book.png"
+hash = "4d502d2a24e2a296ad74c42d09d086662bbc4afe3347760994b003ecd4b6b86f"
+
+[[files]]
+file = "kubejs/assets/lightmanscurrency/lang/zh_cn.json"
+hash = "caaad138c752f0bb7c33b7e8ae2d652fb00e7c471d00bab28c9050face2a3727"
+
+[[files]]
 file = "kubejs/assets/mae2/ae2guide/_zh_cn/faulty_card.md"
 hash = "dd0b3ac21a55dc34ba2edadd6f3eed2291c54226969e14fbd68548f69dac88fd"
 
@@ -203,6 +599,14 @@ hash = "c193b484b7a5dc83fd3399f944f8858eb02272b22dff2fc9e9720e7eae6bdc09"
 [[files]]
 file = "kubejs/assets/occultism/lang/zh_cn.json"
 hash = "62a3360b948b94e0b8116ffcdc0d48f1edae219e1e82610f2ed440bff701bbd0"
+
+[[files]]
+file = "kubejs/assets/patchouli/lang/en_us.json"
+hash = "da6bdc286eaf8a68048aefc6ae492882df8079362fd95161590fcfe1c7215fed"
+
+[[files]]
+file = "kubejs/assets/patchouli/lang/zh_cn.json"
+hash = "41cb3a36cce8bb093064c068011f89b80d032754d0e3655c5a8e295492cede8e"
 
 [[files]]
 file = "kubejs/assets/pneumaticcraft/lang/zh_cn.json"
@@ -257,16 +661,52 @@ file = "kubejs/assets/sereneseasons/lang/zh_cn.json"
 hash = "c6baa4fca5456f90b482c20b0ac675482788787965e2956ae5bfa208f386aa1c"
 
 [[files]]
+file = "kubejs/assets/smalltetraadditions/lang/zh_cn.json"
+hash = "40998bf443104716e804ce97d5f2f87c0e2ba5f6d1c1af3ddeb19cfb58ccd5e1"
+
+[[files]]
+file = "kubejs/assets/stalwart_dungeons/lang/zh_cn.json"
+hash = "c12738ec438dec72cf294b5732f5bc558d88f5d6c56195fde3c04af0832961b5"
+
+[[files]]
+file = "kubejs/assets/tetra/lang/en_us.json"
+hash = "90747a5869ef70f1a3f93f3ea18a809e1091d0f18d15cd1ede2a00f5146a0e8c"
+
+[[files]]
+file = "kubejs/assets/tetra/lang/zh_cn.json"
+hash = "ef0af491d4e9a2d964a27b9e3bbd194477d0ed34cb4cf74dc8666108e889d5d7"
+
+[[files]]
+file = "kubejs/assets/tetracelium/lang/zh_cn.json"
+hash = "2153299f204cff2c762b64d697adba287bccfeaf67206170a58a61a5f2ee1692"
+
+[[files]]
 file = "kubejs/assets/totemfactory/lang/zh_cn.json"
 hash = "6e13ecee6f65c97693c32af372411513b58569f56baabc7aaffdcecae02dd225"
 
 [[files]]
-file = "kubejs/assets/voltaic/lang/zh_cn.json"
-hash = "40c6e89ab35501f449979fec6999648a6b0f2eb9bc08fbb66513765c5220fe6d"
+file = "kubejs/assets/treeoflife/textures/questpics/enderdragon.png"
+hash = "75cc443d4600a888a8043085cb69ff600a70fd4ff4d8ed361c9a95c4cbc1c855"
 
 [[files]]
-file = "kubejs/client_scripts/example.js"
-hash = "152019ed6e0410a82805a95ea10f1ad1a17beaf2b50864d89b8fa9d172129ac7"
+file = "kubejs/assets/treeoflife/textures/questpics/fc_h_b.png"
+hash = "6b59444b35164fb8ed9f14fbe8340918c50ce32981708277951b5f497e791575"
+
+[[files]]
+file = "kubejs/assets/treeoflife/textures/questpics/fc_h_u.png"
+hash = "4e3087756e99b49bfd1d84f5427747fe5da940841fb4f4cd48e1de61657f5539"
+
+[[files]]
+file = "kubejs/assets/treeoflife/textures/questpics/helper_arrow.png"
+hash = "f924c8020f06a3a38f2eb44d7738a0fc9dec7fdd215004e626ffcbfe3d5a8037"
+
+[[files]]
+file = "kubejs/assets/treeoflife/textures/questpics/wither.png"
+hash = "84a9a278b607676bf0124a8fc2d80b7a1e73479f6fc730fe6a9629deca20152e"
+
+[[files]]
+file = "kubejs/assets/voltaic/lang/zh_cn.json"
+hash = "40c6e89ab35501f449979fec6999648a6b0f2eb9bc08fbb66513765c5220fe6d"
 
 [[files]]
 file = "kubejs/config/client.properties"
@@ -274,15 +714,851 @@ hash = "d8cfabb42c53e1b20b13691c16397c91eafea6b2535686669edee8c4cb7b3871"
 
 [[files]]
 file = "kubejs/config/common.properties"
-hash = "77fa10b1daa8e70a5b461860828ae76507150f0652e14fc52e343b41e0e7abd8"
+hash = "a244e10719da142bcf3fddfb916cd7bc47ca9baca4de21b7460ffb55618a6ec5"
 
 [[files]]
-file = "kubejs/server_scripts/example.js"
-hash = "a19b7c81a150bd965b153ded9c45ee7649eaad9e10d0a5ec1d662e7b15ceadb2"
+file = "kubejs/data/diet/diet/groups/fruits.json"
+hash = "6eae0e4b9351c70fb916238d3d02954ce26e5f0ac767172a8e26b83e85a06be3"
 
 [[files]]
-file = "kubejs/startup_scripts/example.js"
-hash = "395c96d3ddd178821db851f387e91560e606ea752177f66d2016f12bd0542b8f"
+file = "kubejs/data/diet/diet/groups/grains.json"
+hash = "d68a95905b90c568c7561001f3d960a3a7b6df705d05c7cdcce7fab5e95dade9"
+
+[[files]]
+file = "kubejs/data/diet/diet/groups/proteins.json"
+hash = "c45ecb98df66355cf9b65ff94072be2b8663e468c447a836664a99415f3c70b1"
+
+[[files]]
+file = "kubejs/data/diet/diet/groups/sugars.json"
+hash = "d4cee5d09beb388cc7d340229d9ac8e05562706c9660a1657b33d6feb767f424"
+
+[[files]]
+file = "kubejs/data/diet/diet/groups/vegetables.json"
+hash = "b253fb73af3fc38a47b36929f37071df81874874e43da72602f753cbf9cb774c"
+
+[[files]]
+file = "kubejs/data/diet/diet/suites/builtin.json"
+hash = "63ddae893c0fea43138a8999ef4f3f03478b74d6715b52dc89a21372dd29a2be"
+
+[[files]]
+file = "kubejs/data/diet/tags/items/fruits.json"
+hash = "27dc9c9e4cd3d22202fafe3e3778d41d731abfadcecb43aba851a363bd93f8a3"
+
+[[files]]
+file = "kubejs/data/diet/tags/items/grains.json"
+hash = "25dc4d63260e1283018402f03c77eaa45fd0949d178381594ccd30fe1d6dac24"
+
+[[files]]
+file = "kubejs/data/diet/tags/items/ingredients.json"
+hash = "4f4160bcede6d7e64e1ba54c53829fd8fe07e6c66cfad8cc9b79a016b02276e6"
+
+[[files]]
+file = "kubejs/data/diet/tags/items/proteins.json"
+hash = "5cfd2a1a0f20be79a8be607b72cd8a748930cf096f6263fd1dcbafa9d59febd1"
+
+[[files]]
+file = "kubejs/data/diet/tags/items/special_food.json"
+hash = "ed65f0af44fe249c4089f0f1fb577175ec644f64825ac97d100605f204221a39"
+
+[[files]]
+file = "kubejs/data/diet/tags/items/sugars.json"
+hash = "340fc1365cb52d262fac92d25efd607b00e9fb2ac41ed5098c2bde5d5dde836e"
+
+[[files]]
+file = "kubejs/data/diet/tags/items/vegetables.json"
+hash = "29e415a42375fb9ab0ac7f9a533cdcc543255701a733568cc3a99456adc7fa96"
+
+[[files]]
+file = "kubejs/data/forbidden_arcanus/forbidden_arcanus/hephaestus_forge/input/blood_sac.json"
+hash = "697b312ef7f6137d2e9464bd6942c9957fb918d41cf93112a75d202b5f486352"
+
+[[files]]
+file = "kubejs/data/forbidden_arcanus/forbidden_arcanus/hephaestus_forge/input/experience_nugget.json"
+hash = "f4f49855502077a0654a88b57d31eeeb6b13d6139770171fed3c853287e1f6dc"
+
+[[files]]
+file = "kubejs/data/forbidden_arcanus/forbidden_arcanus/hephaestus_forge/input/refined_radiance.json"
+hash = "0ed61d4e19c25c7839cec409e651ff64a77a664c733e251852c9fd11056f5308"
+
+[[files]]
+file = "kubejs/data/forbidden_arcanus/forbidden_arcanus/hephaestus_forge/input/soul_bead.json"
+hash = "4ffd4a248d424b3a8dee9142d5beda33ea9ac385487d504dc9cfd571c5766b48"
+
+[[files]]
+file = "kubejs/data/forbidden_arcanus/forbidden_arcanus/hephaestus_forge/input/soul_heart.json"
+hash = "39514862aa09beda1261104813a650252d30c4adaeca41d585c457a6b2b0467d"
+
+[[files]]
+file = "kubejs/data/forbidden_arcanus/forbidden_arcanus/hephaestus_forge/ritual/crescent_moon.json"
+hash = "11168665224a3e6658232e1abfb2cee91543dd86bc15729d4bde161a7f9aa4e3"
+
+[[files]]
+file = "kubejs/data/forbidden_arcanus/forbidden_arcanus/hephaestus_forge/ritual/crimson_stone.json"
+hash = "16d32b4a81275c9724fa2dd33452ff8a9563056186aed7e54c88c69b7268636d"
+
+[[files]]
+file = "kubejs/data/forbidden_arcanus/forbidden_arcanus/hephaestus_forge/ritual/eternal_stella.json"
+hash = "093052abc60e0aa86182a54fe0e62c080815a7f1f89174263e570795c61577f9"
+
+[[files]]
+file = "kubejs/data/forbidden_arcanus/forbidden_arcanus/hephaestus_forge/ritual/philosophers_stone.json"
+hash = "f4b00e7d33b9f2c4717d3c7004eb821343e525171e20b101df3fe7a82328a2a2"
+
+[[files]]
+file = "kubejs/data/forbidden_arcanus/forbidden_arcanus/hephaestus_forge/ritual/sea_prism.json"
+hash = "d35a2bb2965535bcec0cddb6aaf93aba98230e6ee636094e57c64e717c83ff36"
+
+[[files]]
+file = "kubejs/data/forbidden_arcanus/forbidden_arcanus/hephaestus_forge/ritual/sigil_of_enhancement.json"
+hash = "e529059ad7da9b443c8246a826164c4b2f7d0692538f543de83a8fe818b8bb22"
+
+[[files]]
+file = "kubejs/data/forbidden_arcanus/forbidden_arcanus/hephaestus_forge/ritual/sigil_of_rebirth.json"
+hash = "fe9f382e9f5bc2e4d02b31d1bbba58f5c9542cc6edc1c4e206c1ab4bf58dbedd"
+
+[[files]]
+file = "kubejs/data/forbidden_arcanus/forbidden_arcanus/hephaestus_forge/ritual/sigil_of_socketing.json"
+hash = "f23573d54687f8dcb222e2849f791559bc4768489bc01b56c4475c928a8668b1"
+
+[[files]]
+file = "kubejs/data/forbidden_arcanus/forbidden_arcanus/hephaestus_forge/ritual/sigil_of_withdrawal.json"
+hash = "f612545ff43141530fb7dc66fabea16653da3d3cab187c27330fbb6befcd80b8"
+
+[[files]]
+file = "kubejs/data/forbidden_arcanus/forbidden_arcanus/hephaestus_forge/ritual/smelter_prism.json"
+hash = "d46f9d21076a592301c64ebc3736ff58957ea42eabad9ad5dd2b56c2d18dd556"
+
+[[files]]
+file = "kubejs/data/forbidden_arcanus/forbidden_arcanus/hephaestus_forge/ritual/terrastomp_prism.json"
+hash = "6968072db7bd54d84f1dd1a4d318b70136f9b7fd1b71ed0f8ea60f5e255d4191"
+
+[[files]]
+file = "kubejs/data/forbidden_arcanus/forbidden_arcanus/hephaestus_forge/ritual/upgrade_tier_2.json"
+hash = "bc566e0bc86e172e8fcff1b98ec43a77b7a8a0189700fb56436819ae662f5bc6"
+
+[[files]]
+file = "kubejs/data/forbidden_arcanus/forbidden_arcanus/hephaestus_forge/ritual/upgrade_tier_3.json"
+hash = "5d1d0aced71707968bb473f040b5bf15776a9286c400d871986ff0457aa82150"
+
+[[files]]
+file = "kubejs/data/forbidden_arcanus/forbidden_arcanus/hephaestus_forge/ritual/upgrade_tier_4.json"
+hash = "d0c814f3482c0810c1984bb4709b4db9c9189c8a094f427820b0303ce905e02f"
+
+[[files]]
+file = "kubejs/data/forbidden_arcanus/forbidden_arcanus/hephaestus_forge/ritual/upgrade_tier_5.json"
+hash = "d8e1defbe42001632b784d887fcec1cfb768c008ff119e926eae1a42a2db0cb1"
+
+[[files]]
+file = "kubejs/data/forbidden_arcanus/forbidden_arcanus/hephaestus_forge/ritual/whirlwind_prism.json"
+hash = "8c9aff4061f2b81b7999ca4d6af53cfc9d0b7e430b19b25c9e751f670c197dbb"
+
+[[files]]
+file = "kubejs/data/forbidden_arcanus/recipes/clibano_combustion/arcane_crystal_dust_from_clibano_combusting.json"
+hash = "e2fb8ad7655187f40be4b97a625c990f5e419a07e3f2bd2cc8cc1f47d2ad4f58"
+
+[[files]]
+file = "kubejs/data/forbidden_arcanus/recipes/clibano_combustion/arcane_crystal_from_clibano_combusting.json"
+hash = "fb8e49014f49dbdca93ff040a74ea60c80620bc34bd159ad6d62b0407a807ce4"
+
+[[files]]
+file = "kubejs/data/forbidden_arcanus/recipes/clibano_combustion/coal_from_clibano_combusting.json"
+hash = "6da73c8fd641220347ce7ef2a880e53197af9b82b9e73888e5c4719ef0cd6288"
+
+[[files]]
+file = "kubejs/data/forbidden_arcanus/recipes/clibano_combustion/copper_ingot_from_clibano_combusting.json"
+hash = "1c701668782d61a632f1dd3f629fca07ebd7fe6634da7fd05611b29aeb43aaec"
+
+[[files]]
+file = "kubejs/data/forbidden_arcanus/recipes/clibano_combustion/copper_ingot_from_clibano_combusting_raw_copper.json"
+hash = "a1fc117428e2e709f9723198e49edcec7368761abe5ad616b03f72ee61d7280c"
+
+[[files]]
+file = "kubejs/data/forbidden_arcanus/recipes/clibano_combustion/deorum_nugget_from_clibano_combusting.json"
+hash = "93a1a84db19f41169be454837f2bddbd1939319484453f17aa64546914caf163"
+
+[[files]]
+file = "kubejs/data/forbidden_arcanus/recipes/clibano_combustion/diamond_from_clibano_combusting.json"
+hash = "c4a0c3f5c3a876c2373f2b0bf0b2a95a20ead2703d19f973c695ffc3118600ab"
+
+[[files]]
+file = "kubejs/data/forbidden_arcanus/recipes/clibano_combustion/emerald_from_clibano_combusting.json"
+hash = "89553db8cb799a79607cb94452aa7890e67ddb583b02264bf7afc8b2f7b771c9"
+
+[[files]]
+file = "kubejs/data/forbidden_arcanus/recipes/clibano_combustion/gold_ingot_from_clibano_combusting.json"
+hash = "0817e4c1cf958e184db2cc5f9f23bc774fd9eace88dcf5df83a4b231dde264ca"
+
+[[files]]
+file = "kubejs/data/forbidden_arcanus/recipes/clibano_combustion/gold_ingot_from_clibano_combusting_raw_gold.json"
+hash = "5216e88a3fa54a9e86f9208ff462383f2cadb4ffebdda40ecab69dd3110a04e2"
+
+[[files]]
+file = "kubejs/data/forbidden_arcanus/recipes/clibano_combustion/iron_ingot_from_clibano_combusting.json"
+hash = "93d474154c3137c91201f2af389c802191289447b1c9386dcc692233a692539f"
+
+[[files]]
+file = "kubejs/data/forbidden_arcanus/recipes/clibano_combustion/iron_ingot_from_clibano_combusting_raw_iron.json"
+hash = "531fd5689dee61f3837531497f64e2be2b2edbc57cfd0830bad8acdd4909b07b"
+
+[[files]]
+file = "kubejs/data/forbidden_arcanus/recipes/clibano_combustion/lapis_lazuli_from_clibano_combusting.json"
+hash = "56a81fdd9037b8a3ecd2f9cf8a582eb2c35d5aadcbca84ee3de7cbea7ee6bcec"
+
+[[files]]
+file = "kubejs/data/forbidden_arcanus/recipes/clibano_combustion/netherite_scrap_from_clibano_combusting.json"
+hash = "1fccb2bdd35c7217dd6007f8134c47c75cbfcf25ad110c20420757b04a52f8ee"
+
+[[files]]
+file = "kubejs/data/forbidden_arcanus/recipes/clibano_combustion/rune_from_clibano_combusting.json"
+hash = "468ad03f919579e08b19df702fb27e7150cb6f932fc805cd7556a673fca06e67"
+
+[[files]]
+file = "kubejs/data/mekanism/recipes/injecting/concrete/black.json"
+hash = "e121a164d99bdb0129353c54daeee86aac411ddee2fed5a8e887385ffae0b4ef"
+
+[[files]]
+file = "kubejs/data/mekanism/recipes/injecting/concrete/blue.json"
+hash = "5b3f5728b6acdcd468770e69e0fb952cea75148b501de19d5ebfc70316b27b9c"
+
+[[files]]
+file = "kubejs/data/mekanism/recipes/injecting/concrete/brown.json"
+hash = "7951238590475240f8879d2c16121760842286e3029c7b3fcef1a78482808ca8"
+
+[[files]]
+file = "kubejs/data/mekanism/recipes/injecting/concrete/cyan.json"
+hash = "4dcbc9cf227c7838cfcd31b00414ca3abec548ad2e6ce83f9d229234e89c3c17"
+
+[[files]]
+file = "kubejs/data/mekanism/recipes/injecting/concrete/gray.json"
+hash = "19a3a21e4e7eda90895e6438f73289e6e5454f867862e800f287cf8ce018f311"
+
+[[files]]
+file = "kubejs/data/mekanism/recipes/injecting/concrete/green.json"
+hash = "e9699fb4d30497b16bd7ee996a71dd7a9b6eadc359054204ec02c184c25e4e35"
+
+[[files]]
+file = "kubejs/data/mekanism/recipes/injecting/concrete/light_blue.json"
+hash = "d883488f0c36070387decf7988116071ddb9f0a3cc0b9a2b9139cd77168cda41"
+
+[[files]]
+file = "kubejs/data/mekanism/recipes/injecting/concrete/light_gray.json"
+hash = "5cda2f28f2d264e7c2bde4b74b82e4813333579f066089c688ca973bc51c4636"
+
+[[files]]
+file = "kubejs/data/mekanism/recipes/injecting/concrete/lime.json"
+hash = "ca20896697649ea27a00b1ceacb91b6be7e38bd981d8e4082f76961dd35df16b"
+
+[[files]]
+file = "kubejs/data/mekanism/recipes/injecting/concrete/magenta.json"
+hash = "523072cec258c9c40ecc35eb03d942138c942dd1711d624e67274dd13fdd4bd7"
+
+[[files]]
+file = "kubejs/data/mekanism/recipes/injecting/concrete/orange.json"
+hash = "c8979ed59feffe04649c3c7e7646d3b1eb044da166f10aa79d1943acf92ddcb4"
+
+[[files]]
+file = "kubejs/data/mekanism/recipes/injecting/concrete/pink.json"
+hash = "5fda2e2e4b1f77ba7f84ec46f3ddfdb74f14333d2a42e09353fe676aa30e0d00"
+
+[[files]]
+file = "kubejs/data/mekanism/recipes/injecting/concrete/purple.json"
+hash = "ab933532d28fd9c118e25f922d08f9767b6b4a8f2908ee182871d283a31d02b7"
+
+[[files]]
+file = "kubejs/data/mekanism/recipes/injecting/concrete/red.json"
+hash = "882d1abb74c4a5d144e06d49a715573b1ed4954a38df2db32377fa83f9f47efb"
+
+[[files]]
+file = "kubejs/data/mekanism/recipes/injecting/concrete/white.json"
+hash = "f112b4f159906d19f2cfb19e5cee9736bb30b5161386ab023bcd040c6eb55237"
+
+[[files]]
+file = "kubejs/data/mekanism/recipes/injecting/concrete/yellow.json"
+hash = "b960c3a434a5c0bb9564c2d7112c380700cfa05ea98be5fac22f5654901fca68"
+
+[[files]]
+file = "kubejs/data/mekanism/recipes/processing/lategame/plutonium_pellet/from_reaction.json"
+hash = "2d267cc453c489888b764ebd7d36ff352f4e008e65ab0f21eb87ab4a369f14f7"
+
+[[files]]
+file = "kubejs/data/mekanism/recipes/reaction/substrate/ethene_oxygen.json"
+hash = "6312b47d4a58d8c7ff7cd539b793b7b9d25ed3e68f4d626f1db475f5095abbb5"
+
+[[files]]
+file = "kubejs/data/mekanism/recipes/rotary/brine.json"
+hash = "bb3f3ab810eb92c4ffd94056c16c8adb662b5d908ee3dbda30212dd5a1747b50"
+
+[[files]]
+file = "kubejs/data/mekanism/recipes/rotary/chlorine.json"
+hash = "e863a116dee09669b049980ac03c4de49ea7d4e7307c35c4b93fe42b1f03302a"
+
+[[files]]
+file = "kubejs/data/mekanism/recipes/rotary/ethene.json"
+hash = "165d7134d81b046ecc8fcec783072190e26702afa75638b9ca8b98850f052bfe"
+
+[[files]]
+file = "kubejs/data/mekanism/recipes/rotary/hydrofluoric_acid.json"
+hash = "3322fc6f944f6728f29e9dbd8b301d3869dcaa0536c078258ebc75faef809e0b"
+
+[[files]]
+file = "kubejs/data/mekanism/recipes/rotary/hydrogen.json"
+hash = "f41f7912b554484bce247df592231ded795bf5968401e52e77710f84484e44fd"
+
+[[files]]
+file = "kubejs/data/mekanism/recipes/rotary/hydrogen_chloride.json"
+hash = "c0fb2be17c86d5e7c1e1d07afc5645044cf8c557bc8b1fe2c41a61c9b8971b70"
+
+[[files]]
+file = "kubejs/data/mekanism/recipes/rotary/lithium.json"
+hash = "e62756b17dc50e62cf1c427aca5fe05e072c83cf4ebec7ca73dfb7f51a2b44dd"
+
+[[files]]
+file = "kubejs/data/mekanism/recipes/rotary/oxygen.json"
+hash = "67e8eeacbaa4bd573161ee6da9414c8ee701cc865ecc4b09544936fd24ae0805"
+
+[[files]]
+file = "kubejs/data/mekanism/recipes/rotary/sodium.json"
+hash = "ccbdffeda6a4e9877a4280f1f01e94ff733c0fb7e6ae32bcca642c27e4be685c"
+
+[[files]]
+file = "kubejs/data/mekanism/recipes/rotary/steam.json"
+hash = "a9d029d3df5bc1c27fe53b1bfc5707b348e14ba169ebf38e19c87fbb9bddc057"
+
+[[files]]
+file = "kubejs/data/mekanism/recipes/rotary/sulfur_dioxide.json"
+hash = "733971e426bdf07ffc52be9000210fa3f2edf7cdd2aee8529ccf5451aaa1b2d0"
+
+[[files]]
+file = "kubejs/data/mekanism/recipes/rotary/sulfur_trioxide.json"
+hash = "798dc3cbdee42dda95c2ed1782b32e10d4ac681221c87756b5141dbda4d679fb"
+
+[[files]]
+file = "kubejs/data/mekanism/recipes/rotary/sulfuric_acid.json"
+hash = "aa780e4b113f571379a9d3f9d6be0b05c3165ea04a8c8b5a7b84af9ba0f7623b"
+
+[[files]]
+file = "kubejs/data/mekanism/recipes/rotary/superheated_sodium.json"
+hash = "3fcf33d5d3fd192d1d17afc6304886c89057de8b4f7fff417f9bda2e51b31927"
+
+[[files]]
+file = "kubejs/data/mekanism/recipes/rotary/uranium_hexafluoride.json"
+hash = "4e37b45af5cd70673339f0e5e5f443399e797a580e051b3ab6d4873dbe5dea57"
+
+[[files]]
+file = "kubejs/data/mekanism/recipes/rotary/uranium_oxide.json"
+hash = "c4937f39447098ed2700eb90350cb06a9c687b402548dd6820492e55b14e0830"
+
+[[files]]
+file = "kubejs/data/mekanism/recipes/rotary/water_vapor.json"
+hash = "e1d4c53110566f0c21f80baca5d0ab4f27a62f0846881014a9ed12f4bff8a0c0"
+
+[[files]]
+file = "kubejs/data/tetra/item_effects/aquatic.json"
+hash = "2a33e521a874328789ab2d033c5bd73bbe2e5f8f68d9eb1cecc7f8c2ab5075ae"
+
+[[files]]
+file = "kubejs/data/tetra/item_effects/brittle.json"
+hash = "ae2e808fd9b8403db318f93d435823e70b7cd1989f62a9a680adaeb2ee26be63"
+
+[[files]]
+file = "kubejs/data/tetra/item_effects/burning.json"
+hash = "9497cf3789f85abb9ffeec7d4f7a5cddfe4d62b788548d2397ccaca0a1c29684"
+
+[[files]]
+file = "kubejs/data/tetra/item_effects/cursed.json"
+hash = "8c428d82b9ded1852270467e7efa282d2abefbcaf8cd4e0ec47f9bff84044614"
+
+[[files]]
+file = "kubejs/data/tetra/item_effects/explosive.json"
+hash = "fd4e6045a9497365879d0ef4cb1d5529a68c5d5ea3ec6f02fd73e851eca42e17"
+
+[[files]]
+file = "kubejs/data/tetra/materials/bone/dropbear_claw.json"
+hash = "e2f5b27c33c8c58b408a55b8837444f4d48f25f36c0de0476875c8fd026e586f"
+
+[[files]]
+file = "kubejs/data/tetra/materials/bone/fish_bones.json"
+hash = "a401cb5f942ba9fb70e6c097f41f90340d4d55d6486357ff5a6cfc29df865b58"
+
+[[files]]
+file = "kubejs/data/tetra/materials/bone/frostwalker_horn.json"
+hash = "d3ff901705ac4ec353c1516a26fb8b2684d835a3dfb50d3b3d694b31984e6292"
+
+[[files]]
+file = "kubejs/data/tetra/materials/bone/gazelle_horn.json"
+hash = "934a14b29f73db31a2570ea50220f0b50cdd9082bc10bb0346fab8eb06b8a328"
+
+[[files]]
+file = "kubejs/data/tetra/materials/bone/koboleton_bone.json"
+hash = "3e19259311ad8c1d7b7c2473e50ec63999d28aa42f9f8376402f357d39d5978d"
+
+[[files]]
+file = "kubejs/data/tetra/materials/bone/monstrous_horn.json"
+hash = "264a63a6142a531230b9f45c5618ef8f2af8ca442df8fc2c29d1ed63483be5fa"
+
+[[files]]
+file = "kubejs/data/tetra/materials/bone/moose_antler.json"
+hash = "fc855ea0ecc66fca2f954914d413edb0d4672ac7769f9d91441a95fb3e681a29"
+
+[[files]]
+file = "kubejs/data/tetra/materials/fabric/bison_fur.json"
+hash = "18e95f8bc172fe5a408ab6763ee58c48d7e4f96da89519328abf242345dab6f4"
+
+[[files]]
+file = "kubejs/data/tetra/materials/fabric/emu_feather.json"
+hash = "b34055d38738db232bfdd83dec8aa2c5d612ed2a5d01768105b0ab1cf25ed93c"
+
+[[files]]
+file = "kubejs/data/tetra/materials/fabric/feather.json"
+hash = "a90360734997565004a74ef3e5f21978c3d1152bbecab4e8e5b5dabe1653d5c6"
+
+[[files]]
+file = "kubejs/data/tetra/materials/fabric/roadrunner_feather.json"
+hash = "3e14a06f2a24e70851415cffa4b6d84f75fcd66b7fef75571172dec5785e8354"
+
+[[files]]
+file = "kubejs/data/tetra/materials/fibre/cockroach_wing.json"
+hash = "44ebda2387bd9afb518ab928f674cb2e2306d08daef2f23fb1ff344a5b088b94"
+
+[[files]]
+file = "kubejs/data/tetra/materials/fibre/copper_wire.json"
+hash = "ad86de423e08cf49d0682f2e713d999822929cda5b3a98bab5b89d7941eb04df"
+
+[[files]]
+file = "kubejs/data/tetra/materials/fibre/elastic_tendon.json"
+hash = "efea361f33bd67035e1d8ccf5cbdfb76673ae9c3422ffba87740b1f8138b1ed0"
+
+[[files]]
+file = "kubejs/data/tetra/materials/fibre/electrum_wire.json"
+hash = "fb11d1d6227adc44f8a023c5da6304489d682057ba36bd6b54fe66a2e79ca523"
+
+[[files]]
+file = "kubejs/data/tetra/materials/fibre/gold_wire.json"
+hash = "5e8469929fdd9beba53d75d831c09e98fae344b2654ab0c1c499cdc9d80cf773"
+
+[[files]]
+file = "kubejs/data/tetra/materials/fibre/iron_wire.json"
+hash = "99c7878b07b0c0eb7ecc52f5deb36efcfb351ed096a979cb1ac84a001a0073b6"
+
+[[files]]
+file = "kubejs/data/tetra/materials/fibre/tarantula_hawk_wing.json"
+hash = "4b55701304be53d3269d7d45bb69f06fb47e87f36bb57f981fa953d9a98cb85e"
+
+[[files]]
+file = "kubejs/data/tetra/materials/gem/point_kether.json"
+hash = "bd0439e6664d23d1a2f55539a156486a898ac9d2475735dfacee1834a648b024"
+
+[[files]]
+file = "kubejs/data/tetra/materials/gem/point_malkuth.json"
+hash = "36a6cf676b0dfde69a6b1bba04d61ae4e55e41bf68358d1c5d02b34487176067"
+
+[[files]]
+file = "kubejs/data/tetra/materials/gem/point_tiperath.json"
+hash = "5edf75c2c0ed116b2c83bc82fb85f4d394edd0c472f69811bc1736cdb977f5e8"
+
+[[files]]
+file = "kubejs/data/tetra/materials/gem/point_yesod.json"
+hash = "f46df591937822dc6fc7ae585fda7c90c5f0bf28e7c9aecae5f5d4f89bfb4ba1"
+
+[[files]]
+file = "kubejs/data/tetra/materials/metal/alloy_atomic.json"
+hash = "c53b4afb01087897ea08b3e39f36974ee326ec1a1327331a8d26622535733dc6"
+
+[[files]]
+file = "kubejs/data/tetra/materials/metal/alloy_infused.json"
+hash = "ac1f39771fdb464bc531016753f9bef71520ad6867767c3df42b8cacb61859fc"
+
+[[files]]
+file = "kubejs/data/tetra/materials/metal/alloy_radiance.json"
+hash = "89b2cb48a8971cb12e5608a794b79544f1d1cde2d3cd3742251d734bec118360"
+
+[[files]]
+file = "kubejs/data/tetra/materials/metal/alloy_reinforced.json"
+hash = "3fc79a28e237381d372d7ea013b3026d2b1dc9bbff9df0ddd6ef07779528f474"
+
+[[files]]
+file = "kubejs/data/tetra/materials/metal/alloy_shining.json"
+hash = "84abf1fe4255315b0008d4b536360a0b45f1bc57f83fd31d1306d5943680e93b"
+
+[[files]]
+file = "kubejs/data/tetra/materials/metal/alloy_spectrum.json"
+hash = "301762b99697c5ee4e1fb444670a1349579a91e56a00076b31d2e5f6fbd78c48"
+
+[[files]]
+file = "kubejs/data/tetra/materials/metal/ancient_metal_ingot.json"
+hash = "337e984bcae11cc4a9f68a4fa0ae39a6420ab038c8404e86d4bfe5a3131c4459"
+
+[[files]]
+file = "kubejs/data/tetra/materials/metal/black_steel_ingot.json"
+hash = "d7de103088da8f9e01162ac31defd7d17b6cc409f60756a298e697d80b2505a2"
+
+[[files]]
+file = "kubejs/data/tetra/materials/metal/conductive_alloy_ingot.json"
+hash = "b49d5c215444bf22f40cbf7e1f71223057c95a13b08118e8ef711e30a47cc6d3"
+
+[[files]]
+file = "kubejs/data/tetra/materials/metal/copper_alloy_ingot.json"
+hash = "a96136c10625a775c91ed67b859b567bed6e62b9cbb9420f97a16b0ca5ecdca1"
+
+[[files]]
+file = "kubejs/data/tetra/materials/metal/create_andesite_alloy.json"
+hash = "14c28b9acbeed61a5054c281b73696f44b24ab86b6eecdbc1ee9ec9ac96c4f99"
+
+[[files]]
+file = "kubejs/data/tetra/materials/metal/create_brass.json"
+hash = "97de0e5a6ae201793bcb49b545ffec447e78068f0f88eec8eb449d4ff73ef772"
+
+[[files]]
+file = "kubejs/data/tetra/materials/metal/create_refined_radiance.json"
+hash = "a1c8955738d8fdf8ee4cccb5ee0f6cc0833cfabeb3075e4baba60cfc9aadfa11"
+
+[[files]]
+file = "kubejs/data/tetra/materials/metal/create_shadow_steel.json"
+hash = "dd2e7cf3ce3a9bd041c0232995ad896eb6da2ec589fc8ae41bdc5427f0fff89a"
+
+[[files]]
+file = "kubejs/data/tetra/materials/metal/cursium_ingot.json"
+hash = "10db66858b606c7778a3cbfd94c84ee6671e7a5d4ad682302ad6285a72dc259f"
+
+[[files]]
+file = "kubejs/data/tetra/materials/metal/dark_steel_ingot.json"
+hash = "8e45654a7eaf5d73356e14bd6c1645f70a01f1024e1685c26b448a82110c0c78"
+
+[[files]]
+file = "kubejs/data/tetra/materials/metal/deorum_ingot.json"
+hash = "189eb725b21bcb8aee7510ae4ade43b7cac336a5a19c201ec84778f6e5fdad7c"
+
+[[files]]
+file = "kubejs/data/tetra/materials/metal/dimension_alloy_aether.json"
+hash = "2aea84c7c27e9964e3ed83daaf199e456ab28244285309a5de0e6d3249fba6ba"
+
+[[files]]
+file = "kubejs/data/tetra/materials/metal/dimension_alloy_nether.json"
+hash = "3a0acceab24e3998061a3e797f9b5eb818c0d8d9cbf171e6a0557f3e610aa737"
+
+[[files]]
+file = "kubejs/data/tetra/materials/metal/dimension_alloy_overworld.json"
+hash = "b1ab964ba2d430c28e47137835a1fa0023db8fcec4f6b1a48efd94c1932e141c"
+
+[[files]]
+file = "kubejs/data/tetra/materials/metal/dimension_alloy_the_end.json"
+hash = "ac5c3a2292dd89e30fd22c49b1b5c5e07dbbe55efce69ad7144f6dcde2146fea"
+
+[[files]]
+file = "kubejs/data/tetra/materials/metal/end_steel_ingot.json"
+hash = "5e49720316d014b85cdd25a16e27a6f1df00cc66f6ace5722ce6b18220f0f049"
+
+[[files]]
+file = "kubejs/data/tetra/materials/metal/ingot_iron_compressed.json"
+hash = "b3d74b8e94666b5b8fe39f091b243965eafe936cebfb18dd37bb13a1a7d1ac88"
+
+[[files]]
+file = "kubejs/data/tetra/materials/metal/obsidian_ingot.json"
+hash = "a0b0246cb4313ae86562bc9d9960db265beb5b4e97b254b43cdb081182f4320d"
+
+[[files]]
+file = "kubejs/data/tetra/materials/metal/prismarine_alloy.json"
+hash = "f5b5b40a0ad30d79c697eacd8bddda1d2689b8f90780cdcf20d1be268b8101ee"
+
+[[files]]
+file = "kubejs/data/tetra/materials/metal/pulsating_alloy_ingot.json"
+hash = "13aed06776afa4a49bc31711f1dfde3838f7f49c216a5a477ded0977cd0f3ea9"
+
+[[files]]
+file = "kubejs/data/tetra/materials/metal/redstone_alloy_ingot.json"
+hash = "7421c3a5d0cb807c912b14b7d79546903b2c218ddb8dfc211bde0e81bad4e678"
+
+[[files]]
+file = "kubejs/data/tetra/materials/metal/soularium_ingot.json"
+hash = "9eddfe78bcea7dffdf6bb951ac0af5814552fc83cb15d9eeeb3412b9be642de0"
+
+[[files]]
+file = "kubejs/data/tetra/materials/metal/stratus_ingot.json"
+hash = "57b46ee8ca680c6a2e6d06a133edf6c48c6cc42c52f4e93159e978373e9009c4"
+
+[[files]]
+file = "kubejs/data/tetra/materials/metal/thermonuclear.json"
+hash = "f35671bcd744da2ab716d858408e50fa64882b318d40140068fd071cee756501"
+
+[[files]]
+file = "kubejs/data/tetra/materials/metal/vibrant_alloy_ingot.json"
+hash = "8a4cc3627bec35558f78843711c265ee90c0bb419258fa7301cbe11b65b825f4"
+
+[[files]]
+file = "kubejs/data/tetra/materials/metal/void_steel_ingot.json"
+hash = "9e6759d1dce26faff9b8c129913624cf170da109199ba07fb6fedbfd1111e89f"
+
+[[files]]
+file = "kubejs/data/tetra/materials/rod/brass_rod.json"
+hash = "df3c04b7af6142a4a57b0aa114859f05dc2032fd32575144e56be164f0772a0d"
+
+[[files]]
+file = "kubejs/data/tetra/materials/rod/copper_rod.json"
+hash = "90b0cbdf638edad20da8425b5fcf7ab4441e89c2bc439f98a101eeb4deeab85f"
+
+[[files]]
+file = "kubejs/data/tetra/materials/rod/electrum_rod.json"
+hash = "25fed03eb18d2c8782533efab054e4d2d76666b6ccd98cfaa2f35c39a7bd1aec"
+
+[[files]]
+file = "kubejs/data/tetra/materials/rod/gold_rod.json"
+hash = "eb48ecf79722f8d4627f6b59c98bd5383629915724ecf42d7134968349c824ea"
+
+[[files]]
+file = "kubejs/data/tetra/materials/rod/iron_rod.json"
+hash = "08fafd8f4cd0da28ba5f58dd7d57d5d63bb63e79b2ba3e6de9bc7cd9b71c0e5d"
+
+[[files]]
+file = "kubejs/data/tetra/materials/rod/mosquito_proboscis.json"
+hash = "0a186c409f80f3c6d90acefd161d03c5a10dfb9c120132a9d1f30fc011f7f5fe"
+
+[[files]]
+file = "kubejs/data/tetra/materials/scale/amethyst_crab_shell.json"
+hash = "83eca3c8764f23040d74825b86436267483f821bfafdaf54da92f4a90a6a98cf"
+
+[[files]]
+file = "kubejs/data/tetra/materials/scale/centipede_leg.json"
+hash = "6dc4d63db4a4ebe72ff7eaa40a50cd7592191b1007f2dd6ed423ba52a9c111ce"
+
+[[files]]
+file = "kubejs/data/tetra/materials/scale/crocodile_scute.json"
+hash = "8e4daee3e05c46a0705590e26c8f6e682a21e1fcde31dcf038d5c0a91db9b474"
+
+[[files]]
+file = "kubejs/data/tetra/materials/scale/nautilus_shell.json"
+hash = "f0db20513d79c2ac7ba06be7865ddee54a090e1e8b71943f3b3de0aca1b4aea2"
+
+[[files]]
+file = "kubejs/data/tetra/materials/scale/rocky_shell.json"
+hash = "f64e7d8e38acf112b8382895d1abf07b137ada7a7f0340601c608b166f2bdeb6"
+
+[[files]]
+file = "kubejs/data/tetra/materials/scale/spiked_scute.json"
+hash = "c58e7a1683b89785e26b85ea267bb8f94fbdda871bebd7bf4ccea584a4a23049"
+
+[[files]]
+file = "kubejs/data/tetra/materials/scale/void_jaw.json"
+hash = "c2b35ee4a3870b1ede67bf331c48c42f1c29a9adf735948c207d736437971687"
+
+[[files]]
+file = "kubejs/data/tetra/materials/skin/farseer_arm.json"
+hash = "d9723d8157c6c434856fd55dd6d34f56506b5cee7508485b410d7c89f73d1137"
+
+[[files]]
+file = "kubejs/data/tetra/materials/skin/kangaroo_hide.json"
+hash = "ab6c49b6d6d229f2eb7fdb91fb4c987989a188094d0e317093ba163878d01e55"
+
+[[files]]
+file = "kubejs/data/tetra/materials/skin/lost_tentacle.json"
+hash = "dabd836946119c85fe1da9676c511e444d904fc4235a8f01eec3bf61fbbf3e43"
+
+[[files]]
+file = "kubejs/data/tetra/materials/skin/rattlesnake_rattle.json"
+hash = "dddbb8873cf90d67dc9c44317b54b0b0d0ab457529523df8c95f89514cb94279"
+
+[[files]]
+file = "kubejs/data/tetra/materials/skin/shed_snake_skin.json"
+hash = "63b821aaff6bdbb0e92e55303983a5bcfcea32ee4d0e39d9836130609322a7f3"
+
+[[files]]
+file = "kubejs/data/tetra/materials/socket/abyssal_sacrifice.json"
+hash = "661950ec6fff075d6df5278f73757e2885db709ad05e540f6d1982f5c6443e21"
+
+[[files]]
+file = "kubejs/data/tetra/materials/socket/ambrosium_shard.json"
+hash = "6033a1378f35e01c025c19ab54a010d0f229e203d4426fbb7aeecf7057c25e06"
+
+[[files]]
+file = "kubejs/data/tetra/materials/socket/coin_netherite.json"
+hash = "dcb60d8c7b17a844d451dae33b76d7088cee0be4cf65a320ffa2c94d06e751d9"
+
+[[files]]
+file = "kubejs/data/tetra/materials/socket/crystallized_coral.json"
+hash = "ed43bec964eab52d65c8bfeee3f38161f17836b0427b03aec9abe58da9e5c1e9"
+
+[[files]]
+file = "kubejs/data/tetra/materials/socket/enchanted_gravitite.json"
+hash = "f1edbdf3c4f701c0a7e47ee7330db4ee485b71ed4f3d8b12e5a4f4b8a50dcfc8"
+
+[[files]]
+file = "kubejs/data/tetra/materials/socket/experience_nugget.json"
+hash = "606cd3a3ed21f7c9ddae69ffac18c714ebd771da2598025c100955cbcab82ec0"
+
+[[files]]
+file = "kubejs/data/tetra/materials/socket/guster_eye.json"
+hash = "828a0de7dacefe2f03377415807f35fd1e8aa8c07554e112d3d7bcdcd6872e5e"
+
+[[files]]
+file = "kubejs/data/tetra/materials/socket/mimicream.json"
+hash = "c3b63febd4e73224284d02b70f8c4d0fb87b2de34ca59d6bab2045c8df88325c"
+
+[[files]]
+file = "kubejs/data/tetra/materials/socket/philosophers_stone.json"
+hash = "74688cb9704bc26dd400ac3e57bb3dd71633c0df9db058817041cb133c0b7805"
+
+[[files]]
+file = "kubejs/data/tetra/materials/socket/point_binah.json"
+hash = "64a26783dbc12a76ed954984097b3457ca4696d79c48b8c0f784d124e624ca7b"
+
+[[files]]
+file = "kubejs/data/tetra/materials/socket/point_chesed.json"
+hash = "ef736f687880a42ba2bd84f0bd1558bf0c5989ec0c222cc6be8d668a9e673738"
+
+[[files]]
+file = "kubejs/data/tetra/materials/socket/point_chokmah.json"
+hash = "2c9ea67d5aa224f75b17b0f6c8fab248bc7728477bf15ad3c7636386542d0f68"
+
+[[files]]
+file = "kubejs/data/tetra/materials/socket/point_geburah.json"
+hash = "88264d68f482ceef99930c53d0ca7385eb3f26aa103adfe995909772120df638"
+
+[[files]]
+file = "kubejs/data/tetra/materials/socket/point_hod.json"
+hash = "8719d1f748a1812c7ff90df353cce66f3facdf7b74637d6fd1eb4b0bbd0d5601"
+
+[[files]]
+file = "kubejs/data/tetra/materials/socket/point_netzach.json"
+hash = "730624ad987ae04226f730f8d92b8ab6005e1250430c73dde0af132a8248cf8f"
+
+[[files]]
+file = "kubejs/data/tetra/materials/socket/skreecher_soul.json"
+hash = "fc35eccbaf61e4b6a80cfc51ac413f83235343b548c73b2aae089155780b557a"
+
+[[files]]
+file = "kubejs/data/tetra/materials/socket/skyjade.json"
+hash = "b2cecd882ad8ff909fbcf81e223edabeb0ca3539808f5e08349068693e1bf1e6"
+
+[[files]]
+file = "kubejs/data/tetra/materials/socket/zanite_gemstone.json"
+hash = "dfebfdf8618a78349756bb30e6afda39c5c0f7046e19063925192e68c724a5de"
+
+[[files]]
+file = "kubejs/data/tetra/materials/stone/create_asurine.json"
+hash = "9c36367f7c1c8fa3d1908696d1ff8c7c6e1a09bc0b9c3129b33f700c6472fd6e"
+
+[[files]]
+file = "kubejs/data/tetra/materials/stone/create_crimsite.json"
+hash = "087e7ff0e233970001fd8ae468b408cd426ba28e45fc1e9a1e0bcad795c8dc46"
+
+[[files]]
+file = "kubejs/data/tetra/materials/stone/create_limestone.json"
+hash = "51835f16e43c598503d59e5050e559857bc83478d4d77f5a7e0aee037a16369e"
+
+[[files]]
+file = "kubejs/data/tetra/materials/stone/create_ochrum.json"
+hash = "6452af79e15f728de60483cf1a13ddd8dae487afcbcfdbcd8d1758b0110da0b7"
+
+[[files]]
+file = "kubejs/data/tetra/materials/stone/create_scorchia.json"
+hash = "3e0b4225291ebe96cf76e7325500ff79fcec3c2c4df56264dfe784ab907789d9"
+
+[[files]]
+file = "kubejs/data/tetra/materials/stone/create_scoria.json"
+hash = "b01d433a152ccfa18ccba55c974710e9c7522cf72c43b8f995469e23bb07c89a"
+
+[[files]]
+file = "kubejs/data/tetra/materials/stone/create_veridium.json"
+hash = "b1154a62d4a50782b8e43507b033d13578fcf1f7435d1ba0bee5bde0f241bc4d"
+
+[[files]]
+file = "kubejs/data/tetra/materials/stone/straddlite.json"
+hash = "93df04db1117a332ce45bc2170294b7ac118fc5091b7a2e474679af63454be3b"
+
+[[files]]
+file = "kubejs/data/tetra/materials/stone/void_stone.json"
+hash = "4901b7790dfd08a2ed41f416f3b6ac8dbab0ba6062e62d582dd5384b7952ded2"
+
+[[files]]
+file = "kubejs/data/tetra/materials/wood/bamboo_planks.json"
+hash = "ad26f4a884431c1ceb0f523a7889d507d83716efcc8e158617d71a5c64977e09"
+
+[[files]]
+file = "kubejs/data/tetra/materials/wood/canopy_planks.json"
+hash = "09fd392f9c6ca49dec7d346acce2dd07d293761983f518354f8530b3344cf61e"
+
+[[files]]
+file = "kubejs/data/tetra/materials/wood/chorus_planks.json"
+hash = "da0b67c3c7d3c5c61c32ef7f4203d8216c4382718f3ce2baf76579f4449436e4"
+
+[[files]]
+file = "kubejs/server_scripts/Tweaks/fix_death_bug.js"
+hash = "c9dbda82908db8d90ba932150d175a478eb2f1d6dd999fda90af637c8bc46848"
+
+[[files]]
+file = "kubejs/server_scripts/Tweaks/recipes.js"
+hash = "2fc3548c7abc393f0447b3bf85a2057f2a4bd2fa41d6dc3a66108c26037f635e"
+
+[[files]]
+file = "kubejs/server_scripts/Tweaks/tags.js"
+hash = "210993c05168f095ddec6869479241c6f39bdaa7d540d8e09b736d1033ebd43a"
+
+[[files]]
+file = "kubejs/server_scripts/modpack/recipes.js"
+hash = "9a1ed5a3e281a43579bfa709d030fecba2036a27dd2f56f575ec9d12194fcf3f"
+
+[[files]]
+file = "kubejs/server_scripts/mods/Farmer's Delight/Compatibility.js"
+hash = "b3b09fc1ee57a12e8e795144793998745f82a04bc1c3aca7bef8682c1c47c6f9"
+
+[[files]]
+file = "kubejs/server_scripts/mods/Farmer's Delight/tags.js"
+hash = "fa1e38c96c2e9bdfd31bd9dc156ee3148063b5d071e00373e0cc1540936ef8d1"
+
+[[files]]
+file = "kubejs/server_scripts/mods/Lightmans Currency/Recipes.js"
+hash = "c2a411db03cf1e6c704aa8df34d4437389576e56b99359ebd2d84e8124a15520"
+
+[[files]]
+file = "kubejs/server_scripts/mods/Mekanism/Rebalance/rebalance.md"
+hash = "a53ca890a006a372730ec026a04964d2c48bf5fe0a593794b663f2048c957952"
+
+[[files]]
+file = "kubejs/server_scripts/mods/Pneumaticcraft/tags.js"
+hash = "11345e8d01e26eab456f4602b0ba3f9fecd60a5b9e7c1f4072ade76d25bf0ea9"
+
+[[files]]
+file = "kubejs/server_scripts/mods/Regions Unexplored/Recipes.js"
+hash = "94e9ef05d38a171fa105bf3c596008120fe254fc4bdbc96ab5e172c8f708e13d"
+
+[[files]]
+file = "kubejs/server_scripts/mods/aether/recipe.js"
+hash = "cc33f63a45ae4123fdc4163a23115aef40eacdead3bf7bb65140f68d2464b8b8"
+
+[[files]]
+file = "kubejs/server_scripts/mods/apotheosis/recipe.js"
+hash = "d4794f377e4c1fef40f439e35d2446b318dfaf9b3ab57332842d9be3c62dcdd0"
+
+[[files]]
+file = "kubejs/server_scripts/mods/apotheosis/recipes.js"
+hash = "1028c08170d2350a7ce57f2989d7cb4365c3f05a19a6bf72d10dc9280b15ab13"
+
+[[files]]
+file = "kubejs/server_scripts/mods/art of forging/recipe.js"
+hash = "bd2aeb15abe3b57b53521bafbbd4d2effa980124b9ebeb95b6cc5cb2136bced3"
+
+[[files]]
+file = "kubejs/server_scripts/mods/forbidden_arcanus/recipes.js"
+hash = "7a78a43dfc7786cdf7f0b66fbe3a2cbf0fd4dbcfd57842067c1717b60baf9f25"
+
+[[files]]
+file = "kubejs/server_scripts/mods/projecte/recipes.js"
+hash = "6451f0ae86bd9ecf33911624ce702f654acc77e841afcfa69ffbb805abef748a"
+
+[[files]]
+file = "kubejs/server_scripts/mods/tarodcards/Recipes.js"
+hash = "1b6ba0261db7c1edbf581fdd6d01da782a99987567567cd6006e91658c02dadb"
+
+[[files]]
+file = "kubejs/server_scripts/mods/tetra/recipe.js"
+hash = "d2e88a3eabd011fef7b3b1a95c369631863f7cfe40bef3fb010009696dc5d58c"
+
+[[files]]
+file = "kubejs/startup_scripts/CustomAdditions.js"
+hash = "a863ea428699b0530a43ec0d690f6f3a64214dc1fdce9370585e3ad158555c08"
+
+[[files]]
+file = "kubejs/startup_scripts/phase.js"
+hash = "fa8bad0341bb3137435ab627226985083ca12e4fc96bb7c5acf9d4815d377c7f"
 
 [[files]]
 file = "mods/3dskinlayers.pw.toml"
@@ -645,6 +1921,26 @@ hash = "5ec0c37f3f4ad07a40c10376668bca80334ddb7ad2bab06eb4de8f7aac339c8e"
 metafile = true
 
 [[files]]
+file = "mods/emi-enchanting.pw.toml"
+hash = "3a728230bfbaf61c1fb3a102bcf320b63a0a132c149b0b827eaf1ce0a52e3fef"
+metafile = true
+
+[[files]]
+file = "mods/emi-loot.pw.toml"
+hash = "5d6004ca876efde3d87e789b18c6e3c54be63ccab8b733d3f1b7c74f39f29eda"
+metafile = true
+
+[[files]]
+file = "mods/emi.pw.toml"
+hash = "f0b4372343e873512d57e5ee877f37362f8dde8e75771075abe44686509294b9"
+metafile = true
+
+[[files]]
+file = "mods/emiffect.pw.toml"
+hash = "f9f6ab1a6f68298710ca37f82503969531856c67138c4049f20c134d8b70dc55"
+metafile = true
+
+[[files]]
 file = "mods/enchantment-descriptions.pw.toml"
 hash = "473489bb165ab775858cc475d8e9ae599e126bced1c73d17563e3459e4899719"
 metafile = true
@@ -757,6 +2053,11 @@ metafile = true
 [[files]]
 file = "mods/ftbchecker.pw.toml"
 hash = "1cdb66e635537b30f9d7c5c5964be9cb9f79a65bfcd2c92d88c9a155ab17665c"
+metafile = true
+
+[[files]]
+file = "mods/fzzy-config.pw.toml"
+hash = "9e5fe7493fe0106d7c8e2a4a15ee3426c204db1d884ece072bd3cfd8399be9ca"
 metafile = true
 
 [[files]]
@@ -1386,7 +2687,195 @@ metafile = true
 
 [[files]]
 file = "options.txt"
-hash = "72bdb6a913a061f04d28f5f12f54d368ca973704585b505b54bec3ff072a66e6"
+hash = "0aee43d5d6a27fce7f2ae86822b8ec9d668be9b4dea6536f9bd9c8d185264b8e"
+
+[[files]]
+file = "patchouli_books/treeoflife/book.json"
+hash = "dc867a77a5a6b8bd91b62e35e4aa9cfbd5232dfdabe4111e337514243a8cfa27"
+
+[[files]]
+file = "patchouli_books/treeoflife/en_us/categories/advance.json"
+hash = "16f72a8ab2109b61cac930825f67a1f489f34646eda8f5aca1f117a61ddce289"
+
+[[files]]
+file = "patchouli_books/treeoflife/en_us/categories/history.json"
+hash = "d26dfc43dd6f271e1ac9c58c9408eaa57293cee12494e598b6c3e4a2dd3d53c6"
+
+[[files]]
+file = "patchouli_books/treeoflife/en_us/categories/unknownletter.json"
+hash = "372d1acc7b83b605eb19e40bbf9b380484662d363e5e6e327335f7ded21efc2f"
+
+[[files]]
+file = "patchouli_books/treeoflife/en_us/categories/world.json"
+hash = "4b8315ccc8d5fc91936c189eb456eba374982367d29d8dbd51306f619ed23eab"
+
+[[files]]
+file = "patchouli_books/treeoflife/en_us/categories/you.json"
+hash = "c0ef5c9b4d1dcfd1afb6028cd307bd9d3a10e6e9f15fae367f5496aa498b4ca0"
+
+[[files]]
+file = "patchouli_books/treeoflife/en_us/entries/advance/essence.json"
+hash = "0bb0c23e1d749fa9b50998ada0f1af0be2d192d08e2b8d1e6b606a65d60cb425"
+
+[[files]]
+file = "patchouli_books/treeoflife/en_us/entries/advance/guide.json"
+hash = "dc95d19323472726277136188a7ddcfea59ed4842a0ca47c82b9d4dc3a12a98b"
+
+[[files]]
+file = "patchouli_books/treeoflife/en_us/entries/advance/power_diff.json"
+hash = "9da74466354b4c2675bee483b09e5e8fc65ca82450e4f63b503fe3b8be8287b8"
+
+[[files]]
+file = "patchouli_books/treeoflife/en_us/entries/advance/relics.json"
+hash = "1a23c8296081d25181f35c343b85a09a9eca0609178cf57a49e28e00035a7386"
+
+[[files]]
+file = "patchouli_books/treeoflife/en_us/entries/history/behind_world.json"
+hash = "a609c693d1549e0e79627de62a86045b4a385c0de792273e70981eae45e65585"
+
+[[files]]
+file = "patchouli_books/treeoflife/en_us/entries/history/death.json"
+hash = "9084f26e197ea41c2f901995f6d8ea22ee67aa50add7af78cda6529ba27f281b"
+
+[[files]]
+file = "patchouli_books/treeoflife/en_us/entries/history/past.json"
+hash = "bcb018e0d8d3741f70909fc5b279a1df888067d992c3494cb3b719eb2a2d2a41"
+
+[[files]]
+file = "patchouli_books/treeoflife/en_us/entries/unknownletter/found.json"
+hash = "e7c562df6be06fa915ae6ddf391585427903b7a40ad90677b91fffd200ea7265"
+
+[[files]]
+file = "patchouli_books/treeoflife/en_us/entries/unknownletter/nidavellir.json"
+hash = "f45f9f9d2d46834a746f64b6efb807c9bc431af92debdf51a421ea76d0460145"
+
+[[files]]
+file = "patchouli_books/treeoflife/en_us/entries/unknownletter/vanaheim.json"
+hash = "d4f6b785b445001ab2281110bb3bb05067a52fa14cd6a7fb1465776af3f98a40"
+
+[[files]]
+file = "patchouli_books/treeoflife/en_us/entries/world/chest.json"
+hash = "3c7c75c4a3729a1a019da96b98d9466bd7948aad2235d3babf6cfdda4bd908b1"
+
+[[files]]
+file = "patchouli_books/treeoflife/en_us/entries/world/diff.json"
+hash = "b437d62069b09ad6e4c0056eb7250bbfb642539012078f3b0e0ad0fea18b165a"
+
+[[files]]
+file = "patchouli_books/treeoflife/en_us/entries/world/recycle.json"
+hash = "6200702a3c857ac77e2546864a323e53fab29134ce1687b3558a48658c9aa247"
+
+[[files]]
+file = "patchouli_books/treeoflife/en_us/entries/you/coin.json"
+hash = "9691ec03eeba2282a4a7e4fcd9441d655fc6d64096191edc9e32b7846c160695"
+
+[[files]]
+file = "patchouli_books/treeoflife/en_us/entries/you/fate.json"
+hash = "274152321f50cc45c2e4840640e004e93333209e3312ef33ec38262c3033d5ab"
+
+[[files]]
+file = "patchouli_books/treeoflife/en_us/entries/you/outoffate.json"
+hash = "60962eb5b88fb34d41ead2a3ea92171b49d0178fc904106319adad74b78883da"
+
+[[files]]
+file = "patchouli_books/treeoflife/zh_cn/categories/advance.json"
+hash = "c1a3f9dc9d44afc3f4b5eb892d523ae843d3b8814d243679775876268c099e93"
+
+[[files]]
+file = "patchouli_books/treeoflife/zh_cn/categories/history.json"
+hash = "fd277c2ef90a4fa54c2d81a9c98df1101f88977c6ee395bca0607cf1e0a70948"
+
+[[files]]
+file = "patchouli_books/treeoflife/zh_cn/categories/unknownletter.json"
+hash = "bb29f4ceb482343ac90d9bf10c8a81fcae7aa3dd8c69c18fbf65e4226fcf66d7"
+
+[[files]]
+file = "patchouli_books/treeoflife/zh_cn/categories/world.json"
+hash = "20965f804750a88dae87cc098a5aa3ba18dd5d96b8365e3190be5477ba369741"
+
+[[files]]
+file = "patchouli_books/treeoflife/zh_cn/categories/you.json"
+hash = "e1d9d00bf6372395391506f90d0ff0db6120b99cf032d5c479c11e010b6e3c90"
+
+[[files]]
+file = "patchouli_books/treeoflife/zh_cn/entries/advance/essence.json"
+hash = "447aa166a0fb57b25acd6ce43f97093105d76fa639bdffaa61e51154a7305731"
+
+[[files]]
+file = "patchouli_books/treeoflife/zh_cn/entries/advance/guide.json"
+hash = "9b848e0e15593dc43f63cbeefe10f6c2489f3592e3d99de74ed0c418b3be51ce"
+
+[[files]]
+file = "patchouli_books/treeoflife/zh_cn/entries/advance/power_diff.json"
+hash = "355487cbc028231b319d1b99f007e93ce7a58d09fb2c0f2c4140f0e039a78f9d"
+
+[[files]]
+file = "patchouli_books/treeoflife/zh_cn/entries/advance/relics.json"
+hash = "b435764fae8f2a04c7738c091a8ef95c2e0c4d28f73c2e5365660e0634474ac1"
+
+[[files]]
+file = "patchouli_books/treeoflife/zh_cn/entries/history/behind_world.json"
+hash = "0b966f9baaaee272953ad703a5ab542194ef1015b8329d4bf9b425f028b7e13a"
+
+[[files]]
+file = "patchouli_books/treeoflife/zh_cn/entries/history/dawn.json"
+hash = "f387da315716a206163ff01120628afd7bba51b20bcdaa166532afc4f92d7df7"
+
+[[files]]
+file = "patchouli_books/treeoflife/zh_cn/entries/history/death.json"
+hash = "e563c59051930792bf5a68b1d98d57f20dc49949bfe14b0c0cc7fc04ef57a7da"
+
+[[files]]
+file = "patchouli_books/treeoflife/zh_cn/entries/history/dusk.json"
+hash = "0769ff36efe4065001a062da8fbde901df65299e670308180c107bc690fb4e2e"
+
+[[files]]
+file = "patchouli_books/treeoflife/zh_cn/entries/history/midnight.json"
+hash = "96bf9a652fb4510e83118a182c3e697c033265c1ab93cdbf89176fe444109593"
+
+[[files]]
+file = "patchouli_books/treeoflife/zh_cn/entries/history/noon.json"
+hash = "4b3468c051c054ac7fcf91cbff267d2f50f1d19dbe7131632aa7d00df7e3b675"
+
+[[files]]
+file = "patchouli_books/treeoflife/zh_cn/entries/history/past.json"
+hash = "eecd740da5b532b78a7c47230ca18048724962afb2704a120f22f6d9ea97d195"
+
+[[files]]
+file = "patchouli_books/treeoflife/zh_cn/entries/unknownletter/found.json"
+hash = "12f9253670b8d3f827d01bea67ffc9e6265d5a15d867aaeab7e3277159950189"
+
+[[files]]
+file = "patchouli_books/treeoflife/zh_cn/entries/unknownletter/nidavellir.json"
+hash = "32245221e2f458e9dfac541250bae9ffcc4e1f744c187e6bacfc3e384606c52d"
+
+[[files]]
+file = "patchouli_books/treeoflife/zh_cn/entries/unknownletter/vanaheim.json"
+hash = "e19aadde95e302ce2c6b862c925346eefd2d6ed7d6fd762cb17d74b7f8456f58"
+
+[[files]]
+file = "patchouli_books/treeoflife/zh_cn/entries/world/chest.json"
+hash = "fbe4f0d280357304d81adf241aa2546119644dd8a664c586deddaaba45675ec9"
+
+[[files]]
+file = "patchouli_books/treeoflife/zh_cn/entries/world/diff.json"
+hash = "67d570aa13b908fa09b28a0114ccfae01ed427fd85d6b5ba52cc772e31e3fe22"
+
+[[files]]
+file = "patchouli_books/treeoflife/zh_cn/entries/world/recycle.json"
+hash = "0acbfaca4d1d252cb0fd2081789a9308b19d2f118310e42261dc66772bc01b05"
+
+[[files]]
+file = "patchouli_books/treeoflife/zh_cn/entries/you/coin.json"
+hash = "508d2526d6ecc8a095fa7c042f63a5fbaf19d6ebe8eb351e6cb42c6a94a93b8f"
+
+[[files]]
+file = "patchouli_books/treeoflife/zh_cn/entries/you/fate.json"
+hash = "1edc4f3cac5f62d7e5107256cda2e24dda7f868953869bc49f5d14f6c8c7f01e"
+
+[[files]]
+file = "patchouli_books/treeoflife/zh_cn/entries/you/outoffate.json"
+hash = "16cd8d434e0d798f6b590f3fc565a83a55e7623681c373352955a9ade31aa72d"
 
 [[files]]
 file = "resourcepacks/excal.pw.toml"

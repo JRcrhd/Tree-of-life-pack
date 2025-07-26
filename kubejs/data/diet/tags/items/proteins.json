@@ -1795,6 +1795,38 @@
     {
       "id": "aethersdelight:raw_rabbit_meat",
       "required": false
+    },
+    {
+      "id": "aethersdelight:wing",
+      "required": false
+    },
+    {
+      "id": "aether:blue_gummy_swet",
+      "required": false
+    },
+    {
+      "id": "aether:golden_gummy_swet",
+      "required": false
+    },
+    {
+      "id": "aethersdelight:fried_moa_egg",
+      "required": false
+    },
+    {
+      "id": "aethersdelight:roast_moa",
+      "required": false
+    },
+    {
+      "id": "deep_aether:raw_quail",
+      "required": false
+    },
+    {
+      "id": "deep_aether:raw_aerglow_fish",
+      "required": false
+    },
+    {
+      "id": "aethersdelight:aechor_ice_cream",
+      "required": false
     }
   ]
 }
