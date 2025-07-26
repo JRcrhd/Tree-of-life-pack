@@ -11,7 +11,9 @@
 	quest_links: [ ]
 	quests: [{
 		dependencies: ["34BB2829CF60D94C"]
+		hide_until_deps_complete: true
 		id: "2FF701F56EC6BC13"
+		shape: "diamond"
 		tasks: [{
 			disable_toast: true
 			id: "76BCF761E0B3B98B"

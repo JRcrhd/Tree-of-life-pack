@@ -20,7 +20,7 @@
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["3B71B64AD29DC99E"]
+			dependencies: ["01A444FBE0404EA2"]
 			description: [
 				"我们能观察到的世界只是现实的一个侧面。一直以来，人类都希望能够彻底理解现实的无穷。"
 				""
@@ -30,6 +30,7 @@
 				""
 				"But after humans look at other sides, the existence of other sides will also look at humans......"
 			]
+			hide_until_deps_complete: true
 			icon: {
 				Count: 1
 				id: "ftbquests:custom_icon"

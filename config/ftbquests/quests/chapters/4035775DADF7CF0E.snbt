@@ -28,7 +28,7 @@
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["3B71B64AD29DC99E"]
+			dependencies: ["01A444FBE0404EA2"]
 			description: [
 				"长久以来一直有一种观点——人的命运在其灵魂中写就。基于这个观点，大量研究在神代结束之后开启。"
 				""
@@ -43,6 +43,7 @@
 				""
 				"…… Finally, related research was banned, and people called soul research goety. Scholars no longer bring up the matter......"
 			]
+			hide_until_deps_complete: true
 			icon: {
 				Count: 1
 				id: "patchouli:guide_book"

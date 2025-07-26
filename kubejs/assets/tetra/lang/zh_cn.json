@@ -1,7 +1,7 @@
 {
-    "itemGroup.tetra": "四面体",
-    "harvests.filter.tetra": "四面体",
-    "harvests.filter.tetra.tooltip": "四面体物品使用的工具等级",
+    "itemGroup.tetra": "Tetra",
+    "harvests.filter.tetra": "Tetra",
+    "harvests.filter.tetra.tooltip": "Tetra物品使用的工具等级",
     "effect.tetra.earthbound": "土缚",
     "effect.tetra.severed": "断裂",
     "effect.tetra.punctured": "穿刺",

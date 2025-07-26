@@ -864,6 +864,7 @@
 				""
 				"Now that the Age of the Gods is over, the remaining power of the gods has not yet been completely eliminated."
 			]
+			hide_until_deps_complete: true
 			id: "689F32883C4E9502"
 			shape: "diamond"
 			size: 1.3d

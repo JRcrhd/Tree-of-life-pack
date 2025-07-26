@@ -896,6 +896,28 @@
 			x: -3.0d
 			y: 2.0d
 		}
+		{
+			dependencies: ["610CBBEE0DC825CC"]
+			id: "761C72F68E4C69A6"
+			tasks: [{
+				id: "6D231133C020DC7F"
+				item: "sereneseasons:calendar"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["761C72F68E4C69A6"]
+			id: "71020B395336D4C0"
+			tasks: [{
+				id: "439B66E51170374C"
+				item: "sereneseasons:season_sensor"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -10.0d
+		}
 	]
 	title: "享受生活"
 }

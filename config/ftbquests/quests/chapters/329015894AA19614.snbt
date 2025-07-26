@@ -3,6 +3,13 @@
 	default_quest_shape: ""
 	filename: "329015894AA19614"
 	group: ""
+	icon: {
+		Count: 1
+		id: "patchouli:guide_book"
+		tag: {
+			"patchouli:book": "patchouli:treeoflife"
+		}
+	}
 	id: "329015894AA19614"
 	order_index: 0
 	quest_links: [ ]
