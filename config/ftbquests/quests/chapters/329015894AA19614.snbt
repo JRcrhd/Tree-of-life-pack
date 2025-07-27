@@ -47,36 +47,42 @@
 				{
 					auto: "no_toast"
 					command: "/difficulty hard"
+					elevate_perms: true
 					id: "6624895D6F24BEA0"
 					type: "command"
 				}
 				{
 					auto: "no_toast"
 					command: "/gamerule mobGriefing true"
+					elevate_perms: true
 					id: "1CEDCED93FCDE828"
 					type: "command"
 				}
 				{
 					auto: "no_toast"
 					command: "/gamerule keepInventory true"
+					elevate_perms: true
 					id: "403946C825C336CA"
 					type: "command"
 				}
 				{
 					auto: "no_toast"
 					command: "/gamerule doFireTick false"
+					elevate_perms: true
 					id: "014B6A7864B6048D"
 					type: "command"
 				}
 				{
 					auto: "no_toast"
 					command: "/gamerule commandBlockOutput false"
+					elevate_perms: true
 					id: "17BD1D8D7AE3B847"
 					type: "command"
 				}
 				{
 					auto: "enabled"
 					command: "/gamerule sendCommandFeedback false"
+					elevate_perms: true
 					id: "0D31F38C78223502"
 					type: "command"
 				}
@@ -108,12 +114,14 @@
 				{
 					auto: "no_toast"
 					command: "/mobgriefing minecraft:enderman false"
+					elevate_perms: true
 					id: "0AABA4B061647E6A"
 					type: "command"
 				}
 				{
 					auto: "no_toast"
 					command: "/mobgriefing minecraft:creeper false"
+					elevate_perms: true
 					id: "57084D830006EF8F"
 					type: "command"
 				}

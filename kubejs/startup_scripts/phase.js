@@ -5,6 +5,8 @@ StartupEvents.postInit(e => {
     GamePhase.addItemRestriction("disables", "projecte:condenser_mk2");
     GamePhase.addItemRestriction("disables", "projecte:watch_of_flowing_time");
     GamePhase.addItemRestriction("disables", "forbidden_arcanus:quantum_catcher");
+    GamePhase.addItemRestriction("disables", "forbidden_arcanus:quantum_catcher");
+    GamePhase.addItemRestriction("disables", "createdieselgenerators:huge_diesel_engine");
 
     GamePhase.addItemModRestriction("assiah", "electrodynamics");
     GamePhase.addItemModRestriction("assiah", "enderio");

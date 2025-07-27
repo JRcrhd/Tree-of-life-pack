@@ -30,7 +30,53 @@ ServerEvents.recipes(treeoflife => {
 	treeoflife.smithing('kubejs:point_kether','kubejs:template_atziluth','kubejs:point_binah','tarotcards:the_magician');
 	treeoflife.smithing('kubejs:point_kether','kubejs:template_atziluth','kubejs:point_chokmah','tarotcards:the_fool');
 
-	
+	treeoflife.shaped('kubejs:template_assiah',
+		[
+			' A ',
+			'ABA',
+			' A '
+		],
+		{
+			A: 'apotheosis:uncommon_material',
+			B: '#minecraft:trim_templates'
+		}
+	);
+
+	treeoflife.shaped('kubejs:template_yetzirah',
+		[
+			' A ',
+			'ABA',
+			' A '
+		],
+		{
+			A: 'apotheosis:rare_material',
+			B: '#minecraft:trim_templates'
+		}
+	);
+
+	treeoflife.shaped('kubejs:template_beriah',
+		[
+			' A ',
+			'ABA',
+			' A '
+		],
+		{
+			A: 'apotheosis:apic_material',
+			B: '#minecraft:trim_templates'
+		}
+	);
+
+	treeoflife.shaped('kubejs:template_atziluth',
+		[
+			' A ',
+			'ABA',
+			' A '
+		],
+		{
+			A: 'apotheosis:mythic_material',
+			B: '#minecraft:trim_templates'
+		}
+	);
 })
 
 LootJS.modifiers((treeoflife) => {

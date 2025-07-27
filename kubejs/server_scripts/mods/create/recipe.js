@@ -145,6 +145,23 @@ ServerEvents.recipes(treeoflife => {
     .transitionalItem('kubejs:earth_alloy_shard')
     .loops(2);
 
-
+    treeoflife.recipes.create.mixing(
+        [
+            Item.of('kubejs:earth_alloy_shard').withChance(0.95),
+            Item.of('kubejs:alchemy_black').withChance(0.05)
+        ], 
+        [
+            Fluid.of('kubejs:current_fluid').withAmount(10),
+            'kubejs:earth_alloy_shard'
+        ]
+    )
+    .heated();
 
 })
+
+LootJS.modifiers((treeoflife) => {
+    treeoflife.addLootTypeModifier(LootType.CHEST).replaceLoot("create:sturdy_sheet", "destroy:nickel_ingot");
+    treeoflife.addLootTypeModifier(LootType.CHEST).replaceLoot("create:brass_hand", "destroy:lead_ingot");
+    treeoflife.addLootTypeModifier(LootType.CHEST).replaceLoot("create:brass_ingot", "destroy:lead_ingot");
+    treeoflife.addLootTypeModifier(LootType.CHEST).replaceLoot("create:brass_nugget", "destroy:nickel_nugget");
+});

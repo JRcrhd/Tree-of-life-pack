@@ -1,0 +1,8 @@
+{
+    "type": "mekanism:injecting",
+    "duration":40,
+    "energyRequired":500,
+    "chemicalInput": {"amount": 5, "tag": "mekanism:water_vapor"},
+    "itemInput": {"ingredient": {"item": "minecraft:dead_brain_coral_block"}},
+    "output": {"item": "minecraft:brain_coral_block"}
+}

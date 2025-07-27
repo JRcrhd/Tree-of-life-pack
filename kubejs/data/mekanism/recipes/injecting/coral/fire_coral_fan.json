@@ -1,0 +1,8 @@
+{
+    "type": "mekanism:injecting",
+    "duration":40,
+    "energyRequired":500,
+    "chemicalInput": {"amount": 3, "tag": "mekanism:water_vapor"},
+    "itemInput": {"ingredient": {"item": "minecraft:dead_fire_coral_fan"}},
+    "output": {"item": "minecraft:fire_coral_fan"}
+}

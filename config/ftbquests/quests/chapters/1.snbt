@@ -6,20 +6,31 @@
 	hide_quest_until_deps_visible: true
 	icon: "petrolsparts:planetary_gearset"
 	id: "36A058C46CFAB3F3"
-	images: [{
-		height: 8.0d
-		image: "create:block/andesite_casing"
-		rotation: 0.0d
-		width: 8.0d
-		x: 0.0d
-		y: 4.0d
-	}]
+	images: [
+		{
+			height: 6.0d
+			image: "create:block/andesite_casing"
+			rotation: 0.0d
+			width: 6.0d
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			height: 6.0d
+			image: "create:block/copper_casing"
+			rotation: 0.0d
+			width: 6.0d
+			x: 6.0d
+			y: 2.5d
+		}
+	]
 	order_index: 0
 	quest_links: [ ]
 	quests: [
 		{
 			dependencies: ["34BB2829CF60D94C"]
 			description: ["「序」则以规律为基，赋予万物运行的法则，构建时空维度的基本框架。"]
+			hide_dependent_lines: true
 			hide_until_deps_complete: true
 			id: "161309655AB92C0E"
 			shape: "diamond"
@@ -28,17 +39,44 @@
 				title: "关于 ⌊序⌉"
 				type: "checkmark"
 			}]
-			x: 0.0d
-			y: -1.5d
+			x: 3.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["161309655AB92C0E"]
 			id: "0395AA485156D264"
-			rewards: [{
-				id: "464C19186727F115"
-				item: "lightmanscurrency:coin_copper"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "464C19186727F115"
+					item: "lightmanscurrency:coin_copper"
+					type: "item"
+				}
+				{
+					id: "3980B4B38004F942"
+					item: {
+						Count: 1
+						id: "tetra:modular_double"
+						tag: {
+							Damage: 0
+							HideFlags: 1
+							"double/basic_axe_right_material": "basic_axe/diorite"
+							"double/basic_handle_material": "basic_handle/bamboo"
+							"double/basic_pickaxe_left_material": "basic_pickaxe/diorite"
+							"double/binding": "double/socket"
+							"double/handle": "double/basic_handle"
+							"double/handle:hollow": 0
+							"double/head_left": "double/basic_pickaxe_left"
+							"double/head_left:quality": 2
+							"double/head_right": "double/basic_axe_right"
+							"double/head_right:quality": 2
+							"double/socket_material": "double_socket/socket_amethyst"
+							honing_progress: 365
+							id: "217f78be-4238-4177-a6f8-84726ec512ee"
+						}
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				count: 16L
 				id: "40E73BDD51BEE3CC"
@@ -53,30 +91,579 @@
 				type: "item"
 			}]
 			title: "一切的开始"
+			x: 3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["1CF1F17FF13BBF9B"]
+			id: "5C435E77CBCDCAF9"
+			rewards: [
+				{
+					count: 8
+					id: "082FE6E25B86073E"
+					item: "create:andesite_alloy"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2A3193E96E2744D8"
+					table_id: 1367640064537670306L
+					type: "random"
+				}
+			]
+			subtitle: "第一个合金"
+			tasks: [
+				{
+					count: 4L
+					id: "71FBC5BF5F68B0CE"
+					item: "create:andesite_alloy"
+					type: "item"
+				}
+				{
+					id: "0B1BF58680EC1FCB"
+					item: "create:andesite_casing"
+					type: "item"
+				}
+			]
 			x: 0.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["0395AA485156D264"]
+			id: "1CF1F17FF13BBF9B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "02FD40CDF2516BFB"
+				table_id: 1367640064537670306L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "1969B9A1FDE5F00A"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:ingots/gold"
+						}
+					}
+					title: "Any #forge:ingots/gold"
+					type: "item"
+				}
+				{
+					id: "4F30E41210774BAD"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:ingots/copper"
+						}
+					}
+					title: "Any #forge:ingots/copper"
+					type: "item"
+				}
+				{
+					id: "504EF6D9780A7423"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:ingots/iron"
+						}
+					}
+					title: "Any #forge:ingots/iron"
+					type: "item"
+				}
+				{
+					id: "671A10569C36B5C4"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:ingots/zinc"
+						}
+					}
+					title: "Any #forge:ingots/zinc"
+					type: "item"
+				}
+				{
+					id: "3A877D932328279C"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:ingots/lead"
+						}
+					}
+					title: "Any #forge:ingots/lead"
+					type: "item"
+				}
+				{
+					id: "7BDA97F9F69167B9"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:ingots/nickel"
+						}
+					}
+					title: "Any #forge:ingots/nickel"
+					type: "item"
+				}
+			]
+			title: "基础矿物"
+			x: 3.0d
 			y: -0.5d
 		}
 		{
-			id: "5C435E77CBCDCAF9"
+			dependencies: ["5C435E77CBCDCAF9"]
+			id: "7A7EC258856BE304"
+			tasks: [{
+				id: "6FFD3E0C29D2E55F"
+				item: "destroy:mechanical_sieve"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["161309655AB92C0E"]
+			id: "64FD5E1774670807"
 			rewards: [{
-				id: "642B11E51126C508"
+				id: "5903BE453839525C"
+				item: "minecraft:beetroot_seeds"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0891F66C03857D0F"
+				item: "minecraft:beetroot"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"64FD5E1774670807"
+				"7A7EC258856BE304"
+			]
+			description: ["将甜菜根种植在矿物上方的耕地上"]
+			id: "7523DF5188993B99"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5D66DAF1C384EF5E"
+				table_id: 1367640064537670306L
+				type: "random"
+			}]
+			subtitle: "矿物富集"
+			tasks: [
+				{
+					id: "6198C9075A16279F"
+					item: "destroy:palladium_ingot"
+					type: "item"
+				}
+				{
+					id: "6983D5DB9D6DC115"
+					item: "destroy:platinum_ingot"
+					type: "item"
+				}
+			]
+			x: -3.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["5C435E77CBCDCAF9"]
+			id: "220C91953126DE57"
+			tasks: [{
+				id: "57FE64DBCEAFD6EE"
+				item: "create:mechanical_press"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["220C91953126DE57"]
+			id: "7A51D78743DADF75"
+			tasks: [{
+				id: "0B62A13C0BA30AE8"
+				item: "create:mechanical_mixer"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["220C91953126DE57"]
+			id: "2C746E548F88222F"
+			tasks: [{
+				id: "1ADF5A4BDE5F5803"
+				item: "create:empty_blaze_burner"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["220C91953126DE57"]
+			id: "23368C82718145B7"
+			subtitle: "高校冶炼"
+			tasks: [{
+				id: "3609EF5EE0758431"
+				item: "create:encased_fan"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["5C435E77CBCDCAF9"]
+			id: "7A049B7A71F55FF2"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6F080AFA6B3BDE4C"
+				table_id: 1367640064537670306L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "0D0EDFA00DB9C1AD"
+					item: "create:windmill_bearing"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "6BF28975933976CC"
+					item: "create:large_water_wheel"
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "动力源"
+			x: -2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["5C435E77CBCDCAF9"]
+			id: "7BB5AC4A44BCCEA0"
+			rewards: [
+				{
+					count: 3
+					id: "0BDC208022529AF3"
+					item: "create:large_cogwheel"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "4CCDC724E40954DD"
+					item: "create:cogwheel"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "5909A0D9DD3E38F9"
+					item: "create:shaft"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "0C22717E0AFF33C0"
+					item: "create:shaft"
+					type: "item"
+				}
+				{
+					id: "3616480AF625594D"
+					item: "create:large_cogwheel"
+					type: "item"
+				}
+				{
+					id: "1838F49025CF1DF5"
+					item: "create:cogwheel"
+					type: "item"
+				}
+			]
+			title: "传动的艺术"
+			x: 2.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5C435E77CBCDCAF9"]
+			id: "3E24B78E1DBE948F"
+			tasks: [{
+				id: "4001B0FF70F4DF71"
+				item: "create:millstone"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["5C435E77CBCDCAF9"]
+			id: "6801D2B129BE4AD5"
+			rewards: [{
+				id: "0CD15754949DBDD5"
+				item: "create:stressometer"
+				type: "item"
+			}]
+			tasks: [{
+				id: "19D897F73E8C6143"
+				item: "create:speedometer"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["220C91953126DE57"]
+			id: "6110E9BFE3767C33"
+			rewards: [{
+				id: "5DC2B7120A50D0E5"
+				item: "create:mechanical_pump"
+				type: "item"
+			}]
+			tasks: [{
+				count: 6L
+				id: "614E119549DA9BB1"
+				item: "create:fluid_pipe"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["1CF1F17FF13BBF9B"]
+			id: "411FC7959F4A2668"
+			tasks: [{
+				id: "0A07B7C61D2B8277"
+				item: "create:copper_casing"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["2C746E548F88222F"]
+			description: [
+				"需提供燃烧器效率在50%以上的液体燃料。"
+				""
+				"可以使用原油。"
+				""
+				"Liquid fuel with a burner efficiency of 50% or more is required."
+				""
+				"Crude oil can be used."
+			]
+			id: "40682F306F7F862E"
+			tasks: [
+				{
+					id: "23D9D4B17C4634EB"
+					item: "createdieselgenerators:burner"
+					type: "item"
+				}
+				{
+					id: "450B519CFE3399B7"
+					item: "forbidden_arcanus:rune"
+					type: "item"
+				}
+			]
+			x: -0.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["411FC7959F4A2668"]
+			id: "37D8D232C08107EB"
+			tasks: [{
+				id: "590EE6557FD7D09E"
+				item: "create:spout"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["411FC7959F4A2668"]
+			id: "4B7350666BA3B639"
+			tasks: [{
+				id: "776906ACA2896BF6"
+				item: "create:item_drain"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["411FC7959F4A2668"]
+			id: "0B2C0C49A0F397B5"
+			tasks: [{
+				id: "6825264EE6210281"
+				item: "create:hose_pulley"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["411FC7959F4A2668"]
+			id: "73FC59C3F231773E"
+			tasks: [{
+				id: "6B8A811F302E2812"
+				item: "createdieselgenerators:pumpjack_hole"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["411FC7959F4A2668"]
+			id: "4DFEB196F84E165A"
+			tasks: [{
+				id: "11EA97DEAEBE3237"
+				item: "destroy:bubble_cap"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["411FC7959F4A2668"]
+			id: "055CFC7BB6FB248A"
+			tasks: [{
+				id: "6268425AB54563D5"
+				item: "destroy:centrifuge"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5C435E77CBCDCAF9"]
+			id: "1368F02B298EF7E1"
+			tasks: [{
+				id: "6D8CB42D653CC1BE"
+				item: "create:belt_connector"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["220C91953126DE57"]
+			description: [
+				"石油生成以区块为单位。主要出现在沙漠和海洋群系中。"
+				""
+				"Oil reserves are measured in blocks. Mainly found in desert biomes."
+			]
+			id: "467CBCBB4AF58880"
+			tasks: [{
+				id: "38A462D01B1C3861"
 				item: {
 					Count: 1
-					id: "ftbquests:lootcrate"
+					id: "createdieselgenerators:oil_scanner"
 					tag: {
-						type: "assiah_"
+						Time: 19
+						Type: 3
 					}
 				}
 				type: "item"
 			}]
+			x: 2.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["73FC59C3F231773E"]
+			description: [
+				"有时你可以看到地表出现的石油涌泉。"
+				""
+				"但如果你需要大量的石油，那抽油机恐怕是必不可少的。"
+				""
+				"&7接下来，“思索”很有用"
+				""
+				"Sometimes you can see oil springs appearing on the surface."
+				""
+				"But if you need a lot of oil, then a pumping machine is probably essential."
+				""
+				"&7Next, \"thinking\" is useful"
+			]
+			hide_dependency_lines: true
+			icon: "createdieselgenerators:pumpjack_crank"
+			id: "2519BEBBE4C6E58D"
+			rewards: [
+				{
+					id: "132DE3B72FB3730E"
+					item: {
+						Count: 1
+						id: "createdieselgenerators:oil_scanner"
+						tag: {
+							Time: 19
+							Type: 3
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "097A3FFCE4EA8083"
+					item: "createdieselgenerators:pumpjack_crank"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "69CBC2907453056C"
+					item: "createdieselgenerators:pumpjack_hole"
+					type: "item"
+				}
+				{
+					id: "5B14FCD2F6DAF855"
+					item: "createdieselgenerators:pumpjack_bearing"
+					type: "item"
+				}
+				{
+					id: "4A1DF798EE0D9E3B"
+					item: "createdieselgenerators:pumpjack_head"
+					type: "item"
+				}
+				{
+					id: "456181A8F06928FE"
+					item: "createdieselgenerators:crude_oil_bucket"
+					type: "item"
+				}
+			]
+			title: "石油"
+			x: 6.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"2519BEBBE4C6E58D"
+				"40682F306F7F862E"
+			]
+			id: "74C0831F80AC37BB"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "799327896DCF7E3D"
+				table_id: 1367640064537670306L
+				type: "random"
+			}]
+			shape: "gear"
+			size: 1.5d
 			tasks: [{
-				count: 16L
-				id: "71FBC5BF5F68B0CE"
-				item: { Count: 16, id: "create:andesite_alloy" }
+				id: "35A0B92FD0FF65C9"
+				item: "create:brass_ingot"
 				type: "item"
 			}]
-			x: 0.0d
-			y: 2.0d
+			x: 3.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["220C91953126DE57"]
+			id: "2BD20D0D54D329B8"
+			tasks: [{
+				id: "499B20C8E23B32A2"
+				item: "create:goggles"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 6.0d
 		}
 	]
 	title: "1、齿轮；杠杆；活塞"

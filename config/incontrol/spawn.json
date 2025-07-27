@@ -227,6 +227,7 @@
 	{
 		"mob": "minecraft:elder_guardian",
 		"healthmultiply": 1.2,
+		"damageadd": 5,
 
 		"when": "onjoin",
 		"result": "default"
@@ -241,7 +242,7 @@
     },
 	{
         "mob": "cataclysm:ender_guardian",
-        "healthadd":20,
+        "healthmultiply":2.5,
         "speedmultiply":1.25,
 
 		"when": "onjoin",
@@ -249,17 +250,17 @@
     },
     {
         "mob": "cataclysm:ignis",
-        "healthmultiply":0.5,
+        "healthmultiply":1.5,
         "speedmultiply":1.1,
-        "damageadd":-100,
+        "damageadd":30,
 
 		"when": "onjoin",
         "result": "allow"
     },
     {
         "mob": "cataclysm:netherite_monstrosity",
-        "healthmultiply":0.5,
-        "damageadd": 6,
+        "healthmultiply":1.5,
+        "damageadd": 10,
 
 		"when": "onjoin",
         "result": "allow"
@@ -267,15 +268,16 @@
     {
         "mob": "cataclysm:ignited_revenant",
         "speedmultiply":1.1,
-        "damageadd":2,
+        "damageadd":7,
 
 		"when": "onjoin",
         "result": "allow"
     },
 	{
         "mob": "goety:apostle",
+        "healthmultiply":2.5,
         "speedmultiply":0.9,
-        "damageadd":-1,
+        "damageadd":10,
 
 		"when": "onjoin",
         "result": "default"
@@ -283,7 +285,7 @@
 	{
         "mob": "goety:vizier",
         "healthmultiply":1.5,
-        "damageadd":2,
+        "damageadd":7,
 
 		"when": "onjoin",
         "result": "default"
@@ -335,16 +337,16 @@
 	},
 	{
         "mob": "cataclysm:maledictus",
-        "healthmultiply":0.8,
-        "damageadd":-7,
+        "healthmultiply":1.6,
+        "damageadd":-2,
 
 		"when": "onjoin",
         "result": "default"
 	},
 	{
         "mob": "cataclysm:scylla",
-        "healthmultiply":1.3,
-        "damageadd":-5,
+        "healthmultiply":1.6,
+        "damageadd":-1,
 
 		"when": "onjoin",
         "result": "default"
@@ -352,7 +354,7 @@
 	{
         "mob": "aether:slider",
         "healthmultiply":1.5,
-        "damageadd":15,
+        "damageadd":25,
 
 		"when": "onjoin",
         "result": "default"
@@ -361,7 +363,7 @@
         "mob": "aether:valkyrie_queen",
         "healthmultiply":3.0,
         "speedmultiply":1.1,
-        "damageadd":17,
+        "damageadd":32,
 
 		"when": "onjoin",
         "result": "default"
@@ -370,7 +372,7 @@
         "mob": "aether:sun_spirit",
         "healthmultiply":3.5,
         "speedmultiply":0.9,
-        "damageadd":12,
+        "damageadd":40,
 
 		"when": "onjoin",
         "result": "default"

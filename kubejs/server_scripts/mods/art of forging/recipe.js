@@ -18,9 +18,9 @@ ServerEvents.recipes(treeoflife => {
     });
 })
 
-LootJS.modifiers((event) => {
-    event.removeGlobalModifier("art_of_forging:wither_skeleton_additions");
-    event
+LootJS.modifiers((treeoflife) => {
+    treeoflife.removeGlobalModifier("art_of_forging:wither_skeleton_additions");
+    treeoflife
         .addEntityLootModifier("minecraft:enderman")
         .randomChance(0.6)
         .addLoot("art_of_forging:shards_of_malice");

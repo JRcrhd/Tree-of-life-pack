@@ -4,27 +4,65 @@
 	filename: "yetzirah"
 	group: "74CAFADDC96D0BF3"
 	hide_quest_until_deps_visible: true
-	icon: "stalwart_dungeons:void_crystal"
+	icon: "goety:updraft_focus"
 	id: "7AEC4320BB36FF28"
 	order_index: 2
 	quest_links: [ ]
-	quests: [{
-		dependencies: ["3740E9A99FBBE0E5"]
-		description: [
-			"机械动力"
-			"气动工艺"
-			"enderio"
-			"cc:tweak"
-			"能去地狱"
-		]
-		hide_until_deps_complete: true
-		id: "6DA830C81149E225"
-		tasks: [{
-			id: "6C72FB3857C21AC4"
-			type: "checkmark"
-		}]
-		x: -1.5d
-		y: -1.5d
-	}]
+	quests: [
+		{
+			dependencies: ["3740E9A99FBBE0E5"]
+			description: [
+				"机械动力"
+				"气动工艺"
+				"enderio"
+				"cc:tweak"
+				"能去地狱"
+			]
+			hide_until_deps_complete: true
+			id: "6DA830C81149E225"
+			tasks: [{
+				id: "6C72FB3857C21AC4"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: -1.5d
+		}
+		{
+			id: "3A3E7AD7DE81B009"
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "53F45836463435DF"
+				item: "kubejs:point_yesod"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 4.5d
+		}
+		{
+			id: "2ABE4E6D962D34D7"
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "33D0D15BFE523160"
+				item: "kubejs:point_netzach"
+				type: "item"
+			}]
+			x: 2.25d
+			y: 6.0d
+		}
+		{
+			id: "5605DC0B6E786B31"
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "04F93179191B1942"
+				item: "kubejs:point_hod"
+				type: "item"
+			}]
+			x: -5.25d
+			y: 6.0d
+		}
+	]
 	title: "形成——Yetzirah"
 }

@@ -918,6 +918,26 @@
 			x: 1.0d
 			y: -10.0d
 		}
+		{
+			dependencies: ["610CBBEE0DC825CC"]
+			description: [
+				"随着营养增加，玩家会获得越来越强的正面buff。"
+				""
+				"营养减少不会带来负面影响。"
+				""
+				"As nutrition increases, players receive stronger and stronger positive buffs."
+				""
+				"Nutrient reduction does not have negative effects."
+			]
+			id: "4D2B97A9DD97F941"
+			tasks: [{
+				id: "2275B67DD763A684"
+				type: "checkmark"
+			}]
+			title: "关于 均衡膳食"
+			x: 0.0d
+			y: 2.0d
+		}
 	]
 	title: "享受生活"
 }

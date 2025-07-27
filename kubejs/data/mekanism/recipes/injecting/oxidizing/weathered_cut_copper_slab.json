@@ -1,0 +1,8 @@
+{
+    "type": "mekanism:injecting",
+    "duration":40,
+    "energyRequired":500,
+    "chemicalInput": {"amount": 1, "gas": "mekanism:oxygen"},
+    "itemInput": {"ingredient": {"item": "minecraft:exposed_cut_copper_slab"}},
+    "output": {"item": "minecraft:weathered_cut_copper_slab"}
+}

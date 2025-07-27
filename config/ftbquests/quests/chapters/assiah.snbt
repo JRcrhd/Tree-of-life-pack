@@ -8,23 +8,287 @@
 	id: "169850F2FA824C5C"
 	order_index: 1
 	quest_links: [ ]
-	quests: [{
-		dependencies: ["34BB2829CF60D94C"]
-		description: ["机械动力前期"]
-		hide_until_deps_complete: true
-		id: "654CE5BA3CCB51D6"
-		rewards: [{
-			id: "7B97493D80BE3DCD"
-			item: "minecraft:totem_of_undying"
-			type: "item"
-		}]
-		tasks: [{
-			dimension: "minecraft:overworld"
-			id: "1A165F2AC58264CA"
-			type: "dimension"
-		}]
-		x: 0.0d
-		y: 1.5d
-	}]
+	quests: [
+		{
+			dependencies: ["34BB2829CF60D94C"]
+			hide_dependent_lines: true
+			hide_until_deps_complete: true
+			id: "654CE5BA3CCB51D6"
+			rewards: [{
+				id: "7B97493D80BE3DCD"
+				item: "minecraft:totem_of_undying"
+				type: "item"
+			}]
+			tasks: [{
+				dimension: "minecraft:overworld"
+				id: "1A165F2AC58264CA"
+				type: "dimension"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"6ED2019109038385"
+				"0715442F68F6DE90"
+				"664280A010500ABE"
+			]
+			id: "66C85223C11A13C6"
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "3080DC6F8D949218"
+				item: "kubejs:point_malkuth"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 11.25d
+		}
+		{
+			dependencies: [
+				"390D6675959975F7"
+				"0A58C9B9060B7011"
+				"1E7F245594E37696"
+			]
+			id: "664280A010500ABE"
+			tasks: [{
+				id: "0F3E5DB127A9EE7F"
+				item: "kubejs:dimension_alloy_overworld"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 9.5d
+		}
+		{
+			dependencies: [
+				"390D6675959975F7"
+				"0A58C9B9060B7011"
+			]
+			id: "6ED2019109038385"
+			tasks: [{
+				id: "157EBE5185ED856C"
+				item: "kubejs:alchemy_black"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["654CE5BA3CCB51D6"]
+			id: "0715442F68F6DE90"
+			shape: "hexagon"
+			tasks: [{
+				id: "151874A86623EFA2"
+				item: "kubejs:template_assiah"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["66C2BA991C2780E3"]
+			icon: "kubejs:earth_alloy_shard"
+			id: "0A58C9B9060B7011"
+			tasks: [
+				{
+					id: "7872C3A27CE3D844"
+					item: "kubejs:earth_alloy_shard"
+					type: "item"
+				}
+				{
+					id: "69231942BD3AE620"
+					item: "createdieselgenerators:burner"
+					type: "item"
+				}
+				{
+					id: "47D373790985B839"
+					item: "create:mechanical_press"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 7.5d
+		}
+		{
+			dependencies: [
+				"2F0F95278E5D08B4"
+				"5D8E31C41919B36A"
+				"38FA17311E303F47"
+			]
+			id: "1E7F245594E37696"
+			tasks: [
+				{
+					id: "1938F349C33E370C"
+					item: "kubejs:witch_fluid_bucket"
+					type: "item"
+				}
+				{
+					id: "7676E83EDE58122C"
+					item: "create:mechanical_mixer"
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: 7.5d
+		}
+		{
+			dependencies: [
+				"2CBEBC699B579700"
+				"49B78432BC53A557"
+				"0C8BB92FEAE12D47"
+			]
+			id: "390D6675959975F7"
+			tasks: [{
+				id: "0937214FC4E71E79"
+				item: "kubejs:current_fluid_bucket"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["05FEE755992D724D"]
+			icon: "minecraft:grass_block"
+			id: "66C2BA991C2780E3"
+			tasks: [
+				{
+					id: "02ADAC7395B67336"
+					item: "minecraft:grass_block"
+					type: "item"
+				}
+				{
+					id: "2E3CB9A62E041B8C"
+					item: "create:spout"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["50623491F7C1AC8A"]
+			id: "2F0F95278E5D08B4"
+			tasks: [{
+				id: "36A1C538297D7085"
+				item: "destroy:palladium_ingot"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["05FEE755992D724D"]
+			id: "5D8E31C41919B36A"
+			tasks: [{
+				id: "5B5614D72FE7EA3D"
+				item: "destroy:platinum_ingot"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 5.5d
+		}
+		{
+			dependencies: [
+				"50623491F7C1AC8A"
+				"4F3B565163DD0A60"
+			]
+			id: "38FA17311E303F47"
+			tasks: [{
+				id: "2E50932A18CC309B"
+				item: "goety:cursed_ingot"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["654CE5BA3CCB51D6"]
+			id: "05FEE755992D724D"
+			tasks: [{
+				id: "7630E41F483CA4A4"
+				item: "minecraft:copper_ingot"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["654CE5BA3CCB51D6"]
+			id: "50623491F7C1AC8A"
+			tasks: [{
+				id: "53FC11E39EC73142"
+				item: "minecraft:gold_ingot"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["654CE5BA3CCB51D6"]
+			id: "4F3B565163DD0A60"
+			tasks: [{
+				id: "1275781DE1526B77"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["32D2C97D12460C4E"]
+			id: "2CBEBC699B579700"
+			tasks: [{
+				id: "0DA6064408D7A360"
+				item: "create_aquatic_ambitions:prismarine_alloy"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["654CE5BA3CCB51D6"]
+			id: "49B78432BC53A557"
+			tasks: [{
+				id: "55BD1C3DD26238A7"
+				item: "createdieselgenerators:crude_oil_bucket"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["76B6E34C6D3D6678"]
+			id: "0C8BB92FEAE12D47"
+			tasks: [{
+				id: "6308E078A36E08A6"
+				item: "createutilities:polished_amethyst"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["654CE5BA3CCB51D6"]
+			id: "76B6E34C6D3D6678"
+			tasks: [{
+				id: "4A12E2DBD6751733"
+				item: "minecraft:amethyst_shard"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["654CE5BA3CCB51D6"]
+			id: "32D2C97D12460C4E"
+			tasks: [{
+				id: "2EA059E788C645FA"
+				item: "minecraft:prismarine"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 3.5d
+		}
+	]
 	title: "物质——Assiah"
 }

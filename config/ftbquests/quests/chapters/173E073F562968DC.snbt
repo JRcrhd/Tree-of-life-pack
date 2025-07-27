@@ -1,28 +1,84 @@
 {
+	consume_items: true
 	default_hide_dependency_lines: true
 	default_quest_shape: ""
+	default_repeatable_quest: true
 	disable_toast: true
 	filename: "173E073F562968DC"
 	group: "3ABDF31F958CFAA4"
+	hide_quest_until_deps_complete: true
 	hide_quest_until_deps_visible: true
 	icon: "lightmanscurrency:trading_core"
 	id: "173E073F562968DC"
 	order_index: 3
 	quest_links: [ ]
-	quests: [{
-		dependencies: ["34BB2829CF60D94C"]
-		hide_until_deps_complete: true
-		id: "2FF701F56EC6BC13"
-		shape: "diamond"
-		tasks: [{
-			disable_toast: true
-			id: "76BCF761E0B3B98B"
-			title: "确认阅读"
-			type: "checkmark"
-		}]
-		title: "关于 市场"
-		x: 0.0d
-		y: -1.5d
-	}]
+	quests: [
+		{
+			dependencies: ["34BB2829CF60D94C"]
+			description: [
+				"随着进度推进，交易项会逐步增加。"
+				""
+				"As progress progresses, the number of transactions will gradually increase."
+			]
+			hide_until_deps_complete: true
+			id: "2FF701F56EC6BC13"
+			shape: "diamond"
+			tasks: [{
+				disable_toast: true
+				id: "76BCF761E0B3B98B"
+				title: "确认阅读"
+				type: "checkmark"
+			}]
+			title: "关于 市场"
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["2519BEBBE4C6E58D"]
+			icon: "createdieselgenerators:pumpjack_crank"
+			id: "2C01769502A65A55"
+			rewards: [{
+				id: "36328190F522036D"
+				item: "createdieselgenerators:pumpjack_crank"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5045BCF0945D0054"
+				item: { Count: 2, id: "lightmanscurrency:coin_gold" }
+				type: "item"
+			}]
+			title: "抽油机曲柄"
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2FF701F56EC6BC13"]
+			icon: {
+				Count: 1
+				id: "lightmanscurrency:wallet_iron"
+				tag: { }
+			}
+			id: "1BEF0C34F2CB9843"
+			rewards: [{
+				id: "7919935D9B4C9917"
+				item: {
+					Count: 1
+					id: "lightmanscurrency:wallet_iron"
+					tag: { }
+				}
+				type: "item"
+			}]
+			subtitle: "如果你急需一个存钱的地方"
+			tasks: [{
+				count: 7L
+				id: "7FA51AD67D53CD09"
+				item: { Count: 3, id: "lightmanscurrency:coin_copper" }
+				type: "item"
+			}]
+			title: "钱包（铁）"
+			x: 0.0d
+			y: 0.0d
+		}
+	]
 	title: "市场"
 }

@@ -6,8 +6,526 @@
 	hide_quest_until_deps_visible: true
 	icon: "create:steam_engine"
 	id: "5B1AC0E25230BC02"
+	images: [
+		{
+			height: 6.0d
+			image: "create:block/brass_casing"
+			rotation: 0.0d
+			width: 6.0d
+			x: -0.5d
+			y: 2.5d
+		}
+		{
+			height: 6.0d
+			image: "create:block/railway_casing"
+			rotation: 0.0d
+			width: 6.0d
+			x: 7.5d
+			y: 2.5d
+		}
+		{
+			height: 6.0d
+			image: "electrodynamics:block/resource/resourceblockstainlesssteel"
+			rotation: 0.0d
+			width: 6.0d
+			x: -8.5d
+			y: 2.5d
+		}
+	]
 	order_index: 1
 	quest_links: [ ]
-	quests: [ ]
+	quests: [
+		{
+			dependencies: ["74C0831F80AC37BB"]
+			hide_dependent_lines: true
+			hide_until_deps_complete: true
+			id: "7B74478E427A319D"
+			shape: "diamond"
+			subtitle: "在前往地狱后，这一部分的发展会轻松很多。"
+			tasks: [{
+				id: "66A1B8AE35592B46"
+				type: "checkmark"
+			}]
+			x: -0.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["69CE0D398EEEB609"]
+			id: "5294B5DE5EE4E7C0"
+			tasks: [{
+				id: "402457950C2AC568"
+				item: "destroy:nether_crocoite"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["5294B5DE5EE4E7C0"]
+			id: "34045359A91989FD"
+			tasks: [{
+				id: "4F88FE471B1B102D"
+				item: "destroy:stainless_steel_ingot"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["34045359A91989FD"]
+			id: "6C679BDF158918A9"
+			tasks: [{
+				id: "2C822B99553FEC63"
+				item: "destroy:vat_controller"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["7B74478E427A319D"]
+			id: "69CE0D398EEEB609"
+			tasks: [{
+				dimension: "minecraft:the_nether"
+				id: "47BB1F9465FEE41A"
+				type: "dimension"
+			}]
+			x: -8.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["69CE0D398EEEB609"]
+			id: "0B4FC5DD9386110D"
+			tasks: [{
+				id: "74D48D59143B423F"
+				item: "create:blaze_burner"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["69CE0D398EEEB609"]
+			id: "5F71981FCC2DFC23"
+			tasks: [{
+				id: "13D7F95E2E0C0B45"
+				item: "create_power_loader:empty_andesite_chunk_loader"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5F71981FCC2DFC23"]
+			id: "0773E88B50E5A958"
+			tasks: [{
+				id: "353742F1A5F567E6"
+				item: "create_power_loader:andesite_chunk_loader"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["7B74478E427A319D"]
+			id: "784D9AD12DE09CD3"
+			tasks: [{
+				id: "3BB0D778B3361303"
+				item: "create:brass_casing"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 1.0d
+		}
+		{
+			id: "5A7BE008E5371AFA"
+			tasks: [{
+				id: "3DFA3F8A98C188F4"
+				item: "create:deployer"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["5A7BE008E5371AFA"]
+			hide_dependent_lines: true
+			id: "22573536E8E1FD48"
+			tasks: [{
+				id: "164A622804335516"
+				item: "create:precision_mechanism"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["7B74478E427A319D"]
+			id: "32B03231E1295B7B"
+			tasks: [{
+				id: "1DCA5CD7B83B7126"
+				item: "minecraft:quartz"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["32B03231E1295B7B"]
+			hide_dependent_lines: true
+			id: "76D85D8B2D4CA5C9"
+			tasks: [{
+				id: "61793A1383A0C5D2"
+				item: "create:electron_tube"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"76D85D8B2D4CA5C9"
+				"784D9AD12DE09CD3"
+			]
+			hide_dependent_lines: true
+			id: "0007D7F199B42AA9"
+			rewards: [{
+				count: 4
+				id: "455A6D801FB7AE3A"
+				item: "create:crafter_slot_cover"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7B2A29E47B92A08D"
+				item: "create:mechanical_crafter"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["76D85D8B2D4CA5C9"]
+			id: "167B357E1AD6F1FC"
+			tasks: [{
+				id: "25E3FF2408ED9274"
+				item: "create:smart_chute"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["76D85D8B2D4CA5C9"]
+			id: "7FB2F0DB2870C498"
+			tasks: [{
+				id: "3CE34EC9896E2F7D"
+				item: "create:smart_fluid_pipe"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["76D85D8B2D4CA5C9"]
+			id: "06E55D1818270D2E"
+			tasks: [{
+				id: "637AC791EFDEFB5A"
+				item: "create:brass_funnel"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["76D85D8B2D4CA5C9"]
+			id: "383AEB631EF23CC9"
+			tasks: [{
+				id: "4CCDA8308A0C1A88"
+				item: "create:brass_tunnel"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["76D85D8B2D4CA5C9"]
+			id: "10B0E8B73DDCDD67"
+			tasks: [{
+				id: "7F5741BDF04F2F6C"
+				item: "create:sequenced_gearshift"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["22573536E8E1FD48"]
+			id: "0423F66E58429B5D"
+			tasks: [{
+				id: "3A92521E5B9BCF33"
+				item: "create:rotation_speed_controller"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["22573536E8E1FD48"]
+			id: "30B2928192187D46"
+			tasks: [{
+				id: "0B751BCF77789E66"
+				item: "create:mechanical_arm"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["69CE0D398EEEB609"]
+			id: "600CFC6C7E78143F"
+			tasks: [{
+				id: "156EDABF6C4D5D91"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:ingots/tungsten"
+					}
+				}
+				title: "Any #forge:ingots/tungsten"
+				type: "item"
+			}]
+			x: -10.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["7B74478E427A319D"]
+			id: "28B92880C50F472B"
+			tasks: [{
+				id: "56FEAE5124554E7A"
+				item: "create:sturdy_sheet"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["28B92880C50F472B"]
+			id: "0045893137CA84C5"
+			tasks: [
+				{
+					id: "68F8138B4CA472AA"
+					item: "createmetallurgy:foundry_mixer"
+					type: "item"
+				}
+				{
+					id: "623804FFDE63E2E4"
+					item: "createmetallurgy:foundry_basin"
+					type: "item"
+				}
+				{
+					id: "1DC3AFE49802404F"
+					item: "createmetallurgy:foundry_lid"
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["0007D7F199B42AA9"]
+			id: "037CF97090D0B447"
+			tasks: [{
+				id: "0E1186E949DE8534"
+				item: "create_power_loader:empty_brass_chunk_loader"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["037CF97090D0B447"]
+			id: "1CE5A18A422E5529"
+			tasks: [{
+				id: "4EE87BA5EC0D2238"
+				item: "create_power_loader:brass_chunk_loader"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["0007D7F199B42AA9"]
+			id: "7773A2FD621B8EE7"
+			tasks: [{
+				id: "6165D2CFE2558DDF"
+				item: "create:crushing_wheel"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["0007D7F199B42AA9"]
+			id: "0ECC7003D71C6841"
+			tasks: [{
+				id: "28E741D4FE4BD899"
+				item: "destroy:pumpjack"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["0007D7F199B42AA9"]
+			id: "77B2354A9F8124D7"
+			tasks: [{
+				id: "66A26D549A93797F"
+				item: "createaddition:alternator"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["0007D7F199B42AA9"]
+			id: "0E714271C9E361B8"
+			tasks: [{
+				id: "40B316D5EEAC842C"
+				item: "createaddition:electric_motor"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["0007D7F199B42AA9"]
+			id: "1649B58171A213CE"
+			tasks: [{
+				id: "3D563E96BDF52615"
+				item: "createappliedkinetics:energy_provider"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["784D9AD12DE09CD3"]
+			id: "4EBB709692155331"
+			rewards: [{
+				count: 8
+				id: "02B8466C0EC090AD"
+				item: "minecraft:tnt"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5596CA376141C0DC"
+				item: "destroy:seismometer"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["22573536E8E1FD48"]
+			id: "2DF69A22BF9F884F"
+			tasks: [{
+				id: "3825EB96774CF3F3"
+				item: "petrolsparts:pneumatic_tube"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["0007D7F199B42AA9"]
+			id: "186979361E6E363D"
+			tasks: [{
+				id: "58C662F1CAEDADF9"
+				item: "petrolsparts:hydraulic_transmission"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["0007D7F199B42AA9"]
+			id: "336D7CC329BF4454"
+			tasks: [{
+				id: "03370E2AFA11C15A"
+				item: "createaddition:tesla_coil"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["28B92880C50F472B"]
+			description: [
+				"自动化附魔"
+				""
+				"Industry Enchanting."
+			]
+			id: "511DB7E74C301DE3"
+			tasks: [{
+				id: "2DB1E3D7A7EFD782"
+				item: "create_enchantment_industry:enchanting_guide"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["28B92880C50F472B"]
+			id: "0E02578F3DEC97DE"
+			tasks: [{
+				id: "55F0ABAB759B196E"
+				item: "create:railway_casing"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["511DB7E74C301DE3"]
+			id: "33A5802CDAE7070C"
+			rewards: [{
+				id: "6A4D7A306DF13AFE"
+				item: "create_enchantment_industry:hyper_experience_bottle"
+				type: "item"
+			}]
+			subtitle: "统一id"
+			tasks: [{
+				id: "27C543D65A34B49E"
+				item: "create_enchantment_industry:experience_rotor"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["511DB7E74C301DE3"]
+			id: "3EF6269ECC18E571"
+			tasks: [{
+				id: "62F8F5D73D414E89"
+				item: "create_enchantment_industry:disenchanter"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["511DB7E74C301DE3"]
+			id: "753275979AD026E2"
+			subtitle: "附魔复制"
+			tasks: [{
+				id: "637DFA1D223CB631"
+				item: "create_enchantment_industry:printer"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 3.5d
+		}
+	]
 	title: "2、蒸汽时代"
 }
