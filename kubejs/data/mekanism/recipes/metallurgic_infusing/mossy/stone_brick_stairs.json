@@ -1,0 +1,8 @@
+{
+    "type": "mekanism:metallurgic_infusing",
+    "duration":40,
+    "energyRequired":500,
+    "chemicalInput": {"amount": 10, "tag": "mekanism:bio"},
+    "itemInput": {"ingredient": {"item": "minecraft:stone_brick_stairs"}},
+    "output": {"item": "minecraft:mossy_stone_brick_stairs"}
+}

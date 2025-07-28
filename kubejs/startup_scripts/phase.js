@@ -8,15 +8,13 @@ StartupEvents.postInit(e => {
     GamePhase.addItemRestriction("disables", "forbidden_arcanus:quantum_catcher");
     GamePhase.addItemRestriction("disables", "createdieselgenerators:huge_diesel_engine");
 
-    GamePhase.addItemModRestriction("assiah", "electrodynamics");
-    GamePhase.addItemModRestriction("assiah", "enderio");
     GamePhase.addItemModRestriction("assiah", "pneumaticcraft");
     GamePhase.addItemModRestriction("assiah", "cccbridge");
     GamePhase.addItemModRestriction("assiah", "computercraft");
 	GamePhase.addDimensionRestriction("assiah", "minecraft:nether");	
-	
+
+    GamePhase.addItemModRestriction("yetzirah", "electrodynamics");	
 	GamePhase.addItemModRestriction("yetzirah", "ae2");
-    GamePhase.addItemModRestriction("yetzirah", "appliede");
     GamePhase.addItemModRestriction("yetzirah", "ae2wtlib");
     GamePhase.addItemModRestriction("yetzirah", "appmek");
     GamePhase.addItemModRestriction("yetzirah", "mae2");

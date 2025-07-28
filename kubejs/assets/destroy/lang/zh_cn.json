@@ -1983,5 +1983,11 @@
      "tag.item.destroy.plastics/transparent": "透明塑料",
      "tag.item.destroy.explosives/primary": "一级炸药",
      "tag.item.destroy.explosives/secondary": "二级炸药",
-     "tag.item.destroy.schematicannon_fuels": "蓝图加农炮燃料"
+     "tag.item.destroy.schematicannon_fuels": "蓝图加农炮燃料",
+
+     "destroy.pollution.greenhouse": "温室污染",
+     "destroy.pollution.ozone_depletion": "臭氧污染",
+     "destroy.pollution.smog": "烟雾污染",
+     "destroy.pollution.radioactivty": "放射性污染",
+     "destroy.pollution.acid_rain": "酸雨污染"
 }

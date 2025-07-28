@@ -1,0 +1,8 @@
+{
+    "type": "mekanism:metallurgic_infusing",
+    "duration":40,
+    "energyRequired":500,
+    "chemicalInput": {"amount": 10, "tag": "mekanism:bio"},
+    "itemInput": {"ingredient": {"tag": "forge:sand"}},
+    "output": {"item": "minecraft:dirt"}
+}

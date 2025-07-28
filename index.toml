@@ -1641,11 +1641,6 @@ hash = "711693f4c7a902e3386f355d60ed8fce6f1a42238f5e9209e4a7439a70ad7b6f"
 metafile = true
 
 [[files]]
-file = "mods/appliede.pw.toml"
-hash = "8f0fec24816deafe73f182f307768b108f23f8ac221d277c341e64b28a8e0e17"
-metafile = true
-
-[[files]]
 file = "mods/architectury-api.pw.toml"
 hash = "4e81241ba2da06f425efc5e09fb6b38470125c1581c39e1310c5843a0b96ec76"
 metafile = true

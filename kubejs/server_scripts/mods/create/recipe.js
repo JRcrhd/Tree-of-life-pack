@@ -22,8 +22,6 @@ ServerEvents.recipes(treeoflife => {
             'goety:cursed_ingot',
             '4x create:experience_nugget',
             'minecraft:nautilus_shell',
-            '#forge:ingots/platinum',
-            '#forge:ingots/palladium',
             '4x #forge:nuggets/zinc'
         ]
     );
@@ -156,6 +154,107 @@ ServerEvents.recipes(treeoflife => {
         ]
     )
     .heated();
+
+    treeoflife.custom({
+        "type": "createmetallurgy:melting",
+        "heatRequirement": "superheated",
+        "ingredients": [
+            {
+                "tag": "forge:obsidian"
+            }
+        ],
+        "processingTime": 40,
+        "results": [
+            {
+                "amount": 810,
+                "fluid": "kubejs:molten_obsidian"
+            }
+        ]
+    });
+
+    treeoflife.custom({
+        "type": "createmetallurgy:melting",
+        "heatRequirement": "heated",
+        "ingredients": [
+            {
+                "item": "enderio:dark_steel_ingot"
+            }
+        ],
+        "processingTime": 40,
+        "results": [
+            {
+                "amount": 90,
+                "fluid": "kubejs:molten_dark_steel"
+            }
+        ]
+    });
+
+    treeoflife.custom({
+        "type": "createmetallurgy:alloying",
+        "heatRequirement": "heated",
+        "ingredients": [
+            {
+                "amount": 90,
+                "fluid": "kubejs:molten_obsidian"
+            },
+            {
+                "amount": 10,
+                "fluid": "createmetallurgy:molten_steel"
+            }
+        ],
+        "processingTime": 40,
+        "results": [
+            {
+                "amount": 10,
+                "fluid": "kubejs:molten_dark_steel"
+            }
+        ]
+    });
+
+    treeoflife.custom({
+        "type": "createmetallurgy:casting_in_table",
+        "ingredients": [
+            {
+                "item": "createmetallurgy:graphite_ingot_mold"
+            },
+            {
+                "amount": 90,
+                "fluid": "kubejs:molten_dark_steel"
+            }
+        ],
+        "processingTime": 60,
+        "result": {
+            "item": "enderio:dark_steel_ingot"
+        }
+    });
+
+    treeoflife.custom({
+        "type": "createmetallurgy:casting_in_basin",
+        "ingredients": [
+            {
+                "amount": 810,
+                "fluid": "kubejs:molten_dark_steel"
+            }
+        ],
+        "processingTime": 320,
+        "result": {
+            "item": "enderio:dark_steel_block"
+        }
+    });
+
+    treeoflife.custom({
+        "type": "createmetallurgy:casting_in_basin",
+        "ingredients": [
+            {
+                "amount": 810,
+                "fluid": "kubejs:molten_obsidian"
+            }
+        ],
+        "processingTime": 320,
+        "result": {
+            "item": "minecraft:obsidian"
+        }
+    });
 
 })
 

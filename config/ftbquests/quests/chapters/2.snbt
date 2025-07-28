@@ -329,7 +329,7 @@
 					type: "item"
 				}
 			]
-			x: 6.0d
+			x: 7.5d
 			y: 2.5d
 		}
 		{
@@ -384,7 +384,7 @@
 				item: "createaddition:alternator"
 				type: "item"
 			}]
-			x: 0.5d
+			x: 1.5d
 			y: 7.0d
 		}
 		{
@@ -393,17 +393,6 @@
 			tasks: [{
 				id: "40B316D5EEAC842C"
 				item: "createaddition:electric_motor"
-				type: "item"
-			}]
-			x: 1.5d
-			y: 7.0d
-		}
-		{
-			dependencies: ["0007D7F199B42AA9"]
-			id: "1649B58171A213CE"
-			tasks: [{
-				id: "3D563E96BDF52615"
-				item: "createappliedkinetics:energy_provider"
 				type: "item"
 			}]
 			x: 2.5d
@@ -483,7 +472,7 @@
 				item: "create:railway_casing"
 				type: "item"
 			}]
-			x: 7.5d
+			x: 6.0d
 			y: 2.5d
 		}
 		{
@@ -500,7 +489,7 @@
 				item: "create_enchantment_industry:experience_rotor"
 				type: "item"
 			}]
-			x: 11.0d
+			x: 12.5d
 			y: 1.5d
 		}
 		{
@@ -511,7 +500,7 @@
 				item: "create_enchantment_industry:disenchanter"
 				type: "item"
 			}]
-			x: 11.0d
+			x: 12.5d
 			y: 2.5d
 		}
 		{
@@ -523,8 +512,356 @@
 				item: "create_enchantment_industry:printer"
 				type: "item"
 			}]
-			x: 11.0d
+			x: 12.5d
 			y: 3.5d
+		}
+		{
+			id: "622F009551F447BD"
+			tasks: [
+				{
+					id: "5798BDCD3AA78807"
+					item: "destroy:mashed_potato"
+					type: "item"
+				}
+				{
+					id: "262A1444F55D545A"
+					item: "destroy:mechanical_sieve"
+					type: "item"
+				}
+			]
+			x: -11.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["622F009551F447BD"]
+			id: "0881E1374019B7DB"
+			tasks: [{
+				id: "263AF0A77C7B94C3"
+				item: "destroy:crushed_raw_rhodium"
+				type: "item"
+			}]
+			x: -11.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["0E02578F3DEC97DE"]
+			id: "75E66B2D9ADEF5CF"
+			tasks: [{
+				id: "48C52A70A98166BA"
+				item: "enderio:void_chassis"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["0E02578F3DEC97DE"]
+			id: "2BF3DB43ECA55DD3"
+			tasks: [{
+				id: "32551EC01B86578B"
+				item: "enderio:basic_capacitor"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["0045893137CA84C5"]
+			id: "2E9BB6F63FC8FC28"
+			tasks: [{
+				id: "3FD472CB95CF6BF7"
+				item: "enderio:dark_steel_ingot"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["2E9BB6F63FC8FC28"]
+			id: "60A4459CAE24E316"
+			tasks: [{
+				id: "41413CC86BA04911"
+				item: "enderio:enchanter"
+				type: "item"
+			}]
+			x: 12.5d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"75E66B2D9ADEF5CF"
+				"2E9BB6F63FC8FC28"
+			]
+			id: "52C262FDC4ABB911"
+			tasks: [{
+				id: "507DEBA0D528A60C"
+				item: "enderio:alloy_smelter"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["52C262FDC4ABB911"]
+			id: "20DFBBB6B2CF958E"
+			tasks: [{
+				id: "57A249C2C03D945C"
+				item: "enderio:copper_alloy_ingot"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["20DFBBB6B2CF958E"]
+			id: "242189A03ABFB863"
+			tasks: [{
+				id: "6D68303CB6FF66C5"
+				item: "enderio:conductive_alloy_ingot"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["52C262FDC4ABB911"]
+			id: "47F8FD80BBCF8785"
+			tasks: [{
+				id: "6105D58CFF7DB3EE"
+				item: "enderio:energetic_alloy_ingot"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["47F8FD80BBCF8785"]
+			id: "60DB4C3099955F9F"
+			tasks: [{
+				id: "42C6E54A71F915B2"
+				item: "enderio:vibrant_alloy_ingot"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["52C262FDC4ABB911"]
+			id: "69502F6C442190AB"
+			tasks: [{
+				id: "299A695E2AB772AB"
+				item: "enderio:redstone_alloy_ingot"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["09234A1D06BFD518"]
+			id: "02D06CE463C4278D"
+			tasks: [{
+				id: "7F27DA38DF98D559"
+				item: "enderio:ensouled_chassis"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["52C262FDC4ABB911"]
+			id: "09234A1D06BFD518"
+			tasks: [{
+				id: "30AC468AE84D4E7F"
+				item: "enderio:soularium_ingot"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 8.5d
+		}
+		{
+			dependencies: [
+				"47F8FD80BBCF8785"
+				"2BF3DB43ECA55DD3"
+			]
+			id: "08B8B7B757105220"
+			tasks: [{
+				id: "321C5D4EB3DF4624"
+				item: "enderio:double_layer_capacitor"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 7.0d
+		}
+		{
+			dependencies: [
+				"60DB4C3099955F9F"
+				"08B8B7B757105220"
+			]
+			id: "10D7FA7663435E52"
+			tasks: [{
+				id: "3D8AF1CEBD421B7E"
+				item: "enderio:octadic_capacitor"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["02D06CE463C4278D"]
+			id: "32ADBF46C76EF97A"
+			tasks: [{
+				id: "3B4DC6771F41B62E"
+				item: {
+					Count: 1
+					id: "enderio:powered_spawner"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 12.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["02D06CE463C4278D"]
+			id: "0C456C0BC1F7EBBA"
+			tasks: [{
+				id: "7AC3AB235AF2A48E"
+				item: "enderio:slice_and_splice"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["02D06CE463C4278D"]
+			id: "41B2A4AE341EB84C"
+			tasks: [{
+				id: "7782A916A70F9B9C"
+				item: "enderio:soul_binder"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["70FAE80E361E8EDC"]
+			id: "19ADE3EEEEC8DD02"
+			tasks: [{
+				id: "7755CF572631353D"
+				item: {
+					Count: 1
+					id: "enderio:soul_engine"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 11.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["0C456C0BC1F7EBBA"]
+			id: "70FAE80E361E8EDC"
+			tasks: [{
+				id: "564038D6E616DA86"
+				item: "enderio:zombie_electrode"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["0C456C0BC1F7EBBA"]
+			id: "042F90A7E6432686"
+			tasks: [{
+				id: "06CD90FC8C996652"
+				item: "enderio:skeletal_contractor"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["0C456C0BC1F7EBBA"]
+			id: "6525E24CA0B45DF2"
+			tasks: [{
+				id: "03D43430A1E06D8A"
+				item: "enderio:guardian_diode"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 12.5d
+		}
+		{
+			dependencies: [
+				"41B2A4AE341EB84C"
+				"0C456C0BC1F7EBBA"
+			]
+			id: "05FBA9B5F1A5428E"
+			tasks: [{
+				id: "6B6F8B532B3FAD60"
+				item: "enderio:frank_n_zombie"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 12.5d
+		}
+		{
+			dependencies: [
+				"41B2A4AE341EB84C"
+				"0C456C0BC1F7EBBA"
+			]
+			id: "48B02B42503557BC"
+			tasks: [{
+				id: "723BBC3EB4C600D4"
+				item: "enderio:sentient_ender"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 12.5d
+		}
+		{
+			dependencies: ["41B2A4AE341EB84C"]
+			id: "2051450F02D21CF6"
+			tasks: [{
+				id: "2D1E092990E8D950"
+				item: "enderio:ender_crystal"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 12.5d
+		}
+		{
+			dependencies: ["41B2A4AE341EB84C"]
+			id: "67FBF6DBD8D5F0C7"
+			tasks: [{
+				id: "3E4744C5D11095C5"
+				item: "enderio:enticing_crystal"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["41B2A4AE341EB84C"]
+			id: "46EE56C0254EBCC1"
+			tasks: [{
+				id: "760DEE1AB71B06C3"
+				item: "enderio:weather_crystal"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["41B2A4AE341EB84C"]
+			id: "0D3C5D6A64051377"
+			tasks: [{
+				id: "6CDF9B600CCE4EE7"
+				item: "enderio:prescient_crystal"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 10.0d
 		}
 	]
 	title: "2、蒸汽时代"

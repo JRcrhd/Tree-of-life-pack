@@ -42,7 +42,7 @@ StartupEvents.registry('item', treeoflife => {
 
 StartupEvents.registry('fluid', treeoflife => {
     treeoflife.create('sky_fluid')
-        .thickTexture(0x67E0D4)
+        .thinTexture(0x67E0D4)
         .bucketColor(0x67E0D4)
         .displayName('天空流体');
 
@@ -52,7 +52,7 @@ StartupEvents.registry('fluid', treeoflife => {
         .displayName('巫术流体');
 
     treeoflife.create('dim_sky_fluid')
-        .thickTexture(0x3087C2)
+        .thinTexture(0x3087C2)
         .bucketColor(0x3087C2)
         .displayName('暗淡的天空流体');
 
@@ -62,7 +62,19 @@ StartupEvents.registry('fluid', treeoflife => {
         .displayName('微缩洋流');
 
     treeoflife.create('sunlight_fluid')
-        .thickTexture(0xFFF838)
+        .thinTexture(0xFFF838)
         .bucketColor(0xFFF838)
         .displayName('日光');
+    
+    treeoflife.create('molten_obsidian')
+        .thickTexture(0x311140)
+        .bucketColor(0x311140)
+        .displayName('熔融黑曜石')
+        .temperature(2000);
+
+    treeoflife.create('molten_dark_steel')
+        .thickTexture(0x000E2B)
+        .bucketColor(0x000E2B)
+        .displayName('熔融玄钢')
+        .temperature(1200);
 });

@@ -227,51 +227,6 @@
 			y: 3.0d
 		}
 		{
-			dependencies: ["161309655AB92C0E"]
-			id: "64FD5E1774670807"
-			rewards: [{
-				id: "5903BE453839525C"
-				item: "minecraft:beetroot_seeds"
-				type: "item"
-			}]
-			tasks: [{
-				id: "0891F66C03857D0F"
-				item: "minecraft:beetroot"
-				type: "item"
-			}]
-			x: -3.5d
-			y: 3.0d
-		}
-		{
-			dependencies: [
-				"64FD5E1774670807"
-				"7A7EC258856BE304"
-			]
-			description: ["将甜菜根种植在矿物上方的耕地上"]
-			id: "7523DF5188993B99"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "5D66DAF1C384EF5E"
-				table_id: 1367640064537670306L
-				type: "random"
-			}]
-			subtitle: "矿物富集"
-			tasks: [
-				{
-					id: "6198C9075A16279F"
-					item: "destroy:palladium_ingot"
-					type: "item"
-				}
-				{
-					id: "6983D5DB9D6DC115"
-					item: "destroy:platinum_ingot"
-					type: "item"
-				}
-			]
-			x: -3.0d
-			y: 4.0d
-		}
-		{
 			dependencies: ["5C435E77CBCDCAF9"]
 			id: "220C91953126DE57"
 			tasks: [{
