@@ -73,6 +73,7 @@ ServerEvents.recipes(treeoflife => {
         }
     });
 
+    treeoflife.remove({id: 'enderio:alloy_smelting/dark_steel_ingot'});
     treeoflife.remove({id: 'enderio:alloy_smelting/soularium_ingot'});
     treeoflife.custom({
         "type": "enderio:alloy_smelting",

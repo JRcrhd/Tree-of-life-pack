@@ -256,6 +256,30 @@ ServerEvents.recipes(treeoflife => {
         }
     });
 
+    treeoflife.custom({
+        "type": "destroy:arc_furnace",
+        "ingredients": [
+            {
+                "item": "minecraft:charcoal"
+            },
+            {
+                "tag": "forge:dusts/iron"
+            },
+            {
+                "tag": "forge:dusts/iron"
+            },
+            {
+                "tag": "forge:dusts/iron"
+            }
+        ],
+        "results": [
+            {
+                "item": "pneumaticcraft:ingot_iron_compressed"
+            }
+        ],
+        "recipeDuration": 25600
+    });
+
 })
 
 LootJS.modifiers((treeoflife) => {

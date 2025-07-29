@@ -31,6 +31,14 @@
 			x: -8.5d
 			y: 2.5d
 		}
+		{
+			height: 6.0d
+			image: "petrolsparts:block/pneumatic_tube_segment"
+			rotation: 0.0d
+			width: 6.0d
+			x: 0.5d
+			y: 10.5d
+		}
 	]
 	order_index: 1
 	quest_links: [ ]
@@ -529,7 +537,7 @@
 					type: "item"
 				}
 			]
-			x: -11.5d
+			x: -12.0d
 			y: 6.0d
 		}
 		{
@@ -540,7 +548,7 @@
 				item: "destroy:crushed_raw_rhodium"
 				type: "item"
 			}]
-			x: -11.0d
+			x: -12.0d
 			y: 7.0d
 		}
 		{
@@ -789,7 +797,7 @@
 				type: "item"
 			}]
 			x: 9.0d
-			y: 12.5d
+			y: 12.0d
 		}
 		{
 			dependencies: [
@@ -803,7 +811,7 @@
 				type: "item"
 			}]
 			x: 8.0d
-			y: 12.5d
+			y: 12.0d
 		}
 		{
 			dependencies: [
@@ -817,7 +825,7 @@
 				type: "item"
 			}]
 			x: 7.0d
-			y: 12.5d
+			y: 12.0d
 		}
 		{
 			dependencies: ["41B2A4AE341EB84C"]
@@ -828,7 +836,7 @@
 				type: "item"
 			}]
 			x: 6.0d
-			y: 12.5d
+			y: 12.0d
 		}
 		{
 			dependencies: ["41B2A4AE341EB84C"]
@@ -849,7 +857,7 @@
 				item: "enderio:weather_crystal"
 				type: "item"
 			}]
-			x: 4.5d
+			x: 5.0d
 			y: 11.0d
 		}
 		{
@@ -860,8 +868,272 @@
 				item: "enderio:prescient_crystal"
 				type: "item"
 			}]
-			x: 4.5d
+			x: 5.0d
 			y: 10.0d
+		}
+		{
+			dependencies: ["2150E127104E0C64"]
+			id: "7AC8E6329EAEA14D"
+			tasks: [{
+				id: "5EC9E2AD64EF2BAA"
+				item: "pneumaticcraft:ingot_iron_compressed"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["01739EC3A18F68A9"]
+			id: "2150E127104E0C64"
+			tasks: [
+				{
+					id: "62C2C93C98AB5123"
+					item: "destroy:carbon_fiber_block"
+					type: "item"
+				}
+				{
+					id: "7CB454441D8CA29E"
+					item: "destroy:dynamo"
+					type: "item"
+				}
+			]
+			x: -3.0d
+			y: 10.0d
+		}
+		{
+			id: "01739EC3A18F68A9"
+			tasks: [{
+				id: "2045B8509AE0E76D"
+				item: "destroy:polyacrylonitrile"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 10.0d
+		}
+		{
+			description: [
+				"将原油通入泡罩底层，分馏产物会出现在每一层泡罩中。"
+				""
+				"introduce crude oil into the bubble cap bottom layer, and the distillation products will appear in each layer of the bubble cap."
+			]
+			id: "50F94E0F79D285F6"
+			subtitle: "distillation"
+			tasks: [{
+				count: 6L
+				id: "42F4F186884FB035"
+				item: { Count: 6, id: "destroy:bubble_cap" }
+				type: "item"
+			}]
+			title: "蒸馏"
+			x: -6.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["50F94E0F79D285F6"]
+			description: [
+				"泡罩产物中依然有混合物，将混合物通入离心机可以按密度将其中的成分分为两份。"
+				""
+				"There are still mixtures in the bubble products."
+				""
+				"Passing the mixtures through a centrifuge can divide the components into two parts; repeating this process can yield pure substances."
+			]
+			id: "0141207FC14CFB4E"
+			tasks: [{
+				id: "726040ED28CD8F7D"
+				item: "destroy:centrifuge"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 7.0d
+		}
+		{
+			dependencies: [
+				"51E68076F0AFF39F"
+				"36F54CECEFAAF849"
+			]
+			id: "7A044AD4B3C8EA03"
+			tasks: [{
+				id: "7C41A7A51DCFAD4E"
+				item: "pneumaticcraft:plastic"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 13.0d
+		}
+		{
+			dependencies: [
+				"06D942984F8FC954"
+				"7E76D4BA91CD80A0"
+			]
+			id: "1935CEFF9B14A690"
+			tasks: [{
+				id: "060F8642D536F83C"
+				item: "pneumaticcraft:printed_circuit_board"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 16.0d
+		}
+		{
+			dependencies: ["7AC8E6329EAEA14D"]
+			id: "2B2A3677D7EF0EF5"
+			tasks: [{
+				id: "4341BDE2AFA24656"
+				item: "pneumaticcraft:air_compressor"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["2B2A3677D7EF0EF5"]
+			id: "2F4CA006EB990CF8"
+			tasks: [{
+				id: "2A90478AB1E39AA9"
+				item: "pneumaticcraft:thermal_compressor"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["2B2A3677D7EF0EF5"]
+			id: "5AC6947E1ED7DE6D"
+			tasks: [{
+				id: "15A2ADF992E4E8B9"
+				item: "pneumaticcraft:vortex_tube"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["7AC8E6329EAEA14D"]
+			id: "51E68076F0AFF39F"
+			tasks: [{
+				id: "71437623296539DC"
+				item: "pneumaticcraft:thermopneumatic_processing_plant"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["7AC8E6329EAEA14D"]
+			id: "36F54CECEFAAF849"
+			tasks: [
+				{
+					id: "76BD6E6FA50E3223"
+					item: "pneumaticcraft:pressure_chamber_wall"
+					type: "item"
+				}
+				{
+					id: "56ACA6E956C152D4"
+					item: "pneumaticcraft:pressure_chamber_valve"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "02D4F8B864005464"
+					item: { Count: 2, id: "pneumaticcraft:pressure_chamber_interface" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["7A044AD4B3C8EA03"]
+			id: "208459163F90CD41"
+			tasks: [{
+				id: "1A1974F0252B0185"
+				item: "pneumaticcraft:empty_pcb"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 14.5d
+		}
+		{
+			id: "0E71D14328B3041D"
+			tasks: [{
+				id: "7566818FE253EEA1"
+				item: "pneumaticcraft:etching_acid_bucket"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 14.5d
+		}
+		{
+			dependencies: ["208459163F90CD41"]
+			id: "06D942984F8FC954"
+			tasks: [{
+				id: "6585EE9E76EBAC11"
+				item: "pneumaticcraft:uv_light_box"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 14.5d
+		}
+		{
+			dependencies: ["0E71D14328B3041D"]
+			id: "7E76D4BA91CD80A0"
+			tasks: [{
+				id: "5555D0EAB6A8AD7B"
+				item: "pneumaticcraft:etching_tank"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 14.5d
+		}
+		{
+			id: "7A7D98FE86B6805C"
+			tasks: [{
+				id: "0006724409B35CCB"
+				item: "destroy:chalk_dust"
+				type: "item"
+			}]
+			x: -10.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["7A7D98FE86B6805C"]
+			id: "501A232A7275B5F6"
+			tasks: [{
+				id: "0E5EFA42110EDEE5"
+				item: {
+					Count: 1
+					id: "destroy:quicklime"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -10.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["501A232A7275B5F6"]
+			id: "7769260403E838DB"
+			tasks: [{
+				id: "289BE1B31A3CF8D7"
+				item: "destroy:calcium_carbide"
+				type: "item"
+			}]
+			x: -10.5d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"6C679BDF158918A9"
+				"7769260403E838DB"
+			]
+			id: "2D3D10B9161AFD3B"
+			tasks: [{
+				id: "0CBB7324DABF0479"
+				item: "destroy:hyperaccumulating_fertilizer"
+				type: "item"
+			}]
+			x: -9.5d
+			y: 9.0d
 		}
 	]
 	title: "2、蒸汽时代"

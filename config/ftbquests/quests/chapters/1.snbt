@@ -469,28 +469,6 @@
 			y: 4.0d
 		}
 		{
-			dependencies: ["411FC7959F4A2668"]
-			id: "4DFEB196F84E165A"
-			tasks: [{
-				id: "11EA97DEAEBE3237"
-				item: "destroy:bubble_cap"
-				type: "item"
-			}]
-			x: 4.0d
-			y: 3.0d
-		}
-		{
-			dependencies: ["411FC7959F4A2668"]
-			id: "055CFC7BB6FB248A"
-			tasks: [{
-				id: "6268425AB54563D5"
-				item: "destroy:centrifuge"
-				type: "item"
-			}]
-			x: 8.0d
-			y: 3.0d
-		}
-		{
 			dependencies: ["5C435E77CBCDCAF9"]
 			id: "1368F02B298EF7E1"
 			tasks: [{
