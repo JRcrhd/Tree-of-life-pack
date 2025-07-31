@@ -1871,6 +1871,11 @@ hash = "9eefd607e0d54ec444e798ccdeede1a09a3939440bd1e11c11b84c07a5134be2"
 metafile = true
 
 [[files]]
+file = "mods/custommachinery-fork.pw.toml"
+hash = "6e3910a32ba3c67f87f3fd32117702bcdee1084fc8d855e23f5a7f936cc220dc"
+metafile = true
+
+[[files]]
 file = "mods/deep-aether.pw.toml"
 hash = "d0305b9d8cce457b9c1ca039134ae78966a8d89e7c835653c8907195e051d906"
 metafile = true

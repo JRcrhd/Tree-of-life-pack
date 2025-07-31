@@ -6,6 +6,56 @@
 	hide_quest_until_deps_visible: true
 	icon: "goety:updraft_focus"
 	id: "7AEC4320BB36FF28"
+	images: [
+		{
+			height: 4.0d
+			image: "minecraft:block/redstone_dust_line0"
+			rotation: 60.0d
+			width: 1.0d
+			x: -3.0d
+			y: 3.0d
+		}
+		{
+			height: 4.0d
+			image: "minecraft:block/redstone_dust_line0"
+			rotation: 120.0d
+			width: 1.0d
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			height: 4.0d
+			image: "minecraft:block/redstone_dust_line0"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.5d
+			y: 0.5d
+		}
+		{
+			height: 6.0d
+			image: "minecraft:block/redstone_dust_line0"
+			rotation: 30.0d
+			width: 1.0d
+			x: -3.0d
+			y: 1.0d
+		}
+		{
+			height: 6.0d
+			image: "minecraft:block/redstone_dust_line0"
+			rotation: 150.0d
+			width: 1.0d
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			height: 6.0d
+			image: "minecraft:block/redstone_dust_line0"
+			rotation: 90.0d
+			width: 1.0d
+			x: -1.5d
+			y: 4.0d
+		}
+	]
 	order_index: 2
 	quest_links: [ ]
 	quests: [
@@ -37,7 +87,7 @@
 				type: "item"
 			}]
 			x: -1.5d
-			y: 4.5d
+			y: 2.25d
 		}
 		{
 			id: "2ABE4E6D962D34D7"
@@ -48,8 +98,8 @@
 				item: "kubejs:point_netzach"
 				type: "item"
 			}]
-			x: 2.25d
-			y: 6.0d
+			x: 1.5d
+			y: 3.75d
 		}
 		{
 			id: "5605DC0B6E786B31"
@@ -60,8 +110,98 @@
 				item: "kubejs:point_hod"
 				type: "item"
 			}]
-			x: -5.25d
-			y: 6.0d
+			x: -4.5d
+			y: 3.75d
+		}
+		{
+			id: "0869B74FAED3FFAF"
+			shape: "diamond"
+			tasks: [{
+				id: "7EB8D8D248146F2E"
+				item: {
+					Count: 1
+					id: "tarotcards:the_world"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			id: "48F289A44F7BBF74"
+			shape: "diamond"
+			tasks: [{
+				id: "055463D62F042D0F"
+				item: {
+					Count: 1
+					id: "tarotcards:the_sun"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: 3.0d
+		}
+		{
+			id: "0CE398DA9C9D018F"
+			shape: "diamond"
+			tasks: [{
+				id: "544B12848627D242"
+				item: {
+					Count: 1
+					id: "tarotcards:the_tower"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: 4.0d
+		}
+		{
+			id: "514A30F9C65E5713"
+			shape: "diamond"
+			tasks: [{
+				id: "6910EAD4DC32FBC0"
+				item: {
+					Count: 1
+					id: "tarotcards:judgement"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: 1.0d
+		}
+		{
+			id: "09FBFEE32DBB5926"
+			shape: "diamond"
+			tasks: [{
+				id: "6FE203E7F0F561DF"
+				item: {
+					Count: 1
+					id: "tarotcards:the_moon"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			id: "20647177503A6370"
+			shape: "diamond"
+			tasks: [{
+				id: "748F56957295EEBF"
+				item: {
+					Count: 1
+					id: "tarotcards:the_star"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.0d
 		}
 	]
 	title: "形成——Yetzirah"

@@ -364,6 +364,7 @@
 		}
 		{
 			dependencies: ["0007D7F199B42AA9"]
+			hide_dependent_lines: true
 			id: "7773A2FD621B8EE7"
 			tasks: [{
 				id: "6165D2CFE2558DDF"
@@ -524,6 +525,8 @@
 			y: 3.5d
 		}
 		{
+			dependencies: ["34045359A91989FD"]
+			hide_dependency_lines: true
 			id: "622F009551F447BD"
 			tasks: [
 				{
@@ -537,8 +540,8 @@
 					type: "item"
 				}
 			]
-			x: -12.0d
-			y: 6.0d
+			x: -14.0d
+			y: 5.5d
 		}
 		{
 			dependencies: ["622F009551F447BD"]
@@ -548,8 +551,8 @@
 				item: "destroy:crushed_raw_rhodium"
 				type: "item"
 			}]
-			x: -12.0d
-			y: 7.0d
+			x: -14.0d
+			y: 8.5d
 		}
 		{
 			dependencies: ["0E02578F3DEC97DE"]
@@ -885,18 +888,11 @@
 		{
 			dependencies: ["01739EC3A18F68A9"]
 			id: "2150E127104E0C64"
-			tasks: [
-				{
-					id: "62C2C93C98AB5123"
-					item: "destroy:carbon_fiber_block"
-					type: "item"
-				}
-				{
-					id: "7CB454441D8CA29E"
-					item: "destroy:dynamo"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "62C2C93C98AB5123"
+				item: "destroy:carbon_fiber_block"
+				type: "item"
+			}]
 			x: -3.0d
 			y: 10.0d
 		}
@@ -911,11 +907,13 @@
 			y: 10.0d
 		}
 		{
+			dependencies: ["34045359A91989FD"]
 			description: [
 				"将原油通入泡罩底层，分馏产物会出现在每一层泡罩中。"
 				""
 				"introduce crude oil into the bubble cap bottom layer, and the distillation products will appear in each layer of the bubble cap."
 			]
+			hide_dependency_lines: true
 			id: "50F94E0F79D285F6"
 			subtitle: "distillation"
 			tasks: [{
@@ -925,8 +923,8 @@
 				type: "item"
 			}]
 			title: "蒸馏"
-			x: -6.5d
-			y: 6.0d
+			x: -11.0d
+			y: 5.5d
 		}
 		{
 			dependencies: ["50F94E0F79D285F6"]
@@ -943,8 +941,8 @@
 				item: "destroy:centrifuge"
 				type: "item"
 			}]
-			x: -6.5d
-			y: 7.0d
+			x: -11.0d
+			y: 6.5d
 		}
 		{
 			dependencies: [
@@ -966,6 +964,8 @@
 				"7E76D4BA91CD80A0"
 			]
 			id: "1935CEFF9B14A690"
+			shape: "gear"
+			size: 1.5d
 			tasks: [{
 				id: "060F8642D536F83C"
 				item: "pneumaticcraft:printed_circuit_board"
@@ -1086,53 +1086,474 @@
 			y: 14.5d
 		}
 		{
-			id: "7A7D98FE86B6805C"
-			tasks: [{
-				id: "0006724409B35CCB"
-				item: "destroy:chalk_dust"
-				type: "item"
-			}]
-			x: -10.5d
-			y: 6.0d
-		}
-		{
-			dependencies: ["7A7D98FE86B6805C"]
-			id: "501A232A7275B5F6"
-			tasks: [{
-				id: "0E5EFA42110EDEE5"
-				item: {
-					Count: 1
-					id: "destroy:quicklime"
-					tag: { }
-				}
-				type: "item"
-			}]
-			x: -10.5d
-			y: 7.0d
-		}
-		{
-			dependencies: ["501A232A7275B5F6"]
-			id: "7769260403E838DB"
-			tasks: [{
-				id: "289BE1B31A3CF8D7"
-				item: "destroy:calcium_carbide"
-				type: "item"
-			}]
-			x: -10.5d
-			y: 8.0d
-		}
-		{
 			dependencies: [
-				"6C679BDF158918A9"
-				"7769260403E838DB"
+				"7B5A1915250646B7"
+				"2C377D38B54FA79F"
+			]
+			description: [
+				"氨气的混合气通到硝酸溶液中，其中只有氨气可溶。"
+				""
+				"调整浓度后可获得硝酸铵溶液。"
+				""
+				"The mixed gas of ammonia is passed into the nitric acid solution, where only ammonia is soluble."
+				""
+				"After adjusting the concentration, ammonium nitrate solution can be obtained."
 			]
 			id: "2D3D10B9161AFD3B"
+			rewards: [{
+				id: "4AA0BDFB0FE14BF9"
+				item: "destroy:hyperaccumulating_fertilizer"
+				type: "item"
+			}]
 			tasks: [{
 				id: "0CBB7324DABF0479"
 				item: "destroy:hyperaccumulating_fertilizer"
 				type: "item"
 			}]
-			x: -9.5d
+			x: -13.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["0141207FC14CFB4E"]
+			description: [
+				"使用泡罩对原油进行分馏"
+				""
+				"多次离心炼油厂气体获得纯净物"
+				""
+				"Use a bubble cap to distill crude oil."
+				""
+				"Multiple centrifuge refinery gases obtain methane."
+			]
+			id: "55CE46A4434EBE12"
+			subtitle: "CH4"
+			tasks: [{
+				id: "2A6FB7D9581BD473"
+				title: "甲烷"
+				type: "checkmark"
+			}]
+			x: -11.0d
+			y: 7.5d
+		}
+		{
+			dependencies: [
+				"0DF199E5EDAEC938"
+				"55CE46A4434EBE12"
+				"74C64AECE6327F76"
+			]
+			description: [
+				"在大桶中通入少量的甲烷和水。丢入镍粉，反应会生成大量氢气。"
+				""
+				"降温，使得除了氢气之外其他气体变为液体。"
+				""
+				"注意："
+				""
+				"1.保持大桶排气管关闭，否则甲烷和氢气会跑走。"
+				""
+				"2.反应生成氢气体积较大，注意控制气压。"
+				""
+				"Introduce a small amount of methane and water into the large barrel. Add nickel powder, and a large amount of hydrogen gas will be generated."
+				""
+				"Cold down the mixture so that all gases other than hydrogen become liquids."
+				""
+				"Note:"
+				""
+				"1. Keep the exhaust pipe of the large barrel closed, otherwise methane and hydrogen will escape."
+				""
+				"2. The reaction generates a large volume of hydrogen gas, so be sure to control the pressure."
+			]
+			id: "12A2E8F31C352174"
+			subtitle: "H2"
+			tasks: [{
+				id: "52026CFBCC980422"
+				title: "氢气"
+				type: "checkmark"
+			}]
+			x: -12.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["7B74478E427A319D"]
+			id: "74C64AECE6327F76"
+			tasks: [{
+				id: "66F5346D64DE9B28"
+				item: "destroy:cooler"
+				type: "item"
+			}]
+			x: -12.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["50F94E0F79D285F6"]
+			description: [
+				"将尿液通入泡罩进行蒸馏可以获得氨气。"
+				""
+				"这是前期获得制冷剂的途径之一。"
+				""
+				"Passing urine into a bubble chamber for distillation can obtain ammonia. "
+				""
+				"This is one of the preliminary methods for obtaining refrigerants."
+			]
+			id: "0DF199E5EDAEC938"
+			subtitle: "Temporary acquisition of ammonia"
+			tasks: [{
+				id: "19145EACED6231C5"
+				title: "临时的氨气获取"
+				type: "checkmark"
+			}]
+			x: -13.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["12A2E8F31C352174"]
+			description: [
+				"利用博施法，将氢气通入氮气中，利用铁粉催化制造氨气。"
+				""
+				"保持密闭，注意气压。"
+				""
+				"Using the Bosch method, pass hydrogen into nitrogen and utilize iron powder as a catalyst to produce ammonia. "
+				""
+				"Keep it sealed and pay attention to the pressure."
+			]
+			id: "7B5A1915250646B7"
+			subtitle: "Ammonia"
+			tasks: [{
+				id: "4507B85216C4D348"
+				title: "氨"
+				type: "checkmark"
+			}]
+			x: -13.0d
+			y: 9.5d
+		}
+		{
+			dependencies: [
+				"0881E1374019B7DB"
+				"7B5A1915250646B7"
+			]
+			description: [
+				"使用ostwald工艺生产硝酸溶液，详情请看jei."
+				""
+				"Use the Ostwald process to produce nitric acid solution, for details please see JEI."
+			]
+			id: "2C377D38B54FA79F"
+			subtitle: "HNO3"
+			tasks: [{
+				id: "35F2ED122AD8E59E"
+				title: "硝酸溶液"
+				type: "checkmark"
+			}]
+			x: -14.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["2D3D10B9161AFD3B"]
+			id: "6C5D81ECF3CAA2AE"
+			rewards: [{
+				id: "0314430D6590CCA5"
+				item: "destroy:platinum_ingot"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2F9EE19BD03CA523"
+				item: "destroy:platinum_ingot"
+				type: "item"
+			}]
+			x: -14.0d
+			y: 12.5d
+		}
+		{
+			dependencies: ["2D3D10B9161AFD3B"]
+			id: "54E7F8E59DB58A9D"
+			rewards: [{
+				id: "031844DDC5462BC9"
+				item: "destroy:palladium_ingot"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7F18508586581D51"
+				item: "destroy:palladium_ingot"
+				type: "item"
+			}]
+			x: -12.0d
+			y: 12.5d
+		}
+		{
+			dependencies: ["75F0E38217FBF165"]
+			description: [
+				"在海洋群系蒸馏水也可以获得盐水。"
+				""
+				"In marine biomes, distilled water can also obtain brine."
+			]
+			id: "44B9093492D0A005"
+			subtitle: "brine"
+			tasks: [{
+				id: "63DF90162460E8EC"
+				item: "destroy:tear_bottle"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["75F0E38217FBF165"]
+			description: [
+				"融化红石粉制造熔融朱砂。"
+				""
+				"朱砂分馏获得水银。"
+				""
+				"Melt red stone powder to produce molten cinnabar."
+				""
+				"Distilling cinnabar to obtain mercury."
+			]
+			id: "0401D93CA318FC51"
+			subtitle: "Molten Cinnabar"
+			tasks: [{
+				id: "4C60F3FE86061A65"
+				item: "minecraft:redstone"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 5.5d
+		}
+		{
+			dependencies: [
+				"0401D93CA318FC51"
+				"44B9093492D0A005"
+			]
+			description: [
+				"电解汞+盐水溶液"
+				""
+				"Electrolytic mercury + saltwater solution"
+			]
+			id: "67540EC297CCF6B9"
+			tasks: [{
+				id: "5BF0DE646239844C"
+				item: "destroy:dynamo"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["67540EC297CCF6B9"]
+			description: [
+				"盐酸、次氯酸在紫外线下分解为氯气。"
+				""
+				"Hydrochloric and hypochlorous decompose into chlorine under ultraviolet light."
+			]
+			id: "59B1D6DC8C1CB245"
+			subtitle: "Cl2"
+			tasks: [
+				{
+					id: "659F3AE807F1DA3C"
+					item: "destroy:blacklight"
+					type: "item"
+				}
+				{
+					id: "35E245ADDA6FAAE2"
+					type: "checkmark"
+				}
+			]
+			title: "氯气"
+			x: -6.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["6C679BDF158918A9"]
+			description: [
+				"注意："
+				""
+				"1.坍毁化合（destroy）中的合成加工以&b现实化学反应&r为基础，如果你认为这种加工方式难以理解，本整合包还为&6关键物品&r增加了简化后的合成方式。"
+				""
+				"但是坍毁化合原本的合成会被保留，而且&b通常具有更高的效率和产量&r。"
+				""
+				"2.此处任务给出的合成线路&4不一定是最好的线路&r。"
+				""
+				"Note:"
+				""
+				"1. The synthesis processing in Create:Destroy is based on &bRealistic Chemical Reactions&r. If you find this processing method difficult to understand, this pack also adds simplified crafting methods for &6key items&r."
+				""
+				"However, the original synthesis of Create:Destroy will be retained, and it &busually has higher efficiency and yield&r."
+				""
+				"2. The synthesis routes provided in this task &4are not the certain best routes&r."
+			]
+			hide_dependent_lines: true
+			id: "75F0E38217FBF165"
+			tasks: [{
+				id: "0D8E1DCBD396EEE7"
+				title: "请确认"
+				type: "checkmark"
+			}]
+			x: -8.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["67540EC297CCF6B9"]
+			description: [
+				"将钠汞齐输入大桶，会产生自然沉淀的钠锭。"
+				""
+				"Introducing sodium mercury amalgam into vat will produce naturally precipitated sodium ingots."
+			]
+			icon: {
+				Count: 1
+				id: "destroy:sodium_ingot"
+				tag: { }
+			}
+			id: "3830546A9738C0DC"
+			subtitle: "Sodium Amalgam"
+			tasks: [
+				{
+					id: "4BC4F5713E1A70C7"
+					title: "钠汞齐"
+					type: "checkmark"
+				}
+				{
+					id: "2F100CE8A23ADD4A"
+					item: {
+						Count: 1
+						id: "destroy:sodium_ingot"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			x: -7.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["3830546A9738C0DC"]
+			id: "4669CB2B6814C998"
+			tasks: [{
+				id: "2A00154477FAB8ED"
+				item: "destroy:oxidized_sodium_ingot"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["7773A2FD621B8EE7"]
+			id: "4CA31D871E12F6FF"
+			tasks: [{
+				id: "0A03BFFB8EF2D6BD"
+				item: "destroy:silica"
+				type: "item"
+			}]
+			x: -9.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["50F94E0F79D285F6"]
+			description: [
+				"在沙漠群系分馏水可以获得硼砂溶液。"
+				""
+				"In desert biome, borax solution can be obtained from distilled water."
+			]
+			id: "7696CB299FCFE20B"
+			subtitle: "borax"
+			tasks: [{
+				id: "50DBB457AA050B6F"
+				item: "destroy:borax"
+				type: "item"
+			}]
+			x: -10.0d
+			y: 6.5d
+		}
+		{
+			dependencies: [
+				"4CA31D871E12F6FF"
+				"7696CB299FCFE20B"
+				"4669CB2B6814C998"
+			]
+			id: "26A514325567B2BD"
+			tasks: [{
+				id: "18FB71020F931FFC"
+				item: "destroy:molten_borosilicate_glass_bucket"
+				type: "item"
+			}]
+			x: -9.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["26A514325567B2BD"]
+			id: "0E300FB1ADB86B1D"
+			rewards: [{
+				id: "5AF8AFA41D282864"
+				item: {
+					Count: 1
+					id: "destroy:beaker"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5B886F14394CD029"
+				item: {
+					Count: 1
+					id: "destroy:beaker"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -10.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["26A514325567B2BD"]
+			id: "0C21F4277FAD19C6"
+			rewards: [{
+				id: "6AB6A57D8141356C"
+				item: {
+					Count: 1
+					id: "destroy:measuring_cylinder"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6B748DAC3F19D1B9"
+				item: {
+					Count: 1
+					id: "destroy:measuring_cylinder"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -9.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["26A514325567B2BD"]
+			id: "7AB4E4E6F94D9459"
+			rewards: [{
+				id: "27988AF076E54F61"
+				item: {
+					Count: 1
+					id: "destroy:round_bottomed_flask"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6DC4D776A032943F"
+				item: {
+					Count: 1
+					id: "destroy:round_bottomed_flask"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -8.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["7AC8E6329EAEA14D"]
+			id: "17C2E5E38F4C5F50"
+			tasks: [{
+				id: "4156B8BBF551BB54"
+				item: "computercraft:computer_normal"
+				type: "item"
+			}]
+			x: -0.5d
 			y: 9.0d
 		}
 	]

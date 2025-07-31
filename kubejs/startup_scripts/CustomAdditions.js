@@ -30,6 +30,7 @@ StartupEvents.registry('item', treeoflife => {
     treeoflife.create('emerald_tablet_piece_1').displayName('§2石板碎片—1§r').texture('kubejs:item/emerald_tablet_piece_1');
     treeoflife.create('emerald_tablet_piece_2').displayName('§2石板碎片—2§r').texture('kubejs:item/emerald_tablet_piece_2');
     treeoflife.create('emerald_tablet_piece_3').displayName('§2石板碎片—3§r').texture('kubejs:item/emerald_tablet_piece_3');
+    treeoflife.create('empty_tarot').displayName('空塔罗牌').texture('kubejs:item/divination/empty_tarot');
 
     treeoflife.create('alchemy_black').displayName('黑化').glow(true).texture('kubejs:item/alchemy/black');
     treeoflife.create('alchemy_white').displayName('白化').glow(true).texture('kubejs:item/alchemy/white');
@@ -38,6 +39,7 @@ StartupEvents.registry('item', treeoflife => {
     treeoflife.create('alchemy_in_phi').displayName('未完工的贤者之石').glow(true).texture('kubejs:item/alchemy/in_phi');
 
     treeoflife.create('earth_alloy_shard').displayName('大地合金残片').texture('kubejs:item/tech/earth_alloy');
+    
 });
 
 StartupEvents.registry('fluid', treeoflife => {

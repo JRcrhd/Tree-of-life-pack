@@ -8,9 +8,6 @@ StartupEvents.postInit(e => {
     GamePhase.addItemRestriction("disables", "forbidden_arcanus:quantum_catcher");
     GamePhase.addItemRestriction("disables", "createdieselgenerators:huge_diesel_engine");
 
-    GamePhase.addItemModRestriction("assiah", "pneumaticcraft");
-    GamePhase.addItemModRestriction("assiah", "cccbridge");
-    GamePhase.addItemModRestriction("assiah", "computercraft");
 	GamePhase.addDimensionRestriction("assiah", "minecraft:nether");	
 
     GamePhase.addItemModRestriction("yetzirah", "electrodynamics");	

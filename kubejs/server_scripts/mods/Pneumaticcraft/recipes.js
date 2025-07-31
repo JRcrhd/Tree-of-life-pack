@@ -1,4 +1,3 @@
-
 ServerEvents.recipes(treeoflife => {
     treeoflife.remove({id: 'pneumaticcraft:explosion_crafting/compressed_iron_block'});
     treeoflife.remove({id: 'pneumaticcraft:explosion_crafting/compressed_iron_ingot'});
@@ -44,6 +43,41 @@ ServerEvents.recipes(treeoflife => {
                 "item": "pneumaticcraft:compressed_iron_block"
             }
         ]
+    });
+
+    treeoflife.remove({id: 'pneumaticcraft:pressure_chamber/etching_acid'});
+
+    treeoflife.custom({
+        "type": "create:mixing",
+        "ingredients": [
+            {
+                "tag": "c:foods/food_poisoning",
+            },
+            {
+                "tag": "c:foods/food_poisoning",
+            },
+            {
+                "tag": "c:foods/food_poisoning",
+            },
+            {
+                "tag": "c:foods/food_poisoning",
+            },
+            {
+                "mixtureFluidWithSalt": "destroy:mixture",
+                "cation": "destroy:copper_ii",
+                "anion": "destroy:chloride",
+                "min_concentration": 4.0,
+                "max_concentration": 6.0,
+                "amount": 1
+            }
+        ],
+        "results": [
+            {
+                "fluid": "pneumaticcraft:etching_acid",
+                "amount": 1000
+            }
+        ],
+        "heatRequirement": "cooled"
     });
 
     treeoflife.replaceInput(

@@ -77,6 +77,56 @@ ServerEvents.recipes(treeoflife => {
 			B: '#minecraft:trim_templates'
 		}
 	);
+
+	treeoflife.custom({
+		"type": "apotheosis:enchanting",
+		"conditions": [{
+			"type": "apotheosis:module",
+			"module": "enchantment"
+		}],
+		"input": {
+			"tag": "forge:plates/electrum",
+		},
+		"requirements": {
+			"eterna": 25,
+			"quanta": 40,
+			"arcana": 40
+		},
+		"max_requirements": {
+			"eterna": 50,
+			"quanta": 80,
+			"arcana": -1
+		},
+		"result": {
+			"item": "kubejs:empty_tarot",
+			"count": 1
+		}
+	});
+
+	treeoflife.custom({
+		"type": "apotheosis:enchanting",
+		"conditions": [{
+			"type": "apotheosis:module",
+			"module": "enchantment"
+		}],
+		"input": {
+			"tag": "forge:plates/electrum",
+		},
+		"requirements": {
+			"eterna": 45,
+			"quanta": 90,
+			"arcana": 90
+		},
+		"max_requirements": {
+			"eterna": -1,
+			"quanta": -1,
+			"arcana": -1
+		},
+		"result": {
+			"item": "kubejs:empty_tarot",
+			"count": 5
+		}
+	});
 })
 
 LootJS.modifiers((treeoflife) => {
