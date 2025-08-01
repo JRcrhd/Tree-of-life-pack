@@ -484,6 +484,17 @@
 			x: 21.0d
 			y: 7.5d
 		}
+		{
+			dependencies: ["5F76FB1F88CE9DC5"]
+			id: "3AF83C65C7A655AF"
+			tasks: [{
+				id: "5B4D33BFE3AA149F"
+				item: "occultism:crushed_end_stone"
+				type: "item"
+			}]
+			x: 13.0d
+			y: 9.0d
+		}
 	]
 	title: "⚰通灵"
 }

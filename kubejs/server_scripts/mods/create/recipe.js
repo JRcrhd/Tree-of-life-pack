@@ -279,6 +279,69 @@ ServerEvents.recipes(treeoflife => {
         ],
         "recipeDuration": 25600
     });
+    
+    treeoflife.custom({
+	    "type": "custommachinery:custom_machine",
+	    "machine": "treeoflife:magic_vat",
+	    "time": 3600,
+	    "requirements": [
+		    {
+			    "type": "custommachinery:fluid_per_tick",
+			    "fluid": "kubejs:witch_fluid",
+			    "amount": 2,
+			    "mode": "input"
+		    },
+		    {
+			    "type": "custommachinery:energy_per_tick",
+			    "amount": 2,
+			    "mode": "input"
+		    },
+            {
+			    "type": "custommachinery:item",
+			    "item": "destroy:tear_bottle",
+			    "amount": 4,
+			    "mode": "input"
+		    },
+            {
+			    "type": "custommachinery:item",
+			    "item": "minecraft:redstone",
+			    "amount": 64,
+			    "mode": "input"
+		    },
+            {
+			    "type": "custommachinery:item",
+			    "item": "destroy:chromium_ingot",
+			    "amount": 2,
+			    "mode": "input"
+		    },
+            {
+			    "type": "custommachinery:item",
+			    "item": "destroy:sodium_ingot",
+			    "amount": 6,
+			    "mode": "input"
+		    },
+		    {
+			    "type": "custommachinery:item",
+			    "item": "destroy:polyacrylonitrile",
+			    "amount": 1,
+			    "mode": "output"
+		    }
+	    ]
+    });
+
+    treeoflife.shaped(Item.of("custommachinery:custom_machine_item").withNBT({"machine":"treeoflife:magic_vat"}),
+        [
+            "ABA",
+            "CDC",
+            "AEA"
+        ],{
+            A: "#forge:ingots/platinum",
+            B: "destroy:dynamo",
+            C: "destroy:touch_powder",
+            D: "destroy:vat_controller",
+            E: "destroy:blacklight"
+        }
+    );
 
 })
 

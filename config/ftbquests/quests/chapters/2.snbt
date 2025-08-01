@@ -740,7 +740,7 @@
 				item: "enderio:slice_and_splice"
 				type: "item"
 			}]
-			x: 8.5d
+			x: 6.5d
 			y: 10.5d
 		}
 		{
@@ -751,7 +751,7 @@
 				item: "enderio:soul_binder"
 				type: "item"
 			}]
-			x: 6.5d
+			x: 8.5d
 			y: 10.5d
 		}
 		{
@@ -766,8 +766,8 @@
 				}
 				type: "item"
 			}]
-			x: 11.0d
-			y: 11.0d
+			x: 4.5d
+			y: 10.5d
 		}
 		{
 			dependencies: ["0C456C0BC1F7EBBA"]
@@ -777,8 +777,8 @@
 				item: "enderio:zombie_electrode"
 				type: "item"
 			}]
-			x: 10.0d
-			y: 11.0d
+			x: 5.5d
+			y: 10.5d
 		}
 		{
 			dependencies: ["0C456C0BC1F7EBBA"]
@@ -788,8 +788,8 @@
 				item: "enderio:skeletal_contractor"
 				type: "item"
 			}]
-			x: 10.0d
-			y: 12.0d
+			x: 5.5d
+			y: 11.5d
 		}
 		{
 			dependencies: ["0C456C0BC1F7EBBA"]
@@ -799,8 +799,8 @@
 				item: "enderio:guardian_diode"
 				type: "item"
 			}]
-			x: 9.0d
-			y: 12.0d
+			x: 5.5d
+			y: 12.5d
 		}
 		{
 			dependencies: [
@@ -814,7 +814,7 @@
 				type: "item"
 			}]
 			x: 8.0d
-			y: 12.0d
+			y: 12.5d
 		}
 		{
 			dependencies: [
@@ -828,7 +828,7 @@
 				type: "item"
 			}]
 			x: 7.0d
-			y: 12.0d
+			y: 12.5d
 		}
 		{
 			dependencies: ["41B2A4AE341EB84C"]
@@ -838,8 +838,8 @@
 				item: "enderio:ender_crystal"
 				type: "item"
 			}]
-			x: 6.0d
-			y: 12.0d
+			x: 9.5d
+			y: 12.5d
 		}
 		{
 			dependencies: ["41B2A4AE341EB84C"]
@@ -849,19 +849,19 @@
 				item: "enderio:enticing_crystal"
 				type: "item"
 			}]
-			x: 5.0d
-			y: 12.0d
+			x: 9.5d
+			y: 11.5d
 		}
 		{
-			dependencies: ["41B2A4AE341EB84C"]
+			dependencies: ["2051450F02D21CF6"]
 			id: "46EE56C0254EBCC1"
 			tasks: [{
 				id: "760DEE1AB71B06C3"
 				item: "enderio:weather_crystal"
 				type: "item"
 			}]
-			x: 5.0d
-			y: 11.0d
+			x: 9.5d
+			y: 13.5d
 		}
 		{
 			dependencies: ["41B2A4AE341EB84C"]
@@ -871,8 +871,8 @@
 				item: "enderio:prescient_crystal"
 				type: "item"
 			}]
-			x: 5.0d
-			y: 10.0d
+			x: 9.5d
+			y: 10.5d
 		}
 		{
 			dependencies: ["2150E127104E0C64"]
@@ -897,13 +897,17 @@
 			y: 10.0d
 		}
 		{
+			dependencies: [
+				"472D5320B7636799"
+				"7B74478E427A319D"
+			]
 			id: "01739EC3A18F68A9"
 			tasks: [{
 				id: "2045B8509AE0E76D"
 				item: "destroy:polyacrylonitrile"
 				type: "item"
 			}]
-			x: -5.0d
+			x: -4.5d
 			y: 10.0d
 		}
 		{
@@ -1050,39 +1054,46 @@
 				item: "pneumaticcraft:empty_pcb"
 				type: "item"
 			}]
-			x: 2.0d
-			y: 14.5d
+			x: -3.0d
+			y: 14.0d
 		}
 		{
+			dependencies: ["6CF42390A13622F9"]
 			id: "0E71D14328B3041D"
 			tasks: [{
 				id: "7566818FE253EEA1"
 				item: "pneumaticcraft:etching_acid_bucket"
 				type: "item"
 			}]
-			x: -3.0d
-			y: 14.5d
+			x: 0.5d
+			y: 13.5d
 		}
 		{
-			dependencies: ["208459163F90CD41"]
+			dependencies: [
+				"208459163F90CD41"
+				"1E1DA4B9DF1FC56A"
+			]
 			id: "06D942984F8FC954"
 			tasks: [{
 				id: "6585EE9E76EBAC11"
 				item: "pneumaticcraft:uv_light_box"
 				type: "item"
 			}]
-			x: 0.5d
+			x: -1.5d
 			y: 14.5d
 		}
 		{
-			dependencies: ["0E71D14328B3041D"]
+			dependencies: [
+				"0E71D14328B3041D"
+				"6525E24CA0B45DF2"
+			]
 			id: "7E76D4BA91CD80A0"
 			tasks: [{
 				id: "5555D0EAB6A8AD7B"
 				item: "pneumaticcraft:etching_tank"
 				type: "item"
 			}]
-			x: -1.5d
+			x: 0.5d
 			y: 14.5d
 		}
 		{
@@ -1341,7 +1352,6 @@
 				"Hydrochloric and hypochlorous decompose into chlorine under ultraviolet light."
 			]
 			id: "59B1D6DC8C1CB245"
-			subtitle: "Cl2"
 			tasks: [
 				{
 					id: "659F3AE807F1DA3C"
@@ -1353,7 +1363,6 @@
 					type: "checkmark"
 				}
 			]
-			title: "氯气"
 			x: -6.0d
 			y: 7.5d
 		}
@@ -1555,6 +1564,132 @@
 			}]
 			x: -0.5d
 			y: 9.0d
+		}
+		{
+			dependencies: ["59B1D6DC8C1CB245"]
+			description: [
+				"依靠原有合成线路制造PAN拥有更高的产量。"
+				""
+				"此处为不了解化学的玩家提供了简单但低效的合成方式。"
+				""
+				"Manufacturing PAN relies on the existing synthetic route, resulting in higher output."
+				""
+				"This provides players who are unfamiliar with chemistry a simple but inefficient method of synthesis."
+			]
+			id: "472D5320B7636799"
+			optional: true
+			tasks: [{
+				id: "235305A3AA8ABA22"
+				item: {
+					Count: 1
+					id: "custommachinery:custom_machine_item"
+					tag: {
+						machine: "treeoflife:magic_vat"
+					}
+				}
+				type: "item"
+			}]
+			x: -5.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["59B1D6DC8C1CB245"]
+			description: [
+				"尝试自己配置一份氯化铜溶液（盐酸+铜粉）。"
+				""
+				"Try to prepare a copper(II) chloride solution by yourself (hydrochloric acid + copper powder)."
+			]
+			id: "20F4280E9A55D283"
+			subtitle: "challenge"
+			tasks: [{
+				id: "38D3A9D0E57553DB"
+				type: "checkmark"
+			}]
+			title: "CuCl2"
+			x: -6.5d
+			y: 8.5d
+		}
+		{
+			dependencies: [
+				"3AA3024563C97E76"
+				"20F4280E9A55D283"
+				"1D351276D2CD55B1"
+			]
+			description: [" 根据不同的配方需要准备不同的电路板。"]
+			id: "3C03DEBEE4856355"
+			tasks: [{
+				id: "4DF80AA3C94A1E42"
+				item: {
+					Count: 1
+					id: "destroy:circuit_board"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -5.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["01739EC3A18F68A9"]
+			id: "3AA3024563C97E76"
+			tasks: [{
+				id: "1F230BF3036EA53A"
+				item: {
+					Count: 1
+					id: "destroy:circuit_mask"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -4.5d
+			y: 11.5d
+		}
+		{
+			dependencies: ["7B74478E427A319D"]
+			id: "1D351276D2CD55B1"
+			tasks: [{
+				id: "637843D47A7863C1"
+				item: "destroy:keypunch"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["7A044AD4B3C8EA03"]
+			id: "1E1DA4B9DF1FC56A"
+			tasks: [{
+				id: "48FBF2C9C18251A5"
+				item: "pneumaticcraft:amadron_tablet"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 14.0d
+		}
+		{
+			dependencies: ["36F54CECEFAAF849"]
+			id: "17762F0B88040CC3"
+			tasks: [{
+				id: "44AFD889A46C2F8A"
+				item: "minecraft:ender_eye"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 12.0d
+		}
+		{
+			dependencies: [
+				"5F76FB1F88CE9DC5"
+				"7B74478E427A319D"
+			]
+			id: "6CF42390A13622F9"
+			tasks: [{
+				id: "43292C2BB9ADA367"
+				item: "occultism:crushed_end_stone"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 13.0d
 		}
 	]
 	title: "2、蒸汽时代"

@@ -25,6 +25,25 @@ ServerEvents.recipes(treeoflife => {
         ]
     });
 
+    treeoflife.remove({id: 'minecraft:ender_eye'});
+    treeoflife.custom({
+        "type": "pneumaticcraft:pressure_chamber",
+        "inputs": [
+            {
+                "item": "minecraft:ender_pearl"
+            },
+            {
+                "item": "minecraft:blaze_powder"
+            }
+        ],
+        "pressure": 2.0,
+        "results": [
+            {
+                "item": "minecraft:ender_eye"
+            }
+        ]
+    });
+
     treeoflife.custom({
         "type": "pneumaticcraft:pressure_chamber",
         "inputs": [
@@ -51,30 +70,22 @@ ServerEvents.recipes(treeoflife => {
         "type": "create:mixing",
         "ingredients": [
             {
-                "tag": "c:foods/food_poisoning",
+                "tag": "c:foods/food_poisoning"
             },
             {
-                "tag": "c:foods/food_poisoning",
+                "tag": "forge:dusts/end_stone"
             },
             {
-                "tag": "c:foods/food_poisoning",
-            },
-            {
-                "tag": "c:foods/food_poisoning",
-            },
-            {
-                "mixtureFluidWithSalt": "destroy:mixture",
-                "cation": "destroy:copper_ii",
-                "anion": "destroy:chloride",
-                "min_concentration": 4.0,
-                "max_concentration": 6.0,
-                "amount": 1
+                "item": "supplementaries:lumisene_bucket"
             }
         ],
         "results": [
             {
                 "fluid": "pneumaticcraft:etching_acid",
                 "amount": 1000
+            },
+            {
+                "item": "minecraft:bucket"
             }
         ],
         "heatRequirement": "cooled"
@@ -84,6 +95,12 @@ ServerEvents.recipes(treeoflife => {
         {mod: 'pneumaticcraft'},
         'minecraft:iron_bars',
         'create:sturdy_sheet'
+    );
+
+    treeoflife.replaceInput(
+        {id: 'pneumaticcraft:etching_tank'},
+        '#forge:glass_panes',
+        'enderio:guardian_diode'
     );
 
 });

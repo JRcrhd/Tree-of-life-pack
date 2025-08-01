@@ -39,7 +39,9 @@ StartupEvents.registry('item', treeoflife => {
     treeoflife.create('alchemy_in_phi').displayName('未完工的贤者之石').glow(true).texture('kubejs:item/alchemy/in_phi');
 
     treeoflife.create('earth_alloy_shard').displayName('大地合金残片').texture('kubejs:item/tech/earth_alloy');
-    
+    treeoflife.create('ember_alloy_shard').displayName('余烬合金残片').texture('kubejs:item/tech/ember_alloy');
+    treeoflife.create('void_alloy_shard').displayName('虚空合金残片').texture('kubejs:item/tech/void_alloy');
+    treeoflife.create('sun_alloy_shard').displayName('光芒合金残片').texture('kubejs:item/tech/sun_alloy');
 });
 
 StartupEvents.registry('fluid', treeoflife => {

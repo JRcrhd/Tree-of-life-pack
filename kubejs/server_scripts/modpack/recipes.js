@@ -127,6 +127,21 @@ ServerEvents.recipes(treeoflife => {
 			"count": 5
 		}
 	});
+
+	treeoflife.smithing('tarotcards:judgement','destroy:card_stock','destroy:dynamite','kubejs:empty_tarot');
+	treeoflife.smithing('tarotcards:the_moon','enderio:enticing_crystal','enderio:weather_crystal','kubejs:empty_tarot');
+	treeoflife.smithing('tarotcards:the_tower','minecraft:netherite_upgrade_smithing_template','minecraft:nether_star','kubejs:empty_tarot');
+
+    treeoflife.recipes.create.sequenced_assembly([
+        Item.of('kubejs:dimension_alloy_overworld').withChance(1.0)
+    ],'kubejs:earth_alloy_shard',[
+        treeoflife.recipes.createFilling('kubejs:empty_tarot',['kubejs:empty_tarot',Fluid.of('kubejs:witch_fluid')]),
+        treeoflife.recipes.createFilling('kubejs:empty_tarot',['kubejs:empty_tarot',Fluid.of('kubejs:current_fluid')]),
+        treeoflife.recipes.createPressing('kubejs:empty_tarot','kubejs:empty_tarot')
+    ])
+    .transitionalItem('kubejs:empty_tarot')
+    .loops(3);
+
 })
 
 LootJS.modifiers((treeoflife) => {
