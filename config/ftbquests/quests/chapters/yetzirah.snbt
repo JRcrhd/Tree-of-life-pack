@@ -60,14 +60,11 @@
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["3740E9A99FBBE0E5"]
-			description: [
-				"机械动力"
-				"气动工艺"
-				"enderio"
-				"cc:tweak"
-				"能去地狱"
+			dependencies: [
+				"3740E9A99FBBE0E5"
+				"2C00365ADDC3813D"
 			]
+			hide_dependent_lines: true
 			hide_until_deps_complete: true
 			id: "6DA830C81149E225"
 			tasks: [{
@@ -78,6 +75,7 @@
 			y: -1.5d
 		}
 		{
+			dependencies: ["6DA830C81149E225"]
 			id: "3A3E7AD7DE81B009"
 			shape: "gear"
 			size: 1.5d
@@ -90,6 +88,7 @@
 			y: 2.25d
 		}
 		{
+			dependencies: ["6DA830C81149E225"]
 			id: "2ABE4E6D962D34D7"
 			shape: "gear"
 			size: 1.5d
@@ -102,6 +101,7 @@
 			y: 3.75d
 		}
 		{
+			dependencies: ["6DA830C81149E225"]
 			id: "5605DC0B6E786B31"
 			shape: "gear"
 			size: 1.5d
@@ -114,6 +114,7 @@
 			y: 3.75d
 		}
 		{
+			dependencies: ["6DA830C81149E225"]
 			id: "0869B74FAED3FFAF"
 			shape: "diamond"
 			tasks: [{
@@ -129,6 +130,7 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["6DA830C81149E225"]
 			id: "48F289A44F7BBF74"
 			shape: "diamond"
 			tasks: [{
@@ -144,6 +146,7 @@
 			y: 3.0d
 		}
 		{
+			dependencies: ["6DA830C81149E225"]
 			id: "0CE398DA9C9D018F"
 			shape: "diamond"
 			tasks: [{
@@ -159,6 +162,7 @@
 			y: 4.0d
 		}
 		{
+			dependencies: ["6DA830C81149E225"]
 			id: "514A30F9C65E5713"
 			shape: "diamond"
 			tasks: [{
@@ -174,6 +178,7 @@
 			y: 1.0d
 		}
 		{
+			dependencies: ["6DA830C81149E225"]
 			id: "09FBFEE32DBB5926"
 			shape: "diamond"
 			tasks: [{
@@ -189,6 +194,7 @@
 			y: 1.0d
 		}
 		{
+			dependencies: ["6DA830C81149E225"]
 			id: "20647177503A6370"
 			shape: "diamond"
 			tasks: [{

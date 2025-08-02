@@ -126,6 +126,12 @@
 		{
 			dependencies: ["5F71981FCC2DFC23"]
 			id: "0773E88B50E5A958"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "066B9B01CB491608"
+				table_id: 3468198614520584855L
+				type: "random"
+			}]
 			tasks: [{
 				id: "353742F1A5F567E6"
 				item: "create_power_loader:andesite_chunk_loader"
@@ -269,6 +275,12 @@
 		{
 			dependencies: ["22573536E8E1FD48"]
 			id: "0423F66E58429B5D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2A12B3C716CDDBEA"
+				table_id: 3468198614520584855L
+				type: "random"
+			}]
 			tasks: [{
 				id: "3A92521E5B9BCF33"
 				item: "create:rotation_speed_controller"
@@ -280,6 +292,12 @@
 		{
 			dependencies: ["22573536E8E1FD48"]
 			id: "30B2928192187D46"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "37E8E8CBFD65F3A4"
+				table_id: 3468198614520584855L
+				type: "random"
+			}]
 			tasks: [{
 				id: "0B751BCF77789E66"
 				item: "create:mechanical_arm"
@@ -366,6 +384,12 @@
 			dependencies: ["0007D7F199B42AA9"]
 			hide_dependent_lines: true
 			id: "7773A2FD621B8EE7"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "08EB196DAE585A26"
+				table_id: 3468198614520584855L
+				type: "random"
+			}]
 			tasks: [{
 				id: "6165D2CFE2558DDF"
 				item: "create:crushing_wheel"
@@ -377,6 +401,12 @@
 		{
 			dependencies: ["0007D7F199B42AA9"]
 			id: "0ECC7003D71C6841"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0087EE4D5410B732"
+				table_id: 3468198614520584855L
+				type: "random"
+			}]
 			tasks: [{
 				id: "28E741D4FE4BD899"
 				item: "destroy:pumpjack"
@@ -427,6 +457,12 @@
 		{
 			dependencies: ["22573536E8E1FD48"]
 			id: "2DF69A22BF9F884F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "27A9175BF9938620"
+				table_id: 3468198614520584855L
+				type: "random"
+			}]
 			tasks: [{
 				id: "3825EB96774CF3F3"
 				item: "petrolsparts:pneumatic_tube"
@@ -438,6 +474,12 @@
 		{
 			dependencies: ["0007D7F199B42AA9"]
 			id: "186979361E6E363D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "00AA2F73889EA7A8"
+				table_id: 3468198614520584855L
+				type: "random"
+			}]
 			tasks: [{
 				id: "58C662F1CAEDADF9"
 				item: "petrolsparts:hydraulic_transmission"
@@ -604,6 +646,12 @@
 				"2E9BB6F63FC8FC28"
 			]
 			id: "52C262FDC4ABB911"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "28ABF562FA0F3051"
+				table_id: 3468198614520584855L
+				type: "random"
+			}]
 			tasks: [{
 				id: "507DEBA0D528A60C"
 				item: "enderio:alloy_smelter"
@@ -709,6 +757,12 @@
 				"08B8B7B757105220"
 			]
 			id: "10D7FA7663435E52"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "362275BCB8104815"
+				table_id: 3468198614520584855L
+				type: "random"
+			}]
 			tasks: [{
 				id: "3D8AF1CEBD421B7E"
 				item: "enderio:octadic_capacitor"
@@ -735,6 +789,12 @@
 		{
 			dependencies: ["02D06CE463C4278D"]
 			id: "0C456C0BC1F7EBBA"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "79CD697F90990C33"
+				table_id: 3468198614520584855L
+				type: "random"
+			}]
 			tasks: [{
 				id: "7AC3AB235AF2A48E"
 				item: "enderio:slice_and_splice"
@@ -746,6 +806,12 @@
 		{
 			dependencies: ["02D06CE463C4278D"]
 			id: "41B2A4AE341EB84C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "07940535E3A26974"
+				table_id: 3468198614520584855L
+				type: "random"
+			}]
 			tasks: [{
 				id: "7782A916A70F9B9C"
 				item: "enderio:soul_binder"
@@ -954,6 +1020,12 @@
 				"36F54CECEFAAF849"
 			]
 			id: "7A044AD4B3C8EA03"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0C24483BD1E4E852"
+				table_id: 3468198614520584855L
+				type: "random"
+			}]
 			tasks: [{
 				id: "7C41A7A51DCFAD4E"
 				item: "pneumaticcraft:plastic"
@@ -968,6 +1040,12 @@
 				"7E76D4BA91CD80A0"
 			]
 			id: "1935CEFF9B14A690"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2F24742159532664"
+				table_id: 3468198614520584855L
+				type: "random"
+			}]
 			shape: "gear"
 			size: 1.5d
 			tasks: [{
@@ -1065,8 +1143,8 @@
 				item: "pneumaticcraft:etching_acid_bucket"
 				type: "item"
 			}]
-			x: 0.5d
-			y: 13.5d
+			x: 2.5d
+			y: 14.5d
 		}
 		{
 			dependencies: [
@@ -1111,11 +1189,19 @@
 				"After adjusting the concentration, ammonium nitrate solution can be obtained."
 			]
 			id: "2D3D10B9161AFD3B"
-			rewards: [{
-				id: "4AA0BDFB0FE14BF9"
-				item: "destroy:hyperaccumulating_fertilizer"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "4AA0BDFB0FE14BF9"
+					item: "destroy:hyperaccumulating_fertilizer"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4538A92BA3EF7673"
+					table_id: 3468198614520584855L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "0CBB7324DABF0479"
 				item: "destroy:hyperaccumulating_fertilizer"
@@ -1352,6 +1438,12 @@
 				"Hydrochloric and hypochlorous decompose into chlorine under ultraviolet light."
 			]
 			id: "59B1D6DC8C1CB245"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "32B03C4B001AEC3C"
+				table_id: 3468198614520584855L
+				type: "random"
+			}]
 			tasks: [
 				{
 					id: "659F3AE807F1DA3C"
@@ -1474,6 +1566,12 @@
 				"4669CB2B6814C998"
 			]
 			id: "26A514325567B2BD"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "64C33D3C05D8FA09"
+				table_id: 3468198614520584855L
+				type: "random"
+			}]
 			tasks: [{
 				id: "18FB71020F931FFC"
 				item: "destroy:molten_borosilicate_glass_bucket"
@@ -1557,6 +1655,12 @@
 		{
 			dependencies: ["7AC8E6329EAEA14D"]
 			id: "17C2E5E38F4C5F50"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5B38E1ABFB40B4CF"
+				table_id: 3468198614520584855L
+				type: "random"
+			}]
 			tasks: [{
 				id: "4156B8BBF551BB54"
 				item: "computercraft:computer_normal"
@@ -1647,6 +1751,12 @@
 		{
 			dependencies: ["7B74478E427A319D"]
 			id: "1D351276D2CD55B1"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7997B93F5171169B"
+				table_id: 3468198614520584855L
+				type: "random"
+			}]
 			tasks: [{
 				id: "637843D47A7863C1"
 				item: "destroy:keypunch"
@@ -1683,13 +1793,63 @@
 				"7B74478E427A319D"
 			]
 			id: "6CF42390A13622F9"
+			rewards: [{
+				id: "7694F2429BBC510E"
+				item: "occultism:crushed_end_stone"
+				type: "item"
+			}]
 			tasks: [{
 				id: "43292C2BB9ADA367"
 				item: "occultism:crushed_end_stone"
 				type: "item"
 			}]
-			x: 2.0d
-			y: 13.0d
+			x: 4.5d
+			y: 14.5d
+		}
+		{
+			dependencies: ["7B74478E427A319D"]
+			description: [
+				"汽油+燃烧器可以实现超级燃烧。"
+				""
+				"Gasoline + burner can achieve super combustion."
+			]
+			id: "7DF24A31CF7212E1"
+			tasks: [
+				{
+					id: "3141D470C1ADA7BA"
+					item: "createdieselgenerators:distillation_controller"
+					type: "item"
+				}
+				{
+					id: "13402434A361FA6A"
+					item: "createdieselgenerators:gasoline_bucket"
+					type: "item"
+				}
+			]
+			x: -4.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["6CF42390A13622F9"]
+			description: [
+				"更方便的管道系统，但现阶段较为昂贵。"
+				""
+				"A more convenient pipeline system, but currently quite expensive."
+			]
+			id: "128E7A7D06CDA229"
+			rewards: [{
+				count: 6
+				id: "67D54BE2AC7D54EB"
+				item: "enderio:conduit_binder"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1DDBD66EE77CF91F"
+				item: "enderio:conduit_binder"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 15.5d
 		}
 	]
 	title: "2、蒸汽时代"

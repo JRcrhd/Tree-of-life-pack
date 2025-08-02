@@ -6,27 +6,288 @@
 	hide_quest_until_deps_visible: true
 	icon: "destroy:creative_pump"
 	id: "14F581E27C69F6F9"
+	images: [
+		{
+			height: 3.0d
+			image: "minecraft:block/redstone_dust_line0"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.5d
+			y: 1.5d
+		}
+		{
+			height: 3.0d
+			image: "minecraft:block/redstone_dust_line0"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			height: 3.0d
+			image: "minecraft:block/redstone_dust_line0"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.5d
+			y: -0.5d
+		}
+		{
+			height: 1.5d
+			image: "ftbquests:textures/shapes/gear/shape.png"
+			rotation: 0.0d
+			width: 1.5d
+			x: 4.452380952380949d
+			y: -0.1071428571428541d
+		}
+		{
+			height: 1.5d
+			image: "ftbquests:textures/shapes/gear/shape.png"
+			order: 3
+			rotation: 0.0d
+			width: 1.5d
+			x: 1.595238095238102d
+			y: -2.011904761904759d
+		}
+		{
+			height: 1.5d
+			image: "ftbquests:textures/shapes/gear/shape.png"
+			rotation: 0.0d
+			width: 1.5d
+			x: -1.404761904761905d
+			y: -0.2023809523809561d
+		}
+		{
+			height: 3.0d
+			image: "minecraft:block/redstone_dust_line0"
+			rotation: 60.0d
+			width: 1.0d
+			x: -0.1190476190476204d
+			y: 2.2261904761904816d
+		}
+		{
+			height: 3.0d
+			image: "minecraft:block/redstone_dust_line0"
+			rotation: 120.0d
+			width: 1.0d
+			x: 3.0714285714285694d
+			y: 2.2738095238095255d
+		}
+		{
+			height: 3.0d
+			image: "minecraft:block/redstone_dust_line0"
+			rotation: 120.0d
+			width: 1.0d
+			x: 0.0d
+			y: 0.5d
+		}
+		{
+			height: 3.0d
+			image: "minecraft:block/redstone_dust_line0"
+			rotation: 60.0d
+			width: 1.0d
+			x: 3.0d
+			y: 0.5d
+		}
+		{
+			height: 6.0d
+			image: "minecraft:block/redstone_dust_line0"
+			rotation: 90.0d
+			width: 1.0d
+			x: 1.5d
+			y: 3.0d
+		}
+	]
 	order_index: 3
 	quest_links: [ ]
-	quests: [{
-		dependencies: [
-			"4473531F3AD2ECAE"
-			"6F48A7A09C011955"
-			"273E9A2FEFD08765"
-		]
-		description: [
-			"ae"
-			"mek"
-			"可去末地"
-		]
-		hide_until_deps_complete: true
-		id: "43DEA510A8D2DAA9"
-		tasks: [{
-			id: "10615DB16CF6CB05"
-			type: "checkmark"
-		}]
-		x: 0.5d
-		y: -0.5d
-	}]
+	quests: [
+		{
+			dependencies: [
+				"4473531F3AD2ECAE"
+				"6F48A7A09C011955"
+				"273E9A2FEFD08765"
+				"1ECB91385A758E05"
+			]
+			description: [
+				"ae"
+				"mek"
+				"可去末地"
+			]
+			hide_dependent_lines: true
+			hide_until_deps_complete: true
+			id: "43DEA510A8D2DAA9"
+			tasks: [{
+				id: "10615DB16CF6CB05"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: -3.5d
+		}
+		{
+			id: "3C26E79E68EDAE83"
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "198EE9F925118CCA"
+				item: "kubejs:point_geburah"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["43DEA510A8D2DAA9"]
+			id: "4A0EBA9549C43C5B"
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "2E3F22635772F8C6"
+				item: "kubejs:point_chesed"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["43DEA510A8D2DAA9"]
+			id: "7C1DAA4080CB99BE"
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "6EDB42555B206958"
+				item: "kubejs:point_tiphareth"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["43DEA510A8D2DAA9"]
+			id: "1EE317E3974E2549"
+			shape: "diamond"
+			tasks: [{
+				id: "717AF6CDD0FA4D39"
+				item: {
+					Count: 1
+					id: "tarotcards:temperance"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["43DEA510A8D2DAA9"]
+			id: "6CE1117289D17376"
+			shape: "diamond"
+			tasks: [{
+				id: "37F7FE8D2D154CC5"
+				item: {
+					Count: 1
+					id: "tarotcards:death"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["43DEA510A8D2DAA9"]
+			id: "5D4779E73BBEB852"
+			shape: "diamond"
+			tasks: [{
+				id: "5804768B218823F1"
+				item: {
+					Count: 1
+					id: "tarotcards:the_devil"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["43DEA510A8D2DAA9"]
+			id: "64F05B1834AA0067"
+			shape: "diamond"
+			tasks: [{
+				id: "0B81DBF145327B2B"
+				item: {
+					Count: 1
+					id: "tarotcards:strength"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["43DEA510A8D2DAA9"]
+			id: "61B15AF2E3469419"
+			shape: "diamond"
+			tasks: [{
+				id: "47CE60B472EEF453"
+				item: {
+					Count: 1
+					id: "tarotcards:the_hanged_man"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -1.504761904761878d
+			y: 1.276190476190493d
+		}
+		{
+			dependencies: ["43DEA510A8D2DAA9"]
+			id: "60C5568AD15EC46B"
+			shape: "diamond"
+			tasks: [{
+				id: "2144EFC2F7B08347"
+				item: {
+					Count: 1
+					id: "tarotcards:justice"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["43DEA510A8D2DAA9"]
+			id: "5485BB07B0A9E4FE"
+			shape: "diamond"
+			tasks: [{
+				id: "041AD6A5D3CD9FA1"
+				item: {
+					Count: 1
+					id: "tarotcards:wheel_of_fortune"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 4.466666666666697d
+			y: 1.276190476190493d
+		}
+		{
+			dependencies: ["43DEA510A8D2DAA9"]
+			id: "7110693DE6E87509"
+			shape: "diamond"
+			tasks: [{
+				id: "05661B106B3B68DF"
+				item: {
+					Count: 1
+					id: "tarotcards:the_hermit"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 2.0d
+		}
+	]
 	title: "创造——Beriah"
 }

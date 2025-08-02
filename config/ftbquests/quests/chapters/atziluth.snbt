@@ -6,26 +6,264 @@
 	hide_quest_until_deps_visible: true
 	icon: "forbidden_arcanus:divine_pact"
 	id: "6C6AFC0D0E2C305C"
+	images: [
+		{
+			height: 1.5d
+			image: "ftbquests:textures/shapes/gear/shape.png"
+			rotation: 0.0d
+			width: 1.5d
+			x: 2.5d
+			y: 1.0d
+		}
+		{
+			height: 1.5d
+			image: "ftbquests:textures/shapes/gear/shape.png"
+			rotation: 0.0d
+			width: 1.5d
+			x: -2.5d
+			y: 1.0d
+		}
+		{
+			height: 1.5d
+			image: "ftbquests:textures/shapes/gear/shape.png"
+			order: 1
+			rotation: 0.0d
+			width: 1.5d
+			x: 0.0d
+			y: -0.5d
+		}
+		{
+			height: 3.0d
+			image: "minecraft:block/redstone_dust_line0"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.5d
+			y: 2.5d
+		}
+		{
+			height: 3.0d
+			image: "minecraft:block/redstone_dust_line0"
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.5d
+			y: 2.5d
+		}
+		{
+			height: 3.0d
+			image: "minecraft:block/redstone_dust_line0"
+			rotation: 120.0d
+			width: 1.0d
+			x: -1.0d
+			y: 5.0d
+		}
+		{
+			height: 3.0d
+			image: "minecraft:block/redstone_dust_line0"
+			rotation: 60.0d
+			width: 1.0d
+			x: 1.0d
+			y: 5.0d
+		}
+		{
+			height: 6.0d
+			image: "minecraft:block/redstone_dust_line0"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			height: 6.0d
+			image: "minecraft:block/redstone_dust_line0"
+			rotation: 30.0d
+			width: 1.0d
+			x: -1.0d
+			y: 1.5d
+		}
+		{
+			height: 6.0d
+			image: "minecraft:block/redstone_dust_line0"
+			rotation: 150.0d
+			width: 1.0d
+			x: 1.0d
+			y: 1.5d
+		}
+	]
 	order_index: 4
 	quest_links: [ ]
-	quests: [{
-		dependencies: [
-			"4275401F32963529"
-			"559ADD41679EA110"
-			"5D360138DA2953BA"
-		]
-		description: [
-			"可去以太"
-			"projecte"
-		]
-		hide_until_deps_complete: true
-		id: "534CD8440E466F39"
-		tasks: [{
-			id: "3474C3F8211C9F1D"
-			type: "checkmark"
-		}]
-		x: 0.0d
-		y: 0.0d
-	}]
+	quests: [
+		{
+			dependencies: [
+				"4275401F32963529"
+				"559ADD41679EA110"
+				"5D360138DA2953BA"
+				"49AD511A227BA63F"
+			]
+			description: [
+				"可去以太"
+				"projecte"
+			]
+			hide_dependent_lines: true
+			hide_until_deps_complete: true
+			id: "534CD8440E466F39"
+			tasks: [{
+				id: "3474C3F8211C9F1D"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["534CD8440E466F39"]
+			id: "0514A4140AA1E26F"
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "61849338E613788E"
+				item: "kubejs:point_chokmah"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["534CD8440E466F39"]
+			id: "4F07D80EAB6C9369"
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "02A739748203B777"
+				item: "kubejs:point_binah"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["534CD8440E466F39"]
+			id: "2FB4468139F80AAA"
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "14AE2C02E858E754"
+				item: "kubejs:point_kether"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["534CD8440E466F39"]
+			id: "0F591E0A7E6DEF8F"
+			shape: "diamond"
+			tasks: [{
+				id: "6EA2B308AA4C1E31"
+				item: {
+					Count: 1
+					id: "tarotcards:the_emperor"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["534CD8440E466F39"]
+			id: "6F6AE89EF4211A6C"
+			shape: "diamond"
+			tasks: [{
+				id: "7C7F482DF3B8A84B"
+				item: {
+					Count: 1
+					id: "tarotcards:the_hierophant"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["534CD8440E466F39"]
+			id: "702865ABBD9F18F6"
+			shape: "diamond"
+			tasks: [{
+				id: "5F195A04BB88DB97"
+				item: {
+					Count: 1
+					id: "tarotcards:the_lovers"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["534CD8440E466F39"]
+			id: "4F50AF0CF9AC1706"
+			shape: "diamond"
+			tasks: [{
+				id: "4F1B19A1302173CB"
+				item: {
+					Count: 1
+					id: "tarotcards:the_chariot"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["534CD8440E466F39"]
+			id: "7FE7C06A76A1C164"
+			shape: "diamond"
+			tasks: [{
+				id: "71C521E2C8F93132"
+				item: {
+					Count: 1
+					id: "tarotcards:the_high_priestess"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["534CD8440E466F39"]
+			id: "0DC96D9E11DC694D"
+			shape: "diamond"
+			tasks: [{
+				id: "2E3C34301DC6CCBD"
+				item: {
+					Count: 1
+					id: "tarotcards:the_fool"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 1.2857142857142705d
+			y: 4.857142857142861d
+		}
+		{
+			dependencies: ["534CD8440E466F39"]
+			id: "2257007BDC4D54BD"
+			shape: "diamond"
+			tasks: [{
+				id: "39848B93225858BF"
+				item: {
+					Count: 1
+					id: "tarotcards:the_magician"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -1.3214285714285765d
+			y: 4.785714285714285d
+		}
+	]
 	title: "神性——Atziluth"
 }

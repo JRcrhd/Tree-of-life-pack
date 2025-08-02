@@ -6,29 +6,156 @@
 	hide_quest_details_until_startable: true
 	hide_quest_until_deps_complete: true
 	hide_quest_until_deps_visible: true
+	icon: "forbidden_arcanus:dark_nether_star"
 	id: "3B71B64AD29DC99E"
 	order_index: 0
 	quest_links: [ ]
-	quests: [{
-		dependencies: ["1F12C58DD155769C"]
-		description: [
-			"「熵」作为无序化的本源驱动力，推动物质结构向混沌状态演化，引致元素衰变与秩序消解。"
-			""
-			"这被认为是事物运动的根源。在这一章节，学者们试图逆流而上，追寻熵的本源。"
-			""
-			"Entropy is the original driving force of disorder, driving the evolution of material structure into a chaotic state, leading to elemental decay and order dissolution."
-			""
-			"This is considered the root of the movement of things. In this chapter, scholars try to swim against the current and trace the origin of entropy."
-		]
-		id: "01A444FBE0404EA2"
-		shape: "diamond"
-		tasks: [{
-			id: "0B40EA3447EBA508"
-			title: "关于 ⌊熵⌉"
-			type: "checkmark"
-		}]
-		x: 0.0d
-		y: -2.0d
-	}]
+	quests: [
+		{
+			dependencies: ["1F12C58DD155769C"]
+			description: [
+				"「熵」作为无序化的本源驱动力，推动物质结构向混沌状态演化，引致元素衰变与秩序消解。"
+				""
+				"这被认为是事物运动的根源。在这一章节，学者们试图逆流而上，追寻熵的本源。"
+				""
+				"Entropy is the original driving force of disorder, driving the evolution of material structure into a chaotic state, leading to elemental decay and order dissolution."
+				""
+				"This is considered the root of the movement of things. In this chapter, scholars try to swim against the current and trace the origin of entropy."
+			]
+			id: "01A444FBE0404EA2"
+			shape: "diamond"
+			tasks: [{
+				id: "0B40EA3447EBA508"
+				title: "关于 ⌊熵⌉"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["01A444FBE0404EA2"]
+			icon: "minecraft:netherrack"
+			id: "2C00365ADDC3813D"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/gamephase add JRcrhd assiah"
+					elevate_perms: true
+					id: "20C26BD5BD8D8695"
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/tellraw @p {\"text\":\"您已越过assiah阶段，地狱的大门已经打开\",\"bold\":true,\"color\":\"red\"}"
+					elevate_perms: true
+					id: "737B87FB539E7155"
+					type: "command"
+				}
+			]
+			subtitle: "stage upgrade"
+			tasks: [{
+				consume_items: true
+				id: "64CE74C02DF3E16C"
+				item: "kubejs:point_malkuth"
+				type: "item"
+			}]
+			title: "阶段晋升"
+			x: 0.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["2C00365ADDC3813D"]
+			icon: "minecraft:end_stone"
+			id: "1ECB91385A758E05"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/gamephase add JRcrhd yetzirah"
+					elevate_perms: true
+					id: "534543900E4A020C"
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/tellraw @p {\"text\":\"您已越过yetzirah阶段，末地的大门已经打开\",\"bold\":true,\"color\":\"red\"}"
+					elevate_perms: true
+					id: "03782AF594EE890D"
+					type: "command"
+				}
+			]
+			subtitle: "stage upgrade"
+			tasks: [
+				{
+					consume_items: true
+					id: "32AF6CEE8E941752"
+					item: "kubejs:point_yesod"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "46E4CE326379D519"
+					item: "kubejs:point_netzach"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "578DA8AE0C089BE1"
+					item: "kubejs:point_hod"
+					type: "item"
+				}
+			]
+			title: "阶段晋升"
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["1ECB91385A758E05"]
+			icon: "aether:aether_dirt"
+			id: "49AD511A227BA63F"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/gamephase add JRcrhd beriah"
+					elevate_perms: true
+					id: "1C1FE78DE7E9D9D7"
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/tellraw @p {\"text\":\"您已越过beriah阶段，以太的大门已经打开\",\"bold\":true,\"color\":\"red\"}"
+					elevate_perms: true
+					id: "364FAC65648C3189"
+					type: "command"
+				}
+			]
+			subtitle: "stage upgrade"
+			tasks: [
+				{
+					consume_items: true
+					id: "2D8106C6376AC935"
+					item: "kubejs:point_tiphareth"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "1973AE340D686504"
+					item: "kubejs:point_chesed"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "5433A52DAEFFF4FA"
+					item: "kubejs:point_geburah"
+					type: "item"
+				}
+			]
+			title: "阶段晋升"
+			x: 0.0d
+			y: 5.5d
+		}
+	]
 	title: "抵达根源之路"
 }

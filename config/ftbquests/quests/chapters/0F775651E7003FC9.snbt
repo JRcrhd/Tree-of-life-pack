@@ -48,14 +48,6 @@
 		{
 			dependencies: ["1F12C58DD155769C"]
 			id: "23AE87786B0DFCD6"
-			rewards: [{
-				auto: "enabled"
-				command: "/gamephase add @p assiah"
-				elevate_perms: true
-				id: "060C31836D8E7B67"
-				silent: true
-				type: "command"
-			}]
 			size: 1.1d
 			tasks: [{
 				id: "3740E9A99FBBE0E5"
