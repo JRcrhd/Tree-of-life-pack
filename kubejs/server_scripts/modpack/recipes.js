@@ -78,6 +78,51 @@ ServerEvents.recipes(treeoflife => {
 		}
 	);
 
+    treeoflife.recipes.create.sequenced_assembly([
+        Item.of('kubejs:dimension_alloy_overworld').withChance(1.0)
+    ],'kubejs:earth_alloy_shard',[
+        treeoflife.recipes.createFilling('kubejs:earth_alloy_shard',['kubejs:earth_alloy_shard',Fluid.of('kubejs:witch_fluid').withAmount(500)]),
+        treeoflife.recipes.createFilling('kubejs:earth_alloy_shard',['kubejs:earth_alloy_shard',Fluid.of('kubejs:current_fluid').withAmount(500)]),
+        treeoflife.recipes.createPressing('kubejs:earth_alloy_shard','kubejs:earth_alloy_shard')
+    ])
+    .transitionalItem('kubejs:earth_alloy_shard')
+    .loops(2);
+
+    treeoflife.recipes.create.sequenced_assembly([
+        Item.of('kubejs:dimension_alloy_nether').withChance(1.0)
+    ],'kubejs:ember_alloy_shard',[
+        treeoflife.recipes.createFilling('kubejs:ember_alloy_shard',['kubejs:ember_alloy_shard',Fluid.of('kubejs:sky_fluid').withAmount(200)]),
+        treeoflife.recipes.createFilling('kubejs:ember_alloy_shard',['kubejs:ember_alloy_shard',Fluid.of('kubejs:sunlight_fluid').withAmount(200)]),
+        treeoflife.recipes.createPressing('kubejs:ember_alloy_shard','kubejs:ember_alloy_shard')
+    ])
+    .transitionalItem('kubejs:ember_alloy_shard')
+    .loops(2);
+
+    treeoflife.recipes.create.mixing(
+        [
+            Item.of('kubejs:earth_alloy_shard').withChance(0.95),
+            Item.of('kubejs:alchemy_black').withChance(0.05)
+        ],
+        [
+            Fluid.of('kubejs:current_fluid').withAmount(10),
+            'kubejs:earth_alloy_shard'
+        ]
+    )
+    .heated();
+
+    treeoflife.recipes.create.mixing(
+        [
+            Item.of('kubejs:ember_alloy_shard').withChance(0.8),
+            Item.of('kubejs:alchemy_white').withChance(0.2)
+        ],
+        [
+            Fluid.of('kubejs:current_fluid').withAmount(10),
+            'kubejs:ember_alloy_shard',
+			'kubejs:alchemy_black'
+        ]
+    )
+    .heated();
+
 	treeoflife.custom({
 		"type": "apotheosis:enchanting",
 		"conditions": [{
@@ -133,14 +178,52 @@ ServerEvents.recipes(treeoflife => {
 	treeoflife.smithing('tarotcards:the_tower','minecraft:netherite_upgrade_smithing_template','minecraft:nether_star','kubejs:empty_tarot');
 
     treeoflife.recipes.create.sequenced_assembly([
-        Item.of('kubejs:dimension_alloy_overworld').withChance(1.0)
-    ],'kubejs:earth_alloy_shard',[
-        treeoflife.recipes.createFilling('kubejs:empty_tarot',['kubejs:empty_tarot',Fluid.of('kubejs:witch_fluid')]),
-        treeoflife.recipes.createFilling('kubejs:empty_tarot',['kubejs:empty_tarot',Fluid.of('kubejs:current_fluid')]),
-        treeoflife.recipes.createPressing('kubejs:empty_tarot','kubejs:empty_tarot')
+        Item.of('tarotcards:the_world').withChance(1.0)
+    ],'kubejs:empty_tarot',[
+        treeoflife.recipes.createFilling('kubejs:empty_tarot',['kubejs:empty_tarot',Fluid.of('kubejs:sunlight_fluid').withAmount(100)]),
+        treeoflife.custom({"type": "createmetallurgy:grinding","ingredients": [{"item": "empty_tarot"}],"processingTime": 80,"results": [{"item": "empty_tarot"}]}),
+        treeoflife.recipes.createPressing('kubejs:empty_tarot','kubejs:empty_tarot'),
+		treeoflife.recipes.createDeploying('kubejs:empty_tarot', ['kubejs:empty_tarot', 'create:brass_nugget'])
     ])
     .transitionalItem('kubejs:empty_tarot')
-    .loops(3);
+    .loops(1);
+
+	treeoflife.custom({
+  		"type": "enderio:slicing",
+  		"energy": 20000,
+  		"inputs": [
+			{
+				"tag": "forge:ingots/soularium"
+			},
+			{
+				"item": "kubejs:empty_tarot"
+			},
+			{
+				"tag": "forge:ingots/soularium"
+			},
+			{
+				"item": "enderio:frank_n_zombie"
+			},
+			{
+				"item": "enderio:vibrant_alloy_ingot"
+			},
+			{
+				"item": "enderio:skeletal_contractor"
+			}
+  		],
+  		"output": {
+    		"item": "tarotcards:the_star"
+  		}
+	});
+
+	treeoflife.custom({
+  		"type": "goety:cursed_infuser_recipes",
+  		"ingredient": {
+    		"item": "destroy:nanodiamonds"
+  		},
+  		"result": "tarotcards:the_sun",
+  		"cookingTime": 60
+	});
 
 })
 

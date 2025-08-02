@@ -68,7 +68,8 @@ StartupEvents.registry('fluid', treeoflife => {
     treeoflife.create('sunlight_fluid')
         .thinTexture(0xFFF838)
         .bucketColor(0xFFF838)
-        .displayName('日光');
+        .displayName('日光')
+        .temperature(300);
     
     treeoflife.create('molten_obsidian')
         .thickTexture(0x311140)
@@ -81,4 +82,16 @@ StartupEvents.registry('fluid', treeoflife => {
         .bucketColor(0x000E2B)
         .displayName('熔融玄钢')
         .temperature(1200);
+
+    treeoflife.create('dark_light_fluid')
+        .thinTexture(0x981232)
+        .bucketColor(0x981232)
+        .displayName('暗光')
+        .temperature(200);
+
+    treeoflife.create('void_fluid')
+        .thinTexture(0xFFFDFF)
+        .bucketColor(0xFFFDFF)
+        .displayName('虚空流体');
+
 });

@@ -34,6 +34,7 @@
 		}
 		{
 			dependencies: ["01A444FBE0404EA2"]
+			hide_dependent_lines: true
 			icon: "minecraft:netherrack"
 			id: "2C00365ADDC3813D"
 			rewards: [
@@ -65,7 +66,8 @@
 			y: -0.5d
 		}
 		{
-			dependencies: ["2C00365ADDC3813D"]
+			dependencies: ["25E8AEAC56EBD839"]
+			hide_dependent_lines: true
 			icon: "minecraft:end_stone"
 			id: "1ECB91385A758E05"
 			rewards: [
@@ -108,10 +110,10 @@
 			]
 			title: "阶段晋升"
 			x: 0.0d
-			y: 2.5d
+			y: 7.5d
 		}
 		{
-			dependencies: ["1ECB91385A758E05"]
+			dependencies: ["6AC47056EF74E7CB"]
 			icon: "aether:aether_dirt"
 			id: "49AD511A227BA63F"
 			rewards: [
@@ -154,7 +156,422 @@
 			]
 			title: "阶段晋升"
 			x: 0.0d
-			y: 5.5d
+			y: 13.0d
+		}
+		{
+			dependencies: [
+				"23B9F4FA7FDF0AAE"
+				"18AA3B126AF0122C"
+				"7D725B3479A404BB"
+				"7F939A0161EAFA06"
+			]
+			id: "4297E5566F5EC2D0"
+			tasks: [{
+				id: "24B350F3E199BB38"
+				item: "kubejs:ember_alloy_shard"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["2C00365ADDC3813D"]
+			id: "642C8EB2DA8C35B9"
+			tasks: [{
+				id: "15BA9CB637B84B11"
+				item: "kubejs:current_fluid_bucket"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["2C00365ADDC3813D"]
+			id: "7E1C86DFF805DF7F"
+			tasks: [{
+				id: "6B4CEA6DC7AF4A4E"
+				item: "minecraft:nether_star"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["2C00365ADDC3813D"]
+			id: "4EA6BE39E76DA80F"
+			tasks: [{
+				id: "75A5518390639921"
+				item: "enderio:soularium_ingot"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"7E1C86DFF805DF7F"
+				"4EA6BE39E76DA80F"
+			]
+			id: "5AD1554BB4DE9003"
+			tasks: [{
+				id: "044C1C13175F1044"
+				item: "kubejs:dark_light_fluid_bucket"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5AD1554BB4DE9003"]
+			id: "2ED24D85AC42EBC5"
+			tasks: [{
+				id: "2D8D73DCF829E687"
+				item: "kubejs:sunlight_fluid_bucket"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["642C8EB2DA8C35B9"]
+			id: "2D547848D21B8F29"
+			tasks: [{
+				id: "79EF187E298B4135"
+				item: "kubejs:sky_fluid_bucket"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["3647BBC51D927718"]
+			id: "7D725B3479A404BB"
+			tasks: [{
+				id: "159CE4ADC97548F4"
+				item: "destroy:chromium_nugget"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2C00365ADDC3813D"]
+			id: "18AA3B126AF0122C"
+			tasks: [{
+				id: "2AA8B175182A1725"
+				item: {
+					Count: 1
+					id: "destroy:sodium_ingot"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["2DD9DC06F7D3D78D"]
+			id: "23B9F4FA7FDF0AAE"
+			tasks: [{
+				id: "6DE9CE126511DB49"
+				item: "rainbowcompound:blazeite_ingot"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2A6E86F79AE55CD7"]
+			id: "7F939A0161EAFA06"
+			tasks: [{
+				id: "241EC909B5501268"
+				item: "create:cinder_flour"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2C00365ADDC3813D"]
+			id: "2DD9DC06F7D3D78D"
+			tasks: [{
+				id: "0370B1910420913B"
+				item: "minecraft:blaze_powder"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["2C00365ADDC3813D"]
+			id: "2A6E86F79AE55CD7"
+			tasks: [{
+				id: "527133D31BE139FF"
+				item: "minecraft:netherrack"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["2C00365ADDC3813D"]
+			id: "3647BBC51D927718"
+			tasks: [{
+				id: "5BBE6D9882DEC393"
+				item: "destroy:nether_crocoite"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"2D547848D21B8F29"
+				"4297E5566F5EC2D0"
+			]
+			id: "602D2A6696A3CBCE"
+			tasks: [{
+				id: "36ACE0151B5C964A"
+				item: "kubejs:alchemy_white"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"2ED24D85AC42EBC5"
+				"2D547848D21B8F29"
+				"4297E5566F5EC2D0"
+			]
+			id: "4A272DA07F21A23E"
+			tasks: [{
+				id: "79A175F86EDE3EB0"
+				item: "kubejs:dimension_alloy_nether"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["2C00365ADDC3813D"]
+			id: "25E8AEAC56EBD839"
+			tasks: [{
+				id: "4AC130F6BDDACE1D"
+				item: "kubejs:template_yetzirah"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["2C00365ADDC3813D"]
+			id: "4B44DD799EDC6202"
+			tasks: [{
+				id: "0B66639BBA3F5EFE"
+				item: "kubejs:empty_tarot"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"4B44DD799EDC6202"
+				"2AA151C413331E08"
+			]
+			id: "0FF707A7B527153E"
+			tasks: [{
+				id: "2A02BBDA51CBDCDE"
+				item: {
+					Count: 1
+					id: "tarotcards:the_world"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"4B44DD799EDC6202"
+				"7E1C86DFF805DF7F"
+			]
+			id: "25D0BBFF20C9580D"
+			tasks: [{
+				id: "19B7970CEC6FF670"
+				item: {
+					Count: 1
+					id: "tarotcards:the_tower"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"4B44DD799EDC6202"
+				"30CB1C62448167FD"
+			]
+			id: "4C3A7235C55C914F"
+			tasks: [{
+				id: "0B47D6F316360E85"
+				item: {
+					Count: 1
+					id: "tarotcards:the_sun"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -5.5d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"4B44DD799EDC6202"
+				"54B70E4E1447A48C"
+			]
+			id: "36F1C99B83DDB7BB"
+			tasks: [{
+				id: "689BFD5D56F0E98D"
+				item: {
+					Count: 1
+					id: "tarotcards:the_star"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"4B44DD799EDC6202"
+				"2B9B8BA46515A83D"
+				"23FFC5F4BD79BC1B"
+			]
+			id: "056B17AAFF7073A7"
+			tasks: [{
+				id: "62997003FEBFEDA6"
+				item: {
+					Count: 1
+					id: "tarotcards:judgement"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -5.5d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"4B44DD799EDC6202"
+				"6B47DA9D1C4AC551"
+				"42AF43EB6FEB7ADD"
+			]
+			id: "53D315CE6C4B8CF0"
+			tasks: [{
+				id: "3C11582D6C65CCA7"
+				item: {
+					Count: 1
+					id: "tarotcards:the_moon"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["2C00365ADDC3813D"]
+			id: "6B47DA9D1C4AC551"
+			tasks: [{
+				id: "3B4B4938268BC7FD"
+				item: "enderio:weather_crystal"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["2C00365ADDC3813D"]
+			id: "42AF43EB6FEB7ADD"
+			tasks: [{
+				id: "1D576FECE2855049"
+				item: "enderio:enticing_crystal"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["2C00365ADDC3813D"]
+			id: "23FFC5F4BD79BC1B"
+			tasks: [{
+				id: "15ACB9D6C167A939"
+				item: "destroy:card_stock"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["2C00365ADDC3813D"]
+			id: "2B9B8BA46515A83D"
+			tasks: [{
+				id: "17E90645975CD6AF"
+				item: "destroy:dynamite"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["2C00365ADDC3813D"]
+			id: "2AA151C413331E08"
+			tasks: [{
+				id: "23B6B27B8094A4F2"
+				item: "createmetallurgy:mechanical_belt_grinder"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["2C00365ADDC3813D"]
+			id: "54B70E4E1447A48C"
+			tasks: [{
+				id: "1EFF8D43D221F4E3"
+				item: "enderio:slice_and_splice"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["2C00365ADDC3813D"]
+			id: "30CB1C62448167FD"
+			tasks: [{
+				id: "232AA2388019C829"
+				item: "destroy:nanodiamonds"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1ECB91385A758E05"]
+			id: "6AC47056EF74E7CB"
+			tasks: [{
+				id: "014C0EE04B4B5135"
+				item: "kubejs:template_beriah"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 11.5d
 		}
 	]
 	title: "抵达根源之路"

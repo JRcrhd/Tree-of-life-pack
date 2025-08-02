@@ -133,28 +133,6 @@ ServerEvents.recipes(treeoflife => {
     )
     .heated();
 
-    treeoflife.recipes.create.sequenced_assembly([
-        Item.of('kubejs:dimension_alloy_overworld').withChance(1.0)
-    ],'kubejs:earth_alloy_shard',[
-        treeoflife.recipes.createFilling('kubejs:earth_alloy_shard',['kubejs:earth_alloy_shard',Fluid.of('kubejs:witch_fluid')]),
-        treeoflife.recipes.createFilling('kubejs:earth_alloy_shard',['kubejs:earth_alloy_shard',Fluid.of('kubejs:current_fluid')]),
-        treeoflife.recipes.createPressing('kubejs:earth_alloy_shard','kubejs:earth_alloy_shard')
-    ])
-    .transitionalItem('kubejs:earth_alloy_shard')
-    .loops(2);
-
-    treeoflife.recipes.create.mixing(
-        [
-            Item.of('kubejs:earth_alloy_shard').withChance(0.95),
-            Item.of('kubejs:alchemy_black').withChance(0.05)
-        ], 
-        [
-            Fluid.of('kubejs:current_fluid').withAmount(10),
-            'kubejs:earth_alloy_shard'
-        ]
-    )
-    .heated();
-
     treeoflife.custom({
         "type": "createmetallurgy:melting",
         "heatRequirement": "superheated",
@@ -342,6 +320,106 @@ ServerEvents.recipes(treeoflife => {
             E: "destroy:blacklight"
         }
     );
+
+    treeoflife.recipes.create.compacting(
+        [
+            'kubejs:ember_alloy_shard',
+        ],
+        [
+            '2x create:cinder_flour',
+            'rainbowcompound:blazeite_ingot',
+            '#forge:nuggets/chromium',
+            '#forge:ingots/sodium'
+        ]
+    )
+    .superheated();
+
+    treeoflife.custom({
+        "type": "createdieselgenerators:distillation",
+        "ingredients": [
+            {
+                "amount": 100,
+                "fluid": "kubejs:current_fluid"
+            }
+        ],
+        "heatRequirement": "heated",
+        "processingTime": 100,
+        "results": [
+            {
+                "amount": 80,
+                "fluid": "kubejs:dim_sky_fluid"
+            },
+            {
+                "amount": 10,
+                "fluid": "kubejs:witch_fluid"
+            },
+            {
+                "amount": 2,
+                "fluid": "kubejs:sky_fluid"
+            }
+        ]
+    });
+
+    treeoflife.recipes.create.mixing(
+        [
+            Item.of('minecraft:nether_star'),
+            Fluid.of('kubejs:dark_light_fluid').withAmount(50)
+        ],
+        [
+            'minecraft:nether_star',
+            'enderio:soularium_ingot'
+        ]
+    )
+    .heated();
+
+    treeoflife.custom({
+        "type": "createdieselgenerators:distillation",
+        "ingredients": [
+            {
+                "amount": 100,
+                "fluid": "kubejs:dark_light_fluid"
+            }
+        ],
+        "heatRequirement": "heated",
+        "processingTime": 100,
+        "results": [
+            {
+                "amount": 40,
+                "fluid": "kubejs:dim_sky_fluid"
+            },
+            {
+                "amount": 20,
+                "fluid": "kubejs:current_fluid"
+            },
+            {
+                "amount": 5,
+                "fluid": "kubejs:sunlight_fluid"
+            }
+        ]
+    });
+
+    treeoflife.custom({
+        "type": "createdieselgenerators:distillation",
+        "ingredients": [
+            {
+                "amount": 100,
+                "fluid": "kubejs:dim_sky_fluid"
+            }
+        ],
+        "heatRequirement": "heated",
+        "processingTime": 100,
+        "results": [
+            {
+                "amount": 95,
+                "fluid": "kubejs:dim_sky_fluid"
+            },
+            {
+                "amount": 1,
+                "fluid": "kubejs:sky_fluid"
+            }
+        ]
+    });
+
 
 })
 
