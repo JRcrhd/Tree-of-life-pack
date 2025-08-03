@@ -8,8 +8,6 @@ By JRcrhd
 
 使用的来自其他整合包的内容将会逐步移除。
 
-<center>![](https://cdn.modrinth.com/data/iOOAuKdv/images/9b66dc2f38fdfb6818d2ae82de442a57d6dcedeb_350.webp)</center>
-
 ***
 
 <h2 style="text-align: center;">Features</h2>
