@@ -152,6 +152,7 @@
 			y: 1.0d
 		}
 		{
+			dependencies: ["7B74478E427A319D"]
 			id: "5A7BE008E5371AFA"
 			tasks: [{
 				id: "3DFA3F8A98C188F4"
@@ -1168,6 +1169,7 @@
 				"7B5A1915250646B7"
 				"2C377D38B54FA79F"
 			]
+			dependency_requirement: "one_completed"
 			description: [
 				"氨气的混合气通到硝酸溶液中，其中只有氨气可溶。"
 				""

@@ -8,6 +8,17 @@
 	id: "14AF7CD2BCF97A6E"
 	order_index: 2
 	quest_links: [ ]
-	quests: [ ]
+	quests: [{
+		dependencies: ["1935CEFF9B14A690"]
+		hide_until_deps_complete: true
+		id: "032BECAF07825E19"
+		shape: "diamond"
+		tasks: [{
+			id: "63C5A48766EE7C6B"
+			type: "checkmark"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
 	title: "3、电力时代"
 }

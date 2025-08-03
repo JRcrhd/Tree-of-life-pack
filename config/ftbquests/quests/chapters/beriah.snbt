@@ -123,6 +123,7 @@
 			y: -3.5d
 		}
 		{
+			dependencies: ["43DEA510A8D2DAA9"]
 			id: "3C26E79E68EDAE83"
 			shape: "gear"
 			size: 1.5d

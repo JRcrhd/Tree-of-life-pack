@@ -1,11 +1,16 @@
 ServerEvents.tags('item', treeoflife => {
-    // More books
     treeoflife.add('minecraft:bookshelf_books', 'patchouli:guidebook')
     treeoflife.add('minecraft:bookshelf_books', 'ae2:guide')
+});
 
-    // Forbiden Arcanus Stellar Blacklist
-    treeoflife.add('forbidden_arcanus:modifier/eternal_incompatible', 'ars_additions:undying_charm')
-})
+ServerEvents.tags('block', treeoflife => {
+
+    treeoflife.add('c:end_ore_replaceable', [
+        '#true_ending:breaks_into/any',
+        '#forge:ore_bearing_ground/end_stone',
+        '#minecraft:stone_ore_replaceable'
+    ]);
+});
 
 ServerEvents.tags('entity_type', treeoflife => {
 
@@ -19,6 +24,7 @@ ServerEvents.tags('entity_type', treeoflife => {
         "cataclysm:ignited_revenant",
         "cataclysm:kobolediator",
         "cataclysm:maledictus",
+        "cataclysm:scylla",
         "cataclysm:modern_remnant",
         "cataclysm:netherite_monstrosity",
         "cataclysm:the_baby_leviathan",
@@ -26,7 +32,15 @@ ServerEvents.tags('entity_type', treeoflife => {
         "cataclysm:the_leviathan",
         "cataclysm:the_prowler",
         "cataclysm:wadjet",
-        "#neoforge:bosses"
+        "#forge:bosses",
+        "goety:apostle",
+        "goety:vizier",
+        "goety:hostile_redstone_golem",
+        "goety:crone",
+        "goety:skull_lord",
+        "aether:slider",
+        "aether:valkyrie_queen",
+        "aether:sun_spirit"
     ])
 
     treeoflife.add('treeoflife:jank_blacklist', [
