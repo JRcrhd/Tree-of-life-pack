@@ -6,19 +6,150 @@
 	hide_quest_until_deps_visible: true
 	icon: "goety:lightning_focus"
 	id: "14AF7CD2BCF97A6E"
+	images: [
+		{
+			height: 6.0d
+			image: "mekanism:block/steel_casing"
+			rotation: 0.0d
+			width: 6.0d
+			x: -5.0d
+			y: 4.5d
+		}
+		{
+			height: 6.0d
+			image: "ae2:block/controller_lights"
+			rotation: 0.0d
+			width: 6.0d
+			x: 4.5d
+			y: 4.5d
+		}
+	]
 	order_index: 2
 	quest_links: [ ]
-	quests: [{
-		dependencies: ["1935CEFF9B14A690"]
-		hide_until_deps_complete: true
-		id: "032BECAF07825E19"
-		shape: "diamond"
-		tasks: [{
-			id: "63C5A48766EE7C6B"
-			type: "checkmark"
-		}]
-		x: 0.0d
-		y: 0.0d
-	}]
+	quests: [
+		{
+			dependencies: ["1935CEFF9B14A690"]
+			hide_until_deps_complete: true
+			id: "032BECAF07825E19"
+			shape: "diamond"
+			tasks: [{
+				id: "63C5A48766EE7C6B"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"在接口旁放置容器。"
+				""
+				"Place the container next to the interface."
+			]
+			id: "6D73912FE4E81E5F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "26A96070238D3CAE"
+				table_id: 7545900498830760989L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "2AB0D3B8D1BF3E45"
+					item: "pneumaticcraft:assembly_controller"
+					type: "item"
+				}
+				{
+					id: "7FCB76C55D52AEA6"
+					item: "pneumaticcraft:assembly_io_unit_export"
+					type: "item"
+				}
+				{
+					id: "6D30552105EB588F"
+					item: "pneumaticcraft:assembly_io_unit_import"
+					type: "item"
+				}
+				{
+					id: "696F307A61F2E3C0"
+					item: "pneumaticcraft:assembly_platform"
+					type: "item"
+				}
+				{
+					id: "1395392038D46E68"
+					item: "pneumaticcraft:assembly_laser"
+					type: "item"
+				}
+				{
+					id: "4A6766B722DBE367"
+					item: "pneumaticcraft:assembly_drill"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			id: "1A2021D8F2852BE3"
+			tasks: [{
+				dimension: "minecraft:the_end"
+				id: "6BDE7EAA9B4EB47F"
+				type: "dimension"
+			}]
+			x: -2.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1A2021D8F2852BE3"]
+			id: "059A864FBE3A9836"
+			tasks: [{
+				id: "0FC0DD8D48D0C412"
+				item: "mekanism:ingot_osmium"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["059A864FBE3A9836"]
+			id: "641D9F649F2865E3"
+			tasks: [{
+				id: "1A97485D749C79D4"
+				item: "mekanism:steel_casing"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 4.5d
+		}
+		{
+			id: "365DE67972259D99"
+			tasks: [{
+				id: "6F99C7F591D5A7DD"
+				item: "enderio:end_steel_ingot"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1A2021D8F2852BE3"]
+			id: "74315729B96BB8FE"
+			tasks: [{
+				id: "4ED2643CCF586A2A"
+				structure: "ae2:meteorite"
+				type: "structure"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			id: "314B7F1FAC3ECC78"
+			tasks: [{
+				id: "316AEE3135CC2393"
+				item: "ae2:controller"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 4.5d
+		}
+	]
 	title: "3、电力时代"
 }

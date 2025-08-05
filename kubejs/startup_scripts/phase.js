@@ -10,7 +10,6 @@ StartupEvents.postInit(e => {
 
 	GamePhase.addDimensionRestriction("assiah", "minecraft:nether");	
 
-    GamePhase.addItemModRestriction("yetzirah", "electrodynamics");	
 	GamePhase.addItemModRestriction("yetzirah", "ae2");
     GamePhase.addItemModRestriction("yetzirah", "ae2wtlib");
     GamePhase.addItemModRestriction("yetzirah", "appmek");

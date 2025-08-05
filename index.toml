@@ -194,7 +194,7 @@ hash = "f46a2c672f9050c33136c1999eebda0171d0348b26ccf61324caab4bd7bbd08f"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/14AF7CD2BCF97A6E.snbt"
-hash = "0cf7f59cde5760c8ac608e5608375ff4e6fdf95afa48a75bb9a9c29b3612a2f7"
+hash = "060c03d19e82acd850fb786de99db03553e5b7dc690af3d6450a3a499c2fe603"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/173E073F562968DC.snbt"
@@ -206,7 +206,7 @@ hash = "d8491f5924a72bfc84f1347f3de1682f0840b1181021428423880cc4f83658a1"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/2.snbt"
-hash = "04efc1c67418b0a062f92e4f2b6625cc0cbe2a99fc8175ee234853815c845463"
+hash = "ee70f43523270040588add824195fe95c4a9094c3096b67068b5f41a9813bc3d"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/329015894AA19614.snbt"
@@ -214,7 +214,7 @@ hash = "199c8811266387034f2ff6478f5132ec5a1cb8d6be894f354ca5abbf97e37d36"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/3B71B64AD29DC99E.snbt"
-hash = "b2c4b4871059797a418120270d1b13b28567db2ed58da15bc942ac35c1ee17b2"
+hash = "e719045d30ed4200b95790b35f3bbfeddc2c6cc1514074121f93da0b4e8cc400"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/4.snbt"
@@ -258,7 +258,7 @@ hash = "a12967633c22a552f77388bc4dac67571b44a18072b9d5223d32c2214fcb8dab"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/beriah.snbt"
-hash = "8f0ef53acb111f033340c2b998d27670917a6ef6f99516a7e77d607ef1a42a74"
+hash = "4bb0c0d3628692e45bfee6c4489270e35843abe4f9a557494f898773a98bf768"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/yetzirah.snbt"
@@ -847,6 +847,94 @@ hash = "7422612a33cfdcf0539742436d463a4dbcbf52c04ba769095a0cfa51fc7b51f1"
 [[files]]
 file = "kubejs/data/diet/tags/items/vegetables.json"
 hash = "29e415a42375fb9ab0ac7f9a533cdcc543255701a733568cc3a99456adc7fa96"
+
+[[files]]
+file = "kubejs/data/electrodynamics/forge/biome_modifier/ore_chromium.json"
+hash = "0cb815bc2ee35683fd6484b9903d35e5c4d2d54d537bb8deb320e63a566a153f"
+
+[[files]]
+file = "kubejs/data/electrodynamics/forge/biome_modifier/ore_lithium.json"
+hash = "d57ec250eee3dcf9335fc51293d254ed020a8d60449abb83867a0d18e7c01fcb"
+
+[[files]]
+file = "kubejs/data/electrodynamics/forge/biome_modifier/ore_molybdenum.json"
+hash = "95f92bf7309573b3e7437a53e4467f08a14f064c7dbb1f610cdfa38538967fe9"
+
+[[files]]
+file = "kubejs/data/electrodynamics/forge/biome_modifier/ore_monazite.json"
+hash = "faaca78ba16816c29858ce6c6885166e1cf694a9391a23c3d6642c44dedca567"
+
+[[files]]
+file = "kubejs/data/electrodynamics/forge/biome_modifier/ore_thorium.json"
+hash = "dba45998a8cf384eae2259ea7536d41866879629c36db516b52ba35a47fa0432"
+
+[[files]]
+file = "kubejs/data/electrodynamics/forge/biome_modifier/ore_titanium.json"
+hash = "63582e498086b1197adcd4c47c63fe9cc65e2514d26357fd7979f5bb286be06f"
+
+[[files]]
+file = "kubejs/data/electrodynamics/forge/biome_modifier/ore_vanadium.json"
+hash = "678940fa4e7bb6b80b6217eb21d6aa307b903b1950b85fd5aa66f73aee355955"
+
+[[files]]
+file = "kubejs/data/electrodynamics/worldgen/configured_feature/ore_chromium.json"
+hash = "ea2d81f857c78a191061e36643919e6a6b3bdc8ed47efda025bc4073e29bd726"
+
+[[files]]
+file = "kubejs/data/electrodynamics/worldgen/configured_feature/ore_lithium.json"
+hash = "b08a9b5da52ac19776b57e5113a484fa1aeeb1cfe98cf4a53d9cd122c9dabe85"
+
+[[files]]
+file = "kubejs/data/electrodynamics/worldgen/configured_feature/ore_molybdenum.json"
+hash = "7d5337393bdb74a4a7841c5becb34a9e4e0bab0e58fe7ac9a0f7d1783e4fea31"
+
+[[files]]
+file = "kubejs/data/electrodynamics/worldgen/configured_feature/ore_monazite.json"
+hash = "c1256c619fd508ade680f133a5608516b99af632d84054de21f6da5ee4cc30d4"
+
+[[files]]
+file = "kubejs/data/electrodynamics/worldgen/configured_feature/ore_thorium.json"
+hash = "c8f9c93598dddf832c7ae6d99987fcda507c0c8f866c4bf5aa74093fb2e443ed"
+
+[[files]]
+file = "kubejs/data/electrodynamics/worldgen/configured_feature/ore_titanium.json"
+hash = "48409cf5ee67fedf3a797fb0c8b00e889e2318b7d621dd7f881558b5b5b3a7d8"
+
+[[files]]
+file = "kubejs/data/electrodynamics/worldgen/configured_feature/ore_vanadium.json"
+hash = "f85c4950408f73efbe4bc7145962d56671137d01e88ab75a96f047e83ac94c32"
+
+[[files]]
+file = "kubejs/data/electrodynamics/worldgen/placed_feature/ore_chromium.json"
+hash = "da32847bbc0400fc44cc6a325b3caed5ddd7ba098b4e44d3ca42edde75b39988"
+
+[[files]]
+file = "kubejs/data/electrodynamics/worldgen/placed_feature/ore_lithium.json"
+hash = "7f960776b8ad51724272ff3fdb44c396005e4d2c8191a7babea0428b8d5cec28"
+
+[[files]]
+file = "kubejs/data/electrodynamics/worldgen/placed_feature/ore_molybdenum.json"
+hash = "89e22a48684574c7f06751f5cf99a100cc415f773a9ac0339ef38044990f082d"
+
+[[files]]
+file = "kubejs/data/electrodynamics/worldgen/placed_feature/ore_monazite.json"
+hash = "0a7fa786d944d22a45072a40f0f6018d5b6916d1bcaaef11dd839bcd13ce1ad9"
+
+[[files]]
+file = "kubejs/data/electrodynamics/worldgen/placed_feature/ore_thorium.json"
+hash = "1419fdcf5f5c4f10dcc0a0f63d911ceae3cc07611fc6532b1f18d280944193b6"
+
+[[files]]
+file = "kubejs/data/electrodynamics/worldgen/placed_feature/ore_titanium.json"
+hash = "622fe2cc6b1f4e5933ed746707ebbe631bf9a1861e9cc706cc5d7f9ab97be229"
+
+[[files]]
+file = "kubejs/data/electrodynamics/worldgen/placed_feature/ore_uranium.json"
+hash = "10b55b77353cd3fda22b07a524bc67a33e8858286d16ad11535ba84337f7ce80"
+
+[[files]]
+file = "kubejs/data/electrodynamics/worldgen/placed_feature/ore_vanadium.json"
+hash = "3e857ebed974db648a34d877a58e0a9864e8647b8f7a9e80cb2cc85ce24b8bb0"
 
 [[files]]
 file = "kubejs/data/forbidden_arcanus/forbidden_arcanus/hephaestus_forge/input/blood_sac.json"
@@ -1778,11 +1866,11 @@ hash = "2fc3548c7abc393f0447b3bf85a2057f2a4bd2fa41d6dc3a66108c26037f635e"
 
 [[files]]
 file = "kubejs/server_scripts/Tweaks/tags.js"
-hash = "210993c05168f095ddec6869479241c6f39bdaa7d540d8e09b736d1033ebd43a"
+hash = "7e176dfe981a69c09cd0501dd005e221e83de32fd888a023de44909ebf83bb3a"
 
 [[files]]
 file = "kubejs/server_scripts/modpack/recipes.js"
-hash = "0217f43e4e1e5f16b2989b9e982b9da5e4f84324071140a9fd6c63fbf7de8e8c"
+hash = "e250c4e81c84b38719ee366f65bfe73737283c682ec1838fcb997c1348be6ac5"
 
 [[files]]
 file = "kubejs/server_scripts/mods/Farmer's Delight/Compatibility.js"
@@ -1834,11 +1922,11 @@ hash = "1a2655a5c3a98ce6801fba27a2b36f1416aa4a31e7150027ac2d884225db01f1"
 
 [[files]]
 file = "kubejs/server_scripts/mods/create/recipe.js"
-hash = "eb958a1910364606c2e6f34a3b3ddfabad9f738fd3e7e4e057614045a7a3d931"
+hash = "1d212af89a48adb49c4238c63c900e97a5baaa529eefc511286e67d51be3ba1c"
 
 [[files]]
 file = "kubejs/server_scripts/mods/create/tags.js"
-hash = "0a6065bb84a1db5b570aae5d0e7110d8f0a0fc78069800322636b5164d73ed8e"
+hash = "05f84741b087bd13a1849eb8b0458b1d8dbd7659ee956245b7f641b24a151723"
 
 [[files]]
 file = "kubejs/server_scripts/mods/enderio/recipe.js"
@@ -1870,7 +1958,7 @@ hash = "d2e88a3eabd011fef7b3b1a95c369631863f7cfe40bef3fb010009696dc5d58c"
 
 [[files]]
 file = "kubejs/startup_scripts/CustomAdditions.js"
-hash = "b93b5a997d8c6cdb177461ec1487b77bedc2bc2ee33e2fd1d11c1516ae9ca845"
+hash = "dddb02aa4edb227748828c770b02cf8ca2b6dadf448f71d88483c8946e29a98f"
 
 [[files]]
 file = "kubejs/startup_scripts/phase.js"
@@ -2219,11 +2307,6 @@ metafile = true
 [[files]]
 file = "mods/dynamic-fps.pw.toml"
 hash = "a4c814876cd9046f9cdbe0a5967edff092adb8c28de2d717ce5fe469d6fbc9a2"
-metafile = true
-
-[[files]]
-file = "mods/electrodynamics.pw.toml"
-hash = "a1b1824ddde722d1363a8fe8b9bdd6a0d091da68210271ef86972419291ce72f"
 metafile = true
 
 [[files]]
@@ -2954,11 +3037,6 @@ metafile = true
 [[files]]
 file = "mods/villages-and-pillages.pw.toml"
 hash = "482116a259e9d173b9c6dd5f21f9e5ab8f472c8003e9ac0fd15d63589635f6e4"
-metafile = true
-
-[[files]]
-file = "mods/voltaic.pw.toml"
-hash = "d34a34df6b0136399ae2f7ae94479104edcd84a1d4d26672e089ab228aa5f0df"
 metafile = true
 
 [[files]]
