@@ -2370,6 +2370,11 @@ hash = "a0b3f914a386d4236744bc749156bb7eca1014179a50e340af1ea4741198782f"
 metafile = true
 
 [[files]]
+file = "mods/extended-ae.pw.toml"
+hash = "426b8efb24384ebee223dcd556734f053a69c8fed90b5bb58dfff2e5cd52ab0c"
+metafile = true
+
+[[files]]
 file = "mods/extra-gauges.pw.toml"
 hash = "adac7da04a68427dcaf0703f1ba2ce9deeb5813119fd5e2070f9fe1ca09c11ca"
 metafile = true

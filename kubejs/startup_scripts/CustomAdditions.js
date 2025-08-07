@@ -48,28 +48,32 @@ StartupEvents.registry('fluid', treeoflife => {
     treeoflife.create('sky_fluid')
         .thinTexture(0x67E0D4)
         .bucketColor(0x67E0D4)
-        .displayName('天空流体');
+        .displayName('天空流体')
+        .temperature(280);
 
     treeoflife.create('witch_fluid')
         .thickTexture(0x090136)
         .bucketColor(0x090136)
-        .displayName('巫术流体');
+        .displayName('巫术流体')
+        .temperature(330);
 
     treeoflife.create('dim_sky_fluid')
         .thinTexture(0x3087C2)
         .bucketColor(0x3087C2)
-        .displayName('暗淡的天空流体');
+        .displayName('暗淡的天空流体')
+        .temperature(290);
 
     treeoflife.create('current_fluid')
         .thickTexture(0x072F4A)
         .bucketColor(0x072F4A)
-        .displayName('微缩洋流');
+        .displayName('微缩洋流')
+        .temperature(300);
 
     treeoflife.create('sunlight_fluid')
         .thinTexture(0xFFF838)
         .bucketColor(0xFFF838)
         .displayName('日光')
-        .temperature(300);
+        .temperature(320);
     
     treeoflife.create('molten_obsidian')
         .thickTexture(0x311140)
@@ -92,6 +96,35 @@ StartupEvents.registry('fluid', treeoflife => {
     treeoflife.create('void_fluid')
         .thinTexture(0xFFFDFF)
         .bucketColor(0xFFFDFF)
-        .displayName('虚空流体');
+        .displayName('虚空流体')
+        .temperature(1);
+
+    treeoflife.create('molten_end_steel')
+        .thickTexture(0xF0E68C)
+        .bucketColor(0xF0E68C)
+        .displayName('熔融末地钢')
+        .temperature(3000);
+
+    treeoflife.create('aether_fluid')
+        .thinTexture(0xAAAAAA)
+        .bucketColor(0xAAAAAA)
+        .displayName('以太流体')
+        .temperature(0.1);
+
+    treeoflife.create('root_fluid')
+        .thinTexture(0xFFFFFF)
+        .bucketColor(0xFFFFFF)
+        .displayName('根源流体')
+        .temperature(10000);
+
+    treeoflife.create('clear_water_tier_1')
+        .thinTexture(0x4C46FF)
+        .bucketColor(0x4C46FF)
+        .displayName('净化水')
+
+    treeoflife.create('clear_water_tier_2')
+        .thinTexture(0x928EFF)
+        .bucketColor(0x928EFF)
+        .displayName('纯净水')
 
 });

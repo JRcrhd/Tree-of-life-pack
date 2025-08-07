@@ -420,6 +420,41 @@ ServerEvents.recipes(treeoflife => {
         ]
     });
 
+    treeoflife.custom({
+        "type": "createmetallurgy:melting",
+        "heatRequirement": "superheated",
+        "ingredients": [
+            {
+                "tag": "forge:ingots/end_steel"
+            }
+        ],
+        "processingTime": 40,
+        "results": [
+            {
+                "amount": 90,
+                "fluid": "kubejs:molten_end_steel"
+            }
+        ]
+    });
+
+    treeoflife.custom({
+        "type": "createmetallurgy:casting_in_table",
+        "ingredients": [
+            {
+                "item": "createmetallurgy:graphite_ingot_mold"
+            },
+            {
+                "amount": 90,
+                "fluid": "kubejs:molten_end_steel"
+            }
+        ],
+        "processingTime": 60,
+        "result": {
+            "item": "enderio:end_steel_ingot"
+        }
+    });
+
+
 
 })
 

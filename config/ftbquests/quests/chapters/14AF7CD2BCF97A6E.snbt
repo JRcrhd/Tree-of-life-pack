@@ -12,16 +12,16 @@
 			image: "mekanism:block/steel_casing"
 			rotation: 0.0d
 			width: 6.0d
-			x: -5.0d
-			y: 4.5d
+			x: -6.0d
+			y: 7.5d
 		}
 		{
 			height: 6.0d
 			image: "ae2:block/controller_lights"
 			rotation: 0.0d
 			width: 6.0d
-			x: 4.5d
-			y: 4.5d
+			x: 6.0d
+			y: 7.5d
 		}
 	]
 	order_index: 2
@@ -29,6 +29,7 @@
 	quests: [
 		{
 			dependencies: ["1935CEFF9B14A690"]
+			hide_dependent_lines: true
 			hide_until_deps_complete: true
 			id: "032BECAF07825E19"
 			shape: "diamond"
@@ -40,6 +41,7 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["032BECAF07825E19"]
 			description: [
 				"在接口旁放置容器。"
 				""
@@ -84,8 +86,8 @@
 					type: "item"
 				}
 			]
-			x: 0.0d
-			y: 1.5d
+			x: -1.5d
+			y: 8.0d
 		}
 		{
 			id: "1A2021D8F2852BE3"
@@ -105,7 +107,7 @@
 				item: "mekanism:ingot_osmium"
 				type: "item"
 			}]
-			x: -5.0d
+			x: -6.0d
 			y: 3.0d
 		}
 		{
@@ -116,28 +118,31 @@
 				item: "mekanism:steel_casing"
 				type: "item"
 			}]
-			x: -5.0d
-			y: 4.5d
+			x: -6.0d
+			y: 7.5d
 		}
 		{
+			dependencies: ["032BECAF07825E19"]
+			hide_dependent_lines: true
 			id: "365DE67972259D99"
 			tasks: [{
 				id: "6F99C7F591D5A7DD"
 				item: "enderio:end_steel_ingot"
 				type: "item"
 			}]
-			x: 4.5d
-			y: 1.5d
+			x: 3.0d
+			y: 5.5d
 		}
 		{
 			dependencies: ["1A2021D8F2852BE3"]
+			hide_dependent_lines: true
 			id: "74315729B96BB8FE"
 			tasks: [{
 				id: "4ED2643CCF586A2A"
 				structure: "ae2:meteorite"
 				type: "structure"
 			}]
-			x: 0.0d
+			x: -1.5d
 			y: 3.0d
 		}
 		{
@@ -147,8 +152,207 @@
 				item: "ae2:controller"
 				type: "item"
 			}]
-			x: 4.5d
+			x: 6.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["74315729B96BB8FE"]
+			id: "434E98187407C6E8"
+			tasks: [{
+				id: "5BFF651FF8B7BCC9"
+				item: "ae2:silicon_press"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["74315729B96BB8FE"]
+			id: "1B0F7234A89E277C"
+			tasks: [{
+				id: "003FC808A516EC95"
+				item: "ae2:calculation_processor_press"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["74315729B96BB8FE"]
+			id: "79703D573BCFD47B"
+			tasks: [{
+				id: "4175D1EB73B00F7B"
+				item: "ae2:engineering_processor_press"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["74315729B96BB8FE"]
+			id: "4D5F99647D539C9E"
+			tasks: [{
+				id: "2A51F7522C71F41B"
+				item: "ae2:logic_processor_press"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["4D5F99647D539C9E"]
+			id: "4587F1E1109081D9"
+			tasks: [{
+				id: "3CF4CCDD1846D394"
+				item: "ae2:printed_logic_processor"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["1B0F7234A89E277C"]
+			id: "0725F3600371E1CC"
+			tasks: [{
+				id: "3EBE6333AF8CAA1C"
+				item: "ae2:printed_calculation_processor"
+				type: "item"
+			}]
+			x: 0.0d
 			y: 4.5d
+		}
+		{
+			dependencies: ["79703D573BCFD47B"]
+			id: "2068DEC3E9753E38"
+			tasks: [{
+				id: "019A31EE16046903"
+				item: "ae2:printed_engineering_processor"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"0725F3600371E1CC"
+				"434E98187407C6E8"
+				"365DE67972259D99"
+			]
+			id: "44FC099D52F16042"
+			tasks: [{
+				id: "67E42553AF7BCB60"
+				item: "ae2:calculation_processor"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"434E98187407C6E8"
+				"4587F1E1109081D9"
+				"365DE67972259D99"
+			]
+			id: "4DCD0DC4E75A2217"
+			tasks: [{
+				id: "1C7F5A616EE36DB0"
+				item: "ae2:logic_processor"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 7.0d
+		}
+		{
+			dependencies: [
+				"2068DEC3E9753E38"
+				"434E98187407C6E8"
+				"365DE67972259D99"
+			]
+			id: "3E006551D27196C1"
+			tasks: [{
+				id: "40BE4FA8484876EA"
+				item: "ae2:engineering_processor"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["6D73912FE4E81E5F"]
+			id: "14D6150E52542971"
+			tasks: [{
+				id: "221BA7C88EB407FA"
+				item: "ae2:charger"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["14D6150E52542971"]
+			id: "3EC77F3646E1066F"
+			tasks: [{
+				id: "39E1AA109FDD9018"
+				item: "expatternprovider:ex_charger"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["059A864FBE3A9836"]
+			id: "7A757DAA0E533ABC"
+			tasks: [{
+				id: "318BF1D5B0E1ECA9"
+				item: "mekanism:metallurgic_infuser"
+				type: "item"
+			}]
+			x: -9.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["7A757DAA0E533ABC"]
+			id: "5EDF1BB105288C74"
+			tasks: [{
+				id: "7425021F0CFA7F45"
+				item: "mekanism:basic_control_circuit"
+				type: "item"
+			}]
+			x: -9.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["5EDF1BB105288C74"]
+			id: "4DC08F5E04C43EB6"
+			tasks: [{
+				id: "7FBF248A94D2AA96"
+				item: "mekanism:advanced_control_circuit"
+				type: "item"
+			}]
+			x: -9.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["4DC08F5E04C43EB6"]
+			id: "1823804755438C84"
+			tasks: [{
+				id: "7CA6F4EFBF445E5B"
+				item: "mekanism:elite_control_circuit"
+				type: "item"
+			}]
+			x: -9.5d
+			y: 13.5d
+		}
+		{
+			dependencies: ["1823804755438C84"]
+			id: "1C51EF09FC5F6459"
+			tasks: [{
+				id: "0E9314E00A8545CD"
+				item: "mekanism:ultimate_control_circuit"
+				type: "item"
+			}]
+			x: -9.5d
+			y: 15.0d
 		}
 	]
 	title: "3、电力时代"

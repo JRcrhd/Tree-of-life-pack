@@ -1,0 +1,18 @@
+{
+  "block.createappliedkinetics.energy_provider": "能量传输器",
+  "block.createappliedkinetics.me_proxy": "ME储存代理器",
+  "item.createappliedkinetics.incomplete_calculation_processor": "未完成的运算处理器",
+  "item.createappliedkinetics.incomplete_calculation_processor_press": "未完成的运算处理器压印模板",
+  "item.createappliedkinetics.incomplete_engineering_processor": "未完成的工程处理器",
+  "item.createappliedkinetics.incomplete_engineering_processor_press": "未完成的工程处理器压印模板",
+  "item.createappliedkinetics.incomplete_logic_processor": "未完成的逻辑处理器",
+  "item.createappliedkinetics.incomplete_logic_processor_press": "未完成的逻辑处理器压印模板",
+  "item.createappliedkinetics.incomplete_printed_calculation_circuit": "未完成的运算电路板",
+  "item.createappliedkinetics.incomplete_printed_engineering_circuit": "未完成的工程电路板",
+  "item.createappliedkinetics.incomplete_printed_logic_circuit": "未完成的逻辑电路板",
+  "item.createappliedkinetics.incomplete_silicon_press": "未完成的硅压印模板",
+  "item.createappliedkinetics.incomplete_silicon_print": "未完成的硅板",
+  "itemGroup.createappliedkinetics": "机械动力：应用机械",
+  "tooltip.createappliedkinetics.energy_provider": "将机械能量传输进应用能源的§f能源接收器",
+  "tooltip.createappliedkinetics.me_proxy": "代理§fAE网络§r的物品或流体储备"
+}

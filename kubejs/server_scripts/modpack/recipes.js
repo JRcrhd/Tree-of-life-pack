@@ -225,6 +225,28 @@ ServerEvents.recipes(treeoflife => {
   		"cookingTime": 60
 	});
 
+    treeoflife.custom({
+        "type": "createdieselgenerators:distillation",
+        "ingredients": [
+            {
+                "amount": 100,
+                "fluid": "minecraft:water"
+            }
+        ],
+        "heatRequirement": "heated",
+        "processingTime": 100,
+        "results": [
+			{
+                "amount": 1,
+                "fluid": "kubejs:current_fluid"
+			},
+            {
+                "amount": 90,
+                "fluid": "kubejs:clear_water_tier_1"
+            }
+        ]
+    });
+
 })
 
 LootJS.modifiers((treeoflife) => {
