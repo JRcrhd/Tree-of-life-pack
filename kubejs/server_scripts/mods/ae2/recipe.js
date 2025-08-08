@@ -1,3 +1,14 @@
+
+const ae_mods = [
+    'ae2',
+    'expatternprovider',
+    'merequester',
+    'ae2wtlib',
+    'appmek',
+    'mae2'
+];
+
+
 ServerEvents.recipes(treeoflife => {
     treeoflife.remove({id: 'expatternprovider:circuit_cutter'});
     treeoflife.remove({id: 'ae2:inscriber/silicon_press'});
@@ -16,6 +27,26 @@ ServerEvents.recipes(treeoflife => {
     treeoflife.remove({id: 'ae2:network/blocks/crystal_processing_charger'});
     treeoflife.remove({type: 'expatternprovider:circuit_cutter'});
     treeoflife.remove({type: 'ae2:inscriber'});
+
+    ae_mods.forEach(mod => {
+        treeoflife.replaceInput({mod: `${mod}`},
+            '#forge:ingots/iron',
+            'pneumaticcraft:ingot_iron_compressed'
+        );
+        treeoflife.replaceInput({mod: `${mod}`},
+            '#forge:ingots/copper',
+            '#forge:ingots/bronze'
+        );
+        treeoflife.replaceInput({mod: `${mod}`},
+            '#forge:ingots/gold',
+            '#forge:ingots/energetic_alloy'
+        );
+        treeoflife.replaceInput({mod: `${mod}`},
+            '#forge:dusts/redstone',
+            '#mekanism:enriched/redstone'
+        );
+    });
+
 
     treeoflife.custom({
         "type": "pneumaticcraft:assembly_laser",
@@ -61,7 +92,7 @@ ServerEvents.recipes(treeoflife => {
                         "item": "createappliedkinetics:incomplete_calculation_processor_press"
                     },
                     {
-                        "fluid": "kubejs:clear_water_tier_1",
+                        "fluidTag": "treeoflife:water_tier_1",
                         "amount": 10
                     }
                 ],
@@ -126,7 +157,7 @@ ServerEvents.recipes(treeoflife => {
                         "item": "createappliedkinetics:incomplete_silicon_press"
                     },
                     {
-                        "fluid": "kubejs:clear_water_tier_1",
+                        "fluidTag": "treeoflife:water_tier_1",
                         "amount": 10
                     }
                 ],
@@ -191,7 +222,7 @@ ServerEvents.recipes(treeoflife => {
                         "item": "createappliedkinetics:incomplete_engineering_processor_press"
                     },
                     {
-                        "fluid": "kubejs:clear_water_tier_1",
+                        "fluidTag": "treeoflife:water_tier_1",
                         "amount": 10
                     }
                 ],
@@ -256,7 +287,7 @@ ServerEvents.recipes(treeoflife => {
                         "item": "createappliedkinetics:incomplete_logic_processor_press"
                     },
                     {
-                        "fluid": "kubejs:clear_water_tier_1",
+                        "fluidTag": "treeoflife:water_tier_1",
                         "amount": 10
                     }
                 ],
@@ -775,5 +806,84 @@ ServerEvents.recipes(treeoflife => {
         ],
         "loops": 1
     });
+
+    treeoflife.remove({id: 'ae2:transform/fluix_crystal'});
+    treeoflife.custom({
+        "type": "ae2:transform",
+        "circumstance": {
+            "type": "fluid",
+            "tag": "treeoflife:water_tier_2"
+        },
+        "ingredients": [
+            {
+                "item": "ae2:charged_certus_quartz_crystal"
+            },
+            {
+                "item": "ae2:fluix_dust"
+            }
+        ],
+        "result": {
+            "item": "ae2:fluix_crystal"
+        }
+    });
+
+    treeoflife.remove({id: 'ae2:transform/fluix_crystals'});
+    treeoflife.custom({
+        "type": "ae2:transform",
+        "circumstance": {
+            "type": "fluid",
+            "tag": "treeoflife:water_tier_2"
+        },
+        "ingredients": [
+            {
+                "item": "ae2:charged_certus_quartz_crystal"
+            },
+            {
+                "item": "minecraft:redstone"
+            },
+            {
+                "item": "minecraft:quartz"
+            }
+        ],
+        "result": {
+            "count": 2,
+            "item": "ae2:fluix_crystal"
+        }
+    });
+
+    treeoflife.remove({id: 'create:mixing/compat/ae2/fluix_crystal'});
+    treeoflife.custom({
+        "type": "create:mixing",
+        "conditions": [
+            {
+                "type": "forge:mod_loaded",
+                "modid": "ae2"
+            }
+        ],
+        "ingredients": [
+            {
+                "tag": "forge:dusts/redstone"
+            },
+            {
+                "item": "ae2:charged_certus_quartz_crystal"
+            },
+            {
+                "tag": "forge:gems/quartz"
+            },
+            {
+                "amount": 250,
+                "fluidTag": "treeoflife:water_tier_2"
+            }
+        ],
+        "results": [
+            {
+                "count": 2,
+                "item": "ae2:fluix_crystal"
+            }
+        ]
+    });
+
+
+
 
 })

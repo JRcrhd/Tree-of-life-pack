@@ -247,6 +247,41 @@ ServerEvents.recipes(treeoflife => {
         ]
     });
 
+	treeoflife.custom({
+		"type":"mekanism:reaction",
+		"duration":900,
+		"fluidInput":{
+			"amount":1000,
+			"fluid":"kubejs:clear_water_tier_1"
+		},
+		"gasInput":{
+			"amount":10,
+			"gas":"mekanism:hydrogen"
+		},
+		"itemInput":{
+			"ingredient":{
+				"item":"mekanism:dust_charcoal",
+				"count":2
+			}
+		},
+		"gasOutput":{
+			"amount":900,
+			"gas":"kubejs:clear_water_tier_2_vapor"
+		},
+		"itemOutput":{
+			"count":1,
+			"item":"mekanism:dust_coal"
+		}
+	});
+
+	treeoflife.custom({
+        "type":"mekanism:rotary",
+        "fluidInput":{"amount":1,"fluid":"kubejs:clear_water_tier_2"},
+        "fluidOutput":{"amount":1,"fluid":"kubejs:clear_water_tier_2"},
+        "gasInput":{"amount":1,"gas":"kubejs:clear_water_tier_2_vapor"},
+        "gasOutput":{"amount":1,"gas":"kubejs:clear_water_tier_2_vapor"}
+    });
+
 })
 
 LootJS.modifiers((treeoflife) => {

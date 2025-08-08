@@ -1,0 +1,35 @@
+{
+    "gas.kubejs.clear_water_tier_2_vapor": "2级纯净水蒸汽",
+
+    "slurry.kubejs.clean_iesnium": "纯净艾瑟浆液",
+    "slurry.kubejs.dirty_iesnium": "肮脏艾瑟浆液",
+    "item.kubejs.clump_iesnium": "艾瑟碎片",
+    "item.kubejs.crystal_iesnium": "艾瑟晶体",
+    "item.kubejs.dirty_dust_iesnium": "肮脏的艾瑟尘埃",
+    "item.kubejs.shard_iesnium": "艾瑟碎片",
+    "item.kubejs.dust_iesnium": "艾瑟尘埃",
+
+    "slurry.kubejs.clean_zinc": "纯净锌浆液",
+    "slurry.kubejs.dirty_zinc": "肮脏锌浆液",
+    "item.kubejs.clump_zinc": "锌碎片",
+    "item.kubejs.crystal_zinc": "锌晶体",
+    "item.kubejs.dirty_dust_zinc": "肮脏的锌尘埃",
+    "item.kubejs.shard_zinc": "锌碎片",
+    "item.kubejs.dust_zinc": "锌尘埃",
+
+    "slurry.kubejs.clean_silver": "纯净银浆液",
+    "slurry.kubejs.dirty_silver": "肮脏银浆液",
+    "item.kubejs.clump_silver": "银碎片",
+    "item.kubejs.crystal_silver": "银晶体",
+    "item.kubejs.dirty_dust_silver": "肮脏的银尘埃",
+    "item.kubejs.shard_silver": "银碎片",
+    "item.kubejs.dust_silver": "银尘埃",
+
+    "slurry.kubejs.clean_nickel": "纯净镍浆液",
+    "slurry.kubejs.dirty_nickel": "肮脏镍浆液",
+    "item.kubejs.clump_nickel": "镍碎片",
+    "item.kubejs.crystal_nickel": "镍晶体",
+    "item.kubejs.dirty_dust_nickel": "肮脏的镍尘埃",
+    "item.kubejs.shard_nickel": "镍碎片",
+    "item.kubejs.dust_nickel": "镍尘埃"
+}

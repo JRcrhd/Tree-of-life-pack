@@ -296,7 +296,7 @@
 				item: "expatternprovider:ex_charger"
 				type: "item"
 			}]
-			x: -2.5d
+			x: -1.5d
 			y: 10.0d
 		}
 		{
@@ -312,6 +312,7 @@
 		}
 		{
 			dependencies: ["7A757DAA0E533ABC"]
+			hide_dependent_lines: true
 			id: "5EDF1BB105288C74"
 			tasks: [{
 				id: "7425021F0CFA7F45"
@@ -323,6 +324,7 @@
 		}
 		{
 			dependencies: ["5EDF1BB105288C74"]
+			hide_dependent_lines: true
 			id: "4DC08F5E04C43EB6"
 			tasks: [{
 				id: "7FBF248A94D2AA96"
@@ -334,6 +336,7 @@
 		}
 		{
 			dependencies: ["4DC08F5E04C43EB6"]
+			hide_dependent_lines: true
 			id: "1823804755438C84"
 			tasks: [{
 				id: "7CA6F4EFBF445E5B"
@@ -345,6 +348,7 @@
 		}
 		{
 			dependencies: ["1823804755438C84"]
+			hide_dependent_lines: true
 			id: "1C51EF09FC5F6459"
 			tasks: [{
 				id: "0E9314E00A8545CD"
@@ -353,6 +357,73 @@
 			}]
 			x: -9.5d
 			y: 15.0d
+		}
+		{
+			dependencies: [
+				"14D6150E52542971"
+				"01903E84AF1A8CB8"
+			]
+			id: "54620BCFD25A0943"
+			tasks: [{
+				id: "381E4A00316B8D14"
+				item: "ae2:fluix_crystal"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 9.0d
+		}
+		{
+			dependencies: [
+				"4F449F5661C2B7F1"
+				"52EA2EFC88DBC43E"
+			]
+			id: "01903E84AF1A8CB8"
+			tasks: [{
+				id: "0184250D0540A69C"
+				item: "kubejs:clear_water_tier_2_bucket"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 11.0d
+		}
+		{
+			dependencies: [
+				"641D9F649F2865E3"
+				"5EDF1BB105288C74"
+			]
+			id: "1EE78C39D66E313B"
+			tasks: [{
+				id: "1F6B3D3B48DB6E8A"
+				item: "mekanism:enrichment_chamber"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 10.5d
+		}
+		{
+			dependencies: [
+				"1EE78C39D66E313B"
+				"4DC08F5E04C43EB6"
+			]
+			id: "4F449F5661C2B7F1"
+			tasks: [{
+				id: "705F1105670F6794"
+				item: "mekanism:pressurized_reaction_chamber"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["5EDF1BB105288C74"]
+			id: "52EA2EFC88DBC43E"
+			tasks: [{
+				id: "108D85AD65F6CF37"
+				item: "mekanism:rotary_condensentrator"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 10.5d
 		}
 	]
 	title: "3、电力时代"

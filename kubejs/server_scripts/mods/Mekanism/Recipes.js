@@ -17,7 +17,6 @@ ServerEvents.recipes(treeoflife => {
     });
 
     treeoflife.remove({ id: 'mekanism:atomic_disassembler' });
-
     treeoflife.custom({
         "type":"mekanism:mek_data",
         "category":"equipment",
@@ -30,5 +29,15 @@ ServerEvents.recipes(treeoflife => {
         "pattern":["AEA","A#A"," I "],
         "result":{"item":"mekanism:atomic_disassembler"}
     });
+
+    treeoflife.remove({id: 'mekanism:control_circuit/advanced'});
+
+    
+    treeoflife.remove({id: 'mekanism:control_circuit/elite'});
+
+    
+    treeoflife.remove({id: 'mekanism:control_circuit/ultimate'});
+
+
 
 });

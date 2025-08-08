@@ -120,11 +120,16 @@ StartupEvents.registry('fluid', treeoflife => {
     treeoflife.create('clear_water_tier_1')
         .thinTexture(0x4C46FF)
         .bucketColor(0x4C46FF)
-        .displayName('净化水')
+        .displayName('1级净化水')
 
     treeoflife.create('clear_water_tier_2')
         .thinTexture(0x928EFF)
         .bucketColor(0x928EFF)
-        .displayName('纯净水')
+        .displayName('2级净化水')
+
+    treeoflife.create('clear_water_tier_3')
+        .thinTexture(0xA29EEF)
+        .bucketColor(0xA29EEF)
+        .displayName('3级净化水')
 
 });
