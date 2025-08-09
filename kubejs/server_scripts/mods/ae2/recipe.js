@@ -854,12 +854,6 @@ ServerEvents.recipes(treeoflife => {
     treeoflife.remove({id: 'create:mixing/compat/ae2/fluix_crystal'});
     treeoflife.custom({
         "type": "create:mixing",
-        "conditions": [
-            {
-                "type": "forge:mod_loaded",
-                "modid": "ae2"
-            }
-        ],
         "ingredients": [
             {
                 "tag": "forge:dusts/redstone"

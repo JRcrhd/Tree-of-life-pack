@@ -8,6 +8,14 @@
 	hide_quest_until_deps_visible: true
 	icon: "forbidden_arcanus:dark_nether_star"
 	id: "3B71B64AD29DC99E"
+	images: [{
+		height: 5.0d
+		image: "treeoflife:textures/questpics/wither.png"
+		rotation: 0.0d
+		width: 5.0d
+		x: 0.0d
+		y: 2.0d
+	}]
 	order_index: 0
 	quest_links: [ ]
 	quests: [

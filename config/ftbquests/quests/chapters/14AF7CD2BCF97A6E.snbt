@@ -13,15 +13,24 @@
 			rotation: 0.0d
 			width: 6.0d
 			x: -6.0d
-			y: 7.5d
+			y: 9.0d
 		}
 		{
 			height: 6.0d
 			image: "ae2:block/controller_lights"
 			rotation: 0.0d
 			width: 6.0d
-			x: 6.0d
-			y: 7.5d
+			x: 6.5d
+			y: 9.0d
+		}
+		{
+			alpha: 127
+			height: 10.0d
+			image: "supplementaries:textures/entity/banner/flags/rhombus.png"
+			rotation: 0.0d
+			width: 10.0d
+			x: 7.5d
+			y: 9.0d
 		}
 	]
 	order_index: 2
@@ -86,18 +95,30 @@
 					type: "item"
 				}
 			]
-			x: -1.5d
-			y: 8.0d
+			x: 3.0d
+			y: 5.5d
 		}
 		{
+			dependencies: ["032BECAF07825E19"]
+			description: [
+				"末地独特的资源："
+				""
+				"AE陨石、锇矿"
+			]
 			id: "1A2021D8F2852BE3"
-			tasks: [{
-				dimension: "minecraft:the_end"
-				id: "6BDE7EAA9B4EB47F"
-				type: "dimension"
-			}]
-			x: -2.5d
-			y: 1.5d
+			tasks: [
+				{
+					dimension: "minecraft:the_end"
+					id: "6BDE7EAA9B4EB47F"
+					type: "dimension"
+				}
+				{
+					id: "40FA949475347038"
+					type: "checkmark"
+				}
+			]
+			x: -6.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["1A2021D8F2852BE3"]
@@ -108,10 +129,11 @@
 				type: "item"
 			}]
 			x: -6.0d
-			y: 3.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["059A864FBE3A9836"]
+			hide_dependent_lines: true
 			id: "641D9F649F2865E3"
 			tasks: [{
 				id: "1A97485D749C79D4"
@@ -119,7 +141,7 @@
 				type: "item"
 			}]
 			x: -6.0d
-			y: 7.5d
+			y: 9.0d
 		}
 		{
 			dependencies: ["032BECAF07825E19"]
@@ -130,8 +152,8 @@
 				item: "enderio:end_steel_ingot"
 				type: "item"
 			}]
-			x: 3.0d
-			y: 5.5d
+			x: 2.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["1A2021D8F2852BE3"]
@@ -142,18 +164,32 @@
 				structure: "ae2:meteorite"
 				type: "structure"
 			}]
-			x: -1.5d
-			y: 3.0d
+			x: -4.0d
+			y: 5.5d
 		}
 		{
+			dependencies: ["54620BCFD25A0943"]
+			description: [
+				"AE频道网络的核心，每面可以提供32个频道。"
+				""
+				"耗电量较大。"
+				""
+				"如果一个AE网络内没有控制器，则此网络最多拥有8个频道。"
+				""
+				"The core of the AE channel network can provide 32 channels on each side."
+				""
+				"It consumes a relatively large amount of power."
+				""
+				"If there is no controller within an AE network, this network can have a maximum of 8 channels."
+			]
 			id: "314B7F1FAC3ECC78"
 			tasks: [{
 				id: "316AEE3135CC2393"
 				item: "ae2:controller"
 				type: "item"
 			}]
-			x: 6.0d
-			y: 7.5d
+			x: 6.5d
+			y: 9.0d
 		}
 		{
 			dependencies: ["74315729B96BB8FE"]
@@ -238,6 +274,7 @@
 				"434E98187407C6E8"
 				"365DE67972259D99"
 			]
+			hide_dependent_lines: true
 			id: "44FC099D52F16042"
 			tasks: [{
 				id: "67E42553AF7BCB60"
@@ -253,6 +290,7 @@
 				"4587F1E1109081D9"
 				"365DE67972259D99"
 			]
+			hide_dependent_lines: true
 			id: "4DCD0DC4E75A2217"
 			tasks: [{
 				id: "1C7F5A616EE36DB0"
@@ -268,6 +306,7 @@
 				"434E98187407C6E8"
 				"365DE67972259D99"
 			]
+			hide_dependent_lines: true
 			id: "3E006551D27196C1"
 			tasks: [{
 				id: "40BE4FA8484876EA"
@@ -285,8 +324,8 @@
 				item: "ae2:charger"
 				type: "item"
 			}]
-			x: -2.0d
-			y: 9.0d
+			x: 4.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["14D6150E52542971"]
@@ -296,8 +335,8 @@
 				item: "expatternprovider:ex_charger"
 				type: "item"
 			}]
-			x: -1.5d
-			y: 10.0d
+			x: 5.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["059A864FBE3A9836"]
@@ -307,8 +346,8 @@
 				item: "mekanism:metallurgic_infuser"
 				type: "item"
 			}]
-			x: -9.5d
-			y: 7.5d
+			x: -3.0d
+			y: 9.0d
 		}
 		{
 			dependencies: ["7A757DAA0E533ABC"]
@@ -319,8 +358,8 @@
 				item: "mekanism:basic_control_circuit"
 				type: "item"
 			}]
-			x: -9.5d
-			y: 10.5d
+			x: -3.0d
+			y: 12.0d
 		}
 		{
 			dependencies: ["5EDF1BB105288C74"]
@@ -331,8 +370,8 @@
 				item: "mekanism:advanced_control_circuit"
 				type: "item"
 			}]
-			x: -9.5d
-			y: 12.0d
+			x: -3.0d
+			y: 14.0d
 		}
 		{
 			dependencies: ["4DC08F5E04C43EB6"]
@@ -343,8 +382,8 @@
 				item: "mekanism:elite_control_circuit"
 				type: "item"
 			}]
-			x: -9.5d
-			y: 13.5d
+			x: -3.0d
+			y: 16.0d
 		}
 		{
 			dependencies: ["1823804755438C84"]
@@ -355,8 +394,8 @@
 				item: "mekanism:ultimate_control_circuit"
 				type: "item"
 			}]
-			x: -9.5d
-			y: 15.0d
+			x: -3.0d
+			y: 18.0d
 		}
 		{
 			dependencies: [
@@ -369,7 +408,7 @@
 				item: "ae2:fluix_crystal"
 				type: "item"
 			}]
-			x: 1.0d
+			x: 2.0d
 			y: 9.0d
 		}
 		{
@@ -383,8 +422,8 @@
 				item: "kubejs:clear_water_tier_2_bucket"
 				type: "item"
 			}]
-			x: -1.0d
-			y: 11.0d
+			x: -2.0d
+			y: 14.0d
 		}
 		{
 			dependencies: [
@@ -397,8 +436,8 @@
 				item: "mekanism:enrichment_chamber"
 				type: "item"
 			}]
-			x: -5.0d
-			y: 10.5d
+			x: -6.0d
+			y: 12.0d
 		}
 		{
 			dependencies: [
@@ -411,8 +450,8 @@
 				item: "mekanism:pressurized_reaction_chamber"
 				type: "item"
 			}]
-			x: -3.0d
-			y: 12.0d
+			x: -4.0d
+			y: 14.0d
 		}
 		{
 			dependencies: ["5EDF1BB105288C74"]
@@ -422,8 +461,686 @@
 				item: "mekanism:rotary_condensentrator"
 				type: "item"
 			}]
-			x: -3.0d
-			y: 10.5d
+			x: -2.0d
+			y: 12.0d
+		}
+		{
+			dependencies: [
+				"641D9F649F2865E3"
+				"1823804755438C84"
+			]
+			id: "698135BA3123E604"
+			tasks: [{
+				id: "0CB5FBA146C44E01"
+				item: "mekanism:combiner"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 16.0d
+		}
+		{
+			dependencies: [
+				"641D9F649F2865E3"
+				"5EDF1BB105288C74"
+			]
+			id: "275B3F581A3115C7"
+			tasks: [{
+				id: "1D1F7C4F6D430410"
+				item: "mekanism:crusher"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 12.0d
+		}
+		{
+			dependencies: [
+				"1EE78C39D66E313B"
+				"4DC08F5E04C43EB6"
+			]
+			id: "7A34424780BEB2A4"
+			tasks: [{
+				id: "6FFFB6F36B4A4ED5"
+				item: "mekanism:purification_chamber"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 14.0d
+		}
+		{
+			dependencies: [
+				"641D9F649F2865E3"
+				"4DC08F5E04C43EB6"
+			]
+			id: "254F4BC49A7D6CBC"
+			tasks: [{
+				id: "6502936182132B34"
+				item: "mekanism:osmium_compressor"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["5EDF1BB105288C74"]
+			id: "64D7454FAD766F2C"
+			tasks: [{
+				id: "41C0A3D94EB4180B"
+				item: "mekanism:chemical_oxidizer"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 12.0d
+		}
+		{
+			dependencies: [
+				"641D9F649F2865E3"
+				"5EDF1BB105288C74"
+			]
+			id: "2BFA518A28F3A96E"
+			tasks: [{
+				id: "540D5C1DE209692E"
+				item: "mekanism:chemical_infuser"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 12.0d
+		}
+		{
+			dependencies: [
+				"7A34424780BEB2A4"
+				"1823804755438C84"
+			]
+			id: "47FF59CA4E121056"
+			tasks: [{
+				id: "7890C62EEC9E498E"
+				item: "mekanism:chemical_injection_chamber"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["7A757DAA0E533ABC"]
+			id: "1E11825C07C31D42"
+			tasks: [{
+				id: "29EB2C948F01BFB7"
+				item: "mekanism:electrolytic_separator"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 10.0d
+		}
+		{
+			dependencies: [
+				"641D9F649F2865E3"
+				"5EDF1BB105288C74"
+			]
+			id: "3343949B9DC369AF"
+			tasks: [{
+				id: "436BE76387C30508"
+				item: "mekanism:precision_sawmill"
+				type: "item"
+			}]
+			x: -9.0d
+			y: 12.0d
+		}
+		{
+			dependencies: [
+				"641D9F649F2865E3"
+				"1C51EF09FC5F6459"
+			]
+			id: "0D5DB63B6233EBBC"
+			tasks: [{
+				id: "4F27D578F0648CEF"
+				item: "mekanism:chemical_dissolution_chamber"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 18.0d
+		}
+		{
+			dependencies: [
+				"641D9F649F2865E3"
+				"1C51EF09FC5F6459"
+			]
+			id: "69976CA9926A6F10"
+			tasks: [{
+				id: "054A04ADEFD5559F"
+				item: "mekanism:chemical_washer"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 18.0d
+		}
+		{
+			dependencies: [
+				"641D9F649F2865E3"
+				"1C51EF09FC5F6459"
+			]
+			id: "5688A90A4C134733"
+			tasks: [{
+				id: "79F1D99521B52CE5"
+				item: "mekanism:chemical_crystallizer"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 18.0d
+		}
+		{
+			dependencies: ["5EDF1BB105288C74"]
+			id: "24E181ADC89B8DE1"
+			tasks: [{
+				id: "08D469587F939ACD"
+				item: "mekanism:oredictionificator"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 12.0d
+		}
+		{
+			dependencies: [
+				"641D9F649F2865E3"
+				"1823804755438C84"
+			]
+			id: "2E8B4D21926239D9"
+			tasks: [{
+				id: "6EE3EAB07F3CB4EC"
+				item: "mekanism:solar_neutron_activator"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["1C51EF09FC5F6459"]
+			id: "21653EF07CF58FCD"
+			tasks: [{
+				id: "532F3B9801ECDEAF"
+				item: "mekanism:isotopic_centrifuge"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 18.0d
+		}
+		{
+			dependencies: ["032BECAF07825E19"]
+			id: "542329D014DB1C1F"
+			tasks: [{
+				id: "54535FA73C9DB229"
+				item: "kubejs:clear_water_tier_1_bucket"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["3343949B9DC369AF"]
+			id: "1D9754401CD3D669"
+			tasks: [{
+				id: "50A7E0E86608B3B8"
+				item: "mekanism:cardboard_box"
+				type: "item"
+			}]
+			x: -9.0d
+			y: 13.0d
+		}
+		{
+			dependencies: ["698135BA3123E604"]
+			id: "61779DACD6A109E0"
+			tasks: [{
+				id: "6F495B9F0A7097B9"
+				item: "destroy:nanodiamonds"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 17.0d
+		}
+		{
+			dependencies: [
+				"54620BCFD25A0943"
+				"4DCD0DC4E75A2217"
+			]
+			id: "782AE4626EF3CEC8"
+			tasks: [
+				{
+					id: "1A5AAE01E35572E7"
+					item: "ae2:formation_core"
+					type: "item"
+				}
+				{
+					id: "0E44EFF52CE2E48F"
+					item: "ae2:annihilation_core"
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["059A864FBE3A9836"]
+			id: "75EC12500183FF04"
+			tasks: [{
+				id: "019A2CC951826D9E"
+				item: "mekanismgenerators:heat_generator"
+				type: "item"
+			}]
+			x: -9.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["5EDF1BB105288C74"]
+			id: "467AB695EA12743A"
+			tasks: [{
+				id: "1BED1B34E4D189A5"
+				item: "mekanismgenerators:bio_generator"
+				type: "item"
+			}]
+			x: -10.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["5EDF1BB105288C74"]
+			id: "4CF5921F2298C8AC"
+			tasks: [{
+				id: "387D6AFA5913C5F0"
+				item: "mekanismgenerators:wind_generator"
+				type: "item"
+			}]
+			x: -11.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["7A757DAA0E533ABC"]
+			id: "0672CB94D37990F3"
+			tasks: [{
+				id: "1CE46356245CDB7F"
+				item: "mekanismgenerators:solar_generator"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["0672CB94D37990F3"]
+			id: "2773D2D304CE916D"
+			tasks: [{
+				id: "425A7BF77EA3DAF1"
+				item: "mekanismgenerators:advanced_solar_generator"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["7E48D1E13992FCC2"]
+			description: [
+				"用于制造线缆的原料。"
+				""
+				"也可以阻断频道传递，但不阻断能量传递。"
+				""
+				"Raw materials used for manufacturing cables."
+				""
+				"It can also block channel transmission, but not energy transmission."
+			]
+			id: "243BEEA19B118EFD"
+			tasks: [{
+				id: "487D5F953CF6A66A"
+				item: "ae2:quartz_fiber"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["243BEEA19B118EFD"]
+			description: [
+				"便宜。"
+				""
+				"可传递8个频道。"
+				""
+				"Cheap."
+				""
+				"Can transmit 8 channels."
+			]
+			id: "08580AAEFE40D0CF"
+			tasks: [{
+				id: "58E0DF6CA559B8BD"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "ae2:glass_cable"
+					}
+				}
+				title: "Any #ae2:glass_cable"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["08580AAEFE40D0CF"]
+			description: [
+				"可显示频道使用信息。"
+				""
+				"大量使用会造成卡顿。"
+				""
+				"Channel usage information can be displayed."
+				""
+				"Excessive use may cause lag."
+			]
+			id: "0928FD66F4910B0E"
+			tasks: [{
+				count: 64L
+				id: "38BC86C302C57026"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "ae2:smart_cable"
+					}
+				}
+				title: "Any #ae2:smart_cable"
+				type: "item"
+			}]
+			x: 11.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["0928FD66F4910B0E"]
+			id: "45478C918A418ADB"
+			tasks: [{
+				id: "641E42124417AEB0"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "ae2:smart_dense_cable"
+					}
+				}
+				title: "Any #ae2:smart_dense_cable"
+				type: "item"
+			}]
+			x: 12.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["7E48D1E13992FCC2"]
+			description: [
+				"隔开相邻线缆。"
+				""
+				"Separate adjacent cables."
+			]
+			id: "3F21674922B8D491"
+			tasks: [{
+				id: "19BC1FC54B26EACF"
+				item: "ae2:cable_anchor"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["032BECAF07825E19"]
+			id: "7E48D1E13992FCC2"
+			rewards: [{
+				count: 4
+				id: "4137814973B3FB38"
+				item: "ae2:certus_quartz_crystal"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4FFCDBABFC2F6C83"
+				item: "ae2:certus_quartz_crystal"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["08580AAEFE40D0CF"]
+			description: [
+				"用于接入存储元件。"
+				""
+				"存储元件为AE网络提供存储空间。"
+				""
+				"Used to access storage elements."
+				""
+				"The storage element provides storage space for the AE network."
+			]
+			id: "13212D34185CBC50"
+			tasks: [{
+				id: "2BF923F9829CCE51"
+				item: "ae2:drive"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["14D6150E52542971"]
+			id: "2B5943C2512426CA"
+			tasks: [{
+				id: "76A4BA6C4E7B8FB9"
+				item: "ae2:guide"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["4DCD0DC4E75A2217"]
+			id: "7D468C55D42AFD3E"
+			tasks: [{
+				id: "7B2D780B3A579AC4"
+				item: "ae2:cell_component_1k"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 13.0d
+		}
+		{
+			dependencies: ["7D468C55D42AFD3E"]
+			id: "6FB0417C69252740"
+			tasks: [{
+				id: "753452A1F1FDC0F1"
+				item: "ae2:cell_component_4k"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["6FB0417C69252740"]
+			id: "1C4B172A0F27DF87"
+			tasks: [{
+				id: "10B3B29BF95322A6"
+				item: "ae2:cell_component_16k"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 13.0d
+		}
+		{
+			dependencies: ["1C4B172A0F27DF87"]
+			id: "4D690E623ED2A32E"
+			tasks: [{
+				id: "33A4F7D5CEB4BE91"
+				item: "ae2:cell_component_64k"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["4D690E623ED2A32E"]
+			id: "0A9A1DCDD0B06C04"
+			tasks: [{
+				id: "641775CBB1460AD3"
+				item: "ae2:cell_component_256k"
+				type: "item"
+			}]
+			x: 11.5d
+			y: 13.0d
+		}
+		{
+			dependencies: ["314B7F1FAC3ECC78"]
+			description: [
+				"AE中大部分机器都会消耗1频道、传递8频道。"
+				""
+				"Most machines in AE consume channel 1 and transmit channel 8."
+			]
+			id: "7CEFE48D4A66ABE3"
+			subtitle: "machines"
+			tasks: [{
+				id: "55463A5D7E96A0CC"
+				title: "工作器件"
+				type: "checkmark"
+			}]
+			x: 9.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["7CEFE48D4A66ABE3"]
+			description: [
+				"将其他模组的能源转为AE能源。"
+				""
+				"不消耗频道。"
+				""
+				"Convert the energy from other modules to AE energy."
+				""
+				"Does not consume channels."
+			]
+			id: "08FCA975D9EDA601"
+			tasks: [{
+				id: "48568DC7E664DD99"
+				item: "ae2:energy_acceptor"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["7CEFE48D4A66ABE3"]
+			description: [
+				"持续产出20AE/t的发电机。但一个AE电网内只能有一个正在工作。"
+				""
+				"A generator continuously produces 20 AE/t."
+				""
+				"However, there can only be one operational within an AE electric net."
+			]
+			id: "27F03D5FB234AAB7"
+			tasks: [{
+				id: "67918ED77D7B10DB"
+				item: "ae2:crystal_resonance_generator"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["7CEFE48D4A66ABE3"]
+			id: "18FFC6FDE91F8511"
+			tasks: [{
+				id: "782D900B166EEAAD"
+				item: {
+					Count: 1
+					id: "ae2:energy_cell"
+					tag: { }
+				}
+				match_nbt: false
+				type: "item"
+			}]
+			x: 9.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["7CEFE48D4A66ABE3"]
+			description: [
+				"储存元件与网络之间的快速装卸货。"
+				""
+				"传递8频道，消耗1频道。"
+				""
+				"Quick loading and unloading between storage components and the network."
+				""
+				"Transmit 8 channels, consume 1 channel."
+			]
+			id: "1B03CC4D11ACB23D"
+			tasks: [{
+				id: "76CC8172EFC803DB"
+				item: "ae2:io_port"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["7CEFE48D4A66ABE3"]
+			description: [
+				"显示网络中的存储内容。"
+				""
+				"Display the stored content in the network."
+			]
+			id: "7DA04F9B3E962D59"
+			tasks: [{
+				id: "0C25C069F5116F05"
+				item: "ae2:terminal"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["314B7F1FAC3ECC78"]
+			description: [
+				"AE独特的核心用途在于自动合成功能。一般来讲，实现自动合成需要以下几个部分。"
+				""
+				"接口：包括从网络中输出物品、接受外界的物品输入的器件。"
+				""
+				"合成样板：记录某个配方的输入以及可能的输出，CPU通过记录在样板中的数据计算合成线路。"
+				""
+				"CPU：合成存储单元（发起合成时临时存放原料，其容量决定了单次合成任务的大小。）并行处理单元（其数量决定了CPU可以同时执行多少个样板中的合成。）"
+				""
+				"发起一次合成后，CPU会根据已有样板的配方自动计算得出配方处理序列，并将所有需要的原料转移入合成存储单元。按照序列的顺序，将原料输出到对应输出接口处，并等待结果返回AE网络。以此循环，直到配方处理序列完成。"
+				"{@pagebreak}"
+				"注意："
+				"1.这一过程中，AE网络&c不知道具体执行了什么合成&r，它只会按照配方样板记录的原料—>产出运行。"
+				""
+				"2.在等待产物的过程中，&c任何&r输入到网络内的对应产物物品（无论是否是按预定配方制造的），都会被视为是自动合成返回的结果。"
+				""
+				"3.对于标记了多种产物的配方，所有产物均会被配方序列计算在内，且会参与后续原料计算。"
+				"4.自动合成无法处理带有概率产物的配方，大部分情况下会&c不标记带有概率&r的产物。"
+				"{@pagebreak}"
+				"AE's unique core functionality lies in its automated crafting capabilities. Generally speaking, implementing automated crafting requires the following components:"
+				""
+				"Interfaces: These include devices that output items from the network and receive external inputs."
+				""
+				"Crafting templates: These record the inputs and possible outputs of a recipe. The CPU uses the data stored in the templates to calculate the crafting path."
+				""
+				"CPU: Crafting storage unit (temporarily stores ingredients when crafting is initiated; its capacity determines the size of a single crafting task). Parallel processing units (the number of which determines how many craftings from the templates the CPU can execute simultaneously)."
+				""
+				"After initiating a crafting, the CPU automatically calculates the recipe processing sequence based on the recipes in the existing templates and transfers all required ingredients into the crafting storage unit. "
+				""
+				"Following the sequence, the ingredients are output to the corresponding output interfaces and the results are returned to the AE network. This cycle continues until the recipe processing sequence is complete."
+				""
+				"{@pagebreak}"
+				"Note:"
+				""
+				"1. During this process, the AE network is unaware of the specific crafting being executed; it simply follows the recipe template's recorded ingredients -> output."
+				""
+				"2. While waiting for a product, any corresponding product item entered into the network (regardless of whether it is crafted according to a pre-set recipe) will be considered the result of automatic synthesis."
+				""
+				"3. For recipes with multiple products, all products are counted in the recipe sequence and participate in subsequent ingredient calculations."
+				""
+				"4. Automatic synthesis cannot handle recipes with probabilistic products and, in most cases, will not mark them."
+			]
+			id: "03F4298490F8DBEE"
+			tasks: [{
+				id: "3FD401983E7EE040"
+				type: "checkmark"
+			}]
+			x: 6.5d
+			y: 12.0d
 		}
 	]
 	title: "3、电力时代"
