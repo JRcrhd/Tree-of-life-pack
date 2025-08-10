@@ -1,4 +1,13 @@
 {
+  "kubejs.ponder.assembler_matrix.header": "Assembler Matrix",
+  "kubejs.ponder.assembler_matrix.text_1": "The Assembler Matrix can function as a Molecular Assembler",
+  "kubejs.ponder.assembler_matrix.text_2": "The walls can be made with Assembler Matrix Glass",
+  "kubejs.ponder.assembler_matrix.text_3": "The number of components inside affects the performance of the Assembler Matrix",
+  "kubejs.ponder.assembler_matrix.text_4": "Up to 5 Speed Components can be used to increase crafting speed",
+  "kubejs.ponder.assembler_matrix.text_5": "Pattern Components increase pattern capacity, each providing 36 slots",
+  "kubejs.ponder.assembler_matrix.text_6": "Crafting Components increase concurrent recipe count, each providing 8 parallel operations",
+  "kubejs.ponder.assembler_matrix.text_7": "Maximum size is 7x7x7, and interior cannot contain air blocks",
+  "kubejs.ponder.assembler_matrix.text_8": "AE cables can connect to any part",
   "kubejs.ponder.fission_mek.header": "Mekanism Fission Reactor",
   "kubejs.ponder.fission_mek.text_1": "The Edges Must Be Casings",
   "kubejs.ponder.fission_mek.text_2": "The Walls Can Be Either Casings Or Glass",

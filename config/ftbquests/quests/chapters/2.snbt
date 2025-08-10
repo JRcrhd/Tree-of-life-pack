@@ -2045,6 +2045,34 @@
 			x: -9.0d
 			y: 14.5d
 		}
+		{
+			dependencies: ["7B74478E427A319D"]
+			id: "5CC3C581FB2BB840"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "48B04F9D739CD023"
+				table_id: 3468198614520584855L
+				type: "random"
+			}]
+			tasks: [{
+				id: "56474AAF76CE0226"
+				item: "create:stock_link"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["5CC3C581FB2BB840"]
+			id: "5AA58AA03B7F1238"
+			tasks: [{
+				id: "5A2187B66A3B6DCD"
+				item: "create:stock_ticker"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 7.0d
+		}
 	]
 	title: "2、蒸汽时代"
 }

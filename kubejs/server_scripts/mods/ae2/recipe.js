@@ -853,7 +853,7 @@ ServerEvents.recipes(treeoflife => {
 
     treeoflife.remove({id: 'create:mixing/compat/ae2/fluix_crystal'});
     treeoflife.custom({
-        "type": "create:mixing",
+        "type": "create:mixing", 
         "ingredients": [
             {
                 "tag": "forge:dusts/redstone"

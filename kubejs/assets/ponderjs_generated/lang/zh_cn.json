@@ -1,4 +1,13 @@
 {
+  "kubejs.ponder.assembler_matrix.header": "装配矩阵",
+  "kubejs.ponder.assembler_matrix.text_1": "装配矩阵可以实现分子装配室的功能",
+  "kubejs.ponder.assembler_matrix.text_2": "墙壁部分可以使用装配矩阵玻璃",
+  "kubejs.ponder.assembler_matrix.text_3": "内部的元件数量会影响装配矩阵的性能",
+  "kubejs.ponder.assembler_matrix.text_4": "速度元件最多五个，可以提升合成速度",
+  "kubejs.ponder.assembler_matrix.text_5": "样板元件增加样板容量，每个元件提供36个容量",
+  "kubejs.ponder.assembler_matrix.text_6": "合成元件增加同时运行的配方数量，每个元件提供8个并行",
+  "kubejs.ponder.assembler_matrix.text_7": "矩阵最大7x7x7，且内部不能有空气",
+  "kubejs.ponder.assembler_matrix.text_8": "任何部位都可以连接AE线缆",
   "kubejs.ponder.fission_mek.header": "Mekanism 裂变反应堆",
   "kubejs.ponder.fission_mek.text_1": "边缘必须是外壳",
   "kubejs.ponder.fission_mek.text_2": "墙壁可以是外壳或玻璃",

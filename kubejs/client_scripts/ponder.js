@@ -55,11 +55,48 @@ Ponder.registry(treeoflife => {
             scene.world.setBlock([6, 1, 6], "forbidden_arcanus:arcane_polished_darkstone", true)
             scene.world.setBlock([6, 2, 6], "forbidden_arcanus:arcane_crystal_block", true)
             scene.world.setBlock([6, 3, 6], "forbidden_arcanus:arcane_crystal_block", true)
-            scene.showControls(40, [6, 1, 6], 'left')
+            scene.showControls(40, [6.5, 1.5, 6.5], 'left')
             .rightClick().withItem('forbidden_arcanus:mundabitur_dust')
             scene.text(60, "You can place some Arcane Crystal Obelisks to provide the Aureal needed for forging")
             scene.idle(70)
         });
+
+treeoflife.create(['expatternprovider:assembler_matrix_wall', 'expatternprovider:assembler_matrix_frame', 'expatternprovider:assembler_matrix_glass', 'expatternprovider:assembler_matrix_pattern','expatternprovider:assembler_matrix_crafter','expatternprovider:assembler_matrix_speed'])
+    .scene('assembler_matrix','Assembler Matrix', 'kubejs:crafting_matrix', (scene, util) => {
+        scene.world.showSection([0, 0, 0, 9, 0, 9], Facing.down);
+        scene.idle(10);
+        scene.text(60, 'The Assembler Matrix can function as a Molecular Assembler', [0, 2.5, 4.5]).placeNearTarget().attachKeyFrame();
+        scene.world.showSection([1, 1, 1, 8, 7, 8], Facing.down);
+        scene.idle(80)
+        scene.text(60, 'The walls can be made with Assembler Matrix Glass', [7.5, 2.5, 5.5]).placeNearTarget().attachKeyFrame();
+        scene.idle(10);
+        scene.world.hideSection([0, 2, 0, 6, 7, 6], Facing.up);
+        scene.idle(60);
+        scene.text(80, 'The number of components inside affects the performance of the Assembler Matrix', [2.5, 3, 4.5]).attachKeyFrame();
+        scene.idle(90);
+		scene.world.showSection([6, 2, 6, 6, 6, 6], Facing.down);
+		scene.idle(10);
+		scene.text(60, 'Up to 5 Speed Components can be used to increase crafting speed', [4, 4.5, 2.5]).placeNearTarget().attachKeyFrame();
+		scene.idle(70);
+		scene.world.showSection([2, 2, 6, 5, 6, 6], Facing.down);
+		scene.idle(10);
+		scene.text(60, 'Pattern Components increase pattern capacity, each providing 36 slots', [2, 4.5, 2.5]).placeNearTarget().attachKeyFrame();
+		scene.idle(70);
+		scene.world.showSection([2, 2, 5, 6, 6, 5], Facing.down);
+		scene.idle(30);
+		scene.world.showSection([2, 2, 2, 6, 6, 4], Facing.down);
+		scene.idle(30);
+		scene.text(60, 'Crafting Components increase concurrent recipe count, each providing 8 parallel operations', [3.5, 4.5, 3.5]).placeNearTarget().attachKeyFrame();
+		scene.idle(70);
+		scene.world.showSection([1, 1, 1, 8, 7, 8], Facing.down);
+		scene.idle(30);
+		scene.text(30, 'Maximum size is 7x7x7, and interior cannot contain air blocks', [3.5, 4.5, 0]).placeNearTarget().attachKeyFrame();
+		scene.idle(40);
+		scene.world.showSection([0, 0, 0, 8, 8, 8], Facing.down);
+		scene.idle(10);
+		scene.text(40, 'AE cables can connect to any part', [1.5, 4.5, 0]).placeNearTarget().attachKeyFrame();
+		scene.idle(50);
+    });
 
     treeoflife.create([
 		'mekanism:induction_casing',

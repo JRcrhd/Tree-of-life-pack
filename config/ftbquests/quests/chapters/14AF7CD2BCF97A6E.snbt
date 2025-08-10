@@ -95,8 +95,8 @@
 					type: "item"
 				}
 			]
-			x: 3.0d
-			y: 5.5d
+			x: 2.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["032BECAF07825E19"]
@@ -118,7 +118,7 @@
 				}
 			]
 			x: -6.0d
-			y: 2.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["1A2021D8F2852BE3"]
@@ -152,8 +152,8 @@
 				item: "enderio:end_steel_ingot"
 				type: "item"
 			}]
-			x: 2.5d
-			y: 2.5d
+			x: 2.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["1A2021D8F2852BE3"]
@@ -164,8 +164,8 @@
 				structure: "ae2:meteorite"
 				type: "structure"
 			}]
-			x: -4.0d
-			y: 5.5d
+			x: -1.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["54620BCFD25A0943"]
@@ -200,7 +200,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 5.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["74315729B96BB8FE"]
@@ -211,7 +211,7 @@
 				type: "item"
 			}]
 			x: 1.0d
-			y: 5.0d
+			y: 5.5d
 		}
 		{
 			dependencies: ["74315729B96BB8FE"]
@@ -222,7 +222,7 @@
 				type: "item"
 			}]
 			x: -1.0d
-			y: 5.0d
+			y: 5.5d
 		}
 		{
 			dependencies: ["74315729B96BB8FE"]
@@ -233,7 +233,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 6.5d
+			y: 7.0d
 		}
 		{
 			dependencies: ["4D5F99647D539C9E"]
@@ -244,7 +244,7 @@
 				type: "item"
 			}]
 			x: 1.0d
-			y: 6.0d
+			y: 6.5d
 		}
 		{
 			dependencies: ["1B0F7234A89E277C"]
@@ -255,7 +255,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 4.5d
+			y: 5.0d
 		}
 		{
 			dependencies: ["79703D573BCFD47B"]
@@ -266,7 +266,7 @@
 				type: "item"
 			}]
 			x: -1.0d
-			y: 6.0d
+			y: 6.5d
 		}
 		{
 			dependencies: [
@@ -282,7 +282,7 @@
 				type: "item"
 			}]
 			x: 1.0d
-			y: 4.0d
+			y: 4.5d
 		}
 		{
 			dependencies: [
@@ -298,7 +298,7 @@
 				type: "item"
 			}]
 			x: 1.0d
-			y: 7.0d
+			y: 7.5d
 		}
 		{
 			dependencies: [
@@ -314,7 +314,7 @@
 				type: "item"
 			}]
 			x: -2.0d
-			y: 5.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["6D73912FE4E81E5F"]
@@ -670,7 +670,7 @@
 				item: "kubejs:clear_water_tier_1_bucket"
 				type: "item"
 			}]
-			x: -1.5d
+			x: -1.0d
 			y: 8.0d
 		}
 		{
@@ -700,6 +700,7 @@
 				"54620BCFD25A0943"
 				"4DCD0DC4E75A2217"
 			]
+			hide_dependent_lines: true
 			id: "782AE4626EF3CEC8"
 			tasks: [
 				{
@@ -936,8 +937,8 @@
 				item: "ae2:cell_component_1k"
 				type: "item"
 			}]
-			x: 9.5d
-			y: 13.0d
+			x: 12.0d
+			y: 14.0d
 		}
 		{
 			dependencies: ["7D468C55D42AFD3E"]
@@ -947,8 +948,8 @@
 				item: "ae2:cell_component_4k"
 				type: "item"
 			}]
-			x: 10.0d
-			y: 14.0d
+			x: 12.5d
+			y: 13.0d
 		}
 		{
 			dependencies: ["6FB0417C69252740"]
@@ -958,8 +959,8 @@
 				item: "ae2:cell_component_16k"
 				type: "item"
 			}]
-			x: 10.5d
-			y: 13.0d
+			x: 13.0d
+			y: 14.0d
 		}
 		{
 			dependencies: ["1C4B172A0F27DF87"]
@@ -969,8 +970,8 @@
 				item: "ae2:cell_component_64k"
 				type: "item"
 			}]
-			x: 11.0d
-			y: 14.0d
+			x: 13.5d
+			y: 13.0d
 		}
 		{
 			dependencies: ["4D690E623ED2A32E"]
@@ -980,8 +981,8 @@
 				item: "ae2:cell_component_256k"
 				type: "item"
 			}]
-			x: 11.5d
-			y: 13.0d
+			x: 14.0d
+			y: 14.0d
 		}
 		{
 			dependencies: ["314B7F1FAC3ECC78"]
@@ -1017,11 +1018,11 @@
 				item: "ae2:energy_acceptor"
 				type: "item"
 			}]
-			x: 9.5d
-			y: 7.0d
+			x: 10.0d
+			y: 6.0d
 		}
 		{
-			dependencies: ["7CEFE48D4A66ABE3"]
+			dependencies: ["08FCA975D9EDA601"]
 			description: [
 				"持续产出20AE/t的发电机。但一个AE电网内只能有一个正在工作。"
 				""
@@ -1035,7 +1036,7 @@
 				item: "ae2:crystal_resonance_generator"
 				type: "item"
 			}]
-			x: 10.0d
+			x: 13.0d
 			y: 6.0d
 		}
 		{
@@ -1071,8 +1072,8 @@
 				item: "ae2:io_port"
 				type: "item"
 			}]
-			x: 8.5d
-			y: 5.0d
+			x: 8.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["7CEFE48D4A66ABE3"]
@@ -1081,14 +1082,15 @@
 				""
 				"Display the stored content in the network."
 			]
+			hide_dependent_lines: true
 			id: "7DA04F9B3E962D59"
 			tasks: [{
 				id: "0C25C069F5116F05"
 				item: "ae2:terminal"
 				type: "item"
 			}]
-			x: 8.0d
-			y: 6.0d
+			x: 8.5d
+			y: 5.0d
 		}
 		{
 			dependencies: ["314B7F1FAC3ECC78"]
@@ -1109,6 +1111,7 @@
 				"2.在等待产物的过程中，&c任何&r输入到网络内的对应产物物品（无论是否是按预定配方制造的），都会被视为是自动合成返回的结果。"
 				""
 				"3.对于标记了多种产物的配方，所有产物均会被配方序列计算在内，且会参与后续原料计算。"
+				""
 				"4.自动合成无法处理带有概率产物的配方，大部分情况下会&c不标记带有概率&r的产物。"
 				"{@pagebreak}"
 				"AE's unique core functionality lies in its automated crafting capabilities. Generally speaking, implementing automated crafting requires the following components:"
@@ -1141,6 +1144,706 @@
 			}]
 			x: 6.5d
 			y: 12.0d
+		}
+		{
+			dependencies: ["03F4298490F8DBEE"]
+			id: "702F7C260BE4D650"
+			tasks: [{
+				id: "0A1D24F7552C7CEF"
+				item: "ae2:crafting_unit"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 15.0d
+		}
+		{
+			dependencies: ["13212D34185CBC50"]
+			id: "5CFA454AC1459F97"
+			tasks: [{
+				id: "5DA880CFD30444B5"
+				item: "expatternprovider:ex_drive"
+				type: "item"
+			}]
+			x: 13.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["782AE4626EF3CEC8"]
+			description: [
+				"自动将标记物品从AE网络中提取到自己，也可以将输入到自己的资源输送到AE网络的库存中。"
+				""
+				"片状不传递频道。"
+				""
+				"Automatically extract marked items from the AE network to yourself, and also input your own resources into the inventory of the AE network."
+			]
+			id: "79C439D495DF9F4A"
+			tasks: [{
+				id: "2B4264E0F41CB071"
+				item: "ae2:interface"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 13.0d
+		}
+		{
+			dependencies: ["782AE4626EF3CEC8"]
+			description: [
+				"可以插入已编写的样板。"
+				""
+				"发起对应配方合成后，原料会被输送至带有对应样板的样板供应器中，并尝试输入供应器前方的容器。"
+				""
+				"片状不传递频道。"
+				""
+				"You can insert the pre-written template."
+				""
+				"After initiating the synthesis with the corresponding recipe, the raw materials will be delivered to the template dispenser with the corresponding template and will attempt to enter the container in front of the dispenser."
+			]
+			id: "0270557331CC982B"
+			tasks: [{
+				id: "4F983B5A25FA4808"
+				item: "ae2:pattern_provider"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 13.0d
+		}
+		{
+			dependencies: ["0270557331CC982B"]
+			id: "017D2C729AAA1A8C"
+			tasks: [{
+				id: "4373AA0BE038D1CB"
+				item: "expatternprovider:ex_pattern_provider"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 14.0d
+		}
+		{
+			dependencies: ["79C439D495DF9F4A"]
+			id: "729E28A970CECE23"
+			tasks: [{
+				id: "6075882ADC63A83E"
+				item: "expatternprovider:ex_interface"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 14.0d
+		}
+		{
+			dependencies: ["7E48D1E13992FCC2"]
+			description: [
+				"储存配方信息。"
+				""
+				"Store recipes."
+			]
+			hide_dependency_lines: true
+			id: "322EBBB6B87E4164"
+			rewards: [{
+				id: "29E182725E45B6B3"
+				item: "ae2:blank_pattern"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7CE2C4EEED85FF07"
+				item: "ae2:blank_pattern"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 13.0d
+		}
+		{
+			dependencies: ["7DA04F9B3E962D59"]
+			description: [
+				"可以将配方编入空白样板中。"
+				""
+				"Coding recipes into pattern."
+			]
+			id: "1839292BF8940234"
+			tasks: [{
+				id: "6794789160941474"
+				item: "ae2:pattern_encoding_terminal"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 12.5d
+		}
+		{
+			dependencies: ["322EBBB6B87E4164"]
+			description: [
+				"对储存有配方的样板进行输入、输出的倍乘。"
+				""
+				"在需要进行大量合成时，可以尝试在样板中编入多倍的原料和产物。这可以显著减少配方发送次数，以减少卡顿和合成时间。"
+				""
+				"Multiply the input and output of the pattern that has the recipe."
+				""
+				"When a large amount of synthesis is required, you can try to incorporate multiple times the raw materials and products into the template."
+				""
+				"This can significantly reduce the number of recipe transmissions, thus reducing lag and crafting time."
+			]
+			id: "118A4D4B2010097B"
+			tasks: [{
+				id: "4C310A97342C3F7A"
+				item: "expatternprovider:pattern_modifier"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 14.0d
+		}
+		{
+			dependencies: ["79C439D495DF9F4A"]
+			description: [
+				"1.可以将AE的库存接入create的仓储网络。"
+				""
+				"2.在AE需要物品时可以尝试调取create仓储网络中的物品。"
+				""
+				"1. The inventory of AE can be integrated into the storage network of create."
+				""
+				"2. When AE needs items, it can try to retrieve items from the create storage network."
+			]
+			id: "5C543C9E520A71CF"
+			tasks: [{
+				id: "7B4C3EAE05F68169"
+				item: "createstockbridge:ae_bridge"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 13.5d
+		}
+		{
+			dependencies: ["702F7C260BE4D650"]
+			id: "7B546A042321514F"
+			tasks: [{
+				id: "2C2B8663C5241D16"
+				item: "ae2:crafting_accelerator"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["702F7C260BE4D650"]
+			id: "641DF87FBA3DE99F"
+			tasks: [{
+				id: "1C5747E6D1F0623F"
+				item: "ae2:1k_crafting_storage"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["641DF87FBA3DE99F"]
+			id: "0A745EB8185DB20A"
+			tasks: [{
+				id: "0C8B7622FF42816E"
+				item: "ae2:4k_crafting_storage"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 17.0d
+		}
+		{
+			dependencies: ["0A745EB8185DB20A"]
+			id: "0293C4F9185E2189"
+			tasks: [{
+				id: "76F94E2804C6346A"
+				item: "ae2:16k_crafting_storage"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 18.0d
+		}
+		{
+			dependencies: ["0293C4F9185E2189"]
+			id: "1E245677466120C6"
+			tasks: [{
+				id: "2868F0E89B104EA7"
+				item: "ae2:64k_crafting_storage"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 19.0d
+		}
+		{
+			dependencies: ["1E245677466120C6"]
+			id: "13FB2978753D8607"
+			tasks: [{
+				id: "6D34553FAB9760FF"
+				item: "ae2:256k_crafting_storage"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 20.0d
+		}
+		{
+			dependencies: ["7B546A042321514F"]
+			id: "794708D0AD9B32C8"
+			tasks: [{
+				id: "5D8F29CC6C199B5E"
+				item: "mae2:4x_crafting_accelerator"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 17.0d
+		}
+		{
+			dependencies: ["794708D0AD9B32C8"]
+			id: "2C6699C928008650"
+			tasks: [{
+				id: "552CE17E375AA14B"
+				item: "mae2:16x_crafting_accelerator"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 18.0d
+		}
+		{
+			dependencies: ["2C6699C928008650"]
+			id: "3BC7ED15E13D968F"
+			tasks: [{
+				id: "6C0475B69DE2BD4C"
+				item: "mae2:64x_crafting_accelerator"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 19.0d
+		}
+		{
+			dependencies: ["3BC7ED15E13D968F"]
+			id: "1EE14FF5DE96BE99"
+			tasks: [{
+				id: "7A600439961C514C"
+				item: "mae2:256x_crafting_accelerator"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 20.0d
+		}
+		{
+			dependencies: ["7DA04F9B3E962D59"]
+			description: [
+				"显示网络中的配方。"
+				""
+				"SHow recipes within net"
+			]
+			id: "1C076D504037DF4D"
+			tasks: [{
+				id: "76DE88F86D7F2342"
+				item: "ae2:pattern_access_terminal"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 13.5d
+		}
+		{
+			dependencies: ["1C076D504037DF4D"]
+			id: "031ECE8D2B8F3CE8"
+			tasks: [{
+				id: "71DE4454001B09C1"
+				item: "expatternprovider:ex_pattern_access_part"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 14.5d
+		}
+		{
+			dependencies: ["243BEEA19B118EFD"]
+			description: [
+				"使用红石控制线缆断通。"
+				""
+				"Use redstone to control cable connections."
+			]
+			id: "2F928FDB17861B0D"
+			rewards: [{
+				id: "1738AA63B69FA485"
+				item: "ae2:inverted_toggle_bus"
+				type: "item"
+			}]
+			tasks: [{
+				id: "43AC43C981B95453"
+				item: "ae2:toggle_bus"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["7B546A042321514F"]
+			description: [
+				"自动发送合成请求。"
+				""
+				"Automatically send crafting request."
+			]
+			id: "0CC64A8D6116D46E"
+			tasks: [{
+				id: "6FD9A685742AD757"
+				item: "merequester:requester"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["782AE4626EF3CEC8"]
+			description: [
+				"将面向的容器库存视为AE库存的一部分。"
+				""
+				"物品存入ae时会根据优先级选择存储位置。"
+				""
+				"Consider the container inventory you are facing as part of the AE inventory."
+				""
+				"When items are stored in ae, the storage location will be selected based on priority."
+			]
+			id: "2860BF815E5A5249"
+			tasks: [{
+				id: "5764F1CD08A5D726"
+				item: "ae2:storage_bus"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 15.0d
+		}
+		{
+			dependencies: ["782AE4626EF3CEC8"]
+			description: [
+				"与存储总线运行模式类似，只有在物品被存入ae网络时能够被放出。"
+				""
+				"Similar to the operation mode of the storage bus, items can only be released when they are stored in the ae network."
+			]
+			id: "5F5C738E8BAAD22C"
+			tasks: [{
+				id: "30ADF9BCC02E2054"
+				item: "ae2:formation_plane"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["782AE4626EF3CEC8"]
+			id: "7D7812D81AD79514"
+			tasks: [{
+				id: "658FB7E5406D98E8"
+				item: "ae2:annihilation_plane"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["2860BF815E5A5249"]
+			description: [
+				"可以控制存储数量的存储总线。"
+				""
+				"A storage bus that can control the number of stored items."
+			]
+			id: "15F54084B76DFF59"
+			tasks: [{
+				id: "5FB3B18F7C439369"
+				item: "expatternprovider:precise_storage_bus"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 15.0d
+		}
+		{
+			dependencies: ["5F5C738E8BAAD22C"]
+			description: [
+				"能够主动放置库存物品。"
+				""
+				"Able to actively place inventory items."
+			]
+			id: "773FCF37801D5A7C"
+			tasks: [{
+				id: "2FE27299A6499A9A"
+				item: "expatternprovider:active_formation_plane"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["782AE4626EF3CEC8"]
+			id: "1F959CCF54FF02B7"
+			tasks: [{
+				id: "333242AE77253F99"
+				item: "ae2:export_bus"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 17.0d
+		}
+		{
+			dependencies: ["782AE4626EF3CEC8"]
+			id: "69C50218DE1299EE"
+			tasks: [{
+				id: "761C1925A865A340"
+				item: "ae2:import_bus"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 17.0d
+		}
+		{
+			dependencies: ["69C50218DE1299EE"]
+			id: "0DBF281A8B7CE621"
+			tasks: [{
+				id: "4EFA70A26E3AB259"
+				item: "expatternprovider:ex_import_bus_part"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 18.0d
+		}
+		{
+			dependencies: ["1F959CCF54FF02B7"]
+			id: "1AF01793040D4CD4"
+			tasks: [{
+				id: "3B75E9638CEA21EE"
+				item: "expatternprovider:ex_export_bus_part"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 18.0d
+		}
+		{
+			dependencies: ["729E28A970CECE23"]
+			description: [
+				"将接口和样板供应器拆下来，保留其中的物品。"
+				""
+				"Remove the interface and the sample supplier, keeping the items inside."
+			]
+			id: "13D2FA71C44ACFD2"
+			tasks: [{
+				id: "17BD61D886ACC657"
+				item: {
+					Count: 1
+					id: "expatternprovider:me_packing_tape"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: 14.5d
+		}
+		{
+			dependencies: ["1C4B172A0F27DF87"]
+			id: "2392CD25CFF4747B"
+			tasks: [{
+				id: "2A86F13F7C48454F"
+				item: {
+					Count: 1
+					id: "expatternprovider:infinity_cell"
+					tag: {
+						record: {
+							"#c": "ae2:i"
+							id: "minecraft:cobblestone"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 12.5d
+			y: 15.0d
+		}
+		{
+			dependencies: ["1C4B172A0F27DF87"]
+			id: "642AE4F6DD49B015"
+			tasks: [{
+				id: "3166858BFF786104"
+				item: {
+					Count: 1
+					id: "expatternprovider:infinity_cell"
+					tag: {
+						record: {
+							"#c": "ae2:f"
+							id: "minecraft:water"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 13.5d
+			y: 15.0d
+		}
+		{
+			dependencies: ["782AE4626EF3CEC8"]
+			id: "6DE975BF5B07FEC2"
+			rewards: [{
+				id: "3E3F50555A718EF8"
+				item: {
+					Count: 1
+					id: "ae2:portable_item_cell_1k"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "70200490FC8069A2"
+					item: "ae2:item_cell_housing"
+					type: "item"
+				}
+				{
+					id: "460FA217980092A4"
+					item: "ae2:fluid_cell_housing"
+					type: "item"
+				}
+				{
+					id: "66A942E353E473B4"
+					item: "appmek:chemical_cell_housing"
+					type: "item"
+				}
+			]
+			x: 13.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["7CEFE48D4A66ABE3"]
+			description: [
+				"可以直接放入样板，也可以使用样板供应器。"
+				""
+				"You can either place it directly into the template or use the template supplier."
+			]
+			id: "477ED23D31E51A1C"
+			tasks: [{
+				id: "620CD91FA1B64F49"
+				item: "ae2:molecular_assembler"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["477ED23D31E51A1C"]
+			id: "0BFC4BA309E823C5"
+			tasks: [{
+				id: "10357921EB35CECE"
+				item: "expatternprovider:ex_molecular_assembler"
+				type: "item"
+			}]
+			x: 11.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["0BFC4BA309E823C5"]
+			description: [
+				"接下来，“思索”很有用。"
+				""
+				"...next, 'thinking' is very useful."
+			]
+			id: "4EACFD5A263A624A"
+			subtitle: "assemble matrix"
+			tasks: [
+				{
+					id: "5F26B34120560786"
+					item: "expatternprovider:assembler_matrix_frame"
+					type: "item"
+				}
+				{
+					id: "5626310154FF988A"
+					item: "expatternprovider:assembler_matrix_pattern"
+					type: "item"
+				}
+				{
+					id: "4713E5059EBF5B2A"
+					item: "expatternprovider:assembler_matrix_crafter"
+					type: "item"
+				}
+				{
+					id: "3EEEAAD8335F8CC4"
+					item: "expatternprovider:assembler_matrix_speed"
+					type: "item"
+				}
+			]
+			title: "装配矩阵"
+			x: 12.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["0CC64A8D6116D46E"]
+			id: "2DC83BA820DB384B"
+			tasks: [{
+				id: "374C34F832C92DBC"
+				item: "merequester:requester_terminal"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["7E48D1E13992FCC2"]
+			id: "4782657E46B8204F"
+			tasks: [{
+				id: "58E0849CDF8D082D"
+				item: "ae2:certus_quartz_wrench"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["3E006551D27196C1"]
+			description: [
+				"可以利用ae构建运输物品、流体、化学品、信号、频道……的p2p管道。"
+				""
+				"利用内存卡修改p2p面板地址。"
+				""
+				"进入输入口p2p面板的物件会自动运送至相同地址的出口p2p面板。"
+				""
+				"p2p面板不传递频道，p2p面板所在的ae网络与通过面板运输的各类资源相互独立。"
+				""
+				"You can use AE to build P2P pipelines for transporting items, fluids, chemicals, signals, channels, etc."
+				""
+				"Use a memory card to modify the P2P panel address."
+				""
+				"Objects entering the input P2P panel will be automatically transported to the output P2P panel with the same address."
+				""
+				"The P2P panel does not transmit channels; the AE network where the P2P panels are located is independent of the various resources transported through the panels."
+			]
+			id: "763DA46F21A25183"
+			tasks: [{
+				id: "566E6C0A0F5CEDED"
+				item: "ae2:me_p2p_tunnel"
+				type: "item"
+			}]
+			x: 13.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["44FC099D52F16042"]
+			id: "726B80C1B1CDA495"
+			tasks: [{
+				id: "1D1306247D8EC5E0"
+				item: {
+					Count: 1
+					id: "ae2:memory_card"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 14.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["726B80C1B1CDA495"]
+			id: "115B759033D28B2B"
+			tasks: [{
+				id: "50DF740160BE5A58"
+				item: {
+					Count: 1
+					id: "betterp2p:advanced_memory_card"
+					tag: {
+						gui: 3b
+						selectedIndex: { }
+					}
+				}
+				type: "item"
+			}]
+			x: 14.5d
+			y: 9.5d
 		}
 	]
 	title: "3、电力时代"
