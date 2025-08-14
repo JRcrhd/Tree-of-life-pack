@@ -1,6 +1,7 @@
 ServerEvents.tags('item', treeoflife => {
     treeoflife.add('minecraft:bookshelf_books', 'patchouli:guidebook')
     treeoflife.add('minecraft:bookshelf_books', 'ae2:guide')
+
 });
 
 ServerEvents.tags('block', treeoflife => {

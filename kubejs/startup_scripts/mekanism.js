@@ -1,8 +1,8 @@
 global.mekStackAdditions = [
-    {material: 'iesnium', color: '#5693FD', makeDust: false},
-    {material: 'zinc', color: '#B8B8B8', makeDust: false},
-    {material: 'silver', color: '#C0C0C0', makeDust: false},
-    {material: 'nickel', color: '#A4A4A4', makeDust: false}
+    {material: 'iesnium', color: '#66A3FE', makeDust: true},
+    {material: 'zinc', color: '#BAC8C9', makeDust: true},
+    {material: 'silver', color: '#D8D7D2', makeDust: true},
+    {material: 'nickel', color: '#B6B454', makeDust: true}
 ]
 
 const $Slurry = Java.loadClass('mekanism.api.chemical.slurry.Slurry')
@@ -54,5 +54,7 @@ StartupEvents.registry('mekanism:slurry', treeoflife => {
 });
 
 StartupEvents.registry('mekanism:gas', treeoflife => {
-    treeoflife.createCustom(`clear_water_tier_2_vapor`, () => $Gas($GasBuilder.builder()))
+    treeoflife.createCustom(`clear_water_tier_2_vapor`, () => $Gas($GasBuilder.builder()));
+    treeoflife.createCustom(`vibrant_fluix_gas`, () => $Gas($GasBuilder.builder()))
+    treeoflife.createCustom(`stable_vibrant_fluix_gas`, () => $Gas($GasBuilder.builder()))
 });

@@ -132,4 +132,16 @@ StartupEvents.registry('fluid', treeoflife => {
         .bucketColor(0xA29EEF)
         .displayName('3级净化水')
 
+    treeoflife.create('vibrant_fluix')
+        .thickTexture(0x8A2BE2)
+        .bucketColor(0x8A2BE2)
+        .displayName('谐振福鲁伊克斯')
+        .temperature(400);
+
+    treeoflife.create('stable_vibrant_fluix')
+        .thickTexture(0x4B0082)
+        .bucketColor(0x4B0082)
+        .displayName('稳定谐振福鲁伊克斯')
+        .temperature(250);
+
 });

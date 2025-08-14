@@ -324,7 +324,7 @@
 				item: "ae2:charger"
 				type: "item"
 			}]
-			x: 4.0d
+			x: 3.5d
 			y: 6.0d
 		}
 		{
@@ -335,7 +335,7 @@
 				item: "expatternprovider:ex_charger"
 				type: "item"
 			}]
-			x: 5.0d
+			x: 5.5d
 			y: 6.0d
 		}
 		{
@@ -374,7 +374,11 @@
 			y: 14.0d
 		}
 		{
-			dependencies: ["4DC08F5E04C43EB6"]
+			dependencies: [
+				"4DC08F5E04C43EB6"
+				"256799D1EC1F050B"
+				"254F4BC49A7D6CBC"
+			]
 			hide_dependent_lines: true
 			id: "1823804755438C84"
 			tasks: [{
@@ -386,7 +390,11 @@
 			y: 16.0d
 		}
 		{
-			dependencies: ["1823804755438C84"]
+			dependencies: [
+				"1823804755438C84"
+				"3541D4220C460924"
+				"61779DACD6A109E0"
+			]
 			hide_dependent_lines: true
 			id: "1C51EF09FC5F6459"
 			tasks: [{
@@ -422,7 +430,7 @@
 				item: "kubejs:clear_water_tier_2_bucket"
 				type: "item"
 			}]
-			x: -2.0d
+			x: -1.0d
 			y: 14.0d
 		}
 		{
@@ -436,7 +444,7 @@
 				item: "mekanism:enrichment_chamber"
 				type: "item"
 			}]
-			x: -6.0d
+			x: -5.0d
 			y: 12.0d
 		}
 		{
@@ -450,7 +458,7 @@
 				item: "mekanism:pressurized_reaction_chamber"
 				type: "item"
 			}]
-			x: -4.0d
+			x: -2.0d
 			y: 14.0d
 		}
 		{
@@ -489,7 +497,7 @@
 				item: "mekanism:crusher"
 				type: "item"
 			}]
-			x: -5.0d
+			x: -6.0d
 			y: 12.0d
 		}
 		{
@@ -517,7 +525,7 @@
 				item: "mekanism:osmium_compressor"
 				type: "item"
 			}]
-			x: -5.0d
+			x: -4.0d
 			y: 14.0d
 		}
 		{
@@ -561,14 +569,15 @@
 		}
 		{
 			dependencies: ["7A757DAA0E533ABC"]
+			hide_dependency_lines: true
 			id: "1E11825C07C31D42"
 			tasks: [{
 				id: "29EB2C948F01BFB7"
 				item: "mekanism:electrolytic_separator"
 				type: "item"
 			}]
-			x: -2.0d
-			y: 10.0d
+			x: -13.0d
+			y: 12.0d
 		}
 		{
 			dependencies: [
@@ -641,6 +650,7 @@
 			dependencies: [
 				"641D9F649F2865E3"
 				"1823804755438C84"
+				"6B2D96CA12DB8FB6"
 			]
 			id: "2E8B4D21926239D9"
 			tasks: [{
@@ -692,7 +702,7 @@
 				item: "destroy:nanodiamonds"
 				type: "item"
 			}]
-			x: -5.0d
+			x: -4.0d
 			y: 17.0d
 		}
 		{
@@ -714,7 +724,7 @@
 					type: "item"
 				}
 			]
-			x: 4.0d
+			x: 3.5d
 			y: 12.0d
 		}
 		{
@@ -770,7 +780,7 @@
 				type: "item"
 			}]
 			x: -1.0d
-			y: 10.0d
+			y: 9.0d
 		}
 		{
 			dependencies: ["7E48D1E13992FCC2"]
@@ -789,7 +799,7 @@
 				item: "ae2:quartz_fiber"
 				type: "item"
 			}]
-			x: 10.0d
+			x: 10.5d
 			y: 10.0d
 		}
 		{
@@ -816,7 +826,7 @@
 				title: "Any #ae2:glass_cable"
 				type: "item"
 			}]
-			x: 9.5d
+			x: 10.0d
 			y: 11.0d
 		}
 		{
@@ -844,7 +854,7 @@
 				title: "Any #ae2:smart_cable"
 				type: "item"
 			}]
-			x: 11.5d
+			x: 12.0d
 			y: 11.0d
 		}
 		{
@@ -862,7 +872,7 @@
 				title: "Any #ae2:smart_dense_cable"
 				type: "item"
 			}]
-			x: 12.5d
+			x: 13.0d
 			y: 11.0d
 		}
 		{
@@ -878,7 +888,7 @@
 				item: "ae2:cable_anchor"
 				type: "item"
 			}]
-			x: 10.0d
+			x: 10.5d
 			y: 8.0d
 		}
 		{
@@ -895,7 +905,7 @@
 				item: "ae2:certus_quartz_crystal"
 				type: "item"
 			}]
-			x: 10.5d
+			x: 11.0d
 			y: 9.0d
 		}
 		{
@@ -915,7 +925,7 @@
 				item: "ae2:drive"
 				type: "item"
 			}]
-			x: 9.0d
+			x: 9.5d
 			y: 12.0d
 		}
 		{
@@ -926,7 +936,7 @@
 				item: "ae2:guide"
 				type: "item"
 			}]
-			x: 4.0d
+			x: 3.5d
 			y: 5.0d
 		}
 		{
@@ -937,7 +947,7 @@
 				item: "ae2:cell_component_1k"
 				type: "item"
 			}]
-			x: 12.0d
+			x: 12.5d
 			y: 14.0d
 		}
 		{
@@ -948,7 +958,7 @@
 				item: "ae2:cell_component_4k"
 				type: "item"
 			}]
-			x: 12.5d
+			x: 13.0d
 			y: 13.0d
 		}
 		{
@@ -959,7 +969,7 @@
 				item: "ae2:cell_component_16k"
 				type: "item"
 			}]
-			x: 13.0d
+			x: 13.5d
 			y: 14.0d
 		}
 		{
@@ -970,7 +980,7 @@
 				item: "ae2:cell_component_64k"
 				type: "item"
 			}]
-			x: 13.5d
+			x: 14.0d
 			y: 13.0d
 		}
 		{
@@ -981,7 +991,7 @@
 				item: "ae2:cell_component_256k"
 				type: "item"
 			}]
-			x: 14.0d
+			x: 14.5d
 			y: 14.0d
 		}
 		{
@@ -998,7 +1008,7 @@
 				title: "工作器件"
 				type: "checkmark"
 			}]
-			x: 9.0d
+			x: 9.5d
 			y: 6.0d
 		}
 		{
@@ -1018,7 +1028,7 @@
 				item: "ae2:energy_acceptor"
 				type: "item"
 			}]
-			x: 10.0d
+			x: 10.5d
 			y: 6.0d
 		}
 		{
@@ -1036,7 +1046,7 @@
 				item: "ae2:crystal_resonance_generator"
 				type: "item"
 			}]
-			x: 13.0d
+			x: 13.5d
 			y: 6.0d
 		}
 		{
@@ -1052,7 +1062,7 @@
 				match_nbt: false
 				type: "item"
 			}]
-			x: 9.5d
+			x: 10.0d
 			y: 5.0d
 		}
 		{
@@ -1072,7 +1082,7 @@
 				item: "ae2:io_port"
 				type: "item"
 			}]
-			x: 8.0d
+			x: 8.5d
 			y: 6.0d
 		}
 		{
@@ -1089,7 +1099,7 @@
 				item: "ae2:terminal"
 				type: "item"
 			}]
-			x: 8.5d
+			x: 9.0d
 			y: 5.0d
 		}
 		{
@@ -1164,7 +1174,7 @@
 				item: "expatternprovider:ex_drive"
 				type: "item"
 			}]
-			x: 13.0d
+			x: 13.5d
 			y: 12.0d
 		}
 		{
@@ -1464,7 +1474,7 @@
 				item: "ae2:toggle_bus"
 				type: "item"
 			}]
-			x: 11.0d
+			x: 11.5d
 			y: 10.0d
 		}
 		{
@@ -1500,8 +1510,8 @@
 				item: "ae2:storage_bus"
 				type: "item"
 			}]
-			x: 9.5d
-			y: 15.0d
+			x: 8.5d
+			y: 16.0d
 		}
 		{
 			dependencies: ["782AE4626EF3CEC8"]
@@ -1516,7 +1526,7 @@
 				item: "ae2:formation_plane"
 				type: "item"
 			}]
-			x: 10.0d
+			x: 11.5d
 			y: 16.0d
 		}
 		{
@@ -1527,8 +1537,8 @@
 				item: "ae2:annihilation_plane"
 				type: "item"
 			}]
-			x: 9.0d
-			y: 16.0d
+			x: 11.0d
+			y: 15.0d
 		}
 		{
 			dependencies: ["2860BF815E5A5249"]
@@ -1543,8 +1553,8 @@
 				item: "expatternprovider:precise_storage_bus"
 				type: "item"
 			}]
-			x: 10.5d
-			y: 15.0d
+			x: 8.0d
+			y: 17.0d
 		}
 		{
 			dependencies: ["5F5C738E8BAAD22C"]
@@ -1559,8 +1569,8 @@
 				item: "expatternprovider:active_formation_plane"
 				type: "item"
 			}]
-			x: 11.0d
-			y: 16.0d
+			x: 12.0d
+			y: 17.0d
 		}
 		{
 			dependencies: ["782AE4626EF3CEC8"]
@@ -1645,7 +1655,7 @@
 				}
 				type: "item"
 			}]
-			x: 12.5d
+			x: 13.0d
 			y: 15.0d
 		}
 		{
@@ -1665,7 +1675,7 @@
 				}
 				type: "item"
 			}]
-			x: 13.5d
+			x: 14.0d
 			y: 15.0d
 		}
 		{
@@ -1697,7 +1707,7 @@
 					type: "item"
 				}
 			]
-			x: 13.0d
+			x: 13.5d
 			y: 16.0d
 		}
 		{
@@ -1713,7 +1723,7 @@
 				item: "ae2:molecular_assembler"
 				type: "item"
 			}]
-			x: 9.5d
+			x: 10.0d
 			y: 7.0d
 		}
 		{
@@ -1724,7 +1734,7 @@
 				item: "expatternprovider:ex_molecular_assembler"
 				type: "item"
 			}]
-			x: 11.5d
+			x: 12.0d
 			y: 7.0d
 		}
 		{
@@ -1759,7 +1769,7 @@
 				}
 			]
 			title: "装配矩阵"
-			x: 12.5d
+			x: 13.0d
 			y: 7.0d
 		}
 		{
@@ -1781,7 +1791,7 @@
 				item: "ae2:certus_quartz_wrench"
 				type: "item"
 			}]
-			x: 11.0d
+			x: 11.5d
 			y: 8.0d
 		}
 		{
@@ -1809,7 +1819,7 @@
 				item: "ae2:me_p2p_tunnel"
 				type: "item"
 			}]
-			x: 13.5d
+			x: 14.0d
 			y: 9.0d
 		}
 		{
@@ -1824,7 +1834,7 @@
 				}
 				type: "item"
 			}]
-			x: 14.5d
+			x: 15.0d
 			y: 8.5d
 		}
 		{
@@ -1842,8 +1852,260 @@
 				}
 				type: "item"
 			}]
-			x: 14.5d
+			x: 15.0d
 			y: 9.5d
+		}
+		{
+			dependencies: ["1E11825C07C31D42"]
+			icon: "destroy:hydrogen_periodic_table_block"
+			id: "01B5825FDB6C5DE7"
+			tasks: [{
+				id: "4B4B66322B00EC39"
+				type: "checkmark"
+			}]
+			x: -13.5d
+			y: 14.5d
+		}
+		{
+			dependencies: ["1E11825C07C31D42"]
+			icon: "destroy:oxygen_periodic_table_block"
+			id: "1D86685465C81F7A"
+			tasks: [{
+				id: "44F121375C072A69"
+				type: "checkmark"
+			}]
+			x: -12.5d
+			y: 14.5d
+		}
+		{
+			dependencies: ["01B5825FDB6C5DE7"]
+			id: "66FBEEF168660D82"
+			tasks: [{
+				id: "64E7A985DC304556"
+				item: "mekanism:substrate"
+				type: "item"
+			}]
+			x: -13.5d
+			y: 15.5d
+		}
+		{
+			dependencies: [
+				"1D86685465C81F7A"
+				"66FBEEF168660D82"
+				"407BCB8FAA35BE8D"
+			]
+			id: "6B2D96CA12DB8FB6"
+			tasks: [{
+				id: "3F799C6168DBFA98"
+				item: "mekanism:hdpe_pellet"
+				type: "item"
+			}]
+			x: -12.5d
+			y: 16.0d
+		}
+		{
+			dependencies: ["54620BCFD25A0943"]
+			id: "256799D1EC1F050B"
+			tasks: [{
+				id: "16790724A87D8AB8"
+				item: "kubejs:vibrant_fluix_bucket"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["256799D1EC1F050B"]
+			id: "34D489DD0BE7988D"
+			tasks: [{
+				id: "016411AC5ED88B74"
+				item: "ae2:fluix_pearl"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 17.0d
+		}
+		{
+			dependencies: ["1B03CC4D11ACB23D"]
+			id: "018E1844579C9182"
+			tasks: [{
+				id: "5C8253E968D3E078"
+				item: "expatternprovider:ex_io_port"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["34D489DD0BE7988D"]
+			id: "27306AF790F7BB6A"
+			tasks: [{
+				id: "6190F6B32C541A18"
+				item: "ae2:wireless_receiver"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 19.0d
+		}
+		{
+			dependencies: ["27306AF790F7BB6A"]
+			description: [
+				"完全体AE"
+				""
+				"FUll AE"
+			]
+			id: "1D38B07AB6AF6423"
+			tasks: [{
+				id: "67C2E735BBEF7AB4"
+				item: "ae2wtlib:wireless_universal_terminal"
+				match_nbt: false
+				type: "item"
+			}]
+			x: 4.5d
+			y: 20.0d
+		}
+		{
+			dependencies: ["27306AF790F7BB6A"]
+			id: "0FD36740950A88A5"
+			tasks: [{
+				id: "694E31FE3058985D"
+				item: "ae2:wireless_access_point"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 19.0d
+		}
+		{
+			dependencies: ["27306AF790F7BB6A"]
+			id: "42D8354660D6FD71"
+			tasks: [{
+				id: "240DAD9298F8ED11"
+				item: "ae2wtlib:quantum_bridge_card"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 20.5d
+		}
+		{
+			dependencies: ["27306AF790F7BB6A"]
+			id: "1A18BAD3FFBF6166"
+			tasks: [{
+				id: "2A2691BEDD234273"
+				item: "expatternprovider:wireless_tool"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 20.0d
+		}
+		{
+			dependencies: ["27306AF790F7BB6A"]
+			id: "5D06915F5F99D203"
+			tasks: [{
+				id: "2318C92D856B9DDA"
+				item: "expatternprovider:wireless_connect"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 20.5d
+		}
+		{
+			dependencies: ["34D489DD0BE7988D"]
+			description: [
+				"同时使用量子桥卡可以实现跨纬度无线访问。"
+				""
+				"At the same time, using a quantum bridge card can achieve cross-dimensional wireless access."
+			]
+			id: "4FEE64F16D9C74A0"
+			tasks: [
+				{
+					count: 4L
+					id: "543B47E0F1554CAB"
+					item: "ae2:quantum_link"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "2A9942D4ACAB023D"
+					item: "ae2:quantum_ring"
+					type: "item"
+				}
+				{
+					id: "7CC29F41C2732DFE"
+					item: "ae2:quantum_entangled_singularity"
+					match_nbt: false
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 19.0d
+		}
+		{
+			dependencies: [
+				"256799D1EC1F050B"
+				"2E8B4D21926239D9"
+			]
+			id: "3541D4220C460924"
+			tasks: [{
+				id: "7A0A4C0680CA4BD5"
+				item: "kubejs:stable_vibrant_fluix_bucket"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 18.0d
+		}
+		{
+			dependencies: ["032BECAF07825E19"]
+			description: [
+				"可能更高效的配方。"
+				""
+				"More efficient,probably"
+			]
+			id: "407BCB8FAA35BE8D"
+			optional: true
+			tasks: [{
+				id: "0AB6EE3432D82259"
+				item: "destroy:polyethene"
+				type: "item"
+			}]
+			x: -12.5d
+			y: 17.0d
+		}
+		{
+			dependencies: ["54620BCFD25A0943"]
+			id: "727356912B2577B9"
+			tasks: [{
+				id: "047A7A5A08167DCD"
+				item: "expatternprovider:crystal_fixer"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["7D468C55D42AFD3E"]
+			id: "2A97FDA5156ABBB8"
+			tasks: [{
+				id: "1586F62E1A7D3F26"
+				item: "expatternprovider:ingredient_buffer"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 14.0d
+		}
+		{
+			dependencies: [
+				"2A97FDA5156ABBB8"
+				"69C50218DE1299EE"
+				"1F959CCF54FF02B7"
+			]
+			id: "0C7F6DA52C9DDC19"
+			tasks: [{
+				id: "7636AA884A8D271C"
+				item: "expatternprovider:caner"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 18.0d
 		}
 	]
 	title: "3、电力时代"

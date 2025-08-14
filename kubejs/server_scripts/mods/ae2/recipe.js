@@ -877,6 +877,36 @@ ServerEvents.recipes(treeoflife => {
         ]
     });
 
+    treeoflife.recipes.create.mixing(
+        [
+            Fluid.of('kubejs:vibrant_fluix').withAmount(135)
+        ], 
+        [
+            'ae2:fluix_crystal',
+            '#mekanism:alloys/reinforced',
+            'ae2:matter_ball'
+        ]
+    )
+    .heated();
+
+    treeoflife.remove({id: 'ae2:misc/fluixpearl'});
+    treeoflife.custom({
+        "type": "createmetallurgy:casting_in_table",
+        "ingredients": [
+            {
+                "tag": "forge:ender_pearls"
+            },
+            {
+                "amount": 540,
+                "fluid": "kubejs:vibrant_fluix"
+            }
+        ],
+        "processingTime": 80,
+        "result": {
+            "item": "ae2:fluix_pearl"
+        }
+    });
+
 
 
 

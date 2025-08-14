@@ -1,4 +1,10 @@
 ServerEvents.recipes(treeoflife => {
+    treeoflife.custom({
+        "type":"mekanism:infusion_conversion",
+        "input":{"ingredient":{"tag":"forge:fuels/fluix"}},
+        "output":{"amount":10,"infuse_type":"mekanism:fluix"}
+    });
+
     treeoflife.remove({id: 'mekanism:metallurgic_infusing/alloy/infused'});
     treeoflife.custom({
         "type":"mekanism:metallurgic_infusing",
@@ -88,12 +94,87 @@ ServerEvents.recipes(treeoflife => {
             "item": "mekanism:advanced_control_circuit"
         }
     });
-    
+
+	treeoflife.custom({
+        "type":"mekanism:rotary",
+        "fluidInput":{"amount":1,"fluid":"kubejs:vibrant_fluix"},
+        "fluidOutput":{"amount":1,"fluid":"kubejs:vibrant_fluix"},
+        "gasInput":{"amount":1,"gas":"kubejs:vibrant_fluix_gas"},
+        "gasOutput":{"amount":1,"gas":"kubejs:vibrant_fluix_gas"}
+    });
+
+	treeoflife.custom({
+        "type":"mekanism:rotary",
+        "fluidInput":{"amount":1,"fluid":"kubejs:stable_vibrant_fluix"},
+        "fluidOutput":{"amount":1,"fluid":"kubejs:stable_vibrant_fluix"},
+        "gasInput":{"amount":1,"gas":"kubejs:stable_vibrant_fluix_gas"},
+        "gasOutput":{"amount":1,"gas":"kubejs:stable_vibrant_fluix_gas"}
+    });
+
     treeoflife.remove({id: 'mekanism:control_circuit/elite'});
+    treeoflife.custom({
+        "type":"mekanism:compressing",
+        "chemicalInput":{"amount":180,"gas":"kubejs:vibrant_fluix_gas"},
+        "itemInput":{"ingredient":{"tag":"forge:circuits/advanced"}},
+        "output":{"item":"mekanism:elite_control_circuit"}
+    });
 
-    
+    treeoflife.custom({
+        "type":"mekanism:activating",
+        "input":{"amount":10,"gas":"kubejs:vibrant_fluix_gas"},
+        "output":{"amount":1,"gas":"kubejs:stable_vibrant_fluix_gas"}
+    });
+
     treeoflife.remove({id: 'mekanism:control_circuit/ultimate'});
+    treeoflife.custom({
+        "type": "ae2:transform",
+        "circumstance": {
+            "type": "fluid",
+            "tag": "kubejs:stable_vibrant_fluix"
+        },
+        "ingredients": [
+            {
+                "tag": "forge:circuits/elite"
+            },
+            {
+                "tag": "mekanism:alloys/atomic"
+            },
+            {
+                "item": "destroy:nanodiamonds"
+            }
+        ],
+        "result": {
+            "count": 1,
+            "item": "mekanism:ultimate_control_circuit"
+        }
+    });
 
+    treeoflife.custom({
+        "type": "create:mixing", 
+        "ingredients": [
+            {
+                "tag": "forge:circuits/elite"
+            },
+            {
+                "tag": "mekanism:alloys/atomic"
+            },
+            {
+                "item": "destroy:nanodiamonds"
+            },
+            {
+                "amount": 90,
+                "fluid": "kubejs:stable_vibrant_fluix"
+            }
+        ],
+        "results": [
+            {
+                "count": 1,
+                "item": "mekanism:ultimate_control_circuit"
+            }
+        ]
+    });
+
+    treeoflife.stonecutting('64x mekanism:hdpe_pellet', 'destroy:polyethene')
 
 
 });
