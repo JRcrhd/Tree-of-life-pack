@@ -604,7 +604,7 @@
 				item: "mekanism:chemical_dissolution_chamber"
 				type: "item"
 			}]
-			x: -6.0d
+			x: -9.0d
 			y: 18.0d
 		}
 		{
@@ -618,7 +618,7 @@
 				item: "mekanism:chemical_washer"
 				type: "item"
 			}]
-			x: -5.0d
+			x: -8.0d
 			y: 18.0d
 		}
 		{
@@ -632,7 +632,7 @@
 				item: "mekanism:chemical_crystallizer"
 				type: "item"
 			}]
-			x: -4.0d
+			x: -7.0d
 			y: 18.0d
 		}
 		{
@@ -669,7 +669,7 @@
 				item: "mekanism:isotopic_centrifuge"
 				type: "item"
 			}]
-			x: -7.0d
+			x: -5.0d
 			y: 18.0d
 		}
 		{
@@ -2106,6 +2106,167 @@
 			}]
 			x: 10.0d
 			y: 18.0d
+		}
+		{
+			dependencies: ["7A757DAA0E533ABC"]
+			id: "0D07897E283ACEE5"
+			tasks: [{
+				id: "671AC567DC6F1A72"
+				item: {
+					Count: 1
+					id: "mekanism:configurator"
+					tag: {
+						mekData: {
+							EnergyContainers: [{
+								Container: 0b
+								stored: "60000"
+							}]
+						}
+					}
+				}
+				match_nbt: false
+				type: "item"
+			}]
+			x: -2.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["1C51EF09FC5F6459"]
+			description: [
+				"接下来，思索很有用。"
+				""
+				"Next,\"thinking\" is useful."
+			]
+			id: "45E8AD243BA32953"
+			subtitle: "fission reactor"
+			tasks: [
+				{
+					id: "7454312542A498C9"
+					item: "mekanismgenerators:reactor_glass"
+					type: "item"
+				}
+				{
+					id: "3C86EAB59F8246C4"
+					item: "mekanismgenerators:fission_reactor_port"
+					type: "item"
+				}
+				{
+					id: "7712FCCDD0783466"
+					item: "mekanismgenerators:fission_reactor_casing"
+					type: "item"
+				}
+				{
+					id: "5F46F4AAA6703918"
+					item: "mekanismgenerators:control_rod_assembly"
+					type: "item"
+				}
+				{
+					id: "49BB0DBD2A882509"
+					item: "mekanismgenerators:fission_fuel_assembly"
+					type: "item"
+				}
+			]
+			title: "裂变反应堆"
+			x: -1.0d
+			y: 20.0d
+		}
+		{
+			dependencies: ["21653EF07CF58FCD"]
+			id: "4B73BBC64533B62E"
+			subtitle: "fissile fuel"
+			tasks: [{
+				id: "4009EF77AA604681"
+				title: "裂变燃料"
+				type: "checkmark"
+			}]
+			x: -3.0d
+			y: 20.0d
+		}
+		{
+			dependencies: [
+				"4B73BBC64533B62E"
+				"45E8AD243BA32953"
+			]
+			id: "07FAFE564A8BB8E0"
+			rewards: [
+				{
+					id: "61A1B994BB87BCD2"
+					item: "mekanism:hazmat_mask"
+					type: "item"
+				}
+				{
+					id: "1851BE331FA7BA53"
+					item: "mekanism:hazmat_gown"
+					type: "item"
+				}
+				{
+					id: "7C3F31EEDA7D8C38"
+					item: "mekanism:hazmat_pants"
+					type: "item"
+				}
+				{
+					id: "50EB1CC5EDE18D8A"
+					item: "mekanism:hazmat_boots"
+					type: "item"
+				}
+			]
+			subtitle: "nuclear waste"
+			tasks: [{
+				id: "05594862767B84B4"
+				title: "核废料"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: 21.0d
+		}
+		{
+			dependencies: ["07FAFE564A8BB8E0"]
+			id: "272A14B5396B17A5"
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "04290BC3FDB894BF"
+				item: "mekanism:pellet_polonium"
+				type: "item"
+			}]
+			x: -0.04047619047619122d
+			y: 23.14166666666666d
+		}
+		{
+			dependencies: ["07FAFE564A8BB8E0"]
+			id: "29E74031F41B8761"
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "4DE950E40EBBC8AD"
+				item: "mekanism:pellet_plutonium"
+				type: "item"
+			}]
+			x: -4.040476190476191d
+			y: 23.11309523809524d
+		}
+		{
+			dependencies: ["29E74031F41B8761"]
+			id: "11E3CD2D164C2023"
+			optional: true
+			tasks: [{
+				id: "57E65395E7B645DB"
+				item: "mekanism:reprocessed_fissile_fragment"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 22.0d
+		}
+		{
+			dependencies: ["2A97FDA5156ABBB8"]
+			id: "595B4D32E1144BFB"
+			tasks: [{
+				id: "4FCC0B19D70D653A"
+				item: "expatternprovider:oversize_interface"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 15.0d
 		}
 	]
 	title: "3、电力时代"

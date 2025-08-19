@@ -1910,6 +1910,19 @@
 				"Next, “thinking” is useful."
 			]
 			id: "2794034769055ED5"
+			rewards: [
+				{
+					count: 2
+					id: "09A081FF221BF603"
+					item: "destroy:nitrocellulose"
+					type: "item"
+				}
+				{
+					id: "079E03646F808631"
+					item: "destroy:touch_powder"
+					type: "item"
+				}
+			]
 			subtitle: "这个模组的真正面目"
 			tasks: [{
 				id: "2833CA5E7D36C985"

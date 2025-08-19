@@ -8,6 +8,15 @@
 	id: "33006A281D8B649A"
 	order_index: 3
 	quest_links: [ ]
-	quests: [ ]
+	quests: [{
+		dependencies: ["272A14B5396B17A5"]
+		id: "2B47BD454153FE6B"
+		tasks: [{
+			id: "52A3EE937682DC00"
+			type: "checkmark"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
 	title: "4、信息时代"
 }

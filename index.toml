@@ -2965,6 +2965,16 @@ hash = "b773c0b508ff3029a27062fd26df96778f4ded8087327b208f5b986d11ea881e"
 metafile = true
 
 [[files]]
+file = "mods/supermartijn642s-config-lib.pw.toml"
+hash = "1cf9cb3955b075664ea4fba13b47fe7160975740a28864983aebd53d39c1946e"
+metafile = true
+
+[[files]]
+file = "mods/supermartijn642s-core-lib.pw.toml"
+hash = "b969799c17defc1e7c76e4605557c9d32802a0004a5e45b7044e85d3d9c43345"
+metafile = true
+
+[[files]]
 file = "mods/supplementaries.pw.toml"
 hash = "c9da4967d508a7eb7cb2bad8ffe14264b804c3c4f96edd76671a119b4bbbbef8"
 metafile = true
@@ -3022,6 +3032,11 @@ metafile = true
 [[files]]
 file = "mods/towns-and-towers.pw.toml"
 hash = "72c0e1d4d8eb05e6c82c8959885ee5f08b8c7ede63b438e22a7422246679cc46"
+metafile = true
+
+[[files]]
+file = "mods/trash-cans.pw.toml"
+hash = "4a8a42c4c7834873a5f64f0f4e07eb46056329b345a1b835d8ea0aff2390fc0e"
 metafile = true
 
 [[files]]

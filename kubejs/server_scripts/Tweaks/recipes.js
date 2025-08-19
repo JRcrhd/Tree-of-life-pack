@@ -68,5 +68,9 @@ ServerEvents.recipes(treeoflife => {
     .transitionalItem('create:incomplete_precision_mechanism')
     .loops(3);
 
+    treeoflife.replaceInput({mod: 'trashcans'},
+        '#forge:stone',
+        '#forge:ingots/copper'
+    );
 });
 

@@ -1228,7 +1228,7 @@
 				type: "item"
 			}]
 			x: -6.5d
-			y: -2.0d
+			y: 8.0d
 		}
 		{
 			dependencies: ["33B1D3FD4C0B5514"]
@@ -1246,7 +1246,7 @@
 				type: "item"
 			}]
 			x: -6.5d
-			y: -3.0d
+			y: 7.0d
 		}
 		{
 			dependencies: ["0A9762FC878D7B51"]
@@ -1264,7 +1264,7 @@
 				type: "item"
 			}]
 			x: -10.5d
-			y: -1.5d
+			y: 9.0d
 		}
 		{
 			dependencies: ["0A9762FC878D7B51"]
@@ -1282,7 +1282,7 @@
 				type: "item"
 			}]
 			x: -10.0d
-			y: -2.5d
+			y: 8.0d
 		}
 		{
 			dependencies: ["0A9762FC878D7B51"]
@@ -1300,7 +1300,7 @@
 				type: "item"
 			}]
 			x: -11.0d
-			y: -2.5d
+			y: 8.0d
 		}
 		{
 			dependencies: ["0A9762FC878D7B51"]
@@ -1318,7 +1318,7 @@
 				type: "item"
 			}]
 			x: -10.5d
-			y: -3.5d
+			y: 7.0d
 		}
 		{
 			dependencies: ["7D57A14810BC0CBE"]
@@ -1336,7 +1336,7 @@
 				type: "item"
 			}]
 			x: 4.5d
-			y: -2.0d
+			y: 10.0d
 		}
 		{
 			dependencies: ["7D57A14810BC0CBE"]
@@ -1354,7 +1354,7 @@
 				type: "item"
 			}]
 			x: 4.0d
-			y: -3.0d
+			y: 9.0d
 		}
 		{
 			dependencies: ["7D57A14810BC0CBE"]
@@ -1372,7 +1372,7 @@
 				type: "item"
 			}]
 			x: 4.5d
-			y: -4.0d
+			y: 8.0d
 		}
 		{
 			dependencies: ["7D57A14810BC0CBE"]
@@ -1390,7 +1390,7 @@
 				type: "item"
 			}]
 			x: 5.0d
-			y: -3.0d
+			y: 9.0d
 		}
 		{
 			dependencies: ["2F51277E50EBB863"]
@@ -1407,7 +1407,24 @@
 				type: "item"
 			}]
 			x: 4.5d
-			y: -5.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["689F32883C4E9502"]
+			icon: "aether:aether_dirt"
+			id: "3E05A8826FDE161D"
+			rewards: [{
+				id: "62CEB495790E61E1"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				dimension: "aether:the_aether"
+				id: "1099A8B8CE0F5CC1"
+				type: "dimension"
+			}]
+			x: 9.5d
+			y: -0.5d
 		}
 	]
 	title: "神代的遗留"
