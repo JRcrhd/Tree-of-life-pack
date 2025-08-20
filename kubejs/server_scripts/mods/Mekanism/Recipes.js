@@ -154,7 +154,7 @@ ServerEvents.recipes((treeoflife) => {
     treeoflife.remove({ id: "mekanism:control_circuit/elite" });
     treeoflife.custom({
         type: "mekanism:compressing",
-        chemicalInput: { amount: 180, gas: "kubejs:vibrant_fluix_gas" },
+        chemicalInput: { amount: 9, gas: "kubejs:vibrant_fluix_gas" },
         itemInput: { ingredient: { tag: "forge:circuits/advanced" } },
         output: { item: "mekanism:elite_control_circuit" },
     });

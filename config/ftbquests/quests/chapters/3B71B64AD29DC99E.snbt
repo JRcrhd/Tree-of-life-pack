@@ -8,14 +8,24 @@
 	hide_quest_until_deps_visible: true
 	icon: "forbidden_arcanus:dark_nether_star"
 	id: "3B71B64AD29DC99E"
-	images: [{
-		height: 5.0d
-		image: "treeoflife:textures/questpics/wither.png"
-		rotation: 0.0d
-		width: 5.0d
-		x: 0.0d
-		y: 2.0d
-	}]
+	images: [
+		{
+			height: 5.0d
+			image: "treeoflife:textures/questpics/wither.png"
+			rotation: 0.0d
+			width: 5.0d
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			height: 5.0d
+			image: "treeoflife:textures/questpics/enderdragon.png"
+			rotation: 0.0d
+			width: 5.0d
+			x: 0.0d
+			y: 10.0d
+		}
+	]
 	order_index: 0
 	quest_links: [ ]
 	quests: [
@@ -164,7 +174,7 @@
 			]
 			title: "阶段晋升"
 			x: 0.0d
-			y: 13.0d
+			y: 17.0d
 		}
 		{
 			dependencies: [
@@ -579,7 +589,342 @@
 				type: "item"
 			}]
 			x: 0.0d
+			y: 15.5d
+		}
+		{
+			dependencies: [
+				"1FCF9DDCDE1A7152"
+				"382D5B3443935DB3"
+				"5226AA64583CA66A"
+			]
+			id: "14DFFE8EA4C60D87"
+			tasks: [{
+				id: "66645D4EC3C4C7E0"
+				item: "kubejs:dimension_alloy_the_end"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 15.5d
+		}
+		{
+			dependencies: [
+				"1FCF9DDCDE1A7152"
+				"382D5B3443935DB3"
+			]
+			id: "7D582B7726AB0A37"
+			tasks: [{
+				id: "4D06F86E9191C784"
+				item: "kubejs:alchemy_yellow"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 15.5d
+		}
+		{
+			id: "1FCF9DDCDE1A7152"
+			tasks: [{
+				id: "29E8487582D83EEE"
+				item: "kubejs:void_alloy_shard"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 13.0d
+		}
+		{
+			id: "382D5B3443935DB3"
+			tasks: [{
+				id: "5E93B1C2D59340E5"
+				item: "kubejs:void_fluid_bucket"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 13.0d
+		}
+		{
+			id: "5226AA64583CA66A"
+			tasks: [{
+				id: "33141C541FEE7733"
+				item: "kubejs:chaos_fluid_bucket"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 13.0d
+		}
+		{
+			dependencies: ["1ECB91385A758E05"]
+			id: "2B01D5E86228D7EE"
+			tasks: [{
+				id: "662599015C7F4C89"
+				item: "minecraft:dragon_breath"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["1ECB91385A758E05"]
+			id: "491BE3087B422864"
+			tasks: [{
+				id: "53C68CE5038070E5"
+				item: "minecraft:dragon_egg"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["491BE3087B422864"]
+			id: "0CDA3493FA2D3FF6"
+			tasks: [{
+				id: "23B3829AE3928782"
+				item: {
+					Count: 1
+					id: "tarotcards:strength"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -4.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["6F88E71B19B7ECDD"]
+			id: "0A5D6F58A40B6334"
+			tasks: [{
+				id: "184F21F8328A4D8D"
+				item: {
+					Count: 1
+					id: "tarotcards:the_hermit"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["5B0B5E3C2161F54A"]
+			id: "76DA6B693C6A3E3B"
+			tasks: [{
+				id: "0C9D68D23DDEA006"
+				item: {
+					Count: 1
+					id: "tarotcards:justice"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -6.0d
+			y: 10.0d
+		}
+		{
+			dependencies: [
+				"6FF7A66374867F93"
+				"02D7A9F9DDBE3DC1"
+			]
+			id: "6BB0606A0DA7CB30"
+			tasks: [{
+				id: "7F4E06E93CA89E64"
+				item: {
+					Count: 1
+					id: "tarotcards:wheel_of_fortune"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -2.0d
 			y: 11.5d
+		}
+		{
+			dependencies: [
+				"0A4A739C5CD28009"
+				"02D7A9F9DDBE3DC1"
+			]
+			id: "25DE171013EA126D"
+			tasks: [{
+				id: "7775FE2814B5876F"
+				item: {
+					Count: 1
+					id: "tarotcards:the_hanged_man"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -7.0d
+			y: 11.5d
+		}
+		{
+			dependencies: [
+				"5226AA64583CA66A"
+				"077158435CA56B2A"
+			]
+			id: "7C3FC68A8978DC73"
+			tasks: [{
+				id: "3B3CEC1746B782D8"
+				item: {
+					Count: 1
+					id: "tarotcards:death"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: 13.0d
+		}
+		{
+			dependencies: ["6B3ED58A8524C155"]
+			id: "26A9F27AEA387F9C"
+			tasks: [{
+				id: "318ADBC635219D34"
+				item: {
+					Count: 1
+					id: "tarotcards:the_devil"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -6.0d
+			y: 13.0d
+		}
+		{
+			dependencies: [
+				"71927B345C071FE9"
+				"0E14C3C2F176E7F4"
+				"5D27958F5E0DCAE2"
+			]
+			id: "27CD5945992F484F"
+			tasks: [{
+				id: "735CD7F867C90800"
+				item: {
+					Count: 1
+					id: "tarotcards:temperance"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -4.5d
+			y: 14.0d
+		}
+		{
+			dependencies: ["26F86CA1E284DF38"]
+			id: "0A4A739C5CD28009"
+			tasks: [{
+				id: "290F9C6D739E715E"
+				item: "create:shadow_steel"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["26F86CA1E284DF38"]
+			id: "6FF7A66374867F93"
+			tasks: [{
+				id: "49C271E866361833"
+				item: "create:refined_radiance"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["1ECB91385A758E05"]
+			id: "26F86CA1E284DF38"
+			tasks: [{
+				id: "177BC18C0F61316A"
+				item: "rainbowcompound:strange_colored_ingot"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["1ECB91385A758E05"]
+			id: "02D7A9F9DDBE3DC1"
+			tasks: [{
+				id: "05D3000552E438C0"
+				item: "enderio:prescient_crystal"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["1ECB91385A758E05"]
+			id: "71927B345C071FE9"
+			tasks: [{
+				id: "52073834A6847AB5"
+				item: "kubejs:stable_vibrant_fluix_bucket"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 15.5d
+		}
+		{
+			dependencies: ["1ECB91385A758E05"]
+			id: "0E14C3C2F176E7F4"
+			tasks: [{
+				id: "7EB620F5DF7CDB44"
+				item: "ae2:singularity"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 15.0d
+		}
+		{
+			dependencies: ["1ECB91385A758E05"]
+			id: "5D27958F5E0DCAE2"
+			tasks: [{
+				id: "7A13869D27ED6442"
+				item: "mekanism:teleportation_core"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 15.0d
+		}
+		{
+			dependencies: ["1ECB91385A758E05"]
+			id: "6F88E71B19B7ECDD"
+			tasks: [{
+				id: "0039D3E14CD763BB"
+				item: "ae2:charger"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["1ECB91385A758E05"]
+			id: "5B0B5E3C2161F54A"
+			tasks: [{
+				id: "4560EDAE6104106E"
+				item: "mekanism:chemical_crystallizer"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["1ECB91385A758E05"]
+			id: "6B3ED58A8524C155"
+			tasks: [{
+				id: "3038B56E8670E20D"
+				item: "mekanism:osmium_compressor"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["1ECB91385A758E05"]
+			id: "077158435CA56B2A"
+			tasks: [{
+				id: "0750C4CB6CD7439D"
+				item: "goety:unholy_blood"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 12.0d
 		}
 	]
 	title: "抵达根源之路"

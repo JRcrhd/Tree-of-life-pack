@@ -511,7 +511,7 @@
 				item: "mekanism:purification_chamber"
 				type: "item"
 			}]
-			x: -6.0d
+			x: -5.0d
 			y: 14.0d
 		}
 		{
@@ -604,7 +604,7 @@
 				item: "mekanism:chemical_dissolution_chamber"
 				type: "item"
 			}]
-			x: -9.0d
+			x: -8.0d
 			y: 18.0d
 		}
 		{
@@ -618,7 +618,7 @@
 				item: "mekanism:chemical_washer"
 				type: "item"
 			}]
-			x: -8.0d
+			x: -7.0d
 			y: 18.0d
 		}
 		{
@@ -632,7 +632,7 @@
 				item: "mekanism:chemical_crystallizer"
 				type: "item"
 			}]
-			x: -7.0d
+			x: -6.0d
 			y: 18.0d
 		}
 		{
@@ -669,7 +669,7 @@
 				item: "mekanism:isotopic_centrifuge"
 				type: "item"
 			}]
-			x: -5.0d
+			x: -4.0d
 			y: 18.0d
 		}
 		{

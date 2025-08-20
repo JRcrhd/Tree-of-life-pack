@@ -3127,6 +3127,17 @@
 			x: -4.0d
 			y: 0.0d
 		}
+		{
+			dependencies: ["4A029E5E974A8A8C"]
+			id: "56BB435B9B0F68C0"
+			tasks: [{
+				id: "29A0FF7CF982EB0E"
+				item: "kubejs:magical_polonium"
+				type: "item"
+			}]
+			x: -9.5d
+			y: 3.5d
+		}
 	]
 	title: "赫菲斯托斯的锻造"
 }

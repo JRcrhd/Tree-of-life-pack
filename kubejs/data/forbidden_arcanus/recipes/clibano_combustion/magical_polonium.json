@@ -1,0 +1,16 @@
+{
+  "type": "forbidden_arcanus:clibano_combustion",
+  "cooking_time": 200,
+  "experience": 0.5,
+  "ingredient": {
+    "item": "mekanism:pellet_polonium"
+  },
+  "residue": {
+    "chance": 0.1,
+    "name": "emerald"
+  },
+  "result": {
+    "item": "kubejs:magical_polonium",
+    "count": 1
+  }
+}

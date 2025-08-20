@@ -78,6 +78,224 @@ ServerEvents.recipes(treeoflife => {
 		}
 	);
 
+	treeoflife.recipes.create.mixing(
+        [
+            Fluid.of('kubejs:witch_fluid')
+        ], 
+        [
+            'goety:cursed_ingot',
+            '4x create:experience_nugget',
+            'minecraft:nautilus_shell',
+            '4x #forge:nuggets/zinc'
+        ]
+    );
+
+    treeoflife.custom({
+        "type": "createdieselgenerators:basin_fermenting",
+        "ingredients": [
+            {
+                "item": "create_aquatic_ambitions:prismarine_alloy",
+                "count":2
+            },
+            {
+                "item": "createutilities:polished_amethyst"
+            },
+            {
+                "tag": "forge:gems/lapis",
+                "count":3
+            },
+            {
+                "item": "create:pulp"
+            },
+            {
+                "fluid": "createdieselgenerators:crude_oil",
+                "amount": 500
+            }
+        ],
+        "processingTime": 400,
+        "results": [
+            {
+                "fluid": "kubejs:current_fluid",
+                "amount": 2000
+            }
+        ]
+    });
+
+    treeoflife.custom({
+        "type": "createdieselgenerators:basin_fermenting",
+        "ingredients": [
+            {
+                "item": "create_aquatic_ambitions:prismarine_alloy",
+                "count":2
+            },
+            {
+                "item": "createutilities:polished_amethyst"
+            },
+            {
+                "tag": "forge:gems/lapis",
+                "count":3
+            },
+            {
+                "item": "create:pulp"
+            },
+            {
+                "fluid": "pneumaticcraft:oil",
+                "amount": 500
+            }
+        ],
+        "processingTime": 400,
+        "results": [
+            {
+                "fluid": "kubejs:current_fluid",
+                "amount": 2000
+            }
+        ]
+    });
+
+    treeoflife.custom({
+        "type": "createdieselgenerators:basin_fermenting",
+        "ingredients": [
+            {
+                "item": "create_aquatic_ambitions:prismarine_alloy",
+                "count":2
+            },
+            {
+                "item": "createutilities:polished_amethyst"
+            },
+            {
+                "tag": "forge:gems/lapis",
+                "count":3
+            },
+            {
+                "item": "create:pulp"
+            },
+            {
+                "fluid": "destroy:crude_oil",
+                "amount": 500
+            }
+        ],
+        "processingTime": 400,
+        "results": [
+            {
+                "fluid": "kubejs:current_fluid",
+                "amount": 2000
+            }
+        ]
+    });
+    
+    treeoflife.recipes.create.compacting(
+        [
+            'kubejs:earth_alloy_shard',
+        ],
+        [
+            '2x minecraft:grass_block',
+            'minecraft:obsidian',
+            '#forge:ingots/nickel',
+            '#forge:ingots/lead',
+            '2x #forge:ingots/copper'
+        ]
+    )
+    .heated();
+
+treeoflife.recipes.create.compacting(
+        [
+            'kubejs:ember_alloy_shard',
+        ],
+        [
+            '2x create:cinder_flour',
+            'rainbowcompound:blazeite_ingot',
+            '#forge:nuggets/chromium',
+            '#forge:ingots/sodium'
+        ]
+    )
+    .superheated();
+
+    treeoflife.custom({
+        "type": "createdieselgenerators:distillation",
+        "ingredients": [
+            {
+                "amount": 100,
+                "fluid": "kubejs:current_fluid"
+            }
+        ],
+        "heatRequirement": "heated",
+        "processingTime": 100,
+        "results": [
+            {
+                "amount": 80,
+                "fluid": "kubejs:dim_sky_fluid"
+            },
+            {
+                "amount": 10,
+                "fluid": "kubejs:witch_fluid"
+            },
+            {
+                "amount": 2,
+                "fluid": "kubejs:sky_fluid"
+            }
+        ]
+    });
+
+    treeoflife.recipes.create.mixing(
+        [
+            Item.of('minecraft:nether_star'),
+            Fluid.of('kubejs:dark_light_fluid').withAmount(50)
+        ],
+        [
+            'minecraft:nether_star',
+            'enderio:soularium_ingot'
+        ]
+    )
+    .heated();
+
+    treeoflife.custom({
+        "type": "createdieselgenerators:distillation",
+        "ingredients": [
+            {
+                "amount": 100,
+                "fluid": "kubejs:dark_light_fluid"
+            }
+        ],
+        "heatRequirement": "heated",
+        "processingTime": 100,
+        "results": [
+            {
+                "amount": 40,
+                "fluid": "kubejs:dim_sky_fluid"
+            },
+            {
+                "amount": 20,
+                "fluid": "kubejs:current_fluid"
+            },
+            {
+                "amount": 5,
+                "fluid": "kubejs:sunlight_fluid"
+            }
+        ]
+    });
+
+    treeoflife.custom({
+        "type": "createdieselgenerators:distillation",
+        "ingredients": [
+            {
+                "amount": 100,
+                "fluid": "kubejs:dim_sky_fluid"
+            }
+        ],
+        "heatRequirement": "heated",
+        "processingTime": 100,
+        "results": [
+            {
+                "amount": 95,
+                "fluid": "kubejs:dim_sky_fluid"
+            },
+            {
+                "amount": 1,
+                "fluid": "kubejs:sky_fluid"
+            }
+        ]
+    });
+
     treeoflife.recipes.create.sequenced_assembly([
         Item.of('kubejs:dimension_alloy_overworld').withChance(1.0)
     ],'kubejs:earth_alloy_shard',[
@@ -98,6 +316,16 @@ ServerEvents.recipes(treeoflife => {
     .transitionalItem('kubejs:ember_alloy_shard')
     .loops(2);
 
+    treeoflife.recipes.create.sequenced_assembly([
+        Item.of('kubejs:dimension_alloy_the_end').withChance(1.0)
+    ],'kubejs:void_alloy_shard',[
+        treeoflife.recipes.createFilling('kubejs:void_alloy_shard',['kubejs:void_alloy_shard',Fluid.of('kubejs:void_fluid').withAmount(200)]),
+        treeoflife.recipes.createFilling('kubejs:void_alloy_shard',['kubejs:void_alloy_shard',Fluid.of('kubejs:chaos_fluid').withAmount(200)]),
+        treeoflife.recipes.createPressing('kubejs:void_alloy_shard','kubejs:void_alloy_shard')
+    ])
+    .transitionalItem('kubejs:void_alloy_shard')
+    .loops(2);
+
     treeoflife.recipes.create.mixing(
         [
             Item.of('kubejs:earth_alloy_shard').withChance(0.95),
@@ -116,9 +344,22 @@ ServerEvents.recipes(treeoflife => {
             Item.of('kubejs:alchemy_white').withChance(0.2)
         ],
         [
-            Fluid.of('kubejs:current_fluid').withAmount(10),
+            Fluid.of('kubejs:sky_fluid').withAmount(10),
             'kubejs:ember_alloy_shard',
 			'kubejs:alchemy_black'
+        ]
+    )
+    .heated();
+
+    treeoflife.recipes.create.mixing(
+        [
+            Item.of('kubejs:void_alloy_shard').withChance(0.6),
+            Item.of('kubejs:alchemy_yellow').withChance(0.4)
+        ],
+        [
+            Fluid.of('kubejs:void_fluid').withAmount(10),
+            'kubejs:void_alloy_shard',
+			'kubejs:alchemy_white'
         ]
     )
     .heated();
@@ -224,6 +465,74 @@ ServerEvents.recipes(treeoflife => {
   		"result": "tarotcards:the_sun",
   		"cookingTime": 60
 	});
+
+	treeoflife.smithing('tarotcards:strength','apotheosis:infused_breath','minecraft:dragon_egg','kubejs:empty_tarot');
+	treeoflife.smithing('tarotcards:wheel_of_fortune','create:refined_radiance','enderio:prescient_crystal','kubejs:empty_tarot');
+	treeoflife.smithing('tarotcards:the_hanged_man','create:shadow_steel','enderio:prescient_crystal','kubejs:empty_tarot');
+
+    treeoflife.custom({
+        type: "ae2:transform",
+        circumstance: {
+            type: "fluid",
+            tag: "kubejs:stable_vibrant_fluix",
+        },
+        ingredients: [
+            {
+                item: "mekanism:teleportation_core",
+            },
+            {
+                item: "ae2:singularity",
+            },
+            {
+                item: "kubejs:empty_tarot",
+            },
+        ],
+        result: {
+            count: 1,
+            item: "tarotcards:temperance",
+        },
+    });
+
+	treeoflife.custom({
+  		"type": "ae2:charger",
+  		"ingredient": {
+    		"item": "kubejs:empty_tarot"
+  		},
+  		"result": {
+    		"item": "tarotcards:the_hermit"
+  		}
+	});
+
+	treeoflife.shaped('tarotcards:justice',[
+		'AAA',
+		'AXA',
+		'AAA'
+	],{
+		X: 'kubejs:empty_tarot',
+		A: '#mekanism:crystals'
+	});
+
+    treeoflife.custom({
+        type: "mekanism:compressing",
+        chemicalInput: { amount: 10, gas: "mekanism:spent_nuclear_waste" },
+        itemInput: { ingredient: { item: "kubejs:empty_tarot" } },
+        output: { item: "tarotcards:the_devil" },
+    });
+
+    treeoflife.recipes.create.sequenced_assembly([
+        Item.of('tarotcards:death').withChance(25),
+		Item.of('goety:unholy_blood').withChance(5)
+    ],'kubejs:empty_tarot',[
+		treeoflife.recipes.createDeploying('kubejs:empty_tarot', ['kubejs:empty_tarot', 'goety:unholy_blood']),
+        treeoflife.recipes.createFilling('kubejs:empty_tarot',['kubejs:empty_tarot',Fluid.of('kubejs:chaos_fluid').withAmount(50)]),
+        treeoflife.recipes.createPressing('kubejs:empty_tarot','kubejs:empty_tarot'),
+        treeoflife.recipes.createFilling('kubejs:empty_tarot',['kubejs:empty_tarot',Fluid.of('kubejs:chaos_fluid').withAmount(50)]),
+        treeoflife.recipes.createPressing('kubejs:empty_tarot','kubejs:empty_tarot'),
+        treeoflife.recipes.createFilling('kubejs:empty_tarot',['kubejs:empty_tarot',Fluid.of('kubejs:chaos_fluid').withAmount(50)]),
+        treeoflife.recipes.createPressing('kubejs:empty_tarot','kubejs:empty_tarot')
+    ])
+    .transitionalItem('kubejs:empty_tarot')
+    .loops(1);
 
     treeoflife.custom({
         "type": "createdieselgenerators:distillation",

@@ -42,6 +42,8 @@ StartupEvents.registry('item', treeoflife => {
     treeoflife.create('ember_alloy_shard').displayName('余烬合金残片').texture('kubejs:item/tech/ember_alloy');
     treeoflife.create('void_alloy_shard').displayName('虚空合金残片').texture('kubejs:item/tech/void_alloy');
     treeoflife.create('sun_alloy_shard').displayName('光芒合金残片').texture('kubejs:item/tech/sun_alloy');
+
+    treeoflife.create('magical_polonium').displayName('注魔钋').glow(true).texture('mekanism:item/pellet_polonium');
 });
 
 StartupEvents.registry('fluid', treeoflife => {
@@ -94,10 +96,16 @@ StartupEvents.registry('fluid', treeoflife => {
         .temperature(200);
 
     treeoflife.create('void_fluid')
-        .thinTexture(0xFFFDFF)
-        .bucketColor(0xFFFDFF)
+        .thinTexture(0x561232)
+        .bucketColor(0x561232)
         .displayName('虚空流体')
         .temperature(1);
+
+    treeoflife.create('chaos_fluid')
+        .thickTexture(0x941012)
+        .bucketColor(0x941012)
+        .displayName('混沌流体')
+        .temperature(1500);
 
     treeoflife.create('molten_end_steel')
         .thickTexture(0xF0E68C)
@@ -144,4 +152,5 @@ StartupEvents.registry('fluid', treeoflife => {
         .displayName('稳定谐振福鲁伊克斯')
         .temperature(250);
 
+    
 });

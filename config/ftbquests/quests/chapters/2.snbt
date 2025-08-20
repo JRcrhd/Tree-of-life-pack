@@ -2086,6 +2086,17 @@
 			x: -0.5d
 			y: 7.0d
 		}
+		{
+			dependencies: ["41B2A4AE341EB84C"]
+			id: "190843F6B880ACB6"
+			tasks: [{
+				id: "7FB8F663285A590A"
+				item: "enderio:prescient_crystal"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 10.5d
+		}
 	]
 	title: "2、蒸汽时代"
 }
