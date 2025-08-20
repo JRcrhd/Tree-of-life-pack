@@ -57,5 +57,7 @@ StartupEvents.registry('mekanism:gas', treeoflife => {
     treeoflife.createCustom(`clear_water_tier_2_vapor`, () => $Gas($GasBuilder.builder()));
     treeoflife.createCustom(`vibrant_fluix_gas`, () => $Gas($GasBuilder.builder()));
     treeoflife.createCustom(`stable_vibrant_fluix_gas`, () => $Gas($GasBuilder.builder()));
+    treeoflife.createCustom(`chaos_gas`, () => $Gas($GasBuilder.builder()));
+    treeoflife.createCustom(`magicless_dragon_egg_gas`, () => $Gas($GasBuilder.builder()));
     treeoflife.createCustom(`god_essence`, () => $Gas($GasBuilder.builder()));
 });

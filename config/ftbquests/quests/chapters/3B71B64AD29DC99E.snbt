@@ -621,6 +621,12 @@
 			y: 15.5d
 		}
 		{
+			dependencies: [
+				"090E91BE6E0FEB3E"
+				"044260E4FDAAD7CA"
+				"7DF2B8ADD85FDE49"
+				"2B01D5E86228D7EE"
+			]
 			id: "1FCF9DDCDE1A7152"
 			tasks: [{
 				id: "29E8487582D83EEE"
@@ -631,6 +637,10 @@
 			y: 13.0d
 		}
 		{
+			dependencies: [
+				"2D547848D21B8F29"
+				"2B01D5E86228D7EE"
+			]
 			id: "382D5B3443935DB3"
 			tasks: [{
 				id: "5E93B1C2D59340E5"
@@ -641,6 +651,7 @@
 			y: 13.0d
 		}
 		{
+			dependencies: ["6710A742DE0D2CF9"]
 			id: "5226AA64583CA66A"
 			tasks: [{
 				id: "33141C541FEE7733"
@@ -658,7 +669,7 @@
 				item: "minecraft:dragon_breath"
 				type: "item"
 			}]
-			x: 1.0d
+			x: 6.0d
 			y: 9.0d
 		}
 		{
@@ -669,7 +680,7 @@
 				item: "minecraft:dragon_egg"
 				type: "item"
 			}]
-			x: -1.0d
+			x: 0.0d
 			y: 9.0d
 		}
 		{
@@ -925,6 +936,99 @@
 			}]
 			x: -1.0d
 			y: 12.0d
+		}
+		{
+			dependencies: ["491BE3087B422864"]
+			id: "31912CE35B4EDF2B"
+			tasks: [{
+				id: "096287E164261ABB"
+				item: "kubejs:empty_dragon_egg"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["491BE3087B422864"]
+			id: "7EF47574CDC028C5"
+			tasks: [{
+				id: "39D005A92709515C"
+				item: "kubejs:dragon_egg_fluid_bucket"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["7EF47574CDC028C5"]
+			id: "6710A742DE0D2CF9"
+			tasks: [{
+				id: "4191F5C5CC7288B9"
+				item: "mekanism:electrolytic_separator"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["6710A742DE0D2CF9"]
+			description: ["可循环。"]
+			id: "5C4373AA131628DD"
+			subtitle: "recycle"
+			tasks: [{
+				id: "5B7A6EC00AAD6EB2"
+				item: "kubejs:magicless_dragon_egg_fluid_bucket"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["1ECB91385A758E05"]
+			id: "044260E4FDAAD7CA"
+			tasks: [{
+				id: "54C2BD98331C3FCC"
+				item: "ae2:sky_dust"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["1ECB91385A758E05"]
+			id: "090E91BE6E0FEB3E"
+			tasks: [{
+				id: "1707308622951F59"
+				item: "occultism:crushed_end_stone"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 9.0d
+		}
+		{
+			dependencies: [
+				"1ECB91385A758E05"
+				"28C4630E24A52E08"
+			]
+			id: "7DF2B8ADD85FDE49"
+			tasks: [{
+				id: "3E056B2837D592B6"
+				item: "mekanism:reprocessed_fissile_fragment"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["1ECB91385A758E05"]
+			id: "28C4630E24A52E08"
+			tasks: [{
+				id: "1CD1FB81BD095A32"
+				item: "mekanism:pellet_plutonium"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 9.0d
 		}
 	]
 	title: "抵达根源之路"

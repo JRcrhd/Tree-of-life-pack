@@ -1,5 +1,9 @@
 const $BuiltInRegistries = Java.loadClass("net.minecraft.core.registries.BuiltInRegistries")
 
+StartupEvents.registry('block', treeoflife => { 
+    treeoflife.create('empty_dragon_egg').displayName('空龙蛋').requiresTool(true).stoneSoundType().model('kubejs:block/empty_dragon_egg');
+});
+
 StartupEvents.registry('item', treeoflife => {
     treeoflife.create('point_malkuth').displayName('王国——Malkuth').glow(true).texture('kubejs:item/point/malkuth').tag('treeoflife:point');
     treeoflife.create('point_yesod').displayName('基础——Yesod').glow(true).texture('kubejs:item/point/yesod').tag('treeoflife:point');
@@ -152,5 +156,21 @@ StartupEvents.registry('fluid', treeoflife => {
         .displayName('稳定谐振福鲁伊克斯')
         .temperature(250);
 
-    
+    treeoflife.create('dragon_egg_fluid')
+        .thickTexture(0x542054)
+        .bucketColor(0x542054)
+        .displayName('龙蛋液')
+        .temperature(300);
+
+    treeoflife.create('magicless_dragon_egg_fluid')
+        .thickTexture(0x340034)
+        .bucketColor(0x340034)
+        .displayName('祛魔龙蛋液')
+        .temperature(290);
+
+    treeoflife.create('dragon_breath')
+        .thickTexture(0xA470A4)
+        .bucketColor(0xA470A4)
+        .displayName('龙息')
+        .temperature(300);
 });
