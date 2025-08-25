@@ -1,5 +1,6 @@
 ServerEvents.recipes(treeoflife => {
 	treeoflife.remove({id: "projecte:philosophers_stone_alt"});
+	treeoflife.remove({id: "projecte:philosophers_stone"});
 	treeoflife.remove({id: "projecte:dark_matter"});
 	treeoflife.remove({id: "projecte:klein_star_ein"});
 	treeoflife.remove({id: "projecte:low_covalence_dust"});

@@ -704,6 +704,28 @@ ServerEvents.recipes(treeoflife => {
         ]
     });
 
+    treeoflife.remove({id: "mekanism_extras:control_circuit/absolute"});
+
+    treeoflife.replaceInput({ id: "mekanism:sps_port"}
+        , "#forge:circuits/ultimate"
+        , "#forge:circuits/absolute"
+    );
+
+    treeoflife.remove({id: "mekanism_extras:control_circuit/supreme"});
+
+    treeoflife.replaceInput({ id: "mekanism:antiprotonic_nucleosynthesizer"}
+        , "#forge:circuits/ultimate"
+        , "#forge:circuits/supreme"
+    );
+
+    treeoflife.replaceInput({ id: "mekanism:antiprotonic_nucleosynthesizer"}
+        , "#mekanism:alloys/atomic"
+        , "#mekanism_extras:alloys/thermonuclear"
+    );
+
+    treeoflife.remove({id: "mekanism_extras:control_circuit/cosmic"});
+    treeoflife.remove({id: "mekanism_extras:control_circuit/infinity"});
+
 })
 
 LootJS.modifiers((treeoflife) => {

@@ -8,15 +8,136 @@
 	id: "33006A281D8B649A"
 	order_index: 3
 	quest_links: [ ]
-	quests: [{
-		dependencies: ["272A14B5396B17A5"]
-		id: "2B47BD454153FE6B"
-		tasks: [{
-			id: "52A3EE937682DC00"
-			type: "checkmark"
-		}]
-		x: 0.0d
-		y: 0.0d
-	}]
+	quests: [
+		{
+			dependencies: ["272A14B5396B17A5"]
+			id: "2B47BD454153FE6B"
+			tasks: [{
+				id: "52A3EE937682DC00"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "70555823E0F5BA41"
+			shape: "diamond"
+			size: 1.2d
+			tasks: [{
+				id: "4F2AC67665E6CBEC"
+				item: "projecte:dark_matter"
+				type: "item"
+			}]
+			x: 8.4d
+			y: 4.8d
+		}
+		{
+			id: "33727E58858CF62C"
+			shape: "diamond"
+			size: 1.2d
+			tasks: [{
+				id: "0A5806E11D4E64BF"
+				item: "projecte:red_matter"
+				type: "item"
+			}]
+			x: 8.4d
+			y: 9.6d
+		}
+		{
+			id: "3531774909E1F06A"
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "3A417B18874C7878"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: { }
+					}
+					id: "projecte:philosophers_stone"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 8.4d
+			y: 15.0d
+		}
+		{
+			id: "3B5F9CEB6F5B4C54"
+			tasks: [{
+				id: "5AD888952AAB769A"
+				item: "mekanism_extras:absolute_control_circuit"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 4.5d
+		}
+		{
+			id: "4CE5C0DCB46C8D64"
+			tasks: [{
+				id: "29DD03184D2A11BE"
+				item: "mekanism_extras:supreme_control_circuit"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 8.5d
+		}
+		{
+			id: "1325C5CB3BA46DE2"
+			tasks: [{
+				id: "72439BB3224BC62A"
+				item: "mekanism_extras:cosmic_control_circuit"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 12.5d
+		}
+		{
+			id: "5B76E220CC24BAA9"
+			tasks: [{
+				id: "38DBA56C45B10E95"
+				item: "mekanism_extras:infinite_control_circuit"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 16.5d
+		}
+		{
+			dependencies: ["3B5F9CEB6F5B4C54"]
+			id: "62F87153C9ECFDAF"
+			tasks: [{
+				id: "258A8B559346BDF7"
+				item: "mekanism:sps_port"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 6.5d
+		}
+		{
+			dependencies: [
+				"4CE5C0DCB46C8D64"
+				"277F88179B13589D"
+			]
+			id: "7614F7AEAF4AFAAC"
+			tasks: [{
+				id: "6BE714E6EA650403"
+				item: "mekanism:antiprotonic_nucleosynthesizer"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["62F87153C9ECFDAF"]
+			id: "277F88179B13589D"
+			tasks: [{
+				id: "2C41A22E99ED8E5E"
+				item: "mekanism:pellet_antimatter"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 8.5d
+		}
+	]
 	title: "4、信息时代"
 }
