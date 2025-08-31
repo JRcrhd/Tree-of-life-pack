@@ -28,8 +28,8 @@
 				item: "projecte:dark_matter"
 				type: "item"
 			}]
-			x: 8.4d
-			y: 4.8d
+			x: 1.2892857142857252d
+			y: 8.567857142857136d
 		}
 		{
 			id: "33727E58858CF62C"
@@ -40,8 +40,8 @@
 				item: "projecte:red_matter"
 				type: "item"
 			}]
-			x: 8.4d
-			y: 9.6d
+			x: 1.2d
+			y: 14.399999999999999d
 		}
 		{
 			id: "3531774909E1F06A"
@@ -59,8 +59,8 @@
 				}
 				type: "item"
 			}]
-			x: 8.4d
-			y: 15.0d
+			x: 1.2892857142857252d
+			y: 18.76785714285714d
 		}
 		{
 			id: "3B5F9CEB6F5B4C54"
@@ -137,6 +137,27 @@
 			}]
 			x: -0.5d
 			y: 8.5d
+		}
+		{
+			icon: "aether:aether_portal_frame"
+			id: "4E39E5B11085C44B"
+			tasks: [{
+				dimension: "aether:the_aether"
+				id: "41590F36F7E3DAFD"
+				type: "dimension"
+			}]
+			x: 7.0d
+			y: 4.5d
+		}
+		{
+			id: "0ED6789F097F578F"
+			tasks: [{
+				id: "6065EE954F0F08E2"
+				item: "kubejs:emerald_tablet"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 16.5d
 		}
 	]
 	title: "4、信息时代"

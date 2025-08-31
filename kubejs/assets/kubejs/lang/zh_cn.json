@@ -1,0 +1,72 @@
+{
+    "kubejs.gameinfo.modpack.name": "Tree of Life",
+    "kubejs.item.holy_potion": "圣灵药",
+    
+    "block.kubejs.empty_dragon_egg": "空龙蛋",
+    
+    "item.kubejs.point_malkuth": "王国——Malkuth",
+    "item.kubejs.point_yesod": "基础——Yesod",
+    "item.kubejs.point_netzach": "永恒——Netzach",
+    "item.kubejs.point_hod": "荣耀——Hod",
+    "item.kubejs.point_tiphareth": "美丽——Tiphareth",
+    "item.kubejs.point_chesed": "慈悲——Chesed",
+    "item.kubejs.point_geburah": "严厉——Geburah",
+    "item.kubejs.point_chokmah": "智慧——Chokmah",
+    "item.kubejs.point_binah": "理解——Binah",
+    "item.kubejs.point_kether": "王冠——Kether",
+    
+    "item.kubejs.template_assiah": "Assiah晋升模板",
+    "item.kubejs.template_yetzirah": "Yetzirah晋升模板",
+    "item.kubejs.template_beriah": "Beriah晋升模板",
+    "item.kubejs.template_atziluth": "Atziluth晋升模板",
+    
+    "item.kubejs.dimension_alloy_overworld": "主世界维度合金",
+    "item.kubejs.dimension_alloy_nether": "下界维度合金",
+    "item.kubejs.dimension_alloy_the_end": "末地维度合金",
+    "item.kubejs.dimension_alloy_aether": "以太维度合金",
+    
+    "item.kubejs.alchemy": "炼金",
+    "item.kubejs.clairvoyance": "通灵",
+    "item.kubejs.divination": "占卜",
+    
+    "item.kubejs.emerald_tablet": "§2§l《翠玉录》§r",
+    "item.kubejs.emerald_tablet_piece_1": "§2石板碎片—1§r",
+    "item.kubejs.emerald_tablet_piece_2": "§2石板碎片—2§r",
+    "item.kubejs.emerald_tablet_piece_3": "§2石板碎片—3§r",
+    "item.kubejs.empty_tarot": "空塔罗牌",
+    
+    "item.kubejs.alchemy_black": "黑化",
+    "item.kubejs.alchemy_white": "白化",
+    "item.kubejs.alchemy_yellow": "黄化",
+    "item.kubejs.alchemy_red": "赤化",
+    "item.kubejs.alchemy_in_phi": "未完工的贤者之石",
+    
+    "item.kubejs.earth_alloy_shard": "大地合金残片",
+    "item.kubejs.ember_alloy_shard": "余烬合金残片",
+    "item.kubejs.void_alloy_shard": "虚空合金残片",
+    "item.kubejs.sun_alloy_shard": "光芒合金残片",
+    
+    "item.kubejs.magical_polonium": "注魔钋",
+    
+    "fluid.kubejs.sky_fluid": "天空流体",
+    "fluid.kubejs.witch_fluid": "巫术流体",
+    "fluid.kubejs.dim_sky_fluid": "暗淡的天空流体",
+    "fluid.kubejs.current_fluid": "微缩洋流",
+    "fluid.kubejs.sunlight_fluid": "日光",
+    "fluid.kubejs.molten_obsidian": "熔融黑曜石",
+    "fluid.kubejs.molten_dark_steel": "熔融玄钢",
+    "fluid.kubejs.dark_light_fluid": "暗光",
+    "fluid.kubejs.void_fluid": "虚空流体",
+    "fluid.kubejs.chaos_fluid": "混沌流体",
+    "fluid.kubejs.molten_end_steel": "熔融末地钢",
+    "fluid.kubejs.aether_fluid": "以太流体",
+    "fluid.kubejs.root_fluid": "根源流体",
+    "fluid.kubejs.clear_water_tier_1": "1级净化水",
+    "fluid.kubejs.clear_water_tier_2": "2级净化水",
+    "fluid.kubejs.clear_water_tier_3": "3级净化水",
+    "fluid.kubejs.vibrant_fluix": "谐振福鲁伊克斯",
+    "fluid.kubejs.stable_vibrant_fluix": "稳定谐振福鲁伊克斯",
+    "fluid.kubejs.dragon_egg_fluid": "龙蛋液",
+    "fluid.kubejs.magicless_dragon_egg_fluid": "祛魔龙蛋液",
+    "fluid.kubejs.dragon_breath": "龙息"
+}

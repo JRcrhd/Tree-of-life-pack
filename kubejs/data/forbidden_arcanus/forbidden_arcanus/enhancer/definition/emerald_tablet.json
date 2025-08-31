@@ -1,0 +1,9 @@
+{
+  "description": {
+    "hephaestus_forge": {
+      "translate": "item.forbidden_arcanus.enhancer.emerald_tablet.hephaestus_forge"
+    }
+  },
+  "effects": [],
+  "item": "kubejs:emerald_tablet"
+}

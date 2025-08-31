@@ -3,7 +3,8 @@
     "enhancers": [
       "forbidden_arcanus:elementarium",
       "forbidden_arcanus:maledictus_pact",
-      "forbidden_arcanus:divine_pact"
+      "forbidden_arcanus:divine_pact",
+      "forbidden_arcanus:emerald_tablet"
     ],
     "forge_tier": 5
   },

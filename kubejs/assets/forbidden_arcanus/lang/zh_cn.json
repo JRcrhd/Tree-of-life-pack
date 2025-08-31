@@ -322,6 +322,7 @@
   "item.forbidden_arcanus.smithing_template.darkstone_upgrade.applies_to": "装备",
   "item.forbidden_arcanus.smithing_template.darkstone_upgrade.base_slot_description": "放入盔甲、武器或工具。",
   "item.forbidden_arcanus.smithing_template.darkstone_upgrade.ingredients": "强化物品",
+  "item.forbidden_arcanus.enhancer.emerald_tablet.hephaestus_forge": "赫尔墨斯的锻造",
   "upgrade.forbidden_arcanus.darkstone_upgrade": "应用物品强化",
   "comment.tooltips": "---Tooltips---",
   "tooltip.forbidden_arcanus.forbiddenmicon": "这本《禁忌之书》尚无法阅读",
