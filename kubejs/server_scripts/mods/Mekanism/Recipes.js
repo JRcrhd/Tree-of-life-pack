@@ -286,4 +286,22 @@ ServerEvents.recipes((treeoflife) => {
             item: "mekanismgenerators:control_rod_assembly",
         },
     });
+
+    treeoflife.replaceInput(
+        { id: "mekanismgenerators:reactor/port" },
+        "#forge:circuits/ultimate",
+        "#forge:circuits/absolute"
+    );
+
+    treeoflife.replaceInput(
+        { id: "mekanismgenerators:reactor/controller" },
+        "#forge:circuits/ultimate",
+        "#forge:circuits/absolute"
+    );
+
+    treeoflife.replaceInput(
+        { id: "mekanismgenerators:reactor/frame" },
+        "#mekanism:alloys/atomic",
+        "#mekanism_extras:alloys/radiance"
+    );
 });
