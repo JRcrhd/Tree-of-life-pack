@@ -47,6 +47,7 @@ StartupEvents.registry('item', treeoflife => {
     treeoflife.create('void_alloy_shard').texture('kubejs:item/tech/void_alloy');
     treeoflife.create('sun_alloy_shard').texture('kubejs:item/tech/sun_alloy');
 
+    treeoflife.create('polonium_plate').glow(true).texture('kubejs:item/polonium_plate');
     treeoflife.create('magical_polonium').glow(true).texture('mekanism:item/pellet_polonium');
 
     treeoflife.create('holy_potion').texture('kubejs:item/holy_potion').maxStackSize(1)
@@ -68,123 +69,107 @@ StartupEvents.registry('fluid', treeoflife => {
     treeoflife.create('sky_fluid')
         .thinTexture(0x67E0D4)
         .bucketColor(0x67E0D4)
-
         .temperature(280);
 
     treeoflife.create('witch_fluid')
         .thickTexture(0x090136)
         .bucketColor(0x090136)
-
         .temperature(330);
 
     treeoflife.create('dim_sky_fluid')
         .thinTexture(0x3087C2)
         .bucketColor(0x3087C2)
-
         .temperature(290);
 
     treeoflife.create('current_fluid')
         .thickTexture(0x072F4A)
         .bucketColor(0x072F4A)
-
         .temperature(300);
 
     treeoflife.create('sunlight_fluid')
         .thinTexture(0xFFF838)
         .bucketColor(0xFFF838)
-
         .temperature(320);
     
     treeoflife.create('molten_obsidian')
         .thickTexture(0x311140)
         .bucketColor(0x311140)
-
         .temperature(2000);
 
     treeoflife.create('molten_dark_steel')
         .thickTexture(0x000E2B)
         .bucketColor(0x000E2B)
-
         .temperature(1200);
 
     treeoflife.create('dark_light_fluid')
         .thinTexture(0x981232)
         .bucketColor(0x981232)
-
         .temperature(200);
 
     treeoflife.create('void_fluid')
         .thinTexture(0x561232)
         .bucketColor(0x561232)
-
         .temperature(1);
 
     treeoflife.create('chaos_fluid')
         .thickTexture(0x941012)
         .bucketColor(0x941012)
-
         .temperature(1500);
 
     treeoflife.create('molten_end_steel')
         .thickTexture(0xF0E68C)
         .bucketColor(0xF0E68C)
-
         .temperature(3000);
 
     treeoflife.create('aether_fluid')
         .thinTexture(0xAAAAAA)
         .bucketColor(0xAAAAAA)
-
         .temperature(0.1);
 
     treeoflife.create('root_fluid')
         .thinTexture(0xFFFFFF)
         .bucketColor(0xFFFFFF)
-
         .temperature(10000);
 
     treeoflife.create('clear_water_tier_1')
         .thinTexture(0x4C46FF)
         .bucketColor(0x4C46FF)
 
-
     treeoflife.create('clear_water_tier_2')
         .thinTexture(0x928EFF)
         .bucketColor(0x928EFF)
-
 
     treeoflife.create('clear_water_tier_3')
         .thinTexture(0xA29EEF)
         .bucketColor(0xA29EEF)
 
-
     treeoflife.create('vibrant_fluix')
         .thickTexture(0x8A2BE2)
         .bucketColor(0x8A2BE2)
-
         .temperature(400);
 
     treeoflife.create('stable_vibrant_fluix')
         .thickTexture(0x4B0082)
         .bucketColor(0x4B0082)
-
         .temperature(250);
 
     treeoflife.create('dragon_egg_fluid')
         .thickTexture(0x542054)
         .bucketColor(0x542054)
-
         .temperature(300);
 
     treeoflife.create('magicless_dragon_egg_fluid')
         .thickTexture(0x340034)
         .bucketColor(0x340034)
-
         .temperature(290);
 
     treeoflife.create('dragon_breath')
         .thickTexture(0xA470A4)
         .bucketColor(0xA470A4)
-
         .temperature(300);
+
+    treeoflife.create('molten_ambrosium')
+        .thickTexture(0xDDCCAA)
+        .bucketColor(0xDDCCAA)
+        .temperature(2000);
 });

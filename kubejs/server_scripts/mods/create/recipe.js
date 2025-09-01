@@ -235,6 +235,23 @@ ServerEvents.recipes(treeoflife => {
             "item": "enderio:end_steel_ingot"
         }
     });
+
+    treeoflife.custom({
+        "type": "createmetallurgy:melting",
+        "heatRequirement": "heated",
+        "ingredients": [
+            {
+                "item": "aether:ambrosium_shard"
+            }
+        ],
+        "processingTime": 40,
+        "results": [
+            {
+                "amount": 90,
+                "fluid": "kubejs:molten_ambrosium"
+            }
+        ]
+    });
 })
 
 LootJS.modifiers((treeoflife) => {

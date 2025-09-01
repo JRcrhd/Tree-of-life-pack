@@ -304,4 +304,57 @@ ServerEvents.recipes((treeoflife) => {
         "#mekanism:alloys/atomic",
         "#mekanism_extras:alloys/radiance"
     );
+
+    treeoflife.recipes.create.pressing('kubejs:polonium_plate', '#forge:pellets/polonium')
+
+    treeoflife.remove({id: "mekanism_extras:control_circuit/absolute"});
+    treeoflife.recipes.create
+        .sequenced_assembly(
+            [
+                Item.of("mekanism_extras:absolute_control_circuit")
+                    .withCount(2)
+            ],
+            "kubejs:polonium_plate",
+            [
+                treeoflife.recipes.createPressing(
+                    "kubejs:polonium_plate",
+                    "kubejs:polonium_plate"
+                ),
+                treeoflife.recipes.createDeploying("kubejs:polonium_plate", [
+                    "kubejs:polonium_plate",
+                    "#forge:circuits/ultimate",
+                ]),
+                treeoflife.recipes.createFilling("kubejs:polonium_plate", [
+                    "kubejs:polonium_plate",
+                    Fluid.of("kubejs:molten_ambrosium").withAmount(90)
+                ]),
+                treeoflife.recipes.createDeploying("kubejs:polonium_plate", [
+                    "kubejs:polonium_plate",
+                    "#mekanism_extras:alloys/radiance",
+                ]),
+            ]
+        )
+        .transitionalItem("kubejs:polonium_plate")
+        .loops(2);
+
+    treeoflife.replaceInput({ id: "mekanism:sps_port"}
+        , "#forge:circuits/ultimate"
+        , "#forge:circuits/absolute"
+    );
+
+    treeoflife.remove({id: "mekanism_extras:control_circuit/supreme"});
+
+    treeoflife.replaceInput({ id: "mekanism:antiprotonic_nucleosynthesizer"}
+        , "#forge:circuits/ultimate"
+        , "#forge:circuits/supreme"
+    );
+
+    treeoflife.replaceInput({ id: "mekanism:antiprotonic_nucleosynthesizer"}
+        , "#mekanism:alloys/atomic"
+        , "#mekanism_extras:alloys/thermonuclear"
+    );
+
+    treeoflife.remove({id: "mekanism_extras:control_circuit/cosmic"});
+    treeoflife.remove({id: "mekanism_extras:control_circuit/infinite"});
+    
 });

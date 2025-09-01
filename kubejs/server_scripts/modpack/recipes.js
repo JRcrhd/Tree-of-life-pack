@@ -656,14 +656,14 @@ ServerEvents.recipes(treeoflife => {
                 "fluid": "kubejs:magicless_dragon_egg_fluid"
             },
             {
-                "amount": 20,
+                "amount": 40,
                 "fluid": "kubejs:dragon_breath"
             }
         ],
         "processingTime": 40,
         "results": [
             {
-                "amount": 100,
+                "amount": 120,
                 "fluid": "kubejs:dragon_egg_fluid"
             }
         ]
@@ -704,27 +704,30 @@ ServerEvents.recipes(treeoflife => {
         ]
     });
 
-    treeoflife.remove({id: "mekanism_extras:control_circuit/absolute"});
-
-    treeoflife.replaceInput({ id: "mekanism:sps_port"}
-        , "#forge:circuits/ultimate"
-        , "#forge:circuits/absolute"
-    );
-
-    treeoflife.remove({id: "mekanism_extras:control_circuit/supreme"});
-
-    treeoflife.replaceInput({ id: "mekanism:antiprotonic_nucleosynthesizer"}
-        , "#forge:circuits/ultimate"
-        , "#forge:circuits/supreme"
-    );
-
-    treeoflife.replaceInput({ id: "mekanism:antiprotonic_nucleosynthesizer"}
-        , "#mekanism:alloys/atomic"
-        , "#mekanism_extras:alloys/thermonuclear"
-    );
-
-    treeoflife.remove({id: "mekanism_extras:control_circuit/cosmic"});
-    treeoflife.remove({id: "mekanism_extras:control_circuit/infinity"});
+    treeoflife.custom({
+        "type": "goety:ritual",
+        "ritual_type": "goety:craft",
+        "activation_item": {
+            "item": "cataclysm:abyssal_egg"
+        },
+        "craftType": "sky",
+        "soulCost": 50,
+        "duration": 50,
+        "ingredients": [
+            {
+                "item": "minecraft:rabbit_foot"
+            },
+            {
+                "item": "apotheosis:infused_breath"
+            },
+            {
+                "item": "forbidden_arcanus:dragon_scale"
+            }
+        ],
+        "result": {
+            "item": "kubejs:empty_dragon_egg"
+        }
+    });
 
 })
 

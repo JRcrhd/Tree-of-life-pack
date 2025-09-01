@@ -47,6 +47,7 @@
     "item.kubejs.sun_alloy_shard": "光芒合金残片",
     
     "item.kubejs.magical_polonium": "注魔钋",
+    "item.kubejs.polonium_plate": "钋板",
     
     "fluid.kubejs.sky_fluid": "天空流体",
     "fluid.kubejs.witch_fluid": "巫术流体",
@@ -68,5 +69,6 @@
     "fluid.kubejs.stable_vibrant_fluix": "稳定谐振福鲁伊克斯",
     "fluid.kubejs.dragon_egg_fluid": "龙蛋液",
     "fluid.kubejs.magicless_dragon_egg_fluid": "祛魔龙蛋液",
-    "fluid.kubejs.dragon_breath": "龙息"
+    "fluid.kubejs.dragon_breath": "龙息",
+    "fluid.kubejs.molten_ambrosium": "熔融神能晶片"
 }

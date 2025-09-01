@@ -11,13 +11,14 @@
 	quests: [
 		{
 			dependencies: ["272A14B5396B17A5"]
+			hide_dependent_lines: true
 			id: "2B47BD454153FE6B"
 			tasks: [{
 				id: "52A3EE937682DC00"
 				type: "checkmark"
 			}]
-			x: 1.345238095238095d
-			y: 1.889880952380949d
+			x: 0.0d
+			y: 0.0d
 		}
 		{
 			id: "70555823E0F5BA41"
@@ -28,8 +29,8 @@
 				item: "projecte:dark_matter"
 				type: "item"
 			}]
-			x: 1.2892857142857252d
-			y: 8.567857142857136d
+			x: 2.9761904761904745d
+			y: 8.032738095238152d
 		}
 		{
 			id: "33727E58858CF62C"
@@ -40,8 +41,8 @@
 				item: "projecte:red_matter"
 				type: "item"
 			}]
-			x: 1.2d
-			y: 14.399999999999999d
+			x: 3.0238095238095184d
+			y: 11.699404761904823d
 		}
 		{
 			id: "3531774909E1F06A"
@@ -59,48 +60,67 @@
 				}
 				type: "item"
 			}]
-			x: 1.2892857142857252d
-			y: 18.76785714285714d
+			x: 1.5d
+			y: 18.0d
 		}
 		{
+			dependencies: [
+				"70A20D3273FA237B"
+				"23F9896BA23599B5"
+				"1C51EF09FC5F6459"
+				"681B8274DD587636"
+			]
 			id: "3B5F9CEB6F5B4C54"
+			size: 1.5d
 			tasks: [{
 				id: "5AD888952AAB769A"
 				item: "mekanism_extras:absolute_control_circuit"
 				type: "item"
 			}]
-			x: -4.5d
-			y: 4.5d
+			x: -3.0d
+			y: 4.0d
 		}
 		{
+			dependencies: [
+				"3B5F9CEB6F5B4C54"
+				"1FB3D7888074FC78"
+			]
 			id: "4CE5C0DCB46C8D64"
+			size: 1.5d
 			tasks: [{
 				id: "29DD03184D2A11BE"
 				item: "mekanism_extras:supreme_control_circuit"
 				type: "item"
 			}]
-			x: -4.5d
-			y: 8.5d
+			x: -3.0d
+			y: 8.0d
 		}
 		{
+			dependencies: [
+				"4CE5C0DCB46C8D64"
+				"028B36A5EA3821CC"
+			]
 			id: "1325C5CB3BA46DE2"
+			size: 1.5d
 			tasks: [{
 				id: "72439BB3224BC62A"
 				item: "mekanism_extras:cosmic_control_circuit"
 				type: "item"
 			}]
-			x: -4.5d
-			y: 12.5d
+			x: -3.0d
+			y: 12.0d
 		}
 		{
+			dependencies: ["1325C5CB3BA46DE2"]
 			id: "5B76E220CC24BAA9"
+			size: 1.5d
 			tasks: [{
 				id: "38DBA56C45B10E95"
 				item: "mekanism_extras:infinite_control_circuit"
 				type: "item"
 			}]
-			x: -4.5d
-			y: 16.5d
+			x: -3.0d
+			y: 15.75d
 		}
 		{
 			dependencies: ["3B5F9CEB6F5B4C54"]
@@ -110,8 +130,8 @@
 				item: "mekanism:sps_port"
 				type: "item"
 			}]
-			x: -2.5d
-			y: 6.5d
+			x: -1.5d
+			y: 6.0d
 		}
 		{
 			dependencies: [
@@ -124,8 +144,8 @@
 				item: "mekanism:antiprotonic_nucleosynthesizer"
 				type: "item"
 			}]
-			x: -2.5d
-			y: 10.5d
+			x: -1.5d
+			y: 10.0d
 		}
 		{
 			dependencies: ["62F87153C9ECFDAF"]
@@ -135,10 +155,11 @@
 				item: "mekanism:pellet_antimatter"
 				type: "item"
 			}]
-			x: -0.5d
-			y: 8.5d
+			x: 0.0d
+			y: 8.0d
 		}
 		{
+			dependencies: ["2B47BD454153FE6B"]
 			icon: "aether:aether_portal_frame"
 			id: "4E39E5B11085C44B"
 			tasks: [{
@@ -146,18 +167,19 @@
 				id: "41590F36F7E3DAFD"
 				type: "dimension"
 			}]
-			x: 7.0d
-			y: 4.5d
+			x: 1.5d
+			y: 2.0d
 		}
 		{
 			id: "0ED6789F097F578F"
+			size: 1.5d
 			tasks: [{
 				id: "6065EE954F0F08E2"
 				item: "kubejs:emerald_tablet"
 				type: "item"
 			}]
-			x: 7.0d
-			y: 16.5d
+			x: 6.0d
+			y: 15.75d
 		}
 		{
 			dependencies: ["1325C5CB3BA46DE2"]
@@ -167,8 +189,8 @@
 				item: "mekanism_extras:naquadah_reactor_controller"
 				type: "item"
 			}]
-			x: -6.5d
-			y: 12.5d
+			x: -6.0d
+			y: 12.0d
 		}
 		{
 			dependencies: ["3B5F9CEB6F5B4C54"]
@@ -178,8 +200,96 @@
 				item: "mekanismgenerators:fusion_reactor_controller"
 				type: "item"
 			}]
-			x: -6.5d
-			y: 4.5d
+			x: -6.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["4E39E5B11085C44B"]
+			id: "70A20D3273FA237B"
+			tasks: [{
+				id: "70196F449FE59F8A"
+				item: "aether:ambrosium_shard"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["4E39E5B11085C44B"]
+			id: "2310FD0F5E0BF774"
+			tasks: [{
+				id: "798A143E58821E3E"
+				item: "aether:zanite_gemstone"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["2B47BD454153FE6B"]
+			id: "23F9896BA23599B5"
+			tasks: [{
+				id: "35E26FA2CBB95198"
+				item: "kubejs:polonium_plate"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2B47BD454153FE6B"]
+			id: "681B8274DD587636"
+			tasks: [{
+				id: "23AB99E35BEAFA55"
+				item: "mekanism_extras:alloy_radiance"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2910A256030561E4"]
+			id: "1FB3D7888074FC78"
+			tasks: [{
+				id: "7540D67D0563C53A"
+				item: "mekanism_extras:alloy_thermonuclear"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["2B47BD454153FE6B"]
+			id: "2910A256030561E4"
+			tasks: [{
+				id: "220B2AA01F3EF8FB"
+				item: "minecraft:netherite_ingot"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["7614F7AEAF4AFAAC"]
+			id: "028B36A5EA3821CC"
+			tasks: [{
+				id: "11FAE5B5FF53BF2D"
+				item: "mekanism_extras:alloy_shining"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["028B36A5EA3821CC"]
+			id: "3FBFCFF259A2D818"
+			tasks: [{
+				id: "6D928017C0AA1B55"
+				item: "mekanism_extras:alloy_spectrum"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 14.0d
 		}
 	]
 	title: "4、信息时代"
