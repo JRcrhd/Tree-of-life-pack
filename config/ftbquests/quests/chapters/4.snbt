@@ -29,8 +29,8 @@
 				item: "projecte:dark_matter"
 				type: "item"
 			}]
-			x: 2.9761904761904745d
-			y: 8.032738095238152d
+			x: 1.7250000000000085d
+			y: 8.046428571428557d
 		}
 		{
 			id: "33727E58858CF62C"
@@ -41,8 +41,8 @@
 				item: "projecte:red_matter"
 				type: "item"
 			}]
-			x: 3.0238095238095184d
-			y: 11.699404761904823d
+			x: 1.8678571428571544d
+			y: 13.99880952380952d
 		}
 		{
 			id: "3531774909E1F06A"
@@ -60,8 +60,8 @@
 				}
 				type: "item"
 			}]
-			x: 1.5d
-			y: 18.0d
+			x: 1.9511904761904972d
+			y: 18.60595238095236d
 		}
 		{
 			dependencies: [
@@ -290,6 +290,98 @@
 			}]
 			x: 0.0d
 			y: 14.0d
+		}
+		{
+			dependencies: ["5B76E220CC24BAA9"]
+			id: "15132B0C779CB345"
+			tasks: [{
+				id: "405FB3CDD3C990F7"
+				item: {
+					Count: 1
+					id: "custommachinery:custom_machine_item"
+					tag: {
+						machine: "treeoflife:rune_curver"
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: 18.0d
+		}
+		{
+			id: "37B8A37584D0E251"
+			tasks: [{
+				id: "1B99E9F90B0FA4D1"
+				item: "projecte:aeternalis_fuel"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 6.5d
+		}
+		{
+			id: "3939490284472616"
+			tasks: [{
+				id: "272BFFA58F664F60"
+				item: "projecte:mobius_fuel"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 6.0d
+		}
+		{
+			id: "0227789CB7888A99"
+			tasks: [{
+				id: "799EB7D66093EF1F"
+				item: "projecte:alchemical_coal"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 5.5d
+		}
+		{
+			id: "0534B5C08C35BA80"
+			tasks: [{
+				id: "70251BBF97ECD34D"
+				item: "projecte:low_covalence_dust"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			id: "444FE87AD482FE3F"
+			tasks: [{
+				id: "5FE04E9A5350EC48"
+				item: "projecte:medium_covalence_dust"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 2.0d
+		}
+		{
+			id: "6D1001DAEEE1479C"
+			tasks: [{
+				id: "684D2A42DF82D5D6"
+				item: "projecte:high_covalence_dust"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"3FBFCFF259A2D818"
+				"33727E58858CF62C"
+				"0ED6789F097F578F"
+			]
+			id: "017850E8A5DDCC36"
+			tasks: [{
+				id: "7DA85627D7FE1E5B"
+				item: "kubejs:alchemy_in_phi"
+				type: "item"
+			}]
+			x: 1.9154761904762125d
+			y: 15.783333333333296d
 		}
 	]
 	title: "4、信息时代"

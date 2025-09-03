@@ -729,6 +729,38 @@ ServerEvents.recipes(treeoflife => {
         }
     });
 
+    treeoflife.recipes.create
+        .sequenced_assembly(
+            [
+                Item.of("custommachinery:custom_machine_item").withNBT({"machine":"treeoflife:rune_curver"})
+            ],
+            "forbidden_arcanus:darkstone_pedestal",
+            [
+                treeoflife.recipes.createDeploying("forbidden_arcanus:darkstone_pedestal", [
+                    "forbidden_arcanus:darkstone_pedestal",
+                    "aether:zanite_gemstone",
+                ]),
+                treeoflife.recipes.createFilling("forbidden_arcanus:darkstone_pedestal", [
+                    "forbidden_arcanus:darkstone_pedestal",
+                    Fluid.of("create_enchantment_industry:hyper_experience").withAmount(200)
+                ]),
+                treeoflife.recipes.createDeploying("forbidden_arcanus:darkstone_pedestal", [
+                    "forbidden_arcanus:darkstone_pedestal",
+                    "aethersdelight:arkenium_ingot",
+                ]),
+                treeoflife.recipes.createPressing(
+                    "forbidden_arcanus:darkstone_pedestal",
+                    "forbidden_arcanus:darkstone_pedestal"
+                ),
+                treeoflife.recipes.createDeploying("forbidden_arcanus:darkstone_pedestal", [
+                    "forbidden_arcanus:darkstone_pedestal",
+                    "#forge:circuits/infinite",
+                ])
+            ]
+        )
+        .transitionalItem("forbidden_arcanus:darkstone_pedestal")
+        .loops(2);
+
 })
 
 LootJS.modifiers((treeoflife) => {
