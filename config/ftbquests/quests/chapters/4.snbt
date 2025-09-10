@@ -29,8 +29,8 @@
 				item: "projecte:dark_matter"
 				type: "item"
 			}]
-			x: 1.7250000000000085d
-			y: 8.046428571428557d
+			x: 1.5d
+			y: 9.618452380952355d
 		}
 		{
 			id: "33727E58858CF62C"
@@ -41,8 +41,8 @@
 				item: "projecte:red_matter"
 				type: "item"
 			}]
-			x: 1.8678571428571544d
-			y: 13.99880952380952d
+			x: 1.4523809523809774d
+			y: 13.142261904761867d
 		}
 		{
 			id: "3531774909E1F06A"
@@ -60,8 +60,8 @@
 				}
 				type: "item"
 			}]
-			x: 1.9511904761904972d
-			y: 18.60595238095236d
+			x: 1.5d
+			y: 18.75d
 		}
 		{
 			dependencies: [
@@ -309,6 +309,11 @@
 			y: 18.0d
 		}
 		{
+			dependencies: [
+				"3939490284472616"
+				"6D1001DAEEE1479C"
+				"5E695D0F83FC83C0"
+			]
 			id: "37B8A37584D0E251"
 			tasks: [{
 				id: "1B99E9F90B0FA4D1"
@@ -316,29 +321,40 @@
 				type: "item"
 			}]
 			x: 5.0d
-			y: 6.5d
+			y: 8.0d
 		}
 		{
+			dependencies: [
+				"0227789CB7888A99"
+				"444FE87AD482FE3F"
+				"167EDFB9F2186C73"
+			]
 			id: "3939490284472616"
 			tasks: [{
 				id: "272BFFA58F664F60"
 				item: "projecte:mobius_fuel"
 				type: "item"
 			}]
-			x: 6.0d
+			x: 6.5d
 			y: 6.0d
 		}
 		{
+			dependencies: [
+				"2183D901DB1ED0D8"
+				"12795438D08EF6FB"
+				"0534B5C08C35BA80"
+			]
 			id: "0227789CB7888A99"
 			tasks: [{
 				id: "799EB7D66093EF1F"
 				item: "projecte:alchemical_coal"
 				type: "item"
 			}]
-			x: 7.0d
-			y: 5.5d
+			x: 8.0d
+			y: 4.0d
 		}
 		{
+			dependencies: ["2310FD0F5E0BF774"]
 			id: "0534B5C08C35BA80"
 			tasks: [{
 				id: "70251BBF97ECD34D"
@@ -346,27 +362,29 @@
 				type: "item"
 			}]
 			x: 6.0d
-			y: 2.0d
+			y: 4.0d
 		}
 		{
+			dependencies: ["0534B5C08C35BA80"]
 			id: "444FE87AD482FE3F"
 			tasks: [{
 				id: "5FE04E9A5350EC48"
 				item: "projecte:medium_covalence_dust"
 				type: "item"
 			}]
-			x: 7.0d
-			y: 2.0d
+			x: 4.5d
+			y: 6.0d
 		}
 		{
+			dependencies: ["444FE87AD482FE3F"]
 			id: "6D1001DAEEE1479C"
 			tasks: [{
 				id: "684D2A42DF82D5D6"
 				item: "projecte:high_covalence_dust"
 				type: "item"
 			}]
-			x: 8.0d
-			y: 2.0d
+			x: 3.0d
+			y: 8.0d
 		}
 		{
 			dependencies: [
@@ -380,8 +398,61 @@
 				item: "kubejs:alchemy_in_phi"
 				type: "item"
 			}]
-			x: 1.9154761904762125d
-			y: 15.783333333333296d
+			x: 1.4999999999999787d
+			y: 15.713690476190472d
+		}
+		{
+			dependencies: ["19C451AC8A2E5F80"]
+			id: "12795438D08EF6FB"
+			tasks: [{
+				id: "15F14B653F3B70ED"
+				item: "destroy:dynamite"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2B47BD454153FE6B"]
+			id: "2183D901DB1ED0D8"
+			tasks: [{
+				id: "4AA86013031956B0"
+				item: "minecraft:coal"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2B47BD454153FE6B"]
+			id: "19C451AC8A2E5F80"
+			tasks: [{
+				id: "7DAB49BB4706954C"
+				item: "pneumaticcraft:glycerol"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 1.5d
+		}
+		{
+			id: "167EDFB9F2186C73"
+			tasks: [{
+				id: "5590F1F3AB4488A0"
+				item: "create_enchantment_industry:hyper_experience_bottle"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 6.0d
+		}
+		{
+			id: "5E695D0F83FC83C0"
+			tasks: [{
+				id: "4D630E88F1990F5E"
+				item: "rainbowcompound:netherstar_ingot"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 8.0d
 		}
 	]
 	title: "4、信息时代"
