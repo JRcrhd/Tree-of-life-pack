@@ -2,7 +2,7 @@
 	"name": "黄昏时代",
 	"description": "重归自由的人类",
 	"icon": "minecraft:paper",
-	"category": "history",
+	"category": "patchouli:history",
 	"pages":[
 		{
 			"type":"text",

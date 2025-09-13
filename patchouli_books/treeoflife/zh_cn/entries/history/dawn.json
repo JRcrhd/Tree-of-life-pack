@@ -2,7 +2,7 @@
 	"name": "黎明时代",
 	"description": "人类的第一缕火焰",
 	"icon": "minecraft:paper",
-	"category": "history",
+	"category": "patchouli:history",
 	"pages":[
 		{
 			"type":"text",

@@ -2,7 +2,7 @@
 	"name": "正午时代",
 	"description": "神代降临",
 	"icon": "minecraft:paper",
-	"category": "history",
+	"category": "patchouli:history",
 	"pages":[
 		{
 			"type":"text",

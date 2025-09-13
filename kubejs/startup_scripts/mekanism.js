@@ -60,4 +60,5 @@ StartupEvents.registry('mekanism:gas', treeoflife => {
     treeoflife.createCustom(`chaos_gas`, () => $Gas($GasBuilder.builder()));
     treeoflife.createCustom(`magicless_dragon_egg_gas`, () => $Gas($GasBuilder.builder()));
     treeoflife.createCustom(`god_essence`, () => $Gas($GasBuilder.builder()));
+    treeoflife.createCustom(`aeternalis`, () => $Gas($GasBuilder.builder()));
 });

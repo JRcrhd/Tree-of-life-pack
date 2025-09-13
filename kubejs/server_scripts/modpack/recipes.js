@@ -579,7 +579,7 @@ ServerEvents.recipes(treeoflife => {
         },
         "itemOutput": {
             "count": 1,
-            "item": "mekanism:dust_coal"
+            "item": "supplementaries:ash"
         }
     });
 
@@ -680,7 +680,7 @@ ServerEvents.recipes(treeoflife => {
             'mekanism:reprocessed_fissile_fragment'
         ]
     )
-    .heated();
+        .heated();
 
     treeoflife.custom({
         "type": "createmetallurgy:alloying",
@@ -732,7 +732,7 @@ ServerEvents.recipes(treeoflife => {
     treeoflife.recipes.create
         .sequenced_assembly(
             [
-                Item.of("custommachinery:custom_machine_item").withNBT({"machine":"treeoflife:rune_curver"})
+                Item.of("custommachinery:custom_machine_item").withNBT({ "machine": "treeoflife:rune_curver" })
             ],
             "forbidden_arcanus:darkstone_pedestal",
             [
@@ -760,6 +760,41 @@ ServerEvents.recipes(treeoflife => {
         )
         .transitionalItem("forbidden_arcanus:darkstone_pedestal")
         .loops(2);
+
+    treeoflife.custom({
+        "type": "mekanism:reaction",
+        "duration": 600,
+        "fluidInput": {
+            "amount": 1000,
+            "fluid": "minecraft:lava"
+        },
+        "gasInput": {
+            "amount": 10,
+            "gas": "mekanism:polonium"
+        },
+        "itemInput": {
+            "ingredient": {
+                "item": "projecte:aeternalis_fuel",
+                "count": 1
+            }
+        },
+        "gasOutput": {
+            "amount": 500,
+            "gas": "kubejs:aeternalis"
+        },
+        "itemOutput": {
+            "count": 1,
+            "item": "projecte:alchemical_coal"
+        }
+    });
+
+    treeoflife.custom({
+        "type": "mekanism:nucleosynthesizing",
+        "duration": 200,
+        "gasInput": { "amount": 10, "gas": "kubejs:aeternalis" },
+        "itemInput": { "ingredient": { "type": "forge:nbt", "count": 1, "item": "kubejs:clear_water_tier_2_bucket"} },
+        "output": { "item": "kubejs:clear_water_tier_3_bucket"}
+    })
 
 })
 

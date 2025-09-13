@@ -17,7 +17,7 @@
 				id: "52A3EE937682DC00"
 				type: "checkmark"
 			}]
-			x: 0.0d
+			x: 1.5d
 			y: 0.0d
 		}
 		{
@@ -29,8 +29,8 @@
 				item: "projecte:dark_matter"
 				type: "item"
 			}]
-			x: 1.5d
-			y: 9.618452380952355d
+			x: 1.488095238095255d
+			y: 8.952380952380956d
 		}
 		{
 			id: "33727E58858CF62C"
@@ -41,8 +41,8 @@
 				item: "projecte:red_matter"
 				type: "item"
 			}]
-			x: 1.4523809523809774d
-			y: 13.142261904761867d
+			x: 1.5d
+			y: 13.166666666666664d
 		}
 		{
 			id: "3531774909E1F06A"
@@ -84,6 +84,7 @@
 			dependencies: [
 				"3B5F9CEB6F5B4C54"
 				"1FB3D7888074FC78"
+				"44845288C201DCB9"
 			]
 			id: "4CE5C0DCB46C8D64"
 			size: 1.5d
@@ -320,7 +321,7 @@
 				item: "projecte:aeternalis_fuel"
 				type: "item"
 			}]
-			x: 5.0d
+			x: 4.5d
 			y: 8.0d
 		}
 		{
@@ -335,7 +336,7 @@
 				item: "projecte:mobius_fuel"
 				type: "item"
 			}]
-			x: 6.5d
+			x: 6.0d
 			y: 6.0d
 		}
 		{
@@ -350,7 +351,7 @@
 				item: "projecte:alchemical_coal"
 				type: "item"
 			}]
-			x: 8.0d
+			x: 7.5d
 			y: 4.0d
 		}
 		{
@@ -409,7 +410,7 @@
 				item: "destroy:dynamite"
 				type: "item"
 			}]
-			x: 9.0d
+			x: 8.5d
 			y: 2.0d
 		}
 		{
@@ -420,7 +421,7 @@
 				item: "minecraft:coal"
 				type: "item"
 			}]
-			x: 7.0d
+			x: 6.5d
 			y: 2.0d
 		}
 		{
@@ -431,10 +432,11 @@
 				item: "pneumaticcraft:glycerol"
 				type: "item"
 			}]
-			x: 8.0d
+			x: 7.5d
 			y: 1.5d
 		}
 		{
+			dependencies: ["2B47BD454153FE6B"]
 			id: "167EDFB9F2186C73"
 			tasks: [{
 				id: "5590F1F3AB4488A0"
@@ -445,6 +447,7 @@
 			y: 6.0d
 		}
 		{
+			dependencies: ["2B47BD454153FE6B"]
 			id: "5E695D0F83FC83C0"
 			tasks: [{
 				id: "4D630E88F1990F5E"
@@ -453,6 +456,28 @@
 			}]
 			x: 6.0d
 			y: 8.0d
+		}
+		{
+			dependencies: ["37B8A37584D0E251"]
+			id: "618EC2557B84D2C3"
+			tasks: [{
+				id: "698E60B7951B2366"
+				item: "kubejs:clear_water_tier_3_bucket"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["2B47BD454153FE6B"]
+			id: "44845288C201DCB9"
+			tasks: [{
+				id: "401C2A1A5620C280"
+				item: "goety:soul_ruby"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 10.0d
 		}
 	]
 	title: "4、信息时代"
