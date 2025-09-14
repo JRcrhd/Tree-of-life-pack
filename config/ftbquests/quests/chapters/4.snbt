@@ -21,6 +21,8 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["15132B0C779CB345"]
+			hide_until_deps_complete: true
 			id: "70555823E0F5BA41"
 			shape: "diamond"
 			size: 1.2d
@@ -29,10 +31,11 @@
 				item: "projecte:dark_matter"
 				type: "item"
 			}]
-			x: 1.488095238095255d
-			y: 8.952380952380956d
+			x: 1.4464285714285765d
+			y: 5.357142857142861d
 		}
 		{
+			dependencies: ["70555823E0F5BA41"]
 			id: "33727E58858CF62C"
 			shape: "diamond"
 			size: 1.2d
@@ -41,10 +44,11 @@
 				item: "projecte:red_matter"
 				type: "item"
 			}]
-			x: 1.5d
-			y: 13.166666666666664d
+			x: 1.482142857142854d
+			y: 11.0d
 		}
 		{
+			dependencies: ["017850E8A5DDCC36"]
 			id: "3531774909E1F06A"
 			shape: "gear"
 			size: 1.5d
@@ -294,6 +298,7 @@
 		}
 		{
 			dependencies: ["5B76E220CC24BAA9"]
+			hide_dependent_lines: true
 			id: "15132B0C779CB345"
 			tasks: [{
 				id: "405FB3CDD3C990F7"
@@ -394,6 +399,8 @@
 				"0ED6789F097F578F"
 			]
 			id: "017850E8A5DDCC36"
+			shape: "diamond"
+			size: 1.5d
 			tasks: [{
 				id: "7DA85627D7FE1E5B"
 				item: "kubejs:alchemy_in_phi"

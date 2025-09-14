@@ -326,6 +326,16 @@ ServerEvents.recipes(treeoflife => {
         .transitionalItem('kubejs:void_alloy_shard')
         .loops(2);
 
+    treeoflife.recipes.create.sequenced_assembly([
+        Item.of('kubejs:dimension_alloy_aether').withChance(1.0)
+    ], 'kubejs:sun_alloy_shard', [
+        treeoflife.recipes.createFilling('kubejs:sun_alloy_shard', ['kubejs:sun_alloy_shard', Fluid.of('kubejs:aether_fluid').withAmount(100)]),
+        treeoflife.recipes.createFilling('kubejs:sun_alloy_shard', ['kubejs:sun_alloy_shard', Fluid.of('kubejs:root_fluid').withAmount(100)]),
+        treeoflife.recipes.createPressing('kubejs:sun_alloy_shard', 'kubejs:sun_alloy_shard')
+    ])
+        .transitionalItem('kubejs:sun_alloy_shard')
+        .loops(2);
+
     treeoflife.recipes.create.mixing(
         [
             Item.of('kubejs:earth_alloy_shard').withChance(0.95),
@@ -353,13 +363,26 @@ ServerEvents.recipes(treeoflife => {
 
     treeoflife.recipes.create.mixing(
         [
-            Item.of('kubejs:void_alloy_shard').withChance(0.6),
-            Item.of('kubejs:alchemy_yellow').withChance(0.4)
+            Item.of('kubejs:void_alloy_shard').withChance(0.7),
+            Item.of('kubejs:alchemy_yellow').withChance(0.3)
         ],
         [
             Fluid.of('kubejs:void_fluid').withAmount(10),
             'kubejs:void_alloy_shard',
             'kubejs:alchemy_white'
+        ]
+    )
+        .heated();
+
+    treeoflife.recipes.create.mixing(
+        [
+            Item.of('kubejs:sun_alloy_shard').withChance(0.6),
+            Item.of('kubejs:alchemy_red').withChance(0.4)
+        ],
+        [
+            Fluid.of('kubejs:void_fluid').withAmount(10),
+            'kubejs:sun_alloy_shard',
+            'kubejs:alchemy_yellow'
         ]
     )
         .heated();

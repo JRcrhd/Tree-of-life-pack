@@ -132,6 +132,7 @@
 		}
 		{
 			dependencies: ["6AC47056EF74E7CB"]
+			hide_dependent_lines: true
 			icon: "aether:aether_dirt"
 			id: "49AD511A227BA63F"
 			rewards: [
@@ -1029,6 +1030,184 @@
 			}]
 			x: 4.0d
 			y: 9.0d
+		}
+		{
+			dependencies: ["49AD511A227BA63F"]
+			icon: "aether:aether_portal_frame"
+			id: "316425136C606B20"
+			tasks: [{
+				dimension: "aether:the_aether"
+				id: "7895DFA5D2556EC6"
+				type: "dimension"
+			}]
+			x: 0.0d
+			y: 18.5d
+		}
+		{
+			id: "3763BC4043BC162F"
+			tasks: [{
+				id: "1529734E1B4D612B"
+				item: {
+					Count: 1
+					id: "tarotcards:the_fool"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: 18.5d
+		}
+		{
+			id: "460535F3ADD16839"
+			tasks: [{
+				id: "62557EC666DB980C"
+				item: {
+					Count: 1
+					id: "tarotcards:the_magician"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -7.0d
+			y: 18.5d
+		}
+		{
+			id: "336EFD7476E12B30"
+			tasks: [{
+				id: "2B33D76BC4BD1202"
+				item: {
+					Count: 1
+					id: "tarotcards:the_emperor"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: 23.5d
+		}
+		{
+			id: "66934905AC3CBCF0"
+			tasks: [{
+				id: "582E108D73D5C0EB"
+				item: {
+					Count: 1
+					id: "tarotcards:the_lovers"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -7.0d
+			y: 23.5d
+		}
+		{
+			id: "48F9F904EF5210BF"
+			tasks: [{
+				id: "6184647ED34CE233"
+				item: {
+					Count: 1
+					id: "tarotcards:the_hierophant"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: 21.0d
+		}
+		{
+			id: "2FC8909924EC89BD"
+			tasks: [{
+				id: "474370DC893F6291"
+				item: {
+					Count: 1
+					id: "tarotcards:the_high_priestess"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -5.5d
+			y: 21.0d
+		}
+		{
+			id: "613C3245F89ACF14"
+			tasks: [{
+				id: "4C06FB41EF7DF7FC"
+				item: {
+					Count: 1
+					id: "tarotcards:the_chariot"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -8.5d
+			y: 21.0d
+		}
+		{
+			id: "7B7A9BA59C445022"
+			tasks: [{
+				id: "3DEF3A97DA7E3799"
+				item: "kubejs:template_atziluth"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 25.0d
+		}
+		{
+			dependencies: [
+				"714F9D4EDE84C0CF"
+				"0C691D86E27CAA63"
+			]
+			id: "0A869F2B2967418F"
+			tasks: [{
+				id: "16FBA2A995E170C2"
+				item: "kubejs:dimension_alloy_aether"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 25.0d
+		}
+		{
+			id: "714F9D4EDE84C0CF"
+			tasks: [{
+				id: "084E6EE8499ECCA7"
+				item: "kubejs:sun_alloy_shard"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 22.5d
+		}
+		{
+			id: "319329153D1D45D2"
+			tasks: [{
+				id: "27C69752330D5054"
+				item: "kubejs:aether_fluid_bucket"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 22.5d
+		}
+		{
+			id: "0C691D86E27CAA63"
+			tasks: [{
+				id: "4CCC8994E10A5FF8"
+				item: "kubejs:root_fluid_bucket"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 22.5d
+		}
+		{
+			dependencies: [
+				"714F9D4EDE84C0CF"
+				"319329153D1D45D2"
+			]
+			id: "4F0F62356E629AE0"
+			tasks: [{
+				id: "7A9080E97789A618"
+				item: "kubejs:alchemy_red"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 25.0d
 		}
 	]
 	title: "抵达根源之路"
