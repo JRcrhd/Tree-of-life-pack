@@ -38,4 +38,46 @@ ServerEvents.recipes(treeoflife => {
     treeoflife.smithing('projecte:mobius_fuel', 'projecte:medium_covalence_dust', 'projecte:alchemical_coal', 'create_enchantment_industry:hyper_experience_bottle');
     treeoflife.smithing('projecte:aeternalis_fuel', 'projecte:high_covalence_dust', 'projecte:mobius_fuel', 'rainbowcompound:netherstar_ingot');
 
+	treeoflife.custom({
+        type: "custommachinery:custom_machine",
+        machine: "treeoflife:magic_vat",
+        time: 3600,
+        requirements: [
+            {
+                type: "custommachinery:fluid_per_tick",
+                fluid: "kubejs:root_fluid",
+                amount: 1,
+                mode: "input",
+            },
+            {
+                type: "custommachinery:energy_per_tick",
+                amount: 10,
+                mode: "input",
+            },
+            {
+                type: "custommachinery:item",
+                item: "mekanism:pellet_antimatter",
+                amount: 1,
+                mode: "input",
+            },
+            {
+                type: "custommachinery:item",
+                item: "projecte:high_covalence_dust",
+                amount: 4,
+                mode: "input",
+            },
+            {
+                type: "custommachinery:item",
+                item: "forbidden_arcanus:dark_matter",
+                amount: 1,
+                mode: "input",
+            },
+            {
+                type: "custommachinery:item",
+                item: "projecte:dark_matter",
+                amount: 1,
+                mode: "output",
+            },
+        ],
+    });
 })

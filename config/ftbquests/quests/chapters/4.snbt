@@ -6,6 +6,64 @@
 	hide_quest_until_deps_visible: true
 	icon: "ae2:wireless_receiver"
 	id: "33006A281D8B649A"
+	images: [
+		{
+			height: 2.0d
+			image: "projecte:item/stars/klein_star_6"
+			rotation: 0.0d
+			width: 2.0d
+			x: 1.5214285714285722d
+			y: 18.771428571428572d
+		}
+		{
+			height: 3.0d
+			image: "minecraft:block/chorus_flower/petals_lower_e"
+			rotation: 0.0d
+			width: 3.0d
+			x: 1.5d
+			y: 2.0d
+		}
+		{
+			height: 3.0d
+			image: "forbidden_arcanus:textures/particle/magic_explosion_0.png"
+			rotation: 0.0d
+			width: 3.0d
+			x: 5.942857142857129d
+			y: 15.81190476190477d
+		}
+		{
+			height: 15.0d
+			image: "mekanism_extras:block/models/multipart/opaque/infinite_mechanical_pipe_vertical"
+			rotation: 0.0d
+			width: 2.0d
+			x: -3.0d
+			y: 10.0d
+		}
+		{
+			height: 2.5d
+			image: "forbidden_arcanus:textures/effect/magic_circle/inner/union.png"
+			rotation: 0.0d
+			width: 2.5d
+			x: 4.5d
+			y: 12.0d
+		}
+		{
+			height: 2.5d
+			image: "forbidden_arcanus:textures/effect/magic_circle/inner/union.png"
+			rotation: 0.0d
+			width: 2.5d
+			x: 10.585714285714275d
+			y: 15.740476190476187d
+		}
+		{
+			height: 2.5d
+			image: "forbidden_arcanus:textures/effect/magic_circle/inner/union.png"
+			rotation: 0.0d
+			width: 2.5d
+			x: 8.0d
+			y: 12.0d
+		}
+	]
 	order_index: 3
 	quest_links: [ ]
 	quests: [
@@ -21,7 +79,11 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["15132B0C779CB345"]
+			dependencies: [
+				"277F88179B13589D"
+				"6D1001DAEEE1479C"
+			]
+			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			id: "70555823E0F5BA41"
 			shape: "diamond"
@@ -31,8 +93,8 @@
 				item: "projecte:dark_matter"
 				type: "item"
 			}]
-			x: 1.4464285714285765d
-			y: 5.357142857142861d
+			x: 1.500000000000007d
+			y: 5.4166666666666785d
 		}
 		{
 			dependencies: ["70555823E0F5BA41"]
@@ -44,8 +106,8 @@
 				item: "projecte:red_matter"
 				type: "item"
 			}]
-			x: 1.482142857142854d
-			y: 11.0d
+			x: 1.4918367346938624d
+			y: 11.054081632653059d
 		}
 		{
 			dependencies: ["017850E8A5DDCC36"]
@@ -176,6 +238,11 @@
 			y: 2.0d
 		}
 		{
+			dependencies: [
+				"311415D34B8ABE01"
+				"19C4D6B459C57879"
+				"74D450A1F007D6AD"
+			]
 			id: "0ED6789F097F578F"
 			size: 1.5d
 			tasks: [{
@@ -360,7 +427,10 @@
 			y: 4.0d
 		}
 		{
-			dependencies: ["2310FD0F5E0BF774"]
+			dependencies: [
+				"2310FD0F5E0BF774"
+				"24647B6718058EC6"
+			]
 			id: "0534B5C08C35BA80"
 			tasks: [{
 				id: "70251BBF97ECD34D"
@@ -397,6 +467,7 @@
 				"3FBFCFF259A2D818"
 				"33727E58858CF62C"
 				"0ED6789F097F578F"
+				"4C4487FBC7815CA3"
 			]
 			id: "017850E8A5DDCC36"
 			shape: "diamond"
@@ -417,7 +488,7 @@
 				item: "destroy:dynamite"
 				type: "item"
 			}]
-			x: 8.5d
+			x: 9.0d
 			y: 2.0d
 		}
 		{
@@ -428,7 +499,7 @@
 				item: "minecraft:coal"
 				type: "item"
 			}]
-			x: 6.5d
+			x: 6.0d
 			y: 2.0d
 		}
 		{
@@ -485,6 +556,58 @@
 			}]
 			x: -4.5d
 			y: 10.0d
+		}
+		{
+			dependencies: ["2B47BD454153FE6B"]
+			id: "4C4487FBC7815CA3"
+			tasks: [{
+				id: "2EF92D1F8B84BBA0"
+				item: "kubejs:dimension_alloy_aether"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 14.0d
+		}
+		{
+			id: "311415D34B8ABE01"
+			tasks: [{
+				id: "60872CC4C4E59B8E"
+				item: "kubejs:emerald_tablet_piece_1"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 12.0d
+		}
+		{
+			id: "19C4D6B459C57879"
+			tasks: [{
+				id: "15A44CE9E8D79E45"
+				item: "kubejs:emerald_tablet_piece_2"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 12.0d
+		}
+		{
+			id: "74D450A1F007D6AD"
+			tasks: [{
+				id: "6308DEAB9C66DBB3"
+				item: "kubejs:emerald_tablet_piece_3"
+				type: "item"
+			}]
+			x: 10.538095238095224d
+			y: 15.740476190476187d
+		}
+		{
+			dependencies: ["2B47BD454153FE6B"]
+			id: "24647B6718058EC6"
+			tasks: [{
+				id: "7E5443F2B136CD0C"
+				item: "cataclysm:essence_of_the_storm"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 2.0d
 		}
 	]
 	title: "4、信息时代"
