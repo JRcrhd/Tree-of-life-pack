@@ -819,30 +819,6 @@ ServerEvents.recipes(treeoflife => {
         "output": { "item": "kubejs:clear_water_tier_3_bucket"}
     })
 
-    treeoflife.custom({
-        "type": "goety:ritual",
-        "ritual_type": "goety:craft",
-        "activation_item": {
-            "item": "create:super_glue"
-        },
-        "craftType": "forge",
-        "soulCost": 100,
-        "duration": 100,
-        "ingredients": [
-            {
-                "item": "kubejs:emerald_tablet_piece_1"
-            },
-            {
-                "item": "kubejs:emerald_tablet_piece_2"
-            },
-            {
-                "item": "kubejs:emerald_tablet_piece_3"
-            }
-        ],
-        "result": {
-            "item": "kubejs:emerald_tablet"
-        }
-    });
 })
 
 LootJS.modifiers((treeoflife) => {
