@@ -430,59 +430,14 @@
 		}
 		{
 			dependencies: ["099DA5117BDEB361"]
-			id: "219EAA642631FCD6"
-			tasks: [{
-				id: "70AEDD6CE03406F4"
-				item: "kubejs:emerald_tablet_piece_1"
-				type: "item"
-			}]
-			x: 19.0d
-			y: 6.5d
-		}
-		{
-			dependencies: ["099DA5117BDEB361"]
-			id: "02D81E03ADA128BB"
-			tasks: [{
-				id: "3A11DE5A6959FC9F"
-				item: "kubejs:emerald_tablet_piece_2"
-				type: "item"
-			}]
-			x: 19.0d
-			y: 7.5d
-		}
-		{
-			dependencies: ["099DA5117BDEB361"]
 			id: "68B16EBDBFB022F5"
 			tasks: [{
 				id: "60F6A8C935F54CBD"
 				item: "kubejs:emerald_tablet_piece_3"
 				type: "item"
 			}]
-			x: 19.0d
-			y: 8.5d
-		}
-		{
-			dependencies: [
-				"02D81E03ADA128BB"
-				"68B16EBDBFB022F5"
-				"219EAA642631FCD6"
-			]
-			id: "7023B9663339592A"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "13A03A1A31001995"
-				table_id: 9027088842797077213L
-				type: "choice"
-			}]
-			shape: "diamond"
-			size: 1.5d
-			tasks: [{
-				id: "10F61CC66BF41042"
-				item: "kubejs:emerald_tablet"
-				type: "item"
-			}]
-			x: 21.0d
-			y: 7.5d
+			x: 17.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["5F76FB1F88CE9DC5"]
