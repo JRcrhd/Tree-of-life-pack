@@ -58,7 +58,7 @@
 			rewards: [
 				{
 					auto: "invisible"
-					command: "/gamephase add JRcrhd assiah"
+					command: "/gamephase add @p assiah"
 					elevate_perms: true
 					id: "20C26BD5BD8D8695"
 					silent: true
@@ -91,7 +91,7 @@
 			rewards: [
 				{
 					auto: "invisible"
-					command: "/gamephase add JRcrhd yetzirah"
+					command: "/gamephase add @p yetzirah"
 					elevate_perms: true
 					id: "534543900E4A020C"
 					silent: true
@@ -138,7 +138,7 @@
 			rewards: [
 				{
 					auto: "invisible"
-					command: "/gamephase add JRcrhd beriah"
+					command: "/gamephase add @p beriah"
 					elevate_perms: true
 					id: "1C1FE78DE7E9D9D7"
 					silent: true
@@ -1044,6 +1044,7 @@
 			y: 18.5d
 		}
 		{
+			dependencies: ["2BD238B67355CA36"]
 			id: "3763BC4043BC162F"
 			tasks: [{
 				id: "1529734E1B4D612B"
@@ -1054,10 +1055,11 @@
 				}
 				type: "item"
 			}]
-			x: -4.0d
-			y: 18.5d
+			x: -3.0d
+			y: 23.0d
 		}
 		{
+			dependencies: ["2586DDEFAFB636AC"]
 			id: "460535F3ADD16839"
 			tasks: [{
 				id: "62557EC666DB980C"
@@ -1068,10 +1070,11 @@
 				}
 				type: "item"
 			}]
-			x: -7.0d
-			y: 18.5d
+			x: -6.0d
+			y: 23.0d
 		}
 		{
+			dependencies: ["271E99F3B4D9985C"]
 			id: "336EFD7476E12B30"
 			tasks: [{
 				id: "2B33D76BC4BD1202"
@@ -1082,10 +1085,11 @@
 				}
 				type: "item"
 			}]
-			x: -4.0d
-			y: 23.5d
+			x: -3.5d
+			y: 20.0d
 		}
 		{
+			dependencies: ["75AD9D35B715D3C5"]
 			id: "66934905AC3CBCF0"
 			tasks: [{
 				id: "582E108D73D5C0EB"
@@ -1096,10 +1100,11 @@
 				}
 				type: "item"
 			}]
-			x: -7.0d
-			y: 23.5d
+			x: -5.5d
+			y: 20.0d
 		}
 		{
+			dependencies: ["39B5AC639428CD55"]
 			id: "48F9F904EF5210BF"
 			tasks: [{
 				id: "6184647ED34CE233"
@@ -1110,10 +1115,11 @@
 				}
 				type: "item"
 			}]
-			x: -2.5d
+			x: -2.0d
 			y: 21.0d
 		}
 		{
+			dependencies: ["2F8EB747A77E599D"]
 			id: "2FC8909924EC89BD"
 			tasks: [{
 				id: "474370DC893F6291"
@@ -1124,10 +1130,11 @@
 				}
 				type: "item"
 			}]
-			x: -5.5d
-			y: 21.0d
+			x: -4.5d
+			y: 22.5d
 		}
 		{
+			dependencies: ["0CE3024197730997"]
 			id: "613C3245F89ACF14"
 			tasks: [{
 				id: "4C06FB41EF7DF7FC"
@@ -1138,7 +1145,7 @@
 				}
 				type: "item"
 			}]
-			x: -8.5d
+			x: -7.0d
 			y: 21.0d
 		}
 		{
@@ -1167,6 +1174,12 @@
 			y: 25.0d
 		}
 		{
+			dependencies: [
+				"755D342E299D4B1F"
+				"316C56756A3C2597"
+				"0E5B53A62E68236C"
+				"146A9A19B88A1D75"
+			]
 			id: "714F9D4EDE84C0CF"
 			tasks: [{
 				id: "084E6EE8499ECCA7"
@@ -1177,6 +1190,10 @@
 			y: 22.5d
 		}
 		{
+			dependencies: [
+				"4A791372EE8700BA"
+				"382D5B3443935DB3"
+			]
 			id: "319329153D1D45D2"
 			tasks: [{
 				id: "27C69752330D5054"
@@ -1187,6 +1204,10 @@
 			y: 22.5d
 		}
 		{
+			dependencies: [
+				"2E5F3AD5AF2F12B4"
+				"64A9104520143F63"
+			]
 			id: "0C691D86E27CAA63"
 			tasks: [{
 				id: "4CCC8994E10A5FF8"
@@ -1209,6 +1230,243 @@
 			}]
 			x: 5.5d
 			y: 25.0d
+		}
+		{
+			dependencies: ["7B7A9BA59C445022"]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					Parent: { }
+				}
+				id: "projecte:klein_star_omega"
+			}
+			id: "65C46ED2F7739DD3"
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/gamephase add @p atziluth"
+					elevate_perms: true
+					id: "02FA5E93ED9A5281"
+					type: "command"
+				}
+				{
+					command: "/tellraw @p {\"text\":\"您已越过atziluth阶段。无尽星空的大门已向你敞开\",\"bold\":true,\"color\":\"red\"}"
+					elevate_perms: true
+					id: "52394D7D0769C9D1"
+					type: "command"
+				}
+			]
+			subtitle: "stage upgrade"
+			tasks: [
+				{
+					consume_items: true
+					id: "7A2060E423E9D1AD"
+					item: "kubejs:point_chokmah"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "1AEA00F6EDD070CF"
+					item: "kubejs:point_binah"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "006826BE91F92BED"
+					item: "kubejs:point_kether"
+					type: "item"
+				}
+			]
+			title: "阶段晋升"
+			x: 0.0d
+			y: 26.5d
+		}
+		{
+			dependencies: ["49AD511A227BA63F"]
+			id: "316C56756A3C2597"
+			tasks: [{
+				id: "307F017D2CD768AB"
+				item: "deep_aether:stratus_ingot"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 18.5d
+		}
+		{
+			dependencies: ["49AD511A227BA63F"]
+			id: "6B32951E9984DE15"
+			tasks: [{
+				id: "4306D30181A2D1F0"
+				item: "aether:altar"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 18.0d
+		}
+		{
+			dependencies: ["6B32951E9984DE15"]
+			id: "146A9A19B88A1D75"
+			tasks: [{
+				id: "2E63FFC2822E726C"
+				item: "deep_aether:chromatic_aercloud"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 19.0d
+		}
+		{
+			dependencies: ["49AD511A227BA63F"]
+			id: "246C38C9A33430A6"
+			tasks: [{
+				id: "49F07784ED101DB4"
+				item: "occultism:iesnium_ingot"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 18.0d
+		}
+		{
+			dependencies: ["246C38C9A33430A6"]
+			id: "755D342E299D4B1F"
+			tasks: [{
+				id: "245603685E8033BD"
+				item: "occultism:iesnium_dust"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 19.0d
+		}
+		{
+			dependencies: ["316425136C606B20"]
+			id: "0E5B53A62E68236C"
+			tasks: [{
+				id: "391ACFC5075703B2"
+				item: "aether:skyroot_remedy_bucket"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 19.5d
+		}
+		{
+			dependencies: ["49AD511A227BA63F"]
+			id: "4A791372EE8700BA"
+			tasks: [{
+				id: "4C6D444A3123A54F"
+				item: "aether:skyroot_poison_bucket"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 19.5d
+		}
+		{
+			dependencies: ["316425136C606B20"]
+			id: "2E5F3AD5AF2F12B4"
+			tasks: [{
+				id: "115269509BF20E75"
+				item: "aether:ambrosium_shard"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 21.0d
+		}
+		{
+			dependencies: ["49AD511A227BA63F"]
+			id: "64A9104520143F63"
+			tasks: [{
+				id: "428C51876E3C4438"
+				item: "occultism:spirit_attuned_gem"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 20.0d
+		}
+		{
+			dependencies: ["49AD511A227BA63F"]
+			id: "2F8EB747A77E599D"
+			tasks: [{
+				id: "574DEF791B4D4025"
+				item: "forbidden_arcanus:golden_dragon_scale"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 18.5d
+		}
+		{
+			dependencies: ["49AD511A227BA63F"]
+			description: [
+				"在海底遗迹中找到"
+				""
+				"Found in ocean ruins"
+			]
+			id: "271E99F3B4D9985C"
+			tasks: [{
+				id: "08361E59A08489EE"
+				item: "art_of_forging:vobrivium_ingot"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 19.0d
+		}
+		{
+			dependencies: ["49AD511A227BA63F"]
+			id: "75AD9D35B715D3C5"
+			tasks: [{
+				id: "4CD2028853A44AF6"
+				item: "alexsmobs:transmutation_table"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 19.0d
+		}
+		{
+			dependencies: ["49AD511A227BA63F"]
+			id: "39B5AC639428CD55"
+			tasks: [{
+				id: "52DBA1FDA4454D84"
+				item: "alexsmobs:capsid"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 20.0d
+		}
+		{
+			dependencies: ["49AD511A227BA63F"]
+			id: "0CE3024197730997"
+			tasks: [{
+				id: "4D070738535E0D82"
+				item: "mekanism_extras:alloy_spectrum"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 20.0d
+		}
+		{
+			dependencies: ["49AD511A227BA63F"]
+			id: "2586DDEFAFB636AC"
+			tasks: [{
+				id: "6E45F765130C1730"
+				item: "mekanism_extras:naquadah_reactor_port"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 22.0d
+		}
+		{
+			dependencies: ["49AD511A227BA63F"]
+			id: "2BD238B67355CA36"
+			tasks: [{
+				id: "5D897121B918C50F"
+				item: {
+					Count: 1
+					id: "goety:philosophers_stone"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: 22.0d
 		}
 	]
 	title: "抵达根源之路"

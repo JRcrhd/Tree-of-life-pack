@@ -1,6 +1,6 @@
 {
     "kubejs.gameinfo.modpack.name": "Tree of Life",
-    "kubejs.item.holy_potion": "圣灵药",
+    "item.kubejs.holy_potion": "圣灵药",
     
     "block.kubejs.empty_dragon_egg": "空龙蛋",
     
@@ -70,5 +70,28 @@
     "fluid.kubejs.dragon_egg_fluid": "龙蛋液",
     "fluid.kubejs.magicless_dragon_egg_fluid": "祛魔龙蛋液",
     "fluid.kubejs.dragon_breath": "龙息",
-    "fluid.kubejs.molten_ambrosium": "熔融神能晶片"
+    "fluid.kubejs.molten_ambrosium": "熔融神能晶片",
+    
+    "item.kubejs.sky_fluid_bucket": "天空流体桶",
+    "item.kubejs.witch_fluid_bucket": "巫术流体桶",
+    "item.kubejs.dim_sky_fluid_bucket": "暗淡的天空流体桶",
+    "item.kubejs.current_fluid_bucket": "微缩洋流桶",
+    "item.kubejs.sunlight_fluid_bucket": "日光桶",
+    "item.kubejs.molten_obsidian_bucket": "熔融黑曜石桶",
+    "item.kubejs.molten_dark_steel_bucket": "熔融玄钢桶",
+    "item.kubejs.dark_light_fluid_bucket": "暗光桶",
+    "item.kubejs.void_fluid_bucket": "虚空流体桶",
+    "item.kubejs.chaos_fluid_bucket": "混沌流体桶",
+    "item.kubejs.molten_end_steel_bucket": "熔融末地钢桶",
+    "item.kubejs.aether_fluid_bucket": "以太流体桶",
+    "item.kubejs.root_fluid_bucket": "根源流体桶",
+    "item.kubejs.clear_water_tier_1_bucket": "1级净化水桶",
+    "item.kubejs.clear_water_tier_2_bucket": "2级净化水桶",
+    "item.kubejs.clear_water_tier_3_bucket": "3级净化水桶",
+    "item.kubejs.vibrant_fluix_bucket": "谐振福鲁伊克斯桶",
+    "item.kubejs.stable_vibrant_fluix_bucket": "稳定谐振福鲁伊克斯桶",
+    "item.kubejs.dragon_egg_fluid_bucket": "龙蛋液桶",
+    "item.kubejs.magicless_dragon_egg_fluid_bucket": "祛魔龙蛋液桶",
+    "item.kubejs.dragon_breath_bucket": "龙息桶",
+    "item.kubejs.molten_ambrosium_bucket": "熔融神能晶片桶"
 }

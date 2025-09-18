@@ -429,5 +429,6 @@ ServerEvents.recipes((treeoflife) => {
         .loops(1);
 
     treeoflife.remove({ id: "mekanism_extras:control_circuit/infinite" });
+    treeoflife.smithing('mekanism_extras:infinite_control_circuit', '#mekanism_extras:alloys/spectrum', 'projecte:red_matter', '#forge:circuits/cosmic');
 
 });

@@ -52,15 +52,15 @@
 			image: "forbidden_arcanus:textures/effect/magic_circle/inner/union.png"
 			rotation: 0.0d
 			width: 2.5d
-			x: 10.585714285714275d
-			y: 15.740476190476187d
+			x: 9.5d
+			y: 13.5d
 		}
 		{
 			height: 2.5d
 			image: "forbidden_arcanus:textures/effect/magic_circle/inner/union.png"
 			rotation: 0.0d
 			width: 2.5d
-			x: 8.0d
+			x: 7.5d
 			y: 12.0d
 		}
 	]
@@ -178,7 +178,10 @@
 			y: 12.0d
 		}
 		{
-			dependencies: ["1325C5CB3BA46DE2"]
+			dependencies: [
+				"1325C5CB3BA46DE2"
+				"3FBFCFF259A2D818"
+			]
 			id: "5B76E220CC24BAA9"
 			size: 1.5d
 			tasks: [{
@@ -242,6 +245,7 @@
 				"311415D34B8ABE01"
 				"19C4D6B459C57879"
 				"74D450A1F007D6AD"
+				"330BC568A428002E"
 			]
 			id: "0ED6789F097F578F"
 			size: 1.5d
@@ -585,7 +589,7 @@
 				item: "kubejs:emerald_tablet_piece_2"
 				type: "item"
 			}]
-			x: 8.0d
+			x: 7.5d
 			y: 12.0d
 		}
 		{
@@ -595,8 +599,8 @@
 				item: "kubejs:emerald_tablet_piece_3"
 				type: "item"
 			}]
-			x: 10.538095238095224d
-			y: 15.740476190476187d
+			x: 9.5d
+			y: 13.5d
 		}
 		{
 			dependencies: ["2B47BD454153FE6B"]
@@ -608,6 +612,23 @@
 			}]
 			x: 4.5d
 			y: 2.0d
+		}
+		{
+			dependencies: ["2B47BD454153FE6B"]
+			id: "330BC568A428002E"
+			tasks: [{
+				id: "67CD8F3CE9BCBEBB"
+				item: {
+					Count: 1
+					id: "create:super_glue"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 10.4059523809524d
+			y: 15.695238095238103d
 		}
 	]
 	title: "4、信息时代"

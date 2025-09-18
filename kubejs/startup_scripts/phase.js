@@ -9,14 +9,13 @@ StartupEvents.postInit(e => {
     GamePhase.addItemRestriction("disables", "createdieselgenerators:huge_diesel_engine");
     GamePhase.addItemRestriction("disables", "expatternprovider:circuit_cutter");
     GamePhase.addItemRestriction("disables", "expatternprovider:ex_inscriber");
+    GamePhase.addItemRestriction("disables", "alexsmobs:transmutation_table");
     GamePhase.addItemRestriction("disables", "ae2:inscriber");
-
 
 	GamePhase.addDimensionRestriction("assiah", "minecraft:nether");	
 
 	GamePhase.addDimensionRestriction("yetzirah", "minecraft:the_end");
 	
-	GamePhase.addItemModRestriction("beriah", "projecte");
 	GamePhase.addDimensionRestriction("beriah", "aether:the_aether");
     GamePhase.addItemRestriction("beriah", "kubejs:emerald_tablet");
 });

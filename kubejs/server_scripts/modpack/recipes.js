@@ -208,7 +208,34 @@ ServerEvents.recipes(treeoflife => {
             '#forge:ingots/sodium'
         ]
     )
-        .superheated();
+        .heated();
+
+    treeoflife.recipes.create.mixing(
+        [
+            Item.of('kubejs:void_alloy_shard').withChance(1.0)
+        ],
+        [
+            Fluid.of('kubejs:dragon_breath').withAmount(100),
+            '12x #forge:dusts/end_stone',
+            '16x ae2:sky_dust',
+            'mekanism:reprocessed_fissile_fragment'
+        ]
+    )
+        .heated();
+
+    treeoflife.recipes.create.mixing(
+        [
+            Item.of('kubejs:sun_alloy_shard'),
+            'aether:skyroot_bucket'
+        ],
+        [
+            'aether:skyroot_remedy_bucket',
+            'deep_aether:stratus_ingot',
+            '2x deep_aether:chromatic_aercloud',
+            'occultism:iesnium_dust'
+        ]
+    )
+        .heated();
 
     treeoflife.custom({
         "type": "createdieselgenerators:distillation",
@@ -557,6 +584,65 @@ ServerEvents.recipes(treeoflife => {
         .transitionalItem('kubejs:empty_tarot')
         .loops(1);
 
+    treeoflife.smithing('tarotcards:the_high_priestess', 'kubejs:alchemy_in_phi', 'forbidden_arcanus:golden_dragon_scale', 'kubejs:empty_tarot');
+    treeoflife.smithing('tarotcards:the_emperor', 'art_of_forging:demonic_blade', 'art_of_forging:vobrivium_ingot', 'kubejs:empty_tarot');
+    treeoflife.smithing('tarotcards:the_lovers', 'art_of_forging:rending_scissor_complete', 'alexsmobs:void_worm_effigy', 'kubejs:empty_tarot');
+    treeoflife.smithing('tarotcards:the_hierophant', 'alexsmobs:warped_muscle', 'alexsmobs:capsid', 'kubejs:empty_tarot');
+
+    treeoflife.recipes.create.sequenced_assembly([
+        Item.of('tarotcards:the_magician')
+    ], 'kubejs:empty_tarot', [
+        treeoflife.recipes.createDeploying('kubejs:empty_tarot', ['kubejs:empty_tarot', '#forge:circuits/cosmic']),
+        treeoflife.recipes.createFilling('kubejs:empty_tarot', ['kubejs:empty_tarot', Fluid.of('mekanism_extras:polonium-208').withAmount(1)]),
+    ])
+        .transitionalItem('kubejs:empty_tarot')
+        .loops(5);
+
+    treeoflife.recipes.create.sequenced_assembly([
+        Item.of('tarotcards:the_chariot')
+    ], 'kubejs:empty_tarot', [
+        treeoflife.recipes.createDeploying('kubejs:empty_tarot', ['kubejs:empty_tarot', '#mekanism:alloys/infused']),
+        treeoflife.recipes.createDeploying('kubejs:empty_tarot', ['kubejs:empty_tarot', '#mekanism:alloys/reinforced']),
+        treeoflife.recipes.createDeploying('kubejs:empty_tarot', ['kubejs:empty_tarot', '#mekanism:alloys/atomic']),
+        treeoflife.recipes.createDeploying('kubejs:empty_tarot', ['kubejs:empty_tarot', '#mekanism_extras:alloys/radiance']),
+        treeoflife.recipes.createDeploying('kubejs:empty_tarot', ['kubejs:empty_tarot', '#mekanism_extras:alloys/thermonuclear']),
+        treeoflife.recipes.createDeploying('kubejs:empty_tarot', ['kubejs:empty_tarot', '#mekanism_extras:alloys/shining']),
+        treeoflife.recipes.createDeploying('kubejs:empty_tarot', ['kubejs:empty_tarot', '#mekanism_extras:alloys/spectrum']),
+    ])
+        .transitionalItem('kubejs:empty_tarot')
+        .loops(1);
+
+    treeoflife.custom({
+        "type": "goety:ritual",
+        "ritual_type": "goety:craft",
+        "activation_item": {
+            "item": "kubejs:empty_tarot"
+        },
+        "craftType": "forge",
+        "soulCost": 200,
+        "duration": 200,
+        "ingredients": [
+            {
+                "item": "goety:philosophers_stone"
+            },
+            {
+                "item": "alexsmobs:mimicream"
+            },
+            {
+                "item": "goety_cataclysm:fabricator"
+            },
+            {
+                "item":"enderio:prescient_crystal"
+            },
+            {
+                "item":"rainbowcompound:overcharged_alloy"
+            }
+        ],
+        "result": {
+            "item": "tarotcards:the_fool"
+        }
+    });
+
     treeoflife.custom({
         "type": "createdieselgenerators:distillation",
         "ingredients": [
@@ -691,19 +777,6 @@ ServerEvents.recipes(treeoflife => {
             }
         ]
     });
-
-    treeoflife.recipes.create.mixing(
-        [
-            Item.of('kubejs:void_alloy_shard').withChance(1.0)
-        ],
-        [
-            Fluid.of('kubejs:dragon_breath').withAmount(100),
-            '12x #forge:dusts/end_stone',
-            '16x ae2:sky_dust',
-            'mekanism:reprocessed_fissile_fragment'
-        ]
-    )
-        .heated();
 
     treeoflife.custom({
         "type": "createmetallurgy:alloying",
@@ -843,6 +916,64 @@ ServerEvents.recipes(treeoflife => {
             "item": "kubejs:emerald_tablet"
         }
     });
+
+    treeoflife.custom({
+        type: "mekanism:rotary",
+        fluidInput: { amount: 1, fluid: "kubejs:root_fluid" },
+        fluidOutput: { amount: 1, fluid: "kubejs:root_fluid" },
+        gasInput: { amount: 1, gas: "kubejs:root" },
+        gasOutput: { amount: 1, gas: "kubejs:root" },
+    });
+
+    treeoflife.custom({
+        "type": "mekanism:reaction",
+        "duration": 400,
+        "fluidInput": {
+            "amount": 500,
+            "fluid": "kubejs:molten_ambrosium"
+        },
+        "gasInput": {
+            "amount": 20,
+            "gas": "kubejs:aeternalis"
+        },
+        "itemInput": {
+            "ingredient": {
+                "item": "occultism:spirit_attuned_gem",
+                "count": 1
+            }
+        },
+        "gasOutput": {
+            "amount": 500,
+            "gas": "kubejs:root"
+        },
+        "itemOutput": {
+            "count": 1,
+            "item": "minecraft:diamond"
+        }
+    });
+
+    treeoflife.custom({
+        type: "createmetallurgy:alloying",
+        heatRequirement: "heated",
+        ingredients: [
+            {
+                amount: 20,
+                fluid: "kubejs:void_fluid",
+            },
+            {
+                amount: 80,
+                fluid: "deep_aether:poison_fluid",
+            },
+        ],
+        processingTime: 40,
+        results: [
+            {
+                amount: 40,
+                fluid: "kubejs:aether_fluid",
+            },
+        ],
+    });
+
 })
 
 LootJS.modifiers((treeoflife) => {
