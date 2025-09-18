@@ -52,16 +52,16 @@
 			image: "forbidden_arcanus:textures/effect/magic_circle/inner/union.png"
 			rotation: 0.0d
 			width: 2.5d
-			x: 9.5d
-			y: 13.5d
+			x: 7.5d
+			y: 12.0d
 		}
 		{
 			height: 2.5d
 			image: "forbidden_arcanus:textures/effect/magic_circle/inner/union.png"
 			rotation: 0.0d
 			width: 2.5d
-			x: 7.5d
-			y: 12.0d
+			x: 6.0d
+			y: 13.0d
 		}
 	]
 	order_index: 3
@@ -181,6 +181,7 @@
 			dependencies: [
 				"1325C5CB3BA46DE2"
 				"3FBFCFF259A2D818"
+				"696DAEE0CECEE11B"
 			]
 			id: "5B76E220CC24BAA9"
 			size: 1.5d
@@ -266,7 +267,7 @@
 				type: "item"
 			}]
 			x: -6.0d
-			y: 12.0d
+			y: 14.0d
 		}
 		{
 			dependencies: ["3B5F9CEB6F5B4C54"]
@@ -371,6 +372,7 @@
 			dependencies: ["5B76E220CC24BAA9"]
 			hide_dependent_lines: true
 			id: "15132B0C779CB345"
+			shape: "diamond"
 			tasks: [{
 				id: "405FB3CDD3C990F7"
 				item: {
@@ -589,8 +591,8 @@
 				item: "kubejs:emerald_tablet_piece_2"
 				type: "item"
 			}]
-			x: 7.5d
-			y: 12.0d
+			x: 6.0d
+			y: 13.0d
 		}
 		{
 			id: "74D450A1F007D6AD"
@@ -599,8 +601,8 @@
 				item: "kubejs:emerald_tablet_piece_3"
 				type: "item"
 			}]
-			x: 9.5d
-			y: 13.5d
+			x: 7.5d
+			y: 12.0d
 		}
 		{
 			dependencies: ["2B47BD454153FE6B"]

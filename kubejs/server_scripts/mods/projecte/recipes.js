@@ -80,4 +80,23 @@ ServerEvents.recipes(treeoflife => {
             },
         ],
     });
+
+    treeoflife.custom({
+        type: "create:mixing",
+        ingredients: [
+            {
+                item: "projecte:dark_matter",
+                amount: 16
+            },
+            {
+                fluid: "mekanism_extras:polonium-208",
+                amount: 1
+            }
+        ],
+        results: [
+            {
+                item: "projecte:red_matter"
+            }
+        ]
+    });
 })
