@@ -1,6 +1,0 @@
-{
-  "type": "forge:add_features",
-  "biomes": "#minecraft:is_end",
-  "features": "electrodynamics:ore_thorium",
-  "step": "underground_ores"
-}
