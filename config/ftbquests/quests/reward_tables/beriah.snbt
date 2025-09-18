@@ -1,48 +1,21 @@
 {
-	icon: "create:white_postbox"
-	id: "30218443BD005A97"
+	icon: "aether:chest_mimic"
+	id: "68B86C8617401C1D"
 	loot_crate: {
-		color: 16777215
+		color: 16777045
 		drops: {
 			boss: 0
 			monster: 0
 			passive: 0
 		}
-		item_name: "Yetzirah 阶段奖励"
-		string_id: "yetzirah_"
+		item_name: "Beriah 阶段奖励"
+		string_id: "beriah_"
 	}
 	loot_size: 1
-	order_index: 2
-	rewards: [
-		{
-			type: "xp"
-			xp: 100
-		}
-		{ item: "apotheosis:uncommon_material" }
-		{ item: "create:brass_ingot" }
-		{ count: 2, item: "create:crushed_raw_nickel" }
-		{ count: 2, item: "create:crushed_raw_aluminum" }
-		{ count: 2, item: "create:crushed_raw_lead" }
-		{ count: 2, item: "create:crushed_raw_tin" }
-		{ count: 2, item: "create:crushed_raw_osmium" }
-		{ count: 2, item: "createutilities:void_chest" }
-		{ item: "lightmanscurrency:coin_iron" }
-		{ count: 8, item: "tetra:geode" }
-		{ item: "farmersdelight:mutton_wrap" }
-		{ item: "goety:cursed_ingot" }
-		{
-			item: {
-				Count: 1
-				id: "enderio:dark_steel_sword"
-				tag: {
-					Damage: 0
-				}
-			}
-		}
-		{ item: "forbidden_arcanus:orb_of_temporary_flight" }
-		{ item: "createmetallurgy:raw_wolframite" }
-		{ item: "destroy:nether_crocoite" }
-		{ item: "waystones:warp_plate" }
-	]
-	title: "Yetzirah 阶段奖励"
+	order_index: 3
+	rewards: [{
+		type: "xp"
+		xp: 100
+	}]
+	title: "Beriah 阶段奖励"
 }
