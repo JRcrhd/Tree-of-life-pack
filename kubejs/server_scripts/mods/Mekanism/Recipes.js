@@ -430,5 +430,89 @@ ServerEvents.recipes((treeoflife) => {
 
     treeoflife.remove({ id: "mekanism_extras:control_circuit/infinite" });
     treeoflife.smithing('mekanism_extras:infinite_control_circuit', '#mekanism_extras:alloys/spectrum', 'projecte:red_matter', '#forge:circuits/cosmic');
+    
+
+    treeoflife.replaceInput({ id: "mekanism:mekasuit_helmet" }
+        , "#forge:circuits/ultimate"
+        , "#forge:circuits/cosmic"
+    );
+
+    treeoflife.replaceInput({ id: "mekanism:mekasuit_helmet" }
+        , "minecraft:netherite_helmet"
+        , "projecte:rm_helmet"
+    );
+
+    treeoflife.replaceInput({ id: "mekanism:mekasuit_helmet" }
+        , "#forge:pellets/polonium"
+        , "kubejs:polonium_plate"
+    );
+
+    treeoflife.replaceInput({ id: "mekanism:mekasuit_helmet" }
+        , "mekanism:basic_induction_cell"
+        , "mekanism_extras:absolute_induction_cell"
+    );
+    
+    // 胸甲配方修改
+    treeoflife.replaceInput({ id: "mekanism:mekasuit_bodyarmor" }
+        , "#forge:circuits/ultimate"
+        , "#forge:circuits/cosmic"
+    );
+
+    treeoflife.replaceInput({ id: "mekanism:mekasuit_bodyarmor" }
+        , "minecraft:netherite_chestplate"
+        , "projecte:rm_chestplate"
+    );
+
+    treeoflife.replaceInput({ id: "mekanism:mekasuit_bodyarmor" }
+        , "#forge:pellets/polonium"
+        , "kubejs:polonium_plate"
+    );
+
+    treeoflife.replaceInput({ id: "mekanism:mekasuit_bodyarmor" }
+        , "mekanism:basic_induction_cell"
+        , "mekanism_extras:absolute_induction_cell"
+    );
+    
+    // 护腿配方修改
+    treeoflife.replaceInput({ id: "mekanism:mekasuit_pants" }
+        , "#forge:circuits/ultimate"
+        , "#forge:circuits/cosmic"
+    );
+
+    treeoflife.replaceInput({ id: "mekanism:mekasuit_pants" }
+        , "minecraft:netherite_leggings"
+        , "projecte:rm_leggings"
+    );
+
+    treeoflife.replaceInput({ id: "mekanism:mekasuit_pants" }
+        , "#forge:pellets/polonium"
+        , "kubejs:polonium_plate"
+    );
+
+    treeoflife.replaceInput({ id: "mekanism:mekasuit_pants" }
+        , "mekanism:basic_induction_cell"
+        , "mekanism_extras:absolute_induction_cell"
+    );
+    
+    // 靴子配方修改
+    treeoflife.replaceInput({ id: "mekanism:mekasuit_boots" }
+        , "#forge:circuits/ultimate"
+        , "#forge:circuits/cosmic"
+    );
+
+    treeoflife.replaceInput({ id: "mekanism:mekasuit_boots" }
+        , "minecraft:netherite_boots"
+        , "projecte:rm_boots"
+    );
+
+    treeoflife.replaceInput({ id: "mekanism:mekasuit_boots" }
+        , "#forge:pellets/polonium"
+        , "kubejs:polonium_plate"
+    );
+
+    treeoflife.replaceInput({ id: "mekanism:mekasuit_boots" }
+        , "mekanism:basic_induction_cell"
+        , "mekanism_extras:absolute_induction_cell"
+    );
 
 });

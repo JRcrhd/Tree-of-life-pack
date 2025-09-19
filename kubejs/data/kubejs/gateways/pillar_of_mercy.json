@@ -1,0 +1,78 @@
+{
+    "size": "large",
+    "color": "#66AAFF",
+    "waves": [
+        {
+            "entities": [
+                {
+                    "entity": "cataclysm:ignited_revenant",
+                    "count": 2
+                }
+            ],
+            "modifiers": [
+                {
+                    "attribute": "generic.max_health",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.4
+                },
+                {
+                    "attribute": "generic.attack_damage",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 1.0
+                }
+            ],
+            "rewards": [
+                {
+                    "type": "gateways:entity_loot",
+                    "entity": "minecraft:blaze",
+                    "rolls": 5
+                }
+            ],
+            "max_wave_time": 1500,
+            "setup_time": 100
+        }
+    ],
+    "rewards": [
+        {
+            "type": "gateways:experience",
+            "experience": 1000,
+            "orb_size": 200
+        },
+        {
+            "type": "gateways:stack",
+            "stack": {
+                "item": "kubejs:emerald_tablet_piece_2"
+            }
+        },
+        {
+            "type": "gateways:command",
+            "command": "effect give @e[type=item,nbt={Item:{id:\"kubejs:emerald_tablet_piece_2\"}}] minecraft:glowing 1000 1 true",
+            "desc": "rewards.gateways.command.glowing"
+        },
+        {
+            "type": "gateways:loot_table",
+            "loot_table": "minecraft:gameplay/hero_of_the_village/armorer_gift",
+            "rolls": 10,
+            "desc": "rewards.gateways.loot_table.armorer_gift"
+        },
+        {
+            "type": "gateways:loot_table",
+            "loot_table": "minecraft:gameplay/hero_of_the_village/weaponsmith_gift",
+            "rolls": 10,
+            "desc": "rewards.gateways.loot_table.weaponsmith_gift"
+        }
+    ],
+    "failures": [
+        {
+            "type": "gateways:explosion",
+            "strength": 4,
+            "fire": true,
+            "block_damage": true
+        }
+    ],
+    "rules":{
+        "spawn_range": 5.0,
+        "leash_range": 64.0,
+        "allow_discarding": true
+    }
+}

@@ -1,0 +1,117 @@
+{
+	"entity.gateways.gateway" : "永恒之门",
+	"item.gateways.gate_pearl": "珍珠",
+	"gateways.gate_pearl": "珍珠 - %s",
+	"itemGroup.gateways": "永恒之门",
+
+	"info.gateways.gate_pearl": "门珠可以让你通过在方块上使用它来召唤一个传送门。\n\n只有当新的传送门与其他传送门之间的距离足够远（基于当前间距设置）时，才能使用它。\n",
+	"info.gateways.gate_pearl.2": "如果传送门无法生成怪物，任何活动的怪物走得太远，或者波次计时器耗尽，开启的传送门将在一阵闪电中失败。\n\n奖励将在获得时从传送门中生成。",
+
+	"tooltip.gateways.with_count": "%s %s",
+	"tooltip.gateways.dot_with_count": "• %s %s",
+	"tooltip.gateways.dot": "• %s",
+
+	"tooltip.gateways.scroll": "[滚动]",
+	"tooltip.gateways.shift": "[Shift]",
+    "tooltip.gateways.ctrl": "[Ctrl]",
+    "tooltip.gateways.alt": "[Alt]",
+    "tooltip.gateways.true": "已启用",
+    "tooltip.gateways.false": "已禁用",
+
+	"tooltip.gateways.num_wave": "%s 波次",
+	"tooltip.gateways.num_waves": "%s 波次",
+	"tooltip.gateways.wave": "波次 %s/%s",
+	"tooltip.gateways.entities": "实体: ",
+	"tooltip.gateways.modifiers": "修饰符: ",
+	"tooltip.gateways.rewards": "奖励: ",
+
+	"tooltip.gateways.num_failures": "%s 惩罚",
+	"tooltip.gateways.num_failure": "%s 惩罚",
+	"tooltip.gateways.failures": "失败惩罚",
+
+	"tooltip.gateways.num_rule": "%s 规则变更",
+	"tooltip.gateways.num_rules": "%s 规则变更",
+	"tooltip.gateways.rules": "规则变更",
+
+	"tooltip.gateways.key_rewards": "关键奖励",
+
+    "tooltip.gateways.endless.base_wave": "基础波次",
+	"tooltip.gateways.endless.num_modif": "%s 无尽修饰符",
+	"tooltip.gateways.endless.num_modifs": "%s 无尽修饰符",
+    "tooltip.gateways.endless.modifier": "无尽修饰符 %s/%s",
+    "tooltip.gateways.endless.wave_time": "%s 最大波次时间",
+    "tooltip.gateways.endless.setup_time": "%s 准备时间",
+
+	"boss.gateways.wave": "波次: %d/%d | 时间: %s | 敌人: %d",
+	"boss.gateways.done": "传送门已完成！",
+	"boss.gateways.starting": "波次 %d 将在 %s 后开始",
+	"boss.gateways.endless.top": "波次: %d/%d | 剩余时间: %d",
+    "boss.gateways.endless.bot": "敌人: %d/%d | 激活的修饰符: %d",
+	"boss.gateways.endless.incoming": "即将到来的敌人: %d",
+
+	"reward.gateways.stack": "%s %s",
+	"reward.gateways.entity": "%s %s 战利品掷骰",
+	"reward.gateways.loot_table": "%s %s 次掷骰",
+	"reward.gateways.chance": "%s 几率获得 %s",
+	"reward.gateways.experience": "%s 经验",
+	"reward.gateways.summon": "召唤 %s",
+
+	"failure.gateways.explosion": "半径为 %s 的爆炸",
+	"failure.gateways.mob_effect": "%s",
+	"failure.gateways.summon": "召唤 %s",
+	"failure.gateways.chance": "%s 几率触发 %s",
+
+	"rule.gateways.default": "[原为 %s]",
+	"rule.gateways.spawn_range": "生成范围: %s",
+	"rule.gateways.leash_range": "拴绳范围: %s",
+	"rule.gateways.allow_discarding": "允许丢弃: %s",
+	"rule.gateways.allow_dim_change": "允许更改维度: %s",
+	"rule.gateways.player_damage_only": "仅玩家伤害: %s",
+	"rule.gateways.remove_mobs_on_failure": "失败时移除怪物: %s",
+	"rule.gateways.fail_on_out_of_bounds": "出界时失败: %s",
+	"rule.gateways.spacing": "间距: %s",
+
+	"error.gateways.no_space": "没有足够的空间打开这个传送门",
+	"error.gateways.wave_failed": "传送门内爆了，因为没有足够的空间生成下一波",
+	"error.gateways.too_far": "传送门内爆了，因为一个波次实体跑得太远",
+	"error.gateways.wave_elapsed": "波次计时器已过期",
+	"error.gateways.entity_discarded": "传送门内爆了，因为一个实体被移除而不是被杀死",
+
+    "appmode.gateways.after_wave": "在波次 %s 后应用。",
+    "appmode.gateways.after_every_n_waves": "每 %s 波次应用一次。最多 %s 次应用。",
+    "appmode.gateways.only_on_wave": "仅在波次 %s 应用。",
+    "appmode.gateways.only_on_every_n_waves": "仅在每 %s 波次应用。",
+
+	"stat.gateways.gates_defeated": "已击败的传送门",
+
+    "modifier.gateways.gear_set": "装备了 %s",
+
+	"gateways.basic/blaze": "烈焰人传送门",
+	"gateways.basic/slime": "史莱姆传送门",
+	"gateways.basic/enderman": "末影人传送门",
+    
+	"gateways.emerald_grove": "翡翠林地传送门",
+	"gateways.overworldian_nights": "主世界之夜传送门",
+	"gateways.hellish_fortress": "地狱堡垒传送门",
+
+    "gateways.endless/blaze": "无尽烈焰人传送门",
+
+    "rewards.gateways.loot_table.simple_dungeon": "地牢战利品",
+    "rewards.gateways.loot_table.nether_bridge": "下界要塞战利品",
+    "rewards.gateways.loot_table.librarian_gift": "图书管理员的秘藏",
+    "rewards.gateways.loot_table.armorer_gift": "护甲师的秘藏",
+    "rewards.gateways.loot_table.weaponsmith_gift": "武器师的秘藏",
+    "rewards.gateways.loot_table.cleric_gift": "牧师的秘藏",
+    "rewards.gateways.loot_table.farmer_gift": "农夫的秘藏",
+    "rewards.gateways.command.glowing": " ",
+    "rewards.gateways.command.tombstone": " ",
+
+    "name.gateways.necrotic_farmer": "腐败农夫",
+    "name.gateways.undead_legionnaire": "不死军团兵",
+    "name.gateways.withered_ranger": "凋零游侠",
+    "name.gateways.butcher": "屠夫",
+    "name.gateways.huge_slime": "巨型史莱姆",
+    "name.gateways.magicbane_slime": "魔法克星史莱姆",
+    "name.gateways.acidic_slime": "酸性史莱姆",
+    "name.gateways.flaming_enderman": "烈焰末影人"
+}

@@ -1,0 +1,42 @@
+{
+  "key": "kubejs_magical_polonium",
+  "category": "socket",
+  "primary": 0,
+  "secondary": 0,
+  "tertiary": 0,
+  "durability": 2000,
+  "integrityCost": 4,
+  "integrityGain": 0,
+  "magicCapacity": 500,
+  "toolLevel": "minecraft:netherite",
+  "toolEfficiency": 25.0,
+  "attributes": {
+    "generic.attack_damage": 8.0,
+    "generic.armor": 3.0,
+    "generic.armor_toughness": 2.0
+  },
+  "effects": {
+    "unstable": 15,
+    "bleeding": 12,
+    "cursed": 8,
+    "brittle": 6,
+    "crushing": 4,
+    "criticalStrike": [20, 6],
+    "spread": [0, 25],
+    "multishot": [3, 6]
+  },
+  "tints": {
+    "glyph": "00FF88",
+    "texture": "00FF88"
+  },
+  "textures": [
+    "gem",
+    "shiny"
+  ],
+  "experienceCost": 120,
+  "material": {
+    "items": [
+      "kubejs:magical_polonium"
+    ]
+  }
+}

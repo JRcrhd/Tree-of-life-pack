@@ -2666,6 +2666,11 @@ hash = "2a51d90755570c9254d53bab3798d001de48fa084f4370ffa309ffe718b5f140"
 metafile = true
 
 [[files]]
+file = "mods/gateways-to-eternity.pw.toml"
+hash = "595fe8acbe4778aaed1314ad56e54e200205e15be496bffd56fa36b2ef132c04"
+metafile = true
+
+[[files]]
 file = "mods/geckolib.pw.toml"
 hash = "5290e7961ab2ca528b8bf3fecfbcb33240029314fd7cb2086c06c3ee13daf1fc"
 metafile = true

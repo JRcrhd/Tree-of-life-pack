@@ -3,6 +3,7 @@ StartupEvents.postInit(e => {
     GamePhase.addItemRestriction("disables", "projecte:transmutation_table");
     GamePhase.addItemRestriction("disables", "projecte:condenser_mk1");
     GamePhase.addItemRestriction("disables", "projecte:condenser_mk2");
+    GamePhase.addItemRestriction("disables", "projecte:rm_katar");
     GamePhase.addItemRestriction("disables", "projecte:watch_of_flowing_time");
     GamePhase.addItemRestriction("disables", "forbidden_arcanus:quantum_catcher");
     GamePhase.addItemRestriction("disables", "forbidden_arcanus:quantum_catcher");

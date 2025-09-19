@@ -48,6 +48,10 @@
     
     "item.kubejs.magical_polonium": "注魔钋",
     "item.kubejs.polonium_plate": "钋板",
+
+	"kubejs.pillar_of_severity":"严厉支柱",
+	"kubejs.pillar_of_mildness":"平衡支柱",
+	"kubejs.pillar_of_mercy":"仁慈支柱",
     
     "fluid.kubejs.sky_fluid": "天空流体",
     "fluid.kubejs.witch_fluid": "巫术流体",
