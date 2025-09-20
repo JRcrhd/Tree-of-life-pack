@@ -8,6 +8,134 @@
 	id: "7A3F200CD0524E68"
 	order_index: 4
 	quest_links: [ ]
-	quests: [ ]
+	quests: [
+		{
+			id: "36A6D4E8A058F1C5"
+			tasks: [{
+				id: "647FF5C2028CC252"
+				item: "apotheosis:ancient_material"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 1.5d
+		}
+		{
+			id: "7F3389EEA21D0C50"
+			tasks: [{
+				id: "18F5494BBA396028"
+				item: "create:creative_motor"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 3.5d
+		}
+		{
+			id: "1B35B51E10C972E6"
+			tasks: [{
+				id: "3D2F447E107BA1EF"
+				item: "pneumaticcraft:creative_compressed_iron_block"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 1.5d
+		}
+		{
+			id: "17C7A49E6A447D9D"
+			tasks: [{
+				id: "2956B1F3A76647DC"
+				item: "pneumaticcraft:creative_compressor"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 3.5d
+		}
+		{
+			id: "187E088049BF9821"
+			tasks: [{
+				id: "45BA1FA04D2C20BC"
+				item: {
+					Count: 1
+					id: "ae2:dense_energy_cell"
+					tag: {
+						internalCurrentPower: 1600000.0d
+						internalMaxPower: 1600000.0d
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 3.5d
+		}
+		{
+			id: "3BCB5A0CF2808AB1"
+			tasks: [{
+				id: "56C97783700E0824"
+				item: {
+					Count: 1
+					id: "mekanism:creative_energy_cube"
+					tag: {
+						mekData: {
+							EnergyContainers: [{
+								Container: 0b
+								stored: "18446744073709551615.9999"
+							}]
+							componentConfig: {
+								config0: {
+									side0: 4
+									side1: 4
+									side2: 4
+									side3: 4
+									side4: 4
+									side5: 4
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 5.5d
+		}
+		{
+			id: "7987B2859C0594FB"
+			tasks: [{
+				id: "50DA818F09032456"
+				item: "forbidden_arcanus:soul_crimson_stone"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 3.5d
+		}
+		{
+			id: "6D091C4A2592F85D"
+			tasks: [{
+				id: "3EBDBA9ED18C411E"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							Items: [ ]
+							Size: 22
+						}
+					}
+					id: "tarotcards:tarot_deck"
+				}
+				type: "item"
+			}]
+			x: -7.5d
+			y: 3.5d
+		}
+		{
+			id: "4BD2603AA65CA68F"
+			tasks: [{
+				id: "03664EB3C35DD9CB"
+				item: "projecte:dm_pedestal"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 3.5d
+		}
+	]
 	title: "5、后信息时代"
 }

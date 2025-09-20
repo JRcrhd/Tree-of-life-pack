@@ -10,6 +10,32 @@
 	hide_quest_until_deps_visible: true
 	icon: "lightmanscurrency:trading_core"
 	id: "173E073F562968DC"
+	images: [
+		{
+			height: 5.0d
+			image: "forbidden_arcanus:block/aurum_log_top"
+			rotation: 0.0d
+			width: 5.0d
+			x: -2.5d
+			y: 1.5d
+		}
+		{
+			height: 10.0d
+			image: "ends_delight:block/chorus_fruit_crate_top"
+			rotation: 0.0d
+			width: 10.0d
+			x: 0.0d
+			y: 8.5d
+		}
+		{
+			height: 5.0d
+			image: "supplementaries:textures/gui/config_background_old.png"
+			rotation: 0.0d
+			width: 5.0d
+			x: 2.5d
+			y: 1.5d
+		}
+	]
 	order_index: 3
 	quest_links: [ ]
 	quests: [
@@ -47,12 +73,11 @@
 				item: { Count: 2, id: "lightmanscurrency:coin_gold" }
 				type: "item"
 			}]
-			title: "抽油机曲柄"
-			x: -3.0d
+			x: -4.0d
 			y: 0.0d
 		}
 		{
-			dependencies: ["2FF701F56EC6BC13"]
+			dependencies: ["0395AA485156D264"]
 			icon: {
 				Count: 1
 				id: "lightmanscurrency:wallet_iron"
@@ -75,16 +100,12 @@
 				item: { Count: 3, id: "lightmanscurrency:coin_copper" }
 				type: "item"
 			}]
-			title: "钱包（铁）"
-			x: 0.0d
+			x: -2.5d
 			y: 0.0d
 		}
 		{
 			can_repeat: true
-			dependencies: [
-				"3946ACDFCB8F7CD3"
-				"2FF701F56EC6BC13"
-			]
+			dependencies: ["3946ACDFCB8F7CD3"]
 			icon: {
 				Count: 1
 				id: "tetra:thermal_cell"
@@ -104,16 +125,132 @@
 				}
 				type: "item"
 			}]
-			subtitle: "battery"
 			tasks: [{
 				consume_items: true
 				id: "1FDA2133FCDC12C6"
 				item: "lightmanscurrency:coin_emerald"
 				type: "item"
 			}]
-			title: "热电池"
-			x: 3.0d
+			x: -1.0d
 			y: 0.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["0ED6789F097F578F"]
+			icon: "kubejs:emerald_tablet"
+			id: "41C515069984C7DE"
+			rewards: [{
+				id: "2745EB29387B62DD"
+				item: "kubejs:emerald_tablet"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "0956432402495E55"
+				item: "lightmanscurrency:coin_netherite"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 1.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["6C22540687B0EBAB"]
+			icon: "quark:soul_bead"
+			id: "585D954404AEC0CE"
+			rewards: [{
+				id: "40A005888E31A4E8"
+				item: "quark:soul_bead"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 2L
+				id: "7B7671500C212782"
+				item: { Count: 2, id: "lightmanscurrency:coin_emerald" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 1.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["186C7F5EB2E9CCBD"]
+			icon: "forbidden_arcanus:nipa"
+			id: "6120D145CA74382E"
+			rewards: [{
+				id: "15E7E85FF70FA44D"
+				item: "forbidden_arcanus:nipa"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 2L
+				id: "3BFDBAB8488BD6EE"
+				item: { Count: 2, id: "lightmanscurrency:coin_gold" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 1.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["0B04B760B06CEF64"]
+			icon: "apotheosis:gem_dust"
+			id: "7CD4EE37D674011C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "37C1F9357997CCE7"
+				table_id: 7161463612141545752L
+				type: "random"
+			}]
+			tasks: [{
+				id: "6BD00A96CF20E7E5"
+				item: "lightmanscurrency:coinpile_copper"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 3.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["6DD6582008E4394E"]
+			icon: "apotheosis:gem_dust"
+			id: "324874294D01E8C8"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0F588C042098799F"
+				table_id: 3710932438271636185L
+				type: "random"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "79C8195299B5F7CD"
+				item: "lightmanscurrency:coinpile_iron"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 3.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["070E6BED775E9E8B"]
+			icon: "apotheosis:gem_dust"
+			id: "679CA5F33D906F04"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "79775077EF63222D"
+				table_id: 6203862767351208063L
+				type: "random"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "4B555F22459A0B4F"
+				item: "lightmanscurrency:coinpile_gold"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 3.0d
 		}
 	]
 	title: "市场"
