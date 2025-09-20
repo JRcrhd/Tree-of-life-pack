@@ -2736,11 +2736,6 @@ hash = "675609a9fb0ed19788e460191f2fba6279e56e63d702c3d506e6e1a1c0c9ffb0"
 metafile = true
 
 [[files]]
-file = "mods/iglee-library.pw.toml"
-hash = "fbd6ab71a51f60cdf106724717f537cd78c061de54f3071e94b3f7d6ebc02757"
-metafile = true
-
-[[files]]
 file = "mods/immediatelyfast.pw.toml"
 hash = "835bd8b05a05ce6c0981ddc37c49e4c476aa0414cc2a5321fd9f8994193b6feb"
 metafile = true
