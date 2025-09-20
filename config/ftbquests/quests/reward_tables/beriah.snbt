@@ -13,9 +13,24 @@
 	}
 	loot_size: 1
 	order_index: 3
-	rewards: [{
-		type: "xp"
-		xp: 100
-	}]
+	rewards: [
+		{
+			type: "xp"
+			xp: 300
+		}
+		{ count: 16, item: "ae2:certus_quartz_crystal" }
+		{ count: 4, item: "pneumaticcraft:printed_circuit_board" }
+		{ item: "ae2:mysterious_cube" }
+		{ count: 32, item: "ae2:sky_stone_block" }
+		{ count: 16, item: "mekanism:enriched_redstone" }
+		{ count: 8, item: "createmetallurgy:raw_wolframite_block" }
+		{ count: 4, item: "minecraft:chorus_flower" }
+		{ item: "ends_delight:roasted_dragon_steak" }
+		{ count: 4, item: "mekanism:deepslate_osmium_ore" }
+		{ count: 32, item: "minecraft:end_stone" }
+		{ count: 4, item: "minecraft:diamond" }
+		{ item: "ae2:flawless_budding_quartz" }
+		{ count: 4, item: "lightmanscurrency:coin_gold" }
+	]
 	title: "Beriah 阶段奖励"
 }

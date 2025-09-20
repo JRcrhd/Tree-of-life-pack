@@ -139,11 +139,6 @@
             }
         },
         {
-            "type": "gateways:command",
-            "command": "effect give @e[type=item,nbt={Item:{id:\"kubejs:emerald_tablet_piece_1\"}}] minecraft:glowing 1000 1 true",
-            "desc": "rewards.gateways.command.glowing"
-        },
-        {
             "type": "gateways:loot_table",
             "loot_table": "minecraft:gameplay/hero_of_the_village/librarian_gift",
             "rolls": 20,

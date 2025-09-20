@@ -43,6 +43,7 @@
 		{ item: "createmetallurgy:raw_wolframite" }
 		{ item: "destroy:nether_crocoite" }
 		{ item: "waystones:warp_plate" }
+		{ count: 2, item: "lightmanscurrency:coin_iron" }
 	]
 	title: "Yetzirah 阶段奖励"
 }

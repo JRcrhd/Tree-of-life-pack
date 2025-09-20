@@ -1,0 +1,36 @@
+{
+  "key": "projecte_red_matter",
+  "category": "metal",
+  "primary": 9.5,
+  "secondary": 7.8,
+  "tertiary": 4.5,
+  "durability": 2000,
+  "integrityCost": 3,
+  "integrityGain": 8,
+  "magicCapacity": 200,
+  "toolLevel": "minecraft:netherite",
+  "toolEfficiency": 10.0,
+  "effects": {
+    "stabilizing": 8,
+    "crushing": 6,
+    "backstab": 4,
+    "workable": 16,
+    "unbreaking": 4
+  },
+  "tints": {
+    "glyph": "8B0000",
+    "texture": "8B0000"
+  },
+  "textures": [
+    "metal",
+    "shiny"
+  ],
+  "material": {
+    "items": [
+      "projecte:red_matter"
+    ]
+  },
+  "requiredTools": {
+    "hammer_dig": "minecraft:netherite"
+  }
+}

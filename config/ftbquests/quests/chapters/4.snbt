@@ -575,7 +575,12 @@
 			y: 14.0d
 		}
 		{
-			dependencies: ["2B47BD454153FE6B"]
+			dependencies: ["4D14BA634D25C68C"]
+			description: [
+				"召唤昔日的神魂，并击败祂们。"
+				""
+				"Summon the spirits of the past and defeat them."
+			]
 			id: "311415D34B8ABE01"
 			tasks: [{
 				id: "60872CC4C4E59B8E"
@@ -586,7 +591,12 @@
 			y: 12.0d
 		}
 		{
-			dependencies: ["2B47BD454153FE6B"]
+			dependencies: ["4D14BA634D25C68C"]
+			description: [
+				"挺过灾厄教团的袭击，保护好自己的灵魂。"
+				""
+				"Survive the attack of the disaster cult and protect your soul well."
+			]
 			id: "19C4D6B459C57879"
 			tasks: [{
 				id: "15A44CE9E8D79E45"
@@ -597,7 +607,12 @@
 			y: 13.0d
 		}
 		{
-			dependencies: ["2B47BD454153FE6B"]
+			dependencies: ["4D14BA634D25C68C"]
+			description: [
+				"击败六个化身，证明手中武器足够锋利。"
+				""
+				"Defeat six avatars to prove that the weapon in hand is sharp enough."
+			]
 			id: "74D450A1F007D6AD"
 			tasks: [{
 				id: "6308DEAB9C66DBB3"
@@ -621,6 +636,7 @@
 		{
 			dependencies: ["2B47BD454153FE6B"]
 			id: "330BC568A428002E"
+			shape: "diamond"
 			tasks: [{
 				id: "67CD8F3CE9BCBEBB"
 				item: {
@@ -632,8 +648,19 @@
 				}
 				type: "item"
 			}]
-			x: 10.4059523809524d
-			y: 15.695238095238103d
+			x: 4.5d
+			y: 18.0d
+		}
+		{
+			dependencies: ["618EC2557B84D2C3"]
+			id: "4D14BA634D25C68C"
+			tasks: [{
+				id: "41C09F1B443E6DC6"
+				item: "kubejs:holy_water_bucket"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 11.0d
 		}
 	]
 	title: "4、信息时代"

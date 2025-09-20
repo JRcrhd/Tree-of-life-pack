@@ -1,5 +1,5 @@
 {
-  "key": "kubejs_magical_polonium",
+  "key": "magical_polonium",
   "category": "socket",
   "primary": 0,
   "secondary": 0,
@@ -18,16 +18,14 @@
   "effects": {
     "unstable": 15,
     "bleeding": 12,
-    "cursed": 8,
-    "brittle": 6,
     "crushing": 4,
     "criticalStrike": [20, 6],
     "spread": [0, 25],
     "multishot": [3, 6]
   },
   "tints": {
-    "glyph": "00FF88",
-    "texture": "00FF88"
+    "glyph": "22FFAA",
+    "texture": "22FFAA"
   },
   "textures": [
     "gem",

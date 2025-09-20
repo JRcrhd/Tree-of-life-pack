@@ -75,6 +75,7 @@
     "fluid.kubejs.magicless_dragon_egg_fluid": "祛魔龙蛋液",
     "fluid.kubejs.dragon_breath": "龙息",
     "fluid.kubejs.molten_ambrosium": "熔融神能晶片",
+    "fluid.kubejs.holy_water": "圣水",
     
     "item.kubejs.sky_fluid_bucket": "天空流体桶",
     "item.kubejs.witch_fluid_bucket": "巫术流体桶",
@@ -97,5 +98,6 @@
     "item.kubejs.dragon_egg_fluid_bucket": "龙蛋液桶",
     "item.kubejs.magicless_dragon_egg_fluid_bucket": "祛魔龙蛋液桶",
     "item.kubejs.dragon_breath_bucket": "龙息桶",
-    "item.kubejs.molten_ambrosium_bucket": "熔融神能晶片桶"
+    "item.kubejs.molten_ambrosium_bucket": "熔融神能晶片桶",
+    "item.kubejs.holy_water_bucket": "圣水桶"
 }

@@ -1,0 +1,36 @@
+{
+  "key": "projecte_dark_matter",
+  "category": "metal",
+  "primary": 7.5,
+  "secondary": 5.8,
+  "tertiary": 3.5,
+  "durability": 1200,
+  "integrityCost": 3,
+  "integrityGain": 6,
+  "magicCapacity": 120,
+  "toolLevel": "minecraft:diamond",
+  "toolEfficiency": 8.5,
+  "effects": {
+    "stabilizing": 6,
+    "crushing": 4,
+    "backstab": 3,
+    "workable": 12,
+    "unbreaking": 3
+  },
+  "tints": {
+    "glyph": "1A1A1A",
+    "texture": "1A1A1A"
+  },
+  "textures": [
+    "metal",
+    "shiny"
+  ],
+  "material": {
+    "items": [
+      "projecte:dark_matter"
+    ]
+  },
+  "requiredTools": {
+    "hammer_dig": "minecraft:diamond"
+  }
+}

@@ -632,10 +632,10 @@ ServerEvents.recipes(treeoflife => {
                 "item": "goety_cataclysm:fabricator"
             },
             {
-                "item":"enderio:prescient_crystal"
+                "item": "enderio:prescient_crystal"
             },
             {
-                "item":"rainbowcompound:overcharged_alloy"
+                "item": "rainbowcompound:overcharged_alloy"
             }
         ],
         "result": {
@@ -888,8 +888,8 @@ ServerEvents.recipes(treeoflife => {
         "type": "mekanism:nucleosynthesizing",
         "duration": 200,
         "gasInput": { "amount": 10, "gas": "kubejs:aeternalis" },
-        "itemInput": { "ingredient": { "type": "forge:nbt", "count": 1, "item": "kubejs:clear_water_tier_2_bucket"} },
-        "output": { "item": "kubejs:clear_water_tier_3_bucket"}
+        "itemInput": { "ingredient": { "type": "forge:nbt", "count": 1, "item": "kubejs:clear_water_tier_2_bucket" } },
+        "output": { "item": "kubejs:clear_water_tier_3_bucket" }
     })
 
     treeoflife.custom({
@@ -972,6 +972,165 @@ ServerEvents.recipes(treeoflife => {
                 fluid: "kubejs:aether_fluid",
             },
         ],
+    });
+
+    treeoflife.custom({
+        "type": "destroy:aging",
+        "ingredients": [
+            {
+                "fluid": "kubejs:clear_water_tier_3",
+                "amount": 1000
+            },
+            {
+                "item": "aether:ambrosium_shard",
+                "count": 2
+            }
+        ],
+        "results": [
+            {
+                "fluid": "kubejs:holy_water",
+                "amount": 1000
+            }
+        ],
+        "processingTime": 12000
+    });
+
+    treeoflife.custom({
+        "type": "occultism:ritual",
+        "ritual_type": "occultism:craft_miner_spirit",
+        "activation_item": {
+            "item": "occultism:book_of_binding_bound_marid"
+        },
+        "pentacle_id": "occultism:craft_marid",
+        "duration": 30,
+        "ritual_dummy": {
+            "item": "occultism:ritual_dummy/custom_ritual"
+        },
+        "ingredients": [
+            {
+                "item": "kubejs:point_binah"
+            },
+            {
+                "item": "kubejs:point_geburah"
+            },
+            {
+                "item": "kubejs:point_hod"
+            },
+            {
+                "item": "occultism:spirit_attuned_crystal"
+            },
+            {
+                "item": "minecraft:end_crystal"
+            },
+            {
+                "item": "minecraft:nether_star"
+            },
+            {
+                "item": "occultism:soul_shard"
+            },
+            {
+                "item": "kubejs:holy_water_bucket"
+            }
+        ],
+        "result": {
+            "item": "gateways:gate_pearl",
+            "count": 1,
+            "nbt": {
+                "gateway": "kubejs:pillar_of_severity"
+            }
+        }
+    });
+
+    treeoflife.custom({
+        "type": "occultism:ritual",
+        "ritual_type": "occultism:craft_miner_spirit",
+        "activation_item": {
+            "item": "occultism:book_of_binding_bound_marid"
+        },
+        "pentacle_id": "occultism:craft_marid",
+        "duration": 30,
+        "ritual_dummy": {
+            "item": "occultism:ritual_dummy/custom_ritual"
+        },
+        "ingredients": [
+            {
+                "item": "kubejs:point_kether"
+            },
+            {
+                "item": "kubejs:point_tiphareth"
+            },
+            {
+                "item": "kubejs:point_malkuth"
+            },
+            {
+                "item": "occultism:spirit_attuned_crystal"
+            },
+            {
+                "item": "minecraft:end_crystal"
+            },
+            {
+                "item": "minecraft:nether_star"
+            },
+            {
+                "item": "goety:forbidden_piece"
+            },
+            {
+                "item": "kubejs:holy_water_bucket"
+            }
+        ],
+        "result": {
+            "item": "gateways:gate_pearl",
+            "count": 1,
+            "nbt": {
+                "gateway": "kubejs:pillar_of_mildness"
+            }
+        }
+    });
+
+    treeoflife.custom({
+        "type": "occultism:ritual",
+        "ritual_type": "occultism:craft_miner_spirit",
+        "activation_item": {
+            "item": "occultism:book_of_binding_bound_marid"
+        },
+        "pentacle_id": "occultism:craft_marid",
+        "duration": 30,
+        "ritual_dummy": {
+            "item": "occultism:ritual_dummy/custom_ritual"
+        },
+        "ingredients": [
+            {
+                "item": "kubejs:point_chokmah"
+            },
+            {
+                "item": "kubejs:point_chesed"
+            },
+            {
+                "item": "kubejs:point_netzach"
+            },
+            {
+                "item": "occultism:spirit_attuned_crystal"
+            },
+            {
+                "item": "minecraft:end_crystal"
+            },
+            {
+                "item": "minecraft:nether_star"
+            },
+            {
+                "item": "ae2:not_so_mysterious_cube"
+            },
+            {
+                "item": "kubejs:holy_water_bucket"
+            }
+        ],
+        "result": {
+            "item": "gateways:gate_pearl",
+            "count": 1,
+            "nbt": {
+                "gateway": "kubejs:pillar_of_mercy"
+            }
+        }
     });
 
 })

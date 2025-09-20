@@ -13,9 +13,22 @@
 	}
 	loot_size: 1
 	order_index: 4
-	rewards: [{
-		type: "xp"
-		xp: 1001
-	}]
+	rewards: [
+		{
+			type: "xp"
+			xp: 1000
+		}
+		{ count: 4, item: "aether:zanite_gemstone" }
+		{ count: 4, item: "aether:ambrosium_shard" }
+		{ count: 6, item: "minecraft:netherite_scrap" }
+		{ count: 16, item: "forbidden_arcanus:darkstone" }
+		{ item: "forbidden_arcanus:rune_block" }
+		{ item: "forbidden_arcanus:deorum_ingot" }
+		{ count: 2, item: "forbidden_arcanus:aureal_bottle" }
+		{ item: "mekanism:pellet_polonium" }
+		{ item: "destroy:dynamite" }
+		{ count: 2, item: "forbidden_arcanus:stellarite_piece" }
+		{ count: 4, item: "lightmanscurrency:coin_emerald" }
+	]
 	title: "Atziluth 阶段奖励"
 }

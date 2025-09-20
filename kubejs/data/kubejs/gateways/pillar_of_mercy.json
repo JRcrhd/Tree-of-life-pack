@@ -5,30 +5,137 @@
         {
             "entities": [
                 {
-                    "entity": "cataclysm:ignited_revenant",
-                    "count": 2
+                    "entity": "minecraft:giant",
+                    "desc": "坚固的巨人"
                 }
             ],
             "modifiers": [
                 {
                     "attribute": "generic.max_health",
                     "operation": "MULTIPLY_TOTAL",
-                    "value": 0.4
+                    "value": 13.0
+                }
+            ],
+            "rewards": [],
+            "max_wave_time": 400,
+            "setup_time": 100
+        },
+        {
+            "entities": [
+                {
+                    "entity": "minecraft:chicken",
+                    "count": 15,
+                    "desc": "分身的鸡"
+
+                }
+            ],
+            "modifiers": [
+                {
+                    "attribute": "generic.max_health",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 7.0
+                }
+            ],
+            "rewards": [],
+            "max_wave_time": 400,
+            "setup_time": 100
+        },
+        {
+            "entities": [
+                {
+                    "entity": "minecraft:iron_golem",
+                    "desc": "装甲的傀儡"
+                }
+            ],
+            "modifiers": [
+                {
+                    "attribute": "generic.max_health",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 5.0
+                },
+                {
+                    "attribute": "generic.armor",
+                    "operation": "ADDITION",
+                    "value": 150.0
+                },
+                {
+                    "attribute": "generic.armor_toughness",
+                    "operation": "ADDITION",
+                    "value": 100.0
+                }
+            ],
+            "rewards": [],
+            "max_wave_time": 400,
+            "setup_time": 100
+        },
+        {
+            "entities": [
+                {
+                    "entity": "minecraft:sheep",
+                    "nbt": "{ActiveEffects: [{id: 8, Duration: -1, Amplifier: 2}]}",
+                    "desc": "再生的羊"
+                }
+            ],
+            "modifiers": [
+                {
+                    "attribute": "generic.max_health",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 20.0
+                }
+            ],
+            "rewards": [],
+            "max_wave_time": 400,
+            "setup_time": 100
+        },
+        {
+            "entities": [
+                {
+                    "entity": "minecraft:wither_skeleton",
+                    "desc": "强力的骷髅"
+                }
+            ],
+            "modifiers": [
+                {
+                    "attribute": "generic.max_health",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 10.0
                 },
                 {
                     "attribute": "generic.attack_damage",
                     "operation": "MULTIPLY_TOTAL",
-                    "value": 1.0
+                    "value": 20.0
                 }
             ],
-            "rewards": [
+            "rewards": [],
+            "max_wave_time": 400,
+            "setup_time": 100
+        },
+        {
+            "entities": [
                 {
-                    "type": "gateways:entity_loot",
-                    "entity": "minecraft:blaze",
-                    "rolls": 5
+                    "entity": "minecraft:warden",
+                    "desc": "快速的监守者"
                 }
             ],
-            "max_wave_time": 1500,
+            "modifiers": [
+                {
+                    "attribute": "generic.max_health",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 1.2
+                },
+                {
+                    "attribute": "generic.attack_damage",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 2.0
+                },
+                {
+                    "attribute": "generic.movement_speed",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 1.5
+                }
+            ],
+            "rewards": [],
+            "max_wave_time": 400,
             "setup_time": 100
         }
     ],
@@ -45,20 +152,15 @@
             }
         },
         {
-            "type": "gateways:command",
-            "command": "effect give @e[type=item,nbt={Item:{id:\"kubejs:emerald_tablet_piece_2\"}}] minecraft:glowing 1000 1 true",
-            "desc": "rewards.gateways.command.glowing"
-        },
-        {
             "type": "gateways:loot_table",
             "loot_table": "minecraft:gameplay/hero_of_the_village/armorer_gift",
-            "rolls": 10,
+            "rolls": 6,
             "desc": "rewards.gateways.loot_table.armorer_gift"
         },
         {
             "type": "gateways:loot_table",
             "loot_table": "minecraft:gameplay/hero_of_the_village/weaponsmith_gift",
-            "rolls": 10,
+            "rolls": 6,
             "desc": "rewards.gateways.loot_table.weaponsmith_gift"
         }
     ],
@@ -71,7 +173,7 @@
         }
     ],
     "rules":{
-        "spawn_range": 5.0,
+        "spawn_range": 7.0,
         "leash_range": 64.0,
         "allow_discarding": true
     }

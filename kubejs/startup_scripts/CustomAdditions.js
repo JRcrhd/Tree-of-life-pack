@@ -172,4 +172,8 @@ StartupEvents.registry('fluid', treeoflife => {
         .thickTexture(0xDDCCAA)
         .bucketColor(0xDDCCAA)
         .temperature(2000);
+
+    treeoflife.create('holy_water')
+        .thinTexture(0xFF88BB)
+        .bucketColor(0xFF88BB);
 });

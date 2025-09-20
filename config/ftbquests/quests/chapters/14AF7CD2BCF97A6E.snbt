@@ -123,6 +123,12 @@
 		{
 			dependencies: ["1A2021D8F2852BE3"]
 			id: "059A864FBE3A9836"
+			rewards: [{
+				count: 2
+				id: "5DBF4B18614CBC8E"
+				item: "mekanism:ingot_osmium"
+				type: "item"
+			}]
 			tasks: [{
 				id: "0FC0DD8D48D0C412"
 				item: "mekanism:ingot_osmium"
@@ -135,6 +141,12 @@
 			dependencies: ["059A864FBE3A9836"]
 			hide_dependent_lines: true
 			id: "641D9F649F2865E3"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4DFD13AA94CA5446"
+				table_id: 7545900498830760989L
+				type: "random"
+			}]
 			tasks: [{
 				id: "1A97485D749C79D4"
 				item: "mekanism:steel_casing"
@@ -353,6 +365,12 @@
 			dependencies: ["7A757DAA0E533ABC"]
 			hide_dependent_lines: true
 			id: "5EDF1BB105288C74"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "37D3D48FBE60D8C3"
+				table_id: 7545900498830760989L
+				type: "random"
+			}]
 			tasks: [{
 				id: "7425021F0CFA7F45"
 				item: "mekanism:basic_control_circuit"
@@ -365,6 +383,12 @@
 			dependencies: ["5EDF1BB105288C74"]
 			hide_dependent_lines: true
 			id: "4DC08F5E04C43EB6"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3B428DB9EDF11F54"
+				table_id: 7545900498830760989L
+				type: "random"
+			}]
 			tasks: [{
 				id: "7FBF248A94D2AA96"
 				item: "mekanism:advanced_control_circuit"
@@ -381,6 +405,12 @@
 			]
 			hide_dependent_lines: true
 			id: "1823804755438C84"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "37076610A329A46B"
+				table_id: 7545900498830760989L
+				type: "random"
+			}]
 			tasks: [{
 				id: "7CA6F4EFBF445E5B"
 				item: "mekanism:elite_control_circuit"
@@ -397,6 +427,12 @@
 			]
 			hide_dependent_lines: true
 			id: "1C51EF09FC5F6459"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "10E71BF610AF7E64"
+				table_id: 7545900498830760989L
+				type: "random"
+			}]
 			tasks: [{
 				id: "0E9314E00A8545CD"
 				item: "mekanism:ultimate_control_circuit"
@@ -411,6 +447,12 @@
 				"01903E84AF1A8CB8"
 			]
 			id: "54620BCFD25A0943"
+			rewards: [{
+				count: 2
+				id: "0242BAFF7733C73A"
+				item: "ae2:fluix_crystal"
+				type: "item"
+			}]
 			tasks: [{
 				id: "381E4A00316B8D14"
 				item: "ae2:fluix_crystal"
@@ -712,6 +754,20 @@
 			]
 			hide_dependent_lines: true
 			id: "782AE4626EF3CEC8"
+			rewards: [
+				{
+					count: 2
+					id: "559C0FF01F0D8EED"
+					item: "ae2:formation_core"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "12018B2DC200BF71"
+					item: "ae2:annihilation_core"
+					type: "item"
+				}
+			]
 			tasks: [
 				{
 					id: "1A5AAE01E35572E7"
@@ -920,6 +976,12 @@
 				"The storage element provides storage space for the AE network."
 			]
 			id: "13212D34185CBC50"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0739DD5481574D00"
+				table_id: 7545900498830760989L
+				type: "random"
+			}]
 			tasks: [{
 				id: "2BF923F9829CCE51"
 				item: "ae2:drive"
@@ -1158,6 +1220,12 @@
 		{
 			dependencies: ["03F4298490F8DBEE"]
 			id: "702F7C260BE4D650"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "757D57536D822411"
+				table_id: 7545900498830760989L
+				type: "random"
+			}]
 			tasks: [{
 				id: "0A1D24F7552C7CEF"
 				item: "ae2:crafting_unit"
@@ -1745,6 +1813,12 @@
 				"...next, 'thinking' is very useful."
 			]
 			id: "4EACFD5A263A624A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7B4FCABCF5F406E0"
+				table_id: 7545900498830760989L
+				type: "random"
+			}]
 			subtitle: "assemble matrix"
 			tasks: [
 				{
@@ -1939,6 +2013,12 @@
 		{
 			dependencies: ["34D489DD0BE7988D"]
 			id: "27306AF790F7BB6A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "12F6E9D6D11A0DD3"
+				table_id: 7545900498830760989L
+				type: "random"
+			}]
 			tasks: [{
 				id: "6190F6B32C541A18"
 				item: "ae2:wireless_receiver"
@@ -2084,6 +2164,12 @@
 		{
 			dependencies: ["7D468C55D42AFD3E"]
 			id: "2A97FDA5156ABBB8"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2BC8BDA275DCB4B7"
+				table_id: 7545900498830760989L
+				type: "random"
+			}]
 			tasks: [{
 				id: "1586F62E1A7D3F26"
 				item: "expatternprovider:ingredient_buffer"
@@ -2249,6 +2335,12 @@
 			dependencies: ["29E74031F41B8761"]
 			id: "11E3CD2D164C2023"
 			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "753A7632C079DF5F"
+				table_id: 7545900498830760989L
+				type: "random"
+			}]
 			tasks: [{
 				id: "57E65395E7B645DB"
 				item: "mekanism:reprocessed_fissile_fragment"

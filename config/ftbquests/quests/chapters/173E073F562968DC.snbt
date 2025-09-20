@@ -79,6 +79,42 @@
 			x: 0.0d
 			y: 0.0d
 		}
+		{
+			can_repeat: true
+			dependencies: [
+				"3946ACDFCB8F7CD3"
+				"2FF701F56EC6BC13"
+			]
+			icon: {
+				Count: 1
+				id: "tetra:thermal_cell"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "4046F9C4E2906E69"
+			rewards: [{
+				id: "633A7D798EB1BCF1"
+				item: {
+					Count: 1
+					id: "tetra:thermal_cell"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "battery"
+			tasks: [{
+				consume_items: true
+				id: "1FDA2133FCDC12C6"
+				item: "lightmanscurrency:coin_emerald"
+				type: "item"
+			}]
+			title: "热电池"
+			x: 3.0d
+			y: 0.0d
+		}
 	]
 	title: "市场"
 }
