@@ -1,13 +1,13 @@
 {
   "general": {
     "debug": false,
-    "itemModNameTooltip": true,
+    "itemModNameTooltip": false,
     "bossBarOverlapMode": "PUSH_DOWN",
     "builtinCamouflage": true,
     "ttsMode": "PRESS",
     "fluidMode": "ANY",
     "reachDistance": 0.0,
-    "displayEntities": false,
+    "displayEntities": true,
     "displayBosses": true,
     "displayMode": "TOGGLE",
     "displayTooltip": true,
@@ -33,7 +33,7 @@
     "overlayAnchorY": 0.0,
     "activeTheme": "jade:create",
     "themesHash": -328442023,
-    "overlayPosX": 0.28
+    "overlayPosX": 0.5
   },
   "formatting": {
     "modName": "§9§o%s"

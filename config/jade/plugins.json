@@ -72,13 +72,19 @@
     "registry_name": "OFF",
     "mod_name": true
   },
+  "expatternprovider": {
+    "jade_chamber": true,
+    "jade_wireless": true
+  },
   "apotheosis": {
     "adventure": true,
-    "ench": true,
-    "spawner": true
+    "ench": true
   },
   "balm": {
     "jade": true
+  },
+  "custommachinery": {
+    "machine_component_provider": true
   },
   "ae2": {
     "part_icon": true,
@@ -104,6 +110,11 @@
     "slurry": true,
     "energy": true,
     "tooltip_renderer": true
+  },
+  "delightful": {
+    "crop_progress": true,
+    "pie_icons": true,
+    "mushroom_colony": true
   },
   "supplementaries": {
     "hat_stand": true

@@ -1,13 +1,23 @@
 {
 	icon: "apotheosis:gem_dust"
 	id: "6362A13651952918"
+	loot_crate: {
+		color: 43690
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		glow: 1b
+		string_id: "basic_apotheosis"
+	}
 	loot_size: 1
 	order_index: 5
 	rewards: [
-		{ count: 2, item: "apotheosis:gem_dust", weight: 5.0f }
-		{ count: 4, item: "apotheosis:common_material", weight: 3.0f }
-		{ count: 3, item: "apotheosis:uncommon_material", weight: 2.5f }
-		{ count: 2, item: "apotheosis:rare_material", weight: 2.0f }
+		{ count: 2, item: "apotheosis:gem_dust", weight: 10.0f }
+		{ count: 4, item: "apotheosis:common_material", weight: 5.0f }
+		{ count: 3, item: "apotheosis:uncommon_material", weight: 4.0f }
+		{ count: 2, item: "apotheosis:rare_material", weight: 3.0f }
 		{ item: "apotheosis:epic_material" }
 	]
 	title: "基础 神化 助力包"

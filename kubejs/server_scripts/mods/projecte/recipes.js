@@ -8,12 +8,6 @@ ServerEvents.recipes(treeoflife => {
 	treeoflife.remove({id: "projecte:low_covalence_dust"});
 	treeoflife.remove({id: "projecte:medium_covalence_dust"});
 	treeoflife.remove({id: "projecte:high_covalence_dust"});
-	treeoflife.remove({id: "projecte:collector_mk1"});
-	treeoflife.remove({id: "projecte:collector_mk2"});
-	treeoflife.remove({id: "projecte:collector_mk3"});
-	treeoflife.remove({id: "projecte:relay_mk1"});
-	treeoflife.remove({id: "projecte:relay_mk2"});
-	treeoflife.remove({id: "projecte:relay_mk3"});
 
 	treeoflife.shaped("projecte:low_covalence_dust", [" A ", "CBC", " A "], {
 		A: "cataclysm:void_stone",
@@ -99,4 +93,27 @@ ServerEvents.recipes(treeoflife => {
             }
         ]
     });
+
+	treeoflife.smithing('projecte:klein_star_ein', '#goety:lich_wither_items', 'projecte:aeternalis_fuel', 'projecte:dark_matter');
+
+    treeoflife.replaceInput({id: "projecte:collector_mk1"},
+        'minecraft:glass',
+        '#forge:circuits/cosmic'
+    );
+    treeoflife.replaceInput({id: "projecte:collector_mk1"},
+        '#forge:storage_blocks/diamond',
+        'projecte:klein_star_zwei'
+    );
+    treeoflife.replaceInput({id: "projecte:collector_mk1"},
+        'minecraft:furnace',
+        'mekanism:sps_casing'
+    );
+    treeoflife.replaceInput({id: "projecte:relay_mk1"},
+        'minecraft:glass',
+        '#forge:circuits/cosmic'
+    );
+    treeoflife.replaceInput({id: "projecte:relay_mk1"},
+        '#forge:storage_blocks/diamond',
+        'projecte:klein_star_zwei'
+    );
 })

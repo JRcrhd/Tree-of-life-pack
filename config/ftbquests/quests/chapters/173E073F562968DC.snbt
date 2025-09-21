@@ -150,8 +150,8 @@
 				item: "lightmanscurrency:coin_netherite"
 				type: "item"
 			}]
-			x: -2.5d
-			y: 1.5d
+			x: -1.0d
+			y: 3.0d
 		}
 		{
 			can_repeat: true
@@ -199,18 +199,23 @@
 			icon: "apotheosis:gem_dust"
 			id: "7CD4EE37D674011C"
 			rewards: [{
-				exclude_from_claim_all: true
-				id: "37C1F9357997CCE7"
-				table_id: 7161463612141545752L
-				type: "random"
-			}]
-			tasks: [{
-				id: "6BD00A96CF20E7E5"
-				item: "lightmanscurrency:coinpile_copper"
+				id: "392F0356D999ABEC"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "basic_apotheosis"
+					}
+				}
 				type: "item"
 			}]
-			x: -4.0d
-			y: 3.0d
+			tasks: [{
+				id: "25CA41B74BCA2288"
+				item: "lightmanscurrency:coinpile_iron"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 0.0d
 		}
 		{
 			can_repeat: true
@@ -218,19 +223,23 @@
 			icon: "apotheosis:gem_dust"
 			id: "324874294D01E8C8"
 			rewards: [{
-				exclude_from_claim_all: true
-				id: "0F588C042098799F"
-				table_id: 3710932438271636185L
-				type: "random"
-			}]
-			tasks: [{
-				consume_items: true
-				id: "79C8195299B5F7CD"
-				item: "lightmanscurrency:coinpile_iron"
+				id: "0C44DAEBBADC622E"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "medium_apotheosis"
+					}
+				}
 				type: "item"
 			}]
-			x: -2.5d
-			y: 3.0d
+			tasks: [{
+				id: "6A5E4CE543967B06"
+				item: "lightmanscurrency:coinpile_gold"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.0d
 		}
 		{
 			can_repeat: true
@@ -238,18 +247,283 @@
 			icon: "apotheosis:gem_dust"
 			id: "679CA5F33D906F04"
 			rewards: [{
-				exclude_from_claim_all: true
-				id: "79775077EF63222D"
-				table_id: 6203862767351208063L
-				type: "random"
+				id: "00DCC5226074F12D"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "high_apotheosis"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3904B354ADEE71F0"
+				item: "lightmanscurrency:coinpile_emerald"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["2C00365ADDC3813D"]
+			icon: {
+				Count: 1
+				id: "ftbquests:lootcrate"
+				tag: {
+					type: "assiah_"
+				}
+			}
+			id: "201F23605D1A6133"
+			rewards: [{
+				id: "087A91AF5C9FF587"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "assiah_"
+					}
+				}
+				type: "item"
 			}]
 			tasks: [{
 				consume_items: true
-				id: "4B555F22459A0B4F"
-				item: "lightmanscurrency:coinpile_gold"
+				id: "5B825E6B3DFD4233"
+				item: "lightmanscurrency:coin_gold"
 				type: "item"
 			}]
-			x: -1.0d
+			x: 1.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1ECB91385A758E05"]
+			icon: {
+				Count: 1
+				id: "ftbquests:lootcrate"
+				tag: {
+					type: "yetzirah_"
+				}
+			}
+			id: "01AFCAD0EB0E7381"
+			rewards: [{
+				id: "2630444FAC403280"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "yetzirah_"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "488BE4B035392CA1"
+				item: "lightmanscurrency:coin_emerald"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["49AD511A227BA63F"]
+			icon: {
+				Count: 1
+				id: "ftbquests:lootcrate"
+				tag: {
+					type: "beriah_"
+				}
+			}
+			id: "282D99F4631A0AE6"
+			rewards: [{
+				id: "1BEA5B1EFBE08786"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "beriah_"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6D567CBBBCC8C9D4"
+				item: "lightmanscurrency:coin_diamond"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["65C46ED2F7739DD3"]
+			icon: {
+				Count: 1
+				id: "ftbquests:lootcrate"
+				tag: {
+					type: "atziluth_"
+				}
+			}
+			id: "1C0CB8CED2FB0490"
+			rewards: [{
+				id: "0D068571C475E160"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "atziluth_"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "2DF58D8A09F05874"
+				item: "lightmanscurrency:coin_netherite"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1ECB91385A758E05"]
+			icon: "minecraft:white_concrete"
+			id: "222489CAD820E73A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "546EC8B728949E3D"
+				table_id: 1261597223005591335L
+				type: "choice"
+			}]
+			tasks: [{
+				count: 5L
+				id: "7FBA298719394646"
+				item: { Count: 5, id: "lightmanscurrency:coin_copper" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1ECB91385A758E05"]
+			icon: "minecraft:cherry_sapling"
+			id: "4C3BA1F6DEE8F1E7"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "32E01F4F8474FCCC"
+				table_id: 2013822167105065105L
+				type: "choice"
+			}]
+			tasks: [{
+				count: 5L
+				id: "0B47BB9208B37A91"
+				item: { Count: 5, id: "lightmanscurrency:coin_iron" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1ECB91385A758E05"]
+			icon: "farmersdelight:pasta_with_meatballs"
+			id: "42D7014F1869FB2C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "24F8E2AE61DAC735"
+				table_id: 2588588455771123389L
+				type: "random"
+			}]
+			tasks: [{
+				count: 5L
+				id: "4A82CEAA6B7510EB"
+				item: { Count: 2, id: "lightmanscurrency:coin_gold" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["2C00365ADDC3813D"]
+			icon: {
+				Count: 1
+				id: "tetra:holo"
+				tag: {
+					"holo/core": "holo/core"
+					"holo/core_material": "frame/dim"
+					"holo/frame": "holo/frame"
+					"holo/frame_material": "core/ancient"
+					"holo/repo": "holo/repo"
+					"holo/repo_material": "repo/default"
+					"holo/scanner": "holo/scanner"
+					"holo/scanner_material": "scanner/default"
+				}
+			}
+			id: "151189F6EE4D5384"
+			rewards: [{
+				id: "09879E78224B75B0"
+				item: {
+					Count: 1
+					id: "tetra:holo"
+					tag: {
+						"holo/core": "holo/core"
+						"holo/core_material": "frame/dim"
+						"holo/frame": "holo/frame"
+						"holo/frame_material": "core/ancient"
+						"holo/repo": "holo/repo"
+						"holo/repo_material": "repo/default"
+						"holo/scanner": "holo/scanner"
+						"holo/scanner_material": "scanner/default"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "385DF4691A18D603"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["319329153D1D45D2"]
+			icon: "deep_aether:poison_bucket"
+			id: "7F02462AD0A52006"
+			rewards: [{
+				id: "3543AB42A2DF7925"
+				item: "deep_aether:poison_bucket"
+				type: "item"
+			}]
+			tasks: [
+				{
+					count: 2L
+					id: "0FE3FE82D62C0432"
+					item: "lightmanscurrency:coin_emerald"
+					type: "item"
+				}
+				{
+					id: "4032438AECDE60B0"
+					item: "minecraft:bucket"
+					type: "item"
+				}
+			]
+			x: -2.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["74315729B96BB8FE"]
+			icon: "ae2:mysterious_cube"
+			id: "6B5D49ED1C016A33"
+			rewards: [{
+				id: "0C6C7C1CB6847BEB"
+				item: "ae2:mysterious_cube"
+				type: "item"
+			}]
+			tasks: [{
+				id: "073519F9B84D474E"
+				item: "lightmanscurrency:coin_emerald"
+				type: "item"
+			}]
+			x: -4.0d
 			y: 3.0d
 		}
 	]

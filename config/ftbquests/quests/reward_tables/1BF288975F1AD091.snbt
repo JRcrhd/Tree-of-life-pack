@@ -1,0 +1,35 @@
+{
+	icon: "minecraft:cherry_sapling"
+	id: "1BF288975F1AD091"
+	loot_size: 1
+	order_index: 9
+	rewards: [
+		{ count: 64, item: "quark:stripped_azalea_wood" }
+		{ count: 64, item: "natures_spirit:stripped_redwood_wood" }
+		{ count: 64, item: "natures_spirit:stripped_wisteria_wood" }
+		{ count: 64, item: "natures_spirit:stripped_fir_wood" }
+		{ count: 64, item: "natures_spirit:aspen_wood" }
+		{ count: 64, item: "natures_spirit:stripped_maple_wood" }
+		{ count: 64, item: "quark:stripped_blossom_wood" }
+		{ count: 64, item: "natures_spirit:stripped_willow_wood" }
+		{ count: 64, item: "natures_spirit:stripped_cypress_wood" }
+		{ count: 64, item: "quark:stripped_ancient_wood" }
+		{ count: 64, item: "minecraft:stripped_cherry_wood" }
+		{ count: 64, item: "minecraft:stripped_mangrove_wood" }
+		{ count: 64, item: "minecraft:stripped_dark_oak_wood" }
+		{ count: 64, item: "minecraft:stripped_acacia_wood" }
+		{ count: 64, item: "minecraft:stripped_jungle_wood" }
+		{ count: 64, item: "minecraft:stripped_birch_wood" }
+		{ count: 64, item: "minecraft:stripped_spruce_wood" }
+		{ count: 64, item: "minecraft:stripped_oak_wood" }
+		{ count: 64, item: "natures_spirit:stripped_olive_wood" }
+		{ count: 64, item: "natures_spirit:stripped_ghaf_wood" }
+		{ count: 64, item: "natures_spirit:stripped_palo_verde_wood" }
+		{ count: 64, item: "natures_spirit:stripped_coconut_wood" }
+		{ count: 64, item: "natures_spirit:stripped_cedar_wood" }
+		{ count: 64, item: "natures_spirit:stripped_larch_wood" }
+		{ count: 64, item: "natures_spirit:stripped_mahogany_wood" }
+		{ count: 64, item: "natures_spirit:stripped_saxaul_wood" }
+	]
+	title: "木材商人"
+}

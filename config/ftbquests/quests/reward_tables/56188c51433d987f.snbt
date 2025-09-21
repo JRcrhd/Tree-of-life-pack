@@ -1,13 +1,23 @@
 {
 	icon: "apotheosis:gem_dust"
 	id: "56188C51433D987F"
+	loot_crate: {
+		color: 43690
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		glow: 1b
+		string_id: "high_apotheosis"
+	}
 	loot_size: 1
 	order_index: 7
 	rewards: [
-		{ count: 8, item: "apotheosis:gem_dust", weight: 7.0f }
-		{ count: 4, item: "apotheosis:rare_material", weight: 5.0f }
-		{ count: 3, item: "apotheosis:epic_material", weight: 4.0f }
-		{ count: 2, item: "apotheosis:mythic_material", weight: 3.0f }
+		{ count: 8, item: "apotheosis:gem_dust", weight: 10.0f }
+		{ count: 4, item: "apotheosis:rare_material", weight: 7.0f }
+		{ count: 3, item: "apotheosis:epic_material", weight: 6.0f }
+		{ count: 2, item: "apotheosis:mythic_material", weight: 5.0f }
 		{ item: "apotheosis:ancient_material" }
 	]
 	title: "高级 神化 助力包"

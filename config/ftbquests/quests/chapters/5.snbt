@@ -16,7 +16,7 @@
 				item: "apotheosis:ancient_material"
 				type: "item"
 			}]
-			x: -5.5d
+			x: -5.0d
 			y: 1.5d
 		}
 		{
@@ -94,7 +94,7 @@
 				}
 				type: "item"
 			}]
-			x: 1.0d
+			x: 0.0d
 			y: 5.5d
 		}
 		{
@@ -104,7 +104,7 @@
 				item: "forbidden_arcanus:soul_crimson_stone"
 				type: "item"
 			}]
-			x: -5.5d
+			x: -5.0d
 			y: 3.5d
 		}
 		{
@@ -123,7 +123,7 @@
 				}
 				type: "item"
 			}]
-			x: -7.5d
+			x: -7.0d
 			y: 3.5d
 		}
 		{
@@ -133,7 +133,7 @@
 				item: "projecte:dm_pedestal"
 				type: "item"
 			}]
-			x: -3.5d
+			x: -3.0d
 			y: 3.5d
 		}
 	]

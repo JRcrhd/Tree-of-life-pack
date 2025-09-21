@@ -1,0 +1,21 @@
+{
+	icon: "farmersdelight:pasta_with_meatballs"
+	id: "23EC837C4FEA2EBD"
+	loot_size: 1
+	order_index: 10
+	rewards: [
+		{ count: 16, item: "minecraft:cooked_beef" }
+		{ count: 16, item: "minecraft:cooked_porkchop" }
+		{ count: 24, item: "minecraft:cooked_chicken" }
+		{ count: 24, item: "minecraft:cooked_mutton" }
+		{ count: 16, item: "minecraft:bread" }
+		{ item: "cataclysm:blessed_amethyst_crab_meat", weight: 0.1f }
+		{ count: 8, item: "delightful:cooked_goat" }
+		{ item: "ends_delight:roasted_dragon_meat_cuts", weight: 0.1f }
+		{ count: 16, item: "minecraft:baked_potato" }
+		{ count: 16, item: "minecraft:cooked_cod" }
+		{ count: 16, item: "minecraft:cooked_salmon" }
+		{ count: 12, item: "quark:cooked_crab_leg" }
+	]
+	title: "食物商人"
+}
