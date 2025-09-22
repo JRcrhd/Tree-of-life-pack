@@ -20,6 +20,30 @@ StartupEvents.registry('item', treeoflife => {
 	treeoflife.create('template_yetzirah').texture('kubejs:item/point/yetzirah_template').tag('treeoflife:template');
 	treeoflife.create('template_beriah').texture('kubejs:item/point/beriah_template').tag('treeoflife:template');
 	treeoflife.create('template_atziluth').texture('kubejs:item/point/atziluth_template').tag('treeoflife:template');
+
+    treeoflife.create('rune_point').glow(true).texture('kubejs:item/clairvoyance/rune_point').tag('treeoflife:runes');
+    treeoflife.create('rune_path_1').glow(true).texture('kubejs:item/clairvoyance/rune_path').tag('treeoflife:runes');
+    treeoflife.create('rune_path_2').glow(true).texture('kubejs:item/clairvoyance/rune_path').tag('treeoflife:runes');
+    treeoflife.create('rune_path_3').glow(true).texture('kubejs:item/clairvoyance/rune_path').tag('treeoflife:runes');
+    treeoflife.create('rune_path_4').glow(true).texture('kubejs:item/clairvoyance/rune_path').tag('treeoflife:runes');
+    treeoflife.create('rune_path_5').glow(true).texture('kubejs:item/clairvoyance/rune_path').tag('treeoflife:runes');
+    treeoflife.create('rune_path_6').glow(true).texture('kubejs:item/clairvoyance/rune_path').tag('treeoflife:runes');
+    treeoflife.create('rune_path_7').glow(true).texture('kubejs:item/clairvoyance/rune_path').tag('treeoflife:runes');
+    treeoflife.create('rune_path_8').glow(true).texture('kubejs:item/clairvoyance/rune_path').tag('treeoflife:runes');
+    treeoflife.create('rune_path_9').glow(true).texture('kubejs:item/clairvoyance/rune_path').tag('treeoflife:runes');
+    treeoflife.create('rune_path_10').glow(true).texture('kubejs:item/clairvoyance/rune_path').tag('treeoflife:runes');
+    treeoflife.create('rune_path_11').glow(true).texture('kubejs:item/clairvoyance/rune_path').tag('treeoflife:runes');
+    treeoflife.create('rune_path_12').glow(true).texture('kubejs:item/clairvoyance/rune_path').tag('treeoflife:runes');
+    treeoflife.create('rune_path_13').glow(true).texture('kubejs:item/clairvoyance/rune_path').tag('treeoflife:runes');
+    treeoflife.create('rune_path_14').glow(true).texture('kubejs:item/clairvoyance/rune_path').tag('treeoflife:runes');
+    treeoflife.create('rune_path_15').glow(true).texture('kubejs:item/clairvoyance/rune_path').tag('treeoflife:runes');
+    treeoflife.create('rune_path_16').glow(true).texture('kubejs:item/clairvoyance/rune_path').tag('treeoflife:runes');
+    treeoflife.create('rune_path_17').glow(true).texture('kubejs:item/clairvoyance/rune_path').tag('treeoflife:runes');
+    treeoflife.create('rune_path_18').glow(true).texture('kubejs:item/clairvoyance/rune_path').tag('treeoflife:runes');
+    treeoflife.create('rune_path_19').glow(true).texture('kubejs:item/clairvoyance/rune_path').tag('treeoflife:runes');
+    treeoflife.create('rune_path_20').glow(true).texture('kubejs:item/clairvoyance/rune_path').tag('treeoflife:runes');
+    treeoflife.create('rune_path_21').glow(true).texture('kubejs:item/clairvoyance/rune_path').tag('treeoflife:runes');
+    treeoflife.create('rune_path_22').glow(true).texture('kubejs:item/clairvoyance/rune_path').tag('treeoflife:runes');
 	
 	treeoflife.create('dimension_alloy_overworld').texture('kubejs:item/point/dimension_alloy_overworld').tag('treeoflife:dimension_alloy').tag('forge:ingots');
 	treeoflife.create('dimension_alloy_nether').texture('kubejs:item/point/dimension_alloy_nether').tag('treeoflife:dimension_alloy').tag('forge:ingots');
