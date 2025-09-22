@@ -1133,6 +1133,43 @@ ServerEvents.recipes(treeoflife => {
         }
     });
 
+    treeoflife.custom({
+        type: "custommachinery:custom_machine",
+        machine: "treeoflife:rune_curver",
+        time: 1000,
+        requirements: [
+            {
+                type: "custommachinery:fluid_per_tick",
+                fluid: "kubejs:aether_fluid",
+                amount: 3,
+                mode: "input",
+            },
+            {
+                type: "custommachinery:energy_per_tick",
+                amount: 10000,
+                mode: "input",
+            },
+            {
+                type: "custommachinery:item",
+                item: "kubejs:point_kether",
+                amount: 1,
+                mode: "input",
+            },
+            {
+                type: "custommachinery:item",
+                item: "kubejs:empty_rune",
+                amount: 1,
+                mode: "input",
+            },
+            {
+                type: "custommachinery:item",
+                item: "kubejs:rune_point",
+                amount: 1,
+                mode: "output",
+            },
+        ],
+    });
+
 })
 
 LootJS.modifiers((treeoflife) => {

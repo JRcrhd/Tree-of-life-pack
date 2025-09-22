@@ -21,6 +21,7 @@ StartupEvents.registry('item', treeoflife => {
 	treeoflife.create('template_beriah').texture('kubejs:item/point/beriah_template').tag('treeoflife:template');
 	treeoflife.create('template_atziluth').texture('kubejs:item/point/atziluth_template').tag('treeoflife:template');
 
+    treeoflife.create('empty_rune').texture('kubejs:item/clairvoyance/empty_rune');
     treeoflife.create('rune_point').glow(true).texture('kubejs:item/clairvoyance/rune_point').tag('treeoflife:runes');
     treeoflife.create('rune_path_1').glow(true).texture('kubejs:item/clairvoyance/rune_path').tag('treeoflife:runes');
     treeoflife.create('rune_path_2').glow(true).texture('kubejs:item/clairvoyance/rune_path').tag('treeoflife:runes');
