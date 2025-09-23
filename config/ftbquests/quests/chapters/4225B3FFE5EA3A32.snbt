@@ -821,6 +821,12 @@
 			description: [""]
 			hide_dependent_lines: true
 			id: "2CD58FC229BC0C28"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "06D0E1CD937ACA9F"
+				table_id: 7545900498830760989L
+				type: "random"
+			}]
 			tasks: [{
 				id: "25FAA04164EF0360"
 				item: "cataclysm:gauntlet_of_guard"
@@ -1478,6 +1484,12 @@
 			dependencies: ["30ECE56B1EDFAE20"]
 			hide_dependent_lines: true
 			id: "3B3AC411490A1376"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4D55A08F11675F7B"
+				table_id: 9027088842797077213L
+				type: "random"
+			}]
 			tasks: [{
 				id: "28C1946CCA2F5B30"
 				item: "aether:bronze_dungeon_key"
@@ -1490,6 +1502,12 @@
 			dependencies: ["6EEBC0A84BA6B2F2"]
 			hide_dependent_lines: true
 			id: "06C17CEE125D564B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "61E39FF1526A78C9"
+				table_id: 9027088842797077213L
+				type: "random"
+			}]
 			tasks: [{
 				id: "24AFD3B0ED5BC45D"
 				item: "deep_aether:brass_dungeon_key"
@@ -1502,6 +1520,12 @@
 			dependencies: ["675D956F20627225"]
 			hide_dependent_lines: true
 			id: "55F8434BBBD4CE79"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "034CC64B282DAEED"
+				table_id: 9027088842797077213L
+				type: "random"
+			}]
 			tasks: [{
 				id: "5E84E80C52D73FAF"
 				item: "aether:silver_dungeon_key"
@@ -1514,6 +1538,12 @@
 			dependencies: ["03A41E939C82E0DA"]
 			hide_dependent_lines: true
 			id: "09605C7869D59F85"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "52077FE66A1E53EA"
+				table_id: 9027088842797077213L
+				type: "random"
+			}]
 			tasks: [{
 				id: "09FD9B8C2D92B146"
 				item: "aether:gold_dungeon_key"

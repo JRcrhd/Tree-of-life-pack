@@ -1131,7 +1131,7 @@
 				type: "item"
 			}]
 			x: -4.5d
-			y: 22.5d
+			y: 21.0d
 		}
 		{
 			dependencies: ["0CE3024197730997"]
@@ -1467,6 +1467,32 @@
 			}]
 			x: -2.5d
 			y: 22.0d
+		}
+		{
+			dependencies: ["190B8B0AC24E1FA2"]
+			id: "004732309E1871F4"
+			tasks: [{
+				id: "096290FD85B118F4"
+				item: {
+					Count: 1
+					id: "tarotcards:the_empress"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -4.5d
+			y: 22.0d
+		}
+		{
+			dependencies: ["49AD511A227BA63F"]
+			id: "190B8B0AC24E1FA2"
+			tasks: [{
+				id: "6AD968C0F13A935C"
+				item: "kubejs:rune_point"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 23.0d
 		}
 	]
 	title: "抵达根源之路"

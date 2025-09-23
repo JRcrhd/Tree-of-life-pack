@@ -88,6 +88,14 @@
 			x: 1.0d
 			y: 1.5d
 		}
+		{
+			height: 6.0d
+			image: "minecraft:block/redstone_dust_line0"
+			rotation: 90.0d
+			width: 1.0d
+			x: 0.0d
+			y: 4.0d
+		}
 	]
 	order_index: 4
 	quest_links: [ ]
@@ -230,7 +238,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 3.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["534CD8440E466F39"]
@@ -263,6 +271,22 @@
 			}]
 			x: -1.3214285714285765d
 			y: 4.785714285714285d
+		}
+		{
+			dependencies: ["534CD8440E466F39"]
+			id: "39C5B9011EA80271"
+			shape: "diamond"
+			tasks: [{
+				id: "4B272F6862C54710"
+				item: {
+					Count: 1
+					id: "tarotcards:the_empress"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.0d
 		}
 	]
 	title: "神性——Atziluth"

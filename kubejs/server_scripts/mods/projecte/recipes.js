@@ -8,6 +8,7 @@ ServerEvents.recipes(treeoflife => {
 	treeoflife.remove({id: "projecte:low_covalence_dust"});
 	treeoflife.remove({id: "projecte:medium_covalence_dust"});
 	treeoflife.remove({id: "projecte:high_covalence_dust"});
+    treeoflife.remove({id: "projecte:dm_pedestal"});
 
 	treeoflife.shaped("projecte:low_covalence_dust", [" A ", "CBC", " A "], {
 		A: "cataclysm:void_stone",

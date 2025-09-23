@@ -29,6 +29,8 @@ ServerEvents.recipes(treeoflife => {
     treeoflife.smithing('kubejs:point_kether', 'kubejs:template_atziluth', 'kubejs:point_tiphareth', 'tarotcards:the_high_priestess');
     treeoflife.smithing('kubejs:point_kether', 'kubejs:template_atziluth', 'kubejs:point_binah', 'tarotcards:the_magician');
     treeoflife.smithing('kubejs:point_kether', 'kubejs:template_atziluth', 'kubejs:point_chokmah', 'tarotcards:the_fool');
+    treeoflife.smithing('kubejs:point_binah', 'kubejs:template_atziluth', 'kubejs:point_chokmah', 'tarotcards:the_empress');
+    treeoflife.smithing('kubejs:point_chokmah', 'kubejs:template_atziluth', 'kubejs:point_binah', 'tarotcards:the_empress');
 
     treeoflife.shaped('kubejs:template_assiah',
         [
@@ -588,6 +590,7 @@ ServerEvents.recipes(treeoflife => {
     treeoflife.smithing('tarotcards:the_emperor', 'art_of_forging:demonic_blade', 'art_of_forging:vobrivium_ingot', 'kubejs:empty_tarot');
     treeoflife.smithing('tarotcards:the_lovers', 'art_of_forging:rending_scissor_complete', 'alexsmobs:void_worm_effigy', 'kubejs:empty_tarot');
     treeoflife.smithing('tarotcards:the_hierophant', 'alexsmobs:warped_muscle', 'alexsmobs:capsid', 'kubejs:empty_tarot');
+    treeoflife.smithing('tarotcards:the_empress', 'kubejs:emerald_tablet', 'kubejs:rune_point', 'kubejs:empty_tarot');
 
     treeoflife.recipes.create.sequenced_assembly([
         Item.of('tarotcards:the_magician')
@@ -1057,6 +1060,9 @@ ServerEvents.recipes(treeoflife => {
                 "item": "kubejs:point_kether"
             },
             {
+                "item": "kubejs:point_yesod"
+            },
+            {
                 "item": "kubejs:point_tiphareth"
             },
             {
@@ -1169,6 +1175,301 @@ ServerEvents.recipes(treeoflife => {
             },
         ],
     });
+
+    treeoflife.custom({
+        type: "custommachinery:custom_machine",
+        machine: "treeoflife:rune_curver",
+        time: 1000,
+        requirements: [
+            {
+                type: "custommachinery:fluid_per_tick",
+                fluid: "kubejs:aether_fluid",
+                amount: 2,
+                mode: "input",
+            },
+            {
+                type: "custommachinery:energy_per_tick",
+                amount: 10000,
+                mode: "input",
+            },
+            {
+                type: "custommachinery:item",
+                item: "kubejs:alchemy_red",
+                amount: 1,
+                mode: "input",
+            },
+            {
+                type: "custommachinery:item",
+                item: "kubejs:empty_rune",
+                amount: 1,
+                mode: "input",
+            },
+            {
+                type: "custommachinery:item",
+                item: "kubejs:rune_path_unknown",
+                amount: 1,
+                mode: "output",
+            },
+        ],
+    });
+
+    treeoflife.recipes.create.mechanical_crafting('kubejs:empty_rune', [
+        '  AAA  ',
+        ' AADAA ',
+        'AACCCAA',
+        'ADCBCDA',
+        'AACCCAA',
+        ' AADAA ',
+        '  AAA  ',
+    ], {
+        A: 'aether:holystone',
+        B: 'petrolsparts:colossal_cogwheel',
+        C: 'deep_aether:skyjade',
+        D: 'projecte:red_matter'
+    });
+
+    treeoflife.recipes.create.mechanical_crafting('kubejs:rune_path_1', [
+        '   B   ',
+        'A  D  A',
+        '   C   ',
+    ], {
+        A: 'kubejs:dimension_alloy_aether',
+        B: 'kubejs:rune_path_unknown',
+        C: 'kubejs:rune_point',
+        D: 'tarotcards:the_fool'
+    });
+
+    treeoflife.recipes.create.mechanical_crafting('kubejs:rune_path_2', [
+        '   B   ',
+        'A  D  A',
+        '   C   ',
+    ], {
+        A: 'kubejs:dimension_alloy_aether',
+        B: 'kubejs:rune_path_unknown',
+        C: 'kubejs:rune_point',
+        D: 'tarotcards:the_magician'
+    });
+
+    treeoflife.recipes.create.mechanical_crafting('kubejs:rune_path_3', [
+        '   B   ',
+        'A  D  A',
+        '   C   ',
+    ], {
+        A: 'kubejs:dimension_alloy_aether',
+        B: 'kubejs:rune_path_unknown',
+        C: 'kubejs:rune_point',
+        D: 'tarotcards:the_high_priestess'
+    });
+
+    treeoflife.recipes.create.mechanical_crafting('kubejs:rune_path_4', [
+        '   B   ',
+        'A  D  A',
+        '   C   ',
+    ], {
+        A: 'kubejs:dimension_alloy_aether',
+        B: 'kubejs:rune_path_unknown',
+        C: 'kubejs:rune_point',
+        D: 'tarotcards:the_empress'
+    });
+
+    treeoflife.recipes.create.mechanical_crafting('kubejs:rune_path_5', [
+        '   B   ',
+        'A  D  A',
+        '   C   ',
+    ], {
+        A: 'kubejs:dimension_alloy_aether',
+        B: 'kubejs:rune_path_unknown',
+        C: 'kubejs:rune_point',
+        D: 'tarotcards:the_emperor'
+    });
+
+    treeoflife.recipes.create.mechanical_crafting('kubejs:rune_path_6', [
+        '   B   ',
+        'A  D  A',
+        '   C   ',
+    ], {
+        A: 'kubejs:dimension_alloy_aether',
+        B: 'kubejs:rune_path_unknown',
+        C: 'kubejs:rune_point',
+        D: 'tarotcards:the_hierophant'
+    });
+
+    treeoflife.recipes.create.mechanical_crafting('kubejs:rune_path_7', [
+        '   B   ',
+        'A  D  A',
+        '   C   ',
+    ], {
+        A: 'kubejs:dimension_alloy_aether',
+        B: 'kubejs:rune_path_unknown',
+        C: 'kubejs:rune_point',
+        D: 'tarotcards:the_lovers'
+    });
+    treeoflife.recipes.create.mechanical_crafting('kubejs:rune_path_8', [
+        '   B   ',
+        'A  D  A',
+        '   C   ',
+    ], {
+        A: 'kubejs:dimension_alloy_aether',
+        B: 'kubejs:rune_path_unknown',
+        C: 'kubejs:rune_point',
+        D: 'tarotcards:the_chariot'
+    });
+
+    treeoflife.recipes.create.mechanical_crafting('kubejs:rune_path_9', [
+        '   B   ',
+        'A  D  A',
+        '   C   ',
+    ], {
+        A: 'kubejs:dimension_alloy_the_end',
+        B: 'kubejs:rune_path_unknown',
+        C: 'kubejs:rune_point',
+        D: 'tarotcards:strength'
+    });
+
+    treeoflife.recipes.create.mechanical_crafting('kubejs:rune_path_10', [
+        '   B   ',
+        'A  D  A',
+        '   C   ',
+    ], {
+        A: 'kubejs:dimension_alloy_the_end',
+        B: 'kubejs:rune_path_unknown',
+        C: 'kubejs:rune_point',
+        D: 'tarotcards:the_hermit'
+    });
+
+    treeoflife.recipes.create.mechanical_crafting('kubejs:rune_path_11', [
+        '   B   ',
+        'A  D  A',
+        '   C   ',
+    ], {
+        A: 'kubejs:dimension_alloy_the_end',
+        B: 'kubejs:rune_path_unknown',
+        C: 'kubejs:rune_point',
+        D: 'tarotcards:wheel_of_fortune'
+    });
+
+    treeoflife.recipes.create.mechanical_crafting('kubejs:rune_path_12', [
+        '   B   ',
+        'A  D  A',
+        '   C   ',
+    ], {
+        A: 'kubejs:dimension_alloy_the_end',
+        B: 'kubejs:rune_path_unknown',
+        C: 'kubejs:rune_point',
+        D: 'tarotcards:justice'
+    });
+
+    treeoflife.recipes.create.mechanical_crafting('kubejs:rune_path_13', [
+        '   B   ',
+        'A  D  A',
+        '   C   ',
+    ], {
+        A: 'kubejs:dimension_alloy_the_end',
+        B: 'kubejs:rune_path_unknown',
+        C: 'kubejs:rune_point',
+        D: 'tarotcards:the_hanged_man'
+    });
+
+    treeoflife.recipes.create.mechanical_crafting('kubejs:rune_path_14', [
+        '   B   ',
+        'A  D  A',
+        '   C   ',
+    ], {
+        A: 'kubejs:dimension_alloy_the_end',
+        B: 'kubejs:rune_path_unknown',
+        C: 'kubejs:rune_point',
+        D: 'tarotcards:death'
+    });
+
+    treeoflife.recipes.create.mechanical_crafting('kubejs:rune_path_15', [
+        '   B   ',
+        'A  D  A',
+        '   C   ',
+    ], {
+        A: 'kubejs:dimension_alloy_the_end',
+        B: 'kubejs:rune_path_unknown',
+        C: 'kubejs:rune_point',
+        D: 'tarotcards:temperance'
+    });
+
+    treeoflife.recipes.create.mechanical_crafting('kubejs:rune_path_16', [
+        '   B   ',
+        'A  D  A',
+        '   C   ',
+    ], {
+        A: 'kubejs:dimension_alloy_the_end',
+        B: 'kubejs:rune_path_unknown',
+        C: 'kubejs:rune_point',
+        D: 'tarotcards:the_devil'
+    });
+
+    treeoflife.recipes.create.mechanical_crafting('kubejs:rune_path_17', [
+        '   B   ',
+        'A  D  A',
+        '   C   ',
+    ], {
+        A: 'kubejs:dimension_alloy_nether',
+        B: 'kubejs:rune_path_unknown',
+        C: 'kubejs:rune_point',
+        D: 'tarotcards:the_tower'
+    });
+    
+    treeoflife.recipes.create.mechanical_crafting('kubejs:rune_path_18', [
+        '   B   ',
+        'A  D  A',
+        '   C   ',
+    ], {
+        A: 'kubejs:dimension_alloy_nether',
+        B: 'kubejs:rune_path_unknown',
+        C: 'kubejs:rune_point',
+        D: 'tarotcards:the_star'
+    });
+
+    treeoflife.recipes.create.mechanical_crafting('kubejs:rune_path_19', [
+        '   B   ',
+        'A  D  A',
+        '   C   ',
+    ], {
+        A: 'kubejs:dimension_alloy_nether',
+        B: 'kubejs:rune_path_unknown',
+        C: 'kubejs:rune_point',
+        D: 'tarotcards:the_moon'
+    });
+
+    treeoflife.recipes.create.mechanical_crafting('kubejs:rune_path_20', [
+        '   B   ',
+        'A  D  A',
+        '   C   ',
+    ], {
+        A: 'kubejs:dimension_alloy_nether',
+        B: 'kubejs:rune_path_unknown',
+        C: 'kubejs:rune_point',
+        D: 'tarotcards:the_sun'
+    });
+
+    treeoflife.recipes.create.mechanical_crafting('kubejs:rune_path_21', [
+        '   B   ',
+        'A  D  A',
+        '   C   ',
+    ], {
+        A: 'kubejs:dimension_alloy_nether',
+        B: 'kubejs:rune_path_unknown',
+        C: 'kubejs:rune_point',
+        D: 'tarotcards:judgement'
+    });
+
+    treeoflife.recipes.create.mechanical_crafting('kubejs:rune_path_22', [
+        '   B   ',
+        'A  D  A',
+        '   C   ',
+    ], {
+        A: 'kubejs:dimension_alloy_overworld',
+        B: 'kubejs:rune_path_unknown',
+        C: 'kubejs:rune_point',
+        D: 'tarotcards:the_world'
+    });
+
+
 
 })
 

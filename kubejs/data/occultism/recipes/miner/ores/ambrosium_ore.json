@@ -1,0 +1,10 @@
+{
+  "type": "occultism:miner",
+  "ingredient": {
+    "tag": "occultism:miners/ores"
+  },
+  "result": {
+    "item": "aether:ambrosium_ore"
+  },
+  "weight": 200
+}

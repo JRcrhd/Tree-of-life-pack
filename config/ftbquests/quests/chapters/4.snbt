@@ -86,6 +86,12 @@
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			id: "70555823E0F5BA41"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "14D885AD7A49157A"
+				table_id: 9027088842797077213L
+				type: "random"
+			}]
 			shape: "diamond"
 			size: 1.2d
 			tasks: [{
@@ -99,6 +105,12 @@
 		{
 			dependencies: ["70555823E0F5BA41"]
 			id: "33727E58858CF62C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "066AEAAA564105E8"
+				table_id: 9027088842797077213L
+				type: "random"
+			}]
 			shape: "diamond"
 			size: 1.2d
 			tasks: [{
@@ -137,6 +149,12 @@
 				"681B8274DD587636"
 			]
 			id: "3B5F9CEB6F5B4C54"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7646120DEAB9CAEE"
+				table_id: 9027088842797077213L
+				type: "random"
+			}]
 			size: 1.5d
 			tasks: [{
 				id: "5AD888952AAB769A"
@@ -153,6 +171,12 @@
 				"44845288C201DCB9"
 			]
 			id: "4CE5C0DCB46C8D64"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "67CB7330A8AE2DA5"
+				table_id: 9027088842797077213L
+				type: "random"
+			}]
 			size: 1.5d
 			tasks: [{
 				id: "29DD03184D2A11BE"
@@ -168,6 +192,12 @@
 				"028B36A5EA3821CC"
 			]
 			id: "1325C5CB3BA46DE2"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2D06CA9B3DC5AB3F"
+				table_id: 9027088842797077213L
+				type: "random"
+			}]
 			size: 1.5d
 			tasks: [{
 				id: "72439BB3224BC62A"
@@ -184,6 +214,12 @@
 				"696DAEE0CECEE11B"
 			]
 			id: "5B76E220CC24BAA9"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4125DDC70A09ECEB"
+				table_id: 9027088842797077213L
+				type: "choice"
+			}]
 			size: 1.5d
 			tasks: [{
 				id: "38DBA56C45B10E95"
@@ -233,6 +269,12 @@
 			dependencies: ["2B47BD454153FE6B"]
 			icon: "aether:aether_portal_frame"
 			id: "4E39E5B11085C44B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2021FC764C1AD5AB"
+				table_id: 9027088842797077213L
+				type: "random"
+			}]
 			tasks: [{
 				dimension: "aether:the_aether"
 				id: "41590F36F7E3DAFD"
@@ -476,6 +518,12 @@
 				"4C4487FBC7815CA3"
 			]
 			id: "017850E8A5DDCC36"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1CB27C988C55E692"
+				table_id: 9027088842797077213L
+				type: "random"
+			}]
 			shape: "diamond"
 			size: 1.5d
 			tasks: [{
@@ -654,6 +702,12 @@
 		{
 			dependencies: ["618EC2557B84D2C3"]
 			id: "4D14BA634D25C68C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6D1AC5A11BD77D10"
+				table_id: 9027088842797077213L
+				type: "random"
+			}]
 			tasks: [{
 				id: "41C09F1B443E6DC6"
 				item: "kubejs:holy_water_bucket"
@@ -715,6 +769,12 @@
 		{
 			dependencies: ["7A7F6C1AACBBF7FA"]
 			id: "1B07A7974865DFE4"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "48D400E06F5CB2DB"
+				table_id: 9027088842797077213L
+				type: "random"
+			}]
 			tasks: [{
 				id: "6D51E9139119F679"
 				item: "projecte:relay_mk3"
@@ -737,6 +797,12 @@
 		{
 			dependencies: ["69ED1CB62817F369"]
 			id: "1958657CA7078A9C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "327444955EEC523D"
+				table_id: 9027088842797077213L
+				type: "random"
+			}]
 			tasks: [{
 				id: "2DB9BD9780A15EA6"
 				item: "projecte:collector_mk3"
@@ -744,6 +810,37 @@
 			}]
 			x: 10.5d
 			y: 10.0d
+		}
+		{
+			dependencies: ["72E23B84E9869867"]
+			id: "361747D4FD79EC27"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "48280B5E1CE7498E"
+					table_id: 9027088842797077213L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1988A3CC6CA2B8B4"
+					table_id: 6203862767351208063L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "1487BEA8988CF13F"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: { }
+					}
+					id: "projecte:klein_star_omega"
+				}
+				type: "item"
+			}]
+			x: 9.0d
+			y: 9.5d
 		}
 	]
 	title: "4、信息时代"

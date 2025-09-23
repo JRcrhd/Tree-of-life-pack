@@ -10,14 +10,15 @@
 	quest_links: [ ]
 	quests: [
 		{
+			dependencies: ["1E21E020729385E8"]
 			id: "36A6D4E8A058F1C5"
 			tasks: [{
 				id: "647FF5C2028CC252"
 				item: "apotheosis:ancient_material"
 				type: "item"
 			}]
-			x: -5.0d
-			y: 1.5d
+			x: -3.0d
+			y: 4.0d
 		}
 		{
 			id: "7F3389EEA21D0C50"
@@ -26,18 +27,19 @@
 				item: "create:creative_motor"
 				type: "item"
 			}]
-			x: -1.0d
-			y: 3.5d
+			x: 1.0d
+			y: 6.0d
 		}
 		{
+			dependencies: ["1E21E020729385E8"]
 			id: "1B35B51E10C972E6"
 			tasks: [{
 				id: "3D2F447E107BA1EF"
 				item: "pneumaticcraft:creative_compressed_iron_block"
 				type: "item"
 			}]
-			x: 1.0d
-			y: 1.5d
+			x: 3.0d
+			y: 4.0d
 		}
 		{
 			id: "17C7A49E6A447D9D"
@@ -46,8 +48,8 @@
 				item: "pneumaticcraft:creative_compressor"
 				type: "item"
 			}]
-			x: 3.0d
-			y: 3.5d
+			x: 5.0d
+			y: 6.0d
 		}
 		{
 			id: "187E088049BF9821"
@@ -63,8 +65,8 @@
 				}
 				type: "item"
 			}]
-			x: 1.0d
-			y: 3.5d
+			x: 3.0d
+			y: 6.0d
 		}
 		{
 			id: "3BCB5A0CF2808AB1"
@@ -94,8 +96,8 @@
 				}
 				type: "item"
 			}]
-			x: 0.0d
-			y: 5.5d
+			x: 2.0d
+			y: 8.0d
 		}
 		{
 			id: "7987B2859C0594FB"
@@ -104,8 +106,8 @@
 				item: "forbidden_arcanus:soul_crimson_stone"
 				type: "item"
 			}]
-			x: -5.0d
-			y: 3.5d
+			x: -3.0d
+			y: 6.0d
 		}
 		{
 			id: "6D091C4A2592F85D"
@@ -123,8 +125,8 @@
 				}
 				type: "item"
 			}]
-			x: -7.0d
-			y: 3.5d
+			x: -5.0d
+			y: 6.0d
 		}
 		{
 			id: "4BD2603AA65CA68F"
@@ -133,8 +135,62 @@
 				item: "projecte:dm_pedestal"
 				type: "item"
 			}]
-			x: -3.0d
-			y: 3.5d
+			x: -1.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["33727E58858CF62C"]
+			id: "0EDEC0F502D4C1C7"
+			tasks: [{
+				id: "2D15E5CDC58AC3E0"
+				item: "kubejs:empty_rune"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0EDEC0F502D4C1C7"]
+			id: "0F420B4EA897C39C"
+			tasks: [{
+				id: "4A34437106E4F1D5"
+				item: "kubejs:rune_point"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["0EDEC0F502D4C1C7"]
+			id: "332471D92745ED95"
+			tasks: [{
+				id: "176F75124F38424A"
+				item: "kubejs:rune_path_unknown"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"0F420B4EA897C39C"
+				"332471D92745ED95"
+			]
+			id: "1E21E020729385E8"
+			tasks: [{
+				id: "47ABA1420FA314D5"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "treeoflife:rune_path"
+					}
+				}
+				title: "Any #treeoflife:rune_path"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
 		}
 	]
 	title: "5、后信息时代"
