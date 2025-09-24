@@ -14,8 +14,18 @@ const dm_equipment = [
     'projecte:gem_boots'
 ]
 
+const golden_equipment = [
+    'projecte:gold_helmet',
+    'projecte:gold_chestplate',
+    'projecte:gold_leggings',
+    'projecte:gold_boots'
+]
+
 ItemEvents.tooltip(treeoflife => {
     dm_equipment.forEach(item => {
-        treeoflife.add(item, ['item.desc.dm_suit.desc1','item.desc.dm_suit.desc2'])
-    })
+        treeoflife.add(item, [Text.translatable('item.desc.projecte_suit.desc1'),Text.translatable('item.desc.projecte_suit.desc2')])
+    });
+    golden_equipment.forEach(item => {
+        treeoflife.add(item, [Text.translatable('item.desc.golden_suit.desc1')])
+    });
 });
