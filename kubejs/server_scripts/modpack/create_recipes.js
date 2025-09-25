@@ -172,4 +172,109 @@ ServerEvents.recipes(treeoflife => {
     )
     .transitionalItem("pneumaticcraft:creative_compressed_iron_block")
     .loops(1);
+
+    treeoflife.recipes.create.sequenced_assembly(
+        [
+            Item.of("create:creative_motor")
+        ],
+        "pneumaticcraft:creative_compressed_iron_block",
+        [
+            treeoflife.recipes.createDeploying("pneumaticcraft:creative_compressed_iron_block", [
+                "pneumaticcraft:creative_compressed_iron_block",
+                "kubejs:point_geburah",
+            ]),
+            treeoflife.recipes.createDeploying("pneumaticcraft:creative_compressed_iron_block", [
+                "pneumaticcraft:creative_compressed_iron_block",
+                "kubejs:rune_path_13",
+            ]),
+            treeoflife.recipes.createDeploying("pneumaticcraft:creative_compressed_iron_block", [
+                "pneumaticcraft:creative_compressed_iron_block",
+                "kubejs:rune_path_18",
+            ]),
+            treeoflife.recipes.createDeploying("pneumaticcraft:creative_compressed_iron_block", [
+                "pneumaticcraft:creative_compressed_iron_block",
+                "kubejs:rune_path_20",
+            ])
+        ]
+    )
+    .transitionalItem("pneumaticcraft:creative_compressed_iron_block")
+    .loops(1);
+
+    treeoflife.recipes.create.sequenced_assembly(
+        [
+            Item.of("pneumaticcraft:creative_compresser")
+        ],
+        "pneumaticcraft:creative_compressed_iron_block",
+        [
+            treeoflife.recipes.createDeploying("pneumaticcraft:creative_compressed_iron_block", [
+                "pneumaticcraft:creative_compressed_iron_block",
+                "kubejs:point_tihpareth",
+            ]),
+            treeoflife.recipes.createDeploying("pneumaticcraft:creative_compressed_iron_block", [
+                "pneumaticcraft:creative_compressed_iron_block",
+                "kubejs:rune_path_16",
+            ]),
+            treeoflife.recipes.createDeploying("pneumaticcraft:creative_compressed_iron_block", [
+                "pneumaticcraft:creative_compressed_iron_block",
+                "kubejs:rune_path_21",
+            ]),
+            treeoflife.recipes.createDeploying("pneumaticcraft:creative_compressed_iron_block", [
+                "pneumaticcraft:creative_compressed_iron_block",
+                "kubejs:rune_path_19",
+            ]),
+            treeoflife.recipes.createDeploying("pneumaticcraft:creative_compressed_iron_block", [
+                "pneumaticcraft:creative_compressed_iron_block",
+                "kubejs:rune_path_14",
+            ])
+        ]
+    )
+    .transitionalItem("pneumaticcraft:creative_compressed_iron_block")
+    .loops(1);
+
+    treeoflife.recipes.create.sequenced_assembly(
+        [
+            Item.of("create:creative_blaze_cake")
+        ],
+        "create:blaze_cake",
+        [
+            treeoflife.recipes.createDeploying("create:blaze_cake", [
+                "create:blaze_cake",
+                "kubejs:point_tihpareth",
+            ]),
+            treeoflife.recipes.createDeploying("create:blaze_cake", [
+                "create:blaze_cake",
+                "kubejs:rune_path_14",
+            ]),
+            treeoflife.recipes.createDeploying("create:blaze_cake", [
+                "create:blaze_cake",
+                "kubejs:rune_path_11",
+            ]),
+            treeoflife.recipes.createDeploying("create:blaze_cake", [
+                "create:blaze_cake",
+                "kubejs:rune_path_10",
+            ])
+        ]
+    )
+    .transitionalItem("create:blaze_cake")
+    .loops(1);
+
+    treeoflife.recipes.create.mechanical_crafting('createaddition:creative_energy', [
+        ' AAAAAAA ',
+        'A       A',
+        'A  BBB  A',
+        'A BCDCB A',
+        'A BCECB A',
+        'A BCFCB A',
+        'A  BBB  A',
+        'A       A',
+        ' AAAAAAA ',
+    ], {
+        A: 'create:hand_crank',
+        B: 'create:deployer',
+        C: 'create:cogwheel',
+        D: 'create:creative_motor',
+        E: 'createaddition:alternator',
+        F: 'ae2:creative_energy_cell'
+    });
+
 });

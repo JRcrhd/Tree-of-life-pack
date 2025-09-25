@@ -526,6 +526,145 @@
 			x: -4.0d
 			y: 3.0d
 		}
+		{
+			id: "3BC7248AB5A3F38E"
+			rewards: [{
+				id: "1A8B9A82C120EA2F"
+				item: "lightmanscurrency:coin_copper"
+				type: "item"
+			}]
+			tasks: [{
+				count: 64L
+				id: "0E5333AB678E4B21"
+				item: { Count: 64, id: "apotheosis:common_material" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 11.5d
+		}
+		{
+			id: "75BF8E04916DDBF4"
+			rewards: [{
+				id: "3F8C1B8500DD0605"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
+			tasks: [{
+				count: 32L
+				id: "445F10CD506443AE"
+				item: { Count: 32, id: "apotheosis:uncommon_material" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 11.5d
+		}
+		{
+			id: "0889F948A4B89C0F"
+			rewards: [{
+				id: "5DB107460E95C0E3"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				count: 16L
+				id: "09126DE6A6B88287"
+				item: { Count: 16, id: "apotheosis:rare_material" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 11.5d
+		}
+		{
+			id: "6A311D0A515D2642"
+			rewards: [{
+				id: "17A4A69E2296844E"
+				item: "lightmanscurrency:coin_diamond"
+				type: "item"
+			}]
+			tasks: [{
+				count: 8L
+				id: "2DDBE303F8D2D80E"
+				item: { Count: 8, id: "apotheosis:epic_material" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 11.5d
+		}
+		{
+			id: "7BEFBB048FC7ED45"
+			rewards: [{
+				id: "0AC3B09D632DA677"
+				item: "lightmanscurrency:coin_netherite"
+				type: "item"
+			}]
+			tasks: [{
+				count: 4L
+				id: "78BACE8AB8100811"
+				item: { Count: 4, id: "apotheosis:mythic_material" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 11.5d
+		}
+		{
+			id: "4C9D0C0E90FC8E29"
+			rewards: [{
+				id: "7B64E7B8534CB9A7"
+				item: "lightmanscurrency:coin_copper"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3E0185DCBC45955C"
+				item: {
+					Count: 1
+					id: "apotheosis:gem"
+					tag: { }
+				}
+				match_nbt: false
+				type: "item"
+			}]
+			x: -3.0d
+			y: 7.0d
+		}
+		{
+			id: "698255972ABFDF37"
+			rewards: [{
+				count: 2
+				id: "13DFCA6BF6456BE2"
+				item: "lightmanscurrency:coin_copper"
+				type: "item"
+			}]
+			tasks: [{
+				id: "25703E8112D12B90"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "minecraft:music_discs"
+					}
+				}
+				title: "Any #minecraft:music_discs"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 7.0d
+		}
+		{
+			id: "3711572830CC023A"
+			rewards: [{
+				id: "340053214CCA850B"
+				item: "lightmanscurrency:coin_copper"
+				type: "item"
+			}]
+			tasks: [{
+				count: 4L
+				id: "46E1F7578E429620"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 5.5d
+		}
 	]
 	title: "市场"
 }

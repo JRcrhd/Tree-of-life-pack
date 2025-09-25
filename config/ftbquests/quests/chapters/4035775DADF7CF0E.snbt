@@ -754,7 +754,7 @@
 				""
 				"转化为巫妖将会获得许多的好处：无限的夜视效果、无需饥饿值、免疫溺水、不受亡灵生物侵扰等。"
 				""
-				"但是，相对的，你也会在阳光下陷入&c无穷尽的燃烧&r，而且这个过程不可逆。"
+				"但是，相对的，你也会在阳光下陷入&c无穷尽的燃烧&r。"
 				""
 				"{@pagebreak}"
 				"要想进化成巫妖，你必须满足以下的条件："
@@ -772,7 +772,7 @@
 				""
 				"Transforming into a Lich will reward you with many benefits: unlimited night vision, no hunger required, immunity to drowning, immunity to undead creatures, and more."
 				""
-				"But, on the other hand, you will also fall into an endless burn in the sun, and the process is irreversible."
+				"But, on the other hand, you will also fall into an endless burn in the sun."
 				""
 				"{@pagebreak}"
 				"To evolve into a lich, you must meet the following conditions:"
@@ -789,7 +789,6 @@
 				item: "lightmanscurrency:coin_diamond"
 				type: "item"
 			}]
-			subtitle: "如今，我将取代你的位置，猎取你的才能"
 			tasks: [{
 				id: "7B08EEA1BDB7943E"
 				item: "goety:undeath_potion"

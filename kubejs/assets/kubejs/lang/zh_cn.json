@@ -1,8 +1,9 @@
 {
     "kubejs.gameinfo.modpack.name": "Tree of Life",
+
     "item.kubejs.holy_potion": "圣灵药",
-    
     "block.kubejs.empty_dragon_egg": "空龙蛋",
+    "item.apotheosis.gem": "神化宝石",
     
     "item.kubejs.point_malkuth": "王国——Malkuth",
     "item.kubejs.point_yesod": "基础——Yesod",

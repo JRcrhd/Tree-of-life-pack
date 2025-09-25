@@ -21,6 +21,7 @@
 			y: 4.0d
 		}
 		{
+			dependencies: ["1B35B51E10C972E6"]
 			id: "7F3389EEA21D0C50"
 			tasks: [{
 				id: "18F5494BBA396028"
@@ -42,6 +43,7 @@
 			y: 4.0d
 		}
 		{
+			dependencies: ["1B35B51E10C972E6"]
 			id: "17C7A49E6A447D9D"
 			tasks: [{
 				id: "2956B1F3A76647DC"
@@ -61,37 +63,6 @@
 			}]
 			x: 3.0d
 			y: 6.0d
-		}
-		{
-			id: "3BCB5A0CF2808AB1"
-			tasks: [{
-				id: "56C97783700E0824"
-				item: {
-					Count: 1
-					id: "mekanism:creative_energy_cube"
-					tag: {
-						mekData: {
-							EnergyContainers: [{
-								Container: 0b
-								stored: "18446744073709551615.9999"
-							}]
-							componentConfig: {
-								config0: {
-									side0: 4
-									side1: 4
-									side2: 4
-									side3: 4
-									side4: 4
-									side5: 4
-								}
-							}
-						}
-					}
-				}
-				type: "item"
-			}]
-			x: 2.0d
-			y: 8.0d
 		}
 		{
 			dependencies: ["36A6D4E8A058F1C5"]
@@ -188,6 +159,41 @@
 			}]
 			x: 0.0d
 			y: 2.0d
+		}
+		{
+			dependencies: [
+				"7F3389EEA21D0C50"
+				"187E088049BF9821"
+			]
+			id: "4DA47D18C2A96C4C"
+			tasks: [{
+				id: "6C047BDAAA880138"
+				item: "createaddition:creative_energy"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["1E21E020729385E8"]
+			id: "6006E564E3A214BE"
+			tasks: [{
+				id: "500DE6F8C9C553C8"
+				item: "create:creative_blaze_cake"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			id: "5BF02059995F7024"
+			tasks: [{
+				id: "6209C80A79BD71DD"
+				item: "kubejs:holy_potion"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 8.0d
 		}
 	]
 	title: "5、后信息时代"
