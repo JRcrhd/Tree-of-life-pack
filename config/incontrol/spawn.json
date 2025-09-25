@@ -1,5 +1,4 @@
 [	
-	//禁用
     {
         "mob": "minecraft:squid",
 		
@@ -7,7 +6,6 @@
         "result": "deny"
     },
 	
-	//特殊生物修改
 	{
 		"mob": "goblintraders:goblin_trader",
 		"potion": "minecraft:fire_resistance,1200,1",
@@ -214,7 +212,6 @@
 		"result": "default"
     },
 	
-	//boss强化
 	{
 		"mob": "minecraft:ender_dragon",
 		"healthmultiply": 2.5,
@@ -386,13 +383,13 @@
 		"when": "onjoin",
         "result": "default"
 	},
-		//统一设置
+
 	{
 		"dimension": [
             "minecraft:overworld"
         ],
         "healthmultiply": 1.5,
-		"damageadd": 1,
+		"damageadd": 2,
 		
 		"when": "onjoin",
 		"result": "default"
@@ -404,7 +401,7 @@
         "healthmultiply": 2.0,
 		"armoradd": 1.0,
         "armortoughnessadd": 1.0,
-		"damageadd": 3,
+		"damageadd": 5,
 		
 		"when": "onjoin",
 		"result": "default"
@@ -416,7 +413,7 @@
         "healthmultiply": 5.0,
 		"armoradd": 3.0,
         "armortoughnessadd": 3.0,
-		"damageadd": 7,
+		"damageadd": 9,
 		
 		"when": "onjoin",
 		"result": "default"
@@ -429,7 +426,7 @@
         "healthmultiply": 10.0,
 		"armoradd": 5.0,
         "armortoughnessadd": 5.0,
-		"damageadd": 10,
+		"damageadd": 12,
 		
 		"when": "onjoin",
 		"result": "default"
@@ -442,7 +439,7 @@
         "healthmultiply": 12.0,
 		"armoradd": 5.0,
         "armortoughnessadd": 5.0,
-		"damageadd": 10,
+		"damageadd": 14,
 		
 		"when": "onjoin",
 		"result": "default"
@@ -456,7 +453,7 @@
         "healthmultiply": 12.0,
 		"armoradd": 5.0,
         "armortoughnessadd": 5.0,
-		"damageadd": 10,
+		"damageadd": 14,
 		
 		"when": "onjoin",
 		"result": "default"

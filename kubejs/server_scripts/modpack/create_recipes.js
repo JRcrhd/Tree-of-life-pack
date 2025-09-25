@@ -258,6 +258,53 @@ ServerEvents.recipes(treeoflife => {
     .transitionalItem("create:blaze_cake")
     .loops(1);
 
+    treeoflife.recipes.create.sequenced_assembly(
+        [
+            Item.of("kubejs:holy_potion")
+        ],
+        "goety:undeath_potion",
+        [
+            treeoflife.recipes.createDeploying("goety:undeath_potion", [
+                "goety:undeath_potion",
+                "kubejs:point_kether",
+            ]),
+            treeoflife.recipes.createDeploying("goety:undeath_potion", [
+                "goety:undeath_potion",
+                "kubejs:rune_path_1",
+            ]),
+            treeoflife.recipes.createDeploying("goety:undeath_potion", [
+                "goety:undeath_potion",
+                "kubejs:rune_path_6",
+            ]),
+            treeoflife.recipes.createDeploying("goety:undeath_potion", [
+                "goety:undeath_potion",
+                "kubejs:rune_path_11",
+            ]),
+            treeoflife.recipes.createDeploying("goety:undeath_potion", [
+                "goety:undeath_potion",
+                "kubejs:rune_path_19",
+            ]),
+            treeoflife.recipes.createDeploying("goety:undeath_potion", [
+                "goety:undeath_potion",
+                "kubejs:rune_path_21",
+            ]),
+            treeoflife.recipes.createDeploying("goety:undeath_potion", [
+                "goety:undeath_potion",
+                "kubejs:rune_path_13",
+            ]),
+            treeoflife.recipes.createDeploying("goety:undeath_potion", [
+                "goety:undeath_potion",
+                "kubejs:rune_path_8",
+            ]),
+            treeoflife.recipes.createDeploying("goety:undeath_potion", [
+                "goety:undeath_potion",
+                "kubejs:rune_path_2",
+            ])
+        ]
+    )
+    .transitionalItem("goety:undeath_potion")
+    .loops(1);
+
     treeoflife.recipes.create.mechanical_crafting('createaddition:creative_energy', [
         ' AAAAAAA ',
         'A       A',
@@ -276,5 +323,32 @@ ServerEvents.recipes(treeoflife => {
         E: 'createaddition:alternator',
         F: 'ae2:creative_energy_cell'
     });
+
+    treeoflife.recipes.create.sequenced_assembly(
+        [
+            Item.of("projecte:philosophers_stone")
+        ],
+        "kubejs:alchemy_in_phi",
+        [
+            treeoflife.recipes.createDeploying("kubejs:alchemy_in_phi", [
+                "kubejs:alchemy_in_phi",
+                "kubejs:point_malkuth",
+            ]),
+            treeoflife.recipes.createDeploying("kubejs:alchemy_in_phi", [
+                "kubejs:alchemy_in_phi",
+                "kubejs:rune_path_19",
+            ]),
+            treeoflife.recipes.createDeploying("kubejs:alchemy_in_phi", [
+                "kubejs:alchemy_in_phi",
+                "kubejs:rune_path_11",
+            ]),
+            treeoflife.recipes.createDeploying("kubejs:alchemy_in_phi", [
+                "kubejs:alchemy_in_phi",
+                "kubejs:rune_path_6",
+            ])
+        ]
+    )
+    .transitionalItem("kubejs:alchemy_in_phi")
+    .loops(1);
 
 });

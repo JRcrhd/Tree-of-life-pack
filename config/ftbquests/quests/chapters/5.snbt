@@ -182,18 +182,37 @@
 				item: "create:creative_blaze_cake"
 				type: "item"
 			}]
-			x: 0.0d
+			x: 1.0d
 			y: 4.0d
 		}
 		{
+			dependencies: ["1E21E020729385E8"]
 			id: "5BF02059995F7024"
 			tasks: [{
 				id: "6209C80A79BD71DD"
 				item: "kubejs:holy_potion"
 				type: "item"
 			}]
+			x: -1.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["1E21E020729385E8"]
+			id: "0456FF5DE23FBC07"
+			tasks: [{
+				id: "41728633EA21232D"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: { }
+					}
+					id: "projecte:philosophers_stone"
+					tag: { }
+				}
+				type: "item"
+			}]
 			x: 0.0d
-			y: 8.0d
+			y: 3.5d
 		}
 	]
 	title: "5、后信息时代"

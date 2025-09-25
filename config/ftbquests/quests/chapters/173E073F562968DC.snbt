@@ -419,7 +419,7 @@
 				item: { Count: 5, id: "lightmanscurrency:coin_iron" }
 				type: "item"
 			}]
-			x: 2.5d
+			x: 2.0d
 			y: 3.0d
 		}
 		{
@@ -438,7 +438,7 @@
 				item: { Count: 2, id: "lightmanscurrency:coin_gold" }
 				type: "item"
 			}]
-			x: 4.0d
+			x: 3.0d
 			y: 3.0d
 		}
 		{
@@ -545,8 +545,9 @@
 		{
 			id: "75BF8E04916DDBF4"
 			rewards: [{
+				count: 4
 				id: "3F8C1B8500DD0605"
-				item: "lightmanscurrency:coin_iron"
+				item: "lightmanscurrency:coin_copper"
 				type: "item"
 			}]
 			tasks: [{
@@ -561,8 +562,9 @@
 		{
 			id: "0889F948A4B89C0F"
 			rewards: [{
+				count: 16
 				id: "5DB107460E95C0E3"
-				item: "lightmanscurrency:coin_gold"
+				item: "lightmanscurrency:coin_copper"
 				type: "item"
 			}]
 			tasks: [{
@@ -577,8 +579,9 @@
 		{
 			id: "6A311D0A515D2642"
 			rewards: [{
+				count: 64
 				id: "17A4A69E2296844E"
-				item: "lightmanscurrency:coin_diamond"
+				item: "lightmanscurrency:coin_copper"
 				type: "item"
 			}]
 			tasks: [{
@@ -593,8 +596,9 @@
 		{
 			id: "7BEFBB048FC7ED45"
 			rewards: [{
+				count: 26
 				id: "0AC3B09D632DA677"
-				item: "lightmanscurrency:coin_netherite"
+				item: "lightmanscurrency:coin_iron"
 				type: "item"
 			}]
 			tasks: [{
@@ -614,22 +618,17 @@
 				type: "item"
 			}]
 			tasks: [{
-				id: "3E0185DCBC45955C"
-				item: {
-					Count: 1
-					id: "apotheosis:gem"
-					tag: { }
-				}
-				match_nbt: false
+				count: 4L
+				id: "53FC0FF9202DF213"
+				item: "apotheosis:gem_dust"
 				type: "item"
 			}]
-			x: -3.0d
-			y: 7.0d
+			x: -1.5d
+			y: 5.5d
 		}
 		{
 			id: "698255972ABFDF37"
 			rewards: [{
-				count: 2
 				id: "13DFCA6BF6456BE2"
 				item: "lightmanscurrency:coin_copper"
 				type: "item"
@@ -646,8 +645,8 @@
 				title: "Any #minecraft:music_discs"
 				type: "item"
 			}]
-			x: -1.5d
-			y: 7.0d
+			x: 0.0d
+			y: 5.5d
 		}
 		{
 			id: "3711572830CC023A"
@@ -657,13 +656,125 @@
 				type: "item"
 			}]
 			tasks: [{
-				count: 4L
+				count: 8L
 				id: "46E1F7578E429620"
 				item: "minecraft:emerald"
 				type: "item"
 			}]
 			x: -3.0d
 			y: 5.5d
+		}
+		{
+			id: "2CF6B2799EECF1C5"
+			rewards: [{
+				id: "6BC16824E382BA01"
+				item: "lightmanscurrency:coin_copper"
+				type: "item"
+			}]
+			tasks: [{
+				id: "16722375B892B392"
+				points: false
+				type: "xp"
+				value: 20L
+			}]
+			x: 1.5d
+			y: 5.5d
+		}
+		{
+			id: "35FD82EB9B7EAC32"
+			rewards: [{
+				id: "6D7900DE11B060A8"
+				item: "lightmanscurrency:coin_copper"
+				type: "item"
+			}]
+			tasks: [{
+				count: 256L
+				id: "16B1E7320BF5B128"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "minecraft:logs"
+					}
+				}
+				title: "Any #minecraft:logs"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["0EDEC0F502D4C1C7"]
+			icon: "kubejs:empty_tarot"
+			id: "297FFB4A86B021BA"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2B0D9EEE410F6072"
+				table_id: 8822716304173784038L
+				type: "random"
+			}]
+			tasks: [{
+				count: 3L
+				id: "4E3A5BE24AF9909D"
+				item: { Count: 5, id: "lightmanscurrency:coin_netherite" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 3.0d
+		}
+		{
+			id: "18CEE8ADB94E1D8B"
+			rewards: [{
+				id: "585462F5F9539A7B"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4A3B87AA6DF2E06E"
+				item: "mekanism_extras:infinite_control_circuit"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 10.0d
+		}
+		{
+			id: "1867015B4A7F5526"
+			rewards: [{
+				count: 2
+				id: "48B7BA796EE3E558"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				id: "68FB05905143ED41"
+				item: "mekanism_extras:polonium-208_bucket"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 10.0d
+		}
+		{
+			id: "40378F845A6DE9F4"
+			rewards: [{
+				count: 3
+				id: "6F77899DF0918C50"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				id: "77C17122BC1EF94E"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: { }
+					}
+					id: "projecte:philosophers_stone"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 10.0d
 		}
 	]
 	title: "市场"
