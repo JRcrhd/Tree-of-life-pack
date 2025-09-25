@@ -52,17 +52,11 @@
 			y: 6.0d
 		}
 		{
+			dependencies: ["1B35B51E10C972E6"]
 			id: "187E088049BF9821"
 			tasks: [{
-				id: "45BA1FA04D2C20BC"
-				item: {
-					Count: 1
-					id: "ae2:dense_energy_cell"
-					tag: {
-						internalCurrentPower: 1600000.0d
-						internalMaxPower: 1600000.0d
-					}
-				}
+				id: "28FE10EB79DB1EDA"
+				item: "ae2:creative_energy_cell"
 				type: "item"
 			}]
 			x: 3.0d
@@ -100,6 +94,7 @@
 			y: 8.0d
 		}
 		{
+			dependencies: ["36A6D4E8A058F1C5"]
 			id: "7987B2859C0594FB"
 			tasks: [{
 				id: "50DA818F09032456"
@@ -110,6 +105,7 @@
 			y: 6.0d
 		}
 		{
+			dependencies: ["36A6D4E8A058F1C5"]
 			id: "6D091C4A2592F85D"
 			tasks: [{
 				id: "3EBDBA9ED18C411E"
@@ -129,6 +125,7 @@
 			y: 6.0d
 		}
 		{
+			dependencies: ["36A6D4E8A058F1C5"]
 			id: "4BD2603AA65CA68F"
 			tasks: [{
 				id: "03664EB3C35DD9CB"

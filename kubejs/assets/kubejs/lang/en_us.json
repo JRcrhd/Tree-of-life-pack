@@ -129,6 +129,8 @@
 
     "item.desc.projecte_suit.desc1": "Equipment crudely assembled cannot control the raw, immense power within.",
     "item.desc.projecte_suit.desc2": "Wearing it will inflict negative effects.",
-    "item.desc.golden_suit.desc1": "Suit Effects：Regeneration II"
+    "item.desc.golden_suit.desc1": "Suit Effects：Regeneration II",
+    "item.desc.iron_suit.desc1": "Suit Effects：Resistance I",
+    "item.desc.light_suit.desc1": "Suit Effects：Speed I"
 
 }

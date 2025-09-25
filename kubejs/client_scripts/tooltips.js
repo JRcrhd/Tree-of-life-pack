@@ -15,10 +15,36 @@ const dm_equipment = [
 ]
 
 const golden_equipment = [
-    'projecte:gold_helmet',
-    'projecte:gold_chestplate',
-    'projecte:gold_leggings',
-    'projecte:gold_boots'
+    'minecraft:gold_helmet',
+    'minecraft:gold_chestplate',
+    'minecraft:gold_leggings',
+    'minecraft:gold_boots',
+    'aether:gold_gloves',
+]
+
+const iron_equipment = [
+    'pneumaticcraft:compressed_iron_helmet',
+    'pneumaticcraft:compressed_iron_chestplate',
+    'pneumaticcraft:compressed_iron_leggings',
+    'pneumaticcraft:compressed_iron_boots',
+    'minecraft:iron_helmet',
+    'minecraft:iron_chestplate',
+    'minecraft:iron_leggings',
+    'minecraft:iron_boots',
+    'aether:iron_gloves',
+]
+
+const light_equipment = [
+    'minecraft:chainmail_helmet',
+    'minecraft:chainmail_chestplate',
+    'minecraft:chainmail_leggings',
+    'minecraft:chainmail_boots',
+    'minecraft:leather_helmet',
+    'minecraft:leather_chestplate',
+    'minecraft:leather_leggings',
+    'minecraft:leather_boots',
+    'aether:chainmail_gloves',
+    'aether:leather_gloves'
 ]
 
 ItemEvents.tooltip(treeoflife => {
@@ -27,5 +53,11 @@ ItemEvents.tooltip(treeoflife => {
     });
     golden_equipment.forEach(item => {
         treeoflife.add(item, [Text.translatable('item.desc.golden_suit.desc1')])
+    });
+    iron_equipment.forEach(item => {
+        treeoflife.add(item, [Text.translatable('item.desc.iron_suit.desc1')])
+    });
+    light_equipment.forEach(item => {
+        treeoflife.add(item, [Text.translatable('item.desc.light_suit.desc1')])
     });
 });

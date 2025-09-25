@@ -129,6 +129,8 @@
 
     "item.desc.projecte_suit.desc1": "简单拼接制造的装备无法控制其中原始强大的力量。",
     "item.desc.projecte_suit.desc2": "穿着会带来负面效果。",
-    "item.desc.golden_suit.desc1": "全套效果：生命恢复2"
+    "item.desc.golden_suit.desc1": "全套效果：生命恢复2",
+    "item.desc.iron_suit.desc1": "全套效果：抗性提升1",
+    "item.desc.light_suit.desc1": "全套效果：速度提升1"
 
 }

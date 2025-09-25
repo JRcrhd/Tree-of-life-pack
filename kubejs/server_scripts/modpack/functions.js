@@ -4,10 +4,42 @@ const armorSets = [
             "minecraft:golden_helmet",
             "minecraft:golden_chestplate",
             "minecraft:golden_leggings",
-            "minecraft:golden_boots"
+            "minecraft:golden_boots",
+            'aether:gold_gloves',
         ],
         requiredCount: 4,
         effectCommand:"effect give @p minecraft:regeneration 2 1 true"
+    },
+    {
+        items: [
+            "pneumaticcraft:compressed_iron_helmet",
+            "pneumaticcraft:compressed_iron_chestplate",
+            "pneumaticcraft:compressed_iron_leggings",
+            "pneumaticcraft:compressed_iron_boots",
+            "minecraft:iron_helmet",
+            "minecraft:iron_chestplate",
+            "minecraft:iron_leggings",
+            "minecraft:iron_boots",
+            'aether:iron_gloves',
+        ],
+        requiredCount: 4,
+        effectCommand:"effect give @p minecraft:resistance 2 0 true"
+    },
+    {
+        items: [
+            'minecraft:chainmail_helmet',
+            'minecraft:chainmail_chestplate',
+            'minecraft:chainmail_leggings',
+            'minecraft:chainmail_boots',
+            'minecraft:leather_helmet',
+            'minecraft:leather_chestplate',
+            'minecraft:leather_leggings',
+            'minecraft:leather_boots',
+            'aether:chainmail_gloves',
+            'aether:leather_gloves'
+        ],
+        requiredCount: 4,
+        effectCommand:"effect give @p minecraft:speed 2 0 true"
     },
     {
         items: [
