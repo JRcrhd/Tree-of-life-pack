@@ -80,7 +80,7 @@
                 {
                     "attribute": "generic.max_health",
                     "operation": "MULTIPLY_TOTAL",
-                    "value": 25.0
+                    "value": 50.0
                 }
             ],
             "rewards": [],
@@ -103,7 +103,7 @@
                 {
                     "attribute": "generic.attack_damage",
                     "operation": "MULTIPLY_TOTAL",
-                    "value": 20.0
+                    "value": 40.0
                 }
             ],
             "rewards": [],
@@ -121,17 +121,17 @@
                 {
                     "attribute": "generic.max_health",
                     "operation": "MULTIPLY_TOTAL",
-                    "value": 2.0
+                    "value": 1.5
                 },
                 {
                     "attribute": "generic.attack_damage",
                     "operation": "MULTIPLY_TOTAL",
-                    "value": 2.0
+                    "value": 0.8
                 },
                 {
                     "attribute": "generic.movement_speed",
                     "operation": "MULTIPLY_TOTAL",
-                    "value": 1.5
+                    "value": 1.1
                 }
             ],
             "rewards": [],

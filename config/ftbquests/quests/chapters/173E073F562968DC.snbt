@@ -734,7 +734,7 @@
 				item: "mekanism_extras:infinite_control_circuit"
 				type: "item"
 			}]
-			x: 1.5d
+			x: -3.0d
 			y: 10.0d
 		}
 		{
@@ -750,7 +750,7 @@
 				item: "mekanism_extras:polonium-208_bucket"
 				type: "item"
 			}]
-			x: 3.0d
+			x: -1.5d
 			y: 10.0d
 		}
 		{
@@ -773,8 +773,214 @@
 				}
 				type: "item"
 			}]
+			x: -1.5d
+			y: 8.5d
+		}
+		{
+			id: "05DD1D6141FE85DA"
+			rewards: [{
+				count: 5
+				id: "1B88803EDDEC8D82"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
+			tasks: [{
+				id: "45583E91E91133AB"
+				item: "kubejs:emerald_tablet_piece_1"
+				type: "item"
+			}]
 			x: 0.0d
 			y: 10.0d
+		}
+		{
+			id: "33F603704FF5DDFC"
+			rewards: [{
+				count: 5
+				id: "5D9BC3F6FDE935B2"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
+			tasks: [{
+				id: "219B615302B9C2FB"
+				item: "kubejs:emerald_tablet_piece_2"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 10.0d
+		}
+		{
+			id: "15172ED59954BF32"
+			rewards: [{
+				count: 5
+				id: "6C002B0A91E0DC7E"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3FF2699EE7B635E4"
+				item: "kubejs:emerald_tablet_piece_3"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 10.0d
+		}
+		{
+			id: "73C66D2AEE1CC839"
+			rewards: [{
+				id: "0AC7CBA00E215183"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				id: "37DD6911EC3DA29A"
+				item: "goety:forbidden_scroll"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 8.5d
+		}
+		{
+			id: "35867BCB4E623DBF"
+			rewards: [{
+				count: 3
+				id: "33E11CA9F1789E77"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4E558A9F25792026"
+				item: {
+					Count: 1
+					id: "forbidden_arcanus:eternal_stella"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 8.5d
+		}
+		{
+			id: "234D31D880BC3CE2"
+			rewards: [{
+				id: "4D2CF9D79C6E4243"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				id: "12AA94C49F597FD6"
+				item: "forbidden_arcanus:arcane_dragon_egg"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 8.5d
+		}
+		{
+			id: "111E4D8BCE4BD501"
+			rewards: [{
+				count: 5
+				id: "1812D1400D17CC54"
+				item: "lightmanscurrency:coin_copper"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1A5D5A6C7AF6DBAE"
+				item: "forbidden_arcanus:silver_dragon_scale"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 8.5d
+		}
+		{
+			id: "794692268292370F"
+			rewards: [{
+				id: "7590B926698B3147"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2EB8405F36964846"
+				item: "destroy:platinum_ingot"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 7.0d
+		}
+		{
+			id: "698CE6E83169D1E6"
+			rewards: [{
+				id: "1B953D8B164E4A66"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				id: "038C36061953A89E"
+				item: "destroy:pollutometer"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 7.0d
+		}
+		{
+			id: "693FCC0A4A465A07"
+			rewards: [{
+				count: 3
+				id: "16FFE1CF183302B5"
+				item: "lightmanscurrency:coin_copper"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7B232510A82E6249"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "tarotcards:tarot_cards"
+					}
+				}
+				title: "Any #tarotcards:tarot_cards"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 7.0d
+		}
+		{
+			id: "144B6C0582F4B812"
+			rewards: [{
+				id: "46CAB74824E671F3"
+				item: "lightmanscurrency:coin_copper"
+				type: "item"
+			}]
+			tasks: [{
+				count: 16L
+				id: "39FF2BC4FEB7A102"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "minecraft:fishes"
+					}
+				}
+				title: "Any #minecraft:fishes"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 7.0d
+		}
+		{
+			id: "260EF319CE7E6494"
+			rewards: [{
+				count: 4
+				id: "36A845151AC83F23"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
+			tasks: [{
+				id: "28557AF891BC3F18"
+				item: "enderio:sentient_ender"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 7.0d
 		}
 	]
 	title: "市场"
